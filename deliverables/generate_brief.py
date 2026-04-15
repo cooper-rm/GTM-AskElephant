@@ -146,6 +146,14 @@ REFERENCES = [
         "source": "2024 State of Sales Report \u2014 reps spend 70% of time on non-selling tasks",
         "url": "https://www.salesforce.com/news/stories/sales-research-2023/",
     },
+    {
+        "id": 15,
+        "person": "Cooper, M.R. & Busch, M.",
+        "title": "",
+        "company": "Regis University",
+        "source": "Capacity-Limited Failure in Approximate Nearest Neighbor Search on Image Embedding Spaces. J. Imaging 2026, 12, 55",
+        "url": "https://doi.org/10.3390/jimaging12020055",
+    },
 ]
 
 
@@ -357,6 +365,50 @@ def build_content(styles):
         "on. When the AI layer is grounded in real data, the outputs get "
         "better over time. When it\u2019s not, it\u2019s just another prompt wrapper "
         "waiting to be replaced.",
+        s["Body"],
+    ))
+
+    # ── Part 2: Motion Pick ──
+    story.append(PageBreak())
+    story.append(Paragraph(
+        "Part 2 \u2014 Pick Your Motion", s["DocTitle"]
+    ))
+    story.append(Spacer(1, 12))
+    story.append(Paragraph(
+        "<b>Motion: C \u2014 Closed-Won Activation</b>", s["SectionHeader"]
+    ))
+    story.append(Paragraph(
+        "I ruled out Motion A due to external data access \u2014 mapping a buying "
+        "committee requires LinkedIn, Apollo, and ZoomInfo, all paywalled or "
+        "rate-limited. Building the system would mean fighting data access, not "
+        "demonstrating architecture. Motion B requires time series anomaly "
+        "detection to identify when and why a deal went dark \u2014 that needs "
+        "sequential activity data that\u2019s difficult to synthesize realistically, "
+        "and the complexity of the detection layer would dominate the build time.",
+        s["Body"],
+    ))
+    story.append(Paragraph(
+        "Motion C has a fixed, consistent trigger: the deal closes, the handoff "
+        "runs. The variance is in the deal attributes, not the process shape. I "
+        "can engineer tabular features from raw deal data (notes, CRM fields, "
+        "contacts, call context) and train real models on it. Rather than "
+        "building an AI system that happens to touch data, I wanted to "
+        "demonstrate a <b>data system that incorporates agent orchestration.</b> "
+        "The ML models make the judgment calls \u2014 an XGBoost churn classifier "
+        "scores risk with SHAP explainability, and an HNSW-indexed embedding "
+        "space retrieves historically similar deals with their actual outcomes "
+        "as grounded context for agents. The HNSW parameter tuning draws on my "
+        "own published research on capacity-limited failure in approximate "
+        "nearest neighbor search " + ref(15) + ". The agents are downstream: "
+        "they generate artifacts based on what the data already decided, not "
+        "what a prompt guessed.",
+        s["Body"],
+    ))
+    story.append(Paragraph(
+        "<b>Working vs. shipped:</b> the system produces a different handoff "
+        "for a high-risk, single-threaded deal than for a smooth enterprise "
+        "close \u2014 because the models learned the difference, not because someone "
+        "wrote two templates.",
         s["Body"],
     ))
 
