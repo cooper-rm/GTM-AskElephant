@@ -7,12 +7,441 @@ Output: part1_brief.pdf
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
-from reportlab.lib.colors import HexColor
+from reportlab.lib.colors import HexColor, white, black
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, PageBreak,
-    HRFlowable
+    HRFlowable, Flowable
 )
 from reportlab.lib.enums import TA_LEFT, TA_CENTER
+
+
+class ArchitectureDiagram(Flowable):
+    """Draws the first section of the architecture: webhook → feature eng → XGB + HNSW."""
+
+    def __init__(self, width=460, height=630):
+        Flowable.__init__(self)
+        self.width = width
+        self.height = height
+
+    def wrap(self, availWidth, availHeight):
+        return self.width, self.height
+
+    def draw(self):
+        c = self.canv
+        W = self.width
+        # Colors
+        bg = HexColor("#f5f5f5")
+        border = HexColor("#333333")
+        accent = HexColor("#C4A882")
+        text_color = HexColor("#222222")
+        light_gray = HexColor("#999999")
+        doc_color = HexColor("#e8e0d4")
+
+        def box(x, y, w, h, label, sublabel=None, fill=bg):
+            c.setFillColor(fill)
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            c.roundRect(x, y, w, h, 6, fill=1, stroke=1)
+            c.setFillColor(text_color)
+            c.setFont("Helvetica-Bold", 10)
+            if sublabel:
+                c.drawCentredString(x + w/2, y + h/2 + 6, label)
+                c.setFont("Helvetica", 8)
+                c.setFillColor(light_gray)
+                c.drawCentredString(x + w/2, y + h/2 - 8, sublabel)
+            else:
+                c.drawCentredString(x + w/2, y + h/2 - 3, label)
+
+        def arrow_down(x, y1, y2):
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            c.line(x, y1, x, y2 + 6)
+            # arrowhead
+            c.setFillColor(border)
+            path = c.beginPath()
+            path.moveTo(x, y2)
+            path.lineTo(x - 4, y2 + 8)
+            path.lineTo(x + 4, y2 + 8)
+            path.close()
+            c.drawPath(path, fill=1)
+
+        def arrow_down_split(x_from, y1, x_to, y2):
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            mid_y = (y1 + y2) / 2
+            c.line(x_from, y1, x_from, mid_y)
+            c.line(x_from, mid_y, x_to, mid_y)
+            c.line(x_to, mid_y, x_to, y2 + 6)
+            c.setFillColor(border)
+            path = c.beginPath()
+            path.moveTo(x_to, y2)
+            path.lineTo(x_to - 4, y2 + 8)
+            path.lineTo(x_to + 4, y2 + 8)
+            path.close()
+            c.drawPath(path, fill=1)
+
+        def doc_icon(x, y):
+            """Draw a small document icon with folded corner, no label."""
+            w, h = 50, 40
+            fold = 10
+            c.setFillColor(doc_color)
+            c.setStrokeColor(border)
+            c.setLineWidth(0.8)
+            # doc body
+            path = c.beginPath()
+            path.moveTo(x, y)
+            path.lineTo(x + w - fold, y)
+            path.lineTo(x + w, y + fold)
+            path.lineTo(x + w, y + h)
+            path.lineTo(x, y + h)
+            path.close()
+            c.drawPath(path, fill=1)
+            # fold triangle
+            path2 = c.beginPath()
+            path2.moveTo(x + w - fold, y)
+            path2.lineTo(x + w - fold, y + fold)
+            path2.lineTo(x + w, y + fold)
+            path2.close()
+            c.setFillColor(HexColor("#d4cabb"))
+            c.drawPath(path2, fill=1)
+            # text lines inside doc
+            c.setStrokeColor(light_gray)
+            c.setLineWidth(0.5)
+            for i in range(3):
+                lx = x + 6
+                ly = y + h - 14 - (i * 7)
+                c.line(lx, ly, x + w - 10, ly)
+
+        # ── Layout positions (top to bottom) ──
+        top = self.height - 10
+        left_x = W/2 - 100
+        right_x = W/2 + 100
+        bw = 180  # box width for split columns
+        center_bw = 280  # box width for centered items
+
+        # Section title
+        c.setFont("Helvetica-Bold", 11)
+        c.setFillColor(text_color)
+        c.drawCentredString(W/2, top, "Data Management Layer")
+
+        # Consistent spacing
+        gap = 75
+        bh = 45
+
+        # 1. Webhook / API Entry
+        bx = (W - center_bw) / 2
+        by = top - 50
+        box(bx, by, center_bw, bh, "POST /activate",
+            "Webhook \u2014 Deal Record (JSON)", fill=accent)
+
+        # Arrow down
+        by2 = by - gap
+        arrow_down(W/2, by, by2 + bh)
+
+        # 2. Feature Engineering (center)
+        box(bx, by2, center_bw, bh, "Feature Engineering",
+            "Raw fields \u2192 tabular features")
+
+        # Split arrow to XGBoost (left) and Embedding Model (right)
+        xgb_y = by2 - gap
+        embed_y = by2 - gap
+
+        arrow_down_split(W/2, by2, left_x, xgb_y + bh)
+        arrow_down_split(W/2, by2, right_x, embed_y + bh)
+
+        # 3a. XGBoost (left)
+        box(left_x - bw/2, xgb_y, bw, bh,
+            "XGBoost Classifier",
+            "churn_prob + SHAP importance")
+
+        # 3b. Embedding Model (right)
+        box(right_x - bw/2, embed_y, bw, bh,
+            "Embedding Model",
+            "features \u2192 dense vector")
+
+        # Arrow from Embedding Model down to HNSW
+        hnsw_y = embed_y - gap
+        arrow_down(right_x, embed_y, hnsw_y + bh)
+
+        # 4. HNSW Index (right)
+        box(right_x - bw/2, hnsw_y, bw, bh,
+            "HNSW Index",
+            "ef_search = \u03b1\u00d7k (\u03b1\u22651)")
+
+        # Arrow from HNSW down to documents
+        docs_y = hnsw_y - gap
+        arrow_down(right_x, hnsw_y, docs_y + 45)
+
+        # 5. Five document icons in a row under HNSW with labels
+        doc_total_w = 5 * 50 + 4 * 8
+        doc_start_x = right_x - doc_total_w/2
+        for i in range(5):
+            dx = doc_start_x + i * 58
+            doc_icon(dx, docs_y)
+            c.setFillColor(text_color)
+            c.setFont("Helvetica", 7)
+            c.drawCentredString(dx + 25, docs_y - 10, f"Deal {i+1}")
+
+        # ── Convergence: both sides merge into ML Context Package ──
+        merge_y = docs_y - gap + 10
+
+        # Arrow from XGBoost down to merge
+        arrow_down(left_x, xgb_y, merge_y + bh)
+
+        # Arrow from docs area down to merge
+        arrow_down(right_x, docs_y - 15, merge_y + bh)
+
+        # ML Context Package (center, wide)
+        ctx_w = 320
+        box((W - ctx_w)/2, merge_y, ctx_w, bh,
+            "ML Context Package",
+            "risk score + SHAP + k neighbors + urgency", fill=accent)
+
+        # Arrow down to orchestrator box
+        orch_y = merge_y - gap
+        arrow_down(W/2, merge_y, orch_y + bh)
+
+        # Agent Orchestrator box
+        orch_w = 280
+        box((W - orch_w)/2, orch_y, orch_w, bh,
+            "Agent Orchestrator",
+            "deal record + ML context \u2192 parallel agent calls")
+
+
+
+class CombinedAgentDiagram(Flowable):
+    """Draws the full agent pipeline: ML Context → Analysis Agents → Output Agents → Manifest."""
+
+    def __init__(self, width=460, height=630):
+        Flowable.__init__(self)
+        self.width = width
+        self.height = height
+
+    def wrap(self, availWidth, availHeight):
+        return self.width, self.height
+
+    def draw(self):
+        c = self.canv
+        W = self.width
+        border = HexColor("#333333")
+        accent = HexColor("#C4A882")
+        text_color = HexColor("#222222")
+        light_gray = HexColor("#999999")
+        analysis_color = HexColor("#dce4f0")
+
+        def box(x, y, w, h, label, sublabel=None, fill=HexColor("#f5f5f5")):
+            c.setFillColor(fill)
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            c.roundRect(x, y, w, h, 6, fill=1, stroke=1)
+            c.setFillColor(text_color)
+            c.setFont("Helvetica-Bold", 9)
+            if sublabel:
+                c.drawCentredString(x + w/2, y + h/2 + 6, label)
+                c.setFont("Helvetica", 7)
+                c.setFillColor(light_gray)
+                c.drawCentredString(x + w/2, y + h/2 - 7, sublabel)
+            else:
+                c.drawCentredString(x + w/2, y + h/2 - 3, label)
+
+        def arrow_down(x, y1, y2):
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            c.line(x, y1, x, y2 + 6)
+            c.setFillColor(border)
+            path = c.beginPath()
+            path.moveTo(x, y2)
+            path.lineTo(x - 4, y2 + 8)
+            path.lineTo(x + 4, y2 + 8)
+            path.close()
+            c.drawPath(path, fill=1)
+
+        top = self.height - 10
+        left_x = W/2 - 110
+        right_x = W/2 + 110
+        bw = 190
+
+        # Section label
+        c.setFont("Helvetica-Bold", 11)
+        c.setFillColor(text_color)
+        c.drawCentredString(W/2, top, "Agent Orchestration Layer")
+
+        # Consistent gap size
+        gap = 75
+        bh = 45  # standard box height
+
+        # ML Context Package
+        ctx_y = top - 50
+        ctx_w = 300
+        box((W - ctx_w)/2, ctx_y, ctx_w, bh,
+            "ML Context Package", "risk score + SHAP + k neighbors + urgency", fill=accent)
+
+        # Split arrows to two analysis agents
+        qa_y = ctx_y - gap
+        risk_y = ctx_y - gap
+
+        # Arrow to Q&A History (left)
+        c.setStrokeColor(border)
+        c.setLineWidth(1.2)
+        mid_y = ctx_y - (gap - bh) / 2
+        c.line(W/2, ctx_y, W/2, mid_y)
+        c.line(W/2, mid_y, left_x, mid_y)
+        c.line(left_x, mid_y, left_x, qa_y + bh + 6)
+        c.setFillColor(border)
+        path = c.beginPath()
+        path.moveTo(left_x, qa_y + bh)
+        path.lineTo(left_x - 4, qa_y + bh + 8)
+        path.lineTo(left_x + 4, qa_y + bh + 8)
+        path.close()
+        c.drawPath(path, fill=1)
+
+        # Arrow to Risk Narrative (right)
+        c.line(W/2, mid_y, right_x, mid_y)
+        c.line(right_x, mid_y, right_x, risk_y + bh + 6)
+        c.setFillColor(border)
+        path = c.beginPath()
+        path.moveTo(right_x, risk_y + bh)
+        path.lineTo(right_x - 4, risk_y + bh + 8)
+        path.lineTo(right_x + 4, risk_y + bh + 8)
+        path.close()
+        c.drawPath(path, fill=1)
+
+        # Q&A History Agent (left)
+        box(left_x - bw/2, qa_y, bw, bh,
+            "Q&A History Agent",
+            "Parses transcripts \u2192 structured Q&A",
+            fill=analysis_color)
+
+        # Risk Narrative Agent (right)
+        box(right_x - bw/2, risk_y, bw, bh,
+            "Risk Narrative Agent",
+            "XGB + SHAP + NN outcomes \u2192 plain English",
+            fill=analysis_color)
+
+        # Merge arrows down to Enriched Context Package
+        enrich_y = qa_y - gap
+        arrow_down(left_x, qa_y, enrich_y + bh)
+        arrow_down(right_x, risk_y, enrich_y + bh)
+
+        enrich_w = 320
+        box((W - enrich_w)/2, enrich_y, enrich_w, bh,
+            "Enriched Context Package",
+            "deal + ML scores + Q&A history + risk narrative", fill=accent)
+
+        # ── Arrow down from Enriched Context, branching to 6 agents ──
+        agent_fill = HexColor("#e3ede8")
+
+        def agent_box(x, y, w, h, title, desc):
+            c.setFillColor(agent_fill)
+            c.setStrokeColor(border)
+            c.setLineWidth(1)
+            c.roundRect(x, y, w, h, 5, fill=1, stroke=1)
+            c.setFillColor(text_color)
+            c.setFont("Helvetica-Bold", 8)
+            c.drawCentredString(x + w/2, y + h - 13, title)
+            c.setFont("Helvetica", 6.5)
+            c.setFillColor(light_gray)
+            words = desc.split()
+            mid = len(words) // 2
+            line1 = " ".join(words[:mid])
+            line2 = " ".join(words[mid:])
+            c.drawCentredString(x + w/2, y + h - 24, line1)
+            c.drawCentredString(x + w/2, y + h - 33, line2)
+
+        agents = [
+            ("Welcome Email", "Customer-facing welcome in brand voice, personalized to use case"),
+            ("CSM Brief", "Risk narrative, Q&A history, NN outcomes, what to watch"),
+            ("Slack Announce", "Internal team notification with deal context and key contacts"),
+            ("Kickoff Meeting", "Agenda, invite draft, priorities calibrated to risk profile"),
+            ("CRM Updates", "Stage/field changes queued as structured JSON, ready to push"),
+            ("30-Day Plan", "MEDDIC \u2192 TTFV milestones, gated by risk and deal segment"),
+        ]
+
+        aw = 200
+        ah = 45
+        gap_x = 20
+        gap_y = 12
+        col1_x = (W - 2*aw - gap_x) / 2
+        col2_x = col1_x + aw + gap_x
+
+        # Starting y for first row of agents
+        row_start_y = enrich_y - 60
+
+        # Draw the trunk line down from enriched context
+        trunk_bottom = row_start_y + ah/2
+        trunk_x = W/2
+        c.setStrokeColor(border)
+        c.setLineWidth(1.2)
+        c.line(trunk_x, enrich_y, trunk_x, trunk_bottom)
+
+        # For each row, draw a horizontal branch and arrows to left/right agent
+        for row in range(3):
+            ry = row_start_y - row * (ah + gap_y)
+            branch_y = ry + ah/2
+
+            # Horizontal branch line
+            c.setStrokeColor(border)
+            c.setLineWidth(1.2)
+            c.line(trunk_x, branch_y, col1_x + aw/2, branch_y)
+            c.line(trunk_x, branch_y, col2_x + aw/2, branch_y)
+
+            # Vertical trunk continues down (except last row)
+            if row < 2:
+                next_branch_y = (row_start_y - (row+1) * (ah + gap_y)) + ah/2
+                c.line(trunk_x, branch_y, trunk_x, next_branch_y)
+
+            # Arrowheads pointing at agent boxes (left)
+            c.setFillColor(border)
+            p = c.beginPath()
+            lx = col1_x + aw
+            p.moveTo(lx, branch_y)
+            p.lineTo(lx + 6, branch_y - 3)
+            p.lineTo(lx + 6, branch_y + 3)
+            p.close()
+            c.drawPath(p, fill=1)
+
+            # Arrowheads pointing at agent boxes (right)
+            p2 = c.beginPath()
+            rx = col2_x
+            p2.moveTo(rx, branch_y)
+            p2.lineTo(rx - 6, branch_y - 3)
+            p2.lineTo(rx - 6, branch_y + 3)
+            p2.close()
+            c.drawPath(p2, fill=1)
+
+            # Draw agent boxes
+            idx_l = row * 2
+            idx_r = row * 2 + 1
+            agent_box(col1_x, ry, aw, ah, agents[idx_l][0], agents[idx_l][1])
+            agent_box(col2_x, ry, aw, ah, agents[idx_r][0], agents[idx_r][1])
+
+        # Confidence Manifest below
+        last_row_y = row_start_y - 2 * (ah + gap_y)
+        manifest_y = last_row_y - 45
+        c.setFillColor(accent)
+        c.setStrokeColor(border)
+        c.setLineWidth(1.2)
+        manifest_w = 320
+        c.roundRect((W - manifest_w)/2, manifest_y, manifest_w, 35, 6, fill=1, stroke=1)
+        c.setFillColor(text_color)
+        c.setFont("Helvetica-Bold", 9)
+        c.drawCentredString(W/2, manifest_y + 20, "Confidence Manifest")
+        c.setFont("Helvetica", 7)
+        c.setFillColor(HexColor("#555555"))
+        c.drawCentredString(W/2, manifest_y + 8,
+            "overall_confidence | flags | blocked_artifacts | escalation_triggers")
+
+        # Arrow from last row down to manifest
+        c.setStrokeColor(border)
+        c.setLineWidth(1.2)
+        c.line(trunk_x, last_row_y + ah/2, trunk_x, manifest_y + 35 + 6)
+        c.setFillColor(border)
+        p = c.beginPath()
+        p.moveTo(trunk_x, manifest_y + 35)
+        p.lineTo(trunk_x - 4, manifest_y + 35 + 8)
+        p.lineTo(trunk_x + 4, manifest_y + 35 + 8)
+        p.close()
+        c.drawPath(p, fill=1)
 
 # ─── CONFIG ───────────────────────────────────────────────────────────
 OUTPUT_FILE = "part1_brief.pdf"
@@ -411,6 +840,14 @@ def build_content(styles):
         "wrote two templates.",
         s["Body"],
     ))
+
+    # ── Design Doc: Architecture ──
+    story.append(PageBreak())
+    story.append(ArchitectureDiagram())
+
+    # Combined agent layer — one continuous block
+    story.append(PageBreak())
+    story.append(CombinedAgentDiagram())
 
     # ── References page ──
     story.append(PageBreak())

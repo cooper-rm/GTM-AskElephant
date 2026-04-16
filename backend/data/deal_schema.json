@@ -1,0 +1,141 @@
+{
+  "_description": "Expected JSON format for a closed-won deal record entering the handoff pipeline via POST /activate. This is what AskElephant sends when a deal closes.",
+  "_source": "AskElephant AI-processed CRM + call data",
+  "_note": "Outcome data (churned/retained/expanded) exists only in historical training data, NOT in live webhook payloads.",
+
+  "deal_id": "DEAL-0001",
+
+  "company": {
+    "name": "string — company name",
+    "industry": "string — one of: SaaS/Tech, Marketing Agency, Fintech, PropTech, Healthcare IT, EdTech, eCommerce, Managed IT/Cybersecurity, Professional Services, Vertical SaaS",
+    "employee_count": "int — number of employees",
+    "annual_revenue": "int — estimated annual revenue in USD",
+    "segment": "string — smb | mid_market | enterprise"
+  },
+
+  "deal": {
+    "amount": "float — annual contract value in USD",
+    "seats": "int — number of user seats purchased",
+    "price_per_seat_monthly": "float — monthly price per seat in USD",
+    "product_tier": "string — unlimited_automation | automations_plus_consulting",
+    "close_date": "string — YYYY-MM-DD",
+    "kickoff_date": "string | null — YYYY-MM-DD, may be TBD at handoff time",
+    "use_case": "string — primary use case: CRM automation, Call recording + coaching, Sales-to-CS handoff, Pipeline visibility, Forecasting accuracy, Rep productivity, Onboarding automation",
+    "competitor": "string — Gong | Fathom | Fireflies | Clari | Chorus | None",
+    "lead_source": "string — inbound | outbound",
+    "inbound_channel": "string | null — demo_request | content_download | referral | webinar_signup | website_chat (null if outbound)"
+  },
+
+  "people": [
+    {
+      "name": "string — full name",
+      "role": "string — champion | exec_sponsor | technical_evaluator | end_user | procurement",
+      "title": "string — job title",
+      "tenure_months": "int — months in current role"
+    }
+  ],
+
+  "touches": [
+    {
+      "touch_number": "int — sequential touch number across entire deal lifecycle",
+      "date": "string — YYYY-MM-DD",
+      "type": "string — cold_call | cold_email | linkedin_message | qualification_call | discovery_call | follow_up_call | follow_up_email | demo | technical_eval | proposal_call | exec_meeting | pricing_call | negotiation_call",
+      "duration_minutes": "int — 0 for emails/messages, actual duration for calls",
+      "person_name": "string — who was on this touch",
+      "person_role": "string — their role in the deal",
+      "person_title": "string — their job title",
+      "stage": "string — prospecting | qualification | discovery | demo_evaluation | proposal | negotiation",
+      "got_response": "bool — whether the prospect responded/connected",
+      "response_time_hours": "float | null — hours until prospect responded (emails/LinkedIn only)",
+      "rescheduled": "bool — whether this meeting was rescheduled",
+      "reschedule_reason": "string | null — why it was rescheduled",
+      "ai_summary": "string — AskElephant AI-generated summary of the touch",
+      "questions_asked": [
+        {
+          "by": "string — rep | prospect",
+          "question": "string — the question asked",
+          "answer": "string — the answer given"
+        }
+      ],
+      "objections": ["string — objection raised during this touch"],
+      "next_steps": ["string — agreed next action"],
+      "sentiment": "string — positive | neutral | cautious | negative | no_contact"
+    }
+  ],
+
+  "_example": {
+    "deal_id": "DEAL-0042",
+    "company": {
+      "name": "BrightStack",
+      "industry": "SaaS/Tech",
+      "employee_count": 185,
+      "annual_revenue": 27400000,
+      "segment": "mid_market"
+    },
+    "deal": {
+      "amount": 19200,
+      "seats": 18,
+      "price_per_seat_monthly": 88.89,
+      "product_tier": "unlimited_automation",
+      "close_date": "2024-11-08",
+      "kickoff_date": "2024-11-22",
+      "use_case": "CRM automation",
+      "competitor": "Gong"
+    },
+    "people": [
+      {"name": "Sarah Chen", "role": "champion", "title": "VP of Sales", "tenure_months": 22},
+      {"name": "James Patel", "role": "exec_sponsor", "title": "CRO", "tenure_months": 48},
+      {"name": "Emily Garcia", "role": "technical_evaluator", "title": "IT Director", "tenure_months": 15}
+    ],
+    "touches": [
+      {
+        "touch_number": 1,
+        "date": "2024-08-15",
+        "type": "cold_email",
+        "duration_minutes": 0,
+        "person_name": "Sarah Chen",
+        "person_role": "champion",
+        "person_title": "VP of Sales",
+        "stage": "prospecting",
+        "got_response": false,
+        "response_time_hours": null,
+        "rescheduled": false,
+        "reschedule_reason": null,
+        "ai_summary": "No response. Cold Email to Sarah Chen at BrightStack.",
+        "questions_asked": [],
+        "objections": [],
+        "next_steps": ["Follow up in 2-3 days"],
+        "sentiment": "no_contact"
+      },
+      {
+        "touch_number": 4,
+        "date": "2024-09-03",
+        "type": "discovery_call",
+        "duration_minutes": 28,
+        "person_name": "Sarah Chen",
+        "person_role": "champion",
+        "person_title": "VP of Sales",
+        "stage": "discovery",
+        "got_response": true,
+        "response_time_hours": null,
+        "rescheduled": false,
+        "reschedule_reason": null,
+        "ai_summary": "Sarah confirmed her 12-person sales team spends roughly 40% of time on manual CRM entry in HubSpot. They trialed Gong last year but dropped it due to cost. Primary pain is pipeline visibility — leadership can't trust the forecast because data entry is inconsistent.",
+        "questions_asked": [
+          {"by": "rep", "question": "How are your reps currently logging call notes?", "answer": "Inconsistently. Maybe 4 out of 12 do it after every call."},
+          {"by": "rep", "question": "What made you move away from Gong?", "answer": "Price. $150/seat was too much for our team size."},
+          {"by": "prospect", "question": "Does this integrate directly with HubSpot?", "answer": "Yes, native two-way sync. Fields update automatically after each call."},
+          {"by": "prospect", "question": "How long does implementation typically take?", "answer": "Most teams are live within a week. No engineering resources needed."}
+        ],
+        "objections": [
+          "Concerned about adoption — previous tool rollouts have had low uptake"
+        ],
+        "next_steps": [
+          "Schedule demo for Sarah + IT Director Emily Garcia",
+          "Send case study from similar-sized SaaS company"
+        ],
+        "sentiment": "positive"
+      }
+    ]
+  }
+}
