@@ -1,0 +1,669 @@
+{
+  "deal_id": "DEAL-0942",
+  "company": {
+    "name": "CoralWorks",
+    "industry": "PropTech",
+    "employee_count": 711,
+    "annual_revenue": 88107219,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16900.0,
+    "seats": 21,
+    "price_per_seat_monthly": 65.46,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.4,
+    "sales_cycle_days": 80,
+    "close_date": "2023-08-19",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Maria Turner",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 15
+    },
+    {
+      "name": "Yuki Doyle",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-23",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 12.8,
+      "rescheduled": false,
+      "ai_summary": "Initial outbound email to Maria Turner introducing AskElephant's CS handoff automation capabilities. Highlighted pain points around sales-to-support transitions and offered to share relevant PropTech case studies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Maria to review case studies and respond with availability"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing CoralWorks-specific use case examples. Maria expressed interest in learning more about how AskElephant compares to their current evaluation of Gong for similar workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your CS handoff feature compare to Gong's approach?",
+          "answer": "Explained AskElephant's dedicated CS transition workflows vs Gong's sales-focused analytics"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-04",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Maria. Discussed CoralWorks' current pain points with manual CS handoffs and information loss between sales and support teams. Maria confirmed 700+ employee scale and interest in automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "4-6 weeks with consulting support"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this solution?",
+          "answer": "Maria mentioned Yuki Doyle from RevOps and potentially leadership"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call",
+        "Maria to share current process docs"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-08",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute discovery call diving into CoralWorks' current sales-to-CS workflow. Maria walked through their Salesforce setup and pain points around context loss. Discussed team size (21 CS reps) and budget considerations. Brief mention of Gong evaluation happening in parallel.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline?",
+          "answer": "Q2 CS team expansion creating urgency"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce + Intercom stack?",
+          "answer": "Yes, native integrations available"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include?",
+          "answer": "Workflow design, implementation support, and 90-day optimization"
+        }
+      ],
+      "objections": [
+        "Concerned about implementation lift during Q2 busy season"
+      ],
+      "next_steps": [
+        "Share technical integration overview",
+        "Schedule follow-up to discuss budget"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-12",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute follow-up call addressing implementation concerns. Rep walked through phased rollout approach to minimize disruption. Maria shared that budget approval might require VP-level sign-off but seemed confident in building internal case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we pilot with a subset of the CS team first?",
+          "answer": "Yes, suggested 5-user pilot for first 30 days"
+        },
+        {
+          "by": "rep",
+          "question": "Have you received pricing from Gong yet?",
+          "answer": "Maria indicated Gong quote was higher than expected"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Yuki Doyle for technical validation",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-19",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Maria confirming stakeholder map. Noted that VP of Customer Success has not been brought into discussions yet. Maria focusing on building technical case with Yuki before executive alignment.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When would you want to involve your VP of CS?",
+          "answer": "After technical validation and ROI model review"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your experience with other PropTech companies our size?",
+          "answer": "Shared 3 relevant case studies with similar employee counts"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom ROI model",
+        "Schedule technical call with Yuki"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-24",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute discovery call exploring specific automation workflows CoralWorks needs. Maria detailed their current 12-step manual handoff process and areas where information gets lost. Discussion of Gong's limitations for CS use cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows?",
+          "answer": "Fully configurable with consulting support included"
+        },
+        {
+          "by": "rep",
+          "question": "What's the biggest gap in Gong's offering for your use case?",
+          "answer": "Maria noted Gong lacks CS-specific handoff templates and post-sale journey mapping"
+        }
+      ],
+      "objections": [
+        "Uncertainty about change management with CS team"
+      ],
+      "next_steps": [
+        "Share workflow customization examples",
+        "Schedule technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-26",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute discovery call wrapping up requirements gathering. Maria confirmed 21-seat requirement and expressed interest in automations_plus_consulting tier. Agreed to move forward with technical evaluation involving Yuki.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for your consulting add-on?",
+          "answer": "Included in automations_plus_consulting package, no separate fee"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical eval with Yuki",
+        "Prepare demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-29",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute technical evaluation with Maria and Yuki. Walked through API integrations, data mapping, and security compliance. Yuki asked detailed questions about Salesforce field mapping and Intercom webhook handling. Generally positive technical validation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle PII data in call transcripts?",
+          "answer": "Explained encryption, data residency options, and GDPR compliance"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields sync to CS team dashboards?",
+          "answer": "Yes, full field mapping control during setup"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers from your side?",
+          "answer": "Yuki confirmed no blockers, pending security review"
+        }
+      ],
+      "objections": [
+        "Need to run solution by InfoSec team"
+      ],
+      "next_steps": [
+        "Provide security documentation",
+        "Schedule second technical session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-05",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "47-minute deep-dive technical evaluation. Yuki tested sandbox environment hands-on. Walked through actual CoralWorks data examples (sanitized). Discussed reporting capabilities and success metrics. Security concerns addressed with compliance documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does initial data backfill take for historical deals?",
+          "answer": "Typically 48-72 hours for CoralWorks' deal volume"
+        },
+        {
+          "by": "prospect",
+          "question": "What analytics can we run on handoff quality over time?",
+          "answer": "Demonstrated trend reporting, satisfaction scoring, and context retention metrics"
+        },
+        {
+          "by": "rep",
+          "question": "Does this meet your technical requirements?",
+          "answer": "Yuki confirmed strong fit, ready to recommend to Maria for business case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Yuki to complete internal technical writeup",
+        "Schedule demo for broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-07-11",
+      "type": "demo",
+      "duration_minutes": 28,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "28-minute demo rescheduled from earlier slot. Presented live workflow automation to Maria and three CS team members. Showed before/after handoff examples. Team engaged positively but no executive sponsor present. Maria mentioned needing to align with VP before moving to proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can CS reps override automated suggestions?",
+          "answer": "Yes, full manual control with AI-assisted recommendations"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for our CS team?",
+          "answer": "Most teams productive within first week, consulting helps accelerate"
+        }
+      ],
+      "objections": [
+        "CS team member raised concern about trusting AI-generated summaries"
+      ],
+      "next_steps": [
+        "Maria to present internally to VP of CS",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-07-14",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute exec meeting with Maria. VP of Customer Success was not in attendance despite calendar invite. Maria presented internal business case and ROI model. Discussion turned to budget and pricing expectations. Maria indicated need for competitive pricing given Gong alternative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your list pricing for 21 seats with consulting?",
+          "answer": "Shared standard pricing at $23K ACV"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for your VP?",
+          "answer": "Maria mentioned pricing and fast implementation as key decision factors"
+        }
+      ],
+      "objections": [
+        "Pricing higher than expected budget allocation"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Attempt to schedule VP meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping ROI discussed and offering to present directly to VP of CS. Included customer reference from similar PropTech company. Maria responded that VP has limited availability but she can move forward with evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work within a $17K budget?",
+          "answer": "Rep indicated willingness to discuss adjusted pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal pricing approval",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-23",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute meeting intended for VP involvement but only Maria attended. Discussed adjusted proposal options and package configurations. Maria confirmed $16-17K range would work for approval. Acknowledged Gong still in consideration but AskElephant preferred for CS use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign by month-end, can you prioritize our implementation?",
+          "answer": "Yes, committed to Q2 start"
+        },
+        {
+          "by": "rep",
+          "question": "Can we get time with your VP to align on success criteria?",
+          "answer": "Maria said VP trusts her recommendation, not necessary"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal at $16.9K",
+        "Target close by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-07-28",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute proposal review call. Walked through $16,900 proposal for 21 seats with automations_plus_consulting (26.4% discount from list). Maria seemed satisfied with pricing and package. Discussed contract terms and payment structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is annual payment required or can we do quarterly?",
+          "answer": "Annual preferred but quarterly available with slight adjustment"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Maria to review internally",
+        "Legal review of contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-08-01",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute negotiation call. Maria came back with request to match Gong's pricing which was lower. Discussed value differential and unique CS capabilities. Rep held firm on $16.9K given consulting inclusion and CS-specific features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include additional implementation hours at this price?",
+          "answer": "Confirmed consulting package already includes 40 hours"
+        },
+        {
+          "by": "rep",
+          "question": "Is Gong's offer comparable in scope to our consulting package?",
+          "answer": "Maria acknowledged Gong quote was for platform only, no consulting"
+        }
+      ],
+      "objections": [
+        "Gong came in at lower price point for core platform"
+      ],
+      "next_steps": [
+        "Maria to review total value comparison",
+        "Follow up in 48 hours"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-08-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 15.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email breaking down value comparison between AskElephant's $16.9K all-in offer vs Gong's platform pricing plus separate consulting costs. Highlighted CS-specific ROI and PropTech references. Maria acknowledged the breakdown was helpful.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Maria to finalize decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-08-11",
+      "type": "negotiation_call",
+      "duration_minutes": 14,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute negotiation call. Maria confirmed CoralWorks ready to move forward at $16.9K. Discussed final contract details and implementation kickoff timing. Legal review in progress. Targeting signature within one week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if CS team grows?",
+          "answer": "Yes, pro-rated additions available anytime"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to complete contract review",
+        "Schedule exec meeting for final sign-off"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-08-17",
+      "type": "exec_meeting",
+      "duration_minutes": 6,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Brief 6-minute exec meeting rescheduled from longer slot. VP of Customer Success finally joined but had limited time. Quick overview of solution and pricing. VP seemed supportive but wanted Maria to handle final details. No deep engagement on strategic value.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Maria to finalize with legal and procurement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-08-19",
+      "type": "pricing_call",
+      "duration_minutes": 27,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute pricing and contract finalization call. Reviewed payment terms, annual contract commitment, and implementation schedule. Maria confirmed all internal approvals secured. Contract sent for signature. Discussed onboarding kickoff plan for early May.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to adjust seat count after first quarter?",
+          "answer": "Can true-up quarterly or add seats as needed"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining blockers to signature?",
+          "answer": "Maria confirmed clear to sign, targeting this week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

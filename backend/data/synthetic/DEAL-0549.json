@@ -1,0 +1,219 @@
+{
+  "deal_id": "DEAL-0549",
+  "company": {
+    "name": "OrbitalVision",
+    "industry": "Healthcare IT",
+    "employee_count": 48,
+    "annual_revenue": 6081920,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 82.14,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 7.7,
+    "sales_cycle_days": 13,
+    "close_date": "2023-12-06",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Mason Khan",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 35
+    },
+    {
+      "name": "Mateo Gomez",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mason Khan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Mason Khan at OrbitalVision expressing interest in automating their sales-to-CS handoff process. Currently using Fireflies but looking for more robust automation capabilities. Brief initial contact to schedule qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Mason"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-23",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Mason Khan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mason Khan (VP of Sales) to understand OrbitalVision's current workflow and pain points. Company has 48 employees with manual handoff process causing customer data loss. Mason is evaluating against Fireflies. Discussed team size (7 users) and use case requirements. Mason is champion but mentioned IT Director Mateo Gomez handles procurement decisions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current sales-to-CS handoff?",
+          "answer": "We're losing critical customer context during handoffs. CS team has to re-ask questions customers already answered, creating friction."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation plan compare to Fireflies' transcription-only approach?",
+          "answer": "Our platform automatically extracts action items, updates CRM fields, and triggers workflows\u2014not just transcription but intelligent automation across your stack."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating this solution?",
+          "answer": "Mateo Gomez in IT handles all software procurement, and I'd want to loop him in before we move forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Mason",
+        "Prepare comparison with Fireflies automation capabilities"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-26",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Mason Khan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Mason Khan covering automated workflow triggers, CRM integration, and sales-to-CS handoff automation. Mason engaged positively, asked detailed questions about implementation timeline and Salesforce integration. Mentioned that Fireflies is significantly cheaper but lacks automation depth. No executive sponsor mentioned yet\u2014Mateo Gomez (IT) still needs to be engaged for procurement approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 7 seats with Salesforce integration, typically 2-3 weeks from kickoff to full deployment including team training."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to discuss this with Mateo in IT yet?",
+          "answer": "Not in detail\u2014I wanted to see the demo first. I'll brief him this week."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller seat count and scale up later?",
+          "answer": "Absolutely. The unlimited automation plan works at any seat count, and you can add users as needed."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so next 4-6 weeks ideally."
+        }
+      ],
+      "objections": [
+        "Fireflies is quite a bit cheaper\u2014trying to understand if the automation features justify the price difference for our use case."
+      ],
+      "next_steps": [
+        "Send proposal with pricing breakdown",
+        "Include Fireflies comparison document",
+        "Request intro to Mateo Gomez"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mason Khan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Mason with formal proposal for 7 seats at $7,200 ACV, ROI calculator showing time savings from automation, and competitive comparison highlighting automation gaps in Fireflies. Mason responded confirming he's reviewing with Mateo and requested clarification on integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does the Salesforce integration require any custom development on our end, or is it plug-and-play?",
+          "answer": "It's a native integration\u2014no custom dev needed. We'll map your fields during implementation and you can adjust workflows through our no-code builder."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mason to review proposal with Mateo",
+        "Schedule follow-up call once IT has reviewed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-06",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Mason Khan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Mason Khan to discuss proposal and address final questions. Mason confirmed Mateo has approved from IT perspective but noted they're still comparing against Fireflies' lower price point. Discussion focused on contract terms, payment schedule, and discount requests. Mason asked for 15% discount to match budget constraints. No executive sponsor engaged yet\u2014decision seems to rest between Mason and Mateo without C-suite visibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual price? We're comparing against Fireflies at roughly half this cost.",
+          "answer": "I can work with leadership on pricing. What budget range were you targeting?"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your CTO or VP of Ops to see how this impacts the broader customer success workflow?",
+          "answer": "Probably not necessary\u2014this is really a sales and IT decision. Mateo and I have authority to move forward once we align on terms."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "We typically do annual or monthly. Let me check if quarterly is an option and circle back."
+        }
+      ],
+      "objections": [
+        "The pricing is still our main hurdle. Fireflies is significantly cheaper and while I see the value in automation, we need to justify the delta internally."
+      ],
+      "next_steps": [
+        "Check on 15% discount approval",
+        "Confirm quarterly payment option",
+        "Send updated proposal by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "deal_id": "DEAL-0760",
+  "company": {
+    "name": "OrbitalHealth",
+    "industry": "Healthcare IT",
+    "employee_count": 37,
+    "annual_revenue": 6268411,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 64.81,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.2,
+    "sales_cycle_days": 40,
+    "close_date": "2025-12-05",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Hiroshi Kelly",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 4
+    },
+    {
+      "name": "Jack White",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    },
+    {
+      "name": "Rowan Green",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-10-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Hiroshi Kelly expressing interest in onboarding automation. Brief form submission indicating need to streamline new hire processes across remote teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-26",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Hiroshi Kelly covering current onboarding pain points and timeline. Discussed company size, team structure, and initial use case fit. Hiroshi mentioned evaluating Fathom as well but interested in our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's workflow capabilities?",
+          "answer": "Rep explained unlimited automation tier includes advanced conditional logic and integrations that Fathom charges extra for"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementation?",
+          "answer": "Hiroshi indicated hoping to have something in place within 60 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery materials",
+        "Loop in implementation leads"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jack White",
+      "person_role": "end_user",
+      "person_title": "Implementation Lead",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Jack White introducing implementation approach and requesting technical requirements. Shared case study on similar healthcare IT use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our HRIS system (BambooHR)?",
+          "answer": "Rep confirmed native integration available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review technical docs",
+        "Prepare for discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-06",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Hiroshi to map detailed workflow requirements and success metrics. Discussed current manual process taking 8-10 hours per new hire. Hiroshi new to Head of RevOps role and building out processes from scratch.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Hiroshi mentioned Jack and Rowan on implementation side, but no executive sponsor identified yet"
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation timeline typically look like?",
+          "answer": "Rep outlined 2-3 week setup with training included"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we see this in action with our specific workflows?",
+          "answer": "Rep proposed custom demo for next week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with implementation team present",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Hiroshi after demo session. Recapped key features demonstrated and addressed technical questions from Jack and Rowan about API limits and user permissions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-17",
+      "type": "proposal_call",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call scheduled but Hiroshi joined briefly to request async review instead due to scheduling conflicts. Sent proposal deck covering 7 seats at unlimited automation tier with implementation package.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review proposal internally",
+        "Reconvene on pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-11-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Hiroshi responded that pricing seems high compared to Fathom quote and asked about flexibility on annual commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to negotiate on the annual price?",
+          "answer": "Rep indicated willingness to discuss pricing on next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-29",
+      "type": "pricing_call",
+      "duration_minutes": 1,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing call with Hiroshi. Rep offered discount to $5,200 ACV to match urgency and budget constraints. Hiroshi accepted pending final review with Rowan on procurement side.",
+      "questions_asked": [],
+      "objections": [
+        "Pricing initially higher than Fathom competitive quote"
+      ],
+      "next_steps": [
+        "Get procurement approval",
+        "Prepare contracts"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-05",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Hiroshi Kelly",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended meeting intended as executive alignment but no exec sponsor attended. Hiroshi walked through implementation plan with Jack and Rowan. Team expressed concerns about change management without leadership buy-in but Hiroshi confident he can drive adoption. Discussed contract terms and start date.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we loop in a VP or exec sponsor before finalizing?",
+          "answer": "Hiroshi said he has approval authority for this budget level"
+        },
+        {
+          "by": "prospect",
+          "question": "What does support look like during rollout?",
+          "answer": "Rep outlined dedicated CSM and implementation support included"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we scale seats mid-contract if onboarding velocity increases?",
+          "answer": "Rep confirmed ability to add seats with prorated billing"
+        }
+      ],
+      "objections": [
+        "Concern about user adoption without exec champion"
+      ],
+      "next_steps": [
+        "Send final contract",
+        "Target start date in 2 weeks"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

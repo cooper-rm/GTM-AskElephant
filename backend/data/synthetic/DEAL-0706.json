@@ -1,0 +1,717 @@
+{
+  "deal_id": "DEAL-0706",
+  "company": {
+    "name": "IronDynamics",
+    "industry": "Vertical SaaS",
+    "employee_count": 3261,
+    "annual_revenue": 214562996,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 70800.0,
+    "seats": 63,
+    "price_per_seat_monthly": 93.25,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 90,
+    "close_date": "2024-05-10",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Dylan Klein",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 50
+    },
+    {
+      "name": "Wyatt Brooks",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 17
+    },
+    {
+      "name": "Hiroshi King",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 13
+    },
+    {
+      "name": "Arjun Jones",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 20
+    },
+    {
+      "name": "Ethan Koch",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 21
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-17",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Dylan Klein at IronDynamics introducing our solution for sales-to-CS handoff automation. Highlighted pain points around revenue team collaboration and mentioned recent success with similar vertical SaaS companies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Dylan to review materials and reply if interested"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Dylan responded expressing interest in solving handoff friction between their sales and CS teams. Shared that they're currently evaluating options and asked about next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the initial qualification call typically cover?",
+          "answer": "We'd walk through your current handoff process, team size, pain points, and share how similar companies have solved this. Usually 15-20 minutes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-16",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Dylan Klein (Head of RevOps). Discussed current state: 63-person revenue team, manual handoffs causing context loss and delayed CS onboarding. Dylan confirmed budget authority and mentioned they're looking at Fathom as well. Strong fit for automations + consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your consulting engagement typically work with the automations package?",
+          "answer": "Our team works with you for 90 days to customize workflows, train your team, and ensure adoption. Includes weekly check-ins and dedicated Slack channel."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical timeline from contract to go-live?",
+          "answer": "Most enterprise customers are live within 4-6 weeks, with full rollout by week 8."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan to map out current workflow",
+        "Share case study from similar vertical SaaS company",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.6,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with case study from vertical SaaS company that reduced handoff time by 67%. Dylan confirmed he reviewed it and is mapping out their current process for the discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-23",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Dylan. Walked through their entire sales-to-CS process: currently using spreadsheets and Slack for handoffs, causing 3-5 day delays and context loss. Dylan shared that CRO Wyatt Brooks is prioritizing this for Q2. Dylan mentioned Fathom demo scheduled for next week. Identified key stakeholders: Wyatt (CRO), Hiroshi (Sales Manager), Arjun and Ethan (Implementation team).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle competitive displacement vs. net new for us?",
+          "answer": "We'd focus on your existing process gaps. Many customers evaluate both and choose us for the consulting layer and enterprise integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "What data access would your implementation team need?",
+          "answer": "Read access to CRM, calendar, and email metadata. We can scope exact permissions during technical evaluation."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the Q2 timeline?",
+          "answer": "Board is focused on retention metrics and our delayed handoffs are causing early churn signals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan to introduce us to Wyatt and implementation leads",
+        "Schedule demo for following week",
+        "Share technical integration overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Sent technical integration overview and sample implementation timeline. Dylan confirmed stakeholder intros in progress.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting calendar invites from Dylan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on demo scheduling. Dylan mentioned Fathom demo went well but they had concerns about ongoing support model. Sees value in our consulting package as differentiator.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk through a specific example of how the consulting team helped another customer customize their workflows?",
+          "answer": "Happy to cover this in detail on the demo. Will share before/after workflow from a customer in similar growth stage."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for next Tuesday with Dylan and implementation leads"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 8.7,
+      "rescheduled": false,
+      "ai_summary": "Sent demo prep email with agenda and technical requirements. Confirmed Arjun and Ethan from implementation team will attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo at 2pm Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Reminder email day before demo with Zoom link and pre-demo questionnaire. Dylan completed questionnaire confirming 63 seats needed and automations_plus_consulting package of interest.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo tomorrow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-14",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Dylan Klein. Walked through sales-to-CS handoff automation, showed live workflow builder, demonstrated Slack/CRM integrations, and covered consulting engagement model. Dylan particularly interested in custom field mapping and automated context summaries. Mentioned they're still in process with Fathom but appreciated our enterprise features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How granular can we get with the automated handoff triggers?",
+          "answer": "Fully customizable - can trigger on deal stage, opportunity size, product line, or any CRM field. Consulting team helps optimize the logic."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the Fathom integration look like if we're using both tools?",
+          "answer": "We have customers using both - we can ingest their call summaries as one input to the handoff package. Happy to show example setup."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place by end of Q2. Need to get Wyatt and the implementation team aligned first."
+        }
+      ],
+      "objections": [
+        "Want to make sure we're not duplicating capabilities if we go with Fathom"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Arjun and Ethan",
+        "Dylan to brief Wyatt on demo",
+        "Send pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-19",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Arjun Jones",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive with Arjun Jones from implementation team. Reviewed API architecture, security model, SSO setup, data permissions, and integration testing process. Arjun focused on scalability and asked detailed questions about webhook reliability and failover handling. Positive technical validation overall.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SLA on webhook delivery and how do you handle retries?",
+          "answer": "99.9% delivery SLA with exponential backoff retry logic up to 24 hours. Enterprise customers get dedicated webhook endpoints."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we run this in a sandbox environment first before production rollout?",
+          "answer": "Yes, standard practice. We'll set up staging environment that mirrors production for 2-week testing period."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this handle our existing custom objects in Salesforce?",
+          "answer": "Our field mapper supports custom objects - consulting team will help configure during onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Arjun to review with Ethan",
+        "Technical validation summary to Dylan",
+        "Schedule exec briefing with Wyatt"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-03-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Dylan with technical evaluation summary from Arjun session. Dylan confirmed technical team is aligned and ready to bring to Wyatt. Requested pricing breakdown for 63 seats with consulting package.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send formal pricing proposal",
+        "Schedule time with Wyatt"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-03-26",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Wyatt Brooks",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial exec meeting with Wyatt Brooks (CRO). Dylan introduced context on handoff challenges and business case. Wyatt focused on ROI and timeline to value. Shared that retention is top board priority and current handoff delays are measurable issue. Expressed interest but wants to see full proposal and compare with Fathom option.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are your existing customers seeing on this use case?",
+          "answer": "Typical customers see 50-70% reduction in handoff time and 15-20% improvement in early CS engagement scores within first quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision process and timeline?",
+          "answer": "Dylan owns vendor evaluation, I make final call. Need proposal by end of week, decision by end of month to hit Q2 implementation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send full proposal with pricing and ROI model",
+        "Schedule follow-up with Wyatt after review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-03-31",
+      "type": "exec_meeting",
+      "duration_minutes": 46,
+      "person_name": "Wyatt Brooks",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Wyatt Brooks. Reviewed full proposal: $70,800 ACV for 63 seats with automations_plus_consulting package. Wyatt compared against Fathom pricing and questioned value of consulting add-on. Discussed ROI model showing payback in 4 months based on their CS team capacity. Wyatt wants to move forward but asked about pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does pricing look like without the consulting package?",
+          "answer": "Base automations is $900/seat vs $1,125 with consulting. For 63 seats that's $56,700 vs $70,875. But implementation success rate is significantly higher with consulting."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to Fathom's enterprise pricing?",
+          "answer": "Different value prop - Fathom is call recording and transcription, we're workflow automation and handoff orchestration. Many customers use both."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom, wants to understand premium"
+      ],
+      "next_steps": [
+        "Wyatt to review internally with finance",
+        "Schedule proposal review call with Dylan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-06",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Dylan. Walked through pricing structure, contract terms, and implementation timeline. Dylan supportive and thinks Wyatt will approve but mentioned they're still finalizing Fathom evaluation. Dylan concerned about internal alignment on budget allocation between the two tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the payment structure - annual upfront or quarterly?",
+          "answer": "Flexible - we can do annual prepay with 5% discount or quarterly billing. Most enterprise customers prefer annual."
+        },
+        {
+          "by": "rep",
+          "question": "Where does Fathom decision stand?",
+          "answer": "Still in legal review. Different budget line but trying to be thoughtful about total spend on revenue tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan to socialize pricing with Wyatt and finance",
+        "Check back early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-04-12",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick sync with Dylan on proposal status. Dylan confirmed Wyatt is supportive but finance flagged total revenue tool spend. Dylan working to get both tools approved but may need to adjust scope or timing. Asked about contract flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Could we start with a smaller seat count and expand?",
+          "answer": "Yes, we can structure as 40 seats to start with expansion pricing locked in. Would adjust ACV to $45K year one."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan to present options to Wyatt",
+        "Prepare revised proposal if needed"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Sent email with revised proposal option: 63 seats at full price vs 40 seats to start with expansion rights. Dylan acknowledged and said meeting with Wyatt scheduled for Thursday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await outcome from Dylan/Wyatt meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-04-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Check-in email after Dylan/Wyatt meeting. Dylan reported Wyatt wants to proceed with full 63 seats but asked Dylan to negotiate on price. Finance approved budget but looking for discount to offset other tool costs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for 63 seats with annual commit?",
+          "answer": "Let me connect with my team on options. What range were you thinking?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan mentioned $60-65K target",
+        "Schedule exec meeting with Wyatt to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-04-22",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Wyatt Brooks",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec meeting with Wyatt Brooks to discuss pricing. Meeting was rescheduled from original time due to Wyatt's conflict. Discussed budget constraints and value alignment. Wyatt confirmed strong interest and need to close by month-end for Q2 implementation, but wants to land around $65K ACV. Productive conversation on value vs investment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet us at $65K for year one with list pricing for renewals?",
+          "answer": "That's about 8% off. Let me take this back to leadership - we typically reserve larger discounts for multi-year commits."
+        },
+        {
+          "by": "rep",
+          "question": "Would a multi-year deal work for you?",
+          "answer": "Prefer to prove value in year one before longer commit. But open to discussion if pricing is right."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review discount request with leadership",
+        "Respond by EOW",
+        "Target signature next week if aligned"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Dylan confirming we can offer $67,500 for annual commit (63 seats, automations_plus_consulting), which is about 5% discount. Highlighted value of consulting package and enterprise support. Dylan responsive and said he'd present to Wyatt.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Dylan to review with Wyatt",
+        "Schedule negotiation call if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-05-02",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Dylan Klein. Dylan appreciative of movement to $67.5K but pushed for $65K citing budget constraints and competitive pricing from Fathom (though different product). Discussed value trade-offs - offered to meet at $66K if they can commit to case study participation and reference calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does case study participation entail?",
+          "answer": "2-3 interviews over first 6 months documenting results, logo and quote for website, and willingness to do 1-2 reference calls per quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Is $66K something Wyatt would approve?",
+          "answer": "I think so. Let me confirm. That's close enough to our target and the case study is fine."
+        }
+      ],
+      "objections": [
+        "Still $1K over internal target but Dylan willing to advocate"
+      ],
+      "next_steps": [
+        "Dylan to get final approval from Wyatt",
+        "Legal to review contract",
+        "Target signature this week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-05-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming negotiated terms: $66,000 ACV, 63 seats, automations_plus_consulting package, annual prepay, case study commitment. Sent contract for legal review. Dylan confirmed Wyatt approved and passing to legal and procurement (Hiroshi King).",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Legal review in progress",
+        "Hiroshi to coordinate procurement",
+        "Target signature by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-05-10",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Dylan Klein",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing clarification call with Dylan. Legal had questions about annual true-up pricing for additional seats and renewal terms. Confirmed expansion seats would be at $1,050/seat (same discount %), renewals at list price unless multi-year commit. Dylan satisfied with terms and said contract should be ready to sign tomorrow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the process if we need to add seats mid-year?",
+          "answer": "Prorate for remainder of year at the $1,050 rate, then true-up at annual renewal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract signature expected Thursday",
+        "Implementation kickoff following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

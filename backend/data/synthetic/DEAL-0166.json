@@ -1,0 +1,377 @@
+{
+  "deal_id": "DEAL-0166",
+  "company": {
+    "name": "PearlExchange",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 56,
+    "annual_revenue": 8848136,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2000,
+    "seats": 3,
+    "price_per_seat_monthly": 51.17,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.5,
+    "sales_cycle_days": 33,
+    "close_date": "2025-08-31",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Hazel Walker",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-08",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Hazel Walker introducing AI conversation intelligence capabilities for sales-to-CS handoff workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-10",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound call attempt to Hazel Walker. Left voicemail referencing previous email and offering to discuss automating handoff processes. No callback.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-13",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study showing 40% reduction in handoff errors for similar-sized MSPs. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-26",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief connection call with Hazel Walker. She confirmed current pain points with manual sales-to-CS handoffs and agreed to schedule a deeper qualification call. Mentioned they're also looking at Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in conversation intelligence right now?",
+          "answer": "We're losing critical context when deals move from sales to customer success, causing onboarding delays."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-29",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call focused on current handoff workflow and pain points. Hazel described manual note-taking processes and gaps in account context transfer. Discussed team size and confirmed budget authority. She's evaluating Gong in parallel.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales-to-CS handoff process.",
+          "answer": "Sales reps fill out a template, but critical details from calls get lost. CS has to re-ask customers basic questions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's handoff features?",
+          "answer": "Our unlimited automation tier allows custom workflows without per-seat restrictions, whereas Gong charges premium for advanced automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Email recapping qualification discussion and confirming discovery call agenda. Included link to handoff automation demo video. Hazel responded confirming the meeting and requesting pricing preview.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send ballpark pricing for 3 seats before our discovery call?",
+          "answer": "Sent standard pricing sheet with 3-seat configuration, noted final pricing depends on feature requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-07",
+      "type": "follow_up_call",
+      "duration_minutes": 23,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into technical requirements and integration needs. Hazel detailed current tech stack (Salesforce, Zendesk) and confirmed 3-seat requirement for sales team. Discussed use case priorities: automated call summaries, key moment tagging, and CS handoff templates. She mentioned Gong's pricing came in higher than expected.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can drive this decision with our VP of Ops, but he's trusting my recommendation since I own the sales process."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6 weeks, before Q2 kickoff."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system integrate with our existing Salesforce dashboards?",
+          "answer": "Yes, we have native Salesforce integration with customizable field mapping and real-time sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo",
+        "Prepare custom demo environment with PearlExchange branding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after successful demo session. Hazel confirmed the team found the handoff automation compelling. Requested formal proposal with pricing for 3 seats and unlimited automation tier.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-15",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Hazel. Presented $3,478 annual pricing for 3 seats with unlimited automation (standard list). Hazel expressed sticker shock and mentioned Gong offered a more competitive rate. Discussed budget constraints for the sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? This is above our approved budget.",
+          "answer": "Let me discuss with leadership. What's your target budget range?"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you at the right price?",
+          "answer": "If we can get close to $2,000 annually, I can get this approved quickly without needing to loop in our CFO."
+        }
+      ],
+      "objections": [
+        "Pricing is significantly above approved budget of ~$2,000"
+      ],
+      "next_steps": [
+        "Explore pricing options with leadership",
+        "Reconnect with revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-08-20",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Hazel to discuss revised pricing and implementation timeline. Presented discounted offer of $2,000 (42.5% discount) to meet budget constraints and close within quarter. Hazel appreciated the flexibility but mentioned she still needs VP of Ops signoff.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we get your VP of Ops on a brief call to address any questions?",
+          "answer": "He's slammed right now, but I'll brief him. He typically defers to my judgment on sales tools."
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign this quarter, can you include onboarding support in the package?",
+          "answer": "Yes, we can include white-glove onboarding and 2 training sessions as part of the agreement."
+        },
+        {
+          "by": "rep",
+          "question": "What would prevent this from moving forward at this price?",
+          "answer": "Nothing major. Just need to get final approval and coordinate timing with our Q2 planning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Hazel to brief VP of Ops",
+        "Send revised agreement with $2,000 pricing",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email sent with updated agreement reflecting $2,000 pricing and included onboarding terms. Hazel acknowledged receipt and said she's waiting to sync with VP of Ops, who's been traveling.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-08-29",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Hazel Walker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation and closing call with Hazel. Discussed implementation timeline, contract terms, and payment structure. Hazel confirmed VP of Ops verbal approval and walked through internal procurement process. Addressed questions about annual vs monthly payment options and renewal terms. She committed to pushing paperwork through by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual upfront?",
+          "answer": "For the discounted rate, we require annual payment. We can offer quarterly payment at a slightly higher rate."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else we need to address before you send this to procurement?",
+          "answer": "No, I think we're good. Just need to get the paperwork filed on our end."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the renewal process look like after year one?",
+          "answer": "Standard renewal at list pricing, but we can discuss multi-year agreements for continued discounting."
+        },
+        {
+          "by": "rep",
+          "question": "When can we schedule onboarding kickoff?",
+          "answer": "Let's plan for first week of next month, assuming signature comes through this week."
+        }
+      ],
+      "objections": [
+        "Preference for monthly payment terms rather than annual upfront"
+      ],
+      "next_steps": [
+        "Hazel to submit to procurement",
+        "Legal review on both sides",
+        "Target signature within 3 business days",
+        "Schedule onboarding kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 86,
+    "churn_reason": "lack of executive alignment"
+  }
+}

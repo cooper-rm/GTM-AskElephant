@@ -1,0 +1,178 @@
+{
+  "deal_id": "DEAL-0583",
+  "company": {
+    "name": "GraniteBridge",
+    "industry": "Healthcare IT",
+    "employee_count": 51,
+    "annual_revenue": 8942944,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 60.16,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.4,
+    "sales_cycle_days": 20,
+    "close_date": "2023-12-15",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Priya Zhou",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Priya Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound lead from Priya Zhou requesting information about pipeline visibility tools. She mentioned GraniteBridge is struggling with forecast accuracy and wants to explore automation options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-25",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Priya Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute qualification call with Priya to understand current state and needs. GraniteBridge uses spreadsheets for pipeline tracking. Priya recently joined as Head of RevOps and wants to modernize their process. Team of 6 would use the platform. Discussed unlimited_automation tier for their use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better pipeline visibility right now?",
+          "answer": "I just started in this role and inherited a mess of spreadsheets. Leadership doesn't trust our forecasts and I need to fix this quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented?",
+          "answer": "Typical implementation is 2-3 weeks depending on your CRM setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product demo video",
+        "Priya to review with team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 21.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in after demo video. Priya confirmed the team reviewed it and likes the automation capabilities. She asked about pricing and implementation timeline in her response.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 6 users with the unlimited automation tier?",
+          "answer": "Sent preliminary pricing proposal for review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review pricing proposal",
+        "Schedule call to discuss"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Email from Priya indicating budget concerns. She mentioned the initial pricing is above what she was expecting and asked if there's flexibility. Expressed urgency to get something in place this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing? This is higher than I anticipated.",
+          "answer": "Let's schedule a call to discuss options that work within your budget"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-15",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Priya Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute pricing negotiation call. Discussed budget constraints and adjusted pricing with discount to $4,200 ACV. Priya seemed relieved about the adjusted number and is ready to move forward. Rep asked about getting executive alignment but Priya indicated she has approval authority for this amount.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we loop in your CFO or VP of Sales for final sign-off?",
+          "answer": "No need - I have budget authority up to this level and want to move quickly."
+        }
+      ],
+      "objections": [
+        "Initial pricing was outside her budget range"
+      ],
+      "next_steps": [
+        "Send updated proposal with adjusted pricing",
+        "Priya to review contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

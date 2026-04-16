@@ -1,0 +1,501 @@
+{
+  "deal_id": "DEAL-0447",
+  "company": {
+    "name": "OrbitSync",
+    "industry": "Healthcare IT",
+    "employee_count": 100,
+    "annual_revenue": 15600496,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 11800.0,
+    "seats": 15,
+    "price_per_seat_monthly": 72.02,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 19.1,
+    "sales_cycle_days": 44,
+    "close_date": "2024-07-29",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Samuel Johnson",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 37
+    },
+    {
+      "name": "Sebastian Patel",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 37
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-17",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Samuel Johnson, VP of Sales at OrbitSync. No answer, left voicemail introducing AskElephant's revenue intelligence capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-19",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Samuel Johnson. No answer, no voicemail left this time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-25",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third cold call attempt to Samuel Johnson. No answer, sent follow-up email with calendar link.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-26",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief connection with Samuel Johnson. Confirmed he's interested in improving forecast accuracy. Agreed to schedule a proper qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any revenue intelligence tools?",
+          "answer": "We're evaluating a few options, including Gong."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-16",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Samuel Johnson. Discussed current forecasting challenges at OrbitSync. Samuel mentioned their forecast variance is around 25% and leadership is pushing for better accuracy. Team of 15 AEs currently using spreadsheets and Salesforce reports.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current forecasting process?",
+          "answer": "Mostly manual - AEs update Salesforce, I roll up in Excel weekly. It's time-consuming and often inaccurate."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the need to improve now?",
+          "answer": "Our CEO wants predictable revenue before we raise our Series B next quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant integrate with our existing stack?",
+          "answer": "We have native integrations with Salesforce, and can pull conversation data from your call recording system."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case overview",
+        "Schedule discovery call to review current tech stack"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-20",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving into OrbitSync's tech stack and team structure. Samuel confirmed 15 sales seats, currently using Salesforce and Chorus for call recording. Budget allocated for Q2 investment in revenue operations tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of Q2, so probably decide in the next 4-6 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "What makes AskElephant different from Gong?",
+          "answer": "Our XGBoost-based scoring model is trained on deal outcomes, not just conversation patterns. We focus specifically on forecast accuracy vs general conversation intelligence."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in this decision?",
+          "answer": "I'll need buy-in from Sebastian Patel who handles our implementation projects, and ultimately our CFO will need to approve the budget."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with tech stack review",
+        "Loop in Sebastian Patel"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Samuel with ROI calculator and case study from similar healthcare IT company. Highlighted 40% improvement in forecast accuracy within 90 days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have references in healthcare IT?",
+          "answer": "Yes, attaching case study from MedTech Solutions (120-person sales org) and can arrange reference call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Email from Samuel introducing Sebastian Patel to the thread. Requested technical deep-dive on implementation requirements and data security compliance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with both Samuel and Sebastian"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-07-02",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Samuel and Sebastian. Reviewed current workflow, integration requirements, and implementation timeline. Sebastian raised questions about data privacy given healthcare context. Discussed HIPAA compliance for CRM data handling.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for initial setup, then 30 days to train the model on your historical data."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data security for healthcare companies?",
+          "answer": "We're SOC 2 Type II certified and can sign BAAs. All data encrypted at rest and in transit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full product demo",
+        "Send security documentation to Sebastian"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-07-05",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Samuel and Sebastian. Walked through forecasting dashboard, deal scoring methodology, and pipeline analytics. Both engaged positively. Demonstrated how HNSW retrieval surfaces similar historical deals to improve prediction accuracy. Samuel particularly interested in rep-level forecast rollups.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the scoring model for our specific sales process?",
+          "answer": "Yes, the XGBoost model retrains on your data. We can also weight certain signals more heavily based on what correlates with wins in your business."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring forecast accuracy?",
+          "answer": "We track commit vs actual weekly. Last quarter we were off by 23% at the monthly level."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the implementation process look like from our side?",
+          "answer": "Mainly data access - Salesforce API, conversation intelligence platform integration, and 2-3 hours of your time for kickoff and training."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to Gong's forecasting features?",
+          "answer": "Gong focuses on conversation intelligence first, forecasting second. We're purpose-built for forecast accuracy using ML-based deal scoring rather than just activity tracking."
+        }
+      ],
+      "objections": [
+        "Sebastian noted they're also evaluating Gong and need to compare pricing and capabilities side-by-side"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 15 seats",
+        "Arrange Gong comparison document",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, pricing proposal for 15-seat Automations Plus Consulting package at $11,800 ACV, and competitive comparison with Gong. Proposed next steps to review proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-07-11",
+      "type": "proposal_call",
+      "duration_minutes": 1,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled proposal call with Samuel, but call dropped after 1 minute due to technical issues on Samuel's side. Rescheduled for later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule proposal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-07-17",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Samuel. Walked through pricing structure and deliverables for Automations Plus Consulting tier. Samuel comfortable with pricing but mentioned need to get CFO approval and still comparing with Gong's enterprise tier pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package?",
+          "answer": "Quarterly business reviews, custom model tuning, and a dedicated CSM for the first 90 days to ensure you hit your forecast accuracy targets."
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to make a final decision?",
+          "answer": "Ideally within 2 weeks. We want to implement before our Q3 planning cycle starts."
+        }
+      ],
+      "objections": [
+        "Samuel mentioned Gong has offered a steeper discount for annual prepay"
+      ],
+      "next_steps": [
+        "Get CFO intro for final approval",
+        "Provide competitive positioning against Gong's discount"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-07-19",
+      "type": "negotiation_call",
+      "duration_minutes": 0,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled negotiation call with Samuel and CFO, but CFO had emergency and call was rescheduled. Samuel mentioned Gong has been pushing hard with additional discounting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule with CFO availability"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-07-25",
+      "type": "pricing_call",
+      "duration_minutes": 9,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Samuel (CFO still not able to join). Discussed discount options and payment terms. Samuel asked for 20% discount to match Gong's offer. Explained value differentiation but agreed to check on 10% discount for annual prepay.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's 20% discount?",
+          "answer": "Let me discuss with leadership. We typically offer 10% for annual prepay, but given your timeline and strategic fit, I'll see what's possible."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Gong's discounted offer"
+      ],
+      "next_steps": [
+        "Get approval for discount",
+        "Schedule final call with CFO included"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-07-30",
+      "type": "pricing_call",
+      "duration_minutes": 31,
+      "person_name": "Samuel Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing and terms negotiation with Samuel and Sebastian (CFO still not on call). Offered 12% discount for annual prepay, bringing ACV to $10,384. Discussed implementation timeline, success metrics, and contract terms. Samuel comfortable moving forward pending final CFO signature. Sebastian confirmed technical requirements are met.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are we aligned on success metrics - specifically getting forecast variance under 10% within 90 days?",
+          "answer": "Yes, that's our target. If we can consistently hit single-digit variance, this will be a huge win."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't hit the 10% variance target?",
+          "answer": "We include additional consulting hours at no cost in Q2 if we're not tracking to target by day 60. Our average customer gets to 8% variance."
+        },
+        {
+          "by": "rep",
+          "question": "When can you get CFO approval?",
+          "answer": "I'll walk the proposal through with her this week. She trusts my recommendation, but needs to review the contract terms personally."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start implementation before contract is fully executed?",
+          "answer": "We can do initial scoping and technical setup with MSA in place, but full data access requires executed order form."
+        }
+      ],
+      "objections": [
+        "Still no direct CFO engagement, which could delay final signature"
+      ],
+      "next_steps": [
+        "Send revised proposal with 12% discount",
+        "Schedule CFO review call",
+        "Prepare MSA and order form"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "deal_id": "DEAL-0456",
+  "company": {
+    "name": "RidgeCollective",
+    "industry": "EdTech",
+    "employee_count": 28,
+    "annual_revenue": 5474703,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 83.84,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 5.8,
+    "sales_cycle_days": 49,
+    "close_date": "2025-08-28",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Asher Scott",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Riley Park",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 20
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Asher Scott at RidgeCollective expressing interest in CRM automation capabilities. Initial inquiry focused on understanding how our platform compares to their current evaluation of Fathom for automating customer success workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform handle automated follow-ups for our CS team across multiple student cohorts?",
+          "answer": "Yes, our unlimited automation tier supports multi-segment workflows with conditional logic and personalization at scale."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and case studies",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with EdTech case studies and product overview. Asher confirmed interest and shared that they're evaluating Fathom but concerned about customization limits for their CS workflows. Mentioned Riley Park from implementation team should join next call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have integrations with student information systems?",
+          "answer": "Yes, we have native integrations with common SIS platforms and a flexible API for custom connections."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Include Riley Park in discovery call",
+        "Prepare SIS integration demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Sent calendar invite for discovery call with preliminary agenda. Asher confirmed timing works and noted that Riley will join. He mentioned they need a solution in place before fall semester starts, creating some urgency around timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Send pre-call questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-25",
+      "type": "discovery_call",
+      "duration_minutes": 6,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Asher covering current pain points in CS workflows. Team of 28 is manually tracking student engagement across 6 cohorts. Fathom is in consideration but lacks workflow customization they need. No executive sponsor mentioned yet\u2014Asher is driving evaluation from CS perspective.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision-making process?",
+          "answer": "Right now it's me and Riley from implementation. I'll need to bring in leadership once we validate the technical fit."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get up and running with 6 seats?",
+          "answer": "Typically 2-3 weeks for implementation with our onboarding team, faster if you have clean data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Riley",
+        "Share implementation timeline",
+        "Discuss executive alignment path"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-30",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Asher and Riley focused on automation builder, SIS integration capabilities, and reporting dashboards. Riley tested workflow setup for cohort-based outreach. Both engaged and asking detailed questions. Compared favorably to Fathom's template-based approach. Still no mention of executive involvement in approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger automations based on student engagement scores from our LMS?",
+          "answer": "Yes, our platform can ingest webhook data from your LMS and use it as trigger conditions in workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your unlimited automation tier versus usage-based pricing?",
+          "answer": "Unlimited automation means no caps on workflow executions, contacts, or triggered actions\u2014flat annual fee."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of May, ideally sooner."
+        }
+      ],
+      "objections": [
+        "Pricing model clarity\u2014want to ensure unlimited truly means no hidden overages"
+      ],
+      "next_steps": [
+        "Send detailed pricing breakdown",
+        "Schedule exec alignment meeting",
+        "Provide Fathom comparison sheet"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-07",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Asher to discuss executive buy-in and business case. Asher shared he's building proposal for VP of Operations but hasn't formally introduced us yet. Discussed ROI model based on CS team time savings. Competitive pressure from Fathom's lower entry price point mentioned. Need to justify premium for customization value.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have our VP join a call with your operations lead to discuss strategic value?",
+          "answer": "Let me get the proposal in front of them first, then we can see if a follow-up call makes sense."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom for a similar seat count?",
+          "answer": "Our unlimited tier is positioned higher but includes features Fathom charges extra for\u2014automation, advanced reporting, and custom integrations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator and business case template",
+        "Follow up on executive introduction",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-14",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal walkthrough call with Asher. Reviewed $6,400 ACV for 6 seats on unlimited automation tier. Asher seemed positive on capabilities but mentioned budget sensitivity given Fathom's competing offer at lower price. No executive on the call yet. Discussed contract terms and implementation timeline. Asher committed to internal review by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual commitment, or do you offer quarterly billing?",
+          "answer": "Our standard is annual, but we can discuss payment terms if that helps with budget approval."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your implementation support look like during onboarding?",
+          "answer": "Dedicated onboarding manager, weekly check-ins, and custom workflow buildout included in first 30 days."
+        }
+      ],
+      "objections": [
+        "Price point higher than Fathom\u2014need to justify delta to finance team"
+      ],
+      "next_steps": [
+        "Asher to review proposal with operations and finance",
+        "Schedule follow-up for questions",
+        "Request executive intro"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-22",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms negotiation call with Asher. Internal team is aligned on technical fit but pushing back on price versus Fathom's proposal. Asher asked about discount options\u2014discussed 10% for annual prepay. Still no executive sponsor engaged directly, which may be delaying final approval. Asher indicates decision will be made this week but needs final sign-off from VP Operations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to a multi-year deal, what kind of pricing improvement can you offer?",
+          "answer": "We can discuss multi-year discounts\u2014typically 15-20% off for 2-3 year commitments with annual prepay."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and expand as we scale usage?",
+          "answer": "Yes, we can structure a 4-seat start with expansion clause built into the agreement."
+        },
+        {
+          "by": "rep",
+          "question": "Can we get time with your VP of Operations to address any final concerns directly?",
+          "answer": "I'll check their availability\u2014they're slammed this week but I can try for early next week."
+        }
+      ],
+      "objections": [
+        "Budget approval dependent on VP sign-off, timeline slipping"
+      ],
+      "next_steps": [
+        "Send revised proposal with 10% discount option",
+        "Request firm VP meeting time",
+        "Set decision deadline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Scott",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal reflecting 10% discount for 6-seat annual prepay at $5,760 ACV. Reiterated implementation timeline and requested confirmation on VP Operations meeting. Asher responded briefly acknowledging receipt and said he's working on internal alignment. No firm timeline provided for next steps. Competitive dynamic with Fathom still present.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await internal decision",
+        "Follow up mid-week if no update",
+        "Prepare executive escalation if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

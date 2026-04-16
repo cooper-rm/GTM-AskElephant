@@ -1,0 +1,22 @@
+# Web framework (webhook entry point)
+fastapi==0.136.0
+uvicorn==0.44.0
+
+# LLM client
+anthropic==0.95.0
+
+# ML stack
+# xgboost pinned to 1.7.x — SHAP 0.42-0.49 is incompatible with xgboost 2.x JSON model format
+xgboost==1.7.6
+shap==0.49.1
+hnswlib==0.8.0
+scikit-learn==1.7.2
+imbalanced-learn==0.14.1
+numpy==1.26.4
+pandas==2.3.3
+
+# PDF generation
+reportlab==4.4.10
+
+# Env + config
+python-dotenv==1.2.1

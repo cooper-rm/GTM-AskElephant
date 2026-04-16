@@ -1,0 +1,162 @@
+{
+  "deal_id": "DEAL-0003",
+  "company": {
+    "name": "JadeCollective",
+    "industry": "PropTech",
+    "employee_count": 15,
+    "annual_revenue": 2273808,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 53.77,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 39.6,
+    "sales_cycle_days": 13,
+    "close_date": "2023-05-30",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "James Wu",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 70
+    },
+    {
+      "name": "Riley Becker",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-13",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "James Wu",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "James Wu submitted inbound demo request via website form. Expressed interest in improving pipeline visibility for their sales team. Brief form mentions they're currently evaluating Gong but want to compare options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "James Wu",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with James Wu. Discussed current challenges with pipeline tracking and forecasting accuracy. James shared they're a 15-person PropTech company with distributed sales team. He's championing the evaluation internally but mentioned limited budget for sales tools this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your reporting compare to Gong's revenue intelligence features?",
+          "answer": "Our automations focus on pipeline health and deal risk scoring, while Gong emphasizes conversation analytics. We can integrate with Gong if you choose both."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the decision process?",
+          "answer": "I'll be driving this, might loop in Riley from my team for technical validation. Our CEO trusts my judgment on sales tools."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we'd need to see strong ROI to justify the investment"
+      ],
+      "next_steps": [
+        "Send proposal for 6 seats with automations package",
+        "Schedule technical demo with Riley"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "James Wu",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with proposal for 6 seats at $6,300 ACV (automations_plus_consulting). James responded positively but requested significant discount to fit budget constraints. Mentioned Gong quoted them lower for similar headcount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $4k annually? That's more aligned with our Q2 budget.",
+          "answer": "Let me discuss with leadership and get back to you with revised pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss pricing flexibility internally",
+        "Revised proposal by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-30",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "James Wu",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "15-minute negotiation call (originally scheduled earlier but rescheduled by James). Presented revised offer at $3,800 ACV (39.6% discount). James accepted pricing and confirmed Riley reviewed the platform positively. No executive sponsor involvement mentioned. James indicated he can sign off independently given the reduced price point.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it make sense to involve your CEO for final sign-off given this is a multi-year commitment?",
+          "answer": "Not necessary, I have approval authority up to $5k annually for sales tools."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include quarterly business reviews as part of the consulting package?",
+          "answer": "Yes, QBRs are standard with the consulting tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for e-signature",
+        "Plan onboarding kickoff for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

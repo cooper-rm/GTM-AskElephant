@@ -1,0 +1,459 @@
+{
+  "deal_id": "DEAL-0594",
+  "company": {
+    "name": "LunarSystems",
+    "industry": "SaaS/Tech",
+    "employee_count": 441,
+    "annual_revenue": 70256291,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16100.0,
+    "seats": 24,
+    "price_per_seat_monthly": 57.44,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 35.5,
+    "sales_cycle_days": 66,
+    "close_date": "2024-01-02",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Abigail Friedman",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 43
+    },
+    {
+      "name": "Leo Costa",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 17
+    },
+    {
+      "name": "Elena Williams",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 35
+    },
+    {
+      "name": "Oliver Sun",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Abigail Friedman from LunarSystems submitted an inbound request expressing interest in onboarding automation solutions. Brief form fill captured company details and use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up to schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email to Abigail thanking her for the inquiry and proposing times for an initial qualification call. Abigail responded confirming availability.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific onboarding challenges are you looking to solve?",
+          "answer": "We're scaling fast and our manual onboarding process can't keep up with new customer volume"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-02",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Abigail. Discussed current onboarding workflow, pain points with manual processes, and timeline. Abigail mentioned they're evaluating Clari as well.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle custom workflows for different customer segments?",
+          "answer": "We support fully customizable automation paths with conditional logic and role-based routing"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Q2 customer growth targets - we need automation in place by end of quarter"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share case studies",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-08",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call diving into team structure and decision process. Abigail confirmed she's the primary champion and mentioned Leo Costa (CRO) will need to sign off. Also evaluating Clari but concerned about their implementation timelines.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation?",
+          "answer": "Leo Costa our CRO for budget approval, Elena Williams in RevOps for day-to-day usage, and Oliver Sun for technical setup"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of implementation support do you provide?",
+          "answer": "Dedicated implementation manager, technical setup assistance, and training for all user roles"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prep demo focusing on onboarding automation",
+        "Include RevOps and Implementation leads"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-13",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on technical requirements and current tech stack. Abigail walked through their existing CRM setup and integration needs. Clarified they need 24 seats across CS and RevOps teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce instance and customer data platform?",
+          "answer": "Yes, native Salesforce integration and API connectors for most major CDPs"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking onboarding metrics?",
+          "answer": "Mostly manual reporting in spreadsheets - we need better visibility and analytics"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Elena and Oliver included",
+        "Prepare integration architecture overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-19",
+      "type": "demo",
+      "duration_minutes": 51,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full platform demo attended by Abigail, Elena, and Oliver. Walked through onboarding automation workflows, analytics dashboard, and integration capabilities. Team engaged positively, Elena asked detailed questions about reporting. Oliver focused on API access and data security.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom reports for exec leadership on onboarding velocity?",
+          "answer": "Absolutely - fully customizable dashboards with real-time metrics and scheduled reports"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and do you support SSO?",
+          "answer": "Unlimited data retention on all plans, SSO supported via SAML and OAuth"
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Clari offers for onboarding specifically?",
+          "answer": "Our automation engine is purpose-built for customer onboarding vs their broader revenue operations focus"
+        }
+      ],
+      "objections": [
+        "Need to validate implementation timeline - concerned about Q2 deadline"
+      ],
+      "next_steps": [
+        "Share implementation timeline and project plan",
+        "Prepare proposal for 24 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-11-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email with demo recap, implementation timeline showing 3-week setup, and customer references in similar industries. Abigail responded positively and mentioned moving toward proposal stage.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review with Leo Costa"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Abigail forwarded internal budget approval request to rep showing initial pricing concerns. Rep responded with flexible payment terms options and ROI calculator based on their expected customer volume.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment options instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly billing with a small processing fee"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with payment flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-12-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Rep shared formal proposal for 24 seats with automations plus consulting package. Abigail acknowledged receipt and confirmed Leo Costa meeting scheduled for proposal review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Leo Costa to review proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-12-10",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Leo Costa",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First exec meeting with Leo Costa and Abigail. Leo focused on business outcomes and competitive positioning. Asked pointed questions about differentiation from Clari and expected ROI timelines.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical payback period for a team our size?",
+          "answer": "Most mid-market customers see positive ROI within 4-5 months based on time savings and faster onboarding cycles"
+        },
+        {
+          "by": "prospect",
+          "question": "Why should we choose you over Clari given their market position?",
+          "answer": "Clari excels at revenue forecasting, but our onboarding automation is deeper with better workflow customization and faster implementation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send competitive analysis and ROI breakdown",
+        "Follow-up meeting to address budget"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 18,
+      "person_name": "Leo Costa",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Leo. Discussed budget constraints and Leo mentioned Clari came in with more aggressive pricing. Rep offered consulting package bundling to add value. Leo appreciates the flexibility but still needs to reconcile with budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include additional consulting hours to help us optimize workflows post-launch?",
+          "answer": "Yes, the automations plus consulting tier includes 40 hours - we can adjust the allocation"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Clari's proposal - need to justify the delta to finance"
+      ],
+      "next_steps": [
+        "Revised proposal with consulting breakdown",
+        "Negotiation meeting to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-12-23",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Leo Costa",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Leo and Abigail. Leo pushed for discount to match competitive pressure from Clari. Rep offered 35% discount to close by end of week and meet their Q2 implementation deadline. Leo agreed pending final legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the 3-week implementation timeline in the contract?",
+          "answer": "Yes, we'll include milestone-based implementation SLA in the agreement"
+        },
+        {
+          "by": "rep",
+          "question": "If we meet the discount request, can you commit to close this week?",
+          "answer": "Yes, I can push legal to turn the contract around quickly if pricing works"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with discount and SLA terms",
+        "Pricing alignment call with Abigail"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-12-27",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing alignment call with Abigail to confirm final numbers before contract. Walked through adjusted $16,100 ACV for 24 seats with consulting. Abigail confirmed this works within budget and will route to legal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the discount apply if we expand seats mid-year?",
+          "answer": "Yes, the discount tier will apply to expansion for the remainder of the contract year"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to legal",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-01-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Rep sent final contract with all negotiated terms to Abigail for legal review. Abigail confirmed receipt and mentioned legal is reviewing with expected signature within 48 hours.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await contract execution",
+        "Prepare implementation team introduction"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

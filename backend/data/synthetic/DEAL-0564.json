@@ -1,0 +1,330 @@
+{
+  "deal_id": "DEAL-0564",
+  "company": {
+    "name": "PlasmaSoftware",
+    "industry": "Fintech",
+    "employee_count": 876,
+    "annual_revenue": 110173413,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10900.0,
+    "seats": 14,
+    "price_per_seat_monthly": 65.49,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.4,
+    "sales_cycle_days": 89,
+    "close_date": "2025-04-30",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Lily Gupta",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 18
+    },
+    {
+      "name": "Avery Iyer",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 50
+    },
+    {
+      "name": "Hazel Klein",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Lily Gupta requesting information about deal intelligence and pipeline visibility tools. She mentioned currently evaluating options and asked for an intro call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer pipeline visibility features for revenue teams?",
+          "answer": "Yes, our platform provides real-time pipeline analytics and deal intelligence across your entire revenue org."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call scheduled for next week. Shared case study on pipeline visibility for fintech companies. Lily confirmed her team size (14) and requested agenda.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send an agenda before our call?",
+          "answer": "Absolutely, I'll send over discussion topics focusing on your pipeline visibility needs and team workflow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare qualification call agenda",
+        "Research PlasmaSoftware use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-12",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lily covering current pain points around forecast accuracy and deal visibility. She mentioned evaluating Fireflies but concerned about depth of analytics. Discussed team structure (14 seats needed) and budget range. Lily is champion, mentioned COO Avery Iyer would need to approve final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your analytics compare to Fireflies for pipeline forecasting?",
+          "answer": "We go beyond transcription to provide predictive deal scoring and risk signals that Fireflies doesn't offer natively."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecasting process and biggest pain point?",
+          "answer": "Manual spreadsheet updates, no real-time visibility. We miss early warning signs on deals slipping."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in COO Avery Iyer",
+        "Schedule discovery with broader team",
+        "Share competitive comparison"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after qualification sharing Fireflies comparison doc and ROI calculator. Lily confirmed interest in moving forward and introduced Hazel Klein from her team to evaluate technical requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Lily, Avery, and Hazel",
+        "Prepare technical deep-dive materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email confirming eval criteria and demo environment setup. Lily requested focus on unlimited automation tier and asked about implementation timeline for mid-market fintech companies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline for a company our size?",
+          "answer": "For mid-market fintech, usually 2-3 weeks from contract to full deployment with your CRM integrated."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct product demo",
+        "Prepare proposal with unlimited automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-22",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Lily walking through $10,900 ACV pricing for 14 seats on unlimited automation plan. Discussed implementation, training, and ROI projections. Lily expressed concern about budget and asked about discount options given they're comparing with Fireflies' lower pricing. Agreed to review internally with Avery before next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're a growing fintech?",
+          "answer": "Let me see what we can do. I can likely offer a discount for annual commitment and fast decision timeline."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to Fireflies pricing for similar capabilities?",
+          "answer": "Fireflies is lower cost but you'd need additional tools for the analytics and scoring features we include. Our all-in-one approach typically has better total ROI."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and budget approval process?",
+          "answer": "Need Avery's sign-off. Budget allocated but want to make sure we're getting best value. Hoping to decide within 2-3 weeks."
+        }
+      ],
+      "objections": [
+        "Pricing higher than Fireflies alternative"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with discount",
+        "Schedule call with Avery to discuss ROI",
+        "Send competitive ROI analysis"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal showing 26% discount on annual plan, bringing total to $10,900 ACV. Included detailed ROI comparison vs Fireflies showing higher value despite price difference. Lily acknowledged and scheduled negotiation call with Avery.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Negotiation call with Lily and Avery",
+        "Prepare executive summary for COO"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-18",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Lily Gupta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Lily and COO Avery Iyer. Avery expressed concern about discount depth and asked why such a large price reduction was possible. Discussed strategic value, implementation support, and annual commitment benefits. Avery requested technical validation call with Hazel before final approval. Overall cautiously interested but wants due diligence completed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why is the discount so significant? Is this your actual pricing or inflated list price?",
+          "answer": "It's a growth-stage discount for annual commitment and fast close. List pricing reflects full support and success services, but we can optimize for the right partner."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you confident in moving forward after Hazel's technical review?",
+          "answer": "Clear implementation plan, data security validation, and confirmation the automation features actually deliver on pipeline visibility promises."
+        }
+      ],
+      "objections": [
+        "Concerned about steep discount indicating pricing games",
+        "Need technical validation before commitment"
+      ],
+      "next_steps": [
+        "Schedule technical validation call with Hazel",
+        "Provide security documentation",
+        "Send implementation timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-30",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Hazel Klein",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical validation and pricing review call with Hazel Klein. Covered data security, API integrations, automation workflows, and platform scalability. Hazel asked detailed questions about unlimited automation tier limits and compared technical capabilities to Fireflies. Confirmed platform meets technical requirements. Discussed final contract terms and implementation kickoff timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the actual limits on unlimited automation tier?",
+          "answer": "No workflow limits, no API call caps. Only fair-use policy preventing abuse, but for 14 seats you'll never hit it with normal usage."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation engine compare technically to Fireflies for custom workflows?",
+          "answer": "Fireflies focuses on transcription workflows. We offer full CRM automation, custom scoring models, and webhook integrations that go far beyond meeting notes."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have any remaining technical concerns before we finalize?",
+          "answer": "No major concerns. Platform looks solid. I'll recommend moving forward to Lily and Avery."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Hazel to brief Avery and Lily",
+        "Send final contract for legal review",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "deal_id": "DEAL-0559",
+  "company": {
+    "name": "EchoAI",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 11521182,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5600.0,
+    "seats": 7,
+    "price_per_seat_monthly": 70.29,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.0,
+    "sales_cycle_days": 43,
+    "close_date": "2024-04-19",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Michael Walsh",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 3
+    },
+    {
+      "name": "Hiroshi Evans",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 33
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-27",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Michael Walsh at EchoAI. No answer, left voicemail introducing our onboarding automation platform and requesting a brief conversation about their CS workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-04",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Michael Walsh introducing our onboarding automation solution for CS teams. Highlighted case study from similar-sized SaaS company. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Third outreach email with specific value prop around reducing onboarding time. Michael responded expressing initial interest and asking for more details about our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What types of onboarding workflows can your platform automate?",
+          "answer": "Our platform handles email sequences, task assignment, document generation, and integration with your existing tools like Zendesk or Intercom."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed capabilities deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Email exchange moving to qualification stage. Michael confirmed they're currently using manual processes and spreadsheets for onboarding. Shared team size (7 CS reps) and pain points around inconsistent customer experience.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current onboarding process and biggest pain point?",
+          "answer": "We use email templates and manual task tracking. Biggest issue is inconsistency - new CSMs miss steps and customers have varying experiences."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-min discovery call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email confirming call agenda and requesting Michael share current onboarding metrics. Michael provided customer onboarding completion rates (62%) and average time-to-value (45 days), expressing urgency to improve both.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics are you tracking for onboarding success?",
+          "answer": "Completion rate is around 62% and time-to-value averages 45 days. We need to improve both significantly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for tomorrow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-19",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute discovery call with Michael Walsh. Discussed current state, budget availability ($5-7K range), and decision process. Michael mentioned he's been in VP of CS role for 3 months and is building credibility by solving this problem quickly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating a solution like this?",
+          "answer": "I own the CS tool budget, but Hiroshi in IT handles procurement and vendor contracts. I can make the call on what we need though."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are live within 2-3 weeks with our standard onboarding workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo video",
+        "Prepare custom demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email with custom demo recording showing EchoAI's specific use case. Michael watched the demo and responded positively, asking about pricing and whether we could move quickly. Mentioned leadership is asking for ROI improvement this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing look like for our team size?",
+          "answer": "For 7 seats with unlimited automation, we're typically around $7K annually. Can provide detailed proposal after we align on requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule live demo with screen share"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-31",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute exec meeting with Michael to review detailed proposal. Walked through pricing ($7,100 initial quote for unlimited automation tier). Michael pushed back on budget, mentioned he only has $5K allocated and asked what flexibility exists.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a scaled-back tier that would fit a tighter budget?",
+          "answer": "We have a standard tier at $4,800 but it limits automation runs. Given your volume needs, unlimited makes more sense."
+        },
+        {
+          "by": "rep",
+          "question": "Would bringing in a finance or exec stakeholder help unlock additional budget?",
+          "answer": "Not really needed - I can get approval if we hit the right number. Just need to stay in my allocated range."
+        }
+      ],
+      "objections": [
+        "Pricing is above allocated CS tools budget"
+      ],
+      "next_steps": [
+        "Explore pricing options",
+        "Michael to confirm final budget ceiling"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-05",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute proposal refinement call. Michael confirmed $5,600 is his ceiling. Discussed contract terms and implementation timeline. Michael wants to close this month to show quick win in his new role.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to close this month?",
+          "answer": "I'm new in this role and need some wins on the board. This solves a real problem and I want to show impact fast."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do $5,600 for 7 seats with unlimited automation?",
+          "answer": "That's a significant discount from our standard pricing. Let me discuss with leadership and get back to you."
+        }
+      ],
+      "objections": [
+        "Needs pricing to be $5,600 or deal won't happen"
+      ],
+      "next_steps": [
+        "Rep to confirm discounted pricing approval",
+        "Michael to loop in Hiroshi for contract review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-12",
+      "type": "negotiation_call",
+      "duration_minutes": 49,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "49-minute negotiation call to finalize terms at $5,600 (21% discount approved). Discussed contract details, implementation support, and success metrics. Michael comfortable moving forward, mentioned Hiroshi will handle paperwork side.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we include a case study commitment as part of the discounted pricing?",
+          "answer": "Sure, happy to do that once we see results in 60-90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like?",
+          "answer": "Dedicated onboarding specialist, weekly check-ins for first month, and 24/7 email support ongoing."
+        },
+        {
+          "by": "rep",
+          "question": "Should we have Hiroshi join a call to review any IT or security requirements?",
+          "answer": "Nah, he just handles the contract flow. I'll brief him offline - he trusts my judgment on tools."
+        }
+      ],
+      "objections": [
+        "Wants to avoid lengthy legal review process"
+      ],
+      "next_steps": [
+        "Send final contract to Michael",
+        "Michael to route to Hiroshi for signature",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-04-19",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Michael Walsh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute exec alignment call with Michael to confirm contract details before final signature. Reviewed implementation plan, success criteria (target 80% completion rate, 30-day time-to-value), and QBR cadence. Michael committed to routing contract to Hiroshi today.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any last concerns before we finalize?",
+          "answer": "No, this makes sense. I'm confident this will help us hit our targets."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "As soon as contract is signed, we'll kick off within 2 business days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Michael sends contract to Hiroshi for signature",
+        "Implementation kickoff scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

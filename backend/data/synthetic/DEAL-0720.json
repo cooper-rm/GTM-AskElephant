@@ -1,0 +1,371 @@
+{
+  "deal_id": "DEAL-0720",
+  "company": {
+    "name": "NexusEdge",
+    "industry": "Vertical SaaS",
+    "employee_count": 593,
+    "annual_revenue": 72820263,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10500.0,
+    "seats": 17,
+    "price_per_seat_monthly": 57.81,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 35.0,
+    "sales_cycle_days": 38,
+    "close_date": "2023-10-16",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sophia Kapoor",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 29
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-18",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Sophia Kapoor, VP of Sales at NexusEdge. No answer, left voicemail introducing AskElephant and sales-to-CS handoff use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-21",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Sophia Kapoor. No answer, no voicemail left this time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-24",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Sophia Kapoor with brief message about helping SaaS sales teams improve handoff processes. No response yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-27",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call connection with Sophia. She acknowledged current pain points with sales-to-CS handoff but mentioned they're already looking at Fireflies. Agreed to a longer qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently experiencing any challenges with your sales-to-CS handoff process?",
+          "answer": "Yes, we're losing context when deals move from sales to implementation. Our CS team often has to re-ask questions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-08",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Sophia covered current workflow pain points and team size. She confirmed 17 sales reps would use the tool. Mentioned Fireflies as alternative but interested in AskElephant's deeper integration capabilities. Discussed budget range and moved to discovery.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many reps would be using this solution?",
+          "answer": "We have 17 sales reps across two teams who would need access."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant differ from Fireflies? We've been evaluating them.",
+          "answer": "Fireflies focuses on transcription, while we provide AI-powered deal intelligence and automated CS handoff workflows with your existing CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule deep-dive call on current workflow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-14",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into NexusEdge's current tech stack and handoff bottlenecks. Sophia shared that their CS team wastes ~5 hours per week reconstructing deal context. Discussed integration with their Salesforce instance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current CRM setup and how are call notes captured today?",
+          "answer": "We use Salesforce. Reps manually enter notes, but it's inconsistent. CS complains they can't find key details."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Slack channels for notifications?",
+          "answer": "Yes, we have native Slack integration for handoff alerts and deal summaries."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical integration documentation",
+        "Schedule workflow mapping session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-19",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call mapping out ideal state workflow. Sophia confirmed authority over budget but mentioned she'd need to loop in CS leadership eventually. Discussed automations plus consulting package to customize handoff playbooks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision-making process?",
+          "answer": "I own the sales tooling budget. I'll want CS to see a demo eventually, but I can move forward on evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include?",
+          "answer": "Two dedicated sessions to build custom handoff playbooks and train your team on best practices."
+        }
+      ],
+      "objections": [
+        "Need to understand ROI more clearly before committing"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with sandbox environment",
+        "Prepare ROI calculator based on 5hr/week savings"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-26",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Sophia and two sales managers. Walked through live demo of call transcription, AI summarization, and automated handoff workflow. Team impressed with Salesforce integration but asked detailed questions about Fireflies comparison. Discussed pricing tiers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI handle technical sales calls with lots of product jargon?",
+          "answer": "We fine-tune models on SaaS verticals and allow custom vocabulary training during onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference between your standard and plus tier?",
+          "answer": "Plus includes the consulting package, advanced analytics, and priority support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so within 3-4 weeks."
+        }
+      ],
+      "objections": [
+        "Fireflies pricing is significantly lower for just transcription"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-30",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Sophia. Walked through $10,500 ACV proposal for automations plus consulting package (17 seats). She expressed concern about budget and requested discount to match Fireflies' pricing tier. Discussed value of consulting and deeper automation vs. basic transcription.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you come down on price? Fireflies is about 35% less for our team size.",
+          "answer": "Let me discuss with leadership. The consulting package alone is valued at $3K, but I understand budget constraints."
+        },
+        {
+          "by": "rep",
+          "question": "If we can find a way to bridge the gap, are you ready to move forward?",
+          "answer": "Yes, if we can get closer to our budget, I can get this signed within a week."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fireflies alternative",
+        "Need to justify ROI to finance"
+      ],
+      "next_steps": [
+        "Request approval for 35% discount",
+        "Send revised proposal by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-10-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Email follow-up with revised proposal reflecting 35% discount to match competitive pricing. Total ACV reduced to $10,500. Emphasized consulting value and faster ROI with automated workflows vs. basic transcription.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this pricing lock in for the first year renewal?",
+          "answer": "This is first-year pricing. Renewals are typically at list price, but we can discuss that closer to renewal time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review revised proposal",
+        "Confirm contract terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-10-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Email exchange on contract terms. Sophia requested MSA review by legal and asked about implementation timeline. Confirmed 2-week onboarding with consulting sessions scheduled in weeks 2-3.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send MSA to legal contact",
+        "Prepare implementation plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-10-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Final email confirming legal review complete and contract ready for signature. Sophia indicated she'll sign by end of week pending final budget approval. Discussed kickoff timeline for early next month.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send DocuSign contract",
+        "Schedule kickoff call for first week of next month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

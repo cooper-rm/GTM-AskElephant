@@ -1,0 +1,188 @@
+{
+  "deal_id": "DEAL-0711",
+  "company": {
+    "name": "SageScope",
+    "industry": "SaaS/Tech",
+    "employee_count": 66,
+    "annual_revenue": 9673934,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 66.54,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.2,
+    "sales_cycle_days": 12,
+    "close_date": "2023-04-29",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Michael Bennett",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Bennett",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to Michael Bennett introducing call recording and coaching capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-09",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Bennett",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Michael. He responded expressing interest in improving their sales team's performance and asked about scheduling a quick call to learn more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have time this week to walk me through how this works?",
+          "answer": "Absolutely, I have availability Thursday afternoon or Friday morning if either works for you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call with Michael"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Bennett",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming the upcoming technical evaluation call. Michael confirmed his interest in understanding the platform's coaching workflows and integration capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will we be able to see how the coaching features work in the demo?",
+          "answer": "Yes, I'll walk through our coaching scorecards and feedback loops during our session."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical demo focused on coaching workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-23",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Michael Bennett",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "33-minute technical evaluation call with Michael covering call recording, AI transcription, and coaching scorecard features. Michael was engaged and asked detailed questions about implementation timeline and admin controls. He mentioned they're a small team looking to scale efficiently. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 4 seats, usually 1-2 weeks including training and integration setup."
+        },
+        {
+          "by": "prospect",
+          "question": "Can I control which calls get recorded and which team members have access?",
+          "answer": "Yes, you have full admin controls over recording rules and role-based permissions."
+        },
+        {
+          "by": "rep",
+          "question": "Who else on your team should we involve in evaluating this?",
+          "answer": "I'll be the main point of contact. I can loop in our VP of Sales if needed, but I'll handle the evaluation."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "question": "We're pretty budget-conscious right now, so I'll need to see pricing before we go too far down this path.",
+          "answer": "Totally understand. Let me put together a proposal tailored to your team size and we can review it together."
+        }
+      ],
+      "next_steps": [
+        "Send proposal for 4 seats with unlimited automation",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-29",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Michael Bennett",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute pricing discussion with Michael. Reviewed proposal for 4 seats at $2,900 ACV. Michael requested a discount citing budget constraints for their small team. Rep offered 25% discount to move the deal forward. Michael seemed satisfied and indicated he'd move forward with procurement, though no executive approval process was discussed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given we're a smaller team?",
+          "answer": "Let me see what I can do. I can bring this down to $2,900 annually with a 25% discount if you're ready to move forward this quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What does your approval process look like from here?",
+          "answer": "I have budget authority for tools in this range, so I can move this forward on my end."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Michael to review final terms internally",
+        "Send contract for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

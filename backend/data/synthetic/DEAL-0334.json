@@ -1,0 +1,367 @@
+{
+  "deal_id": "DEAL-0334",
+  "company": {
+    "name": "VortexStudio",
+    "industry": "PropTech",
+    "employee_count": 99,
+    "annual_revenue": 9871754,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8400.0,
+    "seats": 10,
+    "price_per_seat_monthly": 67.77,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 23.9,
+    "sales_cycle_days": 31,
+    "close_date": "2023-05-27",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Grace Iyer",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 7
+    },
+    {
+      "name": "Lily Koch",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-31",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Grace Iyer at VortexStudio. No answer, left voicemail introducing AskElephant's revenue intelligence platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-02",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Grace Iyer highlighting pipeline visibility challenges in PropTech sales. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-04",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Grace Iyer. She confirmed receiving previous outreach and agreed to a longer qualification call next week. Mentioned they're currently looking at conversation intelligence tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently exploring any solutions for revenue intelligence or call analytics?",
+          "answer": "Yes, we've been looking at a few options including Gong."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-27",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Grace Iyer. Discussed VortexStudio's need for better pipeline visibility across their 10-person sales team. Grace mentioned lack of insight into deal health and coaching opportunities. Currently piloting Gong but concerned about cost and complexity.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence platform right now?",
+          "answer": "We're scaling our sales team and losing visibility into deal quality. Hard to coach reps without listening to every call."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking pipeline health?",
+          "answer": "Mostly manual CRM updates and weekly forecast calls. Very subjective."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong? They quoted us pretty high.",
+          "answer": "We're typically 30-40% less for similar feature sets, especially at your scale."
+        }
+      ],
+      "objections": [
+        "Already in pilot with Gong, need to understand differentiation"
+      ],
+      "next_steps": [
+        "Send competitive comparison doc",
+        "Schedule follow-up to discuss use cases"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-30",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Grace reviewed the Gong comparison and is interested in AskElephant's automation features. Discussed specific use case around pipeline visibility for their CS-to-sales handoffs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you automatically flag deals that are at risk based on conversation patterns?",
+          "answer": "Yes, our risk scoring looks at engagement patterns, questions asked, competitor mentions, and more."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to demo/evaluation stage",
+        "Grace to include RevOps analyst Lily Koch"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-04",
+      "type": "follow_up_call",
+      "duration_minutes": 6,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call to confirm demo logistics. Grace mentioned Lily Koch from RevOps will join to evaluate technical fit. Confirmed they're still running Gong pilot but timeline is flexible.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the decision timeline on your end?",
+          "answer": "Gong pilot ends in 3 weeks, but we're not locked in. Want to see what else is out there."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Grace and Lily"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo. Grace confirmed strong interest in unlimited automation tier. Requested pricing for 10 seats and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation time for a team our size?",
+          "answer": "Usually 2-3 weeks including integrations and team onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 10 seats, unlimited automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-11",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Grace. Walked through pricing at $11,040 ACV for 10 seats. Grace pushed back on price, noting Gong offered a deeper discount. Discussed ROI and feature differences. She mentioned needing to keep this under $10k to avoid exec approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? We're a small team and Gong came in lower than expected.",
+          "answer": "Let me see what we can do. What's your target budget?"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the final decision?",
+          "answer": "Just me and Lily if we stay under $10k. Above that, our VP Sales needs to approve."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale up?",
+          "answer": "We can, but per-seat pricing increases below 10 seats. Better value at 10."
+        }
+      ],
+      "objections": [
+        "Price too high compared to Gong discount",
+        "Needs to stay under $10k threshold"
+      ],
+      "next_steps": [
+        "Rep to check on discount approval",
+        "Grace to review with Lily"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-17",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call. Discussed revised pricing scenarios. Grace reiterated budget constraint and mentioned Lily is supportive but concerned about switching costs from Gong pilot. Rep offered to connect with VP Sales to discuss strategic value.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to bring your VP Sales into the conversation to discuss strategic fit?",
+          "answer": "Honestly, I'd rather keep this simple. If we can hit the number, Lily and I can move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price for 10 seats?",
+          "answer": "I can get approval for $8,400 ACV with a 12-month commit."
+        }
+      ],
+      "objections": [
+        "Prefers to avoid exec involvement"
+      ],
+      "next_steps": [
+        "Send updated proposal at $8,400",
+        "Grace to review with Lily and confirm"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-24",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing finalization call. Grace accepted $8,400 ACV for 10 seats, unlimited automation tier. Discussed contract terms and implementation kickoff. Lily joined briefly to confirm technical requirements. Grace wants to move quickly before Gong pilot ends.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual upfront?",
+          "answer": "Yes, we can do quarterly payments at this price point."
+        },
+        {
+          "by": "rep",
+          "question": "When do you want to kick off implementation?",
+          "answer": "ASAP, ideally next week so we can transition smoothly from Gong."
+        },
+        {
+          "by": "rep",
+          "question": "Should we loop in your VP Sales for a quick kickoff intro?",
+          "answer": "Not necessary, we're good to go on our end."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with contract and implementation timeline. Grace confirmed she's reviewing with legal and expects to sign by end of week. Reiterated urgency to start before Gong pilot renewal decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Grace to return signed contract",
+        "Implementation team to prepare kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

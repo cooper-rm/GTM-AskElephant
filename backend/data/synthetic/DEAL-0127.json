@@ -1,0 +1,335 @@
+{
+  "deal_id": "DEAL-0127",
+  "company": {
+    "name": "CrimsonPortal",
+    "industry": "EdTech",
+    "employee_count": 53,
+    "annual_revenue": 10682183,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4400.0,
+    "seats": 7,
+    "price_per_seat_monthly": 52.67,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.8,
+    "sales_cycle_days": 38,
+    "close_date": "2023-10-28",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Kwame Hill",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Ezra Hassan",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Kwame Hill, Director of Sales at CrimsonPortal. Expressed interest in onboarding automation tools to streamline new hire training processes for their growing sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming receipt of inbound request. Proposed times for qualification call and asked about current onboarding challenges.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest pain points with onboarding today?",
+          "answer": "Manual processes, inconsistent training across team members"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirmed qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-25",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Kwame. Discussed current onboarding workflow and timeline challenges. Kwame mentioned he recently started as Director of Sales and is evaluating tools to modernize their processes. Also looking at Clari.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Clari for onboarding use cases?",
+          "answer": "Our automation is purpose-built for workflow orchestration, while Clari focuses more on forecasting and revenue intelligence"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to deep-dive into requirements"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-28",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call covered team structure (7 sales reps), current onboarding timeline (3-4 weeks), and desired outcomes. Kwame shared frustration with manual task tracking and wants to reduce ramp time. Budget discussion surfaced need for cost-effective solution given company size.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Ezra Hassan, our Sales Manager, will be the primary user. I can drive the decision from here."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "4-6 weeks for full onboarding automation setup with your team size"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot before committing to all 7 seats?",
+          "answer": "We recommend starting with full team adoption to see real impact on ramp time metrics"
+        }
+      ],
+      "objections": [
+        "Concerned about upfront cost for a small team"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Send pricing overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-06",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Kwame walking through unlimited automation tier features. Demonstrated workflow templates, task automation, and analytics dashboard. Kwame engaged with questions about customization and integration with existing CRM. Expressed concern about pricing relative to Clari's offering.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize automation workflows for our specific onboarding checklist?",
+          "answer": "Yes, fully customizable with drag-and-drop workflow builder"
+        },
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our existing CRM?",
+          "answer": "Native integrations with major CRMs via API, setup included in implementation"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier vs. lower tiers?",
+          "answer": "Unlimited workflows, advanced analytics, priority support, and dedicated CSM"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have Ezra join the next call to see the end-user experience?",
+          "answer": "I'll check with him, but I can relay the key points for now"
+        }
+      ],
+      "objections": [
+        "Price point seems high compared to Clari's quoted rate"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-11",
+      "type": "proposal_call",
+      "duration_minutes": 5,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Short proposal call to present initial pricing at $7,400 ACV for 7 seats with unlimited automation. Kwame pushed back immediately on pricing, citing budget constraints and Clari's lower quote. Call ended with agreement to explore discount options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on this price for a company our size?",
+          "answer": "Let me discuss with my manager about SMB pricing options"
+        }
+      ],
+      "objections": [
+        "Budget is a major constraint, need significant discount to move forward"
+      ],
+      "next_steps": [
+        "Return with revised pricing proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-18",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call presenting revised offer at $4,400 ACV (40% discount) to align with CrimsonPortal's budget. Kwame responded positively to the pricing adjustment and indicated he could move forward at this rate. Discussed implementation timeline and next steps toward contracting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At this price point, are we ready to move forward with contracting?",
+          "answer": "Yes, this works for our budget. I'll need to get final sign-off internally but should be straightforward."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add more seats later if we expand the team?",
+          "answer": "Absolutely, you can add seats anytime with prorated pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for internal review",
+        "Schedule negotiation call for contract terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-21",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to review contract terms. Kwame requested adjustments to payment terms (quarterly vs. annual) and wanted to clarify cancellation policy. Discussion about implementation support and training for Ezra's team. Kwame mentioned internal review is ongoing but expects to finalize this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Annual is standard for this discount level, but we can discuss with finance"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't work out?",
+          "answer": "30-day notice required, no cancellation fee after first quarter"
+        },
+        {
+          "by": "rep",
+          "question": "Should we plan implementation kickoff for next month?",
+          "answer": "That should work, pending final approvals this week"
+        }
+      ],
+      "objections": [
+        "Prefers quarterly payment terms over annual commitment"
+      ],
+      "next_steps": [
+        "Revise contract with payment terms adjustment",
+        "Follow up on internal approval status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Hill",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised contract reflecting quarterly payment terms. Requested update on internal approval timeline and confirmed implementation team availability for early May kickoff.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any update on internal approval status?",
+          "answer": "Still working through it, will update by end of week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal approval confirmation",
+        "Prepare implementation plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

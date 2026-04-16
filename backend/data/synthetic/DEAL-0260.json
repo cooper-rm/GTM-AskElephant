@@ -1,0 +1,156 @@
+{
+  "deal_id": "DEAL-0260",
+  "company": {
+    "name": "GalacticMarket",
+    "industry": "Professional Services",
+    "employee_count": 22,
+    "annual_revenue": 2668486,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 58.09,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.7,
+    "sales_cycle_days": 23,
+    "close_date": "2025-04-11",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Emily Suzuki",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-23",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Emily Suzuki at GalacticMarket regarding onboarding automation challenges. Email highlighted how our platform could streamline their professional services onboarding process. Emily responded expressing interest in learning more about automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss current onboarding workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-19",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Emily Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Emily Suzuki to understand GalacticMarket's onboarding automation needs. Emily described manual client onboarding processes taking 3-4 days per client. Discussed team size (22 employees, 9 would use the platform) and current pain points. Emily mentioned they're also evaluating Fireflies but is concerned about feature gaps for their specific workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current onboarding process look like and where are the biggest bottlenecks?",
+          "answer": "We have a lot of manual handoffs between sales, CS, and delivery teams. Email threads get messy and things fall through the cracks. Takes us 3-4 days to fully onboard a new client when it should be same-day."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fireflies? They seem focused on meeting transcription but we need more end-to-end workflow automation.",
+          "answer": "Our platform goes beyond just transcription - we offer full workflow automation, task routing, and integration with your existing tools. We can automate the entire handoff process you described."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product materials focused on workflow automation",
+        "Emily to share internally with CS team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Emily with case study showing similar professional services company reducing onboarding time by 65%. Included comparison sheet highlighting our automation capabilities vs. Fireflies' meeting-focused approach. Emily responded asking about pricing and implementation timeline for 9 seats with unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What would pricing look like for 9 seats on the unlimited automation plan, and how long does implementation typically take?",
+          "answer": "Sent initial pricing framework and noted we'd schedule a dedicated call to discuss custom package and implementation timeline."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to discuss package and terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-11",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Emily Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Emily covering 9-seat unlimited automation package. Emily expressed strong interest but noted budget constraints and mentioned she'd need to get buy-in from leadership. Discussed standard pricing of $9,800 ACV; Emily requested significant discount to fit budget. Agreed to $6,400 ACV (34.7% discount) to close before quarter end. Emily seemed hesitant about timeline and mentioned needing to loop in others, but committed to moving forward if we could meet the price point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "The unlimited automation tier is exactly what we need, but $9,800 is above our allocated budget. Is there flexibility on pricing?",
+          "answer": "Given the timing and your team size, we can offer $6,400 ACV to help you get started this quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve from your leadership team to ensure smooth rollout and buy-in?",
+          "answer": "I can handle this on the CS side. If the price works, I'm confident I can get internal approval to move forward."
+        }
+      ],
+      "objections": [
+        "Initial pricing too high for current budget allocation",
+        "Needs to happen quickly - end of quarter deadline creating urgency but also pressure"
+      ],
+      "next_steps": [
+        "Emily to get internal approval at $6,400 ACV",
+        "Send contract for 9 seats, unlimited automation tier",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

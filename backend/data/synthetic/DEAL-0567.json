@@ -1,0 +1,259 @@
+{
+  "deal_id": "DEAL-0567",
+  "company": {
+    "name": "FusionForge",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 18145231,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 59.55,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.1,
+    "sales_cycle_days": 36,
+    "close_date": "2025-01-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Zainab Johnson",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Zainab Johnson from FusionForge submitted an inbound request expressing interest in conversation intelligence for improving their sales-to-CS handoff process. Currently evaluating solutions including Chorus.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current handoff process",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming receipt of inbound request and proposing times for discovery call. Zainab responded positively, confirming her availability and mentioning their team size of approximately 6 sales reps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support integrations with Salesforce and Slack?",
+          "answer": "Yes, we have native integrations with both platforms and can demonstrate the workflow in our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery email recapping Zainab's pain points: missed context during CS handoffs, inconsistent call documentation, and lack of visibility into customer sentiment trends. Confirmed interest in moving forward with technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI summarization compare to Chorus in terms of accuracy?",
+          "answer": "Shared case study showing 95% accuracy rate and highlighted our custom workflow automation capabilities that differentiate us from Chorus."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Share ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-29",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation demo rescheduled once, then conducted with Zainab. Walked through unlimited automation tier features, sales-to-CS handoff workflows, and Slack integration. Zainab engaged positively but mentioned need to compare with Chorus before moving forward. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different customer segments?",
+          "answer": "Yes, demonstrated template customization and conditional workflow logic."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Standard onboarding is 2-3 weeks with dedicated CSM support."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your VP of Sales or CS leader for the next conversation?",
+          "answer": "Zainab mentioned she'd loop them in once she narrows down to final vendor, currently owns the evaluation."
+        }
+      ],
+      "objections": [
+        "Need to finish evaluation with Chorus before committing to next steps"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 6 seats",
+        "Zainab to complete internal comparison by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 14.6,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal email with pricing for 6 seats on unlimited automation tier at list price. Zainab responded requesting discount to match budget constraints, mentioned Chorus came in lower. Asked if we could be more competitive on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual contract price to get closer to our budget?",
+          "answer": "Offered to schedule call to discuss pricing options and understand budget parameters."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-12",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing. Zainab shared budget target significantly below list price, mentioned Chorus proposal as benchmark. Discussed value differentiation of unlimited automation tier. Rep offered preliminary discount to move deal forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you by end of quarter?",
+          "answer": "Zainab indicated pricing parity with Chorus and faster implementation timeline would close the gap."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you include additional professional services hours in the package?",
+          "answer": "Agreed to include 10 hours of implementation support as part of negotiated package."
+        }
+      ],
+      "objections": [
+        "Pricing still higher than Chorus even with initial discount offered"
+      ],
+      "next_steps": [
+        "Rep to confirm extended discount approval internally",
+        "Zainab to review revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-21",
+      "type": "negotiation_call",
+      "duration_minutes": 40,
+      "person_name": "Zainab Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with significant discount approved (33% off list) to match competitive pressure from Chorus. Zainab confirmed pricing works within budget. Discussed contract terms, implementation kickoff timeline, and success metrics for handoff process improvement. Still only Zainab on stakeholder side, though she confirmed internal alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month contract instead of annual commitment?",
+          "answer": "Explained annual discount tier requires 12-month term, but offered quarterly business reviews and 30-day out clause after month 6 if success metrics not met."
+        },
+        {
+          "by": "rep",
+          "question": "Should we set up a quick intro call with your sales and CS leads before contract signature?",
+          "answer": "Zainab said she'd handle internal communication and felt confident moving forward with current terms."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we realistically go live after contract signature?",
+          "answer": "Committed to 2-week implementation with kickoff scheduled within 3 business days of signature."
+        }
+      ],
+      "objections": [
+        "Concern about annual commitment without executive visibility into decision"
+      ],
+      "next_steps": [
+        "Send final contract with approved discount",
+        "Zainab to review with legal and return signed agreement",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

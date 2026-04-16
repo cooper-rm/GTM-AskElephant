@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0301",
+  "company": {
+    "name": "EchoChannel",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 52,
+    "annual_revenue": 6862234,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 47.49,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 46.6,
+    "sales_cycle_days": 28,
+    "close_date": "2025-10-07",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Parker Evans",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "David Rivera",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 24
+    },
+    {
+      "name": "Rosa Mehta",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 23
+    },
+    {
+      "name": "Ella Le",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-23",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.8,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Director of Sales at EchoChannel regarding CRM automation needs. Rep introduced AskElephant's workflow automation capabilities for managed IT teams. Parker responded expressing initial interest in exploring solutions to reduce manual CRM tasks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specific CRM platforms do you integrate with?",
+          "answer": "We support native integrations with Salesforce, HubSpot, Pipedrive, and most major CRMs through our API framework."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to review brief product overview",
+        "Rep to follow up next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email addressing CRM integration questions. Rep shared case study of similar managed IT services company that reduced data entry time by 60%. Parker confirmed interest in scheduling a discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For 6 users, usually 2-3 weeks from kickoff to full deployment, including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Parker to identify other stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 28.1,
+      "rescheduled": false,
+      "ai_summary": "Brief confirmation email with calendar link for discovery call. Parker confirmed availability and mentioned wanting to involve IT and RevOps team members to evaluate technical fit.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday",
+        "Parker to send invite to David (IT) and Rosa (RevOps)"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-17",
+      "type": "follow_up_call",
+      "duration_minutes": 27,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Parker to understand current CRM workflow pain points. EchoChannel's sales team manually logs service tickets, updates deal stages, and tracks cybersecurity renewals. Parker highlighted time lost to administrative tasks and desire to automate routine updates. Rep walked through automation workflows and use cases.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What percentage of your team's time is spent on manual CRM updates versus selling?",
+          "answer": "Probably 20-25% goes to admin work. Our reps are logging tickets, updating pipeline, chasing approvals."
+        },
+        {
+          "by": "rep",
+          "question": "Are you currently using any automation tools or just native CRM features?",
+          "answer": "Just basic HubSpot workflows. Nothing sophisticated."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system trigger actions based on email content, like automatically creating tasks when a client mentions renewal?",
+          "answer": "Yes, our NLP engine can parse email and call transcripts to identify triggers and create automated workflows."
+        }
+      ],
+      "objections": [
+        "Parker mentioned budget is tight this quarter and would need to see clear ROI before getting buy-in."
+      ],
+      "next_steps": [
+        "Rep to schedule technical evaluation with Rosa and IT team",
+        "Rep to prepare ROI analysis based on time savings"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-23",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Rosa Mehta",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Rosa (RevOps Analyst) focused on workflow configuration, data security, and HubSpot integration. Rosa tested automation builder interface and API documentation. Discussion covered permission controls, data handling compliance, and reporting capabilities. Rosa appeared satisfied with technical capabilities but noted need for IT security review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data encryption for customer information processed through your automation workflows?",
+          "answer": "All data is encrypted at rest with AES-256 and in transit with TLS 1.3. We're SOC 2 Type II certified and provide audit logs."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set role-based permissions so only certain team members can edit specific workflows?",
+          "answer": "Yes, granular RBAC is built in. You can restrict by user, team, or department at the workflow level."
+        },
+        {
+          "by": "rep",
+          "question": "What's your typical approval process for new software tools?",
+          "answer": "IT Director David needs to review security and integrations, then Parker gets budget sign-off. Usually takes 1-2 weeks if no red flags."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer a sandbox environment for testing before we deploy to production?",
+          "answer": "Yes, every account includes a full sandbox instance that mirrors your production setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rosa to coordinate security review with David",
+        "Rep to send compliance documentation and SOC 2 report",
+        "Follow up on pricing after technical approval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal and pricing breakdown for 6-seat unlimited automation plan. Rep included ROI calculator showing projected 15 hours/week time savings across team. Parker acknowledged receipt and mentioned discussing internally before executive review meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on seat count? We might need to add 2-3 more users in Q3.",
+          "answer": "Absolutely. You can add seats anytime and we'll prorate the billing. Volume discounts apply at 10+ seats."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to review proposal with finance",
+        "Schedule exec alignment meeting for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-29",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive alignment meeting was rescheduled by Parker due to conflicting priorities. Brief email exchange confirmed new time for following week. Parker mentioned wanting to ensure David (IT Director) and finance stakeholder could attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting to following Tuesday",
+        "Parker to confirm attendees"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-04",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Parker focused on budget constraints and discount requests. Parker indicated budget approval requires staying under $3,500 ACV and mentioned competing priorities for Q2 spending. Rep offered 46% discount to meet budget threshold and close before quarter end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical annual increase after year one?",
+          "answer": "Standard renewals are at list price, but we lock rates for multi-year commitments. Happy to discuss a 2-year deal."
+        },
+        {
+          "by": "rep",
+          "question": "If we can hit your budget number, what's the timeline to get contracts signed?",
+          "answer": "I can probably get this through finance within a week if the discount works. Just need final nod from leadership."
+        }
+      ],
+      "objections": [
+        "Parker pushed back on list pricing, stating it's 60% over allocated budget for CRM tools this quarter."
+      ],
+      "next_steps": [
+        "Rep to send revised proposal with discount applied",
+        "Parker to present to leadership for final approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-07",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Parker Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final exec alignment meeting with Parker to confirm terms and address remaining questions. Parker confirmed discounted pricing works within budget and that David completed IT security review with no blockers. Discussion covered implementation timeline and onboarding support. Parker committed to pushing contracts through legal and finance for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does onboarding support look like? Do we get a dedicated CSM?",
+          "answer": "You'll have a dedicated implementation specialist for first 30 days, then transition to shared CSM with monthly check-ins."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from David's security review we should address?",
+          "answer": "No, he signed off. Only flagged standard items around SSO setup, which you said is included."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start implementation before full payment if we have PO approved?",
+          "answer": "Yes, we can kick off onboarding once PO is issued, don't need to wait for payment to clear."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to route contract to legal for review",
+        "Target signature by end of week",
+        "Rep to prepare implementation kickoff plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

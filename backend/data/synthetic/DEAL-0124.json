@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0124",
+  "company": {
+    "name": "OrbitFoundry",
+    "industry": "PropTech",
+    "employee_count": 1000,
+    "annual_revenue": 71709362,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15000.0,
+    "seats": 21,
+    "price_per_seat_monthly": 60.3,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.2,
+    "sales_cycle_days": 35,
+    "close_date": "2024-01-05",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Charlotte Ahmed",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 10
+    },
+    {
+      "name": "Ade Smith",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 46
+    },
+    {
+      "name": "Mason Sato",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Charlotte Ahmed at OrbitFoundry regarding AI note-taking for sales-to-CS handoff. She mentioned they're currently evaluating solutions and Fathom is in the mix. Brief intro call scheduled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM and support automated handoff documentation?",
+          "answer": "Yes, we have native integrations with major CRMs and our automation tier includes automated handoff summaries and action items."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call. Charlotte responded confirming time and asked if we could include use case examples specific to PropTech sales handoffs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share examples of how PropTech companies use this for sales handoffs?",
+          "answer": "Attached three case studies including a real estate SaaS company that reduced handoff time by 60%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare PropTech-specific examples for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-06",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Charlotte covering current pain points. OrbitFoundry loses context during sales-to-CS transitions, leading to customer frustration. Team of 21 sales reps. Charlotte emphasized need for automation given team size. Asked about Fathom comparison.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's? They seem strong on meeting recording.",
+          "answer": "Fathom excels at recording, but our unlimited automation tier includes custom workflows, CRM field mapping, and intelligent handoff triggers that go beyond basic transcription."
+        },
+        {
+          "by": "rep",
+          "question": "What's the biggest gap in your current handoff process?",
+          "answer": "CSMs often miss key commitments made during sales calls, and manual note-taking is inconsistent across our 21 reps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on automation workflows",
+        "Loop in technical evaluator for workflow setup discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-11",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call diving into technical requirements. Charlotte introduced Mason Sato (Sales Manager) who will evaluate workflow setup. Discussed integration requirements and Mason asked detailed questions about customization limits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields auto-populate in Salesforce during handoff?",
+          "answer": "Yes, unlimited automation includes full field mapping and custom triggers based on call content."
+        },
+        {
+          "by": "rep",
+          "question": "Who on the CS team would be the primary user of these handoff reports?",
+          "answer": "Our CS Director and 8 CSMs. They need consistent formatting and key decision points surfaced automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Mason attending",
+        "Prepare workflow customization examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-16",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled once due to Charlotte's conflict. Full product walkthrough focusing on automation workflows and sales-to-CS handoff templates. Mason tested custom field mapping. Charlotte seemed impressed but noted Fathom's pricing is lower. Asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation time for a team our size?",
+          "answer": "With 21 seats and custom workflows, typically 2-3 weeks including training and CRM integration."
+        },
+        {
+          "by": "prospect",
+          "question": "Fathom quoted us about 30% less. What justifies the premium?",
+          "answer": "The unlimited automation tier includes features Fathom doesn't offer\u2014custom workflows, advanced CRM triggers, and dedicated handoff templates. Happy to discuss pricing to find the right fit."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale up?",
+          "answer": "Absolutely, though per-seat pricing improves at higher volumes. We can structure this to align with your rollout plan."
+        }
+      ],
+      "objections": [
+        "Pricing concerns compared to Fathom"
+      ],
+      "next_steps": [
+        "Send proposal with 21-seat pricing",
+        "Schedule executive alignment call with Ade Smith"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Proposal sent via email with tiered pricing options. Charlotte responded asking for a call with Ade Smith (SVP of Revenue) to discuss budget alignment and ROI justification versus Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you join a call with our SVP to walk through ROI and pricing rationale?",
+          "answer": "Absolutely, happy to present the business case and discuss how the automation features deliver measurable time savings."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Ade Smith",
+        "Prepare ROI deck comparing time savings vs. Fathom"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-26",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Ade Smith",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ade Smith and Charlotte. Ade focused on ROI and asked pointed questions about pricing versus Fathom. Presented data showing automation saves ~4 hours/week per rep. Ade expressed support but emphasized budget constraints and requested best pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the hard ROI on 4 hours saved per rep per week?",
+          "answer": "At 21 reps, that's 84 hours/week or ~360 hours/month. At an average loaded cost of $75/hour, you're looking at $27K/month in productivity gains."
+        },
+        {
+          "by": "prospect",
+          "question": "Fathom came in significantly lower. Can you match or get closer?",
+          "answer": "I can work with our team on pricing. The feature gap is substantial, but I understand budget is a priority. Let me see what flexibility we have."
+        },
+        {
+          "by": "rep",
+          "question": "If we can find middle ground on pricing, is this a priority for this quarter?",
+          "answer": "Yes, we want to solve this before Q3. If the numbers work, we can move quickly."
+        }
+      ],
+      "objections": [
+        "Price delta versus Fathom is a significant concern"
+      ],
+      "next_steps": [
+        "Work with leadership on discount approval",
+        "Send revised proposal within 48 hours"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-31",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled once. Presented revised pricing with 32% discount to close gap with Fathom while maintaining value differentiation. Charlotte and Mason on the call. Discussion focused on contract terms, payment structure, and final seat count confirmation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can offer quarterly billing at a 5% premium to the annual rate, or keep annual prepay at the discounted rate."
+        },
+        {
+          "by": "prospect",
+          "question": "Is the 32% discount locked in for renewal or first year only?",
+          "answer": "This is first-year pricing. Renewals are typically at list, but we can discuss year-two pricing as part of the agreement if that helps with planning."
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on 21 seats, or is there flexibility there?",
+          "answer": "21 is correct for the full sales team. We may add a few CS seats later but want to start there."
+        }
+      ],
+      "objections": [
+        "Preference for quarterly billing versus annual prepay"
+      ],
+      "next_steps": [
+        "Send final contract with annual prepay option and quarterly alternative",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Charlotte Ahmed",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email sent with contract options (annual prepay at 32% discount vs. quarterly at reduced discount). Charlotte acknowledged receipt and said she's reviewing with Ade and legal. Requested 3-5 business days for internal approvals.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal approvals",
+        "Follow up mid-week if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

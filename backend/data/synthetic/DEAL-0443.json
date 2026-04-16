@@ -1,0 +1,351 @@
+{
+  "deal_id": "DEAL-0443",
+  "company": {
+    "name": "ForgeMedia",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 736,
+    "annual_revenue": 221225492,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17400.0,
+    "seats": 20,
+    "price_per_seat_monthly": 71.18,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.0,
+    "sales_cycle_days": 42,
+    "close_date": "2025-07-12",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Savannah Nelson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 63
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Savannah Nelson, Director of CS at ForgeMedia. She's looking for a solution to improve pipeline visibility across their sales team. Currently evaluating alternatives including Fireflies. Interested in learning more about our automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-31",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Savannah. ForgeMedia has 20 revenue team members who need better visibility into deal conversations. They're a managed IT/cybersecurity firm with 736 employees. Savannah mentioned they're also looking at Fireflies but prefers our unlimited automation tier. Budget appears to be in range for mid-market deal.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for pipeline visibility right now?",
+          "answer": "Our CS team is scaling fast and we're losing track of customer health signals in calls. Need automated way to surface risks."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your unlimited automation plan include real-time alerting for risk signals?",
+          "answer": "Yes, we can configure custom alerts based on keywords, sentiment shifts, or specific topics mentioned."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to dive into use cases",
+        "Send pricing overview for 20 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-04",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on ForgeMedia's workflow. Savannah walked through their current process using manual note-taking and inconsistent CRM updates. She's the main champion but mentioned needing to loop in leadership eventually. Discussed integration requirements with their existing stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Right now it's mainly me, but I'll need to get buy-in from our VP of Revenue eventually. Let me validate the tech first."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies on the automation side?",
+          "answer": "Our unlimited automation tier includes advanced workflow triggers and custom integrations that aren't available in Fireflies' standard plan."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Every customer call automatically logged with key insights surfaced, and our team spending 50% less time on admin work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with her team",
+        "Provide integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-11",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Savannah and two CS team members. Walked through platform setup, automation workflows, and pipeline visibility dashboards. Team tested real call scenarios and explored custom alert configurations. Savannah's colleagues were engaged and asked detailed questions about data security and GDPR compliance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where are recordings stored?",
+          "answer": "Recordings are encrypted and stored in SOC2-compliant US data centers. Retention is configurable from 30 days to unlimited based on your plan."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set up role-based access so only managers see certain deal insights?",
+          "answer": "Yes, granular permission controls are included. You can restrict access by team, role, or specific deal stages."
+        },
+        {
+          "by": "rep",
+          "question": "How many workflows would you want to automate in your initial rollout?",
+          "answer": "Probably 3-4 to start: risk signal alerts, competitor mentions, pricing discussions, and renewal health scores."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing Salesforce instance without custom dev work?",
+          "answer": "Yes, we have a native Salesforce connector that syncs call data and insights automatically. No custom development needed."
+        }
+      ],
+      "objections": [
+        "One team member raised concerns about adoption if the interface is too complex for non-technical users"
+      ],
+      "next_steps": [
+        "Schedule full product demo for broader team",
+        "Send security documentation and SOC2 report"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-18",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Savannah and 4 team members. Demonstrated end-to-end workflow from call recording to automated CRM updates and dashboard insights. Showed competitive intel tracking and how Fireflies mentions would be flagged. Team responded well to the pipeline visibility features. Savannah asked about pricing tiers and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 20 seats with standard integrations, usually 1-2 weeks from contract signature to full rollout."
+        },
+        {
+          "by": "prospect",
+          "question": "If we start with 20 seats, how easy is it to scale up later?",
+          "answer": "Very straightforward\u2014just a seat expansion amendment. No re-implementation needed."
+        },
+        {
+          "by": "rep",
+          "question": "Based on what you've seen, does this address your core pipeline visibility needs?",
+          "answer": "Definitely. The automated risk detection and competitor tracking are exactly what we need. Just need to figure out budget approval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with 20-seat pricing",
+        "Savannah to review internally and discuss with leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-25",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Savannah. Walked through $17,400 ACV pricing for 20 seats on unlimited automation plan. She seemed comfortable with the number but mentioned she hasn't fully briefed her VP yet. Asked about discount flexibility and payment terms. Discussed annual vs quarterly billing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we commit to annual upfront payment?",
+          "answer": "We can offer a 10% discount for annual prepayment, which would bring it down to $15,660."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision? Any budget cycles we should be aware of?",
+          "answer": "We're working on Q2 budget right now. I'd like to get this approved in the next few weeks, but I need to loop in our VP of Revenue first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Savannah to present to VP of Revenue",
+        "Follow up next week on timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on VP conversation. Savannah responded that she's had a preliminary discussion but the VP wants to see a more detailed ROI breakdown before moving forward. She's still supportive but flagged that the decision timeline might extend into late Q2. Asked for case studies from similar-sized companies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any case studies from managed service providers or cybersecurity firms who've seen clear ROI?",
+          "answer": "Yes, I'll send over two relevant case studies\u2014one from a 500-person MSP and another from a security vendor with similar use case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator and case studies",
+        "Offer to join call with VP if helpful"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-06",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Savannah. She mentioned the VP is concerned about the upfront cost and wants to explore starting with fewer seats or a shorter commitment. Asked if we could do a 10-seat pilot or quarterly contract. Also brought up that Fireflies came in lower on their proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would you be open to a 10-seat pilot for one quarter to prove ROI before scaling?",
+          "answer": "We can do a 6-month commitment at 15 seats minimum, which would be $13,050 annually. A one-quarter pilot doesn't align with our standard terms."
+        },
+        {
+          "by": "rep",
+          "question": "What was Fireflies' pricing structure? I want to make sure we're comparing apples to apples on capabilities.",
+          "answer": "They came in around $12K annually but their automation features are more limited\u2014no custom workflows or advanced alerting."
+        }
+      ],
+      "objections": [
+        "VP pushing back on budget\u2014wants to start smaller or see shorter commitment option"
+      ],
+      "next_steps": [
+        "Explore 15-seat option as middle ground",
+        "Prepare feature comparison doc vs Fireflies"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-11",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Savannah Nelson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Savannah to find middle ground. Discussed 15-seat option at reduced price point with 12-month commitment. She appreciated the flexibility but said she still needs final VP approval and wants to see the Fireflies feature comparison in writing. Indicated decision likely won't happen until end of month. Mentioned she's championing the deal internally but doesn't have final authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we go with 15 seats at $13,050, can you include onboarding and training at no extra cost?",
+          "answer": "Yes, we include standard onboarding and training for all annual contracts. That's already part of the package."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for your VP? Is it purely a price issue or are there other concerns?",
+          "answer": "Honestly, I think it's partially price and partially that he hasn't been in the evaluation loop. I probably should have brought him in earlier."
+        },
+        {
+          "by": "prospect",
+          "question": "Would you be willing to join a call with me and the VP to walk through the value prop directly?",
+          "answer": "Absolutely\u2014I think that would be really helpful. Let me check his calendar and get something scheduled."
+        }
+      ],
+      "objections": [
+        "VP not engaged in evaluation process\u2014Savannah is single-threaded and lacks authority to close"
+      ],
+      "next_steps": [
+        "Send Fireflies comparison doc",
+        "Schedule call with VP of Revenue",
+        "Savannah to confirm internal timeline by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

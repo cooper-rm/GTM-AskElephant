@@ -1,0 +1,330 @@
+{
+  "deal_id": "DEAL-0373",
+  "company": {
+    "name": "IndigoPulse",
+    "industry": "Marketing Agency",
+    "employee_count": 65,
+    "annual_revenue": 10732496,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 5,
+    "price_per_seat_monthly": 67.89,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 23.7,
+    "sales_cycle_days": 47,
+    "close_date": "2023-08-22",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Derek Jackson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 25
+    },
+    {
+      "name": "Rowan Walker",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Derek Jackson at IndigoPulse expressing interest in onboarding automation solutions. Brief form submission indicating current pain points with manual CS workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Derek"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-06",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Derek Jackson to understand IndigoPulse's current onboarding process. Derek shared that their 65-person marketing agency is struggling with manual client onboarding workflows in CS. Currently evaluating Fathom alongside our solution. Confirmed budget authority lies with leadership team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for onboarding automation right now?",
+          "answer": "Our CS team is buried in repetitive tasks for new client onboarding. We need to scale without adding headcount."
+        },
+        {
+          "by": "rep",
+          "question": "Are you looking at other solutions?",
+          "answer": "Yes, we're also talking to Fathom. They came recommended by a peer agency."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Derek to share current onboarding workflow doc",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming next steps from qualification call. Shared relevant case study from similar marketing agency use case. Derek responded confirming workflow doc sent and availability for discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you support integration with our current help desk system?",
+          "answer": "Yes, we have native integrations with all major platforms plus custom API access."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-21",
+      "type": "discovery_call",
+      "duration_minutes": 40,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Derek Jackson diving deep into IndigoPulse's onboarding workflow. Discussed current 8-step manual process taking avg 12 hours per new client. Derek identified specific automation opportunities around document collection, kickoff scheduling, and progress tracking. Mentioned Fathom's approach felt more recording-focused vs. workflow automation. Expressed concern about getting buy-in from leadership without an exec sponsor championing the project internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through what happens when you sign a new client today.",
+          "answer": "CS manually sends welcome emails, schedules kickoffs, collects onboarding docs, sets up tracking in spreadsheets. It's painful and error-prone."
+        },
+        {
+          "by": "rep",
+          "question": "Who would ultimately sign off on a purchase like this?",
+          "answer": "Our COO owns CS budget, but I'd need to build the business case. Haven't looped her in yet."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Fathom offers?",
+          "answer": "Fathom is strong on call recording and notes, but you're more focused on end-to-end workflow automation which fits our need better."
+        }
+      ],
+      "objections": [
+        "Need to understand ROI clearly to justify internally without a clear executive champion yet"
+      ],
+      "next_steps": [
+        "Schedule demo focused on workflow automation",
+        "Rep to send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-26",
+      "type": "demo",
+      "duration_minutes": 13,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Derek Jackson showcasing onboarding automation workflow builder. Derek engaged positively with unlimited automation tier features. Short demo due to Derek's tight schedule. Agreed technical eval with RevOps would be valuable next step.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation templates for our specific verticals?",
+          "answer": "Yes, fully customizable with conditional logic based on client type, industry, package tier, etc."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce Rowan Walker from RevOps for technical evaluation",
+        "Derek to check COO calendar availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-04",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Rowan Walker",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Rowan Walker, RevOps Analyst at IndigoPulse. Rowan asked detailed questions about API capabilities, data structure, integration with existing HubSpot/Intercom stack. Reviewed security and compliance requirements. Rowan seems thorough but cautious, noted they need to evaluate Fathom's technical stack as well before recommending a vendor. Mentioned Derek is driving this but leadership hasn't been brought in yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we export our automation configs?",
+          "answer": "Unlimited retention on all tiers, full export via API or UI. You own your data completely."
+        },
+        {
+          "by": "prospect",
+          "question": "How does authentication and SSO work?",
+          "answer": "SAML 2.0 SSO included on all plans, supports Okta, Azure AD, Google Workspace."
+        },
+        {
+          "by": "rep",
+          "question": "What's your evaluation timeline looking like?",
+          "answer": "Derek wants to move quickly but we're comparing technical capabilities with Fathom. Probably 2-3 weeks for a decision."
+        }
+      ],
+      "objections": [
+        "Need to complete parallel technical eval with Fathom before making recommendation"
+      ],
+      "next_steps": [
+        "Rowan to complete technical scorecard",
+        "Derek to attempt scheduling COO for exec alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-08",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing discussion with Derek Jackson. Initially scheduled for 30min but rescheduled due to Derek's conflict. Reviewed pricing for 5 seats on unlimited automation tier. Derek expressed sticker shock at list price, mentioned Fathom came in lower. Requested significant discount to move forward. Discussed value justification but Derek emphasized budget constraints and competitive pressure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing for a first-year deal?",
+          "answer": "We can work with you on ramping, but need to understand your budget parameters."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer at the right price?",
+          "answer": "Honestly if we can get close to Fathom's number and I can show clear ROI, I think I can get it approved even without the COO deeply involved yet."
+        }
+      ],
+      "objections": [
+        "List price significantly higher than Fathom's competitive offer"
+      ],
+      "next_steps": [
+        "Rep to discuss discount approval internally",
+        "Derek to attempt one more time getting COO engaged"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-13",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Attempted exec alignment meeting with Derek Jackson. Originally scheduled to include COO but rescheduled when COO couldn't attend. Derek joined solo to discuss revised pricing proposal with 23.7% discount bringing ACV to $4,200. Derek appreciated the movement on price but expressed concern about getting final approval without exec involvement. Acknowledged timeline pressure to make a decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can you help me understand what's preventing the COO meeting?",
+          "answer": "Honestly she's slammed with other priorities right now. I think if the numbers work I can get approval on my authority and brief her after."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Derek to review final pricing internally",
+        "Target decision by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-22",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Derek Jackson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final meeting with Derek Jackson to discuss contract terms and closing. Derek confirmed he's prepared to move forward at the discounted $4,200 ACV for 5 seats despite not having formal COO sign-off yet. He's taking the risk internally to push it through. Mentioned Fathom is still in play but feels our workflow automation is stronger fit. Contract review and signatures targeted for this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does onboarding timeline look like if we sign this week?",
+          "answer": "We can start implementation within 5 business days, full onboarding typically 2-3 weeks depending on complexity."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable moving forward without the COO formally involved?",
+          "answer": "It's not ideal but I have spending authority here and I'll brief her once we're live. I need to solve this onboarding problem now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Derek to coordinate internal contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

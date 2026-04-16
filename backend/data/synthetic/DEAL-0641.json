@@ -1,0 +1,215 @@
+{
+  "deal_id": "DEAL-0641",
+  "company": {
+    "name": "BeaconAI",
+    "industry": "Marketing Agency",
+    "employee_count": 42,
+    "annual_revenue": 5740438,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 47.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 47.1,
+    "sales_cycle_days": 20,
+    "close_date": "2024-05-09",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Olivia Roberts",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 34
+    },
+    {
+      "name": "Hannah Lewis",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 16
+    },
+    {
+      "name": "Chris Hassan",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Olivia Roberts",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Olivia Roberts expressing interest in CRM automation capabilities. Brief initial contact to schedule discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer solutions for automating lead routing and follow-up workflows?",
+          "answer": "Yes, our unlimited automation tier includes advanced workflow builders for lead routing, follow-ups, and multi-channel sequences."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Olivia"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-21",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Olivia Roberts",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Olivia Roberts to understand BeaconAI's CRM automation needs. Discussed current pain points with manual lead assignment and follow-up tracking. Olivia mentioned they're a 42-person marketing agency looking to scale without adding headcount. Confirmed budget range and timeline. 8 seats identified across sales and marketing teams.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "We're growing fast and our manual processes are breaking down. Lead response times are suffering and we're losing deals in the cracks."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to loop in Hannah from IT for any integration questions, and Chris in RevOps who'll be hands-on with the workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and pricing details",
+        "Schedule discovery call with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Olivia Roberts",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product documentation, case study from similar marketing agency, and proposed agenda for deeper discovery call. Olivia responded positively, confirmed availability for next week's meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your automation handle conditional logic based on lead scoring?",
+          "answer": "Yes, the workflow engine supports complex branching logic including lead score thresholds, behavioral triggers, and custom field conditions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm meeting time with Olivia and extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-02",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Olivia Roberts",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery meeting with Olivia Roberts covering detailed workflow requirements and integration needs. Walked through product demo focused on lead routing automation and follow-up sequences. Olivia showed strong interest but noted budget constraints. No executive sponsor present. Discussed pricing options and presented proposal at $4,500 ACV for 8 seats with significant discount to fit budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup and configuration, with ongoing optimization support included in your plan."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision-making process and timeline from here?",
+          "answer": "I need to get Hannah's sign-off on the integration side and run the numbers by our finance team. Ideally we'd like to start next month."
+        },
+        {
+          "by": "prospect",
+          "question": "The list price seems high for our budget. Is there flexibility on pricing?",
+          "answer": "We can work with you on a customized package. Let me put together options that fit your budget while meeting your core requirements."
+        }
+      ],
+      "objections": [
+        "Pricing is above current budget allocation"
+      ],
+      "next_steps": [
+        "Send formal proposal with discounted pricing",
+        "Schedule technical review with Hannah",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-10",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Olivia Roberts",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call initially rescheduled, then held to discuss pricing and contract terms. Olivia appreciated the discount but raised concerns about getting internal approval without executive buy-in. Discussed payment terms and implementation timeline. She confirmed interest in moving forward but mentioned needing to align with leadership before final signature. Agreement to revisit contract details after internal discussions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a shorter contract term to prove value before committing to annual?",
+          "answer": "Our standard is annual billing, but we can structure quarterly business reviews to ensure you're seeing ROI at each milestone."
+        },
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor who should review this before we finalize?",
+          "answer": "Honestly, I've been driving this internally. Our VP of Marketing should probably weigh in, but she's been hard to pin down lately."
+        }
+      ],
+      "objections": [
+        "Concerned about getting executive approval for this budget commitment"
+      ],
+      "next_steps": [
+        "Olivia to present proposal to VP of Marketing",
+        "Follow up early next week on decision timeline",
+        "Prepare implementation kickoff plan pending approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

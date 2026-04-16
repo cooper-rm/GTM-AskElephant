@@ -1,0 +1,422 @@
+{
+  "deal_id": "DEAL-0833",
+  "company": {
+    "name": "RiverLink",
+    "industry": "eCommerce",
+    "employee_count": 521,
+    "annual_revenue": 118375957,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20000.0,
+    "seats": 26,
+    "price_per_seat_monthly": 65.43,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.5,
+    "sales_cycle_days": 48,
+    "close_date": "2023-10-06",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Luna King",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 21
+    },
+    {
+      "name": "Elena Hall",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request submitted via website form. Luna King (VP of Sales) expressed interest in call recording and coaching capabilities for their 26-person sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Luna"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-19",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Luna King. Discussed RiverLink's current sales process and pain points around coaching consistency. Luna mentioned they're growing quickly and need better visibility into rep performance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording right now?",
+          "answer": "We've doubled our sales team in 6 months and our coaching is inconsistent. Managers are stretched thin and we need a scalable way to improve rep performance."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with automatic activity logging."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-23",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to discuss team structure and decision process. Luna walked through their sales org (26 reps, 4 managers) and mentioned Implementation Lead Elena Hall would need to be involved for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "Elena Hall from our ops team will handle implementation. I'll own the business case and work with our CFO on budget approval."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are live within 2 weeks - we handle the Salesforce integration and initial setup."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're looking to have something in place by end of quarter, so next 4-6 weeks ideally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to dive into use cases",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-27",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on specific coaching workflows and success metrics. Luna described their current manual process and shared that their top performers close at 22% while bottom quartile is at 8%. Clear ROI opportunity if they can lift underperformers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your coaching process look like today?",
+          "answer": "Managers try to shadow calls when they can, but it's ad hoc. We have no recording system so it's all just notes and memory. Very inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set custom coaching criteria specific to our methodology?",
+          "answer": "Yes, fully customizable - you can create scorecards aligned to your sales framework."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 6 months after implementing this?",
+          "answer": "Ideally our bottom performers are closing at 15%+ and we've cut ramp time for new hires from 4 months to under 3."
+        }
+      ],
+      "objections": [
+        "We need to make sure reps don't feel like they're being surveilled - how do other companies handle the trust element?"
+      ],
+      "next_steps": [
+        "Schedule demo",
+        "Include Elena Hall on next call",
+        "Share customer case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-02",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to address Luna's question about change management and rep adoption. Discussed best practices from similar implementations and confirmed demo date.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you recommend rolling this out to avoid pushback from reps?",
+          "answer": "Best practice is to frame it as a coaching tool, not monitoring. Start with volunteers, share success stories, and have managers use it on their own calls first to model the behavior."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Send prep questionnaire to Luna and Elena"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent to Luna confirming agenda and attendees. Requested Elena Hall's contact info and asked Luna to share 2-3 specific scenarios they'd like to see demonstrated.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific coaching scenarios should we focus on in the demo?",
+          "answer": "Show me how we'd review discovery calls and identify missed opportunities. Also want to see the manager dashboard."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deliver demo on scheduled date",
+        "Customize demo scenarios to RiverLink's process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-12",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full demo delivered to Luna King. Walked through call recording, AI coaching insights, manager dashboards, and Salesforce integration. Luna engaged throughout and asked detailed questions about workflow automation. Did not secure Elena Hall's attendance - Luna mentioned she'd brief her separately.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we automatically log call recordings to Salesforce opportunities?",
+          "answer": "Yes, with the unlimited automation tier you get automatic activity logging and we can trigger custom workflows based on call outcomes."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your coaching analytics - can we track improvement over time?",
+          "answer": "You get rep scorecards, trend analysis, and before/after metrics. We can show you which coaching interventions are actually moving the needle."
+        },
+        {
+          "by": "rep",
+          "question": "What's your sense of fit for your team?",
+          "answer": "This looks really solid. I need to get Elena's signoff on the technical side and then build the business case for our CFO."
+        }
+      ],
+      "objections": [
+        "I'll need to understand the full cost - we're budget-conscious right now given the market."
+      ],
+      "next_steps": [
+        "Send proposal with pricing",
+        "Schedule technical review with Elena",
+        "Provide ROI model"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal email to Luna with pricing for 26 seats on unlimited automation tier ($20,000 ACV). Included ROI calculator showing potential $180K impact from improving close rates. Requested meeting to review proposal and get Elena involved for technical validation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we schedule time with you and Elena to walk through the proposal?",
+          "answer": "Let me talk to Elena first and get back to you on timing. I want to make sure she's comfortable before we go to the CFO."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up on Elena's availability",
+        "Prepare for exec review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-18",
+      "type": "exec_meeting",
+      "duration_minutes": 0,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Scheduled exec meeting did not materialize - Luna attended solo and mentioned the CFO wasn't available. Discussed business case and ROI projections. Luna confirmed budget exists but flagged that pricing is higher than expected.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Luna to share proposal with CFO and Elena internally",
+        "Reconvene on pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after exec meeting. Luna indicated CFO is asking about pricing flexibility and whether we can accommodate their budget constraints. She mentioned they're approved for ~$15K but see value in the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $20K price point? Our approved budget is closer to $15K.",
+          "answer": "Let me discuss with my manager and see what we can do. Would $15K get this across the finish line with your CFO?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to discuss discount options",
+        "Confirm Elena has no technical blockers"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-10-02",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Luna. Discussed discount to $14,700 (26.5% off list) to fit their budget. Luna seemed relieved and indicated this number would work. Still no direct engagement with CFO or Elena - Luna says she's handling internal alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward at $14,700, what's the payment structure?",
+          "answer": "Annual upfront payment, with renewal at list price for year two unless you want to discuss multi-year."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get the CFO and Elena on a final call before we send the contract?",
+          "answer": "Not necessary - I've got their buy-in. Let's just get the paperwork over and I'll route it through our approval process."
+        }
+      ],
+      "objections": [
+        "I need to make sure the contract doesn't have any auto-renewal terms - our legal team is sensitive to that."
+      ],
+      "next_steps": [
+        "Send updated proposal at $14,700",
+        "Prepare contract with no auto-renewal clause"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-10-06",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Luna King",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing confirmation call. Luna verbally committed to $14,700 pricing and confirmed she'll review the contract internally. Pushed back slightly on payment terms, asking if quarterly is possible, but accepted annual when reminded of the discount already applied.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "Given the discount we're already applying, we need to keep annual upfront payment. That's built into the pricing."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval timeline looking like?",
+          "answer": "Should be quick - probably 1-2 weeks for legal and finance to review, then we're good to go."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Luna to route through legal and finance",
+        "Target close in 2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 97,
+    "churn_reason": "lack of executive alignment"
+  }
+}

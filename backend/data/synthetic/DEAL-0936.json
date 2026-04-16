@@ -1,0 +1,179 @@
+{
+  "deal_id": "DEAL-0936",
+  "company": {
+    "name": "KineticHealth",
+    "industry": "eCommerce",
+    "employee_count": 28,
+    "annual_revenue": 5086396,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7600.0,
+    "seats": 11,
+    "price_per_seat_monthly": 55.61,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 37.5,
+    "sales_cycle_days": 14,
+    "close_date": "2023-11-03",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Ruby Khan",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 23
+    },
+    {
+      "name": "Willow Young",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 30
+    },
+    {
+      "name": "Ava Agarwal",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 12
+    },
+    {
+      "name": "Amelia Wang",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ruby Khan expressing interest in automating their onboarding workflow. She mentioned they're currently evaluating Fireflies but looking for more comprehensive automation capabilities. Brief form submission asking for a demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Ruby"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-20",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ruby Khan to understand KineticHealth's onboarding challenges. Ruby described manual processes creating bottlenecks with their recent growth. Discussed team size (11 users needed), use case scope, and timeline. She mentioned Fireflies is in consideration but lacks workflow automation they need.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to automate onboarding now?",
+          "answer": "We've grown from 15 to 28 employees in 6 months and our manual onboarding process is breaking down"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation plan compare to Fireflies' offering?",
+          "answer": "Our platform includes workflow automation and integrations beyond just transcription - we can automate follow-up tasks, data entry, and connect directly to your CRM"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to loop in Willow from RevOps",
+        "Schedule exec meeting for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-27",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute exec meeting with Ruby Khan to review proposal and pricing. Discussed implementation timeline and seat allocation across sales and customer success teams. Ruby expressed budget concerns and requested significant discount to match Fireflies pricing. Agreed to 37.5% discount to move forward. No executive sponsor joined the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard implementation timeline and will we need developer resources?",
+          "answer": "Typically 2-3 weeks with our team handling the technical setup - minimal IT involvement needed from your side"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you match Fireflies' pricing? We have a quote from them that's significantly lower.",
+          "answer": "Let me see what I can do - I can offer 37.5% off to get closer to that range while including our full automation suite"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your IT Director or CEO in the next conversation before finalizing?",
+          "answer": "I have approval authority for this budget level - let's keep moving forward"
+        }
+      ],
+      "objections": [
+        "List pricing is above our allocated budget for this tool"
+      ],
+      "next_steps": [
+        "Ruby to review proposal with Willow in procurement",
+        "Send formal quote with discount applied"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ruby after exec meeting, attaching formal quote with 37.5% discount for $7,600 ACV and 11 seats. Confirmed unlimited automation tier and restated implementation timeline. Asked about procurement process and contract review timeline. Ruby responded same day confirming she's reviewing with Willow and will have feedback by end of week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your procurement review process look like and who else needs to sign off?",
+          "answer": "Willow handles vendor agreements - should be straightforward, we'll review terms and get back to you this week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby and Willow to review contract terms",
+        "Rep to follow up Friday for feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

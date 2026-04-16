@@ -1,0 +1,681 @@
+{
+  "deal_id": "DEAL-0974",
+  "company": {
+    "name": "MeridianAgency",
+    "industry": "Healthcare IT",
+    "employee_count": 1000,
+    "annual_revenue": 197497991,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20900.0,
+    "seats": 28,
+    "price_per_seat_monthly": 65.47,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.4,
+    "sales_cycle_days": 85,
+    "close_date": "2024-05-04",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Casey Baker",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Aria Turner",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 32
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Casey Baker (VP of Sales) at MeridianAgency. Interested in improving sales-to-CS handoff workflow. Left contact info and requested follow-up.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-11",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Casey. Confirmed they're experiencing friction in the sales-to-CS transition, leading to inconsistent customer onboarding. Casey mentioned they're evaluating solutions to standardize the handoff process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at solutions now?",
+          "answer": "We've had several customers slip through the cracks during handoff, and our CS team is frustrated with incomplete context from sales."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and HubSpot?",
+          "answer": "Yes, we have native integrations with both, plus custom API options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with integration details",
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with Salesforce/HubSpot integration overview and case study from similar healthcare IT company. Casey responded positively and confirmed availability for next call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark for around 25-30 users?",
+          "answer": "Typical range is $18-25K annually depending on package and seat count. Happy to detail this on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm meeting time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-15",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call diving into current workflow pain points. Casey described manual handoff docs, Slack-based context sharing, and lack of visibility into deal history for CS team. Discussed team size (28 potential users across sales and CS) and budget range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Our SVP of Revenue, Aria Turner, will need to sign off. I'll bring her in once we're further along."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Standard implementation is 2-4 weeks depending on customization needs."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of Q2, so next 6-8 weeks ideally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule follow-up to discuss use cases in detail"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-22",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call focused on specific use cases. Casey walked through their sales motion: initial discovery, technical evaluation, proposal, negotiation. Emphasized need for consulting support to map their workflow into the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting or professional services for setup?",
+          "answer": "Yes, we have an Automations Plus Consulting package that includes dedicated implementation support and workflow design."
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating other vendors?",
+          "answer": "Not actively right now. We've looked at a few options in the past but nothing stuck."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Schedule follow-up call with CS lead"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-29",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Casey and CS lead. Discussed technical requirements, data flow from Salesforce, and reporting needs. Casey mentioned they're under some pressure to show results quickly due to recent customer escalations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff checklist fields?",
+          "answer": "Fully customizable\u2014you can map to any Salesforce fields and add custom data points."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for this project?",
+          "answer": "Reduction in handoff time, fewer customer escalations, and CS team feeling equipped with context on day one."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Send discovery summary doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email summarizing discovery findings and confirming technical evaluation schedule. Included demo agenda and prep checklist. Casey confirmed and requested to record the session for internal review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo environment with MeridianAgency branding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-06",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Casey and CS lead. Walked through core platform features: automated handoff workflows, Salesforce sync, and custom field mapping. Team engaged and asked detailed questions about automation logic and edge cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the system handle deals that close outside of Salesforce?",
+          "answer": "You can trigger handoffs via API or manual entry, and we'll sync back to Salesforce."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set conditional logic for different deal types?",
+          "answer": "Yes, you can configure rules-based routing and checklists based on deal attributes."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting is available?",
+          "answer": "Standard dashboards for handoff velocity, completion rates, and CS readiness. Custom reports available with consulting package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo for advanced features",
+        "Send trial access credentials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-11",
+      "type": "technical_eval",
+      "duration_minutes": 52,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second technical evaluation rescheduled due to Casey's conflict. Rescheduled to later in the week. Once held, deep dive into reporting, analytics, and consulting engagement model. Casey expressed interest in hands-on implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How many hours of consulting are included in the Plus package?",
+          "answer": "20 hours of implementation consulting, plus ongoing support retainer option."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we phase the rollout\u2014start with sales, then add CS?",
+          "answer": "Absolutely. Phased rollouts are common and we can structure onboarding to support that."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns so far with what you've seen?",
+          "answer": "No major concerns. Mostly want to make sure we can get this live quickly given the pressure we're under."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Continue technical eval",
+        "Prepare proposal draft"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-12",
+      "type": "technical_eval",
+      "duration_minutes": 30,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third technical evaluation covering integrations, security, and compliance. Casey asked about SOC 2 compliance and data residency. Team seems satisfied with technical capabilities and starting to shift focus toward pricing and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are you SOC 2 compliant?",
+          "answer": "Yes, SOC 2 Type II certified. Happy to share our security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored?",
+          "answer": "US-based AWS infrastructure with option for EU residency if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "Begin drafting formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-20",
+      "type": "technical_eval",
+      "duration_minutes": 52,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final technical evaluation session. Casey's team tested live demo environment and walked through their specific workflow scenarios. Positive feedback overall. Casey mentioned they're ready to see a proposal and loop in Aria Turner (SVP Revenue) for executive review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we see pricing?",
+          "answer": "I'll have a full proposal with pricing options ready by end of week."
+        },
+        {
+          "by": "rep",
+          "question": "Should I plan to present directly to Aria or will you brief her first?",
+          "answer": "Let me intro you via email, then we can schedule a brief exec sync once she's up to speed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize proposal with pricing",
+        "Intro email to Aria Turner"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-03-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Casey with proposal summary and pricing options. Outlined 28 seats at $20,900 ACV for Automations Plus Consulting package. Also cc'd Aria Turner with brief intro and exec summary.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-03-30",
+      "type": "technical_eval",
+      "duration_minutes": 38,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief technical eval follow-up session with Casey to clarify a few lingering questions about API rate limits and custom field syncing. Casey confirmed they're reviewing proposal internally and will have feedback soon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are there API rate limits we should be aware of?",
+          "answer": "Standard tier allows 10K requests/day, which is more than sufficient for most customers. Can increase if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review status. Casey responded that they're discussing internally and requested a call to walk through pricing options in more detail. Mentioned budget is a concern.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for a faster close?",
+          "answer": "Let's discuss on the call\u2014happy to explore options that work for your timeline and budget."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-07",
+      "type": "proposal_call",
+      "duration_minutes": 30,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled due to Casey's scheduling conflict. Once held, discussed pricing in detail. Casey pushed back on ACV, noting budget constraints and asking for discount to close quickly. Agreed to explore adjusted pricing and confirm with Aria.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get closer to $15K to make this work within our budget?",
+          "answer": "That's a significant discount. Let me discuss internally and see what's possible for a quick close."
+        },
+        {
+          "by": "rep",
+          "question": "If we can find a compromise, can you commit to closing this month?",
+          "answer": "If the pricing works, yes. I'll need Aria's final approval."
+        }
+      ],
+      "objections": [
+        "Pricing higher than internal budget"
+      ],
+      "next_steps": [
+        "Discuss discount internally",
+        "Schedule exec meeting with Aria"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-04-12",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Aria Turner",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Aria Turner (SVP Revenue). Aria expressed support for the solution but echoed budget concerns. Acknowledged urgency due to recent customer issues. Asked for best-and-final pricing to bring to leadership team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best price for a close this quarter?",
+          "answer": "I can propose a 26% discount to $15,400 ACV for a commitment this month, but would need signature by end of week."
+        },
+        {
+          "by": "rep",
+          "question": "Is this the right solution for your team?",
+          "answer": "Yes, Casey's team is aligned. This is purely a budget discussion at this point."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Set deadline for decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at $15,400 ACV (26% discount) for 28 seats, Automations Plus Consulting package. Included expedited implementation timeline and asked for confirmation by end of week to hold pricing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await internal review and decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking status. Casey responded that Aria is reviewing with finance and they're working through internal approvals. Should have answer in next 24-48 hours.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for approval update"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-04-24",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Casey to address final questions from finance team. Discussed payment terms (annual prepay vs quarterly) and confirmed discount structure. Casey indicated they're close to approval but waiting on final sign-off from Aria.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment instead of annual prepay?",
+          "answer": "We typically require annual prepay for discounted pricing, but I can check if there's flexibility."
+        },
+        {
+          "by": "rep",
+          "question": "What's the holdup at this point?",
+          "answer": "Just final finance review. Aria needs to confirm the budget allocation with leadership."
+        }
+      ],
+      "objections": [
+        "Payment terms (annual vs quarterly)"
+      ],
+      "next_steps": [
+        "Confirm payment terms flexibility",
+        "Follow up with Aria directly"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-04-30",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Aria Turner",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Aria Turner to finalize terms. Aria confirmed budget approval at $15,400 ACV with annual prepay. Discussed implementation timeline and consulting engagement kickoff. Aria requested contract review by legal before signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we start implementation once contract is signed?",
+          "answer": "We can kick off within 3-5 business days, and consulting team will be assigned immediately."
+        },
+        {
+          "by": "rep",
+          "question": "Any other approvals needed on your end?",
+          "answer": "Just legal review of the contract. Should take 2-3 days max."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule contract review call if needed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-05-06",
+      "type": "negotiation_call",
+      "duration_minutes": 36,
+      "person_name": "Casey Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled due to legal team availability. Once held, discussed minor contract redlines (liability cap, termination clause). Casey and Aria confirmed alignment on revised terms and committed to signature pending final legal sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the liability cap to 1x annual fees?",
+          "answer": "Yes, that's within our standard range. I'll update the contract."
+        },
+        {
+          "by": "rep",
+          "question": "Assuming legal approves the updated terms, are we good to close?",
+          "answer": "Yes, we're ready to move forward. Just need the revised contract."
+        }
+      ],
+      "objections": [
+        "Minor contract terms (liability, termination)"
+      ],
+      "next_steps": [
+        "Send revised contract",
+        "Await signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

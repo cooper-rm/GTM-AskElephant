@@ -1,0 +1,166 @@
+{
+  "deal_id": "DEAL-0870",
+  "company": {
+    "name": "BayForge",
+    "industry": "SaaS/Tech",
+    "employee_count": 58,
+    "annual_revenue": 7634083,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2500.0,
+    "seats": 3,
+    "price_per_seat_monthly": 63.98,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.1,
+    "sales_cycle_days": 16,
+    "close_date": "2024-02-01",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Emily Moore",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emily Moore",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Emily Moore at BayForge regarding CRM automation capabilities. She expressed interest in automating deal tracking and mentioned currently evaluating Fireflies. Brief exchange confirming fit and scheduling a technical walkthrough.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM stack?",
+          "answer": "Yes, we have native integrations with major CRMs and can customize as needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation call",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Moore",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming technical eval scheduled for next week. Emily responded quickly, confirming her availability and asking for materials to review beforehand. She mentioned tight timeline due to Q2 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over case studies from similar-sized SaaS companies?",
+          "answer": "Attached three case studies from SMB SaaS customers with similar RevOps use cases."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pre-read materials",
+        "Confirm technical eval agenda"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-25",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Emily Moore",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute technical evaluation with Emily covering automation workflows, reporting capabilities, and implementation timeline. She compared features directly with Fireflies throughout the call. Expressed concern about internal buy-in without executive involvement but seemed personally convinced of the value. Discussed pricing expectations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks with our consulting package, which includes dedicated onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automations tier and Fireflies' enterprise plan?",
+          "answer": "We offer deeper CRM workflow automation and custom consulting, whereas Fireflies focuses primarily on transcription and basic insights."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with 3 seats and expand if it works well?",
+          "answer": "Absolutely, we have flexible seat expansion options with no penalties."
+        }
+      ],
+      "objections": [
+        "Need to move fast but haven't looped in leadership yet"
+      ],
+      "next_steps": [
+        "Send formal proposal with 3-seat pricing",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-31",
+      "type": "pricing_call",
+      "duration_minutes": 7,
+      "person_name": "Emily Moore",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief 7-minute pricing call. Emily requested significant discount to get deal approved quickly without executive sign-off. Negotiated down to $2,500 ACV (28% off list) for 3 seats with consulting included. She committed to moving forward pending legal review. Still single-threaded through Emily.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $2,000 to make this easier to approve on my own authority?",
+          "answer": "I can do $2,500 which includes the consulting package\u2014that's the best I can offer while maintaining the full service level."
+        }
+      ],
+      "objections": [
+        "Price is higher than internal budget without exec approval"
+      ],
+      "next_steps": [
+        "Send updated contract at $2,500",
+        "Emily to route through legal",
+        "Target close by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

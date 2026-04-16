@@ -1,0 +1,222 @@
+{
+  "deal_id": "DEAL-0285",
+  "company": {
+    "name": "ScalePortal",
+    "industry": "PropTech",
+    "employee_count": 98,
+    "annual_revenue": 11790333,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6000.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.8,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.6,
+    "sales_cycle_days": 14,
+    "close_date": "2023-02-12",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sophia Adams",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 35
+    },
+    {
+      "name": "Ethan Wu",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 12
+    },
+    {
+      "name": "Tyler Lopez",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-09",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sophia Adams",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Sophia Adams introducing AskElephant's call recording and coaching capabilities for PropTech teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-16",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Sophia Adams",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Sophia Adams. Introduced AskElephant's platform for sales coaching and call intelligence. Sophia expressed interest in exploring solutions to improve their RevOps team's performance visibility. Scheduled qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools for call recording or rep coaching?",
+          "answer": "We record calls through Zoom but don't have a systematic way to review them or coach our team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-29",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Sophia Adams",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Sophia Adams to understand ScalePortal's RevOps challenges. Sophia described pain points around visibility into rep performance and lack of coaching infrastructure as they scale their 9-person sales team. Discussed current tech stack and timing. Strong fit identified for call intelligence and coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to look at coaching solutions right now?",
+          "answer": "We've grown from 4 to 9 reps in the last quarter and our sales leadership doesn't have bandwidth to listen to calls and provide consistent coaching. Performance is inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM and calling tools?",
+          "answer": "Yes, we have native integrations with all major CRMs and can pull recordings from Zoom, Gong, or direct dialer integrations."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll own the evaluation, but our CEO Ethan Wu will need to sign off on any new software spend. Tyler Lopez on my team will want to see the technical setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full product demo",
+        "Send pricing overview",
+        "Loop in Tyler Lopez for technical review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-05",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Sophia Adams",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive product demo with Sophia Adams walking through call recording automation, AI-generated coaching insights, and rep performance dashboards. Sophia was engaged and asked detailed questions about workflow automation and reporting capabilities. Discussed pricing for 9 seats with unlimited automation tier. Sophia mentioned budget sensitivity and requested proposal with flexible options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards to match our sales methodology?",
+          "answer": "Absolutely. You can configure custom scorecards, weight different criteria, and even build methodology-specific frameworks."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 9 seats with your tech stack, usually 1-2 weeks including integrations, configuration, and team onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next month. Budget is tight this quarter, so pricing will be a key factor."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer any onboarding support or is it self-service?",
+          "answer": "All plans include dedicated onboarding with a customer success manager, plus ongoing support and quarterly business reviews."
+        }
+      ],
+      "objections": [
+        "Concerned about budget constraints this quarter and whether we can justify the investment"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule exec alignment call with Ethan Wu",
+        "Provide ROI calculator and case studies"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-11",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Ethan Wu",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with CEO Ethan Wu and Sophia Adams. Discussed strategic value of coaching infrastructure for scaling their sales org. Ethan focused on ROI and budget fit. Negotiated pricing down from $8,640 to $6,000 ACV to align with Q2 budget constraints. Ethan approved moving forward pending contract review. Agreed on 12-month commitment with unlimited automation tier for 9 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of ROI have other PropTech companies seen in the first 6 months?",
+          "answer": "Our PropTech customers typically see 15-25% improvement in conversion rates and 20-30% reduction in ramp time for new reps within the first two quarters."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we structure this to fit within our Q2 budget of around $6K?",
+          "answer": "Let me work with our team on a custom package. We can adjust the annual commitment to get closer to that number."
+        },
+        {
+          "by": "rep",
+          "question": "If we can hit that $6K target, are you comfortable moving forward this week?",
+          "answer": "Yes, if we can land at $6K for the year with the unlimited automation features Sophia needs, I'm prepared to approve it."
+        }
+      ],
+      "objections": [
+        "Standard pricing of $8,640 exceeds our allocated Q2 budget for new tools"
+      ],
+      "next_steps": [
+        "Send updated contract at $6,000 ACV",
+        "Schedule kickoff call with implementation team",
+        "Coordinate contract signature and payment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

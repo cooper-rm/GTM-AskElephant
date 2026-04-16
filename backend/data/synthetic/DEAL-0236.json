@@ -1,0 +1,396 @@
+{
+  "deal_id": "DEAL-0236",
+  "company": {
+    "name": "SilverChannel",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 9828376,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3900.0,
+    "seats": 6,
+    "price_per_seat_monthly": 56.53,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 36.5,
+    "sales_cycle_days": 27,
+    "close_date": "2025-05-11",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sebastian Lopez",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 31
+    },
+    {
+      "name": "Mia Almeida",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 40
+    },
+    {
+      "name": "David Ito",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Sebastian Lopez at SilverChannel. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-03",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Sebastian Lopez. Call went to voicemail, left brief message about pipeline visibility solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-04",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 20.5,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Sebastian highlighting pipeline visibility challenges for agencies. Sebastian responded expressing interest in learning more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your solution different from other call recording tools?",
+          "answer": "We focus on revenue intelligence, not just transcription - automated deal insights, pipeline forecasting, and coaching workflows specifically for GTM teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-14",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call attempt after LinkedIn exchange. Sebastian was in meetings, call not connected.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-14",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message proposing times for discovery call. No immediate response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with calendar link and case study from similar marketing agency. Sebastian replied confirming time for discovery call next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-17",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Sebastian Lopez (17 min). Discussed current pipeline visibility gaps at SilverChannel, challenges with sales forecasting, and Sebastian's frustration with manual note-taking. Mentioned they're also evaluating Fireflies. Sebastian is champion but wants to involve IT and implementation team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with pipeline visibility today?",
+          "answer": "We're closing deals but can't predict what's actually going to land each quarter. Our AEs give us optimistic forecasts but there's no real data behind it."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating a solution like this?",
+          "answer": "Mia Almeida from IT will need to review security and integrations. David Ito leads implementation, so he'd want to see the user experience."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies? They quoted us something much lower.",
+          "answer": "Fireflies is primarily a transcription tool. Our platform includes AI-driven deal scoring, pipeline analytics, and rep coaching workflows - we're solving a different problem. Happy to show the ROI comparison in a demo."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we're looking at lower-cost options"
+      ],
+      "next_steps": [
+        "Send demo agenda",
+        "Include Mia and David in next meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-19",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Sebastian with discovery call recap and demo materials. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-23",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Sebastian Lopez (45 min). Walked through pipeline forecasting dashboard, AI deal insights, and CRM integrations. Sebastian engaged with automations features and asked detailed questions about implementation timeline. No other stakeholders joined the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing HubSpot setup without a full migration?",
+          "answer": "Yes, we have a native HubSpot integration that syncs bidirectionally. Setup typically takes 1-2 days with no migration required."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 6 seats with standard integrations, you're looking at 2-3 weeks from kickoff to full rollout including training."
+        },
+        {
+          "by": "rep",
+          "question": "I noticed Mia and David couldn't make it today - is there anything blocking them from joining these conversations?",
+          "answer": "Just busy schedules. I'll loop them in on the recording and get their feedback offline."
+        }
+      ],
+      "objections": [
+        "We need to understand total cost with consulting services, not just software"
+      ],
+      "next_steps": [
+        "Send demo recording to full team",
+        "Prepare pricing proposal with consulting package"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Sebastian with demo recording and pricing overview for automations + consulting package. Sebastian replied asking for formal proposal and mentioned need to stay within budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show a breakdown of what's included in the consulting package versus just the platform?",
+          "answer": "Sent detailed breakdown: platform covers core features and support, consulting adds custom workflow design, advanced automation setup, and quarterly strategy sessions. Will include in formal proposal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for proposal call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-05-02",
+      "type": "proposal_call",
+      "duration_minutes": 31,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Sebastian Lopez (31 min). Presented $3,900 ACV for 6 seats with automations + consulting package. Sebastian raised budget concerns and mentioned Fireflies quote is significantly lower. Discussed ROI projections and value of consulting services. Sebastian committed to reviewing internally but seemed price-sensitive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing? The Fireflies quote we received is about a third of this.",
+          "answer": "I understand budget is a factor. The key difference is Fireflies won't give you predictive deal insights or automated coaching. Let me talk to my manager about what we can do to make this work."
+        },
+        {
+          "by": "rep",
+          "question": "If we could get closer to your budget, when would you be ready to move forward?",
+          "answer": "We'd need to close this by end of quarter. But I still need buy-in from leadership - I haven't had a chance to get exec sponsor involved yet."
+        },
+        {
+          "by": "rep",
+          "question": "Should we set up time with your VP or C-level to discuss strategic value?",
+          "answer": "Let me see if I can get this approved at my level first. If we need exec involvement I'll let you know."
+        }
+      ],
+      "objections": [
+        "Price is significantly higher than competitive options we're evaluating",
+        "Need to stay within allocated budget for this quarter"
+      ],
+      "next_steps": [
+        "Check with leadership on discount flexibility",
+        "Sebastian to review internally"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-05-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal showing 36.5% discount to meet budget requirements. Sebastian responded positively, requesting contract for legal review and mentioning end-of-quarter timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Sebastian for legal review",
+        "Schedule closing call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-05-12",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Sebastian Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract review and closing call with Sebastian Lopez (29 min). Walked through MSA terms, implementation timeline, and success metrics. Sebastian confirmed budget approval and commitment to move forward. Discussed onboarding logistics and quarterly business review cadence. No executive sponsor participated in final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-contract?",
+          "answer": "You can add seats anytime with pro-rated billing. Pricing scales with volume, so we can discuss expanded tier pricing when you're ready."
+        },
+        {
+          "by": "rep",
+          "question": "Just to confirm - you have final approval authority for this purchase, or does this need exec sign-off?",
+          "answer": "I have approval for this budget level. We're good to proceed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sebastian to execute contract by end of week",
+        "Schedule implementation kickoff with David Ito"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

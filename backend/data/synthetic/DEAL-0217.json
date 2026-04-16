@@ -1,0 +1,347 @@
+{
+  "deal_id": "DEAL-0217",
+  "company": {
+    "name": "CoreIO",
+    "industry": "PropTech",
+    "employee_count": 678,
+    "annual_revenue": 84890042,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8400.0,
+    "seats": 10,
+    "price_per_seat_monthly": 68.21,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 23.4,
+    "sales_cycle_days": 50,
+    "close_date": "2024-01-06",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Leila Nguyen",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 10
+    },
+    {
+      "name": "Mateo Doyle",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ezra Almeida",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 13
+    },
+    {
+      "name": "Liam Huang",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-04",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Leila Nguyen introducing AskElephant's call recording and coaching capabilities for PropTech sales teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-06",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Leila Nguyen. Rep introduced AskElephant's platform for improving sales coaching through call intelligence. Leila expressed interest in learning more and agreed to a follow-up conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specifically does your platform do for sales coaching?",
+          "answer": "We analyze call recordings using AI to surface coaching moments, track talk patterns, and help managers scale personalized feedback across their team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with calendar invite for qualification call and brief overview of AskElephant's PropTech customer success stories. Leila confirmed the meeting time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for April 8"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-26",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Leila Nguyen to understand CoreIO's current sales coaching challenges. Leila described inconsistent coaching across their 10-person sales team and difficulty scaling best practices. She owns call recording evaluation and sees strong alignment with their Q2 coaching initiative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better call coaching right now?",
+          "answer": "We've grown from 4 to 10 reps in six months, and our managers can't listen to enough calls to coach everyone effectively. Quality is becoming inconsistent."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current process look like?",
+          "answer": "Managers manually review 1-2 calls per rep per week in Gong, but there's no structure. It's ad hoc and time-consuming."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce and Slack setup?",
+          "answer": "Yes, we have native integrations with both. Call data syncs automatically to Salesforce and coaching alerts can route through Slack."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Leila to introduce rep to Mateo Doyle (CRO) and RevOps for technical evaluation",
+        "Schedule demo for full team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo prep materials and custom PropTech use case deck. Leila confirmed she's looping in Mateo, Ezra from RevOps, and Liam from her team for the demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will you be able to show how the platform handles our specific talk tracks around property management ROI?",
+          "answer": "Absolutely\u2014we can configure custom scorecards for your messaging frameworks during the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for April 12 with extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email thanking the team and addressing Ezra's technical questions about data security and API access. Leila responded positively, noting the team was impressed and ready to see pricing options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call",
+        "Send SOC 2 documentation to Ezra"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-17",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Leila to review pricing for 10 seats with automations plus consulting package. Leila indicated budget is tighter than expected and asked about discounting options for a Q2 signature. Rep presented standard pricing at $10,950 ACV and offered flexibility if they can close by month-end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package versus the base automations tier?",
+          "answer": "Consulting adds quarterly coaching strategy sessions with our team and custom playbook development. Base tier is self-serve with support."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we move fast?",
+          "answer": "We can work with you on a discount for Q2 close, especially if we can get Mateo's sign-off quickly."
+        }
+      ],
+      "objections": [
+        "Budget is tighter than expected\u2014CFO scrutinizing all new tools this quarter"
+      ],
+      "next_steps": [
+        "Leila to discuss budget with Mateo",
+        "Rep to send formal proposal with discount scenarios"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Email with formal proposal showing three pricing tiers. Included 23% discount scenario ($8,400 ACV) if signed by April 18. Leila acknowledged and said she's reviewing with Mateo and finance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Leila to circle back after internal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-12-28",
+      "type": "negotiation_call",
+      "duration_minutes": 42,
+      "person_name": "Leila Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call with Leila that was rescheduled from previous week. Discussed contract terms, payment structure, and discount justification. Leila confirmed the $8,400 pricing works but needs exec approval from Mateo. She expressed concern about onboarding timeline and whether the team can adopt in time for Q2 impact. Rep committed to expedited onboarding if they close this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "For the discounted rate we need annual commitment, but we can split into two payments\u201450% upfront, 50% in 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does onboarding typically take?",
+          "answer": "Standard is 2-3 weeks, but we can fast-track to 1 week if you have dedicated resources on your side."
+        },
+        {
+          "by": "rep",
+          "question": "What does Mateo need to see to feel confident approving this?",
+          "answer": "Mostly ROI clarity\u2014he wants to know how we'll measure coaching efficiency gains in the first 60 days."
+        }
+      ],
+      "objections": [
+        "Concerned about team adoption and whether we can see impact quickly enough to justify the investment"
+      ],
+      "next_steps": [
+        "Leila to schedule exec alignment meeting with Mateo",
+        "Rep to send ROI measurement framework doc"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-05",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Mateo Doyle",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mateo Doyle (CRO) and Leila. Mateo asked pointed questions about ROI measurement, implementation timeline, and team adoption risk. Rep walked through customer benchmarks showing 30% reduction in manager coaching time and presented 60-day success metrics framework. Mateo agreed to move forward at $8,400 with the accelerated onboarding plan, contingent on legal review completion by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What metrics are your most successful customers tracking in the first quarter?",
+          "answer": "Top performers track manager hours saved, rep self-coaching engagement rates, and win rate changes on coached vs. non-coached calls."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see ROI in 90 days?",
+          "answer": "We include a success review at 60 days as part of the consulting package. If we're off track, we'll adjust the playbook and add extra support\u2014no one's succeeded without seeing value by then."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other internal stakeholders we should loop in before contracting?",
+          "answer": "Just our legal team for contract review. Ezra already cleared security and procurement."
+        }
+      ],
+      "objections": [
+        "Want to make sure we're not overcommitting the team when they're already ramping on new PropTech messaging"
+      ],
+      "next_steps": [
+        "Legal review to complete by April 18",
+        "Rep to send MSA and order form",
+        "Leila to coordinate onboarding kickoff for week of April 21"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

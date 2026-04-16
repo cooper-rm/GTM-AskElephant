@@ -1,0 +1,408 @@
+{
+  "deal_id": "DEAL-0553",
+  "company": {
+    "name": "HelixSpark",
+    "industry": "EdTech",
+    "employee_count": 750,
+    "annual_revenue": 134059158,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15000.0,
+    "seats": 18,
+    "price_per_seat_monthly": 66.29,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.5,
+    "sales_cycle_days": 35,
+    "close_date": "2024-02-21",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Layla Stern",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 11
+    },
+    {
+      "name": "Lauren Stern",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 25
+    },
+    {
+      "name": "Blake Lim",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 28
+    },
+    {
+      "name": "Henry Wright",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Layla Stern submitted an inbound form requesting information about improving forecast accuracy for their sales team. She mentioned struggling with pipeline visibility and mentioned having 18 seats.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send intro email and schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email thanking Layla for her interest and proposing times for a brief qualification call to understand HelixSpark's forecasting challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you work with other EdTech companies our size?",
+          "answer": "Yes, we have several mid-market EdTech customers using our platform for forecasting and pipeline management."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Layla to confirm time slot for qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-20",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call with Layla. Discussed current forecasting process, team size of 18 sales reps, and pain points around inaccurate pipeline projections affecting quarterly planning. Layla confirmed she's the Director of Sales and has budget authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for onboarding and initial setup, with full rollout within a month."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this solution?",
+          "answer": "Lauren Stern, our SVP of Revenue, will need to sign off. Blake and Henry from the sales team will be end users."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Layla",
+        "Rep to send case study examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-24",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute discovery call diving into HelixSpark's current tech stack, specific forecasting challenges, and desired outcomes. Layla shared that their current manual process causes 15-20% forecast variance, impacting resource planning. Discussed automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for CRM and forecasting?",
+          "answer": "We're on Salesforce but mostly doing forecasting in spreadsheets. It's very manual."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration that syncs bidirectionally."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in 6 months?",
+          "answer": "Reducing forecast variance to under 10% and giving Lauren real-time visibility into the pipeline."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Include Blake and Henry if possible"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-01-28",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute follow-up call to address questions about data migration and training. Layla confirmed timeline pressure to get something in place before Q3 planning cycle. Discussed bringing in Lauren for the demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much historical data do we need to migrate for the forecasting models to work?",
+          "answer": "Minimum 6 months, but 12-18 months of historical data will give you more accurate predictions."
+        },
+        {
+          "by": "rep",
+          "question": "When does your Q3 planning cycle start?",
+          "answer": "Early June, so we'd need to be up and running by end of May ideally."
+        }
+      ],
+      "objections": [
+        "Timeline is tight - concerned about implementation speed"
+      ],
+      "next_steps": [
+        "Schedule demo for next week with Layla and Blake"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-03",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "39-minute product demo with Layla and Blake (rescheduled once). Walked through forecasting dashboard, automation workflows, and reporting capabilities. Blake asked detailed questions about rep-level visibility. Layla seemed engaged but mentioned needing to discuss budget with Lauren.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can individual reps see their own forecast accuracy metrics?",
+          "answer": "Yes, we have role-based permissions so reps can see their own data while managers see team-level views."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include exactly?",
+          "answer": "Dedicated onboarding specialist, custom workflow setup, two training sessions, and 90 days of post-launch support."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have budget allocated for this already?",
+          "answer": "We have budget for sales tools, but I'll need to confirm the exact amount with Lauren."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost before moving forward"
+      ],
+      "next_steps": [
+        "Rep to send proposal with pricing",
+        "Layla to loop in Lauren"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 12.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent detailed proposal via email for $15,000 ACV covering 18 seats with automations plus consulting package. Included ROI breakdown showing potential forecast accuracy improvements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing for the consulting add-on?",
+          "answer": "Let's discuss on our next call - there may be some room depending on contract length."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-10",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute proposal review call with Layla. Discussed pricing breakdown and ROI. Layla indicated the price is higher than expected and asked about discount options. Rep mentioned potential for multi-year discount. Layla wants to bring Lauren in before finalizing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount could we get on a multi-year deal?",
+          "answer": "For a 2-year commitment, we could offer 15-20% off the annual price."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "We were hoping to stay closer to $10-11K annually. The consulting add-on is pushing us over."
+        }
+      ],
+      "objections": [
+        "Pricing is above budget, especially with consulting package"
+      ],
+      "next_steps": [
+        "Rep to prepare revised pricing options",
+        "Schedule call with Lauren"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-02-12",
+      "type": "negotiation_call",
+      "duration_minutes": 9,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute negotiation call focused on pricing. Layla pushed for 25% discount to hit their budget. Rep agreed to bring the request to leadership given the timeline pressure and potential for expansion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we can close this week, can you approve 25% off to get us to $11,250?",
+          "answer": "That's a significant discount but let me take it to my manager. Given your timeline, we want to make this work."
+        }
+      ],
+      "objections": [
+        "Still need executive approval from Lauren before signing"
+      ],
+      "next_steps": [
+        "Rep to get discount approval",
+        "Layla to schedule exec meeting with Lauren"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-02-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Layla Stern",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Rep confirmed via email that 25.5% discount was approved at $11,175 ACV. Sent updated proposal and contract. Emphasized the Q3 timeline and value of getting started soon.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lauren Stern meeting scheduled to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-02-21",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Lauren Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "39-minute executive meeting with Lauren Stern and Layla (rescheduled once). Lauren asked detailed questions about ROI, data security, and vendor stability. Positive discussion overall but Lauren mentioned need to review contract with Henry from procurement before final signature. Meeting ended with verbal commitment pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate and how long have your EdTech customers been with you?",
+          "answer": "Our retention rate is 94% and our longest EdTech customer has been with us for 4 years."
+        },
+        {
+          "by": "prospect",
+          "question": "What are your data security certifications?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant. I can send over our security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-contract?",
+          "answer": "You can add seats anytime - they're prorated for the remainder of the contract term."
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on moving forward with this pricing and timeline?",
+          "answer": "Yes, this looks good. Henry just needs to review the contract terms, but we're ready to proceed."
+        }
+      ],
+      "objections": [
+        "Need procurement review before signature"
+      ],
+      "next_steps": [
+        "Send contract to Henry for review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

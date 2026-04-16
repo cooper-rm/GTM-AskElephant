@@ -1,0 +1,578 @@
+{
+  "deal_id": "DEAL-0203",
+  "company": {
+    "name": "ClearCore",
+    "industry": "PropTech",
+    "employee_count": 3631,
+    "annual_revenue": 518728323,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 62600.0,
+    "seats": 50,
+    "price_per_seat_monthly": 106.39,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 94,
+    "close_date": "2024-12-29",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aisha Hall",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Anika Rodriguez",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 8
+    },
+    {
+      "name": "Ivy Wright",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 1
+    },
+    {
+      "name": "Chloe Ahmed",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 6
+    },
+    {
+      "name": "Santiago Oliveira",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    },
+    {
+      "name": "Grayson Schneider",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    },
+    {
+      "name": "Caleb Morris",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-04",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.1,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Aisha Hall introducing our conversation intelligence platform and its forecasting accuracy capabilities for PropTech sales teams. Highlighted ROI metrics from similar enterprise deployments. Aisha responded expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule initial qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-28",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Aisha Hall to understand ClearCore's current state. Discussed their sales team size (50+ reps), current tools, and pain points around forecast accuracy. Aisha mentioned they're evaluating solutions and have looked at Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for conversation intelligence right now?",
+          "answer": "Our forecast accuracy has been inconsistent, and leadership needs better visibility into deal health across our growing sales org."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Fireflies?",
+          "answer": "We focus specifically on revenue intelligence with predictive deal scoring, whereas Fireflies is primarily a transcription tool. Our XGBoost models analyze conversation patterns to forecast deal outcomes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule longer qualification call to dive into use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-02",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deeper qualification call exploring ClearCore's tech stack, current RevOps processes, and integration requirements. Aisha confirmed they have 50 seats needed and discussed budget parameters. She's championing this internally and wants to involve technical evaluators.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current CRM and sales tech stack?",
+          "answer": "Salesforce as CRM, Outreach for cadences, Gong for some call recording but limited analytics. We need something more predictive."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of implementation timeline are you thinking?",
+          "answer": "Typical enterprise deployment is 4-6 weeks with our automations plus consulting package, which includes custom model training on your historical data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Aisha to identify technical stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-09",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First discovery call focused on understanding ClearCore's sales process, deal stages, and key metrics. Discussed how their PropTech sales cycle works and what signals matter most for forecasting. Aisha shared that inconsistent qualification is hurting their accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your typical enterprise deal cycle from first touch to close.",
+          "answer": "Usually 90-120 days. Prospecting, qualification, discovery, demo/POC, proposal, negotiation, legal review. Multi-threaded with IT, operations, and finance stakeholders."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce instance without disrupting current workflows?",
+          "answer": "Yes, we have native Salesforce integration. Data syncs bidirectionally and our AI summaries populate custom fields you configure."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up discovery with use case deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-14",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended discovery session diving into specific forecasting challenges. Aisha explained their current manual process for deal reviews and how reps inconsistently log call notes. Discussed our HNSW-based retrieval for surfacing similar historical deals and XGBoost scoring model. She's excited about the automation potential.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much historical data do you need to train accurate models for our business?",
+          "answer": "Minimum 6 months of closed deals with call recordings, ideally 12+ months. We can work with your data quality and augment with synthetic training data if needed."
+        },
+        {
+          "by": "rep",
+          "question": "What roles need to be involved in your evaluation process?",
+          "answer": "I'm championing it, but we'll need buy-in from our COO Anika Rodriguez, IT Director Ivy Wright, and our RevOps team including Grayson Schneider. Implementation leads Santiago and Chloe will also test it."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing model\u2014per seat or platform fee?",
+          "answer": "Per-seat annual licensing with the automations plus consulting package. I'll share detailed pricing in our proposal phase."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule third discovery to map technical requirements",
+        "Aisha to loop in Ivy Wright"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-22",
+      "type": "discovery_call",
+      "duration_minutes": 38,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Longest discovery call covering technical architecture, data security, and integration requirements. Discussed API access, data residency, SOC2 compliance, and how the platform handles sensitive customer conversations. Aisha confirmed they're also evaluating Fireflies but our predictive capabilities are differentiated.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your data security and compliance requirements?",
+          "answer": "SOC2 Type II, GDPR compliant, data residency in US, role-based access controls. Standard enterprise security posture."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your accuracy compare to Fireflies in actual forecasting scenarios?",
+          "answer": "Fireflies focuses on transcription and basic analytics. Our XGBoost models are trained specifically for deal outcome prediction\u2014customers see 15-25% improvement in forecast accuracy within 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "Can we do a POC or pilot before full rollout?",
+          "answer": "We typically recommend starting with a defined cohort\u2014maybe 10-15 reps\u2014for 30 days, then expanding. That's included in the consulting package."
+        }
+      ],
+      "objections": [
+        "We're concerned about change management with the sales team\u2014how do we ensure adoption?"
+      ],
+      "next_steps": [
+        "Prepare for demo",
+        "Aisha to coordinate calendars for multi-stakeholder demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-10-27",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to finalize demo agenda and confirm attendees. Aisha mentioned they've had a demo with Fireflies and want to see side-by-side comparison of forecasting features. Discussed tailoring demo to PropTech use cases. She's getting stakeholders aligned for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show real examples of how your models identify at-risk deals before they slip?",
+          "answer": "Absolutely. We'll walk through our deal health scoring, risk signals based on conversation patterns, and how the system flags objections or competitor mentions."
+        },
+        {
+          "by": "rep",
+          "question": "What specific metrics or outcomes would make this a clear win for ClearCore?",
+          "answer": "Forecast accuracy improvement, reduction in manual deal reviews, faster rep ramp time, and better visibility for leadership into pipeline health."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Send pre-demo questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-05",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled demo was rescheduled due to conflict on Aisha's side. She apologized and mentioned their exec team had an urgent board prep meeting. Rescheduled for two days later with same attendee list.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo rescheduled to new time"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-10",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Aisha and several stakeholders. Walked through conversation intelligence platform, HNSW-based similar deal retrieval, XGBoost forecasting model, and Salesforce integration. Demonstrated real-time call analysis and risk scoring. Team engaged, asked technical questions about model explainability and data pipelines. Compared favorably to Fireflies' feature set.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do we validate that your model's predictions are accurate for our specific business?",
+          "answer": "We provide model performance dashboards showing precision/recall on your historical data during the training phase, plus ongoing accuracy tracking post-deployment."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of customization is available for the automation workflows?",
+          "answer": "Highly customizable\u2014you can define custom fields, triggers, and notification rules. The consulting package includes workflow design workshops."
+        },
+        {
+          "by": "rep",
+          "question": "What did you think of the forecasting accuracy features compared to what you've seen from Fireflies?",
+          "answer": "Fireflies doesn't really have predictive forecasting\u2014it's more transcription and keyword tracking. Your ML approach is more aligned with what we need."
+        }
+      ],
+      "objections": [
+        "The pricing seems higher than Fireflies. Help us understand the ROI justification."
+      ],
+      "next_steps": [
+        "Aisha to brief COO Anika Rodriguez",
+        "Schedule exec sponsor meeting",
+        "Prepare business case materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-11-17",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Anika Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First executive meeting with Anika Rodriguez (COO) to discuss strategic fit and business case. Covered ROI projections, forecasting accuracy improvements, and how this aligns with ClearCore's growth plans. Anika asked about implementation risks and timeline. She's supportive but wants detailed proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the expected ROI timeline and how do you measure success?",
+          "answer": "Most customers see measurable forecast accuracy improvement within 60-90 days. We track deal stage velocity, forecast variance reduction, and rep productivity metrics."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the biggest implementation risks we should plan for?",
+          "answer": "Data quality and completeness of historical records, change management with reps, and ensuring consistent call recording adoption. Our consulting package addresses all three."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing",
+        "Schedule follow-up exec meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-11-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Aisha with formal proposal attached. Outlined 50-seat licensing for automations plus consulting package at $62,600 ACV. Included ROI calculator, implementation timeline, and success metrics. Aisha acknowledged receipt and said she's reviewing with her team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the consulting package versus base platform?",
+          "answer": "Base platform is the software license and standard integrations. Consulting adds custom model training, workflow design, change management support, and dedicated CSM for first 90 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aisha to review proposal with stakeholders",
+        "Schedule follow-up exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-12-02",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Anika Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Anika Rodriguez to discuss proposal details. She's aligned on the business case but raised questions about contract terms, data ownership, and pricing structure. Discussed success metrics and performance guarantees. She wants to involve procurement (Caleb Morris) for next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your data ownership and portability terms?",
+          "answer": "Customer owns all data. You can export anytime, and we provide data portability tools if you ever need to migrate."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer any performance guarantees or SLAs around forecast accuracy improvement?",
+          "answer": "We commit to 99.9% uptime SLA. Forecast accuracy improvement depends on data quality, but we guarantee model retraining and optimization if targets aren't met in first 90 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Caleb Morris from procurement",
+        "Move to negotiation phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-12-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Aisha confirming next steps for negotiation phase. Outlined flexibility on payment terms and offered to discuss any adjustments to scope. Aisha responded that they're comparing final proposals from us and Fireflies, and need to make a decision by end of month.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call",
+        "Prepare for competitive positioning"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-12-19",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Aisha Hall",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing call with Aisha to discuss budget constraints and contract terms. She mentioned Fireflies came in lower on price but lacks the forecasting features. Asked about discount flexibility on year-one pricing. Discussed payment terms and annual vs multi-year options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on first-year pricing if we commit to a multi-year deal?",
+          "answer": "We can discuss volume discounts and multi-year incentives. Let me take that back to my pricing team and get back to you with options."
+        }
+      ],
+      "objections": [
+        "Fireflies is significantly cheaper. We need to justify the premium to our CFO."
+      ],
+      "next_steps": [
+        "Present revised pricing options",
+        "Schedule final exec alignment meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-12-22",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Anika Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Anika Rodriguez to address pricing concerns and finalize terms. Presented revised pricing with modest discount for multi-year commitment. Discussed competitive differentiation vs Fireflies, emphasizing forecasting ROI and consulting value. Anika is close to decision but wants one more internal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, what does the onboarding timeline look like?",
+          "answer": "Kickoff within 2 weeks of contract signature, 4-6 week implementation, then 30-day pilot with initial cohort before full rollout."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you and the executive team?",
+          "answer": "We need confidence that the forecasting improvements justify the investment over cheaper alternatives. Your consulting package and ML capabilities are compelling."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Anika to conduct final internal review",
+        "Schedule closing meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-12-28",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Anika Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive meeting with Anika Rodriguez to close the deal. Reviewed final contract terms, implementation plan, and success metrics. Discussed procurement process with Caleb Morris. Anika confirmed internal alignment and commitment to move forward. Legal review and contracting to begin next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the next step on your end for contract execution?",
+          "answer": "We'll send the final MSA and order form to Caleb in procurement. Typical legal review is 1-2 weeks, then we can kick off implementation."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns or blockers we should address before moving to contract?",
+          "answer": "No, we're aligned. The team is excited to get started and improve our forecasting accuracy."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to procurement",
+        "Begin legal review",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

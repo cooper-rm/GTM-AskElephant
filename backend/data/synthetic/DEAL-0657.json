@@ -1,0 +1,606 @@
+{
+  "deal_id": "DEAL-0657",
+  "company": {
+    "name": "MeridianConnect",
+    "industry": "Professional Services",
+    "employee_count": 764,
+    "annual_revenue": 87022120,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15500.0,
+    "seats": 23,
+    "price_per_seat_monthly": 57.6,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 35.3,
+    "sales_cycle_days": 82,
+    "close_date": "2024-12-01",
+    "use_case": "Call recording + coaching",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "David Jones",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 53
+    },
+    {
+      "name": "Noah Scott",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-02",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to David Jones, VP of CS. No answer, left voicemail introducing AskElephant's call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-03",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to David Jones. No answer, no voicemail left this time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-06",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.9,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to David Jones mentioning MeridianConnect's growth and potential need for CS coaching tools. David responded expressing interest in learning more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your platform different from Chorus?",
+          "answer": "Our unlimited automation tier and coaching workflows are built specifically for CS teams, not just sales."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-08",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message with proposed times for intro call. No response yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Email to David with case study from similar professional services company. David replied asking about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Usually 2-3 weeks for full rollout with your team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send implementation guide"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Sent implementation guide and proposed qualification call agenda. David confirmed interest and availability for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-20",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with David Jones. Discussed current call recording gaps, team size (23 CS reps), and use case around coaching newer team members. David mentioned they're also looking at Chorus. Confirmed budget authority lies with RevOps and Finance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording now?",
+          "answer": "We've doubled the CS team in 6 months and need better onboarding and QA processes."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in this decision?",
+          "answer": "Noah Scott in RevOps will handle the technical evaluation. I'll need to loop in our CFO for final approval."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing CRM and support tools?",
+          "answer": "Yes, we have native integrations with all major platforms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery deck",
+        "Intro to Noah Scott for technical deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Email to David with discovery deck and technical overview for Noah. David acknowledged receipt and will forward to Noah.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Noah's availability"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on Noah's availability for technical eval. David responded that Noah is reviewing materials and will reach out directly.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Noah to schedule technical call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-02",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to David to check in. No answer, assumed he's busy with end-of-quarter activities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-10-07",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Noah Scott",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute technical evaluation call with Noah Scott. Walked through API capabilities, data security, integration requirements, and automation features. Noah tested the sandbox environment and asked detailed questions about data retention and compliance. He mentioned Chorus is also in evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your main integration requirements?",
+          "answer": "Salesforce, Zendesk, and our internal data warehouse. We need real-time sync."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to Chorus's pricing model?",
+          "answer": "Chorus charges per automation workflow. Our unlimited tier gives you full flexibility without usage caps."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Default is 2 years, but enterprise plans support custom retention from 1-7 years."
+        }
+      ],
+      "objections": [
+        "Concerned about data privacy for customer calls recorded through the platform"
+      ],
+      "next_steps": [
+        "Send security documentation",
+        "Schedule product demo with David"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Noah and David with security whitepaper and SOC 2 compliance docs. David replied appreciating the detail.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Proposed demo times with David and Noah. David confirmed for next week, Noah tentatively available.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-24",
+      "type": "demo",
+      "duration_minutes": 26,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute product demo with David Jones. Showed live call recording, coaching workflows, and analytics dashboard. David was engaged and asked about rollout to their 23-person team. He mentioned timeline pressure to have solution in place before Q3.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we pilot with a subset of the team first?",
+          "answer": "Absolutely, we typically recommend starting with 5-10 users for 2 weeks before full rollout."
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for getting this implemented?",
+          "answer": "We'd like to start by early Q3, so decision needs to happen in the next 3-4 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide pricing proposal",
+        "Schedule exec review meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-10-29",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute executive meeting with David Jones to present proposal. Discussed pricing for 23 seats with unlimited automation tier at $24,000 ACV. David was engaged but flagged that budget approval requires CFO sign-off and they're comparing against Chorus. No CFO or other executives on the call despite meeting title.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of flexibility do you have on pricing?",
+          "answer": "For a multi-year commitment we can offer volume discounts and flexible payment terms."
+        },
+        {
+          "by": "rep",
+          "question": "What's your evaluation timeline with Chorus?",
+          "answer": "They're presenting next week. We want to make a decision by end of month."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the final approval?",
+          "answer": "Our CFO will need to sign off on any deal over $15k. I can champion internally but need compelling ROI story."
+        }
+      ],
+      "objections": [
+        "Initial pricing seems high compared to what we've budgeted"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis",
+        "Request CFO meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-11-03",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute follow-up exec meeting with David to present ROI calculator showing productivity gains and reduced onboarding time. David appreciated the analysis but still no CFO involvement. He mentioned Chorus came in lower on price.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $15k annually?",
+          "answer": "Let me discuss with leadership. That would require significant discount but I want to make this work."
+        },
+        {
+          "by": "rep",
+          "question": "Is price the only factor in the decision?",
+          "answer": "No, we value the coaching features, but we need to justify the investment given Chorus's competitive offer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revised proposal to leadership",
+        "Attempt to schedule CFO meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-11-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 19.9,
+      "rescheduled": false,
+      "ai_summary": "Email to David with revised proposal at $15,500 ACV (35.3% discount) for 23 seats. David acknowledged and said he'll review with finance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-11-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email asking about CFO meeting availability. David responded that CFO is traveling but he's confident he can get approval without direct meeting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to provide references or additional case studies for the CFO?",
+          "answer": "That could be useful. Send over any relevant materials."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send reference contacts and case studies"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-11-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Sent customer references from similar professional services firms and case studies showing 6-month payback period. David confirmed receipt.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule final decision meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-11-25",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute call with David to discuss final terms. David confirmed the $15,500 pricing works and he's putting together internal business case. Asked about contract flexibility and payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly payments at the discounted rate."
+        },
+        {
+          "by": "rep",
+          "question": "What's the internal approval process from here?",
+          "answer": "I present to CFO early next week, then we can move to contract if approved."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with quarterly payment terms",
+        "Follow up after CFO review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-12-01",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "David Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "37-minute negotiation meeting with David Jones (originally scheduled for earlier in the week but was rescheduled). Reviewed final contract terms including quarterly payments, 12-month commitment, and implementation timeline. David expressed confidence in moving forward pending final CFO approval. Still no direct CFO engagement despite repeated requests. Discussion focused on getting contract signed by month-end.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything else blocking us from moving to signature?",
+          "answer": "Just waiting on final CFO sign-off. Should have answer in next few days."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a 30-day out clause in case things change?",
+          "answer": "Our standard contract includes a satisfaction guarantee for the first 30 days."
+        },
+        {
+          "by": "rep",
+          "question": "When can we target contract signature?",
+          "answer": "Hoping for end of this week, but realistic timeline is early next week."
+        }
+      ],
+      "objections": [
+        "Need to ensure we have executive approval before signing given the discount level"
+      ],
+      "next_steps": [
+        "David to present to CFO",
+        "Follow up in 2 days",
+        "Prepare onboarding plan"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

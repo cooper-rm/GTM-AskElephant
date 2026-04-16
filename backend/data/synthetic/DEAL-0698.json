@@ -1,0 +1,669 @@
+{
+  "deal_id": "DEAL-0698",
+  "company": {
+    "name": "NebulaSolutions",
+    "industry": "Professional Services",
+    "employee_count": 542,
+    "annual_revenue": 118061489,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 9100.0,
+    "seats": 12,
+    "price_per_seat_monthly": 70.24,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.1,
+    "sales_cycle_days": 59,
+    "close_date": "2023-04-21",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Jude Flores",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Benjamin Gupta",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 19
+    },
+    {
+      "name": "Ethan Gupta",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 16
+    },
+    {
+      "name": "Valentina Schneider",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-15",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Jude Flores at NebulaSolutions requesting information about onboarding automation solutions. Initial contact established, scheduled qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with decision makers"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-21",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Benjamin Gupta",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Benjamin Gupta (COO). Discussed current onboarding pain points and timeline for implementation. Benjamin expressed interest in automating manual processes across their 542-person org. Confirmed budget authority and evaluation process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a company our size?",
+          "answer": "Usually 4-6 weeks for mid-market companies, includes data migration and training"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Jude from Sales, Valentina from IT, and Ethan who handles procurement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Jude Flores for detailed discovery",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-24",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Jude Flores. Deep dive into current onboarding workflow and pain points. Jude mentioned they're also evaluating Fathom. Discussed team size (12 seats needed) and specific automation requirements for new hire workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution handle custom onboarding workflows for different departments?",
+          "answer": "Fully customizable workflows with conditional logic and department-specific templates"
+        },
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with existing HR systems?",
+          "answer": "Native integrations with major HRIS platforms plus API access for custom connections"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the timeline for this decision?",
+          "answer": "Q2 hiring ramp\u2014need solution in place by end of next quarter"
+        }
+      ],
+      "objections": [
+        "Currently looking at Fathom as well\u2014need to understand differentiation"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Valentina",
+        "Provide Fathom comparison sheet"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-26",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call with Jude. Clarified use case priorities and success metrics. Discussed reporting requirements and how the solution would integrate with their existing tech stack. Jude confirmed 12-seat requirement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we track onboarding completion rates and time-to-productivity metrics?",
+          "answer": "Yes, comprehensive analytics dashboard with custom KPI tracking"
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process once you select a vendor?",
+          "answer": "IT review with Valentina, then Ethan handles procurement, final sign-off from Benjamin"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Prepare custom demo scenario"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Jude with requested comparison materials between our platform and Fathom, highlighting consulting services and automation capabilities. Included case study from similar professional services firm.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have references from other professional services companies?",
+          "answer": "Provided three customer references in similar industry and size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review materials before discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-03-05",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Jude diving into specific automation requirements. Discussed their current manual process bottlenecks and ideal state. Jude emphasized need for consulting support during implementation given internal resource constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of consulting support is included in your packages?",
+          "answer": "Automations Plus tier includes 20 hours, Consulting package adds dedicated CSM and unlimited office hours"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current onboarding process costing in staff time?",
+          "answer": "Roughly 15 hours per new hire across HR and IT\u2014looking to cut that in half"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation sessions with Valentina",
+        "Draft preliminary scope document"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude confirming technical evaluation schedule with Valentina and sending security documentation requested by IT. Outlined evaluation agenda and success criteria.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval session 1 scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-11",
+      "type": "follow_up_call",
+      "duration_minutes": 6,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Jude to confirm technical evaluation preparation. Reviewed key requirements to validate during sessions with Valentina. Jude mentioned budget discussions happening internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any concerns we should address before the technical evaluation?",
+          "answer": "Just want to make sure Valentina can thoroughly test the SSO integration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with technical evaluation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-12",
+      "type": "technical_eval",
+      "duration_minutes": 25,
+      "person_name": "Valentina Schneider",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Valentina Schneider (IT Director). Walked through platform architecture, security controls, and integration capabilities. Valentina tested SSO setup and API documentation. Generally positive feedback on technical foundation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data residency and compliance posture for GDPR?",
+          "answer": "EU data centers available, full GDPR compliance with DPA templates"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle API rate limiting for high-volume integrations?",
+          "answer": "Tiered limits based on plan, can provision dedicated capacity for enterprise needs"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your SLA and uptime track record?",
+          "answer": "99.9% SLA standard, 99.99% on enterprise tier\u2014currently running at 99.97% over last 12 months"
+        }
+      ],
+      "objections": [
+        "Need to validate integration with our legacy HRIS system\u2014not on your standard list"
+      ],
+      "next_steps": [
+        "Schedule follow-up session for integration deep dive",
+        "Provide API sandbox access"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-17",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Valentina Schneider",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Valentina focusing on integration testing and custom workflow configuration. Valentina successfully tested core automation scenarios. Confirmed technical requirements can be met, but requested custom integration work for legacy HRIS.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the effort estimate for building a custom HRIS connector?",
+          "answer": "Typically 10-15 hours of professional services\u2014can scope precisely after reviewing API docs"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we self-host or is this cloud-only?",
+          "answer": "Cloud-only for core platform, but supports hybrid deployment for data sync components"
+        },
+        {
+          "by": "rep",
+          "question": "Does this meet your technical requirements for moving forward?",
+          "answer": "Yes, pending confirmation on the custom integration timeline and cost"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical approval to move to proposal stage",
+        "Scope custom integration work"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-03-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude summarizing technical evaluation outcomes. Valentina gave technical approval with note on custom integration requirement. Outlined next steps for proposal including automations_plus_consulting package with custom integration services.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with custom integration scope"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-03-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude with formal proposal for 12 seats on automations_plus_consulting package ($9,100 ACV) including custom HRIS integration. Outlined implementation timeline, consulting hours, and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down the pricing between platform and consulting components?",
+          "answer": "Platform base is $6,800, consulting package adds $2,300 including custom integration work"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review with stakeholders",
+        "Schedule proposal walkthrough call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-03-26",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Jude. Walked through pricing, scope, and timeline. Jude expressed concern about total cost compared to Fathom's proposal and asked about flexibility on pricing. Discussed ROI calculations based on time savings.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical discount range for deals this size?",
+          "answer": "We have some flexibility for multi-year commitments or larger seat counts"
+        },
+        {
+          "by": "rep",
+          "question": "Where does Fathom's proposal stand in comparison?",
+          "answer": "They're coming in lower on base price but don't include consulting\u2014still evaluating total cost"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than competitive option\u2014need to understand value gap"
+      ],
+      "next_steps": [
+        "Discuss internally with Benjamin and Ethan",
+        "Revisit pricing options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-03-31",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Jude to address pricing concerns. Reinforced differentiation on consulting services and implementation support. Jude indicated budget pressure from procurement (Ethan) and need to justify premium over Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we removed the consulting package, what would base platform pricing look like?",
+          "answer": "Base platform for 12 seats would be $6,800, but you'd lose dedicated implementation support"
+        },
+        {
+          "by": "rep",
+          "question": "Is the consulting support critical to your success, given your timeline?",
+          "answer": "Yes\u2014we don't have internal capacity to handle implementation without support"
+        }
+      ],
+      "objections": [
+        "Procurement is pushing back on total cost"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Quantify ROI for exec approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-04-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude with revised ROI analysis showing 6-month payback based on time savings. Included customer testimonials emphasizing consulting value. Acknowledged budget constraints and indicated willingness to discuss pricing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Internal budget discussion with Benjamin and Ethan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude following up on proposal status. Jude indicated they're in final negotiations with Fathom as well and need our best pricing to close by end of quarter. Decision timeline compressed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare final pricing concession",
+        "Schedule pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-04-08",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Jude to discuss final terms. Offered 21% discount to match budget constraints and close before Q2 hiring ramp. Jude receptive but needs to validate with Ethan (procurement) and Benjamin before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we meet your budget target, can we close this week?",
+          "answer": "Need to run final approval through Ethan and Benjamin, but should be able to move quickly"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Schedule exec meeting with Benjamin for final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-04-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Jude with revised proposal at $7,200 (21% discount from $9,100 list). Outlined concession rationale tied to multi-year potential and case study opportunity. Requested executive meeting with Benjamin to finalize terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec approval meeting scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-04-12",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing confirmation call with Jude. Confirmed revised pricing acceptable to procurement. Reviewed contract terms and implementation kickoff timeline. Jude indicated Benjamin ready to approve pending final exec meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for the full contract term?",
+          "answer": "Yes, one-year lock with standard 5% annual increase on renewal"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final exec meeting with Benjamin",
+        "Prepare contract for signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-04-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Flores",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email confirming exec meeting agenda with Benjamin Gupta. Outlined discussion points: strategic value, implementation timeline, success metrics, and contract terms. Attached executive summary and ROI analysis.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Executive approval meeting tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-04-21",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Benjamin Gupta",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Benjamin Gupta (COO) and Jude Flores to finalize deal. Reviewed strategic alignment with Q2 hiring goals and onboarding efficiency targets. Benjamin approved revised pricing and scope. Discussed success metrics and executive sponsorship. Agreement to proceed with contract signature and implementation kickoff next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your exec engagement model look like post-sale?",
+          "answer": "Quarterly business reviews with your CSM, executive sponsor check-ins at 30-60-90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "How do we ensure adoption across the organization?",
+          "answer": "Consulting package includes change management support and train-the-trainer sessions"
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable moving forward with this partnership?",
+          "answer": "Yes\u2014this meets our needs and timeline. Let's finalize the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule implementation kickoff",
+        "Assign CSM and technical resources"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "deal_id": "DEAL-0304",
+  "company": {
+    "name": "GalacticInsights",
+    "industry": "EdTech",
+    "employee_count": 661,
+    "annual_revenue": 73436056,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13900.0,
+    "seats": 19,
+    "price_per_seat_monthly": 63.42,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.7,
+    "sales_cycle_days": 26,
+    "close_date": "2025-06-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Julian Watson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 17
+    },
+    {
+      "name": "Alex Zhou",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Julian Watson (VP of CS) expressing interest in improving forecasting accuracy for their customer success team. Initial inquiry about platform capabilities for mid-market EdTech environment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-20",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Julian. Discussed current forecasting challenges with spreadsheet-based approach causing 30%+ variance. Julian confirmed budget authority and timeline for Q2 implementation. Team size of 19 seats across CS and Sales orgs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing Salesforce and Zendesk setup?",
+          "answer": "Yes, native integrations available for both with real-time sync"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for forecasting improvement this quarter?",
+          "answer": "Board presentation in May - need to demonstrate predictable growth metrics"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule technical deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 11.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery questionnaire and case study from similar EdTech customer (LearnCore). Julian responded same day confirming technical requirements and sharing current process documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for the automations plus consulting package?",
+          "answer": "4-6 weeks with dedicated CSM support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review documentation before demo",
+        "Prepare customized demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming demo logistics and adding Alex Zhou (Sales Manager) as additional attendee. Julian mentioned Alex would be primary end-user of forecasting dashboards.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for both stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-31",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute product demo with Julian and Alex. Showcased forecasting automation, custom reporting, and Salesforce integration. Alex engaged with technical questions about data accuracy. Julian focused on ROI and team adoption. Positive reception on UI/UX and automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the ML model handle seasonal patterns in EdTech renewal cycles?",
+          "answer": "Model learns industry-specific patterns and allows custom weighting for known seasonality"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboards for different executive stakeholders?",
+          "answer": "Yes, role-based views with drag-and-drop customization included"
+        },
+        {
+          "by": "rep",
+          "question": "What would successful implementation look like for your team in 90 days?",
+          "answer": "Forecast variance under 15% and exec dashboard ready for May board meeting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 19 seats with consulting package",
+        "Include May board deadline in implementation plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-04",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute proposal review call with Julian. Presented $13,900 ACV for 19 seats (28.7% discount from list) given multi-year commitment interest. Julian appreciative of pricing flexibility but mentioned need to validate with finance before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the consulting package sufficient to hit our May deadline?",
+          "answer": "Yes, includes dedicated implementation manager and accelerated onboarding"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in final approval?",
+          "answer": "Just need finance sign-off on budget allocation - should be straightforward"
+        }
+      ],
+      "objections": [
+        "Need to confirm with finance team before committing"
+      ],
+      "next_steps": [
+        "Julian to review with finance by end of week",
+        "Follow up on approval status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on finance review status. Julian responded that finance approved budget but wants to understand contract terms before final signatures. Requested redlined MSA for legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we need to adjust seat count mid-contract?",
+          "answer": "Annual commit with quarterly true-up option for seat adjustments"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send MSA for legal review",
+        "Schedule contract review call if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-09",
+      "type": "exec_meeting",
+      "duration_minutes": 6,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief 6-minute call to address legal questions on data privacy and SLA terms. Julian confirmed most terms acceptable, requested minor modification to payment schedule (quarterly vs annual upfront). Mentioned wanting to finalize before month-end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment as quarterly instead of annual upfront?",
+          "answer": "Yes, can accommodate quarterly billing at the same rate"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update contract with quarterly payment terms",
+        "Send final agreement for signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-14",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Julian Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "16-minute contract finalization call (originally scheduled for previous day, rescheduled by Julian due to conflicting meeting). Reviewed final terms and implementation kickoff plan. Julian confirmed readiness to sign pending one final internal alignment meeting. No new concerns raised but timeline now pushing into next month.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking signature once you complete internal alignment?",
+          "answer": "No blockers - just want to make sure Sales and CS leadership are both briefed on rollout plan"
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign by mid-next week, can we still hit the May board presentation deadline?",
+          "answer": "Yes, still achievable with compressed implementation schedule"
+        }
+      ],
+      "objections": [
+        "Need final alignment meeting with CS and Sales leadership before signing"
+      ],
+      "next_steps": [
+        "Julian to schedule internal alignment meeting",
+        "Rep to follow up early next week on signature timing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

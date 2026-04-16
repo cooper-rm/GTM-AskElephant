@@ -1,0 +1,565 @@
+{
+  "deal_id": "DEAL-0860",
+  "company": {
+    "name": "JadeStudio",
+    "industry": "PropTech",
+    "employee_count": 8756,
+    "annual_revenue": 1103868804,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 79900.0,
+    "seats": 64,
+    "price_per_seat_monthly": 106.89,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 64,
+    "close_date": "2024-02-07",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Ava Evans",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 33
+    },
+    {
+      "name": "Zara Fischer",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 28
+    },
+    {
+      "name": "Asher Allen",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Ava Evans at JadeStudio requesting information about revenue forecasting solutions. She mentioned current challenges with forecast accuracy and asked for an introductory call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer solutions for improving sales forecast accuracy in enterprise environments?",
+          "answer": "Yes, our platform specializes in AI-driven forecasting with real-time pipeline visibility and accuracy tracking."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-05",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Ava Evans. Discussed JadeStudio's current forecasting challenges and pain points. She's evaluating multiple vendors including Clari. Team size around 60-70 sellers, looking for improved accuracy and pipeline insights.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your forecasting model compare to Clari's approach?",
+          "answer": "We use a different ML architecture focused on deal-level signals rather than just pipeline rollups, giving more granular predictions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecast accuracy rate?",
+          "answer": "Around 65-70%, which creates planning challenges for our COO."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Share case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with product overview, ROI calculator, and PropTech case study. Ava responded positively, asked about implementation timeline and integration with Salesforce.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a company our size?",
+          "answer": "4-6 weeks for full deployment, with basic forecasting active in week 2."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map current tech stack"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-13",
+      "type": "follow_up_call",
+      "duration_minutes": 4,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call. Ava confirmed internal interest and mentioned she'll need to involve Zara Fischer (COO) and Asher Allen (IT Director) for procurement. Discussed next steps for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation process?",
+          "answer": "Our COO Zara owns the budget, and Asher from IT will handle technical review and security."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical documentation for IT review",
+        "Prepare multi-stakeholder demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Sent technical documentation, security whitepaper, and integration guides to Ava for distribution to Asher. Also included calendar invite options for demo with multiple stakeholders.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for IT review feedback",
+        "Confirm demo attendees"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Shared additional resources including API documentation and detailed feature comparison sheet. Ava mentioned Clari is also in active evaluation and they're planning to make a decision within 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide a side-by-side comparison with Clari's feature set?",
+          "answer": "Sent detailed comparison highlighting our deal-level risk scoring and automation capabilities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-27",
+      "type": "technical_eval",
+      "duration_minutes": 29,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Ava and Asher Allen. Walked through platform architecture, data security, Salesforce integration, and API capabilities. Asher asked detailed questions about data residency and compliance. Generally positive technical fit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support EU data residency requirements?",
+          "answer": "US-based with AWS, EU residency available on enterprise plans. SOC2 Type II certified."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA and disaster recovery protocol?",
+          "answer": "99.9% uptime SLA with 4-hour recovery time objective, detailed in enterprise agreement."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide SOC2 report under NDA",
+        "Schedule product demo for sales leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-31",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ava and three members of her sales leadership team. Demonstrated forecasting dashboard, deal scoring, pipeline analytics, and automation workflows. Strong engagement, specific questions about customization for PropTech metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize deal stages and risk factors specific to our PropTech sales process?",
+          "answer": "Yes, fully configurable stage definitions and custom risk factors through our admin console."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI model learn from our historical data?",
+          "answer": "We train on 12-24 months of closed deals, continuously refining predictions based on your outcomes."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Board pressure on forecast accuracy after two quarters of misses. COO needs better visibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 64 seats",
+        "Include consulting package for model customization"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-04",
+      "type": "technical_eval",
+      "duration_minutes": 38,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical deep-dive with Ava and IT team. Covered data migration strategy, user provisioning via SSO, reporting customization, and ongoing support model. Discussed comparison with Clari's implementation approach. Asher expressed some concerns about change management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of ongoing support is included versus requiring consulting add-ons?",
+          "answer": "Standard support includes configuration help and quarterly business reviews. Custom model training requires consulting package."
+        },
+        {
+          "by": "prospect",
+          "question": "How much training is required for our sales team to adopt this?",
+          "answer": "Typically 2-3 hours of onboarding, plus we provide train-the-trainer sessions for your sales enablement team."
+        },
+        {
+          "by": "prospect",
+          "question": "Clari quoted us a lower price for similar seat count. How do you justify the premium?",
+          "answer": "Our deal-level AI and consulting package provide deeper customization for PropTech workflows versus Clari's generic approach."
+        }
+      ],
+      "objections": [
+        "Clari's pricing came in lower and they're an established player in this space"
+      ],
+      "next_steps": [
+        "Address pricing positioning in proposal",
+        "Include ROI model showing accuracy improvement value"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 64 seats with automations plus consulting package at $79,900 ACV. Included detailed ROI analysis showing projected forecast accuracy improvement and efficiency gains. Also addressed Clari comparison with differentiation points.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review call scheduled to walk through proposal",
+        "Prepare for pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-01-16",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ava. Walked through pricing structure, implementation timeline, and success metrics. She appreciates the consulting package but mentioned the COO will need to see the business case given Clari's competitive pricing. Scheduled follow-up to refine terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours or can we phase that over two years?",
+          "answer": "We can structure consulting delivery across implementation phases, but total package pricing stays consistent."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to finalize by end of quarter. Zara wants to present the business case to the exec team in two weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Refine proposal with phased consulting",
+        "Prepare executive summary for COO"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-01-19",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second proposal discussion with Ava. Reviewed updated proposal with phased consulting delivery. She confirmed the approach works better for their budget planning. Discussed process for getting Zara and procurement involved in final negotiations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What payment terms do you typically offer for deals this size?",
+          "answer": "Standard is annual upfront, but we can discuss quarterly or semi-annual for enterprise customers."
+        },
+        {
+          "by": "rep",
+          "question": "Is Clari still in active consideration or have you narrowed down?",
+          "answer": "They're still in the mix. Zara wants to see both final proposals before deciding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call",
+        "Prepare competitive positioning document"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-01-23",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call with Ava. Discussed payment terms, discount possibilities, and contract length options. She mentioned Clari offered 15% discount for annual prepay. Explored multi-year pricing to improve unit economics while staying competitive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's discount structure if we commit to annual prepayment?",
+          "answer": "We can offer 10% for annual prepay, and an additional 5% if you commit to a two-year agreement."
+        },
+        {
+          "by": "rep",
+          "question": "Would a multi-year commitment work for your planning cycle?",
+          "answer": "Possibly, but Zara will need to approve any multi-year spend. Let me discuss internally."
+        }
+      ],
+      "objections": [
+        "Need to see meaningful discount to justify the price premium over Clari"
+      ],
+      "next_steps": [
+        "Send updated proposal with discount options",
+        "Schedule exec meeting with Zara"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-01-28",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Zara Fischer",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Zara Fischer (COO) and Ava. Presented business case focused on forecast accuracy ROI and operational efficiency gains. Zara engaged positively but raised questions about implementation risk and whether Clari's market position reduces risk. Discussed success metrics and accountability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do you provide around forecast accuracy improvement?",
+          "answer": "We include accuracy benchmarking in the consulting package and commit to defined improvement targets in the SOW."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you de-risk implementation given Clari's larger customer base and market presence?",
+          "answer": "We provide dedicated CSM, implementation insurance, and have 15+ PropTech customers with similar profiles including references."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the projected accuracy improvement in year one?",
+          "answer": "We'll include a satisfaction clause with quarterly check-ins and extension of consulting support if targets aren't met."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "Competitive pricing, proven PropTech success, and clear implementation risk mitigation. Procurement also needs to review terms."
+        }
+      ],
+      "objections": [
+        "Clari's market leadership feels like safer choice from risk perspective"
+      ],
+      "next_steps": [
+        "Connect with Asher and procurement on contract terms",
+        "Provide additional PropTech references"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-02-04",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Zara Fischer",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Zara and Ava. Addressed implementation risk concerns with detailed project plan and PropTech customer references. Zara more comfortable with risk mitigation approach. Discussed final pricing and contract terms. She confirmed Asher will lead legal/procurement review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot before full 64-seat rollout?",
+          "answer": "We can phase deployment over 8 weeks, starting with 20 seats, but pricing is based on full 64-seat commitment."
+        },
+        {
+          "by": "rep",
+          "question": "If we finalize terms this week, can you close by month-end?",
+          "answer": "Yes, if procurement review goes smoothly. Asher's team typically takes 1-2 weeks for contract review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final proposal to procurement",
+        "Schedule negotiation call to finalize terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-02-09",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Ava Evans",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ava to finalize contract terms. Aligned on 64 seats at $79,900 ACV with 12% discount for annual prepayment, phased consulting delivery, and quarterly payment option. Discussed MSA terms, data security addendum, and implementation timeline. Asher's procurement review in progress.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include an opt-out clause after year one if accuracy targets aren't met?",
+          "answer": "We can include performance criteria with mutual agreement on renewal, but not unilateral opt-out for pricing stability."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the process if we need to add seats mid-contract?",
+          "answer": "Seats can be added quarterly at prorated pricing, with true-up at renewal."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any remaining blockers on your end?",
+          "answer": "Just final procurement review of MSA terms. Should have feedback by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize MSA with procurement",
+        "Prepare implementation kickoff plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "deal_id": "DEAL-0976",
+  "company": {
+    "name": "BeaconConsulting",
+    "industry": "eCommerce",
+    "employee_count": 189,
+    "annual_revenue": 47607637,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 9200.0,
+    "seats": 10,
+    "price_per_seat_monthly": 76.11,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 14.5,
+    "sales_cycle_days": 104,
+    "close_date": "2024-12-01",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lucas Rao",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ravi Stern",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 10
+    },
+    {
+      "name": "Blake Ito",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    },
+    {
+      "name": "Liam Lim",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 28
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 16.8,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lucas Rao introducing our conversation intelligence platform and its value for sales-to-CS handoff workflows. Highlighted automation capabilities for capturing customer context during transitions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lucas to review and respond if interested"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-19",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Lucas Rao. He confirmed BeaconConsulting is evaluating conversation intelligence tools to improve handoff quality between sales and customer success. Currently using basic note-taking, looking for automation. Team size ~10 customer-facing roles.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for mid-market companies?",
+          "answer": "Seat-based with tiered automation packages, typically $800-1200 per seat annually depending on feature set"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the search for a conversation intelligence solution now?",
+          "answer": "We've had multiple instances where CS inherited deals without full context, leading to rocky onboarding experiences"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week",
+        "Lucas to share current handoff documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 13.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery call confirmation and agenda. Included case study on sales-to-CS handoff automation for similar eCommerce SaaS company.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Brief email from Lucas sharing their current handoff checklist and noting they're also looking at Chorus. Asked about our differentiation in the handoff use case specifically.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your handoff workflow automation compare to Chorus?",
+          "answer": "Our unlimited automation tier includes customizable handoff playbooks and bi-directional CRM sync, whereas Chorus charges separately for advanced workflow features"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare Chorus comparison for discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-10",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First discovery call with Lucas. Deep dive into current handoff process pain points: inconsistent note quality, lost context on customer objections, delayed CS onboarding. Discussed their evaluation criteria and timeline (aiming to decide by end of quarter). Lucas mentioned Ravi (CEO) is sponsoring the initiative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this project in 6 months?",
+          "answer": "CS team has full context on every new customer within 24 hours of handoff, reduction in onboarding friction scores"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which conversation data flows to specific CS team members?",
+          "answer": "Yes, you can set routing rules based on deal characteristics, account owner, or custom fields"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your integration process with HubSpot?",
+          "answer": "Native integration, typically 1-2 days for setup including custom field mapping"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to introduce Blake (technical lead) for eval",
+        "Schedule second discovery with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-17",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call with Lucas and Blake Ito (Implementation Lead). Discussed technical requirements: HubSpot integration, data security (SOC2 required), API access for custom reporting. Blake asked detailed questions about data retention and user provisioning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Standard 2-year retention, enterprise tier allows custom retention policies"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO and automated user provisioning?",
+          "answer": "Yes, SAML SSO included, SCIM provisioning available on unlimited automation tier"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any compliance requirements beyond SOC2 we should be aware of?",
+          "answer": "SOC2 is primary requirement, GDPR compliance for EU customer data"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on handoff workflows",
+        "Share security documentation with Blake"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-26",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Lucas focusing on sales-to-CS handoff automation features. Walked through: automated call summaries, custom handoff playbooks, CRM field mapping, and CS notification workflows. Lucas particularly engaged with the playbook customization capabilities. Mentioned they're seeing a Chorus demo next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger different handoff playbooks based on deal size or product tier?",
+          "answer": "Yes, playbooks can be triggered by any CRM field including deal value, product, or custom properties"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does it typically take to train the AI on our specific use case terminology?",
+          "answer": "Initial accuracy is high out of box, custom vocabulary and phrases typically refined over first 2-3 weeks of usage"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place by early next quarter, evaluating through end of this month"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Blake to lead technical evaluation",
+        "Lucas to arrange exec sponsor intro"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-30",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Blake Ito",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Blake Ito. Deep dive into API capabilities, webhook configurations, and integration architecture. Blake tested the HubSpot integration in sandbox environment. Discussed implementation timeline (estimated 2-3 weeks) and training approach. Blake raised questions about call recording consent management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle call recording consent across different jurisdictions?",
+          "answer": "Configurable consent workflows by region, auto-announcement options, and consent tracking in audit logs"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your API rate limiting policy?",
+          "answer": "Standard tier: 1000 requests/hour, unlimited automation: 5000 requests/hour with burst allowance"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export all conversation data for backup or analysis?",
+          "answer": "Yes, bulk export via API or scheduled data exports to your storage bucket"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any integration requirements we haven't covered?",
+          "answer": "Will need to verify VPN requirements for API access from our network"
+        }
+      ],
+      "objections": [
+        "Need to verify that API rate limits will support our planned reporting automation"
+      ],
+      "next_steps": [
+        "Blake to complete security review checklist",
+        "Test additional API endpoints",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Lucas summarizing demo and Blake's technical session. Included ROI calculator showing projected time savings on handoff process. Asked about timeline for Ravi (CEO) intro and decision-making process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the approval process once you and Blake are aligned?",
+          "answer": "Need Ravi's sign-off and Liam (procurement) will handle contract review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to schedule exec sponsor call with Ravi"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-16",
+      "type": "technical_eval",
+      "duration_minutes": 29,
+      "person_name": "Blake Ito",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical eval session with Blake. Completed remaining integration testing and reviewed security documentation. Blake confirmed SOC2 compliance meets requirements. Discussed user onboarding and admin training. Blake mentioned Chorus offers lower per-seat pricing but charges extra for advanced automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of ongoing support is included in the unlimited automation tier?",
+          "answer": "Dedicated CSM, priority support queue, quarterly business reviews, and implementation assistance for new workflows"
+        },
+        {
+          "by": "rep",
+          "question": "How is the Chorus evaluation progressing?",
+          "answer": "They have strong brand recognition but their pricing gets expensive when you add the features we need for handoff automation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Blake to provide technical approval to Lucas",
+        "Lucas to move forward with exec intro and pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-10-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.7,
+      "rescheduled": false,
+      "ai_summary": "Email from Lucas confirming Blake's technical approval. Requested formal proposal for 10 seats with unlimited automation tier. Mentioned they're finalizing comparison with Chorus and want to discuss pricing before bringing in Ravi and Liam.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 10 seats, unlimited automation tier",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 22.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 10 seats, unlimited automation tier, $9,200 ACV with standard payment terms. Included implementation timeline, support details, and ROI projections based on their current handoff volume.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lucas to review proposal with team",
+        "Schedule pricing call for later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-11-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Brief email from Lucas noting they received a competitive offer from Chorus and asking about pricing flexibility. Confirmed Ravi is engaged and supportive of moving forward with the right solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room for negotiation on the per-seat price given our timeline and commitment?",
+          "answer": "Let's discuss on our pricing call - there may be flexibility depending on contract term and payment structure"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled for tomorrow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-11-17",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Lucas. Discussed Chorus competitive offer (lower per-seat but higher total cost when including required add-ons). Lucas transparent about budget constraints and preference for our solution due to handoff-specific features. Explored multi-year contract options and payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer annual prepay discount?",
+          "answer": "Yes, 8% discount for annual prepay vs quarterly billing"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline at this point?",
+          "answer": "Need to finalize by end of next week to hit Q2 implementation goal"
+        },
+        {
+          "by": "prospect",
+          "question": "If we commit to a 2-year term, what pricing can you offer?",
+          "answer": "Could potentially reduce to $8,800 ACV for 2-year commitment with annual prepay"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to make sure pricing is defensible to Ravi and finance"
+      ],
+      "next_steps": [
+        "Rep to discuss 2-year pricing with leadership",
+        "Lucas to loop in Liam (procurement) and schedule final decision call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-11-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised pricing: $9,200 ACV for 1-year term with quarterly billing (original proposal maintained). Explained value justification vs Chorus for their specific use case and included reference customer contact in similar industry.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lucas to review with Ravi and Liam",
+        "Schedule negotiation call to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-12-01",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Lucas Rao",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Lucas, Ravi (CEO), and Liam (procurement). Ravi confirmed strategic importance of improving handoff process and expressed support for our solution over Chorus. Liam focused on contract terms, payment schedule, and renewal conditions. Agreed on 1-year term at $9,200 ACV with quarterly billing and standard terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in implementation and is there an additional fee?",
+          "answer": "Implementation included in unlimited automation tier, no additional fee for standard HubSpot integration and onboarding"
+        },
+        {
+          "by": "prospect",
+          "question": "What are the renewal terms and price lock provisions?",
+          "answer": "Auto-renewal with 60-day notice period, pricing locked for year 1, standard 5-7% increase for year 2 based on market rates"
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned to move forward with these terms?",
+          "answer": "Yes, Liam will send this to legal for contract review, should be able to execute within a week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Liam to initiate legal review",
+        "Rep to send contract for signature",
+        "Implementation kickoff scheduled pending signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

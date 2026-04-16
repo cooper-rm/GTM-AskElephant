@@ -1,0 +1,328 @@
+{
+  "deal_id": "DEAL-0045",
+  "company": {
+    "name": "ArcInsights",
+    "industry": "Professional Services",
+    "employee_count": 456,
+    "annual_revenue": 67252042,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17100.0,
+    "seats": 19,
+    "price_per_seat_monthly": 70.93,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 20.3,
+    "sales_cycle_days": 26,
+    "close_date": "2025-12-14",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Aaliyah Koch",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 12
+    },
+    {
+      "name": "Blake Lee",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 40
+    },
+    {
+      "name": "Harper Sato",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 45
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aaliyah Koch expressing interest in improving rep productivity across their sales team. Initial inquiry about automation capabilities and consulting support.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current workflow and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-18",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aaliyah Koch. Discussed current challenges with manual data entry and lack of visibility into rep activities. ArcInsights has 19 reps struggling with CRM adoption and spending too much time on administrative tasks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can reps typically see productivity improvements after implementation?",
+          "answer": "Most customers see measurable time savings within 2-3 weeks of onboarding, with full productivity gains realized by month 2."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack and CRM platform?",
+          "answer": "We're on Salesforce, integrated with Outreach and Gong. Main issue is data hygiene and reps not logging activities consistently."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aaliyah to audit current rep workflows and time spent on admin tasks",
+        "Schedule deeper discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-22",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving into specific use cases. Aaliyah shared that their COO Blake Lee is pushing for better sales efficiency metrics. Discussed automation plus consulting package to ensure adoption and change management support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting engagement typically look like in terms of time commitment from our team?",
+          "answer": "Usually 2-3 hours per week for the first month with your RevOps lead and a few key reps, then tapering to monthly check-ins."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this beyond yourself?",
+          "answer": "Blake Lee, our COO, will need to approve any investment. Also want to loop in Harper Sato, our Sales Manager, for the technical evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you share case studies from similar professional services companies?",
+          "answer": "Absolutely, we have several mid-market services firms that have seen 30-40% reduction in admin time. I'll send over relevant case studies."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We need to move quickly - our Q2 planning is already underway and we need something in place soon.",
+          "response": "Our typical implementation is 2-3 weeks from contract signing, so we can definitely support your Q2 timeline."
+        }
+      ],
+      "next_steps": [
+        "Send case studies and ROI calculator",
+        "Schedule demo for next week with Aaliyah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case studies from professional services companies, ROI calculator showing potential 35% time savings for ArcInsights, and proposed demo agenda. Aaliyah confirmed demo time.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we also see the reporting dashboard during the demo?",
+          "answer": "Definitely - I'll make sure to show the manager visibility features that Harper will care about."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for following Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-27",
+      "type": "demo",
+      "duration_minutes": 36,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled due to Aaliyah's conflict. When held, walked through automation workflows, activity capture, and reporting dashboard. Aaliyah was engaged and asked detailed questions about Salesforce integration and rollout approach. Discussed bringing in Blake and Harper for next conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the AI activity capture handle emails versus logged calls?",
+          "answer": "It automatically parses both email threads and call transcripts, deduplicates contact touches, and syncs to Salesforce with proper field mapping."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of month. Blake wants to see this as part of our Q2 initiatives."
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in the data migration and cleanup as part of the consulting package?",
+          "answer": "Our consultants will audit your current Salesforce data, create a cleanup plan, and work with your team to standardize fields and workflows before go-live."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aaliyah to brief Blake and Harper",
+        "Schedule exec meeting with Blake for proposal discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-12-03",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Blake Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Blake Lee rescheduled due to Blake's travel conflict. Original intent was to present business case and ROI to secure executive sponsorship.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-05",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Blake Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Blake Lee and Aaliyah. Presented ROI analysis showing $89K in potential time savings annually. Blake focused heavily on implementation risk and asked about customer references. Discussed pricing and Blake requested 'best possible terms' given their timeline and budget constraints for Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if adoption doesn't hit the targets in your ROI model?",
+          "answer": "That's exactly why we include consulting - our Customer Success team monitors usage weekly and intervenes early if we see adoption lag. We also have a 90-day check-in to validate ROI."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you connect us with a reference customer in professional services who went through this?",
+          "answer": "Yes, I can arrange a reference call with a similar-sized consulting firm that implemented 6 months ago."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you?",
+          "answer": "Honestly, the pricing is the biggest hurdle right now. We have budget allocated but it's tight. If we can find the right terms, I'm ready to move forward."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The pricing is higher than what we budgeted for this initiative. We need to see if there's flexibility to fit our Q2 budget.",
+          "response": "Let me work with our team on what we can do. Given your timeline and the 19 seats, there may be room to adjust the package."
+        }
+      ],
+      "next_steps": [
+        "Arrange reference call",
+        "Prepare formal proposal with adjusted pricing",
+        "Schedule pricing discussion with Aaliyah"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-12-10",
+      "type": "pricing_call",
+      "duration_minutes": 1,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing call with Aaliyah. Confirmed reference call went well. Discussed revised proposal with 20% discount to meet their budget constraints. Aaliyah indicated Blake is supportive at the new price point and they're ready to move to legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in or subject to change during legal review?",
+          "answer": "This is our final pricing - it won't change during legal review. We can hold this for signature by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal and MSA to Aaliyah",
+        "Aaliyah to route through legal and procurement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aaliyah Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal, MSA, and implementation timeline. Aaliyah confirmed receipt and mentioned they're in legal review with expected turnaround of 3-5 business days. Reiterated eagerness to get started and meet Q2 deadline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Aaliyah to follow up once legal completes review",
+        "Stand by for contract questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

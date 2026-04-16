@@ -1,0 +1,395 @@
+{
+  "deal_id": "DEAL-0611",
+  "company": {
+    "name": "PlasmaChannel",
+    "industry": "Vertical SaaS",
+    "employee_count": 100,
+    "annual_revenue": 10529130,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 56.73,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 36.3,
+    "sales_cycle_days": 62,
+    "close_date": "2025-06-29",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Dylan Takahashi",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-31",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Sent LinkedIn connection request to Dylan Takahashi with brief note about CS handoff challenges. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-02",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Dylan's direct line. No answer, left brief voicemail introducing our CS handoff automation solution.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-03",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message referencing common pain points in sales-to-CS handoff. Dylan responded expressing interest in learning more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from what Clari offers?",
+          "answer": "Explained our focus on post-sale automation vs Clari's revenue operations focus, offered to show specific CS handoff workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-04",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Sent email with calendar link and one-pager on CS handoff automation. Dylan didn't respond but call was already scheduled from LinkedIn.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-28",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Dylan. He's 3 months into VP of CS role, dealing with messy handoffs from sales. Currently tracking in spreadsheets. Team of 9 CS managers. Interested in automation but budget conscious.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current sales-to-CS handoff process?",
+          "answer": "Information gets lost between systems. Sales uses Salesforce, CS uses a mix of tools. We're rebuilding context on every new customer."
+        },
+        {
+          "by": "rep",
+          "question": "Have you looked at other solutions?",
+          "answer": "We're already paying for Clari but honestly not using the handoff features much. Feels built for sales ops, not CS."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for core handoff automation, can extend for custom workflows."
+        }
+      ],
+      "objections": [
+        "We're already spending a lot on tools, need to see clear ROI"
+      ],
+      "next_steps": [
+        "Dylan to map out current handoff workflow",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-06",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on Dylan's handoff workflow. He walked through their current process: 7-step manual checklist, avg 3 hours per handoff, frequent data gaps. Interested in seeing demo of automations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating CS tools?",
+          "answer": "Honestly, it's mostly on me. Our CRO is focused on sales headcount. I have budget authority for CS tooling under $10k."
+        },
+        {
+          "by": "rep",
+          "question": "How are you measuring handoff quality today?",
+          "answer": "We're not, really. Just tracking how many support tickets come in the first 30 days. It's not great."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical eval/demo",
+        "Dylan to document 2-3 recent problem handoffs as examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo prep guide and questions about tech stack. Dylan confirmed Salesforce, Zendesk, and Slack integrations needed. Requested pricing estimate for 9 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you give me a ballpark on pricing before the demo?",
+          "answer": "Shared indicative range of $8-12k for 9 seats depending on features. Dylan acknowledged, didn't push back."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-23",
+      "type": "technical_eval",
+      "duration_minutes": 55,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical eval call with Dylan and two CS managers. Walked through automations platform, showed handoff workflow builder, live demo of Salesforce/Zendesk sync. Team engaged, asked good technical questions. Dylan focused heavily on pricing toward end of call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom automations or just use templates?",
+          "answer": "Showed the workflow builder, confirmed they can customize. Dylan's team seemed pleased with flexibility."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our existing Clari setup?",
+          "answer": "Explained coexistence model, can pull data from Clari or run in parallel. Dylan noted they might just sunset Clari."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your actual pricing for 9 seats with the features we need?",
+          "answer": "Quoted $10k for automations tier. Dylan went quiet, mentioned budget is tighter than expected."
+        }
+      ],
+      "objections": [
+        "That's higher than I was hoping. I'm working with a budget closer to $6-7k."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Dylan to discuss budget internally"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal with three tiers: automations-only ($8k), automations + consulting ($10k), enterprise ($14k). Dylan responded asking if we can work with his budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the automations + consulting tier? That's what we need but $10k is a stretch.",
+          "answer": "Offered to schedule a call to discuss options and potential discount for faster decision."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Negotiation call scheduled"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-09",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Dylan. He confirmed budget ceiling of $6.5k, pushed hard on discount. Discussed value, ROI on time savings. Dylan emphasized he's new in role and needs a win but can't overspend. Agreed to bring revised pricing to leadership.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anyone else who should be part of this conversation on budget?",
+          "answer": "No, I own CS tooling budget. CRO trusts me on this but I need to stay within my allocated spend."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on the automations + consulting package?",
+          "answer": "Said I'd need to check with leadership, but hinted at potential to get closer to his range."
+        }
+      ],
+      "objections": [
+        "I can't justify $10k. My budget is $6.5k max and I'm already stretching it."
+      ],
+      "next_steps": [
+        "Rep to get approval for discount",
+        "Dylan to prepare internal business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-06-20",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to present revised offer. Proposed $6.4k for automations + consulting (36% discount) as end-of-quarter special. Dylan receptive but wanted to confirm scope and contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this include the full implementation support we discussed?",
+          "answer": "Confirmed yes, includes 20 hours of consulting for workflow setup and training."
+        },
+        {
+          "by": "rep",
+          "question": "Can you move forward this week to hit our quarter close?",
+          "answer": "Dylan said he can make a decision but needs final contract to review terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with $6.4k pricing",
+        "Dylan to review and return signed by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-06-29",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Dylan Takahashi",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to walk through contract. Dylan had questions on renewal terms, auto-renewal clause, and offboarding process. Adjusted contract language to address concerns. Dylan confirmed he'll sign by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens at renewal? Does price go back to $10k?",
+          "answer": "Explained pricing holds for year one, renewal at standard rate unless we negotiate new terms. Dylan accepted."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we remove the auto-renewal and make it opt-in?",
+          "answer": "Agreed to modify to 60-day notice required for non-renewal instead of auto-renewal."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need anyone else to review the contract?",
+          "answer": "No, I can sign. Just want to make sure I understand the terms clearly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan to sign contract by Friday",
+        "Kickoff call scheduled for following Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

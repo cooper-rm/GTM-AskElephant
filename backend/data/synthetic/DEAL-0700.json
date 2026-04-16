@@ -1,0 +1,307 @@
+{
+  "deal_id": "DEAL-0700",
+  "company": {
+    "name": "OakForge",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 12725197,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5700.0,
+    "seats": 6,
+    "price_per_seat_monthly": 79.92,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 10.2,
+    "sales_cycle_days": 46,
+    "close_date": "2025-07-08",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Morgan Moore",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 44
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-14",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Sent LinkedIn connection request to Morgan Moore (VP of CS at OakForge) mentioning forecasting accuracy challenges in CS teams. Morgan accepted and replied expressing interest in learning more about our platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-23",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute qualification call with Morgan Moore to understand OakForge's current forecasting process. Morgan shared frustrations with manual spreadsheet-based forecasting and mentioned they're currently evaluating Clari. Discussed team size (6 CS managers) and budget parameters. Morgan confirmed authority to evaluate tools and expressed strong interest in seeing a demo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for forecasting customer health and renewals?",
+          "answer": "We're using spreadsheets and manual updates from our CS team. It's time-consuming and often inaccurate."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving you to look for a solution now?",
+          "answer": "Our CEO is pushing for better predictability in our renewal forecasts. We missed our targets last quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Clari? We've been looking at them as well.",
+          "answer": "Both platforms help with forecasting, but we focus specifically on CS automation workflows while Clari is broader sales-focused. I can show you the differences in a demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email thanking Morgan for the call and providing high-level pricing for 6 seats with unlimited automation tier ($5,700 ACV). Attached case study showing 40% improvement in forecast accuracy for similar-sized CS team. Morgan responded asking about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks including data integration and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-06",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "10-minute check-in call to confirm demo scheduling. Morgan mentioned wanting to include their CS team in the demo but needs to coordinate calendars. Brief discussion about key features to prioritize in demo based on their forecasting pain points.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show integration with Salesforce during the demo? That's our CRM.",
+          "answer": "Absolutely, we have native Salesforce integration and I'll walk through the setup process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-10",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "33-minute product demo with Morgan Moore (originally scheduled for earlier but rescheduled due to Morgan's conflict). Walked through forecasting dashboard, automation workflows, and Salesforce integration. Morgan was engaged and asked detailed questions about reporting capabilities. Mentioned that their CFO will ultimately need to approve the budget but hasn't been involved yet. Some hesitation noted when discussing timeline vs. continuing Clari evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecast categories to match our internal terminology?",
+          "answer": "Yes, all forecast fields and categories are fully customizable through the admin panel."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of historical data do we need to get accurate predictions?",
+          "answer": "We recommend at least 6 months of customer interaction data, but the models improve with 12+ months."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation from your side?",
+          "answer": "I'll need to loop in our CFO eventually for budget approval, but I want to get more details first."
+        }
+      ],
+      "objections": [
+        "We're also looking at Clari and need to compare both solutions before deciding"
+      ],
+      "next_steps": [
+        "Morgan to review internally",
+        "Follow up next week with questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and answers to Morgan's technical questions about data retention and API access. Included comparison sheet highlighting differences from Clari for CS-specific use cases. Morgan replied thanking for the info and said they're still working through the evaluation internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-24",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "11-minute proposal review call with Morgan. Walked through formal proposal for 6 seats at $5,700 ACV with unlimited automation tier. Morgan expressed concerns about getting CFO buy-in without exec sponsor championing internally. Discussed ROI metrics and offered to join a call with finance team. Morgan seemed positive about the solution but uncertain about internal approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any references from other CS teams in our industry?",
+          "answer": "Yes, I can connect you with two SaaS companies of similar size who implemented last quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful if I joined a call with your CFO to discuss ROI?",
+          "answer": "Maybe, but I need to socialize this internally first. I'm not sure the timing is right for that yet."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to discuss with CFO",
+        "Send customer references"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-01",
+      "type": "negotiation_call",
+      "duration_minutes": 31,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute negotiation call with Morgan regarding contract terms and pricing. Morgan pushed for discount citing budget constraints and competitive offer from Clari. Discussed flexible payment terms and potential to start with shorter contract. Morgan expressed urgency to make decision this month but still hasn't involved CFO or other executives in the conversation. Some concern about being single-threaded with only Morgan as the contact.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer any flexibility on the annual price? Clari came in lower for similar functionality.",
+          "answer": "Our pricing is based on the unlimited automation tier which provides more CS-specific features. What discount were you hoping for?"
+        },
+        {
+          "by": "prospect",
+          "question": "Would you consider a 6-month pilot instead of annual commitment?",
+          "answer": "We typically do annual contracts, but I can discuss a quarterly payment plan with my team."
+        },
+        {
+          "by": "rep",
+          "question": "Can we schedule time with your CFO to align on budget and timeline?",
+          "answer": "I'm trying to get all the details finalized before bringing them in. Let me see what I can do on my end first."
+        }
+      ],
+      "objections": [
+        "The pricing is higher than our budget allocation, and Clari offered a more competitive rate"
+      ],
+      "next_steps": [
+        "Rep to review discount options with leadership",
+        "Morgan to get final budget approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Moore",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discussion of quarterly payment option to help with budget constraints. Reiterated value proposition for CS-specific automation vs. general sales forecasting tools. Offered to extend proposal deadline to allow time for internal approvals. Morgan acknowledged receipt but didn't commit to specific next steps or timeline for CFO involvement.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Morgan's internal budget discussion",
+        "Follow up end of week if no response"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

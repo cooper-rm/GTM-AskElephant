@@ -1,0 +1,804 @@
+{
+  "deal_id": "DEAL-0178",
+  "company": {
+    "name": "PixelCapital",
+    "industry": "eCommerce",
+    "employee_count": 3137,
+    "annual_revenue": 219880956,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 41700.0,
+    "seats": 38,
+    "price_per_seat_monthly": 97.4,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 70,
+    "close_date": "2024-12-01",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Isaac Martinez",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 21
+    },
+    {
+      "name": "Abigail Sanchez",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 47
+    },
+    {
+      "name": "Carter Doyle",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 7
+    },
+    {
+      "name": "Mason Williams",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 10
+    },
+    {
+      "name": "Ryan Ali",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-09",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Isaac Martinez introducing our revenue intelligence platform and highlighting pipeline visibility capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-17",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 16.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email to Isaac. He responded expressing initial interest in learning more about pipeline visibility solutions, mentioned they're currently evaluating options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your approach different from other conversation intelligence tools?",
+          "answer": "Our platform combines AI-powered call analysis with automated pipeline tracking, giving RevOps teams real-time visibility without manual data entry."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-20",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Attempted cold call to Isaac Martinez. No answer, left voicemail referencing email exchange and offering to discuss pipeline visibility challenges.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-23",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First qualification call with Isaac. Discussed PixelCapital's current pipeline tracking challenges and their growth to 3100+ employees. Isaac mentioned they're using basic tools and manual reporting is eating up RevOps time. Light conversation establishing context.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with pipeline visibility today?",
+          "answer": "We're spending 15-20 hours a week manually updating forecasts and pulling data from different systems. Leadership wants real-time insights we can't provide."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can you typically get a team onboarded?",
+          "answer": "Usually 2-3 weeks for initial setup, with teams seeing value in the first week once connected to their tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-25",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call with Isaac. Explored specific use cases around deal risk detection and forecast accuracy. Isaac shared that their VP of Revenue is frustrated with forecast misses. Discussion about team size and potential seat count.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many people would need access across RevOps and sales leadership?",
+          "answer": "Probably 35-40 seats across our revenue team managers and RevOps analysts."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing call recording tools?",
+          "answer": "Yes, we have native Salesforce integration and can pull from most recording platforms including Gong, Chorus, and Fireflies."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share integration documentation",
+        "Prepare custom use case examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-29",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call to confirm budget authority and procurement process. Isaac outlined PixelCapital's approval workflow and mentioned $40-50K range is within their Q2 budget allocation for RevOps tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating a solution like this?",
+          "answer": "I'll drive it with my team, but our SVP of Revenue Abigail will need to sign off, and we'll want our sales managers and implementation lead to weigh in on technical fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader context"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-10-05",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call with Isaac. Deep dive into their tech stack, current pipeline management workflow, and pain points with manual forecasting. Isaac mentioned they've looked at Fireflies but found it too limited for their RevOps needs. Discussed competitive positioning and automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What other solutions are you currently evaluating?",
+          "answer": "We've tested Fireflies for call recording, but it's really just transcription. We need something that actually analyzes deal health and automates pipeline updates."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system automatically flag at-risk deals based on conversation patterns?",
+          "answer": "Yes, our AI scans for risk signals like competitor mentions, pricing concerns, stakeholder changes, and timeline delays, then surfaces them in your dashboard."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of Q2, so probably make a call in the next 4-6 weeks."
+        }
+      ],
+      "objections": [
+        "We already have Fireflies for recording, want to make sure we're not duplicating functionality."
+      ],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule demo",
+        "Loop in technical evaluator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-10-07",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call focused on technical requirements and integration needs. Isaac brought up their data security requirements and asked about SOC 2 compliance. Discussed automation capabilities beyond what Fireflies offers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are you SOC 2 Type II certified?",
+          "answer": "Yes, we completed our Type II certification last year and can share the report during security review."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond pipeline visibility, what other automation would be valuable for your team?",
+          "answer": "Automated MEDDIC scoring would be huge, and anything that reduces manual Salesforce updates for our reps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share security documentation",
+        "Prepare demo focused on automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after discovery call. Sent customized ROI analysis showing potential time savings and forecast accuracy improvements for PixelCapital's team size. Isaac responded positively and confirmed demo schedule.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include our Implementation Lead Carter Doyle on the demo?",
+          "answer": "Absolutely, I'll send him a calendar invite and any prep materials."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-14",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick check-in call with Isaac to prep for upcoming demo. Confirmed key stakeholders attending and their specific interests. Isaac mentioned Abigail will want to see executive dashboards.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What should we prioritize in the demo?",
+          "answer": "Show the automated deal health scoring, pipeline rollup views for leadership, and how it works alongside our existing tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize demo script",
+        "Send pre-demo questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-10-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email confirming logistics and sharing agenda. Isaac confirmed Carter Doyle and account manager Mason Williams will attend. Positive tone, team is eager to see the platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange about demo access and answering Carter's technical question about API rate limits and data refresh frequency. Shared technical documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How often does the system sync with Salesforce?",
+          "answer": "Real-time for critical events, with full sync every 15 minutes. Configurable based on your needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo ready to proceed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-23",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Isaac, Carter, and Mason. Walked through pipeline visibility dashboards, automated deal health scoring, and RevOps analytics. Team engaged throughout, Carter asked detailed technical questions about data model and customization. Isaac highlighted how this goes beyond Fireflies' capabilities. Mason asked about implementation timeline and resource requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the risk scoring criteria for our sales process?",
+          "answer": "Yes, you can configure weightings, add custom fields, and define your own risk triggers through the admin panel."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "2-3 weeks for core setup, another 2 weeks for customization and training. Most teams are fully operational within a month."
+        },
+        {
+          "by": "prospect",
+          "question": "How much ongoing maintenance does this require from our team?",
+          "answer": "Minimal - mostly reviewing automated insights and adjusting scoring rules quarterly. We provide a dedicated CSM for optimization."
+        }
+      ],
+      "objections": [
+        "We're concerned about change management with the sales team - they already use Fireflies and we don't want to overload them with another tool."
+      ],
+      "next_steps": [
+        "Send demo recording",
+        "Provide implementation plan",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email with recording, answers to Carter's technical questions, and customized implementation plan. Isaac responded that the team was impressed and wants to move forward with evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec presentation for Abigail",
+        "Prepare business case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-11-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Email coordinating executive meeting with SVP of Revenue Abigail Sanchez. Isaac confirmed she's supportive and wants to understand ROI and strategic fit. Sent executive-focused one-pager ahead of meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you focus the exec meeting on forecast accuracy improvements and team efficiency gains?",
+          "answer": "Absolutely, I'll prepare a business case deck highlighting those outcomes with industry benchmarks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled",
+        "Prepare executive presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-11-02",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Abigail Sanchez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First executive meeting with Abigail Sanchez, Isaac attending. Presented business case focused on forecast accuracy and RevOps efficiency. Abigail engaged on strategic value and asked about competitive landscape. Discussion about how this differs from point solutions like Fireflies. Strong alignment on vision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you see this fitting into our broader revenue tech stack strategy?",
+          "answer": "This becomes your central intelligence layer - pulling insights from calls, emails, and CRM to give you a single source of truth for pipeline health."
+        },
+        {
+          "by": "prospect",
+          "question": "What results have similar-sized companies seen in their first year?",
+          "answer": "Typical enterprise customers see 15-20% improvement in forecast accuracy and save 10-15 hours per week in manual reporting."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer investment for you?",
+          "answer": "Proving we can reduce forecast error below 10% and give my team back at least one FTE worth of time currently spent on manual pipeline analysis."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare detailed proposal",
+        "Include customer references"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-11-07",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Abigail Sanchez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Abigail to review proposal and pricing. Walked through 38-seat package with automations plus consulting tier at $41.7K ACV. Abigail asked about discount flexibility and compared to other tools. Discussion about premium features and ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing for a multi-year commitment?",
+          "answer": "For a two or three-year deal we can offer 10-15% discount and lock in pricing, plus include additional consulting hours."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to building something custom or using lighter-weight tools?",
+          "answer": "Build vs buy typically takes 12-18 months and costs 3-5x more in engineering time. Tools like Fireflies don't offer the automation and intelligence layer you need for true pipeline visibility."
+        }
+      ],
+      "objections": [
+        "The price point is higher than we initially budgeted, want to understand what we can trim or how to justify the premium tier."
+      ],
+      "next_steps": [
+        "Provide package comparison",
+        "Schedule final alignment call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-11-10",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Abigail Sanchez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec check-in with Abigail. She confirmed internal support and asked for final proposal with tiered options. Wants to see standard vs premium comparison to present to procurement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break out what we get with consulting services versus without?",
+          "answer": "Standard tier is platform access and standard support. Premium adds dedicated CSM, quarterly business reviews, custom scoring model development, and 20 hours of consulting for workflow optimization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send tiered proposal",
+        "Introduce procurement contacts"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-11-15",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Isaac to discuss proposal options and internal approval process. Isaac shared that Abigail is supportive but procurement and sales managers need to weigh in. Discussion about contract terms, implementation timeline, and training requirements. Isaac mentioned Ryan Ali from sales management will be involved in final sign-off.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What concerns do you anticipate from procurement and the sales team?",
+          "answer": "Procurement will push on price and want to see clear ROI. Sales managers will want to make sure this doesn't create more work for reps and plays nicely with Fireflies since some teams already use it."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a phased rollout instead of all 38 seats at once?",
+          "answer": "We can structure it as a pilot with 15-20 seats initially, then expand after 60 days once you've validated value."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for everyone involved?",
+          "answer": "Hitting our target price point, showing clear differentiation from Fireflies, and having a solid change management plan for the sales team."
+        }
+      ],
+      "objections": [
+        "Sales managers are concerned about adding another tool when we already have Fireflies for call recording."
+      ],
+      "next_steps": [
+        "Revise proposal with phased approach",
+        "Prepare Fireflies comparison sheet",
+        "Schedule pricing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-11-18",
+      "type": "negotiation_call",
+      "duration_minutes": 45,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation call with Isaac covering pricing structure, multi-year options, and addressing sales team concerns. Discussed how the platform complements rather than replaces Fireflies. Isaac pushed for additional discount given budget constraints. Worked through implementation phases and success metrics. Productive conversation but no final commitment yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to two years, what's the best pricing you can offer?",
+          "answer": "For a two-year commitment on 38 seats, we can do $38K annually with locked pricing and include an extra 10 consulting hours per quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What's the real blocker at this point - price, timing, or internal alignment?",
+          "answer": "Honestly it's a combination. We need to get everyone comfortable this isn't redundant with Fireflies, and we need to land within budget. We're close on both."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide a detailed integration guide showing how this works alongside Fireflies?",
+          "answer": "Yes, we actually have several customers using both - Fireflies for recording and transcription, our platform for intelligence and automation. I'll send a technical overview and integration architecture."
+        },
+        {
+          "by": "prospect",
+          "question": "What guarantees do you offer on the forecast accuracy improvement?",
+          "answer": "We include a 90-day value validation period - if you don't see measurable improvement in forecast accuracy or time savings, we'll work with you on optimization or discuss options."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, and we need to justify premium tier over standard given we already have Fireflies."
+      ],
+      "next_steps": [
+        "Send revised two-year proposal",
+        "Share Fireflies integration documentation",
+        "Schedule pricing finalization call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-11-20",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call scheduled to finalize terms, but meeting was rescheduled by Isaac due to procurement review taking longer than expected. Brief call to confirm continued interest and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking progress that I can help address?",
+          "answer": "No blockers, just need more time to get procurement and the sales managers aligned internally. Should be ready to talk final numbers in a few days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call",
+        "Stand by for internal alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-11-24",
+      "type": "pricing_call",
+      "duration_minutes": 27,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Isaac and Mason from implementation team. Discussed final contract terms, implementation timeline, and resource allocation. Mason asked detailed questions about data migration and system integration. Negotiated final pricing at $41.7K with 38 seats, automations plus consulting tier, annual contract with option to extend.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation support and how much of our team's time will this require?",
+          "answer": "We provide dedicated onboarding specialist for the first 30 days, handle all technical integration, and need about 5-10 hours total from your team for configuration decisions and UAT."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we expand?",
+          "answer": "Yes, you can add seats anytime at pro-rated pricing for the remainder of the term, then they roll into renewal at the same per-seat rate."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Prepare implementation kickoff plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-11-28",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up pricing call with Isaac to address final questions from Ryan Ali (Sales Manager) and procurement. Ryan wanted confirmation on change management support and training for the sales team. Discussed how to position this internally as enhancement to existing tools rather than replacement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What training and change management support do you provide to help with sales team adoption?",
+          "answer": "We include live training sessions, self-paced courses, train-the-trainer workshops, and ongoing support from your CSM. Plus we'll create custom enablement materials showing how this enhances their existing Fireflies workflow."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else you need from us to get this across the finish line?",
+          "answer": "Just need legal to finish reviewing the MSA and get final sign-off from Abigail. We're targeting to have this wrapped up this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up with legal",
+        "Prepare onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 24,
+      "date": "2024-11-29",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Isaac Martinez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Final pricing call rescheduled by Isaac - legal review taking longer than expected and Abigail wanted one more review of the business case. Isaac confirmed strong internal support but needs a few more days for final approvals. Discussed contract start date flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we can't get this signed until early next week, can we still start implementation on our target date?",
+          "answer": "Yes, we can adjust the start date to align with your signature timing while keeping the same overall timeline for go-live."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns coming up in legal review we should address?",
+          "answer": "Nothing major, just standard redlines on liability and data handling. Should be straightforward to resolve."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal approval",
+        "Finalize contract execution timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

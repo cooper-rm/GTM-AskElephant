@@ -1,0 +1,604 @@
+{
+  "deal_id": "DEAL-0362",
+  "company": {
+    "name": "BlueStudio",
+    "industry": "Professional Services",
+    "employee_count": 546,
+    "annual_revenue": 61549766,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20400.0,
+    "seats": 30,
+    "price_per_seat_monthly": 58.97,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 33.7,
+    "sales_cycle_days": 84,
+    "close_date": "2025-02-06",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Owen Jung",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 26
+    },
+    {
+      "name": "Rowan Wang",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 34
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-22",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Initial outbound email to Owen Jung at BlueStudio introducing CRM automation capabilities. Owen responded expressing interest in exploring alternatives to their current process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-14",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Owen Jung to understand BlueStudio's current CRM challenges. Owen described pain points with manual data entry and lack of automation. Discussed team size and current tools in use.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest pain points with your current CRM workflow?",
+          "answer": "Manual data entry is eating up our CS team's time, and we're not getting the insights we need from the data we have."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to what we're currently evaluating with Clari?",
+          "answer": "Our platform focuses on end-to-end automation with consulting support to ensure successful implementation, whereas Clari is primarily forecasting-focused."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-20",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call diving deeper into BlueStudio's technical requirements and integration needs. Owen confirmed they're evaluating multiple vendors including Clari.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What integrations are critical for your team?",
+          "answer": "We need tight integration with Salesforce and our ticketing system. API access is also important."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "With our consulting package, typically 6-8 weeks for full rollout including training."
+        }
+      ],
+      "objections": [
+        "Concerned about implementation complexity and team adoption"
+      ],
+      "next_steps": [
+        "Share integration documentation",
+        "Schedule call with technical team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-24",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical qualification call reviewing integration capabilities and API documentation. Owen expressed satisfaction with the technical approach and asked about pricing structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How is pricing structured - per seat or usage-based?",
+          "answer": "We offer per-seat pricing with tiered plans. For your size, we'd recommend the Automations Plus with consulting package."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of quarter. Still evaluating a couple options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare ballpark pricing",
+        "Move to discovery phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-30",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on BlueStudio's CS workflows and automation use cases. Owen walked through their current manual processes and identified key automation opportunities around data enrichment and task routing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can you walk me through your current workflow from lead to customer handoff?",
+          "answer": "We have a lot of manual handoffs between sales and CS. Data often gets lost or duplicated in the transition."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your consulting team help with workflow redesign or just implementation?",
+          "answer": "We do both - our team will map your current state, design the optimized workflow, then implement and train your team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Document workflow requirements",
+        "Schedule follow-up to review automation scenarios"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-08",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued discovery on specific automation scenarios. Owen shared details about their competitive evaluation process and confirmed Clari is the main alternative being considered, but noted they're focused more on forecasting than full CRM automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would success look like for you in 6 months?",
+          "answer": "Reduce manual data entry by 60%, improve data quality, and give our CS team back 10+ hours per week."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you differentiate from Clari on the automation side?",
+          "answer": "Clari is strongest in revenue forecasting and pipeline management. We're purpose-built for CRM workflow automation across the full customer lifecycle."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, will need to show clear ROI"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis",
+        "Schedule demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-12",
+      "type": "follow_up_call",
+      "duration_minutes": 8,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery wrap-up call to finalize use cases and confirm demo attendees. Owen mentioned he'll need to loop in Rowan Wang (CRO) for executive approval but wants to see the demo first.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Who else should join the demo from your side?",
+          "answer": "Just me for the first demo. If it looks good, I'll bring in our CRO Rowan Wang for a follow-up."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo agenda",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email confirming agenda and sharing custom demo environment credentials. Owen confirmed attendance and shared specific workflows he wants to see demonstrated.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show the Salesforce sync in real-time during the demo?",
+          "answer": "Yes, we'll walk through live integration and data flow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deliver demo tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-25",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial product demo with Owen covering core automation workflows, Salesforce integration, and custom rule builder. Owen was engaged and asked detailed questions about customization capabilities. He expressed strong interest but noted pricing will be a key factor.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much customization can we do without involving your dev team?",
+          "answer": "Our visual workflow builder allows you to create and modify most automations without code. Complex API integrations would need our team."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting engagement typically include?",
+          "answer": "Workflow analysis, configuration, data migration, custom integrations, and 4 weeks of hands-on training and support."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Clari?",
+          "answer": "Clari's demo was more focused on forecasting dashboards. This feels more aligned to our workflow automation needs, but we need to see the pricing."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost including consulting"
+      ],
+      "next_steps": [
+        "Schedule follow-up demo with advanced features",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-02",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focusing on advanced automation scenarios, reporting capabilities, and API access. Owen brought specific workflow examples to test. He confirmed strong alignment with their needs and asked to move to pricing discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom reports on automation performance?",
+          "answer": "Yes, full reporting suite with pre-built templates and custom report builder."
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in getting a formal proposal together?",
+          "answer": "I can have pricing to you by end of week. Will need seat count and confirmation on the consulting package."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process look like?",
+          "answer": "I'll need to get buy-in from our CRO Rowan Wang for anything over $15K. Can you join a call with him once we have pricing?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for 30 seats with consulting",
+        "Schedule exec meeting with Rowan Wang"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-03",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Rowan Wang",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial executive meeting with Rowan Wang (CRO) to present strategic value and business case. Rowan was direct about budget constraints and mentioned they're comparing against Clari which came in lower. Emphasized need for strong ROI justification.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top priorities for this quarter?",
+          "answer": "CS efficiency and revenue retention. We're leaking customers due to poor handoff and follow-up."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the investment level we're talking about here?",
+          "answer": "For 30 seats with the Automations Plus and consulting package, we're looking at $20,400 annually."
+        }
+      ],
+      "objections": [
+        "That's higher than Clari's quote. Need to see if the automation ROI justifies the premium."
+      ],
+      "next_steps": [
+        "Send detailed ROI analysis",
+        "Schedule follow-up to discuss pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-10",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Rowan Wang",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Rowan to review ROI analysis and address pricing concerns. Rowan appreciated the detailed analysis but pushed back on pricing, noting budget pressures and competitive options. Discussion focused on finding creative ways to hit their budget target.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package? Could we phase it over two quarters?",
+          "answer": "We can explore payment terms, but the consulting is critical for successful implementation. Let me see what options we have."
+        },
+        {
+          "by": "prospect",
+          "question": "What would it take to get this closer to $15K?",
+          "answer": "That would be a significant discount. Can I ask - is $15K a hard budget ceiling or is there room if we can show clear value differentiation from Clari?"
+        },
+        {
+          "by": "rep",
+          "question": "If we can get to a number that works, what's the timeline for decision and kickoff?",
+          "answer": "If pricing works, we could sign by end of month and start implementation in May."
+        }
+      ],
+      "objections": [
+        "Budget is tight - need to be competitive with Clari's pricing"
+      ],
+      "next_steps": [
+        "Explore discount options with leadership",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-01-13",
+      "type": "proposal_call",
+      "duration_minutes": 10,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Owen to present revised pricing and discuss path forward. Owen confirmed Rowan is supportive if we can bridge the pricing gap. Discussed potential discount scenarios and contract terms.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we could get to $16K with the full consulting package, does that work?",
+          "answer": "I think that would get us close. Let me run it by Rowan, but I'm optimistic."
+        },
+        {
+          "by": "prospect",
+          "question": "Would you need the discount reflected in Year 1 only or ongoing?",
+          "answer": "Ideally Year 1 to ease the budget hit. We can revisit renewal pricing based on results."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for discount structure",
+        "Send revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-01-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Owen with revised proposal reflecting discussed discount structure. Owen confirmed he's reviewing with Rowan and expects to have feedback within 48 hours.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Rowan's feedback",
+        "Prepare for negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-01-25",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Rowan Wang",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Rowan Wang to finalize pricing and terms. Rowan appreciated the movement on price but pushed for additional concessions. After discussion, agreed on pricing structure with extended payment terms and performance milestone tied to consulting delivery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we tie part of the consulting fee to hitting the automation KPIs we discussed?",
+          "answer": "We're confident in delivering results, but tying fees to KPIs adds risk. What specific metrics are you thinking?"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best and final number?",
+          "answer": "We can do $13,500 for Year 1 with full consulting included, standard pricing from Year 2. That's a 33% discount and the lowest we can go."
+        },
+        {
+          "by": "rep",
+          "question": "If we agree on this structure, can we move to contracting this week?",
+          "answer": "Yes, if legal approves the terms, we can sign by Friday."
+        }
+      ],
+      "objections": [
+        "Need the best possible price given budget constraints and competitive pressure"
+      ],
+      "next_steps": [
+        "Send final contract with agreed terms",
+        "Schedule legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-01-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 20.2,
+      "rescheduled": false,
+      "ai_summary": "Email to Owen with final contract reflecting negotiated terms: $13,500 Year 1 (33.7% discount), 30 seats, Automations Plus with full consulting package. Owen confirmed he's routing to legal and expects quick turnaround.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Any red flags we should watch for in legal review?",
+          "answer": "Our terms are pretty standard. Main thing is the performance milestone language - let me know if your legal team has concerns."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Complete legal review",
+        "Execute contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-02-07",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Owen Jung",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing alignment call with Owen to address legal team questions about payment terms and consulting SLA. Resolved remaining questions and confirmed execution timeline. Owen expressed appreciation for working with the budget and excitement to get started.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Legal is asking about the consulting SLA - can we get that in writing?",
+          "answer": "Yes, we'll add a consulting SOW addendum with timeline, deliverables, and success criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we kick off implementation?",
+          "answer": "As soon as the contract is signed, we can start onboarding. First consulting session can happen within a week."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to weigh in before signing?",
+          "answer": "No, we're good to go. Rowan and I have alignment, legal is just crossing t's and dotting i's."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Add consulting SOW addendum",
+        "Execute contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

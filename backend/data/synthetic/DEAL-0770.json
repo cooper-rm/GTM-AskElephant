@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0770",
+  "company": {
+    "name": "PulseConsulting",
+    "industry": "EdTech",
+    "employee_count": 733,
+    "annual_revenue": 96558798,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8500.0,
+    "seats": 10,
+    "price_per_seat_monthly": 67.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.5,
+    "sales_cycle_days": 30,
+    "close_date": "2024-11-14",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Ruby Khan",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Casey Weiss",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    },
+    {
+      "name": "Grace Byrne",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 42
+    },
+    {
+      "name": "Tariq Doyle",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ruby Khan expressing interest in call recording and coaching tools for her sales team at PulseConsulting. She mentioned they're exploring solutions to improve rep performance and onboarding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support call recording for both phone and video calls?",
+          "answer": "Yes, we support recording across all channels including phone, Zoom, Teams, and Google Meet."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current workflow and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Ruby responded confirming time and mentioned she'd like to bring her RevOps analyst Casey Weiss to the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add Casey from our RevOps team to the call?",
+          "answer": "Absolutely, the more stakeholders we can involve early on, the better."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with Ruby and Casey"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-18",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ruby focused on current coaching process and pain points. She's been in the Head of Sales role for 3 months and inherited a team with inconsistent performance. Currently using manual spot-checking of calls. Looking for automation to scale coaching across 10 reps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching reps on calls?",
+          "answer": "Mostly manual - managers try to listen to a few calls per week but it's inconsistent and time-consuming."
+        },
+        {
+          "by": "rep",
+          "question": "What metrics are you trying to improve?",
+          "answer": "Close rate and ramp time for new hires. Our reps are taking 4-5 months to hit quota."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI coaching actually work? Is it customizable to our pitch?",
+          "answer": "Yes, you can train it on your best calls and it will score reps on your specific talk tracks and objection handling."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to share example calls",
+        "Rep to send case study on ramp time improvement",
+        "Follow-up call to dig into technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-23",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call diving into technical setup and integrations. Ruby shared that they use Salesforce and want data flowing automatically. Discussed team structure and confirmed 10 seats needed for current team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce? We need call data syncing to opportunity records.",
+          "answer": "Yes, native Salesforce integration with automatic activity logging and custom field mapping."
+        },
+        {
+          "by": "rep",
+          "question": "Are there other stakeholders we should involve - IT, security, finance?",
+          "answer": "Casey handles most procurement stuff. Maybe our implementation team for setup but I can coordinate that."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Ruby and implementation team",
+        "Send security documentation for Casey to review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-27",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Ruby, Grace Byrne, and Tariq Doyle from implementation team. Walked through call recording, AI coaching scorecards, and manager dashboards. Team was engaged and asked detailed questions about setup and training. Ruby emphasized need to move quickly as Q2 priorities are being finalized.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are up and running within 2 weeks - 1 week for technical setup, 1 week for training and customization."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching rubrics for different product lines?",
+          "answer": "Yes, you can create multiple scorecards based on product, stage, or any other segmentation."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of admin access do we get to configure this ourselves?",
+          "answer": "Full admin access - you can adjust scorecards, integrations, and user permissions anytime."
+        }
+      ],
+      "objections": [
+        "Grace asked about data privacy concerns with recordings being processed by AI - wants to review data processing agreement"
+      ],
+      "next_steps": [
+        "Send data processing agreement to Grace",
+        "Ruby to discuss internally and set up exec meeting",
+        "Send pricing proposal for 10 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-01",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Ruby to review proposal. She mentioned budget is tight this quarter and asked about flexibility on pricing. No other executives joined the call despite invitation. Discussion focused on ROI and getting approval quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to negotiate on the pricing? Our budget is stretched thin right now.",
+          "answer": "Let me discuss with my manager - we may have some flexibility depending on contract length."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your VP of Sales involved to discuss the business case?",
+          "answer": "I have the authority to move forward on this. Let's see what pricing you can offer first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to come back with revised pricing",
+        "Ruby to get internal approval once pricing is finalized"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal showing 24.5% discount to hit Ruby's budget target. Included ROI calculator showing payback period based on improved ramp time. Ruby responded asking to schedule call to finalize terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year deal?",
+          "answer": "Yes, we can include pricing protection in the contract terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call to finalize contract terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-08",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ruby and Casey to finalize terms. Casey pushed on payment terms and asked for quarterly billing instead of annual upfront. Discussion around contract length, auto-renewal clauses, and implementation timeline. Ruby seemed eager to close quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly billing instead of paying annually upfront?",
+          "answer": "Our standard terms are annual, but I can check if we can accommodate quarterly with a small adjustment to the discount."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to get this done now?",
+          "answer": "We're finalizing Q2 budgets and I need to show progress on improving team performance metrics."
+        }
+      ],
+      "objections": [
+        "Casey concerned about auto-renewal terms and wants ability to cancel with 60-day notice"
+      ],
+      "next_steps": [
+        "Rep to confirm quarterly billing terms with finance",
+        "Send updated contract with revised payment schedule",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Khan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email with updated contract reflecting quarterly billing option and revised auto-renewal language. Ruby confirmed she's reviewing with Casey and will have signatures by Friday. Restated implementation timeline to start following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ruby to return signed contract by Friday",
+        "Implementation kickoff scheduled for following Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

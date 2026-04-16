@@ -1,0 +1,168 @@
+{
+  "deal_id": "DEAL-0544",
+  "company": {
+    "name": "PlasmaGrid",
+    "industry": "SaaS/Tech",
+    "employee_count": 30,
+    "annual_revenue": 6324078,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 8,
+    "price_per_seat_monthly": 67.57,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.1,
+    "sales_cycle_days": 18,
+    "close_date": "2024-02-20",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Priya Anderson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Benjamin Wu",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Priya Anderson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Priya Anderson requesting information about call recording and coaching tools for her CS team. She mentioned they're currently using manual note-taking and looking to scale their coaching program.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current workflow and team structure"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-02",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Priya Anderson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Priya to understand PlasmaGrid's needs. Team of 8 CS reps handling growing customer base. Looking for automated call recording and AI-powered coaching insights. No current solution in place, manual process causing bottlenecks. Budget approved for Q2 tooling investments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording and coaching right now?",
+          "answer": "We've doubled our customer base in 6 months and our manual coaching process doesn't scale. Managers spending 10+ hours/week reviewing calls manually."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce setup?",
+          "answer": "Yes, we have native Salesforce integration that syncs call data and coaching metrics automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo access for Priya and her team lead",
+        "Schedule follow-up to review demo feedback"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Anderson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on demo experience. Priya responded positively, noting the team found the coaching workflows intuitive. She requested pricing for 8 seats and asked about implementation timeline. Mentioned they need to finalize by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline from contract to go-live?",
+          "answer": "Standard implementation is 2 weeks including Salesforce integration, data migration, and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule call to discuss terms and answer questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-19",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Priya Anderson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing and contract terms. Priya likes the product but mentioned budget constraints and requested a discount. Discussed pricing for 8 seats at $6,700 ACV (24% discount from list). She'll need to run final approval through Benjamin Wu in procurement but expects quick turnaround. No executive sponsor mentioned in approval chain.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual price given we're committing to the full year upfront?",
+          "answer": "We can offer a discount for annual commitment. Proposed $6,700 ACV for 8 seats with unlimited automation tier."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this purchase on your end?",
+          "answer": "Just need Benjamin Wu from RevOps to review the contract terms and pricing. He handles all our SaaS procurement."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the unlimited automation tier include versus the standard plan?",
+          "answer": "Unlimited automated coaching scorecards, custom AI prompts, and advanced analytics dashboards. Standard is capped at 50 automated reviews per month."
+        }
+      ],
+      "objections": [
+        "Initial pricing is above our allocated budget for this quarter"
+      ],
+      "next_steps": [
+        "Send revised proposal at $6,700 ACV",
+        "Loop in Benjamin Wu for procurement review",
+        "Target contract signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "deal_id": "DEAL-0621",
+  "company": {
+    "name": "LoopStack",
+    "industry": "PropTech",
+    "employee_count": 213,
+    "annual_revenue": 20980293,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19100.0,
+    "seats": 27,
+    "price_per_seat_monthly": 59.39,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.3,
+    "sales_cycle_days": 42,
+    "close_date": "2023-10-04",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rachel Mitchell",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    },
+    {
+      "name": "Asher Mensah",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 53
+    },
+    {
+      "name": "Nathan Wagner",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 22
+    },
+    {
+      "name": "Emma Shah",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to Rachel Mitchell introducing AskElephant's sales-to-CS handoff automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-23",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Rachel Mitchell. She confirmed LoopStack is struggling with manual handoffs between sales and customer success, leading to dropped details and frustrated clients. Rachel expressed interest in seeing how AskElephant could automate their workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for transitioning customers from sales to CS?",
+          "answer": "Very manual - lots of Slack messages and email forwards. Details get lost constantly."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant integrate with our existing CRM stack?",
+          "answer": "We have native integrations with most major CRMs and can also work via API. What are you currently using?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rachel to review website and case studies",
+        "Rep to send discovery call invite for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-24",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study from similar PropTech company. Rachel responded confirming interest in discovery call and asking about pricing ballpark.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical investment range for a company our size?",
+          "answer": "For mid-market teams around 200-300 employees, most customers land between $15-25K annually depending on seat count and automation complexity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Brief email confirming discovery call scheduled for tomorrow. Rachel confirmed she'll have specific pain points ready to discuss.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for following day"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-31",
+      "type": "discovery_call",
+      "duration_minutes": 38,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "38-minute discovery call diving deep into LoopStack's handoff challenges. Rachel walked through their current workflow, noting they lose critical context about 40% of the time during transitions. She mentioned their CEO Asher is frustrated with customer complaints about inconsistent onboarding. Discussed specific automation needs around unlimited workflow triggers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many sales-to-CS handoffs are you doing monthly?",
+          "answer": "About 15-20 new customers per month, plus expansions."
+        },
+        {
+          "by": "rep",
+          "question": "What information is most critical to capture during handoff?",
+          "answer": "Use case specifics, custom requirements, key stakeholder relationships, and any promises made during sales."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system handle conditional workflows based on deal characteristics?",
+          "answer": "Yes, our unlimited automation tier supports complex conditional logic and custom triggers."
+        }
+      ],
+      "objections": [
+        "Rachel mentioned budget might be tight this quarter and asked about payment flexibility"
+      ],
+      "next_steps": [
+        "Rep to prepare technical demo focused on handoff automation",
+        "Rachel to loop in IT Director Nathan Wagner for technical evaluation",
+        "Schedule technical eval for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email with demo recording and technical documentation sent. Rachel confirmed Nathan Wagner will join the technical evaluation and asked about security compliance documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have SOC 2 and GDPR compliance documentation we can review?",
+          "answer": "Yes, sending our full security packet now including SOC 2 Type II and compliance certifications."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-09",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "48-minute technical evaluation with Rachel and Nathan Wagner. Nathan asked detailed questions about API architecture, data security, and integration points. Rachel demonstrated specific handoff scenarios they need to automate. Nathan expressed concerns about implementation timeline but was satisfied with technical capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your API rate limit and how do you handle spike traffic?",
+          "answer": "Standard tier is 1000 requests/minute with auto-scaling. We can discuss dedicated infrastructure for higher volume needs."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a company our size?",
+          "answer": "Usually 2-3 weeks for core setup, then iterative refinement. We provide dedicated implementation support."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any specific integration requirements we should know about?",
+          "answer": "We need to connect with Salesforce and our custom-built CS portal via webhook."
+        }
+      ],
+      "objections": [
+        "Nathan concerned about implementation bandwidth on his team"
+      ],
+      "next_steps": [
+        "Rep to provide implementation timeline and resource requirements",
+        "Schedule follow-up technical session to address integration details",
+        "Rachel to get budget approval process started"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-13",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute follow-up technical session focused on custom integration requirements. Nathan walked through their Salesforce setup and CS portal architecture. Rep demonstrated how AskElephant would fit into their existing stack. Nathan confirmed technical feasibility and said he'd support the purchase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the data fields that get passed during handoff?",
+          "answer": "Absolutely - you have full control over field mapping and can create custom fields as needed."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this implemented?",
+          "answer": "Ideally we'd start next quarter, but if the ROI is clear, we could potentially accelerate."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer a sandbox environment for testing before we go live?",
+          "answer": "Yes, every customer gets a full sandbox environment that mirrors production."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare formal proposal with 27 seats and unlimited automation",
+        "Rachel to bring proposal to CEO Asher for executive review",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-17",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute proposal review call with Rachel. Walked through pricing at $28,650 for 27 seats with unlimited automation tier. Rachel indicated the price is higher than expected and asked about discounting options. Discussed ROI based on time savings and reduced customer churn.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given our growth stage?",
+          "answer": "Let me discuss with leadership. What budget range were you working with?"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for your executive team?",
+          "answer": "Honestly, if we could get closer to $20K and show clear 6-month ROI, that would be compelling."
+        }
+      ],
+      "objections": [
+        "Price point higher than Rachel's allocated budget"
+      ],
+      "next_steps": [
+        "Rep to explore discount options and prepare revised proposal",
+        "Rachel to schedule exec review with CEO Asher",
+        "Follow-up call scheduled for later in week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-19",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute proposal refinement call with Rachel and Sales Manager Emma Shah. Emma joined to evaluate from sales team perspective. Presented revised proposal at $19,100 (33% discount) to meet budget constraints. Rachel and Emma both expressed this pricing works and committed to moving forward pending CEO approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "With this discount, are we locked into annual payment or can we do quarterly?",
+          "answer": "At this pricing we'd need annual commitment, but we can discuss quarterly invoicing."
+        },
+        {
+          "by": "prospect",
+          "question": "What does support and training look like during first 90 days?",
+          "answer": "You get dedicated CSM, weekly check-ins, and unlimited training sessions for first quarter."
+        },
+        {
+          "by": "rep",
+          "question": "When could you realistically go live if we close this week?",
+          "answer": "We'd need about 2 weeks for procurement review, then could start implementation immediately after."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rachel to present to CEO Asher with ROI analysis",
+        "Emma to confirm sales team requirements are met",
+        "Schedule exec meeting with Asher for final approval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-09-23",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute negotiation call with Rachel and Emma to finalize contract terms. Discussed payment terms, implementation timeline, and success metrics. Rachel confirmed exec meeting with Asher is scheduled. Brief discussion about quarterly payment option but ultimately agreed on annual billing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee or exit clause in the contract?",
+          "answer": "We offer 30-day satisfaction guarantee. After that, standard annual commitment applies."
+        }
+      ],
+      "objections": [
+        "Emma asked about early termination options if adoption doesn't meet expectations"
+      ],
+      "next_steps": [
+        "Rep to send final contract with agreed terms",
+        "Exec meeting with Asher scheduled for following Monday",
+        "Rachel to prep Asher with business case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Mitchell",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with final contract and implementation plan. Rachel confirmed receipt and noted the exec meeting with Asher was rescheduled to later in the week due to CEO's travel schedule. She reassured that Asher is supportive based on her brief.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting rescheduled",
+        "Rachel to confirm new meeting time"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-10-04",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Asher Mensah",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "13-minute exec alignment call with CEO Asher Mensah (rescheduled from earlier). Asher asked pointed questions about ROI timeline and customer impact. Rachel presented the business case effectively. Asher approved moving forward, emphasizing the importance of fixing handoff issues that have caused customer complaints. He greenlit the deal and asked Nathan to prioritize implementation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your confidence level we'll see measurable improvement in 90 days?",
+          "answer": "Very high - our average customer sees 60% reduction in handoff errors within first 60 days based on similar implementations."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders we need to loop in before finalizing?",
+          "answer": "No, Rachel and Nathan have done thorough diligence. Let's get contracts signed this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Asher to approve final contract",
+        "Nathan to prepare IT for implementation kickoff",
+        "Target contract signature within 48 hours"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

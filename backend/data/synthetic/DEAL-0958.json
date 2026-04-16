@@ -1,0 +1,160 @@
+{
+  "deal_id": "DEAL-0958",
+  "company": {
+    "name": "IndigoCo",
+    "industry": "EdTech",
+    "employee_count": 66,
+    "annual_revenue": 10810893,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7300.0,
+    "seats": 10,
+    "price_per_seat_monthly": 56.98,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.0,
+    "sales_cycle_days": 15,
+    "close_date": "2024-05-22",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Julian Diallo",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 27
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Julian Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Julian Diallo from IndigoCo submitted an inbound demo request via the website. Expressed interest in call recording and coaching tools for their sales team of 10. Currently evaluating Gong and looking for alternatives. Brief form submission, no direct conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite for initial qualification meeting"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Julian confirming receipt of demo request and proposing times for discovery call. Julian responded promptly agreeing to meeting time and mentioned timeline is within next 6 weeks. Brief exchange focused on scheduling logistics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do next Tuesday at 2pm EST?",
+          "answer": "Yes, that works perfectly. Invite sent."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday",
+        "Send pre-call questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email sent to Julian. He responded enthusiastically about the platform's ease of use compared to Gong. Asked about pricing for 10 seats and implementation timeline. Mentioned he'll need to get internal alignment before moving forward but seemed engaged.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing look like for our team size, and how quickly could we get up and running?",
+          "answer": "Sent pricing proposal for 10 seats with unlimited automation tier. Implementation typically takes 1-2 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Julian to review pricing internally",
+        "Schedule follow-up to discuss proposal",
+        "Identify additional stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-22",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Julian Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "36-minute call with Julian to discuss pricing and finalize terms. Julian negotiated heavily on price, citing budget constraints and comparing to Gong's offer. Agreed to 36% discount to close by end of quarter. Julian confirmed he can sign without additional approvals as Head of Sales. Discussed onboarding timeline and training for the team. Some concern around lack of executive visibility, but Julian assured he has authority to proceed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match or beat the pricing Gong offered us? We're looking at about 40% less than your list price.",
+          "answer": "Proposed 36% discount to meet budget while maintaining value. Julian accepted."
+        },
+        {
+          "by": "rep",
+          "question": "Will you need sign-off from your VP Sales or CFO on a deal this size?",
+          "answer": "Julian indicated he has full authority up to $10K and doesn't anticipate needing additional approvals."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation look like and when can we start seeing value?",
+          "answer": "Outlined 1-2 week onboarding, training included. First insights available within days of call integration."
+        }
+      ],
+      "objections": [
+        "Price is higher than Gong's competing offer",
+        "Budget approval timeline is tight before end of quarter"
+      ],
+      "next_steps": [
+        "Send contract for 10 seats at discounted rate",
+        "Julian to review and sign by Friday",
+        "Schedule kickoff call post-signature"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

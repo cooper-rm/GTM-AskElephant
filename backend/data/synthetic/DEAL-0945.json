@@ -1,0 +1,287 @@
+{
+  "deal_id": "DEAL-0945",
+  "company": {
+    "name": "StellarExchange",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 85,
+    "annual_revenue": 12438145,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 10,
+    "price_per_seat_monthly": 57.3,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 35.6,
+    "sales_cycle_days": 26,
+    "close_date": "2025-12-07",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Lisa Perez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Yuki Martinez",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 5
+    },
+    {
+      "name": "Jack Park",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Lisa Perez, VP of Sales at StellarExchange. Interested in automation tools for sales-to-CS handoff. Currently evaluating multiple vendors including Clari. Requested initial call to discuss requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Lisa"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-12",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Lisa. Confirmed StellarExchange has 85 employees, managed IT/cybersecurity focus. Pain point around sales-to-CS handoff causing customer confusion. Budget authority unclear\u2014Lisa mentioned needing IT and procurement involvement. Timeline: 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had three customers escalate issues due to handoff gaps in the past quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and HubSpot?",
+          "answer": "Yes, we support both platforms with native integrations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send integration overview doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-16",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Lisa. Detailed walkthrough of current handoff process\u2014manual notes in Salesforce, inconsistent CS onboarding. Team of 10 sales reps would use the platform. Also evaluating Clari but concerned about complexity. Lisa is champion but mentioned Yuki Martinez (IT Director) and Jack Park (Sales Manager) need to approve. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who owns the final decision and budget for this?",
+          "answer": "It'll need to go through Yuki and Jack for procurement, but I'm driving it from the sales side."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're typically more cost-effective for teams under 50 seats, and our implementation is faster."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for automations plus consulting package."
+        }
+      ],
+      "objections": [
+        "Clari has more brand recognition in our space"
+      ],
+      "next_steps": [
+        "Prepare custom demo for StellarExchange use case",
+        "Include Yuki and Jack in next meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Lisa with demo recording and ROI calculator. Highlighted automation capabilities specific to sales-to-CS handoff. Proposed next step: proposal call with full decision team. Lisa responded positively, confirmed Yuki and Jack availability next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include security compliance documentation for Yuki?",
+          "answer": "Absolutely, I'll send SOC 2 and ISO certifications ahead of the call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send compliance docs",
+        "Schedule proposal call with Lisa, Yuki, and Jack"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-25",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Lisa, Yuki, and Jack. Presented automations plus consulting package: $10,400 list price for 10 seats. Jack raised budget concerns\u2014requested discount to fit fiscal year allocation. Yuki focused on security and data residency questions. Lisa advocated strongly for the solution. No executive sponsor present. Agreed to revise proposal with discount and schedule follow-up.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored?",
+          "answer": "US-based AWS infrastructure with optional EU residency."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your discount structure for multi-year commitments?",
+          "answer": "We can offer 15-20% for annual prepay, more for multi-year."
+        }
+      ],
+      "objections": [
+        "Initial pricing is above our allocated budget for this fiscal year"
+      ],
+      "next_steps": [
+        "Revise proposal with discount to $6,700 ACV",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-12-01",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting\u2014still no C-level from StellarExchange, just Lisa, Yuki, and Jack. Presented revised proposal at $6,700 ACV (35.6% discount). Jack and Yuki cautiously receptive but wanted to revisit Clari's final offer. Lisa pushed for decision, emphasized urgency due to Q2 customer escalations. Discussion of contract terms, payment schedule, and implementation timeline. Team requested one more internal review before commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-contract?",
+          "answer": "Pro-rated pricing for additional seats, same per-seat rate."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a shorter pilot period?",
+          "answer": "We typically do annual contracts but can structure a 90-day checkpoint with exit clause."
+        },
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor we should align with before finalizing?",
+          "answer": "Our CEO is aware but delegated this fully to our team\u2014budget is approved at this level."
+        }
+      ],
+      "objections": [
+        "Clari is offering a comparable discount and has stronger enterprise case studies"
+      ],
+      "next_steps": [
+        "Internal review with procurement and IT",
+        "Final decision meeting next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-05",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Lisa Perez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final exec meeting with Lisa, Yuki, and Jack. Team confirmed internal alignment on $6,700 ACV deal with 10 seats, automations plus consulting package. Clari was ultimately deemed too complex for their team size. Jack approved procurement, Yuki signed off on security. Lisa will champion internally through signature. Discussed implementation kickoff timeline and CS handoff process. Contract to be sent for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "We can kick off within 5 business days of signed contract."
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during onboarding?",
+          "answer": "You'll have a dedicated implementation consultant and ongoing CSM."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns we should address before sending the contract?",
+          "answer": "No, we're aligned. Just need to get legal review, but that's standard 48-hour turnaround."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule implementation kickoff",
+        "Introduce CS team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

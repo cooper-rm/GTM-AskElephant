@@ -1,0 +1,202 @@
+{
+  "deal_id": "DEAL-0891",
+  "company": {
+    "name": "BayPartners",
+    "industry": "Healthcare IT",
+    "employee_count": 48,
+    "annual_revenue": 8119919,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4100.0,
+    "seats": 5,
+    "price_per_seat_monthly": 61.45,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.0,
+    "sales_cycle_days": 39,
+    "close_date": "2023-05-09",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Owen Murphy",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Owen Murphy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Owen Murphy expressing interest in call recording and coaching solutions. Brief initial contact to acknowledge request and schedule discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand needs"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Murphy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming discovery call time and requesting Owen share current pain points with call recording. Owen responded confirming attendance and mentioning they're currently evaluating Gong but want to see alternatives.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your main challenges with your current call recording process?",
+          "answer": "We don't have a formal system yet, relying on manual note-taking which makes coaching inconsistent"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with scheduled discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-13",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Owen Murphy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute discovery call with Owen Murphy. Discussed current sales process challenges, team size (5 sales reps), and coaching workflow gaps. Owen mentioned they're also looking at Gong and need to make a decision within 4 weeks. Focus on automation and coaching features. Owen is the primary evaluator but unclear on executive involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation tier compare to Gong's basic plan?",
+          "answer": "Our automations_plus_consulting tier includes dedicated onboarding support and custom workflow setup, which Gong charges extra for"
+        },
+        {
+          "by": "rep",
+          "question": "Who else on your team will be involved in the evaluation process?",
+          "answer": "Right now it's just me driving this, but I'll need to get buy-in from our CFO eventually"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "2-3 weeks with our consulting package, including custom coaching templates"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to see strong ROI to justify"
+      ],
+      "next_steps": [
+        "Send pricing options",
+        "Schedule demo with team",
+        "Owen to discuss internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-27",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Owen Murphy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute meeting positioned as 'exec meeting' but only Owen Murphy attended. Walked through platform demo focusing on coaching dashboards and automation features. Owen expressed enthusiasm but mentioned budget constraints. No executive sponsor present despite meeting title. Discussion centered on pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing if we commit to annual?",
+          "answer": "Yes, we can discuss volume discounts and annual commit incentives"
+        },
+        {
+          "by": "rep",
+          "question": "Will your CFO join our next call to discuss budget allocation?",
+          "answer": "I'll check their availability, but I can probably make the call on this level of spend"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom pricing proposal",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-08",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Owen Murphy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute pricing call with Owen Murphy. Presented standard pricing for 5 seats on automations_plus_consulting tier. Owen pushed for significant discount citing Gong's competitive offer and budget limitations. Agreed to 31% discount to move deal forward ($4,100 ACV vs. $5,942 list). Owen committed to signing by end of week. Still no executive engagement confirmed. Deal moving to close but single-threaded with substantial discount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on price? Gong came in about 35% lower than your list price",
+          "answer": "We can offer 31% off to match the value and get you started this quarter"
+        },
+        {
+          "by": "rep",
+          "question": "Can we schedule a quick check-in with your CFO before contract signature?",
+          "answer": "That won't be necessary, I have approval authority for this amount"
+        },
+        {
+          "by": "prospect",
+          "question": "If we need to add seats in Q3, what's the process?",
+          "answer": "Simple amendment, prorated pricing, and we can discuss volume discounts at that point"
+        }
+      ],
+      "objections": [
+        "Price is still higher than Gong even with discount, need to justify the consulting add-on"
+      ],
+      "next_steps": [
+        "Send contract with agreed pricing",
+        "Owen to review and sign by Friday",
+        "Begin implementation planning"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 81,
+    "churn_reason": "lost internal champion"
+  }
+}

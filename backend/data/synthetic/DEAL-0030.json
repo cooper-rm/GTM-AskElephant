@@ -1,0 +1,338 @@
+{
+  "deal_id": "DEAL-0030",
+  "company": {
+    "name": "IronDynamics",
+    "industry": "Fintech",
+    "employee_count": 23,
+    "annual_revenue": 3221091,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6000.0,
+    "seats": 8,
+    "price_per_seat_monthly": 64.52,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.5,
+    "sales_cycle_days": 49,
+    "close_date": "2023-03-17",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Sage OConnor",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Megan Williams",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sage O'Connor at IronDynamics requesting information about call recording and coaching capabilities. Brief initial contact to understand their needs.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Sage confirming availability for qualification call. Sage responded positively and confirmed meeting time.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we focus on your call recording features and how they compare to what we're seeing from Clari?",
+          "answer": "Absolutely, we'll walk through our approach and how it differs in the qualification call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-03",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Sage exploring IronDynamics' current sales process and coaching needs. Team of 8 sales reps struggling with manual call review. Currently evaluating Clari but concerned about complexity. Sage is Head of Sales and primary champion.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for call recording and coaching right now?",
+          "answer": "Our sales team has grown quickly and we need systematic coaching, not ad-hoc manager reviews"
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned looking at Clari - what's working or not working in that evaluation?",
+          "answer": "Clari feels like overkill for our size. We need something focused on coaching, not full revenue operations"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI coaching compare to Clari's conversation intelligence?",
+          "answer": "We're purpose-built for coaching workflows, with automated scorecards and rep development paths. Clari is broader but less specialized"
+        }
+      ],
+      "objections": [
+        "Concerned about implementation timeline with small ops team"
+      ],
+      "next_steps": [
+        "Send demo prep materials",
+        "Schedule demo for Sage and RevOps analyst Megan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery insights and confirming demo attendees. Shared prep materials on coaching automation and unlimited tier features. Sage confirmed Megan Williams from RevOps will join.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Sage and Megan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-17",
+      "type": "demo",
+      "duration_minutes": 23,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Sage and Megan focusing on call recording, automated coaching workflows, and unlimited automation tier. Megan asked technical integration questions. Positive reception on ease of use vs Clari. Noted no executive involvement yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this rolled out to our 8 reps?",
+          "answer": "Typically 1-2 weeks for teams your size, including integrations and training"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier versus standard?",
+          "answer": "Unlimited custom coaching playbooks, advanced AI scorecards, and API access for custom workflows"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "I'll need to loop in our CFO for budget approval, but I'm driving this internally"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sage to discuss internally with CFO",
+        "Schedule follow-up to review pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-26",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Sage to discuss proposal and next steps. Sage mentioned CFO wants to see ROI case before approving. Still no direct CFO involvement. Discussion focused on business case and pricing structure for 8 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you help me build the ROI case for our CFO?",
+          "answer": "Yes, we'll provide coaching efficiency benchmarks and time savings calculator"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have our team walk through the ROI directly with your CFO?",
+          "answer": "Let me try presenting it first - they're pretty hands-off on sales tools"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for 8 seats on unlimited automation?",
+          "answer": "Standard rate is $8,280 annually. Let me see what we can do given your timeline"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to justify the investment"
+      ],
+      "next_steps": [
+        "Send ROI framework and pricing proposal",
+        "Sage to present to CFO"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal at $6,000 ACV (27.5% discount) and ROI materials. Sage acknowledged receipt and mentioned CFO asked for pricing comparison with Clari. Still working through internal approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down the discount you're offering versus list price?",
+          "answer": "We're offering $6K versus $8,280 list - reflects early stage discount for fast implementation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sage to finalize CFO review",
+        "Schedule pricing discussion if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-09",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Sage to address CFO questions and Clari comparison. Sage pushing for additional discount or extended payment terms. CFO still hasn't joined directly. Discussion of contract terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can offer quarterly at a slight premium, or keep annual for the discounted rate"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your $6K compare to Clari's pricing for our size?",
+          "answer": "Clari typically runs $12-15K+ for conversation intelligence at your scale. We're purpose-built and priced for coaching focus"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes from your CFO's perspective?",
+          "answer": "Honestly, hitting our Q2 number target. If we land a few more deals this quarter, budget opens up"
+        }
+      ],
+      "objections": [
+        "Timing might slip to next quarter depending on pipeline performance"
+      ],
+      "next_steps": [
+        "Sage to confirm final decision timeline with CFO",
+        "Schedule closing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-17",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Sage OConnor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive alignment meeting with Sage to confirm terms and close deal. Sage confirmed CFO approved at $6K with annual payment. Contract review in progress. Implementation to begin after signature. Megan will lead technical onboarding.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the timeline for getting contracts signed?",
+          "answer": "CFO approved this morning. We can turn around contract review in 2-3 days"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start implementation planning before final signature?",
+          "answer": "Yes, we can get Megan access to our onboarding portal and schedule kickoff"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns we should address before signature?",
+          "answer": "No, we're good to go. Team is excited to get started with coaching automation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract review and signature",
+        "Schedule implementation kickoff with Megan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

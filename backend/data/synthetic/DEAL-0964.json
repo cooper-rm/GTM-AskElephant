@@ -1,0 +1,555 @@
+{
+  "deal_id": "DEAL-0964",
+  "company": {
+    "name": "CentralSoftware",
+    "industry": "Marketing Agency",
+    "employee_count": 888,
+    "annual_revenue": 140022421,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12300.0,
+    "seats": 17,
+    "price_per_seat_monthly": 61.72,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 30.7,
+    "sales_cycle_days": 88,
+    "close_date": "2024-04-19",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Hiroshi Chen",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 7
+    },
+    {
+      "name": "Quinn Phillips",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 11
+    },
+    {
+      "name": "Alex Harris",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    },
+    {
+      "name": "Evelyn Chen",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 12
+    },
+    {
+      "name": "Benjamin Smith",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    },
+    {
+      "name": "Javier Lima",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    },
+    {
+      "name": "Miles Sato",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Hiroshi Chen at CentralSoftware introducing AskElephant's AI-powered conversation intelligence platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-12",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email to Hiroshi Chen highlighting sales-to-CS handoff automation use case. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-16",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Third outreach email to Hiroshi Chen with case study on marketing agencies improving handoff processes. Hiroshi responded expressing interest in learning more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have time next week for a quick call to discuss our current handoff challenges?",
+          "answer": "Absolutely, I'll send over some times that work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email confirming qualification call scheduled with Hiroshi Chen. Shared agenda focused on understanding current sales-to-CS workflow pain points.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this be a technical deep-dive or more business-focused?",
+          "answer": "Business-focused initially. We'll cover your current process, pain points, and desired outcomes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Hold qualification call on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-01-29",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call with Hiroshi Chen. Discussed CentralSoftware's current manual handoff process causing customer onboarding delays and information loss. Hiroshi mentioned they're also evaluating Gong. Team size is ~20 sales reps and looking to start with 17 seats.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "We're losing too much context in the handoff from sales to customer success. Onboarding delays are impacting retention."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Gong for this use case?",
+          "answer": "Great question. Gong is strong on sales coaching, but AskElephant specializes in cross-team knowledge transfer and automation. Let's explore that in our next conversation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map current workflow",
+        "Send handoff automation overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-05",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "10-minute follow-up call with Hiroshi Chen to dive deeper into workflow. Mapped out current 5-step handoff process involving manual notes, Salesforce updates, and async Slack messages. Discussed ideal state with automated summaries and action items.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What percentage of deals lose critical information during handoff currently?",
+          "answer": "Hard to quantify, but our CS team estimates 30-40% of handoffs are missing key details."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our existing Salesforce and Slack setup?",
+          "answer": "Yes, we have native integrations for both. I'll include setup details in my follow-up."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send integration documentation",
+        "Loop in technical stakeholders for evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 11.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Hiroshi Chen with integration docs, case study from similar marketing agency, and request to involve IT and CS leadership in next discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should we bring our COO Quinn Phillips into the conversation at this stage?",
+          "answer": "That would be great for the demo stage. Let's get technical validation first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce technical stakeholders",
+        "Schedule technical discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-20",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute discovery call with Hiroshi Chen. Discussed timeline (hoping to roll out by end of quarter), budget considerations, and decision-making process. Hiroshi shared that Alex Harris from procurement and Evelyn Chen from IT will need to review. Also mentioned Gong is still in consideration but pricing is a concern.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "We're looking at $15-20K annually. Need to show clear ROI on handoff efficiency."
+        },
+        {
+          "by": "prospect",
+          "question": "How's Gong pricing compared to what you're hoping to spend?",
+          "answer": "They're coming in higher, around $25K for what we need. That's pushing our budget."
+        },
+        {
+          "by": "rep",
+          "question": "Who's the final decision-maker on this purchase?",
+          "answer": "Quinn Phillips, our COO, will need to sign off. I'm driving the evaluation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo tailored to handoff automation",
+        "Get Quinn Phillips involved for executive alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-02-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Email to Hiroshi Chen confirming demo scheduled. Shared demo agenda covering AI call summaries, automated CS handoff workflows, and Salesforce integration walkthrough.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Hold demo with Hiroshi and technical stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email to Hiroshi Chen with demo access credentials and request to have Benjamin Smith, Javier Lima, and Miles Sato (Sales Managers) join to provide input on workflow fit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we record the demo for team members who can't attend?",
+          "answer": "Absolutely, we'll record and share afterward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-16",
+      "type": "demo",
+      "duration_minutes": 28,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute demo with Hiroshi Chen, Benjamin Smith, Javier Lima, and Miles Sato. Walked through live handoff automation workflow, AI-generated summaries, and integration capabilities. Team was impressed with ease of use but asked about data security and implementation timeline. Evelyn Chen from IT raised questions about API access controls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "For your setup, 2-3 weeks including integration testing and team training."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the data security and compliance certifications?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant. I'll send our security documentation."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Gong?",
+          "answer": "Gong's feature set is broader for sales coaching, but your handoff automation is more purpose-built for our use case."
+        }
+      ],
+      "objections": [
+        "Need to verify security compliance with IT team before moving forward"
+      ],
+      "next_steps": [
+        "Send security documentation to Evelyn Chen",
+        "Schedule executive alignment call with Quinn Phillips",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-03-20",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Quinn Phillips",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute executive meeting with Quinn Phillips (COO) and Hiroshi Chen. Discussed business impact of improved handoff efficiency, projected ROI based on reduced onboarding time, and strategic fit with CentralSoftware's growth plans. Quinn expressed support but wants competitive analysis vs Gong and detailed pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the measurable impact we should expect in the first quarter?",
+          "answer": "Based on similar customers, 50-60% reduction in handoff time and 25-30% improvement in CS team efficiency."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you differentiate from Gong on this specific use case?",
+          "answer": "Gong focuses on sales performance and coaching. We specialize in cross-functional knowledge transfer and automation, which is what you need for handoffs."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "We'd like to decide within 2 weeks and implement before quarter-end."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed proposal with pricing and ROI model",
+        "Provide Gong comparison analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-03-28",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Quinn Phillips",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute executive negotiation meeting with Quinn Phillips and Hiroshi Chen. Presented proposal at $17,700 for 17 seats (automations_plus_consulting tier). Quinn pushed back on pricing, noting Gong is offering aggressive discounts and asking if we can come down to match their budget target of $12-13K. Discussed value justification and implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $12K to make this work within our budget?",
+          "answer": "Let me discuss with leadership on discount flexibility. Our consulting package adds significant implementation value."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting tier vs standard automation?",
+          "answer": "Consulting includes 20 hours of custom workflow design, dedicated implementation support, and quarterly business reviews."
+        },
+        {
+          "by": "rep",
+          "question": "If we can work on pricing, what's the approval process?",
+          "answer": "I'll need to loop in Alex Harris from procurement for final contract review, but I can drive this quickly."
+        }
+      ],
+      "objections": [
+        "Pricing is above budget target; need to see meaningful discount to proceed",
+        "Gong is offering competitive pricing that's hard to ignore"
+      ],
+      "next_steps": [
+        "Request pricing approval for discount to $12-13K range",
+        "Schedule follow-up with revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Hiroshi Chen with revised proposal at $12,300 ACV (30.7% discount) for 17 seats including consulting package. Emphasized strategic value and implementation timeline to meet their quarter-end goal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing works for us. Can we move quickly on contracting?",
+          "answer": "Yes, I'll send the agreement today. We can kick off implementation next week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for review",
+        "Schedule final alignment call with Quinn Phillips"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-10",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Quinn Phillips",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute exec meeting with Quinn Phillips and Hiroshi Chen to finalize terms. Quinn approved the revised pricing. Discussed implementation timeline, success metrics, and contract terms. Alex Harris to review MSA and security addendum before final signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-contract?",
+          "answer": "You can add seats at the same per-seat rate. We'll prorate for the remaining contract period."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from the procurement or IT side we should address?",
+          "answer": "Alex will review standard terms, and Evelyn confirmed security requirements are met. Should be straightforward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send MSA to Alex Harris",
+        "Schedule pricing/contracting call to finalize"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-04-19",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Hiroshi Chen",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "17-minute pricing call with Hiroshi Chen (rescheduled from earlier in week). Final contract review and pricing confirmation. Hiroshi confirmed all stakeholders are aligned. Discussed payment terms and implementation kickoff date. Contract ready for signature pending Alex Harris final review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do annual payment vs quarterly?",
+          "answer": "Yes, annual is our standard. We can offer net-30 terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "deal_id": "DEAL-0385",
+  "company": {
+    "name": "BoldPrism",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 100,
+    "annual_revenue": 11355646,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 67.41,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.3,
+    "sales_cycle_days": 51,
+    "close_date": "2024-11-29",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Elena Scott",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 13
+    },
+    {
+      "name": "Sofia Schulz",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 10
+    },
+    {
+      "name": "Yuki Wolf",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Elena Scott at BoldPrism requesting information about sales forecasting tools. She mentioned they're currently evaluating options including Gong and looking for better accuracy in their pipeline visibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-09",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Elena Scott to understand BoldPrism's sales process. Elena shared they have a 6-person sales team struggling with forecast accuracy. Currently using basic CRM functionality and evaluating Gong. She's Director of Sales and sees automation as key to scaling without adding headcount.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with forecasting right now?",
+          "answer": "We're missing about 30% on our quarterly forecasts. Our AEs update opportunities manually and it's inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's conversation intelligence?",
+          "answer": "We focus on end-to-end deal automation and predictive scoring, while Gong emphasizes call recording and coaching. Many customers use both together."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to share current CRM export",
+        "Send ROI calculator",
+        "Schedule discovery call with Sofia who manages day-to-day pipeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping qualification discussion and sharing ROI calculator based on their 6-seat team. Included case study from similar managed services company that improved forecast accuracy by 40%. Elena responded asking about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical time to value for a team our size?",
+          "answer": "Most teams see initial insights within 2 weeks of connecting data sources, with full automation rolled out over 4-6 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-24",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Elena and Sofia Schulz (Account Manager). Walked through their current sales process and data sources. Sofia shared frustrations with manual data entry and mentioned they're also looking at Gong for call intelligence. Discussed integration requirements with their CRM.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What other tools are in your current stack that we'd need to integrate with?",
+          "answer": "Salesforce, Outreach for sequences, and Slack for team communication."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a subset of the team before rolling out to all 6 seats?",
+          "answer": "Yes, we can start with 3 seats and expand, though the per-seat price would be slightly higher initially."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo environment with their use case",
+        "Include Sofia and Elena in eval access",
+        "Loop in Yuki Wolf from their IT team for technical review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Demo follow-up email with recording, trial access credentials, and technical documentation for Yuki Wolf to review security/integration requirements. Elena confirmed they're moving forward with evaluation and mentioned budget approval process would involve their VP of Operations who hasn't been introduced yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Team to complete 2-week trial",
+        "Proposal call scheduled to review findings and pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-07",
+      "type": "proposal_call",
+      "duration_minutes": 27,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call (initially scheduled earlier but rescheduled by Elena). Presented pricing for 6 seats with unlimited automation at $5,200 ACV. Elena asked for a discount to match their budget constraints, mentioning Gong came in lower. Discussed 24% discount to close by quarter-end. Noted VP of Operations still not involved despite budget authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing? We're evaluating Gong at a lower price point.",
+          "answer": "We can offer a 24% discount if we can close before quarter-end, which brings us to $5,200 annually."
+        },
+        {
+          "by": "rep",
+          "question": "When can we connect with your VP of Operations to align on strategic value?",
+          "answer": "Elena will try to set that up but mentioned they're very busy with a security audit right now."
+        }
+      ],
+      "objections": [
+        "Initial pricing above budget",
+        "Gong offering more competitive pricing"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Elena to secure VP approval",
+        "Target signature by end of month"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal reflecting discounted pricing at $5,200 ACV for 6 seats. Included quarter-end discount expiration and implementation timeline. Elena acknowledged receipt and said she's working on internal approval but didn't confirm VP engagement.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Elena to circulate proposal internally",
+        "Follow-up call scheduled to address any concerns"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-21",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Elena and Yuki Wolf to finalize terms. Yuki approved technical requirements. Elena pushed for additional discount or extended payment terms, citing budget cycle timing. Discussed splitting payments quarterly. Still no exec sponsor involvement despite approaching decision point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "We can do quarterly billing at a 5% upcharge, or keep annual pricing with the current discount."
+        },
+        {
+          "by": "rep",
+          "question": "What's the final approval process from here?",
+          "answer": "Elena needs VP sign-off and procurement review from Yuki, targeting decision next week."
+        }
+      ],
+      "objections": [
+        "Request for payment terms flexibility"
+      ],
+      "next_steps": [
+        "Send updated agreement with payment options",
+        "Elena to present to VP",
+        "Yuki to complete procurement checklist"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Sent final contract with both annual and quarterly payment options. Included procurement checklist for Yuki and executive summary for VP review. Elena confirmed they're in final review and will have answer within a few days. Deal remains at risk due to lack of direct exec engagement and competitive pressure from Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await final decision from BoldPrism",
+        "Check in mid-week if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

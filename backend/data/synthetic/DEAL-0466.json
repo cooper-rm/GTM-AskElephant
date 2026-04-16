@@ -1,0 +1,217 @@
+{
+  "deal_id": "DEAL-0466",
+  "company": {
+    "name": "CosmicCollective",
+    "industry": "PropTech",
+    "employee_count": 48,
+    "annual_revenue": 8151937,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8000.0,
+    "seats": 10,
+    "price_per_seat_monthly": 65.71,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.2,
+    "sales_cycle_days": 31,
+    "close_date": "2025-01-13",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Aisha Collins",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 33
+    },
+    {
+      "name": "Reese Adams",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aisha Collins at CosmicCollective expressing interest in improving sales rep productivity. Brief form submission mentioning current use of Gong and exploring alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-15",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute qualification call with Aisha. Discussed team size (10 reps), current pain points with manual workflows, and basic feature requirements. Aisha confirmed budget authority lies with procurement team. Light comparison to Gong mentioned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to explore alternatives to Gong?",
+          "answer": "We're looking for better automation capabilities and more competitive pricing for our team size."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support unlimited automation workflows at this price point?",
+          "answer": "Yes, our unlimited_automation tier includes all automation features with no usage caps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-22",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute discovery call diving into specific use cases around rep productivity and workflow automation. Aisha detailed current process gaps and expressed strong interest in the platform. Mentioned Reese Adams from procurement will need to be involved for contracting. No executive sponsor discussed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Reese Adams handles vendor procurement, but I can drive the technical evaluation on my end."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation engine compare to Gong's workflows?",
+          "answer": "Our engine supports more complex multi-step automations and integrates natively with a broader range of tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks depending on integration complexity."
+        }
+      ],
+      "objections": [
+        "Need to see how pricing compares to our current Gong contract before moving forward"
+      ],
+      "next_steps": [
+        "Prepare custom demo for Aisha's team",
+        "Move to demo/evaluation stage"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 15.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after successful demo presentation. Aisha confirmed the team was impressed with automation capabilities and wants to move forward. Requested formal proposal with pricing breakdown for 10 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include a comparison of your pricing vs. Gong in the proposal?",
+          "answer": "Absolutely, we'll include a side-by-side value comparison in the proposal document."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal by end of week",
+        "Loop in Reese Adams on procurement"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email thread with Aisha reviewing the proposal. She expressed concern about list price vs. Gong renewal rate and asked about discount flexibility. Confirmed Reese Adams is now reviewing the contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to negotiate on the per-seat price given our team size?",
+          "answer": "Let me connect with leadership on discount options. We want to make this work for you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide revised pricing with discount",
+        "Schedule call with Reese to discuss terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Collins",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Email exchange finalizing contract terms with 26.2% discount to meet Aisha's budget constraints and compete with Gong renewal pricing. Reese Adams confirmed procurement approval pending final legal review. No executive engagement secured, moving forward based on Aisha's championing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff with Reese"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

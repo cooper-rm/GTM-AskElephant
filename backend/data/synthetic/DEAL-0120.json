@@ -1,0 +1,324 @@
+{
+  "deal_id": "DEAL-0120",
+  "company": {
+    "name": "BrightMetrics",
+    "industry": "Healthcare IT",
+    "employee_count": 56,
+    "annual_revenue": 9971108,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8100.0,
+    "seats": 9,
+    "price_per_seat_monthly": 71.27,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.9,
+    "sales_cycle_days": 50,
+    "close_date": "2025-07-02",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lily Walker",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lily Walker introducing AskElephant's call intelligence platform for sales-to-CS handoff automation. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-29",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Lily Walker with brief note about helping healthcare IT companies improve handoff processes. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message referencing BrightMetrics' recent growth and challenges with sales-to-CS transitions. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-02",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call connected with Lily Walker. She acknowledged receiving previous outreach and agreed to learn more about how AskElephant differs from their current process. Mentioned she's been evaluating Fireflies but hasn't made a decision yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes you different from Fireflies?",
+          "answer": "We focus specifically on sales-to-CS handoff automation with deal intelligence, not just transcription. Our platform analyzes patterns across your entire deal cycle to surface risk signals and ensure nothing falls through the cracks during handoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and case study",
+        "Schedule 15-minute follow-up call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with overview deck and healthcare IT case study. Lily responded asking about implementation timeline and whether the platform integrates with their Salesforce instance. Confirmed interest in scheduling discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are live within 2 weeks. Salesforce integration is native and takes about 48 hours to configure."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-23",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to schedule discovery. Lily shared more context about their current process - sales reps manually create handoff docs that CS often finds incomplete. She's 3 months into her VP role and sees this as a priority fix. Mentioned Fireflies has reached out but she's concerned it won't solve the handoff problem, just create more transcripts to wade through.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process - what happens after a deal closes?",
+          "answer": "Sales reps fill out a template in Salesforce, but it's usually bare bones. CS has to schedule their own calls with customers to re-discover needs, which creates a poor experience and delays onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system automatically pull deal context from our existing calls?",
+          "answer": "Yes, we analyze all recorded sales calls to extract key context - use cases discussed, stakeholders mentioned, commitments made, concerns raised - and auto-populate the handoff brief."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with Lily for Tuesday",
+        "She'll bring her CS lead if available"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-31",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on BrightMetrics' handoff pain points and current tech stack. Lily walked through 2-3 recent deals where CS was blindsided by customer expectations that were discussed but not documented. She's excited about AI-powered deal summaries but noted she'll need to build internal buy-in. CS lead couldn't attend - just Lily on the call. Asked about pricing ballpark.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this? Who owns CS handoff today?",
+          "answer": "I own it on the sales side. Our CS Director reports to the COO, but I should probably loop them in. Honestly haven't connected with execs on this yet - trying to vet the solution first."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing look like for a team our size?",
+          "answer": "For 9 seats with unlimited automation, we're typically in the $8-10K ACV range depending on feature tier and contract length."
+        }
+      ],
+      "objections": [
+        "Need to make sure CS will actually use this - don't want another tool that just sits there"
+      ],
+      "next_steps": [
+        "Send proposal with pricing options",
+        "Lily will try to include CS Director and COO in next meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-15",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting scheduled but only Lily attended - CS Director had a conflict and COO wasn't available. Walked through detailed demo of handoff automation and deal intelligence features. Lily is clearly the champion but acknowledged she needs exec sponsorship to move forward. Discussed 9-seat deployment with unlimited automation tier. She mentioned Fireflies pricing is lower but doesn't solve her actual problem.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision on this?",
+          "answer": "I'd like to have something in place by end of quarter. I'm presenting budget requests next month so this needs to be pretty far along by then."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can get the price to something that doesn't need COO approval, can you move forward on your own?",
+          "answer": "Maybe, but honestly I think I need their buy-in either way since this touches CS. I'm still pretty new here and don't want to push too hard without socializing it."
+        },
+        {
+          "by": "rep",
+          "question": "Can we get 30 minutes with your COO and CS Director together before end of week?",
+          "answer": "Let me try. COO is slammed but I'll see what I can do."
+        }
+      ],
+      "objections": [
+        "Price is higher than I was expecting - Fireflies is quite a bit cheaper",
+        "Need to make sure this doesn't create more work for CS during transition"
+      ],
+      "next_steps": [
+        "Lily will attempt to schedule exec + CS meeting",
+        "Send formal proposal with $8,100 ACV option",
+        "Share CS onboarding plan"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 14.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after exec meeting with formal proposal at $8,100 ACV for 9 seats, unlimited automation, annual contract. Included CS onboarding plan and ROI calculator. Lily responded that she's still working on getting exec time but appreciates the proposal. Mentioned budget is tight and asked if there's flexibility on price or payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing or can we do quarterly payments instead of annual?",
+          "answer": "The $8,100 is already our SMB rate - we have some flexibility on payment terms. Let me check on quarterly options and get back to you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Check on quarterly payment structure",
+        "Lily will follow up by end of week on exec availability"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-07-02",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Lily Walker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to discuss contract terms. Lily still hasn't gotten COO or CS Director engaged but wanted to finalize numbers before she escalates internally. Discussed quarterly payments, potential discount, and implementation timeline. She's motivated to move forward but acknowledged she's concerned about getting approval without broader buy-in. Asked about month-to-month option to reduce commitment risk given she's new to the role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would you do month-to-month instead of annual? I'm worried about committing to a year on something this new to the team.",
+          "answer": "Month-to-month would be $900/month which comes out higher annually. We could do a 6-month pilot at a discounted rate if that helps reduce risk while you prove value internally."
+        },
+        {
+          "by": "rep",
+          "question": "Let's park pricing for a second - can you help me understand what's blocking the exec conversation? Is it priority, budget, or something else?",
+          "answer": "Honestly, I think I need to prove the ROI more clearly before I bring it to them. I'm still building credibility here and don't want to push a big spend without being confident they'll see the value."
+        }
+      ],
+      "objections": [
+        "Annual commitment feels risky without team buy-in",
+        "Price is still a hurdle compared to alternatives"
+      ],
+      "next_steps": [
+        "Send 6-month pilot proposal with success metrics",
+        "Lily will schedule internal meeting with CS to align on need before exec ask"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 99,
+    "churn_reason": "lost internal champion"
+  }
+}

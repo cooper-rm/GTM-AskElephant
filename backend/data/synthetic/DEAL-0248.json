@@ -1,0 +1,325 @@
+{
+  "deal_id": "DEAL-0248",
+  "company": {
+    "name": "CosmicPulse",
+    "industry": "Professional Services",
+    "employee_count": 487,
+    "annual_revenue": 65369253,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20900.0,
+    "seats": 26,
+    "price_per_seat_monthly": 70.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.0,
+    "sales_cycle_days": 32,
+    "close_date": "2025-12-13",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Isaac Wu",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 7
+    },
+    {
+      "name": "Jude Rogers",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 28
+    },
+    {
+      "name": "Caleb Jones",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 17
+    },
+    {
+      "name": "Rowan Nelson",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Isaac Wu submitted an inbound demo request for forecasting accuracy solution. Indicated current dissatisfaction with forecast reliability and mentioned evaluating Clari.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled. Isaac confirmed availability and requested agenda include integration capabilities with existing Salesforce instance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the platform integrate with our Salesforce instance?",
+          "answer": "Yes, native Salesforce integration is included in all plans"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Review Salesforce integration details"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-15",
+      "type": "discovery_call",
+      "duration_minutes": 10,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call with Isaac Wu. Discussed current forecasting challenges and pain points with manual processes. Isaac mentioned team of ~25 sales reps struggling with accuracy. Confirmed interest in moving forward to technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current forecasting process and where does it break down?",
+          "answer": "Manual spreadsheets and gut feel - accuracy is around 60% and leadership has lost confidence"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's AI forecasting?",
+          "answer": "Our unlimited automation tier includes AI-powered deal scoring that adapts to your team's historical patterns"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce technical evaluator for deeper dive",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-22",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Isaac to discuss next steps. He introduced Jude Rogers from his team as technical evaluator and mentioned Caleb and Rowan from IT would need to review security/compliance. Timeline feels compressed - wants to make decision within 3 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-4 weeks depending on data migration complexity"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation process?",
+          "answer": "Jude will lead technical review, and our IT directors Caleb and Rowan need to sign off on security"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical eval with Jude Rogers",
+        "Send security documentation to IT team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-27",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Jude Rogers",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth technical evaluation session with Jude Rogers. Walked through data model, API architecture, and forecasting algorithms. Jude seemed impressed with the automation capabilities but had detailed questions about data privacy and asked how our AI differs from Clari's approach. Noted concerns about change management for the sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How is our customer data used to train your models?",
+          "answer": "Each customer has isolated model training - your data never leaves your tenant and isn't shared"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of effort is required from our team during setup?",
+          "answer": "Initial data mapping takes 4-6 hours, then ongoing maintenance is minimal with automated syncs"
+        },
+        {
+          "by": "rep",
+          "question": "What's your biggest concern about implementing a new forecasting system?",
+          "answer": "Adoption - our reps are used to their own methods and leadership has been burned by tools that overpromised"
+        }
+      ],
+      "objections": [
+        "Team may resist changing current workflow"
+      ],
+      "next_steps": [
+        "Follow up with IT on security review",
+        "Prepare executive presentation for decision-maker meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-30",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive presentation with Isaac Wu. Reviewed business case, ROI projections, and implementation plan. Isaac seemed engaged but mentioned budget constraints and noted that Clari came in at a lower price point. No other executives joined the call despite this being positioned as exec meeting. Requested formal proposal with pricing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide pricing for different seat counts in case we want to start smaller?",
+          "answer": "Yes, we can structure tiered pricing - will include 15, 26, and 40 seat options in proposal"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your onboarding and support?",
+          "answer": "Dedicated CSM for first 90 days, unlimited support tickets, and quarterly business reviews"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "Need to decide by end of month to hit Q2 implementation goal - also waiting on final Clari proposal"
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to competitive option"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing tiers",
+        "Check in on IT security review status"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after sending proposal. Isaac acknowledged receipt and mentioned leadership is reviewing both our proposal and Clari's. Asked if there's flexibility on pricing to match competitive offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing to be more competitive?",
+          "answer": "Let me discuss with my manager - can we schedule a call to understand the competitive landscape better?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount approval with sales leadership",
+        "Schedule pricing negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-12-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.9,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation email thread. Offered 21% discount to match budget constraints and competitive pressure. Isaac responded positively but mentioned still needs final sign-off from CFO who hasn't been involved yet. IT team (Caleb and Rowan) approved security review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Request introduction to CFO for final approval",
+        "Prepare to send contract with discounted terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Wu",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email checking on CFO review and contract status. Isaac indicated they're still in internal discussions and will have an answer by end of week. Tone suggests deal is progressing but lacks urgency.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal decision",
+        "Check in early next week if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

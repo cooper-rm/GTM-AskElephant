@@ -1,0 +1,518 @@
+{
+  "deal_id": "DEAL-0021",
+  "company": {
+    "name": "PineRelay",
+    "industry": "Marketing Agency",
+    "employee_count": 300,
+    "annual_revenue": 23914450,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18000.0,
+    "seats": 20,
+    "price_per_seat_monthly": 70.6,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 20.7,
+    "sales_cycle_days": 76,
+    "close_date": "2025-11-06",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Grace Nguyen",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 38
+    },
+    {
+      "name": "Ava Schmidt",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 25
+    },
+    {
+      "name": "Evelyn Thomas",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-09",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Grace Nguyen at PineRelay. No answer, left voicemail introducing AskElephant's CRM automation platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Grace Nguyen introducing AskElephant and highlighting CRM automation benefits for marketing agencies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-11",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief connection with Grace Nguyen. She confirmed receipt of previous outreach and expressed initial interest in learning more about CRM automation solutions. Scheduled qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specifically does your platform do for marketing agencies?",
+          "answer": "We help agencies automate their CRM workflows, reduce manual data entry, and improve pipeline visibility across client accounts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.1,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email sent with qualification call agenda and discovery questions. Grace responded confirming attendance and sharing that their current CRM process is heavily manual.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should I bring anyone else from our team to the call?",
+          "answer": "It would be great to have your RevOps lead if they're involved in CRM decisions, but we can start with just you to understand the high-level needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-30",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Grace Nguyen. Discussed PineRelay's current CRM challenges: manual data entry consuming 15+ hours/week across sales team, lack of automation for client follow-ups, and poor pipeline visibility. Grace mentioned they have ~20 sales and account management roles that would benefit. Qualified budget range and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're scaling our client base and the manual work is becoming unsustainable. Our team is spending more time on admin than selling."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating a solution?",
+          "answer": "I'll need buy-in from our Sales Manager Ava and our RevOps Analyst Evelyn. They'll handle the technical evaluation and procurement."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Grace and technical stakeholders",
+        "Send ROI calculator and case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-03",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Grace Nguyen. Deep dive into current CRM workflows, pain points with manual processes, and desired outcomes. Grace outlined their tech stack and integration requirements. Discussed team structure and how 20 users would leverage the platform. Identified CRM automation as the primary use case with potential for consulting support.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Reducing manual CRM work by at least 50% and having clear visibility into our client pipeline without digging through spreadsheets."
+        },
+        {
+          "by": "rep",
+          "question": "Have you evaluated other solutions?",
+          "answer": "Not yet. We've been so focused on keeping up with growth that we haven't had time to do a formal search."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer implementation support or consulting?",
+          "answer": "Yes, we have an automations plus consulting package that includes hands-on setup and ongoing optimization support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo showcasing PineRelay's specific use cases",
+        "Include Ava and Evelyn in next meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent with customized agenda, use case scenarios, and demo logistics. Grace confirmed and mentioned Ava and Evelyn will join the first demo session.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo with extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with additional resources on CRM automation ROI and customer success stories from similar marketing agencies. Grace acknowledged receipt.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proceed with scheduled demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-22",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First demo session with Grace, Ava, and Evelyn. Walked through CRM automation workflows, integrations, and dashboard capabilities. Team engaged with specific questions about customization and data migration. Evelyn focused on technical requirements and security. Ava asked about user adoption and training.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "With the consulting package, we typically complete core setup in 4-6 weeks with your RevOps team driving configuration."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation workflows for different client types?",
+          "answer": "Absolutely. The platform supports conditional logic and custom workflow builders so you can tailor automations by segment."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of training do our users need?",
+          "answer": "We provide onboarding sessions and ongoing enablement. Most users are productive within the first week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo focusing on advanced automation features",
+        "Provide security documentation to Evelyn"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-09-29",
+      "type": "demo",
+      "duration_minutes": 36,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo session diving deeper into advanced automation capabilities and reporting. Evelyn walked through technical requirements and integration points with existing systems. Team seemed aligned on the platform's fit but Ava raised questions about pricing and ROI justification for budget approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for 20 users with consulting?",
+          "answer": "I'll prepare a formal proposal, but for 20 seats with the automations plus consulting package, we're typically in the $18-24K ACV range depending on support level."
+        },
+        {
+          "by": "prospect",
+          "question": "How do we measure ROI to justify this internally?",
+          "answer": "We'll build a business case together based on time savings, increased pipeline visibility, and revenue impact. Most agencies see 10-15 hours saved per week across their team."
+        }
+      ],
+      "objections": [
+        "Need to build strong ROI case for budget approval since this wasn't planned spending"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Create custom ROI model for PineRelay"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-10-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email with proposal preview, ROI calculator customized for PineRelay's metrics, and requested security documentation. Grace acknowledged and mentioned they're working through internal budget discussions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include implementation timeline in the proposal?",
+          "answer": "Yes, I'll outline the full implementation roadmap with milestones and resource requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present formal proposal in executive meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-10-11",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive presentation with Grace, Ava, and Evelyn. Presented formal proposal with $22,500 ACV for 20 seats with automations plus consulting package. Walked through ROI model, implementation timeline, and success metrics. Team engaged positively but Ava flagged that they need to present to finance and may need executive sponsorship for approval above $20K.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're early in our fiscal year and this wasn't budgeted?",
+          "answer": "Let me discuss options with my leadership. We want to make this work within your budget constraints."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting support include exactly?",
+          "answer": "Dedicated CSM, monthly strategy sessions, custom workflow builds, and priority support for the first year."
+        },
+        {
+          "by": "rep",
+          "question": "Who from the executive team needs to approve this?",
+          "answer": "Ultimately our CFO signs off on new software spend over $20K, but we can champion it if the business case is solid."
+        }
+      ],
+      "objections": [
+        "Pricing above $20K requires CFO approval and wasn't budgeted for this quarter"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Grace to discuss with finance team",
+        "Follow up next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-10-18",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Grace, Ava, and Evelyn. Presented revised proposal at $18,000 ACV (20% discount) to fit within their approval threshold and address budget concerns. Team receptive to revised pricing. Discussed contract terms, payment structure, and implementation start date. Ava mentioned they still need to finalize internal approval but the pricing is now workable.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure it as quarterly payments. I'll update the proposal to reflect that."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens after year one with the consulting support?",
+          "answer": "You can renew the consulting package or transition to standard support. Most clients continue with at least quarterly strategy sessions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline to make a final decision?",
+          "answer": "We'd like to finalize in the next 2 weeks so we can start implementation before end of quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with $18K ACV and quarterly payment terms",
+        "Grace to circulate internally for final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-10-24",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Grace. She confirmed the revised proposal is circulating internally with finance and procurement. Ava and Evelyn are supportive. Grace mentioned they're still waiting on final CFO signoff but expects decision within a few days. Clarified implementation kickoff logistics.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any concerns from finance we should address?",
+          "answer": "No major concerns. They just need to verify budget allocation, which should be straightforward now that we're under $20K."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for final CFO approval",
+        "Prepare implementation kickoff materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email sent with final contract, SOW, and implementation kickoff plan. Grace confirmed receipt and mentioned they're expecting final approval by end of week. Reiterated next steps and onboarding timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-11-06",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Grace Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final alignment meeting with Grace, Ava, and Evelyn. Grace confirmed verbal CFO approval received. Reviewed contract terms, implementation timeline, and success metrics one final time. Team aligned on moving forward. Discussed kickoff meeting scheduling and resource allocation for implementation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once the contract is signed?",
+          "answer": "We can kick off within 3-5 business days. I'll have our implementation team reach out to schedule the kickoff call."
+        },
+        {
+          "by": "rep",
+          "question": "Any final blockers before we can get signatures?",
+          "answer": "No blockers. Just waiting on legal to process the paperwork. Should have signatures by early next week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to process contract signatures",
+        "Schedule implementation kickoff call",
+        "Assign dedicated CSM"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

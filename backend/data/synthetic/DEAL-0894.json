@@ -1,0 +1,240 @@
+{
+  "deal_id": "DEAL-0894",
+  "company": {
+    "name": "ZenCo",
+    "industry": "Professional Services",
+    "employee_count": 98,
+    "annual_revenue": 15422593,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3300.0,
+    "seats": 6,
+    "price_per_seat_monthly": 49.95,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 43.9,
+    "sales_cycle_days": 24,
+    "close_date": "2024-03-05",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Sofia Martinez",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 9
+    },
+    {
+      "name": "Wyatt Byrne",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Sofia Martinez (VP of CS) expressing interest in onboarding automation. Brief inquiry about AskElephant's capabilities for streamlining customer onboarding workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does AskElephant support automated onboarding workflows for new customers?",
+          "answer": "Yes, our automations_plus_consulting tier includes pre-built onboarding templates and custom workflow design with our team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand ZenCo's current process"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call. Rep asked about current onboarding challenges and tools in use. Sofia confirmed they're evaluating alternatives to manual processes and mentioned looking at Gong as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for customer onboarding?",
+          "answer": "Mostly manual processes with spreadsheets. We're also looking at Gong's conversation intelligence for tracking onboarding calls."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda focusing on onboarding pain points"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-16",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute discovery call with Sofia Martinez. Discussed ZenCo's manual onboarding process causing delays and inconsistent customer experience. Sofia manages the CS team but noted IT Director Wyatt Byrne would be end user. No executive sponsor mentioned. Uncovered need for 6 seats across CS team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current onboarding process from deal close to customer launch.",
+          "answer": "It's very manual\u2014CS team sends templated emails, schedules kickoff calls, and tracks progress in spreadsheets. Takes 3-4 weeks on average and feels disjointed."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Wyatt Byrne from IT will need to approve since he manages our tech stack, but I'm driving this from the CS side."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Gong for our use case?",
+          "answer": "Gong focuses on conversation intelligence and sales coaching, while we specialize in workflow automation and structured onboarding playbooks. They're complementary but different approaches."
+        }
+      ],
+      "objections": [
+        "We're concerned about implementation time\u2014our team is already stretched thin."
+      ],
+      "next_steps": [
+        "Schedule demo focused on onboarding automation templates",
+        "Send case study from similar professional services company"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-22",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute product demo with Sofia showing onboarding automation workflows, email sequencing, and progress tracking dashboards. Sofia engaged positively with templates feature and asked detailed questions about customization. Expressed concern about budget and mentioned needing to compare with Gong's pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize these templates for our specific onboarding milestones?",
+          "answer": "Absolutely. With the automations_plus_consulting tier, our team works with you to configure templates to your exact process."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical setup time from purchase to going live?",
+          "answer": "With consulting support, most teams are fully operational within 2-3 weeks including custom configuration."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 4-6 weeks. Budget discussions are happening now for Q2."
+        }
+      ],
+      "objections": [
+        "I need to understand the full cost\u2014we have limited budget for new tools this quarter."
+      ],
+      "next_steps": [
+        "Send pricing proposal for 6 seats with automations_plus_consulting tier",
+        "Include ROI calculator showing time savings"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 9.0,
+      "rescheduled": false,
+      "ai_summary": "Pricing proposal sent for 6 seats at $3,300 ACV (automations_plus_consulting). Sofia acknowledged receipt and mentioned needing to review with finance. Asked for clarification on discount given budget constraints and competitive evaluation with Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're a smaller team just starting with this?",
+          "answer": "Let me discuss with leadership\u2014there may be room to adjust given your use case and team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call",
+        "Prepare revised proposal with discount options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-06",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Sofia Martinez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute pricing negotiation call with Sofia. Discussed budget constraints and offered 43.9% discount to close within her Q2 budget. Sofia appreciative of flexibility and indicated this pricing makes decision easier vs. Gong. Committed to final internal review with Wyatt and finance. No executive sponsor involvement mentioned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can meet this pricing, what's your process to get final approval?",
+          "answer": "I need Wyatt's sign-off on the technical side and finance approval for the budget allocation. Should be straightforward once I have the updated proposal."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this pricing include the full consulting support for setup?",
+          "answer": "Yes, the discounted rate still includes all consulting hours for custom workflow configuration and onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discounted pricing",
+        "Sofia to circulate internally for final approvals"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 83,
+    "churn_reason": "lack of executive alignment"
+  }
+}

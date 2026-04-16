@@ -1,0 +1,477 @@
+{
+  "deal_id": "DEAL-0951",
+  "company": {
+    "name": "ScaleCloud",
+    "industry": "SaaS/Tech",
+    "employee_count": 222,
+    "annual_revenue": 38211448,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18600.0,
+    "seats": 18,
+    "price_per_seat_monthly": 85.34,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 4.1,
+    "sales_cycle_days": 56,
+    "close_date": "2024-04-03",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Casey Mensah",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 21
+    },
+    {
+      "name": "Evelyn Weiss",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 13
+    },
+    {
+      "name": "Benjamin Brown",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-31",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Casey Mensah introducing AskElephant's AI meeting intelligence platform and value proposition for sales-to-CS handoff automation. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-02",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.5,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Casey Mensah with personalized note about ScaleCloud's growth stage and challenges with post-sale handoffs. Casey responded positively, expressed interest in learning more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes this different from what we're already looking at?",
+          "answer": "Rep mentioned AI-powered automation specifically built for B2B SaaS handoffs, unlike general note-taking tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-08",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Casey Mensah. Discussed ScaleCloud's current sales process and pain points around information loss during sales-to-CS handoff. Casey mentioned they're evaluating Fathom but open to alternatives.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to solve this now?",
+          "answer": "Casey explained customer onboarding delays due to lost context, impacting time-to-value."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI actually extract handoff-relevant information?",
+          "answer": "Rep explained custom extraction models trained on B2B sales-to-CS workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Casey to review current Fathom evaluation timeline",
+        "Follow-up call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-13",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call with Casey. Explored team size (18 seats needed), current tools, and integration requirements with their CRM. Casey shared that Fathom is being tested by 3 reps but lacks handoff-specific features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific data points need to pass from sales to CS?",
+          "answer": "Casey listed use case, technical requirements, stakeholder map, and success metrics."
+        },
+        {
+          "by": "prospect",
+          "question": "Can this integrate with Salesforce and our CS platform?",
+          "answer": "Rep confirmed native integrations and API flexibility."
+        }
+      ],
+      "objections": [
+        "Casey mentioned Fathom is cheaper and already in trial with part of the team"
+      ],
+      "next_steps": [
+        "Rep to send integration documentation",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-17",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third qualification call focused on budget and decision-making process. Casey confirmed $15-20K budget range and introduced exec sponsor Evelyn (CEO) who would need to approve. Also mentioned Benjamin (Sales Manager) as key end user.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Casey identified Evelyn (final approver) and Benjamin (day-to-day user)."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model\u2014per seat or usage-based?",
+          "answer": "Rep outlined per-seat pricing with unlimited automation tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Multi-stakeholder discovery call to schedule",
+        "Casey to loop in Benjamin"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-22",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to confirm discovery meeting logistics and attendees. Casey confirmed Benjamin and Evelyn's availability for next week. Discussed agenda focusing on handoff workflow walkthrough.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should we show live demo or focus on process mapping first?",
+          "answer": "Rep suggested process mapping first, then demo tailored to their workflow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with full buying committee",
+        "Rep to send pre-call questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-27",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full discovery call with Casey and Benjamin. Walked through current handoff process, pain points with manual note-taking, and CS team frustrations with incomplete information. Benjamin shared specific examples of deals that stumbled in onboarding. Discussed Fathom comparison\u2014acknowledged it's good for notes but lacks handoff automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How much time does your CS team spend chasing sales for missing context?",
+          "answer": "Benjamin estimated 3-5 hours per new account in first two weeks."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementation?",
+          "answer": "Casey said zero onboarding delays due to information gaps, measurable reduction in time-to-value."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and lift on our team?",
+          "answer": "Rep outlined 2-week onboarding with CSM support, minimal internal lift."
+        }
+      ],
+      "objections": [
+        "Benjamin asked if the automation would work with their custom Salesforce fields"
+      ],
+      "next_steps": [
+        "Rep to build custom demo with ScaleCloud's workflow",
+        "Proposal draft for unlimited automation tier",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Casey with discovery recap, custom demo video walkthrough showing ScaleCloud's sales-to-CS workflow automated with AskElephant. Included ROI calculation based on 3-5 hours saved per account. Casey responded positively, sharing with Evelyn.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Casey to review with Evelyn before proposal call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email from Casey asking about security certifications and data handling policies before moving to proposal stage. Rep responded with SOC 2, GDPR compliance documentation and detailed data retention policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is call data stored and how long is it retained?",
+          "answer": "Rep explained US-based encrypted storage, customizable retention (default 2 years), and data deletion controls."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal call scheduled with Casey and Evelyn"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-12",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Casey reviewing formal proposal for 18 seats at $18,600 ACV (unlimited automation tier). Walked through pricing structure, implementation plan, and success metrics. Casey expressed concern about price vs. Fathom but acknowledged unique handoff features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How does this compare to Fathom in your evaluation?",
+          "answer": "Casey noted Fathom is about 40% cheaper but missing the handoff automation that's their core need."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for first-year commitment?",
+          "answer": "Rep indicated willingness to discuss with leadership but unlimited tier is already competitive."
+        }
+      ],
+      "objections": [
+        "Casey mentioned Fathom's pricing advantage and team familiarity from trial"
+      ],
+      "next_steps": [
+        "Casey to present to Evelyn with comparison matrix",
+        "Rep to explore pricing flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-18",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Casey. Discussed potential discount to close price gap with Fathom. Casey pushed for 15% discount to get internal buy-in. Rep explained value differential and offered to bring in leadership for exec-level conversation with Evelyn.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's per-seat pricing or get close?",
+          "answer": "Rep explained different value propositions but committed to exploring options with leadership."
+        },
+        {
+          "by": "rep",
+          "question": "If we bridge the pricing gap, is Evelyn ready to move forward?",
+          "answer": "Casey confirmed Evelyn is supportive but needs to justify premium over Fathom to board."
+        }
+      ],
+      "objections": [
+        "Casey concerned about justifying higher price point internally"
+      ],
+      "next_steps": [
+        "Rep to discuss pricing with leadership",
+        "Schedule exec meeting with Evelyn",
+        "Casey to prepare business case for Evelyn"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-03-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming exec meeting scheduled with Evelyn. Rep outlined agenda focusing on strategic value, ROI case, and competitive positioning vs. Fathom. Included updated proposal with potential 8% discount to $17,100 ACV pending exec approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Evelyn confirmed",
+        "Casey to brief Evelyn beforehand"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-03-27",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Evelyn Weiss",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Evelyn (CEO) and Casey. Discussed ScaleCloud's growth trajectory, customer retention challenges, and strategic importance of seamless sales-to-CS handoffs. Evelyn asked tough questions about ROI, competitive landscape, and why not just use Fathom. Rep positioned AskElephant as purpose-built for their specific problem vs. general note-taking. Evelyn expressed willingness to pay premium for right solution but wants pricing concession to derisk.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention data for companies using the handoff automation?",
+          "answer": "Rep shared case studies showing 23% reduction in early-stage churn for similar companies."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you ensure the AI doesn't miss critical handoff details?",
+          "answer": "Rep explained confidence scoring, human review workflows, and customizable extraction rules."
+        },
+        {
+          "by": "rep",
+          "question": "If we can get to $17,100 for year one, can we close this week?",
+          "answer": "Evelyn said yes if terms include quarterly business reviews and implementation support."
+        }
+      ],
+      "objections": [
+        "Evelyn questioned whether Fathom plus manual process could achieve similar outcome at lower cost"
+      ],
+      "next_steps": [
+        "Rep to finalize $17,100 proposal with QBR commitment",
+        "Legal review of contract terms",
+        "Final pricing call with Casey to close"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-03",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Casey Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Casey to confirm terms at $17,100 ACV (8% discount), 18 seats, unlimited automation tier, with quarterly business reviews included. Casey confirmed Evelyn's approval and readiness to move to contract. Discussed implementation kickoff timeline for following week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start onboarding once contract is signed?",
+          "answer": "Rep confirmed implementation team available to start within 3 business days of signature."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract sent for signature",
+        "Implementation kickoff scheduled",
+        "Casey to coordinate with Benjamin for onboarding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

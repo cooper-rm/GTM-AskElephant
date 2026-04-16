@@ -1,0 +1,620 @@
+{
+  "deal_id": "DEAL-0315",
+  "company": {
+    "name": "FluxEdge",
+    "industry": "Professional Services",
+    "employee_count": 1000,
+    "annual_revenue": 117580131,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10600.0,
+    "seats": 13,
+    "price_per_seat_monthly": 70.26,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.1,
+    "sales_cycle_days": 102,
+    "close_date": "2024-07-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Megan Bennett",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Rosa Friedman",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 43
+    },
+    {
+      "name": "Yuki Wilson",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 22
+    },
+    {
+      "name": "Emily Scott",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-16",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Megan Bennett at FluxEdge. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-18",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Megan Bennett introducing our conversation intelligence platform and potential fit for sales-to-CS handoff use cases. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-18",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message sent referencing previous email and offering value around handoff automation. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-25",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Megan Bennett. She mentioned they're currently evaluating Gong but open to seeing alternatives. Agreed to a qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently looking at conversation intelligence solutions?",
+          "answer": "Yes, we're in early stages with Gong but want to see what else is out there."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming qualification call time and sending pre-call questionnaire to understand FluxEdge's sales-to-CS handoff challenges. Megan responded confirming attendance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this be more discovery or demo?",
+          "answer": "Discovery first - we want to understand your workflow before showing anything."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Complete pre-call questionnaire",
+        "Join qualification call Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-16",
+      "type": "qualification_call",
+      "duration_minutes": 23,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Megan Bennett. Discussed current sales-to-CS handoff process, pain points with manual note-taking, and dropped context during transitions. FluxEdge has 50-person sales team and 15-person CS team. Currently piloting Gong but finding it expensive and not tailored to handoff use case. Team size estimate: 13 seats across sales leaders and CS managers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's breaking in your current handoff process?",
+          "answer": "CS gets inconsistent notes, misses key customer context, and spends first two weeks re-discovering what sales already learned."
+        },
+        {
+          "by": "rep",
+          "question": "How are you handling this today?",
+          "answer": "Manual Salesforce notes and a handoff template that nobody fills out completely."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong?",
+          "answer": "We'll cover that in detail later, but our automation tier is built specifically for handoff workflows which can reduce overall cost."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with expanded team",
+        "Send handoff workflow audit"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-23",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Megan Bennett and Emily Scott (Implementation Lead). Walked through current handoff workflow end-to-end. Key pain point: sales reps forget to document objections and competitive mentions during deal cycle. Emily noted CS team wastes 8-10 hours per new customer reconstructing deal context. Discussed integration requirements with Salesforce and Slack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happens when context is lost during handoff?",
+          "answer": "CS either asks the customer to repeat everything, which feels unprofessional, or they miss critical context about objections or competitor comparisons and the relationship suffers."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system automatically flag when competitive intelligence comes up in calls?",
+          "answer": "Yes, we can tag and surface Gong mentions or any other competitor automatically in handoff summaries."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "We'll need IT to review security and our SVP of Revenue Rosa Friedman to sign off on budget."
+        }
+      ],
+      "objections": [
+        "Need to make sure this integrates cleanly with our Salesforce instance without heavy IT lift"
+      ],
+      "next_steps": [
+        "Loop in IT Director Yuki Wilson for technical evaluation",
+        "Prepare demo focused on handoff automation",
+        "Share security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Megan and Emily with security documentation, Salesforce integration guide, and proposed demo agenda. Also included ROI calculator showing potential CS time savings based on their 8-10 hour figure.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review security docs with IT",
+        "Confirm demo attendees and time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-08",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Check-in call with Megan. She confirmed IT Director Yuki Wilson will join technical evaluation. Mentioned Rosa Friedman is asking questions about budget and wants to understand differentiation from Gong. Megan expressed some concern about timeline pressure from Gong sales rep.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're flexible but want to move efficiently - probably 3-4 weeks to final decision."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving Rosa's interest in this project?",
+          "answer": "She's frustrated with churn coming from poor onboarding experiences and sees handoff as a root cause."
+        }
+      ],
+      "objections": [
+        "Gong is pushing us to close this month with a discount, so we need to move quickly if you're going to be competitive"
+      ],
+      "next_steps": [
+        "Schedule technical eval with Yuki",
+        "Prepare competitive comparison doc vs Gong for Rosa"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Email to Yuki Wilson introducing technical evaluation session and sharing API documentation, security whitepaper, and integration architecture. Also sent Megan a Gong competitive comparison highlighting handoff-specific automation features.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval with Yuki on Friday",
+        "Demo with broader team next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-20",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Megan to prep for upcoming demo. She mentioned Rosa is concerned about cost and wants to see clear ROI. Megan also noted that Gong's pricing came in higher than expected, which is creating some internal tension about budget allocation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What budget range is Rosa thinking about?",
+          "answer": "She hasn't given me a hard number, but wants to stay well under what Gong quoted."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Build ROI story into demo",
+        "Be ready to discuss pricing flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-31",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Yuki Wilson",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Yuki Wilson and Emily Scott. Reviewed Salesforce API integration, authentication flow, data residency, and compliance requirements. Yuki asked detailed questions about webhook reliability and rate limiting. Walked through pilot deployment approach. Yuki seemed satisfied with architecture but flagged that implementation timeline needs to align with Q3 roadmap.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for Salesforce integration?",
+          "answer": "Usually 2-3 weeks for standard setup, up to 4 weeks if you have complex custom objects."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data retention and privacy for call recordings?",
+          "answer": "Configurable retention policies, SOC 2 compliant storage, and automatic PII redaction available."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers you're seeing on your end?",
+          "answer": "No major blockers. We'll need to review custom field mapping but that's standard."
+        }
+      ],
+      "objections": [
+        "We have a freeze on new integrations in late Q2, so if this doesn't launch by mid-June it'll have to wait until Q3"
+      ],
+      "next_steps": [
+        "Confirm implementation timeline fits Q2 window",
+        "Provide custom field mapping worksheet"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Email to team confirming demo scheduled for next Tuesday with Megan, Emily, and Rosa. Included agenda focused on sales-to-CS handoff workflow, ROI model, and live Salesforce integration demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo on Tuesday 10am PT",
+        "Prepare custom demo environment with FluxEdge branding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-14",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full demo with Megan Bennett, Emily Scott, and Rosa Friedman. Showcased automated call summarization, handoff report generation, and Salesforce sync. Rosa engaged positively on ROI model showing 104 hours saved per month across CS team. Discussed 13-seat deployment for sales leaders and CS managers. Rosa asked direct questions about pricing and how we compare to Gong's quote. Megan mentioned they need to make a decision within two weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your unlimited automation tier include compared to Gong's offering?",
+          "answer": "Unlimited handoff reports, custom workflow triggers, and Slack/email routing - Gong charges per automation workflow."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you get us pricing for 13 seats today?",
+          "answer": "Yes, I'll send over a proposal this week with our unlimited automation tier."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision process from here?",
+          "answer": "Rosa and I will review pricing, compare to Gong, and if we're aligned on value we can move quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 13 seats",
+        "Include Gong comparison in pricing rationale",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Rosa Friedman",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Rosa Friedman and Megan Bennett to review proposal. Presented $10,600 ACV for 13 seats on unlimited automation tier. Rosa expressed concern about budget and asked for discount to match Gong's promotional pricing. Discussed business case and alignment with churn reduction goals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing?",
+          "answer": "We have some room to work with, especially for handoff-focused deployments. What's your target?"
+        },
+        {
+          "by": "prospect",
+          "question": "How confident are you in the ROI model?",
+          "answer": "It's based on the 8-10 hours per customer you shared - conservative estimate puts payback under 4 months."
+        }
+      ],
+      "objections": [
+        "Gong offered us a significant first-year discount and we need to be in that range to justify going with a less established vendor"
+      ],
+      "next_steps": [
+        "Revise proposal with discount to compete with Gong",
+        "Schedule follow-up exec meeting to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Email to Rosa and Megan with revised proposal including 21% discount to align with competitive pressure from Gong. Reinforced differentiation on handoff automation and implementation timeline advantage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this your final pricing?",
+          "answer": "This is the best we can do while maintaining the full unlimited automation tier you need."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review revised proposal internally",
+        "Schedule final decision call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-07-04",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Rosa Friedman",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Rosa Friedman and Megan. Rosa confirmed revised pricing is acceptable and aligns with budget. Discussed contract terms, payment schedule, and implementation kickoff timeline. Rosa wants to ensure pilot success metrics are defined upfront.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does success look like in the first 90 days?",
+          "answer": "CS handoff time reduced by 50%, automated handoff reports for 100% of closed deals, and positive feedback from CS team on context quality."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we finalize?",
+          "answer": "Just want to make sure we get this implemented before the Q2 freeze Yuki mentioned."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Schedule pricing call to finalize payment terms",
+        "Confirm implementation start date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-07-14",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Megan Bennett",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call with Megan Bennett to review contract terms and payment schedule. Originally scheduled for Tuesday but Megan had to reschedule due to internal budget meeting conflict. Discussed annual payment vs quarterly options and confirmed 21% discount reflected in final contract. Megan confirmed legal review is underway.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment terms?",
+          "answer": "Yes, we can structure quarterly payments with a small processing fee."
+        },
+        {
+          "by": "rep",
+          "question": "Where are you in legal review?",
+          "answer": "Our legal team is reviewing now, should have feedback in 2-3 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize payment terms in contract",
+        "Wait for legal review feedback",
+        "Schedule exec sign-off meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-07-19",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Rosa Friedman",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final exec meeting with Rosa Friedman and Megan Bennett. Legal review complete with minor redline changes to data processing terms. Rosa approved final contract and confirmed signature authority. Discussed implementation kickoff timeline to meet Q2 deadline. Rosa expressed optimism about impact on customer onboarding experience.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we kick off implementation?",
+          "answer": "We can start next week as soon as contract is signed and give you a dedicated implementation manager."
+        },
+        {
+          "by": "rep",
+          "question": "Anything else you need from us before signature?",
+          "answer": "No, we're ready to move forward. Excited to get this rolled out."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute contract",
+        "Assign implementation manager",
+        "Schedule kickoff call with IT and CS leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

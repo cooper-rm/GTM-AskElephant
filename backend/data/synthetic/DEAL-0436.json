@@ -1,0 +1,209 @@
+{
+  "deal_id": "DEAL-0436",
+  "company": {
+    "name": "SouthpointHealth",
+    "industry": "SaaS/Tech",
+    "employee_count": 42,
+    "annual_revenue": 4284757,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3000.0,
+    "seats": 4,
+    "price_per_seat_monthly": 65.98,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.9,
+    "sales_cycle_days": 29,
+    "close_date": "2025-02-04",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Nora Murphy",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 32
+    },
+    {
+      "name": "Jordan Klein",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nora Murphy",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Nora Murphy at SouthpointHealth regarding forecasting accuracy solution. She mentioned currently evaluating Gong but interested in exploring alternatives. Brief intro, scheduled discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have specific features for improving sales forecast accuracy?",
+          "answer": "Yes, our platform includes AI-driven pipeline analysis, deal scoring, and predictive close-date modeling specifically designed to improve forecast precision."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving your search for a forecasting solution right now?",
+          "answer": "Our forecast accuracy has dropped below 60% this quarter and leadership needs better visibility into pipeline health."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Nora for next week",
+        "Send overview deck highlighting forecasting features"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Murphy",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming discovery call details and sharing case study on forecasting improvement. Nora responded confirming attendance and requesting we include pricing tiers in the discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share rough pricing ranges before our call?",
+          "answer": "Our packages typically range from $2,500-$8,000 ACV depending on seats and automation tier. Happy to discuss specifics on our call based on your needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo focusing on forecast accuracy use case",
+        "Include pricing scenarios for 4-seat deployment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Murphy",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery follow-up email summarizing SouthpointHealth's requirements: 4 reps, unlimited automation tier, integration with existing CRM. Nora confirmed interest and mentioned she's bringing in Jordan Klein (CRO) for executive alignment. She noted Gong quoted them higher but wants to compare feature sets.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your forecasting model compare to Gong's AI approach?",
+          "answer": "Both use AI, but our model specifically weights deal-level signals and buyer engagement patterns rather than just conversation intelligence, which tends to yield more accurate close-date predictions for transactional deals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Jordan Klein and Nora",
+        "Prepare competitive comparison focusing on forecasting accuracy metrics"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-26",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Jordan Klein",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute exec meeting with Jordan Klein and Nora Murphy. Jordan emphasized budget constraints this quarter but acknowledged forecasting is a top-3 priority. Discussed ROI projections and integration timeline. Jordan asked for best pricing given current budget cycle. Nora confirmed she's our internal champion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer if we commit this quarter?",
+          "answer": "For Q2 commitments, we can typically offer 15-20% off list depending on contract length and payment terms. Let me work up a proposal."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 4 seats with unlimited automation, usually 2-3 weeks including CRM integration and rep training."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need to decide by end of month to hit our Q2 implementation goal. Budget is approved but tight."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than anticipated given our current budget constraints"
+      ],
+      "next_steps": [
+        "Send formal proposal with discounted pricing for Q2 close",
+        "Include ROI calculator showing forecast improvement impact",
+        "Loop in implementation team for timeline confirmation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-02-03",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Nora Murphy",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute negotiation call with Nora. Discussed proposal at $3,000 ACV (26% discount from $4,050 list). Nora appreciates the pricing adjustment and confirmed Jordan approved the budget. She requested minor adjustment to payment terms (quarterly vs annual prepay). Verbal commitment to move forward pending contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly payments with a small admin fee. I'll update the contract to reflect that."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders who need to review before we finalize?",
+          "answer": "Just our finance team for contract approval, but Jordan already has budget sign-off. Should be quick."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with quarterly payment terms",
+        "Schedule implementation kickoff for first week of May",
+        "Introduce customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

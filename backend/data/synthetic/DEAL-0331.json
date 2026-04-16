@@ -1,0 +1,252 @@
+{
+  "deal_id": "DEAL-0331",
+  "company": {
+    "name": "PulseHub",
+    "industry": "Professional Services",
+    "employee_count": 100,
+    "annual_revenue": 8248088,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5700.0,
+    "seats": 9,
+    "price_per_seat_monthly": 50.79,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.9,
+    "sales_cycle_days": 32,
+    "close_date": "2025-09-09",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Miles Koch",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Miles Koch, VP of CS at PulseHub. He's exploring call recording solutions to improve coaching for their 100-person professional services team. Mentioned they've been manually reviewing calls and it's becoming unsustainable. Booked discovery call for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support call recording for both inbound and outbound calls?",
+          "answer": "Yes, we capture all call types and integrate with most phone systems. I'll show you our integrations during the discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for Thursday. Sent product overview deck and use case examples from similar professional services companies. Miles confirmed he'll be joining and asked if we could extend the call to include a brief demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we combine the discovery and demo into one session?",
+          "answer": "Absolutely - I'll plan for 45 minutes so we have time for both."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare combined discovery/demo for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Quick email exchange after Miles had to reschedule the discovery/demo. He apologized for the conflict and suggested next Tuesday instead. Confirmed new time and asked him to invite anyone else from his team who should be involved.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rescheduled discovery/demo to Tuesday",
+        "Requested additional attendees if applicable"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-20",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "39-minute discovery and demo call with Miles. Walked through their current process - CS managers manually listening to calls and providing feedback in spreadsheets. Showed automated transcription, AI-powered coaching insights, and unlimited automation tier. Miles seemed engaged and asked about implementation timeline. Only he attended; mentioned his VP of Ops might join later discussions but didn't commit to next steps involving leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 1-2 weeks. Most of it is just integrating with your phone system and setting coaching criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards?",
+          "answer": "Yes, fully customizable. You can create scorecards specific to different roles or call types."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Probably our VP of Ops, but I can walk them through it separately if needed."
+        }
+      ],
+      "objections": [
+        "Need to see if budget is available this quarter"
+      ],
+      "next_steps": [
+        "Miles to check budget availability",
+        "Schedule follow-up to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-26",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute exec meeting, though only Miles attended again. He explained the VP of Ops is supportive but swamped, so Miles is driving this decision. Discussed ROI - saving ~10 hours/week for CS managers. Miles pushed for pricing and mentioned they're working with a tight budget. Walked through standard pricing for 9 seats on unlimited_automation tier ($10k ACV). He indicated that's higher than expected.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline your customers see?",
+          "answer": "Most see coaching time reduction within the first month, quality improvements in 60-90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for a smaller team like ours?",
+          "answer": "Let me see what we can do. I'll work with my manager on options for your team size."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally before end of quarter, but depends on whether we can make the numbers work."
+        }
+      ],
+      "objections": [
+        "Pricing is above our allocated budget"
+      ],
+      "next_steps": [
+        "Rep to prepare revised proposal with pricing options",
+        "Miles to discuss internally with finance"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Email with revised proposal showing standard pricing plus a discounted option at $5,700 ACV (43% discount) to fit their budget constraints. Emphasized the value of unlimited automation tier for their use case. Miles responded positively and said this brings it into range, but wants to discuss contract terms before finalizing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for multi-year or just year one?",
+          "answer": "This discount is for year one, but we can discuss renewal pricing to keep it competitive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing/terms call",
+        "Prepare contract draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-08",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Miles Koch",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute pricing and terms call with Miles. Confirmed $5,700 ACV for 9 seats, annual contract. Discussed payment terms - Miles requested quarterly billing instead of annual upfront. Agreed to quarterly. He asked about implementation support and confirmed he can get contract signed this week if we send final paperwork today.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly billing instead of paying annually upfront?",
+          "answer": "Yes, we can accommodate quarterly billing. I'll update the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with quarterly billing terms",
+        "Miles to route for signature this week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "deal_id": "DEAL-0202",
+  "company": {
+    "name": "CrimsonFoundry",
+    "industry": "Fintech",
+    "employee_count": 100,
+    "annual_revenue": 10927343,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 8,
+    "price_per_seat_monthly": 69.54,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.9,
+    "sales_cycle_days": 39,
+    "close_date": "2024-08-26",
+    "use_case": "Rep productivity",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Alex Richter",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 86
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Alex Richter at CrimsonFoundry expressing interest in improving sales team productivity. Initial inquiry focused on automation capabilities and how our platform compares to existing tools they're evaluating.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and our existing tech stack?",
+          "answer": "Yes, we have native Salesforce integration and support most major CRM and communication tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements in detail"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-18",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Alex to understand CrimsonFoundry's sales productivity challenges. Discussed current manual processes causing rep burnout and need for better forecasting visibility. Alex mentioned evaluating Clari but concerned about implementation complexity. Team of 8 sales reps needs automation for call logging and activity tracking.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest productivity bottlenecks your sales team faces today?",
+          "answer": "Reps spend 2-3 hours daily on manual CRM updates and reporting instead of selling"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for an 8-person team with standard integrations"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline?",
+          "answer": "End of quarter push - leadership wants better visibility before Q3"
+        }
+      ],
+      "objections": [
+        "We're looking at Clari as well - they seem more established in the market"
+      ],
+      "next_steps": [
+        "Alex to share current tech stack details",
+        "Schedule follow-up to dive deeper into use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-07-23",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call focusing on specific automation needs. Alex walked through current workflow pain points and confirmed rep productivity as primary use case. Discussed reporting requirements and data hygiene challenges. Budget conversation initiated - Alex indicated flexibility around $8K range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond automation, what other capabilities are must-haves versus nice-to-haves?",
+          "answer": "Must-have is Salesforce sync and email tracking, nice-to-have is advanced analytics"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which activities get auto-logged?",
+          "answer": "Yes, fully configurable by activity type and rules you define"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery call with technical details",
+        "Alex to identify if other stakeholders should join demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-07-29",
+      "type": "discovery_call",
+      "duration_minutes": 14,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on technical requirements and integration needs. Alex confirmed Salesforce as primary CRM and need for Gmail integration. Discussed 8-seat deployment and Rep productivity use case in detail. Alex still sole point of contact - no other stakeholders engaged yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else on the leadership team should be involved in evaluating this?",
+          "answer": "I'll need to get buy-in from our VP of Sales eventually, but want to vet the solution first"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your consulting package versus just the platform?",
+          "answer": "Consulting includes implementation support, workflow design, and ongoing optimization calls"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Alex to prepare specific workflow scenarios for demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-02",
+      "type": "technical_eval",
+      "duration_minutes": 28,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with detailed product walkthrough. Demonstrated automation workflows, Salesforce integration, and activity tracking features. Alex engaged positively with platform capabilities but asked several questions comparing features to Clari. Discussed consulting add-on for implementation support. Still no other CrimsonFoundry stakeholders on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI activity capture compare to Clari's approach?",
+          "answer": "We focus on lightweight automation versus Clari's heavier revenue operations platform"
+        },
+        {
+          "by": "rep",
+          "question": "What would successful implementation look like for your team in 90 days?",
+          "answer": "Reps spending less than 30 minutes daily on CRM updates and leadership having real-time pipeline visibility"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller seat count and expand?",
+          "answer": "Yes, though our pricing is optimized for 8+ seats which matches your team size"
+        }
+      ],
+      "objections": [
+        "Clari offers more advanced forecasting features that our VP might want down the road"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with automations plus consulting package",
+        "Alex to review internally and confirm seat count"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-09",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call presenting 8-seat automations plus consulting package at $6,700 ACV. Alex receptive to solution but flagged budget constraints - initial allocation was lower. Discussed ROI in terms of rep time saved. Still no executive sponsor engaged, which may impact approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting component if we handle implementation ourselves?",
+          "answer": "We can discuss platform-only pricing but consulting ensures faster time-to-value"
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process for a purchase like this?",
+          "answer": "I have discretionary budget up to a point, but this will need VP sign-off"
+        }
+      ],
+      "objections": [
+        "The price is higher than our initial budget - we were thinking closer to $5K"
+      ],
+      "next_steps": [
+        "Alex to discuss with VP of Sales",
+        "Prepare ROI analysis to support business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-15",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal discussion continued with focus on pricing concerns. Alex shared that VP is supportive but pushing back on cost. Discussed potential discount to get within budget constraints. Alex reiterated preference for our platform over Clari due to simplicity but needs pricing movement to close. Competitive pressure evident.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Clari came in at a lower price point - can you match or get close to their number?",
+          "answer": "We can work on pricing but want to ensure we're comparing equivalent packages"
+        },
+        {
+          "by": "rep",
+          "question": "If we can find a price that works, what's your timeline to get contracts signed?",
+          "answer": "Could move quickly - ideally by end of next week before quarter close"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare revised pricing with discount",
+        "Alex to get VP tentative commitment pending final numbers"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal including 21.9% discount to meet budget constraints. Email outlined adjusted pricing at $6,700 ACV for 8 seats with consulting included. Requested confirmation to proceed with contracting. Emphasized limited-time discount to drive urgency.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this pricing lock in for a multi-year deal if we want to extend?",
+          "answer": "Yes, we can include renewal pricing guarantee in the contract terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Alex to get final VP approval",
+        "Contracts team to prepare agreement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-08-27",
+      "type": "pricing_call",
+      "duration_minutes": 3,
+      "person_name": "Alex Richter",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing confirmation call. Alex confirmed VP approved the discounted pricing and ready to move forward with contracts. Discussed start date and implementation timeline. Quick close anticipated.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule implementation kickoff for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "deal_id": "DEAL-0608",
+  "company": {
+    "name": "NorthwindLabs",
+    "industry": "Professional Services",
+    "employee_count": 100,
+    "annual_revenue": 12332136,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4500.0,
+    "seats": 7,
+    "price_per_seat_monthly": 58.15,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 34.7,
+    "sales_cycle_days": 54,
+    "close_date": "2023-08-20",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ethan Park",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 29
+    },
+    {
+      "name": "Finn Desai",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 20
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-10",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold outreach to Ethan Park, Director of Sales at NorthwindLabs. Rep introduced pipeline visibility solution. Ethan expressed initial interest in improving call analytics and agreed to a qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently tracking sales calls and pipeline metrics?",
+          "answer": "We use spreadsheets mostly, it's pretty manual"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-27",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ethan to understand current state and pain points. NorthwindLabs has 7-person sales team struggling with manual call tracking. Ethan mentioned they're evaluating Fireflies but concerned about feature gaps. Team needs better pipeline visibility for client projects. Qualified for discovery.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for capturing call insights?",
+          "answer": "Sales reps manually log notes in our CRM, lots gets missed"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "Our VP wants better visibility into deal progress before Q2 planning"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fireflies?",
+          "answer": "We offer deeper sales analytics and custom workflow automations tailored to B2B sales cycles"
+        }
+      ],
+      "objections": [
+        "We've been looking at Fireflies since they're cheaper"
+      ],
+      "next_steps": [
+        "Send use case overview",
+        "Schedule discovery call with Ethan and one Account Manager"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pipeline visibility case study and ROI calculator. Ethan responded positively, confirmed discovery call timing and said he'd bring Finn from procurement to the next conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark before discovery?",
+          "answer": "Typically $600-800 per seat annually depending on package, happy to discuss in detail on the call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday with Ethan and Finn"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-14",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ethan Park and Finn Desai. Deep dive into NorthwindLabs' sales process, pain points around pipeline forecasting accuracy, and integration requirements with their existing CRM. Team of 7 needs call recording, AI summaries, and custom reporting. Ethan is champion, Finn focused on procurement process. No executive sponsor identified yet. Fireflies still in consideration but lacks consulting support they need.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current deal review process",
+          "answer": "Weekly pipeline calls, but data quality is inconsistent so forecasts are often wrong"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Accurate pipeline visibility and 20% less time on admin work for reps"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Just Ethan and I can move this forward, we have budget approval"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer implementation support or is it self-serve like Fireflies?",
+          "answer": "We include dedicated onboarding and ongoing consulting to customize workflows"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to stay under $5k"
+      ],
+      "next_steps": [
+        "Prepare demo focused on pipeline reporting",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-23",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ethan and Finn showcasing call recording, AI-generated summaries, pipeline dashboards, and CRM integration. Walked through automation workflows specific to their consulting sales process. Team engaged with questions about customization and data security. Ethan impressed by reporting capabilities vs Fireflies. Finn raised budget and timeline concerns. No executive stakeholder present.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI prompts for our industry?",
+          "answer": "Yes, we build custom templates as part of the consulting package"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "2-3 weeks for your team size with our guided onboarding"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and security policy?",
+          "answer": "SOC 2 compliant, data encrypted at rest and in transit, configurable retention periods"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your VP of Sales in the next conversation?",
+          "answer": "Not necessary right now, Ethan has the green light to move forward"
+        }
+      ],
+      "objections": [
+        "Price point is higher than Fireflies, need to justify the premium"
+      ],
+      "next_steps": [
+        "Send proposal with pricing options",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-27",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Ethan to discuss business case and get exec alignment. Ethan mentioned his VP is aware but delegated decision to him. Reviewed ROI projection and implementation timeline. Ethan pushing for fastest path to signature. Still single-threaded through Ethan, no direct executive engagement despite rep's attempts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has your VP reviewed the business case?",
+          "answer": "I briefed her, she trusts my judgment on sales tools"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer to get us under budget?",
+          "answer": "Let me work with my team on creative packaging options"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Need to close this by end of quarter, ideally next two weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present formal proposal with pricing tiers",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-04",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ethan and Finn. Presented three pricing tiers: automations-only ($3,500), automations plus consulting ($4,500), and enterprise ($6,200). Ethan gravitating toward middle tier but needs significant discount to hit budget. Finn focused on contract terms and quarterly payment option. Timeline pressure from buyer side.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "We can structure net-30 quarterly invoicing at a 5% premium"
+        },
+        {
+          "by": "rep",
+          "question": "Between automations-plus and enterprise, which aligns better with your roadmap?",
+          "answer": "Automations-plus covers our needs, enterprise features aren't critical yet"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price on the middle tier to get this done this week?",
+          "answer": "I can likely get approval for 30% off if we can close by Friday"
+        }
+      ],
+      "objections": [
+        "Fireflies quoted us $2,100 for the team, need you closer to that range"
+      ],
+      "next_steps": [
+        "Get approval for 30-35% discount",
+        "Send revised proposal by tomorrow"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-12",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Offered 34.7% discount bringing automations-plus package to $2,940 for 7 seats ($4,500 ACV with annual upfront payment). Ethan accepted pricing. Finn negotiating contract language around data ownership and cancellation terms. Both sides aligned on moving to signature pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get a 30-day out clause in year one?",
+          "answer": "We can do 60-day cancellation notice after first 90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "Who owns the data if we churn?",
+          "answer": "You retain all data, we provide export within 30 days of cancellation"
+        },
+        {
+          "by": "rep",
+          "question": "Can you get legal review completed by end of week?",
+          "answer": "Yes, I'll expedite internally to hit your quarter close"
+        }
+      ],
+      "objections": [
+        "Standard MSA has a 12-month lock-in, we need more flexibility"
+      ],
+      "next_steps": [
+        "Send redlined contract with agreed terms",
+        "Ethan to route for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Park",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with executed contract and onboarding next steps. Ethan confirmed internal approvals in progress, expects signature by end of week. Onboarding scheduled for first week of next month. Finn acknowledged receipt and timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Monitor for signed contract",
+        "Prepare onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 65,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

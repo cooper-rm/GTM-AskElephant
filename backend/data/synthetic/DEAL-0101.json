@@ -1,0 +1,315 @@
+{
+  "deal_id": "DEAL-0101",
+  "company": {
+    "name": "FluxSolutions",
+    "industry": "SaaS/Tech",
+    "employee_count": 60,
+    "annual_revenue": 7226208,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 60.02,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.6,
+    "sales_cycle_days": 47,
+    "close_date": "2025-07-21",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Derek Park",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Derek Park at FluxSolutions requesting demo. Mentioned current use of Gong but interested in exploring alternatives for better pipeline visibility across their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-05",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Derek. Discussed FluxSolutions' need for improved pipeline visibility and forecasting accuracy. Derek manages a team of 4 reps and is frustrated with Gong's reporting limitations. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at alternatives to Gong right now?",
+          "answer": "Our leadership needs better visibility into pipeline health and Gong's reports aren't giving us what we need for forecasting"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pipeline visibility feature compare to Gong's deal intelligence?",
+          "answer": "We focus specifically on pipeline metrics and stage progression with real-time alerts, whereas Gong is broader conversation intelligence"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study",
+        "Schedule discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study showing 40% improvement in forecast accuracy for similar-sized sales teams. Derek responded positively, confirming interest in deeper discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customers who switched from Gong specifically?",
+          "answer": "Yes, included a reference from a SaaS company with similar team size who made that transition"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-16",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute discovery call focusing on specific pain points. Derek described challenges with pipeline reviews taking too long and lack of early warning signals on at-risk deals. Discussed team size and current workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current pipeline review process",
+          "answer": "We do weekly reviews but spend most of the time digging into CRM data manually. Need something that surfaces insights automatically"
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented?",
+          "answer": "Typical onboarding is 1-2 weeks with your team size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Include product specialist"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-24",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "58-minute technical evaluation with Derek and two sales reps. Walked through pipeline visibility dashboard, automated risk scoring, and reporting features. Team engaged positively with unlimited automation tier. Derek asked detailed questions about implementation and integrations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Which CRM and communication tools are you currently using?",
+          "answer": "Salesforce for CRM, mix of Zoom and phone calls, Gmail for email"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the risk scoring work and can we customize the signals?",
+          "answer": "ML-based scoring on engagement patterns, stage velocity, and response times. Customizable thresholds for your team"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier vs standard?",
+          "answer": "Unlimited automated workflows, advanced integrations, and custom alert rules"
+        },
+        {
+          "by": "prospect",
+          "question": "Do we need to involve IT for the Salesforce integration?",
+          "answer": "No, it's an AppExchange package with OAuth setup, typically takes 30 minutes"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Derek to discuss internally with leadership",
+        "Prepare proposal for 4 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with pricing for 4 seats at $2,900 ACV with unlimited automation tier. Included implementation timeline and ROI calculator. Derek acknowledged receipt and mentioned needing to run it by his VP.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-11",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute meeting with Derek to review proposal. Derek expressed enthusiasm but mentioned the VP of Sales has limited bandwidth for new tool evaluations. Discussed value proposition and implementation support. No other executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a brief call with your VP to address any questions directly?",
+          "answer": "I can handle the internal discussion, they trust my judgment on tools for the team"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing for a longer commitment?",
+          "answer": "We can explore multi-year options. What term are you considering?"
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to adding more Gong seats"
+      ],
+      "next_steps": [
+        "Derek to present internally",
+        "Follow up on pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-13",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute pricing negotiation call. Derek indicated they're comparing against Gong's renewal pricing and need to see a clearer ROI to justify the switch. Discussed discount options and Derek pushed for pricing closer to $2,000 range to make internal approval easier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $2,000 for the first year?",
+          "answer": "I can discuss with leadership about a first-year discount to support the transition from Gong"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to finalize by end of quarter, about 3 weeks out"
+        }
+      ],
+      "objections": [
+        "Price point needs to be lower to justify switching from existing Gong contract"
+      ],
+      "next_steps": [
+        "Present revised pricing with discount",
+        "Confirm decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised pricing at $2,900 ACV (32.6% discount from list) to support their transition from Gong. Emphasized implementation support and first-year success commitment. Derek acknowledged and said he's working through internal approvals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation support include exactly?",
+          "answer": "Dedicated onboarding specialist, 4 training sessions, and 30-day check-ins to ensure adoption"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Derek to finalize internal approval",
+        "Follow up in 3 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

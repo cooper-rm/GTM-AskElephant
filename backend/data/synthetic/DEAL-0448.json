@@ -1,0 +1,331 @@
+{
+  "deal_id": "DEAL-0448",
+  "company": {
+    "name": "PlasmaCube",
+    "industry": "Healthcare IT",
+    "employee_count": 57,
+    "annual_revenue": 7265944,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 8,
+    "price_per_seat_monthly": 53.34,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.1,
+    "sales_cycle_days": 40,
+    "close_date": "2025-06-09",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ade Lima",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-13",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Ade Lima at PlasmaCube regarding CRM automation opportunities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Second cold email to Ade Lima highlighting CRM automation pain points in healthcare IT. Ade responded expressing interest in learning more about workflow automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of automation do you offer for customer success teams?",
+          "answer": "Our platform provides unlimited automation for CRM workflows including ticket routing, customer health scoring, and automated follow-ups."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call details. Ade confirmed availability and shared that their CS team is manually managing 200+ accounts without proper automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented?",
+          "answer": "Typical implementation is 2-3 weeks depending on your CRM setup and integration requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-07",
+      "type": "qualification_call",
+      "duration_minutes": 23,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute qualification call with Ade Lima. Discussed current manual workflows, team size (8 CS reps), and pain points around response time and account prioritization. Ade confirmed budget authority within CS but mentioned needing to keep leadership informed. No other stakeholders introduced yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can make this decision for our CS team. I'll keep our COO in the loop but she trusts my judgment on tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical pricing structure?",
+          "answer": "We price per seat with different tiers. For 8 seats with unlimited automation, we'd be looking at around $8-9K annually."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to make sure ROI is clear"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-13",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "35-minute technical evaluation with Ade. Walked through automation workflows, CRM integration (they use HubSpot), and specific use cases for their healthcare clients. Ade was engaged and asked detailed questions about HIPAA compliance and data security. Still only Ade on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this handle HIPAA compliance for our healthcare customers?",
+          "answer": "We're HIPAA compliant with BAAs available. All data is encrypted at rest and in transit with audit logging."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we automate escalation rules based on customer health scores?",
+          "answer": "Yes, that's one of our core features. You can set custom triggers and automated workflows based on any health score criteria."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your COO or engineering lead for the demo?",
+          "answer": "I don't think that's necessary yet. Let me see the full demo first and I can loop them in if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Send HIPAA compliance documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-21",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "38-minute product demo with Ade (rescheduled from earlier date). Demonstrated full platform including automation builder, reporting dashboards, and HubSpot integration. Ade was enthusiastic about features but mentioned timing concerns with Q2 budget freeze. No additional stakeholders joined.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What if we need to pause the subscription after a few months?",
+          "answer": "We offer annual contracts with quarterly payment options. Early termination would require 30-day notice and settlement of remaining term."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation actually take with HubSpot?",
+          "answer": "For HubSpot it's typically 1-2 weeks. We provide white-glove onboarding included in the package."
+        },
+        {
+          "by": "rep",
+          "question": "When does your Q2 budget freeze lift?",
+          "answer": "We might have some flexibility if I can show strong ROI. Let me see the proposal first."
+        }
+      ],
+      "objections": [
+        "Concerned about timing with Q2 budget constraints"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI projections",
+        "Include flexible payment terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-26",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute proposal review call with Ade. Presented $8,700 annual proposal for 8 seats with unlimited automation. Ade pushed back significantly on price, citing budget limitations and asked for aggressive discount to get it under $6K. Discussion focused heavily on pricing rather than value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on this price? We really can't go above $6K.",
+          "answer": "Let me talk to my manager about what we can do. That's a significant reduction from our standard pricing."
+        },
+        {
+          "by": "rep",
+          "question": "If we can work on pricing, when could you realistically sign?",
+          "answer": "If the price works, I could probably get this through by end of quarter."
+        }
+      ],
+      "objections": [
+        "Price is too high for current budget allocation",
+        "Need to stay under $6K to avoid additional approval layers"
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Revised proposal by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-01",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute negotiation call with Ade. Presented revised proposal at $5,200 (40% discount) to meet budget constraints. Ade appreciated the flexibility and agreed to move forward. Mentioned getting 'informal approval' from COO but seemed confident to proceed. No formal executive review discussed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing is locked for the first year, correct?",
+          "answer": "Yes, this is your locked annual rate. Renewals typically see 3-5% increase."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a brief call with your COO to align on implementation timeline?",
+          "answer": "Not necessary, she's swamped. I've got the green light to move forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for DocuSign",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-11",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Ade Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute final negotiation call covering contract terms, payment schedule, and implementation timeline. Ade requested quarterly payments instead of annual upfront. Discussed onboarding timeline starting mid-next month. Contract sent for signature with quarterly payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of paying annually upfront?",
+          "answer": "Yes, we can structure it as quarterly payments of $1,300."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-year?",
+          "answer": "We can add seats anytime with pro-rated pricing for the remainder of the term."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns or blockers before you sign?",
+          "answer": "No, I'm good to sign. Just need to finalize the quarterly payment terms in the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sign contract",
+        "Begin implementation Week 1 of next month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

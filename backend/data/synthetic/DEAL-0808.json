@@ -1,0 +1,168 @@
+{
+  "deal_id": "DEAL-0808",
+  "company": {
+    "name": "DeltaGear",
+    "industry": "SaaS/Tech",
+    "employee_count": 46,
+    "annual_revenue": 4457985,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2400.0,
+    "seats": 3,
+    "price_per_seat_monthly": 71.51,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.6,
+    "sales_cycle_days": 18,
+    "close_date": "2025-06-29",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Lisa Byrne",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lisa Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Lisa Byrne submitted an inbound demo request via the website. She mentioned needing a solution for onboarding automation and is currently evaluating Chorus. Brief automated acknowledgment sent.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Lisa confirming her interest in onboarding automation. Lisa responded quickly, confirming availability for a technical evaluation call and expressing urgency to find a solution before Q2 ends.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk through how your platform handles automated onboarding workflows compared to what we're seeing with Chorus?",
+          "answer": "Absolutely, we'll cover that in detail on our eval call. Our workflow engine is specifically built for sales onboarding vs. conversation intelligence."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirmed technical eval call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-20",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Lisa Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute technical evaluation call with Lisa. She walked through their current onboarding process and pain points with manual handoffs. Demonstrated our workflow automation features and unlimited automation tier. Lisa seemed engaged but mentioned she's the primary driver on this internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the unlimited automation plan scale if we add more seats down the line?",
+          "answer": "Pricing scales linearly with seats, but automation limits stay unlimited regardless of team size."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 3 seats with standard onboarding workflows, typically 2-3 weeks including training."
+        },
+        {
+          "by": "rep",
+          "question": "Who else on your team should be involved in evaluating this decision?",
+          "answer": "Honestly, I'm driving this. Our VP is swamped with the product launch, so she's trusting me to vet solutions."
+        }
+      ],
+      "objections": [
+        "We're also looking at Chorus, and they've been pretty responsive on pricing."
+      ],
+      "next_steps": [
+        "Lisa to review internally",
+        "Schedule exec meeting to discuss pricing and implementation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-27",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Lisa Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute exec meeting with Lisa to finalize terms. Lisa brought pricing questions and asked about discount options given their company size. She confirmed budget is approved on her end but mentioned Chorus offered a lower entry point. Discussed 3-seat unlimited automation package at $2,400 ACV. Lisa seemed cautious about commitment timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual commitment? Chorus offered us a quarterly option.",
+          "answer": "Our standard contracts are annual, but we can discuss payment terms. The value really compounds over a full year."
+        },
+        {
+          "by": "prospect",
+          "question": "What does onboarding support look like, and is that included?",
+          "answer": "Yes, full onboarding and training are included. You'll have a dedicated CSM for the first 60 days."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring your VP into a quick call to align on strategic fit?",
+          "answer": "I don't think that's necessary right now\u2014she's trusting my recommendation. Let me review the contract and get back to you."
+        }
+      ],
+      "objections": [
+        "The pricing is a bit higher than what Chorus quoted us, especially without a quarterly option."
+      ],
+      "next_steps": [
+        "Send contract for Lisa's review",
+        "Lisa to confirm final approval by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

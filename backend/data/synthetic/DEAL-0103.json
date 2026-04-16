@@ -1,0 +1,248 @@
+{
+  "deal_id": "DEAL-0103",
+  "company": {
+    "name": "CrimsonCo",
+    "industry": "Professional Services",
+    "employee_count": 88,
+    "annual_revenue": 12669814,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 70.57,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.7,
+    "sales_cycle_days": 33,
+    "close_date": "2023-09-21",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Rosa Young",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Rosa Young, Director of CS at CrimsonCo. Expressed interest in improving rep productivity and mentioned currently evaluating alternatives to their existing setup. Brief initial touchpoint to schedule discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have time this week to discuss how your platform handles conversation intelligence for CS teams?",
+          "answer": "Yes, I can do Thursday afternoon or Friday morning for a discovery call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for later this week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for Thursday. Rosa confirmed her team is looking to improve coaching workflows and asked if we could focus on automation capabilities during the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we make sure to cover your automation features during the discovery call?",
+          "answer": "Absolutely, we'll walk through the unlimited automation tier and how it applies to your use case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-28",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute discovery call with Rosa. She leads a CS team of 8 reps at CrimsonCo (88 employees, professional services). Main pain point is lack of visibility into rep-customer conversations and time spent on manual call review. Currently trialing Gong but finding it expensive and not CS-focused. Rosa emphasized need for automation and ease of use. Expressed interest in seeing a demo focused on CS workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at conversation intelligence tools right now?",
+          "answer": "Our CS team is scaling and I'm losing visibility into how reps are handling renewals and upsells. I need a better coaching mechanism."
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned you're looking at Gong\u2014what's working and what's not?",
+          "answer": "Gong has great features but it's really expensive for our team size and feels built for sales, not CS. We need something more tailored."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing tools like Zendesk and Salesforce?",
+          "answer": "Yes, we have native integrations with both and can sync conversation data directly into your CRM"
+        }
+      ],
+      "objections": [
+        "Concerned about budget\u2014mentioned Gong pricing is a barrier"
+      ],
+      "next_steps": [
+        "Schedule demo for next week focused on CS use cases",
+        "Send pricing overview for 8 seats with automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-05",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "50-minute demo (rescheduled once). Walked through platform with focus on CS-specific workflows: call recording, sentiment analysis, automated coaching recommendations, and CRM sync. Rosa engaged heavily with automation features and asked about reporting for her leadership. Mentioned she'd need to bring this to her VP eventually but wanted to understand the solution first. Positive response to pricing structure, though noted it's tight against budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can I customize the automation rules for different types of calls\u2014renewals vs. upsells vs. support?",
+          "answer": "Yes, the unlimited automation tier lets you build custom triggers and workflows for any call type or outcome"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting can I pull for my VP to show ROI?",
+          "answer": "We provide executive dashboards showing call volume, sentiment trends, coaching impact, and rep performance over time"
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to have a solution in place?",
+          "answer": "Ideally by end of quarter, but I need to get buy-in from leadership first"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in this decision?",
+          "answer": "My VP of Customer Success will need to approve, and potentially our CTO for security review"
+        }
+      ],
+      "objections": [
+        "Budget is tight\u2014asked if there's flexibility on pricing"
+      ],
+      "next_steps": [
+        "Rosa to review demo recording with her team",
+        "Schedule follow-up to discuss bringing in VP of CS",
+        "Send security documentation for CTO review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-12",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute meeting with Rosa to discuss moving forward. She confirmed her team is aligned and wants to proceed, but mentioned she hasn't been able to get time with her VP yet due to scheduling conflicts. Discussed contract terms and asked for a discount to fit within her budget. Agreed to 20% discount to close before end of quarter. Rosa committed to getting VP approval within the next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If I can get this approved, what's the onboarding timeline?",
+          "answer": "We can have you live within 2 weeks of contract signature\u2014setup is very quick"
+        },
+        {
+          "by": "rep",
+          "question": "What's the best way to get time with your VP to finalize approval?",
+          "answer": "I'll push for a meeting next week\u2014she's been swamped but this is a priority for Q2"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you get us closer to $5,500 ACV? That would make the internal approval much easier.",
+          "answer": "I can do 20% off which brings us to around $6,500\u2014that's the best I can do for the unlimited automation tier"
+        }
+      ],
+      "objections": [
+        "Requested deeper discount to ease budget approval"
+      ],
+      "next_steps": [
+        "Rosa to schedule meeting with VP of CS by next Friday",
+        "Send proposal with 20% discount",
+        "Follow up mid-week on VP meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rosa Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to check on VP meeting status. Rosa responded that her VP is still reviewing but appreciates the discount. She's optimistic about getting approval by end of week and will follow up once she has confirmation. Asked to extend proposal expiration date by a few days to align with VP's schedule.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you extend the proposal expiration to Friday to give us a bit more time?",
+          "answer": "Yes, I've extended it to Friday EOD\u2014let me know if you need anything else to help get this across the line"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rosa to confirm VP decision by Friday",
+        "Proposal extended to Friday EOD"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 65,
+    "churn_reason": "lost internal champion"
+  }
+}

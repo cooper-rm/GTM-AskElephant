@@ -1,0 +1,365 @@
+{
+  "deal_id": "DEAL-0197",
+  "company": {
+    "name": "PrimeInsights",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 100,
+    "annual_revenue": 15054922,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2400.0,
+    "seats": 3,
+    "price_per_seat_monthly": 65.74,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.1,
+    "sales_cycle_days": 32,
+    "close_date": "2024-09-16",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Wyatt Johnson",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Wyatt Johnson, Head of RevOps at PrimeInsights. Expressed interest in improving sales-to-CS handoff process. Currently evaluating alternatives including Gong. Initial contact made, qualification call scheduled.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-15",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Wyatt. PrimeInsights is a 100-person managed IT/cybersecurity firm experiencing handoff gaps between sales and customer success. Wyatt recently joined as Head of RevOps and is tasked with streamlining operations. Looking at 3 seats initially. Currently exploring Gong as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to improve your sales-to-CS handoff right now?",
+          "answer": "We've had several escalations from new customers who felt blindsided during onboarding. Sales promises aren't making it to the CS team, and I've been brought in to fix it."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently managing handoffs?",
+          "answer": "Mostly manual notes in Salesforce and a weekly sync meeting. It's not scalable and things fall through the cracks."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "We focus specifically on the handoff automation workflow, while Gong is more conversation intelligence-focused. We can integrate with tools like Gong if you're already using them."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up to discuss technical requirements",
+        "Send competitive comparison doc (us vs Gong)"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-19",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to dive deeper into technical requirements. Wyatt confirmed they use Salesforce and Intercom. Discussed integration capabilities and automation workflows. He's the primary evaluator but mentioned needing to loop in stakeholders later. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the decision-making process?",
+          "answer": "Right now it's mostly me doing the evaluation. I'll probably need to get buy-in from our VP of Sales and maybe the CFO for budget approval, but I want to narrow down options first."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally we'd like something in place within 6-8 weeks. I'm meeting with the exec team in about a month to present options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map out workflow requirements",
+        "Prepare use case examples for managed IT companies"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-25",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call covering PrimeInsights' current workflow, pain points, and success metrics. Wyatt walked through their sales process and handoff bottlenecks. Strong interest in unlimited automation tier. Discussed ROI and efficiency gains. Still single-threaded through Wyatt with no exec involvement mentioned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this project in 6 months?",
+          "answer": "Zero handoff escalations, CS team has full context on every new customer within 24 hours of close, and our sales team spends less time on internal admin."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current budget allocated for this type of solution?",
+          "answer": "We haven't finalized budget yet, but I'm thinking somewhere in the $2-3K annual range for a pilot with the 3 seats. If it works we'd expand."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Gong setup if we decide to keep both?",
+          "answer": "Yes, we have native integrations with Gong and can pull conversation insights directly into handoff workflows."
+        },
+        {
+          "by": "rep",
+          "question": "Have you used similar tools in previous roles?",
+          "answer": "Not exactly this, but I implemented automation tools at my last company. I've only been at PrimeInsights for about 3 months, so I'm still learning the landscape here."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add complexity for the sales team\u2014they're already stretched thin."
+      ],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Send ROI calculator and case study",
+        "Prepare demo focused on automation workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming demo scheduled and providing prep materials. Shared case study from similar-sized MSP company and ROI calculator. Wyatt confirmed receipt and expressed continued interest. Brief exchange, no new concerns raised.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the demo cover the Salesforce integration setup?",
+          "answer": "Yes, we'll walk through the full Salesforce integration and show how data flows from close to CS handoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Prepare personalized demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-02",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo conducted with Wyatt. Walked through handoff automation workflows, Salesforce/Intercom integrations, and unlimited automation tier features. Wyatt engaged positively, asked detailed questions about setup and rollout. Expressed preference for our solution over Gong for this specific use case. Still no mention of executive review or additional stakeholders joining evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a company our size?",
+          "answer": "Usually 2-3 weeks from contract signature to full rollout, including integrations and team training."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of ongoing support do we get with the unlimited automation plan?",
+          "answer": "You get a dedicated CSM, priority support, and quarterly business reviews. We also include custom automation consulting as needed."
+        },
+        {
+          "by": "rep",
+          "question": "How are you feeling about what you've seen compared to Gong?",
+          "answer": "Honestly, I think your platform is better suited for what we need. Gong feels like overkill, and you're more focused on the handoff problem we're trying to solve."
+        }
+      ],
+      "objections": [
+        "I need to understand pricing better\u2014want to make sure we're getting the right tier without overpaying."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule proposal review call",
+        "Provide implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-06",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call. Presented three pricing tiers, Wyatt focused on unlimited automation at $3,250 ACV list price for 3 seats. Discussed contract terms and implementation timeline. Wyatt mentioned budget constraints and asked about flexibility. No executive sponsor or additional decision-makers on call. Conversation shifted toward pricing negotiation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the unlimited automation pricing? Our budget is tight.",
+          "answer": "Let me talk to my manager about what we can do. What's your target budget?"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats in 6 months?",
+          "answer": "We can add seats mid-contract at the prorated rate, and you'd get the same discount structure that's in your original agreement."
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to have this finalized by?",
+          "answer": "Ideally within the next 2-3 weeks. I want to get this implemented before our busy season kicks in."
+        }
+      ],
+      "objections": [
+        "The list price is above our allocated budget\u2014we'd need to come in closer to $2,400 to make this work."
+      ],
+      "next_steps": [
+        "Discuss discount approval internally",
+        "Schedule pricing call to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-11",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Discussed discount options to meet Wyatt's $2,400 budget target. Offered 26% discount to close the gap. Wyatt receptive but wanted to confirm internally before committing. Conversation focused heavily on price rather than value or stakeholder alignment. No mention of exec review or legal/procurement involvement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can meet the $2,400 price point, are you ready to move forward?",
+          "answer": "I'd need to confirm with finance, but yes, I think so. I'm confident this is the right solution."
+        },
+        {
+          "by": "prospect",
+          "question": "Does the discount apply if we expand seats later?",
+          "answer": "Yes, the 26% discount would carry through to any additional seats added during the contract term."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need to run this by your VP of Sales or CFO before signing?",
+          "answer": "I have approval authority up to $5K, so I should be good to sign once we finalize terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal at $2,400",
+        "Confirm contract terms and start date",
+        "Schedule final negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-16",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Wyatt Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to confirm terms. Wyatt confirmed $2,400 ACV pricing works and is ready to proceed. Discussed contract start date and implementation kickoff. Wyatt committed to signing by end of week. Deal appears to be closing, though risk signals remain: single-threaded through new hire, no exec validation, significant discount to close. Positive momentum but structural concerns about deal health.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders who need to review the contract before you sign?",
+          "answer": "No, I've got this. I'll loop in the team once we're signed and ready to implement."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once the contract is signed?",
+          "answer": "We can kick off within 3-5 business days. I'll introduce you to your implementation manager and CSM right after signature."
+        },
+        {
+          "by": "rep",
+          "question": "What's your plan for rolling this out to the sales and CS teams?",
+          "answer": "I'll announce it in our next all-hands and work with your team on training. Should be straightforward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff",
+        "Introduce CSM and implementation team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

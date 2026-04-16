@@ -1,0 +1,330 @@
+{
+  "deal_id": "DEAL-0066",
+  "company": {
+    "name": "ClearCloud",
+    "industry": "Professional Services",
+    "employee_count": 58,
+    "annual_revenue": 8333619,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2700.0,
+    "seats": 4,
+    "price_per_seat_monthly": 53.09,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.3,
+    "sales_cycle_days": 50,
+    "close_date": "2024-12-01",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Benjamin Rodriguez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Benjamin Rodriguez at ClearCloud inquiring about CRM automation capabilities. Brief initial contact captured via form submission.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-12",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Benjamin Rodriguez to understand ClearCloud's current CRM automation needs. Benjamin mentioned they're a 58-person professional services firm looking to streamline sales workflows. Currently evaluating Fireflies as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for CRM automation right now?",
+          "answer": "Our sales team is spending too much time on manual data entry after calls and emails. We need something that integrates seamlessly with our existing stack."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for teams our size?",
+          "answer": "We offer flexible per-seat pricing with unlimited automation. I'll share detailed pricing after we understand your specific requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow-up qualification call to dive deeper into technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-20",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up qualification call to clarify integration requirements and team size. Benjamin confirmed they need 4 seats initially with potential to expand.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Which CRM platform are you currently using?",
+          "answer": "Salesforce. Integration is critical for us."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map out workflows and use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-28",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on ClearCloud's specific workflows and pain points. Benjamin walked through their current manual process for logging customer interactions and expressed frustration with time lost. Discussed how unlimited automation tier could support their scaling plans.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can you walk me through your typical sales call workflow from start to finish?",
+          "answer": "Currently our reps take notes during calls, then spend 10-15 minutes afterward updating Salesforce fields, logging next steps, and sending follow-up emails. It's killing productivity."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation compare to what Fireflies offers?",
+          "answer": "Our platform goes beyond just transcription\u2014we offer intelligent field mapping, automated task creation, and deeper CRM integration. Happy to show you in a demo."
+        },
+        {
+          "by": "rep",
+          "question": "Who else on your team should be involved in evaluating this?",
+          "answer": "I'm heading up this evaluation, but I'll need to get buy-in from our VP of Sales eventually."
+        }
+      ],
+      "objections": [
+        "Need to understand how this compares feature-for-feature with Fireflies"
+      ],
+      "next_steps": [
+        "Schedule comprehensive demo for Benjamin",
+        "Prepare competitive comparison sheet"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-02",
+      "type": "demo",
+      "duration_minutes": 56,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive product demo showcasing CRM automation features, Salesforce integration, and unlimited automation capabilities. Benjamin was engaged throughout and asked detailed technical questions. Demonstrated key differentiators versus Fireflies including advanced workflow automation and AI-powered field mapping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get auto-populated in Salesforce?",
+          "answer": "Absolutely. You have full control over field mapping and can set up custom rules based on call content."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the setup time for a team our size?",
+          "answer": "Typically 1-2 weeks including integration, field mapping, and team training."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place within the next 4-6 weeks. Need to move quickly as Q2 ramps up."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats down the line?",
+          "answer": "We can discuss flexible terms. Let me put together a proposal for 4 seats with your growth path in mind."
+        }
+      ],
+      "objections": [
+        "Timeline is tight and we need to see pricing before involving exec leadership"
+      ],
+      "next_steps": [
+        "Benjamin to schedule meeting with VP of Sales",
+        "Send proposal with pricing for 4 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-09",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive alignment meeting scheduled with VP of Sales was rescheduled. Benjamin attended solo and provided context on internal priorities. Mentioned budget constraints and need for competitive pricing to get VP approval. Meeting was shorter than planned due to rescheduling conflicts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is your VP of Sales still planning to join the evaluation process?",
+          "answer": "Yes, but their schedule has been crazy. I'm gathering information to present to them internally first."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for 4 seats on the unlimited automation tier?",
+          "answer": "Let me work with my team on a competitive package. What budget range are you working with?"
+        }
+      ],
+      "objections": [
+        "Fireflies has come in with aggressive pricing and we need to be in the same ballpark"
+      ],
+      "next_steps": [
+        "Prepare competitive pricing proposal",
+        "Attempt to reschedule with VP of Sales"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Benjamin recapping the previous discussion and outlining next steps. Emphasized value proposition versus Fireflies and requested introduction to VP of Sales to ensure alignment on requirements and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to schedule a brief call with your VP to address any concerns directly?",
+          "answer": "Let me get back to you after I brief them on what we've discussed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Benjamin's response on VP availability",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-23",
+      "type": "pricing_call",
+      "duration_minutes": 33,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and negotiation call with Benjamin. Discussed proposal for 4 seats at $2,700 ACV representing a 40% discount to match competitive pressure from Fireflies. Benjamin expressed appreciation for flexibility but needs to validate internally before committing. No VP of Sales participation confirmed yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm this pricing is locked in for our first year?",
+          "answer": "Yes, we'll guarantee this rate for your first 12 months."
+        },
+        {
+          "by": "rep",
+          "question": "What's the process internally to get final approval?",
+          "answer": "I need to present to our VP of Sales and get their sign-off. Shouldn't be an issue if the pricing works."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the onboarding and support?",
+          "answer": "Full implementation support, custom field mapping, team training, and dedicated customer success manager."
+        }
+      ],
+      "objections": [
+        "The discount helps but I still need to make sure we're getting equivalent or better value than the Fireflies offer"
+      ],
+      "next_steps": [
+        "Send formal proposal with discounted pricing",
+        "Benjamin to present internally",
+        "Target close date in 1-2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Benjamin Rodriguez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal attached including discounted pricing at $2,700 ACV for 4 seats. Reiterated key differentiators versus Fireflies and requested confirmation on internal timeline. Offered to address any final questions from VP of Sales directly.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await internal decision",
+        "Remain available for questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 66,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

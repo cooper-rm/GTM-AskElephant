@@ -1,0 +1,310 @@
+{
+  "deal_id": "DEAL-0938",
+  "company": {
+    "name": "CedarForge",
+    "industry": "Vertical SaaS",
+    "employee_count": 282,
+    "annual_revenue": 51051362,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8000,
+    "seats": 10,
+    "price_per_seat_monthly": 58.27,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 34.5,
+    "sales_cycle_days": 40,
+    "close_date": "2023-10-10",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Wyatt Lima",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Wyatt Lima expressing interest in exploring solutions to improve rep productivity. Brief form submission indicating current challenges with manual call logging and limited visibility into team performance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current workflows and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-31",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Wyatt Lima. Discussed current RevOps setup at CedarForge and challenges with sales team efficiency. Wyatt mentioned evaluating Gong as well. Covered team size (10 reps) and current tech stack limitations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're scaling the sales team and need better visibility before we hire more reps"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your conversation intelligence compare to Gong?",
+          "answer": "We focus more on automations and workflow integration, while Gong is primarily analytics-focused"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case examples for vertical SaaS companies",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-04",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call diving into specific pain points around rep productivity. Wyatt shared details about manual processes causing 2-3 hours/week per rep. Discussed integration requirements with their CRM and calendar systems.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce setup?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating tools like this?",
+          "answer": "I'm leading this evaluation. I'll bring in our VP Sales closer to decision time"
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add complexity to our reps' workflows"
+      ],
+      "next_steps": [
+        "Share integration documentation",
+        "Move to demo phase"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 12.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study from similar vertical SaaS company that improved rep productivity by 40%. Included technical integration details and pricing tiers overview.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks including integrations and team training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 10.9,
+      "rescheduled": false,
+      "ai_summary": "Email following successful demo. Wyatt expressed strong interest in the automations plus consulting package. Requested pricing details for 10 seats and asked about discount structures for annual commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer for annual prepay?",
+          "answer": "We can discuss volume and commitment discounts on our proposal call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom proposal for 10 seats with consulting package",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-22",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call. Walked through custom pricing at $8,000 ACV for 10 seats with automations plus consulting. Wyatt focused heavily on discount percentage and compared pricing to Gong's offer. Did not mention involving VP Sales yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Gong offered us 40% off list - can you match that?",
+          "answer": "Let me see what I can do. Our consulting package adds significant value beyond what Gong offers"
+        },
+        {
+          "by": "rep",
+          "question": "When would you need this implemented by?",
+          "answer": "Ideally before end of Q2 when our new reps start"
+        }
+      ],
+      "objections": [
+        "Pricing needs to be more competitive with Gong's offer"
+      ],
+      "next_steps": [
+        "Review discount options with leadership",
+        "Schedule follow-up to finalize proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-29",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled proposal review call was rescheduled by Wyatt last minute due to conflicting priorities. Brief exchange confirming continued interest but timeline pressure increasing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-03",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on finalizing commercial terms. Offered 34.5% discount to match competitiveness. Wyatt concerned about getting internal approval without VP Sales involvement yet but committed to championing the deal.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we schedule a call with your VP Sales to align on the business case?",
+          "answer": "I can handle the internal sell - just need the best pricing you can offer"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a shorter commitment term?",
+          "answer": "The discount is based on annual commitment, but we can discuss quarterly payment options"
+        }
+      ],
+      "objections": [
+        "Need to stay within budget allocated for this initiative",
+        "Concerned about exec approval process"
+      ],
+      "next_steps": [
+        "Send revised proposal with 34.5% discount",
+        "Wyatt to socialize internally"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-11",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation call to finalize terms. Wyatt confirmed discount works within budget but mentioned needing a few more days to get final sign-off. Still no executive sponsor directly engaged. Discussed implementation timeline and success metrics for the consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the productivity improvements in the first quarter?",
+          "answer": "Our consulting package includes success reviews and optimization - we'll work with you to ensure ROI"
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process looking like?",
+          "answer": "I need to get final sign-off from finance and our VP Sales - should have an answer by end of week"
+        }
+      ],
+      "objections": [
+        "Want to ensure we have flexibility if adoption is slower than expected"
+      ],
+      "next_steps": [
+        "Wyatt to present business case to VP Sales and finance",
+        "Follow up Friday for decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

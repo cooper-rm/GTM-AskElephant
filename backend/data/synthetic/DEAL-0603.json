@@ -1,0 +1,345 @@
+{
+  "deal_id": "DEAL-0603",
+  "company": {
+    "name": "LunarHealth",
+    "industry": "Fintech",
+    "employee_count": 57,
+    "annual_revenue": 6278254,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 4,
+    "price_per_seat_monthly": 67.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.3,
+    "sales_cycle_days": 49,
+    "close_date": "2025-10-13",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Evelyn Santos",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 14
+    },
+    {
+      "name": "Peyton Richter",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 8
+    },
+    {
+      "name": "Harper Zhou",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 7
+    },
+    {
+      "name": "Michael Phillips",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    },
+    {
+      "name": "Javier Miller",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Evelyn Santos expressing interest in automation tools for their sales onboarding process. She mentioned they're currently evaluating options including Gong and wants to learn more about our platform's capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform handle automated onboarding workflows for new sales reps?",
+          "answer": "Yes, our unlimited automation tier is specifically designed for complex onboarding sequences and can integrate with your existing tech stack."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current workflow",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and proposed meeting times. Evelyn responded confirming availability for qualification call and shared that their current manual onboarding takes 3-4 weeks per rep.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most SMB customers are live within 2-3 weeks with our onboarding support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-31",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Evelyn. She outlined their pain points with manual onboarding consuming sales manager time and inconsistent ramp speeds. LunarHealth has 57 employees with a lean sales team of 8. They're looking to scale to 12-15 reps by Q3. Budget authority sits with COO Peyton Richter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're planning to hire 4-7 new reps in Q2 and our current process won't scale without pulling managers off revenue activities."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for a team our size?",
+          "answer": "Our unlimited automation tier at $850/seat annually is positioned for workflow automation, while Gong focuses more on conversation intelligence. I can provide a detailed comparison on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with use case walkthrough",
+        "Evelyn to share current onboarding playbook",
+        "Introduce other stakeholders in discovery phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-06",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute discovery call diving into their onboarding workflow. Evelyn walked through their current 22-step manual process involving 3 different tools. She mentioned Peyton (COO) is the exec sponsor and will need to approve final pricing. Harper Zhou from implementation and Michael Phillips (Sales Manager) will be primary end users. Javier Miller (IT Director) will need to review technical integration.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What systems would we need to integrate with?",
+          "answer": "Primarily Salesforce, Slack, and our LMS platform. Javier can provide API access details."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation sequences for different rep roles?",
+          "answer": "Yes, the platform supports role-based workflows with conditional logic."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the Gong integration story look like if we're using both?",
+          "answer": "We have native integrations with Gong for pulling conversation data into automation triggers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Javier",
+        "Send ROI calculator based on time savings",
+        "Evelyn to loop in Peyton for proposal stage"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-16",
+      "type": "technical_eval",
+      "duration_minutes": 67,
+      "person_name": "Javier Miller",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "67-minute technical deep-dive with Javier Miller covering security, data architecture, API capabilities, and integration requirements. He validated our SOC2 compliance and reviewed our Salesforce connector in detail. Javier confirmed technical fit but noted they have budget constraints that may require a phased rollout. He mentioned Gong is already approved vendor and asked about competitive positioning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we configure it?",
+          "answer": "Default is 2 years with configurable retention windows from 6 months to unlimited on enterprise plans."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle SSO and user provisioning?",
+          "answer": "We support SAML 2.0 and SCIM for automated provisioning through Okta, Azure AD, and Google Workspace."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the integration complexity?",
+          "answer": "No major concerns, but we'll need to coordinate the Salesforce field mappings carefully given our custom objects."
+        },
+        {
+          "by": "prospect",
+          "question": "If we're already investing in Gong, what's the incremental value here versus building workflows in their platform?",
+          "answer": "Gong's automation is conversation-centric, whereas our platform handles end-to-end onboarding workflows including non-call activities like content assignments, role-plays, and certification tracking."
+        }
+      ],
+      "objections": [
+        "Concerned about budget allocation given recent Gong commitment"
+      ],
+      "next_steps": [
+        "Javier to share integration requirements doc",
+        "Technical stamp of approval pending budget discussion",
+        "Move to proposal with Evelyn and Peyton"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Evelyn with formal proposal for 4 seats at $3,400 ACV ($850/seat). Included ROI analysis showing 120 hours/quarter saved in manager time. Evelyn responded that Peyton is reviewing but flagged that the pricing is higher than anticipated given their Gong investment. She asked if there's flexibility on the per-seat cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to adjust pricing for a smaller initial commitment?",
+          "answer": "Let me discuss with leadership and get back to you with options for a multi-year or larger seat commitment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal pricing review",
+        "Schedule call with Peyton to discuss budget constraints"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing revised pricing options including 4-seat at $2,574 ACV (24.3% discount) for annual prepay commitment. Also presented 6-seat option at standard pricing to demonstrate scalability value. Evelyn acknowledged receipt and said she's aligning with Peyton this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting Peyton's feedback on revised pricing",
+        "Pricing call scheduled for Thursday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-05",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute pricing call with Evelyn to discuss discount proposal. She appreciated the flexibility and confirmed the 4-seat discounted option fits their Q2 budget. However, she raised concerns about contract length and asked about quarterly payment terms instead of annual prepay. Also questioned ongoing support costs and what happens if they need to reduce seats mid-contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual prepay?",
+          "answer": "The discount is structured for annual prepay, but I can explore quarterly billing at a slightly adjusted rate."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in support and are there additional costs?",
+          "answer": "Standard support and implementation are included. Premium support with dedicated CSM is available as an add-on."
+        }
+      ],
+      "objections": [
+        "Concerned about annual prepayment commitment given current cash flow planning"
+      ],
+      "next_steps": [
+        "Review quarterly payment option internally",
+        "Send final contract terms with payment flexibility",
+        "Target signature by end of next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with adjusted proposal allowing quarterly payments at $2,703 ACV (20.5% discount) for 4 seats to accommodate cash flow preferences. Included standard contract terms with annual commitment but quarterly billing. Evelyn confirmed she's reviewing with Peyton and will have answer by Friday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting final decision from Peyton",
+        "Contract ready for signature pending approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

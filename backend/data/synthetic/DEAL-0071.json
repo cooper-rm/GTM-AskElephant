@@ -1,0 +1,335 @@
+{
+  "deal_id": "DEAL-0071",
+  "company": {
+    "name": "VertexGrid",
+    "industry": "SaaS/Tech",
+    "employee_count": 996,
+    "annual_revenue": 178998174,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19000.0,
+    "seats": 25,
+    "price_per_seat_monthly": 60.43,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.1,
+    "sales_cycle_days": 54,
+    "close_date": "2025-10-08",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Jessica Weber",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 35
+    },
+    {
+      "name": "Asher Fischer",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 24
+    },
+    {
+      "name": "Benjamin Mensah",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 31
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-13",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Jessica Weber submitted an inbound request via website form expressing interest in automation tools for onboarding workflows. Brief initial qualification notes captured company size and use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule intro call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Jessica with discovery questions about current onboarding process, pain points, and timeline. Jessica responded confirming interest and sharing that they're evaluating multiple vendors including Clari.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a new onboarding solution right now?",
+          "answer": "Our current manual process can't scale with our growth plans. We're adding 40+ sales reps in Q2 and need automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share initial discovery deck",
+        "Loop in technical stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 16.4,
+      "rescheduled": false,
+      "ai_summary": "Discovery email exchange with Jessica covering current tech stack, integration requirements, and decision-making process. Jessica mentioned Asher Fischer (SVP Revenue) would need to approve any deal over $15k.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and our existing LMS?",
+          "answer": "Yes, we have native Salesforce integration and REST API for LMS connectivity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo environment",
+        "Schedule product demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent to Jessica with agenda and demo environment access. Jessica confirmed demo time and requested that Benjamin Mensah (IT Director) join to evaluate technical requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct product demo",
+        "Prepare technical deep-dive materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-07",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "45-minute product demo with Jessica and Benjamin covering onboarding automation workflows, unlimited automation tier features, and integration architecture. Strong engagement on workflow customization. Jessica mentioned Clari is pricing aggressively but team prefers our UI.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize automation triggers based on rep performance metrics?",
+          "answer": "Absolutely, the unlimited tier includes custom trigger logic and conditional workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like for a 25-seat deployment?",
+          "answer": "Usually 3-4 weeks with our implementation team, including data migration and workflow configuration."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond Jessica and Benjamin, who else needs to be involved in the decision?",
+          "answer": "Asher Fischer will make the final call. He's very focused on ROI and vendor stability."
+        }
+      ],
+      "objections": [
+        "We need to see concrete ROI projections before moving forward"
+      ],
+      "next_steps": [
+        "Build custom ROI model",
+        "Schedule exec meeting with Asher",
+        "Send proposal draft"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-15",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Asher Fischer",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute executive alignment call with Asher Fischer and Jessica Weber. Presented ROI analysis showing 6-month payback on $19k investment. Asher engaged positively but pushed back on pricing, noting Clari quoted $13k for similar seat count. Discussed strategic value beyond cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What differentiates your platform from Clari given their lower price point?",
+          "answer": "Our unlimited automation tier has no workflow caps, while Clari charges per automation beyond their base tier. For your use case, total cost would be similar but with more flexibility on our side."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you share references from similar mid-market SaaS companies?",
+          "answer": "Yes, we'll connect you with two customers in similar growth stages who've scaled onboarding with our platform."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need this in place before Q2 ramp begins, so ideally signed within 3 weeks."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than competitive options we're evaluating"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Provide customer references",
+        "Schedule follow-up on pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Jessica with formal proposal, customer references, and pricing breakdown. Jessica acknowledged receipt and mentioned they're finalizing budget approvals. Requested flexibility on pricing to get closer to Clari's quote.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to move on the $19k price to help us get this through finance?",
+          "answer": "Let me discuss discount options with leadership and get back to you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing negotiation call",
+        "Prepare discount authorization"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-01",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "16-minute negotiation call with Jessica, initially scheduled for earlier in the week but rescheduled due to Jessica's conflict. Discussed discount options and payment terms. Jessica indicated budget ceiling is $13k but acknowledged value gap versus Clari. Proposed meeting in middle around $15k-16k range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can get closer to your budget target, can you commit to closing this week?",
+          "answer": "Yes, if we land around $13k I can get Asher's signature by Friday."
+        },
+        {
+          "by": "prospect",
+          "question": "Would annual prepayment versus quarterly billing unlock better pricing?",
+          "answer": "Potentially, let me check what our finance team can approve for annual prepay discounts."
+        }
+      ],
+      "objections": [
+        "The $6k gap between your price and Clari's is hard to justify internally"
+      ],
+      "next_steps": [
+        "Get approval for deeper discount",
+        "Reconvene with revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-09",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Jessica Weber",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute negotiation call with Jessica finalizing terms. Offered $12,900 with annual prepayment (32.1% discount from list). Jessica accepted pending Asher's final approval. Discussed implementation timeline and contract terms. Jessica committed to returning signed contract within 48 hours.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee or SLA in the contract?",
+          "answer": "Yes, our standard agreement includes 99.5% uptime SLA with service credits for any breaches."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other blockers before you can sign?",
+          "answer": "No, just need Asher's signature. He's already verbally approved the $12,900 price point."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we kick off implementation once the contract is signed?",
+          "answer": "We can start onboarding within 3-5 business days of signed agreement."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Prepare implementation kickoff materials",
+        "Follow up on signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

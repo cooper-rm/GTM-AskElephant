@@ -1,0 +1,519 @@
+{
+  "deal_id": "DEAL-0047",
+  "company": {
+    "name": "SwiftLink",
+    "industry": "SaaS/Tech",
+    "employee_count": 561,
+    "annual_revenue": 74443951,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14800.0,
+    "seats": 20,
+    "price_per_seat_monthly": 63.39,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.8,
+    "sales_cycle_days": 69,
+    "close_date": "2024-06-10",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Avery Hassan",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 4
+    },
+    {
+      "name": "Valentina Klein",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 22
+    },
+    {
+      "name": "Morgan Desai",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Avery Hassan, Director of Sales at SwiftLink. Expressed interest in improving sales-to-CS handoff process. Mentioned current manual workflow causing delays and customer confusion during onboarding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions specifically for automating handoffs between sales and customer success teams?",
+          "answer": "Yes, our platform specializes in workflow automation between revenue teams, including pre-built templates for sales-to-CS transitions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-02",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Avery Hassan. SwiftLink has 561 employees, experiencing scaling issues with manual handoffs. Currently using spreadsheets and Slack for coordination. Avery recently promoted to Director role (3 months ago), eager to show quick wins. Team of 20 AEs struggling with handoff documentation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current handoff process?",
+          "answer": "Deal context gets lost between sales and CS. We're relying on AEs to manually fill out handoff forms, and it's inconsistent. CS teams are blindsided by customer expectations set during the sale."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementing a solution?",
+          "answer": "I'd like to have something in place within 60 days. I'm building credibility in this new role and need some wins."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with Salesforce and our existing tools?",
+          "answer": "We have native Salesforce integration and pre-built connectors for most common CS platforms. Typically takes 1-2 weeks to fully integrate."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Avery to map out current handoff workflow",
+        "Schedule discovery call with more details on team structure"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with qualification call recap and resource links. Shared case study of similar mid-market SaaS company that reduced handoff time by 67%. Avery responded confirming workflow mapping in progress and suggested time for discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-12",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Avery Hassan. Walked through detailed current-state workflow. SwiftLink closes ~40 deals/month, each requiring 4-6 hours of manual handoff work. Primary pain points: inconsistent documentation, delayed CS onboarding (avg 12 days), customer confusion about next steps. Avery managing budget for sales ops tools, has autonomy to evaluate solutions up to $20K.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to loop in Valentina Klein, our Sales Manager, and Morgan Desai from the account management side. They'll care about the day-to-day usability. For budget approval, I can handle it if we're under $20K."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Handoff time cut in half, zero complaints from CS about missing context, and my AEs spending less than an hour per deal on admin work."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system automatically pull data from call recordings and emails to populate handoff documents?",
+          "answer": "Yes, our AI engine extracts key points from calls and email threads, then auto-populates customizable handoff templates."
+        }
+      ],
+      "objections": [
+        "Avery mentioned AEs are resistant to new tools \u2014 concerned about adoption friction"
+      ],
+      "next_steps": [
+        "Send ROI calculator based on 40 deals/month",
+        "Schedule follow-up to discuss implementation and change management"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-17",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to address change management concerns. Discussed training approach, rollout timeline, and success metrics. Avery shared that leadership is pushing for efficiency gains but hasn't explicitly endorsed any tool yet. Confirmed interest in seeing product demo with Valentina and Morgan present.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of training and support do you provide during rollout?",
+          "answer": "Standard package includes 2 training sessions, dedicated onboarding specialist for 30 days, and ongoing support. Plus tier adds consulting hours for custom workflow design."
+        },
+        {
+          "by": "rep",
+          "question": "Have you evaluated other solutions?",
+          "answer": "We looked at a couple tools briefly, but nothing stuck. Honestly, this is the first time I'm leading a vendor evaluation in this role."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Avery to coordinate calendar with Valentina and Morgan for demo",
+        "Send demo prep questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo prep questionnaire and calendar invite options. Included link to interactive product tour. Avery responded requesting automations plus consulting tier information, noting that custom workflow design might be valuable given their complex handoff requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the price difference between standard and plus tiers?",
+          "answer": "Plus tier includes consulting hours and advanced automation features. Pricing scales with seat count \u2014 I'll prepare options for your team size in the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Avery, Valentina, and Morgan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email confirming agenda and attendees. Avery confirmed Valentina and Morgan will join. Sent customized demo environment using SwiftLink's workflow details from discovery. Avery acknowledged and expressed excitement to see the product in action.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Product demo scheduled for tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-03",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Avery, Valentina, and Morgan. Walked through automated handoff workflow, AI data extraction from sales calls, and customizable templates. Valentina focused on reporting capabilities, Morgan asked detailed questions about integration with their CS platform. Team responded positively to live demo of actual SwiftLink workflow simulation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different product lines?",
+          "answer": "Yes, unlimited custom templates in the Plus tier. You can create different workflows for different deal types or product categories."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Standard is 2-3 weeks for basic setup. With consulting, we'd spend 4-6 weeks designing custom workflows and training your teams."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your team?",
+          "answer": "If we can prove it saves each AE 3+ hours per week and CS stops complaining about handoffs, we're in. Morgan mentioned they'd want to test it with a few deals first."
+        }
+      ],
+      "objections": [
+        "Morgan raised concern about learning curve for AEs who are already stretched thin"
+      ],
+      "next_steps": [
+        "Schedule technical deep-dive on integrations",
+        "Send pricing for 20 seats with Plus tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-09",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focused on advanced automation features and reporting dashboards. Valentina particularly interested in analytics showing handoff quality metrics. Avery asked about contract flexibility and implementation timeline. Discussion about potential pilot program with subset of AEs before full rollout.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer a pilot period or phased rollout option?",
+          "answer": "We typically do full team rollout, but we can structure onboarding in phases. Consulting hours can be used to support a pilot with 5-10 users first."
+        },
+        {
+          "by": "rep",
+          "question": "Is there a VP or executive sponsor who should see this before we move to proposal?",
+          "answer": "Not really necessary \u2014 I have the authority to make this call. Our VP of Sales is swamped with other priorities right now."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package?",
+          "answer": "Plus tier includes 40 hours of consulting for workflow design, custom automation setup, and change management support. Additional hours available if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation session to confirm integration requirements",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-14",
+      "type": "technical_eval",
+      "duration_minutes": 31,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Avery and SwiftLink's Sales Ops Analyst. Validated integration requirements with Salesforce, Zendesk, and Slack. Discussed API access and data security protocols. Technical team confirmed compatibility, requested data processing agreement for review. No major technical blockers identified.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data residency options do you offer?",
+          "answer": "US-based servers standard, EU available if required. All data encrypted at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export all our data if we need to switch platforms later?",
+          "answer": "Yes, full data export capability via API or CSV. No lock-in."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical concerns from your side?",
+          "answer": "None that would block us. Our analyst wants to review the DPA, but that's standard process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send DPA and security documentation",
+        "Prepare proposal for 20 seats, Plus tier"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Email with formal proposal attached. 20 seats, automations_plus_consulting tier, $20,800 list price. Outlined ROI projection based on 40 deals/month and 3 hours saved per AE per week. Avery responded within hours requesting call to discuss pricing \u2014 mentioned budget constraints and asked about flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing? Our budget for this fiscal year is tighter than expected.",
+          "answer": "Let's schedule a call to discuss what makes sense. We have some options depending on contract length and payment terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal review call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-25",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Avery. Discussed budget constraints \u2014 Avery has $15K allocated for sales ops tools this quarter. Negotiated pricing: offered $14,800 annual contract (28.8% discount) in exchange for 12-month prepay and case study participation. Avery receptive but needs to confirm with Valentina and Morgan, then get final sign-off from procurement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we prepay annually, can you get closer to our $15K budget?",
+          "answer": "I can do $14,800 annual prepay if you're comfortable with a 12-month commitment and willing to participate in a case study after 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision process from here?",
+          "answer": "I need to loop back with Valentina and Morgan to confirm they're good with this pricing, then run it through procurement. Should be quick \u2014 maybe a week."
+        }
+      ],
+      "objections": [
+        "Avery expressed concern about getting budget approval for full prepay, asked about quarterly payment option"
+      ],
+      "next_steps": [
+        "Send revised proposal at $14,800 with annual prepay terms",
+        "Avery to discuss with team and procurement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-31",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Avery to finalize terms. Avery confirmed Valentina and Morgan approved the pricing. Discussed contract start date, implementation timeline, and training schedule. Avery mentioned procurement (Morgan Desai handling) will need 5-7 days to process paperwork. No executive sponsor involved in final approval \u2014 Avery managing internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we involve your VP of Sales in a final alignment call?",
+          "answer": "Not needed \u2014 they trust me to make the right call here. Plus they're heads-down on Q2 planning."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we kick off implementation once the contract is signed?",
+          "answer": "Our onboarding team can start within one week of signature. I'll assign a dedicated consultant to your account."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Avery",
+        "Avery to submit to procurement for signature",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 18.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with final contract and DocuSign link. Included implementation timeline overview and introduction to assigned onboarding consultant. Avery confirmed receipt and said procurement is reviewing, expects signature by end of week. Expressed enthusiasm about getting started.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await contract signature from procurement",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Hassan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on contract status. Avery responded that procurement is still processing, slight delay due to legal review of case study participation clause. Expected resolution within 2-3 business days. No concerns raised, just standard procurement process delays.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there anything we can do to help move the legal review along?",
+          "answer": "Not necessary \u2014 it's just their standard process. Should be wrapped up soon."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up mid-week if no signature received"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

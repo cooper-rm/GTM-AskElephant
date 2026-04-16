@@ -1,0 +1,346 @@
+{
+  "deal_id": "DEAL-0352",
+  "company": {
+    "name": "AmberSignal",
+    "industry": "Fintech",
+    "employee_count": 86,
+    "annual_revenue": 15706801,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 70.53,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.8,
+    "sales_cycle_days": 62,
+    "close_date": "2023-08-23",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Emma Levy",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 5
+    },
+    {
+      "name": "Ethan Lewis",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Emma Levy at AmberSignal inquiring about call recording and coaching capabilities. She mentioned they're currently evaluating Fathom but looking for better automation options. Rep acknowledged request and scheduled follow-up.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and pricing guide",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study from similar fintech company. Emma responded positively, confirmed interest in unlimited automation tier, and agreed to discovery call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and Gong?",
+          "answer": "Yes, native integrations with both platforms included in all plans"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-30",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Emma. Discussed current state: team of 8 AEs struggling with coaching consistency. Emma recently joined as Director of CS and wants to improve onboarding. She's evaluating Fathom but concerned about their limited automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call review and coaching?",
+          "answer": "Mostly manual - managers listen to random calls when they have time, no systematic approach"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching automation work compared to Fathom?",
+          "answer": "We auto-score calls against custom rubrics and surface specific moments for coaching, while Fathom focuses primarily on transcription"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emma to share team structure details",
+        "Schedule deeper dive on automation features"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-09",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call diving into use case requirements. Emma explained budget constraints as SMB and need to show ROI quickly. Discussed 8 seat requirement for full sales team. She mentioned Ethan Lewis (SVP Revenue) will need to approve final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like in the first 90 days?",
+          "answer": "Reps ramping 30% faster and managers spending less time on manual call review"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "2-3 weeks for technical setup, coaches can start using it immediately after"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve in the evaluation?",
+          "answer": "Ethan Lewis, our SVP of Revenue - he'll be the final decision maker"
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We're a smaller company so budget is tight - Fathom's pricing is more straightforward",
+          "response": "Understood - let's make sure we structure this to show clear ROI. The automation features typically save 5-10 hours per manager per week"
+        }
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Loop in Ethan Lewis"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-18",
+      "type": "technical_eval",
+      "duration_minutes": 66,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Emma and 2 sales managers. Walked through full platform including AI call scoring, automated coaching workflows, and Salesforce integration. Team was impressed with automation capabilities vs Fathom. Emma asked detailed questions about custom rubric setup and reporting dashboards.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the scoring rubrics for our specific sales methodology?",
+          "answer": "Yes, fully customizable - we'll work with you during onboarding to build rubrics matching your framework"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the dashboard compare to what we'd see in Fathom?",
+          "answer": "Fathom focuses on conversation intelligence; we add coaching analytics like skill trends, rep comparisons, and improvement tracking"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your team?",
+          "answer": "If we can get Ethan comfortable with the investment and prove the automation actually saves manager time"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emma to brief Ethan on evaluation",
+        "Send proposal with unlimited automation tier pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-27",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Emma reviewing pricing for 8 seats on unlimited automation tier. Initial quote at $8,200 ACV. Emma expressed concern about cost vs Fathom and asked about flexibility given company size and her limited budget authority as new hire.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to work on pricing? Fathom came in quite a bit lower",
+          "answer": "Let me see what we can do - can you share what Fathom quoted and what features you'd be giving up?"
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The price gap between you and Fathom is significant - I need to justify the premium to Ethan",
+          "response": "The automation ROI is the key differentiator - let's build a business case showing time savings for your managers"
+        }
+      ],
+      "next_steps": [
+        "Rep to explore pricing flexibility",
+        "Emma to get Ethan's initial reaction"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-05",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second proposal call after Emma spoke with Ethan. He's interested but needs pricing closer to budget. Rep proposed revised pricing at $6,500 ACV (20.8% discount) to close the gap with Fathom while emphasizing superior automation value. Emma receptive but needs Ethan's final sign-off.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At this price point, does it move from maybe to yes with Ethan?",
+          "answer": "Much closer - I think he'll approve it but he's traveling this week so we may need to push the timeline a bit"
+        },
+        {
+          "by": "prospect",
+          "question": "This pricing holds through end of quarter?",
+          "answer": "Yes, locked through April 30th"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emma to schedule approval call with Ethan",
+        "Rep to send updated proposal at $6,500"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-15",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call with Emma - originally scheduled with Ethan but he had to reschedule last minute due to travel conflict. Emma apologized for the delay. Discussed contract terms and confirmed pricing at $6,500. She mentioned Ethan still comparing final numbers with Fathom offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly instead of annual payment?",
+          "answer": "Annual is required for this pricing tier, but we can discuss quarterly if that helps with cash flow"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else Ethan needs to feel confident in the decision?",
+          "answer": "Just wants to make sure we're truly getting more value than Fathom at this price - he's very metrics-driven"
+        }
+      ],
+      "objections": [
+        {
+          "objection": "Ethan's still on the fence about whether the automation premium is worth it vs just going with Fathom",
+          "response": "Let's get him on the next call so I can walk through the ROI calculation directly with him"
+        }
+      ],
+      "next_steps": [
+        "Schedule final call with Ethan present",
+        "Send ROI analysis comparing to Fathom"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-22",
+      "type": "pricing_call",
+      "duration_minutes": 13,
+      "person_name": "Emma Levy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Emma and Ethan. Walked through ROI analysis showing automation saves 8 hours/week for managers vs Fathom's manual approach. Ethan acknowledged value but pushed for quarterly payment terms. Rep agreed to quarterly payments at $6,500 ACV to close the deal. Ethan confirmed he'll sign pending legal review of contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation support look like in first 30 days?",
+          "answer": "Dedicated onboarding specialist, weekly check-ins, and custom rubric setup included"
+        },
+        {
+          "by": "rep",
+          "question": "Ethan, if we agree to quarterly payments, can we move forward this week?",
+          "answer": "Yes - send the contract over and I'll have our legal team review. Should be able to sign by end of week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with quarterly payment terms",
+        "Legal review",
+        "Target signature by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

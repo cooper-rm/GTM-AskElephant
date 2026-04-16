@@ -1,0 +1,287 @@
+{
+  "deal_id": "DEAL-0846",
+  "company": {
+    "name": "SwiftSync",
+    "industry": "Healthcare IT",
+    "employee_count": 521,
+    "annual_revenue": 75028957,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21800.0,
+    "seats": 23,
+    "price_per_seat_monthly": 80.34,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 9.7,
+    "sales_cycle_days": 34,
+    "close_date": "2025-03-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Zoey Mehta",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 8
+    },
+    {
+      "name": "Avery Suzuki",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Zoey Mehta expressing interest in improving forecasting accuracy. She mentioned current challenges with pipeline visibility and asked for a brief overview call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-09",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Zoey covering current RevOps stack and pain points. SwiftSync struggling with forecast accuracy due to manual processes. Zoey is evaluating solutions to reduce variance in quarterly predictions. Discussed team size and initial fit for automations package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant integrate with Salesforce and our existing data warehouse?",
+          "answer": "Native Salesforce integration via managed package, plus REST API for warehouse sync. Typically 2-3 day setup."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecast variance quarter-over-quarter?",
+          "answer": "We're seeing 18-22% variance, mostly due to late-stage slippage we don't catch early enough."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on forecast accuracy improvements",
+        "Zoey to review with AM team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study and ROI calculator. Zoey confirmed internal review is positive and requested demo for next week including Avery from the AM team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the risk scoring model for our specific deal stages?",
+          "answer": "Yes, model trains on your historical data and stage definitions. Can also add custom fields."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Zoey and Avery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Brief email confirming demo scheduled and asking Zoey to share any specific use cases to cover. She mentioned focus on early warning signals for slipping deals.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on risk signals and slippage detection"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-02-24",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo call with Zoey and Avery walking through platform. Strong engagement on HNSW similarity matching and XGBoost scoring features. Avery asked detailed questions about day-to-day workflow. Zoey focused on reporting and executive visibility. No VP or exec joined as planned.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it take to get actionable insights after we connect our CRM?",
+          "answer": "Initial model training takes 24-48 hours with 6+ months of historical data. Insights available immediately after."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training is included for the account management team?",
+          "answer": "Automations Plus includes 2 onboarding sessions and access to our success team for 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to include your VP of Sales in the next conversation to align on executive reporting needs?",
+          "answer": "Possibly, though Zoey has budget authority for this. She'll check on timing."
+        }
+      ],
+      "objections": [
+        "Avery expressed concern about adoption if the tool adds too many steps to AM workflow"
+      ],
+      "next_steps": [
+        "Send proposal for 23 seats with automations plus consulting",
+        "Zoey to socialize internally"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal for $21,800 ACV covering 23 seats. Zoey acknowledged receipt and mentioned she's reviewing with finance. Asked about payment terms flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment options instead of annual upfront?",
+          "answer": "We can do quarterly with a 5% uplift, or annual net-30."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Zoey to review terms with finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Zoey responded that finance approved the budget but asked about reducing consulting hours to lower cost.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss consulting scope and pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-12",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Zoey discussing consulting scope. She wants to reduce from 40 to 20 hours to hit a lower price point. Discussed splitting implementation across Q2 and Q3 to spread cost. Agreed to revised proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we start with 20 hours, can we add more later at the same rate?",
+          "answer": "Yes, we can add consulting hours at the contracted rate through end of year."
+        }
+      ],
+      "objections": [
+        "Zoey mentioned budget constraints for Q2 and need to justify full consulting package"
+      ],
+      "next_steps": [
+        "Send revised proposal with reduced consulting hours",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-16",
+      "type": "pricing_call",
+      "duration_minutes": 4,
+      "person_name": "Zoey Mehta",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick pricing clarification call. Zoey confirmed revised proposal at $21,800 works with 20 consulting hours. She's ready to move forward and will route to legal for contract review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Zoey for legal review",
+        "Target close by end of month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

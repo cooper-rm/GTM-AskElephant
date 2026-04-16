@@ -1,0 +1,177 @@
+{
+  "deal_id": "DEAL-0176",
+  "company": {
+    "name": "GoldenDynamics",
+    "industry": "SaaS/Tech",
+    "employee_count": 75,
+    "annual_revenue": 11296405,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6600.0,
+    "seats": 9,
+    "price_per_seat_monthly": 60.57,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.9,
+    "sales_cycle_days": 18,
+    "close_date": "2024-11-25",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Blake Moore",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 18
+    },
+    {
+      "name": "Levi Kelly",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Blake Moore",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Blake Moore, Director of CS at GoldenDynamics. Expressed interest in exploring automation solutions for their onboarding process. Brief initial contact to schedule qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current onboarding challenges"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-07",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Blake Moore",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Blake Moore to discuss GoldenDynamics' onboarding challenges. Blake described manual, repetitive onboarding workflows causing delays and inconsistent customer experience. Team of 9 would use the platform. Budget discussions deferred pending demonstration of value.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest pain points in your current onboarding process?",
+          "answer": "Manual handoffs between CS and implementation teams, lots of repetitive data entry, and inconsistent follow-up timing"
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows?",
+          "answer": "Fully customizable with drag-and-drop builder, plus pre-built templates for common onboarding scenarios"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo focused on onboarding automation use case",
+        "Share case study from similar CS team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-15",
+      "type": "demo",
+      "duration_minutes": 59,
+      "person_name": "Blake Moore",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Blake Moore covering onboarding automation capabilities. Walked through workflow builder, integration with their existing CRM, and reporting features. Blake enthusiastic about potential time savings but noted need to get buy-in from leadership on pricing. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we integrate this with our current Salesforce setup?",
+          "answer": "Yes, native Salesforce integration included, typical setup takes 2-3 days"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI have similar companies seen?",
+          "answer": "CS teams typically reduce onboarding time by 40-60% and increase consistency scores significantly"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Probably our VP of Operations, but I can handle the initial evaluation and bring them in if needed"
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The pricing seems higher than I expected for our team size"
+        }
+      ],
+      "next_steps": [
+        "Blake to review internally with team",
+        "Follow up with pricing options and ROI calculator",
+        "Discuss potential executive sponsor involvement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-23",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Blake Moore",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Blake Moore to finalize terms. Blake came prepared with approval for discounted pricing but no executive sponsor attended. Discussed implementation timeline and contract terms. Blake confirmed 9 seat count and accepted negotiated pricing with significant discount to move forward quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month commitment instead of annual?",
+          "answer": "Annual commitment required for the unlimited automation tier, but we can offer the discounted rate to make it work"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your VP of Operations in the contract review?",
+          "answer": "No need, I have the authority to move forward on this"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule kickoff call with implementation team",
+        "Confirm start date for onboarding"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

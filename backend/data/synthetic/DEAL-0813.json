@@ -1,0 +1,597 @@
+{
+  "deal_id": "DEAL-0813",
+  "company": {
+    "name": "CobaltLink",
+    "industry": "SaaS/Tech",
+    "employee_count": 573,
+    "annual_revenue": 66300888,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17400.0,
+    "seats": 23,
+    "price_per_seat_monthly": 64.88,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.1,
+    "sales_cycle_days": 64,
+    "close_date": "2024-06-07",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Mateo Hall",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Leila Gupta",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound form submission from Mateo Hall at CobaltLink requesting information about forecast automation tools. Brief contact info captured, meeting requested.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-05",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Mateo Hall, recently promoted to Head of Sales. Discussed current forecasting challenges with spreadsheets and lack of visibility into pipeline health. Mateo mentioned needing better automation as team scales.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in forecast automation right now?",
+          "answer": "Just took over as Head of Sales last quarter and inherited a messy spreadsheet process. Board wants more accurate numbers."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most mid-market teams are live within 2-3 weeks depending on CRM complexity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-05",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to understand team structure and current tooling. Mateo shared that CobaltLink uses Salesforce but lacks automation. Team of 23 sellers struggling with manual forecast rollups. Mentioned budget considerations given recent hire investments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current forecasting process end-to-end.",
+          "answer": "Reps update Salesforce, managers pull into Google Sheets weekly, I consolidate and present to exec team. Takes 6-8 hours every week."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing model\u2014per seat or flat fee?",
+          "answer": "Per seat with tiered plans. For your team size, likely looking at our Growth or Enterprise tier."
+        }
+      ],
+      "objections": [
+        "Want to make sure this doesn't blow the budget\u2014we just hired 8 new reps this quarter"
+      ],
+      "next_steps": [
+        "Mateo to discuss internally with finance",
+        "Schedule discovery call next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email follow-up sharing ROI calculator and case study from similar-sized SaaS company. Reiterated value of time savings and forecast accuracy improvements. Asked about timeline for decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for getting a solution in place?",
+          "answer": "Would love to have something running before end of Q2 if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review case study",
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-13",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification check-in call. Mateo confirmed he shared materials with Leila Gupta (SVP Revenue) and got green light to explore further. Discussed pain points around inaccurate pipeline visibility and exec reporting burden.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happens if you don't solve this in the next quarter?",
+          "answer": "Honestly, we'll keep burning hours every week and missing our numbers. Leila's already frustrated with forecast variance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery",
+        "Prepare technical deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email sent with agenda and technical questions about Salesforce setup, data architecture, and integration requirements. Asked Mateo to have CRM admin available if possible.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday",
+        "Mateo to invite CRM admin"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-21",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on technical requirements. Reviewed Salesforce instance, custom objects, and API access. Mateo walked through their current reporting dashboards and explained gaps in predictive insights. Discussed integration needs with BI tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What BI tools are you currently using for revenue analytics?",
+          "answer": "Mostly Tableau for board decks, but forecast data still lives in spreadsheets."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with Tableau or do we need to replace it?",
+          "answer": "We integrate directly\u2014you can keep existing dashboards and layer in our forecast data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule extended discovery with finance stakeholder",
+        "Send technical architecture overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-26",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended discovery call with Mateo and finance lead to discuss business case and success metrics. Reviewed current forecast accuracy (~68%) and target improvement (85%+). Discussed consulting services for change management and training. Mateo asked about discounting for multi-year commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of consulting support is included vs. additional cost?",
+          "answer": "Base tier includes onboarding and training. Strategic consulting is an add-on, typically recommended for teams scaling quickly like yours."
+        },
+        {
+          "by": "prospect",
+          "question": "If we commit to two years, is there pricing flexibility?",
+          "answer": "We can definitely explore multi-year options during proposal stage."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on a decision like this?",
+          "answer": "Leila has final approval, but she's aligned. CFO will need to review any contract over $15k."
+        }
+      ],
+      "objections": [
+        "Need to make sure the consulting piece doesn't inflate total cost too much"
+      ],
+      "next_steps": [
+        "Prepare demo environment",
+        "Schedule product demo",
+        "Mateo to brief CFO"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with customized demo agenda focused on CobaltLink's specific use cases: forecast rollups, pipeline health scoring, and exec reporting. Included demo credentials and prep instructions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Tuesday",
+        "Mateo to invite key stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-04",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Mateo and two sales managers. Walked through forecast automation workflows, pipeline analytics, and reporting capabilities. Strong engagement on predictive features and Salesforce sync. Mateo impressed by UI simplicity and automation of rollups. Discussed seat count (23) and asked about pricing tiers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecast categories beyond your default stages?",
+          "answer": "Yes, fully customizable to match your sales methodology and stage definitions."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference between Growth and Enterprise tier for a team our size?",
+          "answer": "Growth covers core forecasting automation. Enterprise adds advanced analytics, consulting hours, and dedicated support."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear win in 90 days?",
+          "answer": "Forecast accuracy above 80% and cutting my weekly reporting time in half. If we hit that, this pays for itself."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo recording and feature summary",
+        "Prepare proposal with Growth + consulting option"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-08",
+      "type": "proposal_call",
+      "duration_minutes": 8,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial proposal review call. Presented Growth tier at $23,800 ACV (23 seats) plus consulting package. Mateo expressed sticker shock and mentioned budget constraints from recent hiring spree. Asked about lower-cost options or phased approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a way to start with fewer seats or skip the consulting to get the price down?",
+          "answer": "We can explore options\u2014let me understand your hard budget ceiling."
+        }
+      ],
+      "objections": [
+        "This is higher than I expected\u2014we're looking at closer to $15k-$18k range given our current budget situation"
+      ],
+      "next_steps": [
+        "Mateo to confirm budget ceiling with finance",
+        "Rep to prepare revised proposal options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-11",
+      "type": "proposal_call",
+      "duration_minutes": 8,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call to discuss revised options. Walked through three scenarios: base Growth tier, reduced consulting, and annual vs. quarterly payment. Mateo focused on getting under $18k to avoid CFO escalation. Acknowledged value but emphasized budget reality.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can hit $17-18k with consulting included, does this move forward?",
+          "answer": "I think so\u2014let me run it by Leila to confirm, but that feels doable."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal at $17,400 with streamlined consulting",
+        "Mateo to review with Leila"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 12.2,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised proposal: $17,400 ACV, 23 seats, automations + consulting package. Highlighted 27% discount as one-time new customer offer. Requested feedback by end of week to hold pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "Yes, this gets us there. Sharing with Leila today."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mateo to review with exec sponsor",
+        "Schedule decision call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on proposal status. Mateo confirmed Leila supportive but wants to meet with rep to discuss implementation timeline and consulting scope before signing. Requested exec briefing call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Leila",
+        "Prepare implementation timeline doc"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-05-23",
+      "type": "negotiation_call",
+      "duration_minutes": 13,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mateo to finalize contract terms. Discussed payment schedule (annual upfront vs. quarterly), contract length (1-year with renewal option), and consulting deliverables. Mateo requested minor adjustments to onboarding timeline to accommodate team availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we push implementation start to early Q3 instead of June 1st?",
+          "answer": "Yes, we can adjust to align with your team's calendar."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize MSA terms",
+        "Prepare for exec meeting with Leila"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-05-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-meeting email to Leila and Mateo with exec summary of business case, ROI projections, and implementation plan. Emphasized forecast accuracy improvement and time savings for leadership team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled",
+        "Prepare to address strategic questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-06-01",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Leila Gupta",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Leila Gupta (SVP Revenue) and Mateo. Leila asked detailed questions about data security, vendor stability, and change management approach. Discussed consulting scope and success metrics. Leila confirmed strategic alignment but requested references from similar SaaS customers before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate for companies our size?",
+          "answer": "94% annual retention in the mid-market segment, with most customers expanding seats over time."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide references from SaaS companies who've implemented in the last 6 months?",
+          "answer": "Absolutely\u2014I'll send over three relevant customer contacts who match your profile."
+        },
+        {
+          "by": "rep",
+          "question": "Assuming references check out, what's your timeline to move forward?",
+          "answer": "We'd like to close this before end of month to start implementation in Q3."
+        }
+      ],
+      "objections": [
+        "Want to make sure we're not overpaying given the discount\u2014need confidence this is a fair deal"
+      ],
+      "next_steps": [
+        "Send customer references",
+        "Provide competitive pricing benchmarks",
+        "Schedule follow-up with Leila"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-06-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Hall",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Leila and Mateo with three customer references (SaaS companies, 20-40 seats, similar use cases) and pricing benchmark showing value relative to market. Reiterated limited-time discount and Q3 implementation timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Leila to contact references",
+        "Schedule closing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-06-09",
+      "type": "exec_meeting",
+      "duration_minutes": 10,
+      "person_name": "Leila Gupta",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec check-in call with Leila. She confirmed references were positive and is ready to move forward. Requested final contract for legal review. Discussed onboarding kickoff timing and assigned success manager introduction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can legal turn around the contract review?",
+          "answer": "Our standard MSA is pretty clean\u2014usually 3-5 business days for mid-market deals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to legal",
+        "Introduce customer success manager",
+        "Plan kickoff meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "deal_id": "DEAL-0064",
+  "company": {
+    "name": "PhotonSphere",
+    "industry": "SaaS/Tech",
+    "employee_count": 407,
+    "annual_revenue": 82727629,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10000.0,
+    "seats": 13,
+    "price_per_seat_monthly": 65.85,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.0,
+    "sales_cycle_days": 47,
+    "close_date": "2024-12-25",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Riley Diaz",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 11
+    },
+    {
+      "name": "Mason Baker",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 23
+    },
+    {
+      "name": "Lily Pereira",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 5
+    },
+    {
+      "name": "Aria Oliveira",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    },
+    {
+      "name": "Derek Iyer",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 6
+    },
+    {
+      "name": "Isaac Kelly",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-28",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Riley Diaz at PhotonSphere. No answer, left voicemail introducing our CRM automation platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-30",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Riley Diaz. No answer, no voicemail left this time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 14.5,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Riley Diaz highlighting CRM automation use cases for mid-market SaaS sales teams. Riley responded expressing interest in learning more about workflow automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and our existing email tools?",
+          "answer": "Yes, we have native integrations with Salesforce and all major email platforms, plus API access for custom workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-10",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Riley Diaz. Discussed PhotonSphere's current CRM pain points including manual data entry and lack of automation. Riley mentioned their sales team is spending 10+ hours/week on admin tasks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "Our sales team has grown to 13 people and manual processes are breaking down. We need better automation to scale."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of time savings do your customers typically see?",
+          "answer": "Most customers reduce admin time by 60-70%, freeing up 6-8 hours per rep per week for selling activities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to share current workflow documentation",
+        "Schedule follow-up call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-12",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call with Riley. Reviewed PhotonSphere's workflow documentation and identified key automation opportunities in lead routing, follow-up sequences, and deal updates. Riley is champion but needs buy-in from COO Mason Baker.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this solution?",
+          "answer": "Mason Baker, our COO, will need to approve any new tools. I'll also want to involve our RevOps analyst Lily and some end users."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Implementation takes 2-3 weeks for a team your size, with most customers seeing value within the first week."
+        }
+      ],
+      "objections": [
+        "We've looked at automation tools before but they were too complex for our team to adopt."
+      ],
+      "next_steps": [
+        "Riley to introduce Mason Baker",
+        "Continue discovery on specific use cases"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-16",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third qualification call diving deeper into PhotonSphere's tech stack and integration requirements. Riley confirmed they're using Salesforce as primary CRM and need to maintain their existing reporting structure. Discussed team of 13 users across sales and ops.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What reporting and analytics capabilities are must-haves?",
+          "answer": "We need to maintain our current dashboards and ideally get better visibility into pipeline health and rep activity."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you preserve our custom Salesforce fields and workflows?",
+          "answer": "Yes, our platform works on top of your existing Salesforce setup without requiring changes to your data model."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Begin stakeholder mapping"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-21",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery follow-up call with Riley. Confirmed PhotonSphere's outbound motion is a key use case. Discussed unlimited automation tier to support their growing team. Riley mentioned budget conversations are happening next quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing difference between automation tiers?",
+          "answer": "The unlimited automation tier is our most popular for teams your size, typically around $750-800 per user annually depending on volume."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on outbound automation",
+        "Riley to coordinate stakeholder availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Riley with demo preparation materials and customized use case document for PhotonSphere. Riley confirmed demo attendees and requested focus on workflow automation and reporting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we invite Lily from RevOps and one of our sales managers to the demo?",
+          "answer": "Absolutely, the more stakeholders we can show value to, the better."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-29",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Riley Diaz, Lily Pereira (RevOps), and Isaac Kelly (Sales Manager). Walked through CRM automation workflows, email sequencing, and custom reporting. Team was engaged and asked detailed technical questions. Lily particularly interested in data quality features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle duplicate detection and data cleansing?",
+          "answer": "We have built-in duplicate detection and can automatically enrich records with missing data from multiple sources."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules without engineering support?",
+          "answer": "Yes, our visual workflow builder lets your team create and modify rules without any coding required."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and support do you provide?",
+          "answer": "We include onboarding, training for all users, and ongoing support with dedicated account management."
+        }
+      ],
+      "objections": [
+        "Isaac mentioned that the UI looks more complex than their current setup and wants to ensure team adoption."
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Mason Baker",
+        "Provide trial access for Lily to test"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-03",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Mason Baker",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mason Baker (COO) and Riley Diaz. Discussed strategic value of CRM automation for PhotonSphere's growth plans. Mason focused on ROI and total cost of ownership. He's supportive but wants to see detailed pricing proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI should we expect in the first year?",
+          "answer": "Based on your team size and current admin burden, we estimate 500-600 hours saved annually, worth $30-40K in productivity gains."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're working on Q2 budget allocations now. Ideally would like to decide within 3-4 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any hidden costs or additional fees we should know about?",
+          "answer": "No hidden costs. The per-user pricing includes all features, integrations, support, and updates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Mason to involve procurement team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-12-05",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Riley to review pricing for 13 seats with unlimited automation tier. Discussed $10,000 ACV proposal. Riley indicated budget pressure and asked about flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room for movement on pricing given we're a mid-market company?",
+          "answer": "Let me see what we can do. I'll discuss with my manager about options for your team size and use case."
+        },
+        {
+          "by": "rep",
+          "question": "What's your approved budget for this initiative?",
+          "answer": "We have around $10-11K allocated, but anything we can save would help us invest in other tools."
+        }
+      ],
+      "objections": [
+        "Riley mentioned the price is higher than they initially expected and they need to stay within budget constraints."
+      ],
+      "next_steps": [
+        "Revise proposal with adjusted pricing",
+        "Schedule follow-up with Mason"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-12-13",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Mason Baker",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mason Baker and Riley Diaz to present revised proposal. Discussed adjusted pricing to meet budget requirements. Mason asked about contract terms and implementation timeline. Also mentioned need to involve IT (Derek Iyer) and procurement (Aria Oliveira) for final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your standard payment and contract terms?",
+          "answer": "We typically do annual contracts with quarterly or annual payment options. We can be flexible based on your preferences."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can you implement after contract signature?",
+          "answer": "We can start implementation within 3-5 business days and have you fully up and running in 2-3 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders we need to involve?",
+          "answer": "Yes, Derek from IT will need to review for security and Aria from our procurement team will handle contracting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce Derek and Aria",
+        "Provide security documentation",
+        "Begin contract review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-12-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Riley with revised contract and security documentation for IT review. Riley confirmed Derek and Aria are looped in and reviewing materials. Pricing adjusted to $10,000 ACV to fit PhotonSphere's budget.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Derek to complete security review",
+        "Aria to review contract terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-12-22",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Mason Baker",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mason, Riley, and Aria (procurement) to finalize terms. Discussed final pricing at $10,000 ACV (26% discount from list) and contract structure. Aria had questions about renewal terms and cancellation policy. Mason approved moving forward pending IT sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your cancellation policy and are we locked in for the full year?",
+          "answer": "It's an annual commitment with 30-day notice required for non-renewal. We don't typically allow early cancellation but can discuss specific circumstances."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens to pricing at renewal?",
+          "answer": "Renewal pricing holds for year two with standard 5-7% annual increases thereafter based on product enhancements."
+        }
+      ],
+      "objections": [
+        "Aria expressed concern about the annual lock-in and wants more favorable cancellation terms."
+      ],
+      "next_steps": [
+        "Finalize contract language on cancellation terms",
+        "Derek to provide IT approval",
+        "Target signature next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-12-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Riley confirming contract adjustments based on Aria's feedback. Added 90-day cancellation option after first 6 months. Derek completed IT security review with no blockers. Contract sent to Aria for final signature routing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Aria to route contract for signatures",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

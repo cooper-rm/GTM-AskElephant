@@ -1,0 +1,331 @@
+{
+  "deal_id": "DEAL-0488",
+  "company": {
+    "name": "EastgateLogic",
+    "industry": "eCommerce",
+    "employee_count": 1000,
+    "annual_revenue": 145538752,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 23200.0,
+    "seats": 29,
+    "price_per_seat_monthly": 67.18,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.5,
+    "sales_cycle_days": 32,
+    "close_date": "2023-04-28",
+    "use_case": "Pipeline visibility",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Kevin Morris",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 6
+    },
+    {
+      "name": "Grace Desai",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 35
+    },
+    {
+      "name": "Aisha Watson",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 20
+    },
+    {
+      "name": "Daniel Schmidt",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 39
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-23",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Kevin Morris (VP of CS) expressing interest in improving pipeline visibility. Brief form submission noting challenges with current forecasting accuracy and looking to evaluate solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send intro deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 13.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Kevin confirming receipt of inbound request. Rep introduced herself, outlined typical discovery process, and proposed times for initial qualification call. Kevin responded positively with availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does your typical implementation take?",
+          "answer": "Standard implementation is 2-4 weeks depending on data sources and customization needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-30",
+      "type": "discovery_call",
+      "duration_minutes": 11,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Kevin. Discussed current pipeline management challenges at EastgateLogic, including lack of real-time visibility and manual forecasting processes. Kevin mentioned they're also evaluating Clari. Team size discussed at ~30 revenue team members.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with Salesforce and our existing tech stack?",
+          "answer": "Native Salesforce integration plus connections to major communication platforms, calendars, and common SaaS tools."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline?",
+          "answer": "End of quarter crunch - leadership wants better visibility before Q3 planning begins."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to introduce CRO Grace Desai",
+        "Schedule deeper discovery session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-05",
+      "type": "discovery_call",
+      "duration_minutes": 10,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call diving into specific use cases. Kevin detailed pain points around deal health scoring and competitive displacement tracking. Confirmed 29 seats needed (sales + CS leadership). Kevin flagged that Clari is further along in their evaluation process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working well with your current process that we should preserve?",
+          "answer": "Weekly pipeline reviews are solid - just need better data going into them."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation tier pricing work compared to Clari's model?",
+          "answer": "Unlimited automation included in standard pricing - no usage caps or overage fees unlike tiered competitors."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval with Aisha Watson from implementation team",
+        "Share competitive comparison doc"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-09",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Aisha Watson",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive with Aisha Watson (Implementation Lead). Comprehensive review of data architecture, integration requirements, and security protocols. Aisha asked detailed questions about data handling, API limits, and migration process. She mentioned IT Director Daniel Schmidt will need to sign off on security review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SOC 2 compliance status and data residency options?",
+          "answer": "SOC 2 Type II certified, data residency available in US and EU regions."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle historical data migration from our current system?",
+          "answer": "Automated migration tools for standard CRMs, plus professional services support for custom data structures."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current data quality like in Salesforce?",
+          "answer": "Mixed - opportunity data is clean but activity logging has gaps we're trying to address."
+        }
+      ],
+      "objections": [
+        "Need to ensure migration won't disrupt Q3 planning cycle"
+      ],
+      "next_steps": [
+        "Security documentation for Daniel Schmidt",
+        "Proof of concept with sample data",
+        "Schedule proposal discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-14",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation with Kevin. Walked through 29-seat unlimited automation package at $23,200 ACV. Kevin expressed concern about budget approval and mentioned Clari's pricing came in lower. Discussion of ROI based on pipeline visibility improvements and time savings.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you help us build the business case for Grace and finance?",
+          "answer": "Yes - will provide ROI calculator and case studies from similar mid-market eCommerce companies."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "Approved for $15-18K, but Grace has flexibility if the value case is strong."
+        }
+      ],
+      "objections": [
+        "Pricing higher than Clari's offer - need to justify the delta"
+      ],
+      "next_steps": [
+        "Revised proposal with discount options",
+        "Executive briefing with Grace Desai"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-21",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Kevin to review revised pricing. Discussed 24.5% discount bringing ACV to target range. Kevin seemed more comfortable with revised numbers but noted final decision requires Grace and Daniel's approval. Timeline is tight due to Q3 planning needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount locked in if we commit by end of month?",
+          "answer": "Yes - proposal valid through month-end with these terms."
+        },
+        {
+          "by": "rep",
+          "question": "What's Grace's main concern at this stage?",
+          "answer": "She wants confidence we can deliver value faster than Clari given the time investment in evaluation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to schedule final review with Grace and Daniel",
+        "Send contract for legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Email check-in on contract review status. Kevin responded that legal is reviewing but Daniel has questions about data security terms. Grace is supportive but wants implementation plan finalized before signing. Clari has extended their offer with additional concessions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get on a call with Daniel this week to address security questions directly?",
+          "answer": "Absolutely - will have our solutions architect join to cover technical security details."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Security review call with Daniel",
+        "Implementation timeline for Grace"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Morris",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming Daniel's security questions were addressed and implementation plan sent to Grace. Kevin acknowledged receipt and mentioned they're in final decision stage between us and Clari. Expects to have answer by week's end. Tone remains positive but decision not yet confirmed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for final decision from Grace",
+        "Kevin to update by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

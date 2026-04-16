@@ -1,0 +1,209 @@
+{
+  "deal_id": "DEAL-0387",
+  "company": {
+    "name": "DynamicStack",
+    "industry": "Vertical SaaS",
+    "employee_count": 37,
+    "annual_revenue": 5234794,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 9800.0,
+    "seats": 11,
+    "price_per_seat_monthly": 70.65,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.6,
+    "sales_cycle_days": 29,
+    "close_date": "2025-07-14",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Maria Friedman",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Maria Friedman, VP of CS at DynamicStack. Interested in exploring call recording and coaching solutions for their CS team. Currently evaluating options including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with calendar link",
+        "Share initial product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with meeting availability and brief overview of call recording capabilities. Maria responded confirming interest and booked discovery call for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing tech stack (Intercom, Salesforce)?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Send meeting prep questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-22",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute discovery call with Maria. Discussed current CS team size (11 reps), pain points around coaching consistency and call visibility. Maria mentioned they're also looking at Fathom. Focused on understanding workflow and integration needs. No other stakeholders mentioned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current coaching process for new CS hires",
+          "answer": "Mostly ad-hoc, managers listen to calls when they have time but there's no systematic approach"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom for 11 users?",
+          "answer": "Our unlimited automation tier would be $9,800 annually, I can send detailed comparison"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "I handle CS tools and budget, I can move forward on this"
+        }
+      ],
+      "objections": [
+        "Need to see how this compares to Fathom before moving forward"
+      ],
+      "next_steps": [
+        "Send competitive comparison vs Fathom",
+        "Share demo recording",
+        "Follow up on timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with Fathom comparison deck and demo video. Maria responded asking about implementation timeline and whether the quoted price includes all features for unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, how long does implementation typically take?",
+          "answer": "Usually 1-2 weeks for full rollout with your team size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm pricing details",
+        "Discuss implementation plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up on pricing. Maria mentioned budget constraints and asked if there's flexibility on the annual price. Indicated Fathom quoted lower. Discussed discount options to move deal forward this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to work with us on price given our team size?",
+          "answer": "Let me discuss with leadership and get back to you with our best offer"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present revised pricing with discount",
+        "Request timeline commitment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal at $9,800 (20.6% discount from list) to meet Maria's budget. She confirmed this works and will move forward with procurement. Discussed contract review timeline and kick-off logistics.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract for review",
+        "Schedule implementation kickoff",
+        "Confirm signature timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 82,
+    "churn_reason": "lack of executive alignment"
+  }
+}

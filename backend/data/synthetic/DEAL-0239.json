@@ -1,0 +1,189 @@
+{
+  "deal_id": "DEAL-0239",
+  "company": {
+    "name": "SummitForge",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 11069939,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7600.0,
+    "seats": 7,
+    "price_per_seat_monthly": 87.03,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 2.2,
+    "sales_cycle_days": 14,
+    "close_date": "2025-05-24",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Mia Brown",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 17
+    },
+    {
+      "name": "Kwame Oliveira",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-16",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Mia Brown",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial cold call with Mia Brown, Director of CS at SummitForge. Mia expressed interest in improving their client onboarding process, which currently involves too much manual work. Brief discovery of pain points around scaling their CS team without proportional headcount growth. Scheduled qualification call for next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently handling onboarding for new clients?",
+          "answer": "Mostly manual \u2014 our CS team walks each client through setup. It's eating up a lot of time as we grow."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot? That's our CRM.",
+          "answer": "Yes, we have a native HubSpot integration that syncs deal and contact data in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call to dive deeper into current workflow and pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-10",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Mia Brown",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mia Brown. Discussed current onboarding bottlenecks \u2014 SummitForge onboards 15-20 new clients per month, each requiring 3-4 hours of CS time. Mia mentioned they've looked at Fireflies but found it too focused on note-taking rather than automation. Identified need for 7 seats across CS team. Strong fit for automations_plus_consulting tier given their desire for implementation support.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your ideal onboarding process look like if you could wave a magic wand?",
+          "answer": "Clients get automated welcome sequences, self-serve setup guides, and our team only jumps in for high-touch strategic conversations."
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned looking at other tools \u2014 what's been the main gap?",
+          "answer": "Fireflies is great for recording calls but doesn't help us automate the actual workflows. We need something more end-to-end."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "With our consulting package, most teams are fully up and running within 2-3 weeks."
+        }
+      ],
+      "objections": [
+        "We're worried about another tool that just becomes shelfware if it's too complicated to set up."
+      ],
+      "next_steps": [
+        "Schedule demo showcasing onboarding automation workflows",
+        "Mia to loop in CEO Kwame for demo as final decision-maker"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-18",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Mia Brown",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo call with Mia Brown. Walked through onboarding automation use case with live examples \u2014 showed automated client kickoff sequences, personalized video messages, and workflow triggers based on client behavior. Mia was impressed by the template library and how quickly she could customize flows. She confirmed Kwame (CEO) is supportive and asked her to evaluate options. Mentioned budget is approved for Q2, looking to move quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger different onboarding paths based on the client's package tier?",
+          "answer": "Absolutely \u2014 you can set conditional logic based on any field in your CRM, including deal size or product tier."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting something like this in place?",
+          "answer": "Ideally by end of Q2. We're hiring two more CS reps in May and want to have automation live before they start."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting piece work? Do you help us build the first few workflows?",
+          "answer": "Yes, with the automations_plus_consulting tier you get a dedicated implementation consultant for the first month who'll build your core workflows with you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing proposal for 7 seats on automations_plus_consulting tier",
+        "Mia to share proposal with Kwame and finance",
+        "Schedule pricing call for next week to discuss"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-24",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Mia Brown",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Mia Brown. Reviewed $7,600 annual proposal for 7 seats with consulting included. Mia confirmed budget is approved and Kwame signed off on moving forward. Discussed contract terms \u2014 annual payment upfront with 30-day cancellation after month 3. Mia asked about discount for annual vs monthly, clarified there's already a 15% annual discount baked in. She mentioned Fireflies reached out with a competing offer but feels our solution is more complete for their needs. Agreed to send contract by EOD.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we commit to a longer term, like 2 years?",
+          "answer": "For multi-year deals we can typically offer an additional 5-10% discount. I can run that by my manager if you'd like to explore that."
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned Fireflies reached back out \u2014 anything we should address to make sure you feel confident moving forward?",
+          "answer": "No, we're good. Their offering is just too narrow for what we need. Your platform checks all the boxes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for $7,600 annual agreement",
+        "Mia to review with legal (estimated 2-3 days)",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

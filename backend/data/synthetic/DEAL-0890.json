@@ -1,0 +1,322 @@
+{
+  "deal_id": "DEAL-0890",
+  "company": {
+    "name": "CoastalLogic",
+    "industry": "Professional Services",
+    "employee_count": 619,
+    "annual_revenue": 90739749,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14400.0,
+    "seats": 18,
+    "price_per_seat_monthly": 70.14,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.2,
+    "sales_cycle_days": 32,
+    "close_date": "2023-09-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Wyatt Kumar",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 48
+    },
+    {
+      "name": "Liam Chen",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-21",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call to Wyatt Kumar, VP of Sales at CoastalLogic. Rep introduced AskElephant's revenue intelligence platform and asked about current forecasting challenges. Wyatt mentioned they're currently using spreadsheets and struggling with accuracy across their growing sales team. Expressed interest in seeing how AI could help. Call was brief but receptive.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How is your team currently managing forecast accuracy with 619 employees?",
+          "answer": "We're mostly using spreadsheets and Salesforce reports. It's getting harder to track as we scale, and our VP of Revenue Ops is pushing for better visibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wyatt to check calendar and propose time for 30-min discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with meeting invite for discovery call. Included one-pager on forecasting accuracy use cases and brief ROI framework. Wyatt confirmed the meeting time and mentioned he'd like to bring Liam Chen from his team if schedule permits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over any case studies from other professional services firms?",
+          "answer": "Attached two case studies showing 15-20% improvement in forecast accuracy for similar-sized services organizations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday at 2pm PT"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-18",
+      "type": "discovery_call",
+      "duration_minutes": 35,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Wyatt Kumar covering current forecasting process, pain points, and team structure. Wyatt explained they have 18 sellers across three regions and currently lack real-time visibility into deal health. He mentioned they've been looking at Chorus as well but are early in evaluation. Discussion focused on conversation intelligence driving better pipeline predictions. Wyatt shared that they need something deployed within this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now versus six months ago?",
+          "answer": "Our board is asking tougher questions about pipeline health, and we missed our Q1 number by 12%. We need to get ahead of this before Q3 planning starts."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Liam Chen manages our sales operations and will need to be part of this. I'll also need to get buy-in from our CRO eventually, but let me validate the product first."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant integrate with our existing Salesforce instance?",
+          "answer": "Native two-way sync. We pull opportunity data and push back AI-generated insights and risk scores directly into custom fields you configure."
+        }
+      ],
+      "objections": [
+        "Wyatt mentioned they're budget-conscious this year and will need to see clear ROI to justify the investment"
+      ],
+      "next_steps": [
+        "Rep to send demo agenda focused on forecasting accuracy module",
+        "Wyatt to intro Liam Chen via email before demo",
+        "Schedule demo for next week with both Wyatt and Liam"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery call and confirming demo for the following week. Sent customized demo agenda highlighting forecasting dashboards, deal risk scoring, and Salesforce integration. Wyatt confirmed and cc'd Liam Chen on the thread, mentioning Liam would be primary technical evaluator.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Tuesday, Wyatt and Liam both confirmed attendance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-28",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Wyatt and Liam covering forecasting accuracy dashboards, conversation intelligence, and deal health scoring. Liam asked detailed questions about data privacy, Salesforce field mapping, and reporting capabilities. Wyatt was engaged and interested in the AI-generated risk signals. Both noted they're also evaluating Chorus and asked how AskElephant differentiates, particularly on pricing and deployment speed. Discussion touched on implementation timeline and team onboarding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 18 seats with Salesforce already in place, typically 2-3 weeks including data sync, user training, and custom dashboard setup."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where is data stored?",
+          "answer": "All data is encrypted at rest and in transit, stored in US-based AWS servers. Standard retention is 24 months, configurable per your compliance needs."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline looking like?",
+          "answer": "We'd like to have something in place by end of next month. Budget is approved but we need to finalize vendor selection in the next two weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for a similar setup?",
+          "answer": "Our pricing is generally more flexible for mid-market teams. I can work up a proposal based on 18 seats with the unlimited automation tier you'd need for forecasting."
+        }
+      ],
+      "objections": [
+        "Liam expressed concern about change management and getting the sales team to actually use another tool"
+      ],
+      "next_steps": [
+        "Rep to send formal proposal including pricing for 18 seats",
+        "Wyatt and Liam to review internally and discuss with finance",
+        "Schedule follow-up call to review proposal next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal attached. Pricing: $14,400 ACV for 18 seats on unlimited automation plan, includes implementation and onboarding. Email highlighted 21% discount off list price to meet their budget and timeline. Wyatt responded asking for proposal call to discuss terms and confirm a few details before taking to CRO.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for a multi-year deal or annual only?",
+          "answer": "This pricing is for an annual commitment. We can discuss multi-year options if that helps with budget planning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal review call scheduled for Friday afternoon"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-03",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Wyatt. Walked through pricing, contract terms, and implementation timeline. Wyatt confirmed the discount was helpful but mentioned he still needs to get final sign-off from the CRO before moving forward. He asked about payment terms and whether they could defer some costs to next quarter. Rep offered standard net-30 terms but explained pricing is tied to this quarter's budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we split payment across Q2 and Q3 to help with cash flow?",
+          "answer": "We typically keep annual contracts on single-invoice terms, but I can check with finance if there's flexibility for a quarterly payment plan."
+        },
+        {
+          "by": "rep",
+          "question": "When can you connect me with your CRO to walk through the business case?",
+          "answer": "Let me set that up for early next week. I'll prep a short deck showing the forecasting ROI to help make the case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wyatt to schedule meeting with CRO for next week",
+        "Rep to prepare executive summary and ROI deck"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-11",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Wyatt, no CRO present. Wyatt explained the CRO was pulled into another meeting last minute but encouraged proceeding with Wyatt as decision-maker. Discussion centered on contract terms, discount justification, and implementation timeline. Wyatt pushed for additional concessions and mentioned Chorus is still in play. Rep held firm on pricing but offered extended onboarding support. Conversation felt more cautious than prior calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign this week, can you throw in an extra quarter of support or additional user seats?",
+          "answer": "The 21% discount is already at our floor for this deal size, but I can include an extra onboarding session and priority support for the first 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to close this out by end of week?",
+          "answer": "I need to get final alignment with finance and make sure we're not leaving anything on the table compared to Chorus. Let me review their proposal once more."
+        }
+      ],
+      "objections": [
+        "Wyatt mentioned the CRO is still concerned about ROI timeline and wants to see proof of value within first quarter"
+      ],
+      "next_steps": [
+        "Wyatt to review Chorus proposal and revert by end of week",
+        "Rep to send contract draft and implementation plan"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Kumar",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with redlined contract, implementation plan, and ROI summary deck. Reiterated value proposition and urgency around their Q3 planning timeline. Wyatt acknowledged receipt but did not commit to next steps. Mentioned he's still working through final details internally and will update early next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Waiting on Wyatt's internal review and CRO alignment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

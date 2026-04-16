@@ -1,0 +1,303 @@
+{
+  "deal_id": "DEAL-0993",
+  "company": {
+    "name": "SageRelay",
+    "industry": "SaaS/Tech",
+    "employee_count": 339,
+    "annual_revenue": 55050968,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13100.0,
+    "seats": 17,
+    "price_per_seat_monthly": 63.64,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.5,
+    "sales_cycle_days": 42,
+    "close_date": "2025-01-02",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Santiago Gonzalez",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 18
+    },
+    {
+      "name": "Aiden Patel",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Santiago Gonzalez at SageRelay requesting information about conversation intelligence and revenue forecasting capabilities. Expressed urgency around Q2 planning cycle.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call within 48 hours"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-21",
+      "type": "qualification_call",
+      "duration_minutes": 0,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief scheduling confirmation call with Santiago to set up full qualification discussion. Confirmed his role as Director of Sales and aligned on agenda for next conversation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Full qualification call scheduled for later this week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-27",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call covering SageRelay's current forecasting challenges and evaluation criteria. Santiago shared that they're currently piloting Gong but concerned about forecast accuracy gaps. Discussed team size (17 reps) and need for unlimited automation. COO Aiden Patel is driving the initiative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for conversation intelligence right now?",
+          "answer": "Our forecast accuracy has been inconsistent\u2014missing by 15-20% some quarters. Leadership wants better visibility into deal health before we scale the team further."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your forecasting model differ from Gong's approach?",
+          "answer": "We use a combination of HNSW for semantic deal matching and XGBoost for risk scoring, which catches patterns that traditional keyword-based systems miss."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation?",
+          "answer": "Aiden Patel, our COO, is the executive sponsor. He's very focused on ROI and wants to see data proving forecast lift."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on forecast accuracy improvements",
+        "Intro to sales engineering for technical deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing forecast accuracy case study and proposing technical evaluation with Santiago's team. Confirmed availability for demo next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we test this on our own call data during the eval?",
+          "answer": "Absolutely\u2014we'll set up a sandbox environment where you can upload recent calls and see the analysis in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled",
+        "Prepare sandbox environment with SageRelay branding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-09",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Santiago and two sales managers. Walked through live demo using SageRelay's own call recordings. Strong engagement on the deal similarity matching and risk signal detection. Santiago mentioned Gong's pricing came in lower but expressed concerns about their forecast accuracy track record.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this rolled out to all 17 reps?",
+          "answer": "Implementation typically takes 2-3 weeks including integrations, training, and initial calibration of your custom risk models."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Aiden wants this live by end of Q2. We're comparing you and Gong this week, then final decision next week."
+        },
+        {
+          "by": "prospect",
+          "question": "The unlimited automation tier\u2014does that include custom workflow triggers?",
+          "answer": "Yes, unlimited automation includes custom triggers, automated follow-ups, and Slack/CRM notifications with no volume caps."
+        }
+      ],
+      "objections": [
+        "Gong's pricing is more competitive\u2014we need to understand the value gap"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI model",
+        "Include competitive analysis vs Gong",
+        "Loop in Aiden for pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with pricing for 17 seats on unlimited automation tier ($13,100 ACV). Included forecast accuracy ROI model and competitive positioning against Gong. Requested time with Aiden to walk through business case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proposal review call with Santiago scheduled",
+        "Attempting to get Aiden on next call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-23",
+      "type": "proposal_call",
+      "duration_minutes": 7,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal review with Santiago. He appreciated the ROI model but flagged that Gong's proposal is 30% lower. Expressed concern about getting budget approval at our price point without stronger differentiation on forecast lift.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you move on price to match Gong's range?",
+          "answer": "Let me talk to my manager about what flexibility we have. The forecast accuracy delta should justify premium pricing, but I understand budget constraints."
+        }
+      ],
+      "objections": [
+        "Price is significantly higher than Gong's quote"
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Schedule call with Aiden to justify ROI"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-27",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Santiago covering pricing and contract terms. Offered 28.5% discount to bring ACV to $13,100, matching closer to Gong's range while emphasizing forecast accuracy ROI. Santiago receptive but wants Aiden's sign-off before committing. Discussed Q2 implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount locked for annual contract, or does it apply to multi-year?",
+          "answer": "The 28.5% discount is available for annual commitment. For multi-year we can offer additional savings and lock in this pricing."
+        },
+        {
+          "by": "rep",
+          "question": "What does Aiden need to see to get comfortable with the investment?",
+          "answer": "Proof that forecast accuracy will improve by at least 10 percentage points. Our misses are costing us in terms of resource planning and investor confidence."
+        }
+      ],
+      "objections": [
+        "Still need executive buy-in on ROI despite discount"
+      ],
+      "next_steps": [
+        "Create custom forecast improvement guarantee",
+        "Final approval call with Aiden and Santiago"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Santiago Gonzalez",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming negotiated pricing ($13,100 ACV, 17 seats) and attaching updated proposal with forecast accuracy performance guarantee. Requested final decision meeting with Aiden this week to move forward with Q2 implementation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting confirmation from Aiden for final approval call",
+        "Legal review of contract terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 62,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

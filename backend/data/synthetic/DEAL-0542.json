@@ -1,0 +1,164 @@
+{
+  "deal_id": "DEAL-0542",
+  "company": {
+    "name": "DynamicBridge",
+    "industry": "SaaS/Tech",
+    "employee_count": 33,
+    "annual_revenue": 5532279,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7000.0,
+    "seats": 12,
+    "price_per_seat_monthly": 53.08,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.4,
+    "sales_cycle_days": 23,
+    "close_date": "2025-03-19",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rachel Torres",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 3
+    },
+    {
+      "name": "Ivy Osei",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-14",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Rachel Torres",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message to Rachel Torres introducing AskElephant's CRM automation capabilities. Rachel responded positively, expressing interest in learning more about how we could help streamline their customer success workflows. She mentioned they're currently evaluating options and agreed to a follow-up email with more details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of automation do you typically help CS teams with?",
+          "answer": "We help automate call logging, meeting summaries, follow-up tasks, and CRM data entry so your team can focus on customer relationships rather than admin work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed email with use case examples",
+        "Rachel to review with her team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Torres",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case studies and pricing overview for unlimited automation tier. Rachel replied asking about implementation timeline and whether we integrate with their existing tech stack. She mentioned they're also looking at Fireflies but are interested in more comprehensive CRM automation beyond just transcription.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 12 seats, typically 1-2 weeks including setup, integrations, and team onboarding. We provide dedicated support throughout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Share integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Torres",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email for upcoming demo. Rachel responded confirming attendance and asked if we could focus the demo on workflow automation features that go beyond what Fireflies offers. She also mentioned she'd like to bring Ivy from RevOps to discuss procurement and budget considerations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you make sure to show the CRM auto-update features in the demo? That's a gap we have with other tools.",
+          "answer": "Absolutely, we'll walk through the full workflow automation suite including automatic field updates, task creation, and custom triggers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on CRM automation workflows",
+        "Include Ivy Osei in meeting invite"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-19",
+      "type": "exec_meeting",
+      "duration_minutes": 11,
+      "person_name": "Rachel Torres",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "11-minute call with Rachel and Ivy to discuss pricing and terms. Rachel confirmed the team loved the demo and wants to move forward. Ivy focused on budget constraints and requested a discount to fit their Q2 allocation. Discussion centered on the $7k ACV proposal with 12 seats. Rachel acknowledged she's new to the Director role and wants to show quick wins. No executive sponsor joined the call despite it being labeled as exec meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for a 12-month commitment?",
+          "answer": "We can offer a 40% discount for annual pre-pay, bringing it to $7k ACV for unlimited automation and 12 seats."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start if we sign this week?",
+          "answer": "We can kick off implementation within 3 business days of contract signature."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to stay under $7500 total"
+      ],
+      "next_steps": [
+        "Send formal proposal with discounted pricing",
+        "Rachel to review with finance",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

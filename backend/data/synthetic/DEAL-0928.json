@@ -1,0 +1,388 @@
+{
+  "deal_id": "DEAL-0928",
+  "company": {
+    "name": "RubyHub",
+    "industry": "Professional Services",
+    "employee_count": 660,
+    "annual_revenue": 70222736,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15000.0,
+    "seats": 18,
+    "price_per_seat_monthly": 64.95,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.0,
+    "sales_cycle_days": 33,
+    "close_date": "2023-06-19",
+    "use_case": "Call recording + coaching",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "David Koch",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Peyton Khan",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 18
+    },
+    {
+      "name": "Dakota Weber",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to David Koch introducing our conversation intelligence platform and its call recording and coaching capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-27",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with David Koch. Introduced our platform's call recording and coaching features. David expressed initial interest in improving their sales team performance and agreed to continue the conversation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools for sales call recording or coaching?",
+          "answer": "We've looked at a few options including Chorus, but haven't committed to anything yet."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing typically work for a team our size?",
+          "answer": "We offer flexible plans based on seat count and features. I'd love to learn more about your needs first and then walk you through options that fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "David to review our website and case studies",
+        "Follow up via email with relevant materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case studies and product overview focused on call recording and coaching workflow automation. David responded confirming interest and requesting more details on implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does a typical implementation timeline look like?",
+          "answer": "Most teams are up and running within 1-2 weeks, including integrations with your existing CRM and training for your sales team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Email exchange confirming discovery call details. David mentioned they're actively evaluating solutions and Chorus is in the running. Indicated timeline is important as they want something in place this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you compare to Chorus in terms of coaching features?",
+          "answer": "We'll do a detailed comparison on our call, but our coaching workflow automation is a key differentiator - it surfaces insights automatically and reduces manual review time significantly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-26",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with David Koch. Discussed RubyHub's current sales coaching process, pain points with manual review, and need for automated insights. David manages 18 sales reps and wants to scale coaching without adding headcount. Mentioned Chorus is competitive but concerned about cost. Expressed strong interest in our unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with sales coaching today?",
+          "answer": "Our sales managers spend hours manually reviewing calls. We need something that automatically identifies coaching moments and key deal risks."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Peyton Khan, our CEO, will need to sign off on any significant investment. Dakota Weber from IT will handle the technical side."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing tools like Salesforce and Zoom?",
+          "answer": "Yes, we have native integrations with both. Setup is straightforward and we'll handle the initial configuration."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - we need to see clear ROI to justify the investment."
+      ],
+      "next_steps": [
+        "Send demo video and product walkthrough",
+        "Prepare pricing proposal for 18 seats with unlimited automation",
+        "Schedule demo for David's team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 13.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and initial pricing framework. David confirmed the team found the demo compelling and wants to move to proposal stage. Mentioned budget constraints and asked about discount options given they're comparing with Chorus.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing if we commit to an annual contract?",
+          "answer": "Yes, we can definitely work with you on annual pricing. Let me put together a formal proposal with a few options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-04",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "David Koch",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with David Koch reviewing pricing options for 18 seats with unlimited automation tier. Presented standard pricing at $20,500 ACV. David pushed back citing Chorus quote and budget limitations. Discussed value drivers including automation capabilities and coaching workflow efficiency. Agreed to explore discount to close this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automation tiers?",
+          "answer": "Unlimited automation includes all our AI-powered coaching workflows, automatic deal risk scoring, and custom playbook automation. It's our most popular tier for teams your size."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get this closed by end of quarter?",
+          "answer": "If we can get closer to the Chorus pricing and Peyton signs off, I think we can move quickly."
+        }
+      ],
+      "objections": [
+        "Chorus is coming in lower on price and we need to justify the premium.",
+        "Need CEO approval for anything over $15K."
+      ],
+      "next_steps": [
+        "Review discount approval internally",
+        "Schedule executive meeting with Peyton Khan",
+        "Send updated proposal with adjusted pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-08",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Peyton Khan",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Peyton Khan and David Koch. Presented strategic value of conversation intelligence for scaling RubyHub's sales organization. Peyton expressed interest in the coaching automation and reducing manager overhead. Discussed competitive positioning against Chorus. Peyton wants to understand total cost of ownership and ensure IT can support integration smoothly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How have other professional services companies used this to improve win rates?",
+          "answer": "We've seen customers in similar industries improve win rates by 15-20% through better coaching and deal risk identification. Happy to connect you with references."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation require from our IT team?",
+          "answer": "Minimal lift - mostly API access to your CRM and calendar system. Most technical setup is handled on our side, but I'd recommend involving Dakota to review security and integration requirements."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We want something in place within the next 30 days. If pricing works and IT signs off, we can move quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer to close this quarter?",
+          "answer": "I can bring this down to $15K ACV with an annual commitment. That's about 27% off list, which is significant, but I can make it work given your timeline and the opportunity to partner long-term."
+        }
+      ],
+      "objections": [
+        "We're evaluating Chorus and they're aggressive on pricing."
+      ],
+      "next_steps": [
+        "Send revised proposal at $15K ACV",
+        "Schedule technical review with Dakota Weber",
+        "Provide customer references in professional services"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-13",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Peyton Khan",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Peyton Khan following technical review. Dakota confirmed integration is feasible with minor security documentation needed. Discussed contract terms including annual commitment, payment schedule, and implementation timeline. Peyton negotiating on payment terms and seeking quarterly payment option instead of annual upfront.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "The $15K pricing is based on annual prepay. For quarterly payments we'd need to adjust to $16.5K ACV. Let me know what works better for your cash flow."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included for support and onboarding?",
+          "answer": "Full onboarding with dedicated CSM, unlimited support, and quarterly business reviews. We'll also provide training sessions for your managers and reps."
+        },
+        {
+          "by": "rep",
+          "question": "If we can keep the annual prepay at $15K, can you commit to a start date within two weeks?",
+          "answer": "Yes, if we finalize this week we can start implementation immediately and have you live before month end."
+        }
+      ],
+      "objections": [
+        "Annual prepay is challenging for our cash flow this quarter."
+      ],
+      "next_steps": [
+        "Peyton to review payment options internally",
+        "Send final contract for legal review",
+        "Confirm final decision by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-19",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Peyton Khan",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive alignment call with Peyton Khan and David Koch. Agreed to $15K ACV with annual prepay. Peyton confirmed budget approval and commitment to move forward. Reviewed contract terms, implementation plan, and success metrics. David excited to get started with the sales team. Discussed onboarding timeline and kickoff logistics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does success look like in the first 90 days?",
+          "answer": "We'll measure adoption across your 18 reps, coaching session frequency, and early indicators of deal velocity improvement. We'll review these metrics in our first QBR."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we finalize the contract?",
+          "answer": "No, we're aligned. David will be the main point of contact during implementation and Dakota will handle the technical setup. Let's get the paperwork moving."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we schedule the kickoff?",
+          "answer": "As soon as the contract is signed, we can kick off within 48 hours. I'll introduce you to your implementation team this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff",
+        "Introduce customer success team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

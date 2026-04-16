@@ -1,0 +1,366 @@
+{
+  "deal_id": "DEAL-0306",
+  "company": {
+    "name": "NorthwindDynamics",
+    "industry": "Marketing Agency",
+    "employee_count": 469,
+    "annual_revenue": 89937877,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 28700.0,
+    "seats": 30,
+    "price_per_seat_monthly": 74.46,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 16.3,
+    "sales_cycle_days": 38,
+    "close_date": "2024-05-04",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Cameron Katz",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 4
+    },
+    {
+      "name": "Sage Osei",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 42
+    },
+    {
+      "name": "Olivia Walsh",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Leo Abiola",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Cameron Katz, VP of Sales at NorthwindDynamics. Expressed interest in call recording and sales coaching tools for their growing team. Currently evaluating alternatives including Fireflies. Cameron mentioned he recently joined and wants to improve team performance quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer real-time coaching during calls or just post-call analysis?",
+          "answer": "We offer both - real-time battle cards and prompts during calls, plus detailed post-call coaching insights and scorecards."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send intro email with product overview",
+        "Schedule brief call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 18.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies from similar marketing agencies. Cameron responded asking about pricing structure and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 30 seats, typically 2-3 weeks including integrations, training, and custom playbook setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 20.7,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email for discovery call scheduled. Cameron confirmed attendance and mentioned wanting to discuss integration with their current tech stack (Salesforce, Gong).",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call Tuesday 2pm ET",
+        "Send calendar invite with prep questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-05",
+      "type": "discovery_call",
+      "duration_minutes": 15,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Cameron. Discussed current pain points: inconsistent sales messaging, lack of visibility into rep performance, new hires ramping slowly. Team of 30 sellers across 3 managers. Cameron is 2 months into role and under pressure to show quick wins. Currently piloting Fireflies but finding it limited for coaching. Interested in automations + consulting package.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to implement a solution now?",
+          "answer": "I need to show measurable improvement in win rates and ramp time within my first quarter. COO is watching closely."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching functionality compare to Fireflies?",
+          "answer": "We go beyond transcription - AI-powered scorecards, custom coaching frameworks, and automated feedback loops that Fireflies doesn't offer."
+        }
+      ],
+      "objections": [
+        "Concerned about getting buy-in from the sales managers who are comfortable with current process"
+      ],
+      "next_steps": [
+        "Schedule full demo for Cameron and sales managers",
+        "Send ROI calculator",
+        "Intro to customer success for consulting scope discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-10",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Cameron covering call recording, AI coaching scorecards, playbook automation, and manager dashboards. Cameron highly engaged, asked detailed questions about customization and reporting. Expressed strong interest in consulting package to build custom frameworks. Mentioned needing to loop in COO Sage and procurement lead Olivia for budget approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards to our specific sales methodology?",
+          "answer": "Absolutely - our consulting package includes building custom scorecards, talk tracks, and battle cards tailored to your methodology."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting can we provide to executive leadership?",
+          "answer": "Full executive dashboards showing team performance trends, coaching impact on win rates, and skill development progression over time."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally want to have something in place by end of quarter - so next 4-5 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Cameron to brief COO and get exec meeting scheduled",
+        "Send proposal draft for automations_plus_consulting package",
+        "Schedule technical walkthrough with sales managers"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with proposal for 30 seats automations_plus_consulting package at $28,700 ACV. Included ROI breakdown showing projected impact on ramp time and win rates. Cameron responded positively, confirmed exec meeting with COO Sage scheduled for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours included in this package?",
+          "answer": "Yes, we can adjust the consulting scope based on your specific needs - let's discuss in the exec meeting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Sage Osei scheduled",
+        "Prepare exec-level business case presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming exec meeting details. Cameron mentioned Sage will have questions about ROI and wants to understand why we're better than Fireflies. Also confirmed Olivia from procurement will join to discuss contract terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting tomorrow with Sage and Olivia",
+        "Prepare competitive comparison vs Fireflies",
+        "Send contract template to Olivia in advance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-23",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Sage Osei",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with COO Sage Osei, Cameron, and Olivia from procurement. Sage asked detailed questions about ROI methodology, implementation risk, and total cost of ownership. Expressed concern about Cameron's timeline being aggressive given need for change management across sales org. Wanted to understand vendor stability and customer references. Olivia raised questions about contract terms and payment structure. Overall receptive but more cautious than Cameron.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What evidence do you have that this will actually improve our metrics in the timeframe Cameron is projecting?",
+          "answer": "Shared case studies from 3 similar-sized marketing agencies showing 23-31% reduction in ramp time and 12-18% win rate improvement within 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you compare to Fireflies from a total cost perspective?",
+          "answer": "Fireflies is cheaper upfront but lacks coaching automation - you'd need separate tools for that. Our all-in-one approach reduces total cost and integration complexity."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to scale down or add seats mid-contract?",
+          "answer": "We offer quarterly true-ups - you can adjust seat count up or down with pro-rated billing."
+        }
+      ],
+      "objections": [
+        "Sage concerned about implementation timeline being too aggressive and causing disruption during busy quarter"
+      ],
+      "next_steps": [
+        "Provide customer references from marketing agencies",
+        "Revised implementation plan with phased rollout option",
+        "Olivia to review contract terms and provide feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-30",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Cameron after exec meeting. Discussed Sage's concerns about timeline and pricing. Cameron pushing for discount to help get Sage's approval faster. Mentioned Fireflies offered them a better price point but acknowledged our solution is more comprehensive. Discussed phased rollout approach to address implementation concerns.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer any flexibility on pricing given we're committing to 30 seats upfront?",
+          "answer": "Let me discuss with leadership - what discount level would make this an easy yes for Sage?"
+        },
+        {
+          "by": "rep",
+          "question": "What's Fireflies' pricing looking like for your use case?",
+          "answer": "They quoted around $21k for basic plan, but it doesn't include the consulting or advanced coaching features we need."
+        }
+      ],
+      "objections": [
+        "Cameron has budget pressure and thinks pricing is slightly high compared to Fireflies baseline offer"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Prepare revised proposal with phased implementation",
+        "Schedule final alignment call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-04",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Cameron Katz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Cameron. Discussed 8% discount option to bring ACV to $26,400 while maintaining full consulting package. Cameron appreciates the flexibility and believes this addresses Sage's ROI concerns. Confirmed phased rollout plan: 10 seats pilot for 3 weeks, then full 30-seat deployment. Cameron will present revised proposal to Sage and Olivia this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we do the phased approach, can we delay second payment until after pilot proves successful?",
+          "answer": "We can structure payment in two installments - 50% at contract signing, 50% at full deployment after successful pilot."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discount and phased terms",
+        "Cameron to present to Sage by end of week",
+        "Target signature within 7-10 days"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

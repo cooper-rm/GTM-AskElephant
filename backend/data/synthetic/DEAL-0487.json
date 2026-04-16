@@ -1,0 +1,338 @@
+{
+  "deal_id": "DEAL-0487",
+  "company": {
+    "name": "VectorHealth",
+    "industry": "eCommerce",
+    "employee_count": 494,
+    "annual_revenue": 50975730,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15200.0,
+    "seats": 20,
+    "price_per_seat_monthly": 66.96,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 24.8,
+    "sales_cycle_days": 30,
+    "close_date": "2023-10-04",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Nathan Ali",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 19
+    },
+    {
+      "name": "Lucas Adeyemi",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 7
+    },
+    {
+      "name": "Megan Weiss",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 11
+    },
+    {
+      "name": "Wyatt Goldberg",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    },
+    {
+      "name": "Henry Martinez",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-16",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call to Nathan Ali (VP of CS). Rep introduced AskElephant's rep productivity tools for eCommerce CS teams. Nathan expressed initial interest in automation given team scaling challenges. Agreed to follow-up email with case studies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently looking at tools to improve CS rep productivity?",
+          "answer": "We're scaling the team quickly and looking for ways to help reps handle higher case volumes"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with eCommerce case studies",
+        "Schedule discovery call if interested"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Nathan with 3 eCommerce customer case studies focused on rep productivity gains. Nathan responded positively, mentioned their team grew from 12 to 20 reps in 6 months and they're struggling with response time consistency.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples specific to teams supporting subscription eCommerce products?",
+          "answer": "Yes, shared case study from similar subscription commerce company that reduced response time by 40%"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming discovery call time and asking Nathan to invite key stakeholders. Nathan confirmed he'll bring RevOps and potentially exec leadership depending on initial fit.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Tuesday 2pm ET",
+        "Nathan to invite RevOps analyst"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-13",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Nathan Ali. Discussed VectorHealth's CS team structure, current tools (Zendesk, basic Salesforce integration), and pain points around rep onboarding time and ticket routing inefficiency. Nathan mentioned they've looked at basic automation but need consulting help for implementation. Identified use case around automating tier-1 routing and providing reps with answer suggestions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current average response time and what's the target?",
+          "answer": "Currently averaging 8 hours, want to get under 4 hours for tier-1 inquiries"
+        },
+        {
+          "by": "rep",
+          "question": "How long does it typically take to ramp a new CS rep?",
+          "answer": "About 6-8 weeks currently, which is too long given our growth trajectory"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your automations package include implementation support or is that separate?",
+          "answer": "We offer an automations plus consulting package that includes dedicated implementation support"
+        }
+      ],
+      "objections": [
+        "We've tried automation tools before but struggled with the setup complexity"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Megan (RevOps)",
+        "Send over pricing tiers and implementation timeline",
+        "Loop in Lucas (SVP Revenue) for exec alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-16",
+      "type": "technical_eval",
+      "duration_minutes": 46,
+      "person_name": "Megan Weiss",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Megan Weiss (RevOps Analyst). Deep dive into VectorHealth's Salesforce and Zendesk setup, data hygiene, and integration requirements. Megan asked detailed questions about API limits, data security, and customization flexibility. Discussed 20-seat deployment across CS team. Megan noted they need this implemented before Q3 to support planned team expansion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a 20-seat deployment with Salesforce and Zendesk?",
+          "answer": "6-8 weeks including data mapping, workflow configuration, and team training"
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows - can we adjust them post-launch?",
+          "answer": "Fully customizable through UI, no coding required, and consulting package includes 3 months of optimization support"
+        },
+        {
+          "by": "rep",
+          "question": "Do you have any compliance or data residency requirements we should account for?",
+          "answer": "Standard SOC2 compliance is sufficient, all our data is US-based"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of ongoing support is included vs. additional cost?",
+          "answer": "Standard support included, premium support available as add-on but most clients don't need it with consulting package"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Megan to review technical documentation and security questionnaire",
+        "Schedule exec meeting with Lucas to align on ROI and timing",
+        "Provide formal proposal with 20-seat pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.0,
+      "rescheduled": false,
+      "ai_summary": "Email to Nathan with formal proposal for 20 seats, automations plus consulting package, $20,200 annual contract. Nathan responded asking about flexibility on pricing given their budget cycle and whether implementation could start in May.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we commit to a longer initial term?",
+          "answer": "Let's discuss on the exec call - we can explore options for multi-year or expanded scope"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Lucas scheduled for Thursday",
+        "Prepare ROI deck showing productivity impact"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-26",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Lucas Adeyemi",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec alignment call with Lucas Adeyemi (SVP Revenue) and Nathan. Discussed business case for rep productivity investment ahead of Q3 expansion. Lucas focused on ROI metrics and implementation risk. Confirmed 20-seat scope aligns with CS team size. Lucas mentioned budget is approved but wants to ensure pricing is competitive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the measurable impact we should expect in the first 90 days?",
+          "answer": "Typical customers see 25-35% reduction in average response time and 20% improvement in rep capacity within first quarter"
+        },
+        {
+          "by": "rep",
+          "question": "Is there a specific budget number you're working within?",
+          "answer": "Lucas indicated mid-teens ACV range, looking for best value"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal by end of week",
+        "Nathan to coordinate with procurement on contract review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-30",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing negotiation call with Nathan (rescheduled from previous week). Discussed budget constraints and proposal adjustments. Agreed to 24.8% discount bringing ACV to $15,200 for 20 seats with full consulting package. Nathan confirmed this fits approved budget and Lucas is aligned. Discussed May 1st implementation start date.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can accommodate quarterly billing at this contract size"
+        }
+      ],
+      "objections": [
+        "Initial proposal was above approved budget ceiling"
+      ],
+      "next_steps": [
+        "Send revised agreement at $15,200 ACV with quarterly billing terms",
+        "Legal review expected to take 5-7 business days",
+        "Target signature by end of month for May 1 kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Ali",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent revised contract at $15,200 ACV with quarterly payment terms. Nathan confirmed receipt and forwarded to legal and procurement for review. Expects to have feedback within one week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Nathan to coordinate legal review",
+        "Schedule kickoff call with implementation team pending signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

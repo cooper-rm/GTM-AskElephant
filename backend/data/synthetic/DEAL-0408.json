@@ -1,0 +1,615 @@
+{
+  "deal_id": "DEAL-0408",
+  "company": {
+    "name": "TrueChannel",
+    "industry": "Vertical SaaS",
+    "employee_count": 3675,
+    "annual_revenue": 578665627,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 30200.0,
+    "seats": 25,
+    "price_per_seat_monthly": 104.88,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 105,
+    "close_date": "2023-08-15",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Savannah Baker",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Elena Jones",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 21
+    },
+    {
+      "name": "Ravi Thomas",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    },
+    {
+      "name": "Abigail Kang",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 12
+    },
+    {
+      "name": "Kwame Johnson",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Savannah Baker (VP of Sales at TrueChannel) submitted an inbound request expressing interest in CRM automation solutions for their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Savannah"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-02",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Savannah Baker. Discussed TrueChannel's current CRM challenges, team size (25 sales reps), and automation needs. Savannah confirmed budget authority and expressed urgency to streamline their sales processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "4-6 weeks for automations_plus_consulting package, including custom workflow setup"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for CRM automation now?",
+          "answer": "Sales team spending 40% of time on manual data entry, losing deals to slow follow-up"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case studies",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email to Savannah with three case studies from vertical SaaS companies. Included ROI calculator and proposed discovery call agenda.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share references from companies our size?",
+          "answer": "Attached case studies from two 3000+ employee vertical SaaS companies with similar use cases"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-13",
+      "type": "follow_up_call",
+      "duration_minutes": 2,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Savannah to confirm discovery call details and share preliminary agenda. She mentioned bringing in IT Director for technical evaluation later.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proceed with discovery call as scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-22",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Savannah covering current tech stack (Salesforce), pain points with manual processes, desired automation workflows, and team composition. Discussed integration requirements and identified CRM automation as primary use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top three automation priorities?",
+          "answer": "Lead routing, follow-up email sequences, and deal stage progression tracking"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution handle Salesforce integration?",
+          "answer": "Native bi-directional sync with field mapping and real-time updates"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting to help us design the workflows?",
+          "answer": "Yes, automations_plus_consulting includes 40 hours of implementation support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical documentation with IT team",
+        "Schedule technical eval with Kwame Johnson",
+        "Prepare demo customized to their workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-28",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Savannah to review discovery notes and confirm demo scope. Discussed bringing in Sales Manager Ravi Thomas and CEO Elena Jones for later stages. Savannah confirmed budget range aligns with our proposal.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation?",
+          "answer": "Kwame Johnson from IT for technical review, Ravi Thomas as end user, and Elena Jones for final approval"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Kwame",
+        "Prepare demo environment with TrueChannel's workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-03",
+      "type": "technical_eval",
+      "duration_minutes": 14,
+      "person_name": "Kwame Johnson",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Kwame Johnson (IT Director). Reviewed security requirements, data privacy controls, API capabilities, and Salesforce integration architecture. Kwame asked detailed questions about authentication and data residency.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What authentication methods do you support?",
+          "answer": "OAuth 2.0, SAML, and SSO integration with major identity providers"
+        },
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and is it encrypted?",
+          "answer": "US-based AWS servers with encryption at rest and in transit, SOC 2 Type II certified"
+        }
+      ],
+      "objections": [
+        "Need to verify compliance with our data residency policies"
+      ],
+      "next_steps": [
+        "Share security documentation and compliance certifications",
+        "Schedule technical deep-dive if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-10",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First demo with Savannah and Ravi Thomas. Walked through lead routing automation, email sequence builder, and Salesforce sync. Ravi tested the interface and asked about reporting capabilities. Very engaged session with positive feedback.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the email templates?",
+          "answer": "Yes, full HTML editor with dynamic field insertion and A/B testing"
+        },
+        {
+          "by": "prospect",
+          "question": "How do we track ROI on automated workflows?",
+          "answer": "Built-in analytics dashboard showing time saved, conversion rates, and activity metrics"
+        },
+        {
+          "by": "rep",
+          "question": "Which features would have the biggest impact for your team?",
+          "answer": "Lead routing would save us 10+ hours per week, email sequences would improve follow-up rates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule second demo for advanced features",
+        "Provide trial access for Ravi to test"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-16",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focusing on advanced automation workflows, custom field mapping, and reporting. Savannah brought Abigail Kang (IT Director, procurement) to discuss contracting and implementation. Demo included live configuration of their specific use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation consulting?",
+          "answer": "Workflow design, custom field mapping, team training, and 30-day post-launch support"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we phase the rollout across different sales teams?",
+          "answer": "Yes, we recommend piloting with one team then expanding based on results"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard contract term?",
+          "answer": "12-month minimum, with annual renewals and quarterly business reviews"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-24",
+      "type": "demo",
+      "duration_minutes": 28,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Third demo session (rescheduled from earlier date) with Savannah to review trial progress and address remaining questions. Discussed pricing structure and implementation timeline in detail.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-contract?",
+          "answer": "Prorated pricing for remainder of term, scales with your team growth"
+        },
+        {
+          "by": "rep",
+          "question": "How is the trial going with Ravi's team?",
+          "answer": "Really well, they've already built three automation workflows and love the interface"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize proposal with pricing for 25 seats",
+        "Schedule proposal presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-29",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Savannah. Presented $30,200 ACV for 25 seats with automations_plus_consulting package. Walked through pricing breakdown, implementation timeline, and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours if we need more?",
+          "answer": "We can add additional consulting blocks at $200/hour or upgrade to premium support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Savannah to review with Elena Jones (CEO)",
+        "Schedule executive meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-07-05",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Savannah to address questions from her internal review. Discussed ROI projections and clarified implementation responsibilities between our team and theirs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What resources do we need to commit from our side?",
+          "answer": "One technical point of contact from IT, sales team availability for 3 training sessions"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal document",
+        "Coordinate executive meeting with Elena Jones"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email to Savannah with updated proposal document, ROI calculator showing projected time savings, and proposed agenda for executive meeting with Elena Jones.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm executive meeting schedule"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-19",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Elena Jones",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Elena Jones (CEO) and Savannah Baker. Discussed strategic value of CRM automation, alignment with TrueChannel's growth plans, and expected ROI. Elena asked about scalability and long-term partnership potential.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this scale as we grow from 25 to 50+ sales reps?",
+          "answer": "Pricing scales linearly, platform supports unlimited workflows and automations at all tiers"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your product roadmap look like?",
+          "answer": "AI-powered lead scoring launching Q2, predictive analytics in Q3, mobile app enhancements ongoing"
+        },
+        {
+          "by": "rep",
+          "question": "What are your goals for sales productivity this year?",
+          "answer": "20% increase in deals closed per rep, 30% reduction in administrative time"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to contracting phase",
+        "Schedule pricing discussion with Savannah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-07-26",
+      "type": "pricing_call",
+      "duration_minutes": 34,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Savannah. Discussed pricing structure, payment terms, and contract length. Savannah requested modest discount and quarterly payment option instead of annual upfront.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "Yes, we can structure as quarterly with a 5% upcharge, or keep annual pricing with net-30 terms"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $30,200 price point?",
+          "answer": "We have some room to work with on multi-year commitments or if you add more seats"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to see if we can reduce initial outlay"
+      ],
+      "next_steps": [
+        "Prepare revised pricing options",
+        "Check with finance on payment flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-08-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Savannah Baker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with three pricing options: Option A (annual payment, $30,200), Option B (quarterly payments, $31,700), Option C (2-year commitment with 7% discount). Included payment schedule breakdown.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Savannah to review options with Abigail and Elena",
+        "Schedule follow-up call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-08-07",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Elena Jones",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Elena Jones to discuss pricing options. Elena comfortable with annual payment at $30,200 but asked about implementation timeline to coordinate with Q2 planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign next week, when can we go live?",
+          "answer": "Kickoff within 5 business days, live within 4-6 weeks depending on your team's availability"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Align on contract start date",
+        "Prepare final paperwork"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-08-14",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Elena Jones",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive meeting with Elena Jones and Savannah Baker to review contract terms, implementation plan, and success metrics. Elena approved moving forward with Option A (annual payment, $30,200). Discussed onboarding timeline and kickoff meeting logistics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the key milestones in the implementation?",
+          "answer": "Week 1: kickoff and discovery, Week 2-3: configuration and testing, Week 4: training, Week 5-6: pilot and rollout"
+        },
+        {
+          "by": "rep",
+          "question": "Who will be the executive sponsor on your side?",
+          "answer": "Elena will sponsor, Savannah will be day-to-day owner, Ravi will lead user adoption"
+        },
+        {
+          "by": "prospect",
+          "question": "What does success look like in the first 90 days?",
+          "answer": "All 25 reps actively using automated workflows, 20% reduction in manual data entry time, improved lead response rates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff",
+        "Introduce customer success team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

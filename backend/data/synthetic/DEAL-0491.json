@@ -1,0 +1,256 @@
+{
+  "deal_id": "DEAL-0491",
+  "company": {
+    "name": "PioneerLabs",
+    "industry": "eCommerce",
+    "employee_count": 20,
+    "annual_revenue": 3439062,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7600.0,
+    "seats": 9,
+    "price_per_seat_monthly": 66.58,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.2,
+    "sales_cycle_days": 26,
+    "close_date": "2023-09-14",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Isaac Walsh",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Willow Takahashi",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Isaac Walsh introducing our CRM automation platform and its potential to streamline PioneerLabs' sales processes. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-09",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Isaac Walsh. Left voicemail highlighting CRM automation capabilities and ROI benefits for growing eCommerce teams. No callback received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-17",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Isaac with case study of similar eCommerce company achieving 40% reduction in manual CRM work. Isaac responded expressing initial interest and availability for a brief call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this compare to Fathom, which we're also evaluating?",
+          "answer": "Rep outlined key differentiation in automation depth and CRM native integrations, offered to show side-by-side comparison on call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call with Isaac"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-19",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "6-minute qualification call with Isaac Walsh. Confirmed PioneerLabs is evaluating CRM automation tools to reduce manual data entry for their sales team of 9. Currently using basic Salesforce setup with heavy manual workflows. Isaac mentioned Fathom is in consideration but expressed interest in our unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the CRM automation project right now?",
+          "answer": "Isaac explained their sales team spends 30-40% of time on manual CRM updates, impacting actual selling time."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for 9 users?",
+          "answer": "Rep provided ballpark range and suggested deeper discovery call to understand full requirements before formal pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute discovery call to review current workflow and automation needs"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-27",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute discovery call with Isaac Walsh covering PioneerLabs' current CRM pain points and automation requirements. Isaac walked through their sales process and manual touchpoints. He confirmed 9 seats needed and expressed strong interest in unlimited automation tier. Discussion included comparison with Fathom's capabilities. Isaac appears to be champion but mentioned needing to involve RevOps analyst Willow Takahashi for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current lead-to-close process and where automation would have the biggest impact.",
+          "answer": "Isaac detailed their outbound-heavy motion with significant manual logging of calls, emails, and deal stage updates."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Isaac mentioned Willow Takahashi from RevOps who handles technical implementations, but didn't mention executive stakeholders."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform handle custom eCommerce fields and workflows that Fathom struggles with?",
+          "answer": "Rep confirmed full customization capabilities and offered to demonstrate specific eCommerce use cases."
+        }
+      ],
+      "objections": [
+        "Isaac noted that Fathom has quoted them a lower price point and questioned if our premium is justified."
+      ],
+      "next_steps": [
+        "Schedule demo with Isaac and Willow Takahashi to show platform capabilities",
+        "Prepare eCommerce-specific automation examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-05",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute meeting with Isaac Walsh to review platform demo and discuss implementation approach. Isaac confirmed strong interest in unlimited automation tier. Conversation shifted to pricing and contract terms. Rep presented proposal at $7,600 ACV for 9 seats. Isaac expressed budget concerns and mentioned Fathom's competitive pricing. No executive sponsor joined the call despite it being positioned as an exec meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and what resources do we need to commit?",
+          "answer": "Rep outlined 2-week implementation with RevOps involvement, primarily Willow's technical configuration time."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and budget approval process?",
+          "answer": "Isaac indicated they're looking to decide within 2 weeks and he has approval authority for tools under $10K."
+        },
+        {
+          "by": "prospect",
+          "question": "Fathom quoted us significantly lower - can you match or get closer to their pricing?",
+          "answer": "Rep acknowledged pricing gap and said they'd review discount options given the competitive situation."
+        }
+      ],
+      "objections": [
+        "Isaac pushed back on pricing being 30-40% higher than Fathom's quote, questioned ROI justification."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Explore discount options given competitive pressure",
+        "Follow up on executive stakeholder involvement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-15",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Isaac Walsh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute negotiation call with Isaac Walsh to finalize terms. Isaac reiterated budget constraints and Fathom's competitive pricing. Rep offered 25.2% discount to close the gap and secure the deal. Isaac accepted the revised pricing of $7,600 ACV for 9 seats with unlimited automation. Agreement to move forward pending Willow's technical sign-off on implementation plan. Still no executive sponsor engaged in the process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the discount applies to renewal pricing as well?",
+          "answer": "Rep clarified the discount is first-year only, standard pricing applies at renewal."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or CEO involved to finalize this investment?",
+          "answer": "Isaac said it's not necessary for deals in this range and he has authority to approve."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with discounted pricing",
+        "Coordinate technical implementation review with Willow Takahashi",
+        "Target signature within 5 business days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

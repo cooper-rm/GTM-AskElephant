@@ -1,0 +1,387 @@
+{
+  "deal_id": "DEAL-0541",
+  "company": {
+    "name": "StellarHub",
+    "industry": "Marketing Agency",
+    "employee_count": 392,
+    "annual_revenue": 68040332,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13200.0,
+    "seats": 16,
+    "price_per_seat_monthly": 75.34,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 15.3,
+    "sales_cycle_days": 44,
+    "close_date": "2023-08-29",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Mason Diaz",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Luke Wagner",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-28",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold outreach to Mason Diaz at StellarHub. Rep introduced AskElephant's AI-powered sales intelligence platform. Mason expressed initial interest in improving their sales-to-CS handoff process, which currently lacks visibility. Agreed to a qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently tracking how deals transition from sales to customer success?",
+          "answer": "Not systematically. We rely on manual notes and Slack threads, which gets messy."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call",
+        "Send calendar invite for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-16",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mason Diaz. Discussed StellarHub's current workflow for sales handoffs. Mason mentioned they use Gong for call recording but lack actionable insights for the CS team. He's been in the VP of CS role for 3 months and is tasked with improving retention. Rep qualified budget range and decision-making process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current sales-to-CS handoff?",
+          "answer": "Our CS team gets deals with unclear expectations. We're often surprised by what was promised during sales calls."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant differ from Gong in terms of handoff insights?",
+          "answer": "Gong focuses on sales coaching. We extract actionable deal context and structure it specifically for CS teams to reduce ramp time and churn risk."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mason to review internal pain points with CS team",
+        "Schedule deeper discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-21",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended qualification call with Mason. Discussed StellarHub's tech stack, team structure, and current Gong usage. Mason confirmed 16 seats needed (8 sales, 8 CS). He expressed concern about changing tools mid-quarter but is open to a pilot. Rep outlined AskElephant's automation + consulting package tailored for handoff workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with Gong, or would we need to replace it?",
+          "answer": "We can integrate with Gong as a data source, so you wouldn't need to rip and replace. We layer on top with CS-specific insights."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Reduce CS onboarding time by 30% and catch at least two at-risk deals we would have missed."
+        }
+      ],
+      "objections": [
+        "Concerned about adoption during a busy quarter"
+      ],
+      "next_steps": [
+        "Rep to prepare tailored demo focusing on Gong integration",
+        "Mason to loop in CEO Luke Wagner for discovery"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-27",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Mason Diaz. Deep dive into StellarHub's deal flow, handoff bottlenecks, and CS team workflows. Mason shared examples of recent deals that went poorly due to misaligned expectations. Rep walked through AskElephant's AI summarization, deal scoring, and risk flagging features. Mason asked about implementation timeline and consulting scope.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How often do deals churn in the first 6 months due to poor handoffs?",
+          "answer": "Roughly 15-20% of new customers express buyer's remorse early. It's a real problem for us."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include?",
+          "answer": "We provide a dedicated consultant for 90 days to map your workflows, train your team, and build custom playbooks for handoff automation."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Initial setup is 2 weeks. Full workflow customization with consulting takes 6-8 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with live data walkthrough",
+        "Mason to introduce CEO Luke Wagner for exec alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-01",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued discovery call with Mason. Discussed StellarHub's competitive landscape and how lost deals to competitors could have been saved with better CS engagement. Mason confirmed budget authority sits with CEO Luke Wagner. Rep outlined pricing structure and emphasized ROI through churn reduction. Mason expressed interest in moving forward but wants Luke's buy-in before demo stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Luke Wagner, our CEO, has final approval on any new tools over $10K annually. He's hands-on with vendor decisions."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have case studies from marketing agencies similar to us?",
+          "answer": "Yes, we work with two agencies in your size range. I'll send over anonymized case studies showing 25-40% reduction in early churn."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for Luke?",
+          "answer": "Clear ROI tied to retention. If we can prove this saves even 2-3 customers per year, it pays for itself."
+        }
+      ],
+      "objections": [
+        "Need to prove ROI to CEO before committing"
+      ],
+      "next_steps": [
+        "Rep to send case studies and ROI model",
+        "Mason to schedule intro meeting with Luke Wagner"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Mason with case studies from similar mid-market agencies, ROI calculator showing projected savings from churn reduction, and proposed agenda for exec meeting with Luke Wagner. Mason confirmed receipt and said he's reviewing materials before scheduling the exec call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include implementation timeline in the exec deck?",
+          "answer": "Absolutely. I'll add a detailed timeline slide showing weeks 1-12 with key milestones."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mason to review materials with Luke",
+        "Schedule exec meeting within 1 week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-13",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Luke Wagner",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Luke Wagner and Mason Diaz. Rep presented tailored pitch focused on churn reduction ROI, competitive differentiation from Gong, and consulting-led implementation. Luke asked pointed questions about data security, Gong integration, and team adoption risks. Mason advocated strongly for the tool. Luke expressed cautious optimism but wants to see pricing options before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you ensure our call data stays secure and isn't used to train your models?",
+          "answer": "We're SOC 2 Type II certified. Customer data is isolated and never used for model training. You maintain full data ownership."
+        },
+        {
+          "by": "prospect",
+          "question": "If we're already paying for Gong, why add another tool?",
+          "answer": "Gong optimizes sales performance. AskElephant focuses on what happens after the deal closes\u2014ensuring smooth handoffs and reducing churn. They complement each other."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current annual churn rate?",
+          "answer": "Around 18%. We're growing fast, but churn is our biggest headwind."
+        },
+        {
+          "by": "prospect",
+          "question": "What if the team doesn't adopt it?",
+          "answer": "That's why we include hands-on consulting. We embed with your team to ensure adoption and workflow integration."
+        }
+      ],
+      "objections": [
+        "Concerned about tool overlap with Gong"
+      ],
+      "next_steps": [
+        "Rep to send formal proposal with 3 pricing tiers",
+        "Luke to review with finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Mason with formal proposal. Included three pricing tiers: Essential ($8,400 for 16 seats), Plus ($13,200 with consulting), and Enterprise ($19,200 with advanced analytics). Highlighted the Plus tier as best fit for their handoff use case. Mason responded positively and said Luke is leaning toward Plus tier but wants to negotiate contract length.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call with Luke and Mason",
+        "Prepare flexibility on contract terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-23",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Luke Wagner",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec negotiation meeting with Luke Wagner and Mason Diaz. Luke proposed a 6-month pilot at reduced cost instead of annual contract. Rep countered with annual commitment at $13,200 with a 30-day satisfaction guarantee. Luke pushed for 10% discount. Rep agreed to 5% discount ($12,540) if they commit to annual contract and provide a case study testimonial. Luke agreed in principle, pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a 6-month pilot instead of annual commit?",
+          "answer": "Our consulting model requires at least 12 months to deliver full value. I can offer a 30-day satisfaction guarantee instead."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price for annual commitment?",
+          "answer": "I can do 5% off if you commit annual and agree to be a case study customer. That brings it to $12,540."
+        },
+        {
+          "by": "rep",
+          "question": "Does that work within your budget?",
+          "answer": "Yes, that's reasonable. I'll need to run it by our legal team, but we should be good to move forward."
+        }
+      ],
+      "objections": [
+        "Wanted shorter pilot period instead of annual contract"
+      ],
+      "next_steps": [
+        "Luke to send contract to legal for review",
+        "Rep to prepare final order form with 5% discount"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-08-31",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Mason Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mason to finalize contract details. Discussed implementation timeline, data migration from Gong, and consulting kickoff logistics. Mason confirmed legal approved the terms. Rep walked through onboarding process and introduced customer success manager. Mason expressed excitement about getting started and reducing handoff friction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we kick off implementation?",
+          "answer": "We can start within 3 business days of signed contract. I'll introduce you to your CSM and implementation consultant."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we finalize?",
+          "answer": "No, I think we're good. I'm excited to see how this improves our handoffs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mason to route final contract for signature",
+        "Rep to send onboarding welcome email",
+        "Schedule implementation kickoff for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

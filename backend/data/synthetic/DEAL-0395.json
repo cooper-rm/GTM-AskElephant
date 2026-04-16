@@ -1,0 +1,562 @@
+{
+  "deal_id": "DEAL-0395",
+  "company": {
+    "name": "BayCore",
+    "industry": "SaaS/Tech",
+    "employee_count": 3403,
+    "annual_revenue": 269123863,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 50100.0,
+    "seats": 33,
+    "price_per_seat_monthly": 133.84,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 78,
+    "close_date": "2025-10-21",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Arjun King",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 28
+    },
+    {
+      "name": "Scarlett Costa",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 7
+    },
+    {
+      "name": "Samuel Gomez",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    },
+    {
+      "name": "Maria Brooks",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 19
+    },
+    {
+      "name": "Javier Okafor",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Arjun King expressing interest in improving pipeline visibility for their CS team. Brief initial contact form submission.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-04",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Arjun King to understand BayCore's current pipeline challenges. Discussed team size, current tools, and initial pain points around visibility gaps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a new solution right now?",
+          "answer": "Our CS team lacks real-time visibility into pipeline health and we're missing early warning signals on renewals."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and our existing tech stack?",
+          "answer": "Yes, we have native Salesforce integration and support most common CRM/sales tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies relevant to CS pipeline visibility use cases. Confirmed next discovery call timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark for 30-35 seats?",
+          "answer": "Typically $40-60K annually depending on tier and automation features. Will discuss in detail during discovery."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for deep-dive discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-15",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current process gaps. Arjun detailed manual reporting workflows and lack of automated alerts. Discussed team structure and key stakeholders.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current pipeline review process.",
+          "answer": "Very manual - weekly spreadsheet updates, no automated insights. Takes the team 4-5 hours per week."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Our COO Scarlett Costa oversees CS strategy, and we'll need Samuel from implementation and Maria from procurement."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to Gong's offering?",
+          "answer": "Different focus - Gong is conversation intelligence, we're pipeline health and predictive analytics. Some overlap but complementary."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in additional stakeholders",
+        "Schedule multi-person discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-20",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued discovery on technical requirements and data sources. Discussed integration complexity and onboarding timeline expectations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What data sources would you want us to pull from?",
+          "answer": "Salesforce primarily, plus some data from Zendesk and our internal success platform."
+        },
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline?",
+          "answer": "Usually 4-6 weeks for initial setup, depending on data complexity and customization needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical integration overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-24",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep dive into specific automation capabilities and reporting needs. Arjun outlined desired dashboards and alert triggers for at-risk renewals.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics are most critical for your CS leadership team?",
+          "answer": "Renewal risk scoring, pipeline coverage by CSM, early churn indicators, and expansion opportunity tracking."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the risk scoring model to our business?",
+          "answer": "Absolutely - the model is configurable and we'll tune it based on your historical data during onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats later?",
+          "answer": "Flexible - you can add seats anytime, priced at the same per-seat rate as your initial contract."
+        }
+      ],
+      "objections": [
+        "Concerned about change management with the team"
+      ],
+      "next_steps": [
+        "Schedule formal discovery with broader team",
+        "Share customization examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-29",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call with Arjun covering full requirements, success criteria, and evaluation process. Confirmed budget authority and decision timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like 6 months after launch?",
+          "answer": "Reduced time on manual reporting by 80%, proactive identification of at-risk accounts 30+ days earlier, and 10% improvement in renewal rates."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place by end of next quarter, so decision within 6-8 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer training and change management support?",
+          "answer": "Yes, included in enterprise tier - onboarding workshops, documentation, and ongoing training resources."
+        }
+      ],
+      "objections": [
+        "Need to ensure this doesn't overlap too much with Gong investment we already made"
+      ],
+      "next_steps": [
+        "Schedule demo/evaluation",
+        "Prepare Gong comparison doc"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Sent demo access credentials and evaluation guide. Included Gong differentiation document highlighting complementary use cases and unique pipeline analytics capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in on demo progress mid-week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on evaluation progress. Arjun confirmed team is testing the platform and has shared access with Samuel and Scarlett.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we extend the trial by a week? Samuel needs more time to evaluate integrations.",
+          "answer": "Of course - extended through end of month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule debrief call after extended trial"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-09-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing additional case study from similar-sized CS team in SaaS vertical. Highlighted 12-month ROI metrics and implementation learnings.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Evaluation debrief scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-09-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 33 seats with unlimited automation tier at $50,100 ACV. Included implementation plan, ROI projection, and contract terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule review call with Scarlett and procurement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-09-28",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Scarlett Costa",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Scarlett Costa to review strategic fit and business case. Discussed CS org priorities and budget approval process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How does this investment align with your CS strategy for this year?",
+          "answer": "Pipeline visibility is a top-3 priority. We're scaling the CS team and need better tooling to maintain service quality."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of executive reporting does the platform provide?",
+          "answer": "Full executive dashboard with portfolio health, trend analysis, and customizable views - happy to show examples."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Scarlett to review proposal with finance",
+        "Follow-up negotiation call with Arjun"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-10-04",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled from earlier in week. Discussed pricing flexibility and contract terms. Arjun mentioned budget pressure and asked about discount options.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the primary concern on the pricing side?",
+          "answer": "Overall budget is tight this quarter. Wondering if there's flexibility on the annual commitment or payment terms."
+        },
+        {
+          "by": "prospect",
+          "question": "Could we start with a smaller seat count and expand mid-year?",
+          "answer": "Possible, but per-seat pricing would be higher. Let me model out a few options for you."
+        },
+        {
+          "by": "prospect",
+          "question": "Any discount for annual prepayment?",
+          "answer": "Yes - we can offer 8% discount for annual upfront vs quarterly."
+        }
+      ],
+      "objections": [
+        "Pricing is at the high end of budget range",
+        "Concerned about overlap with Gong"
+      ],
+      "next_steps": [
+        "Send revised pricing options",
+        "Schedule exec meeting with Scarlett to finalize"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-10-08",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Scarlett Costa",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Scarlett to finalize business case and address remaining concerns. Discussed Gong overlap directly - emphasized complementary analytics and distinct value prop.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make you completely confident in moving forward?",
+          "answer": "Clear delineation from Gong so we're not paying for redundant capability, and confirmation on ROI timeline."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to weigh in?",
+          "answer": "Maria from procurement will handle contracting, but decision is made on our end."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you commit to the 6-week implementation timeline in the proposal?",
+          "answer": "Yes, guaranteed assuming timely data access and stakeholder availability for kickoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Address final pricing asks",
+        "Prepare contract for legal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-10-16",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Arjun to finalize seat count and payment terms. Agreed on 33 seats at $50,100 with quarterly payment option and 5% discount.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does the revised pricing work within your budget?",
+          "answer": "Yes, the 5% discount gets us there. Just need to confirm payment schedule with Maria."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a mid-year seat expansion clause without renegotiating?",
+          "answer": "Absolutely - we'll add that to the contract terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Maria for procurement review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-10-21",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Arjun King",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing alignment call confirming all terms. Reviewed contract structure, payment schedule, and implementation kickoff timing. Maria joined briefly to confirm procurement timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any final questions before we send to legal?",
+          "answer": "No, everything looks good. Maria will turn this around quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once contract is signed?",
+          "answer": "Kickoff call within 3 business days, then we'll start data integration immediately."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract to legal review",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

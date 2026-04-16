@@ -1,0 +1,395 @@
+{
+  "deal_id": "DEAL-0667",
+  "company": {
+    "name": "StellarFlow",
+    "industry": "SaaS/Tech",
+    "employee_count": 507,
+    "annual_revenue": 73873895,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 11700.0,
+    "seats": 16,
+    "price_per_seat_monthly": 63.45,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.7,
+    "sales_cycle_days": 45,
+    "close_date": "2023-07-09",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Chris Smith",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 27
+    },
+    {
+      "name": "Aaliyah Morgan",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 66
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Chris Smith submitted an inbound inquiry about automating customer onboarding workflows. Brief form fill indicating interest in streamlining CS team processes.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to follow up with scheduling link for qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Chris thanking him for the inquiry and offering to discuss StellarFlow's onboarding automation needs. Included calendar link and brief value prop around CS efficiency.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing CRM and support tools?",
+          "answer": "Yes, we have native integrations with major platforms and a flexible API for custom connections"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Chris to book qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-30",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chris to understand current onboarding process. He described manual handoffs between sales and CS causing delays. Team of 16 CS reps spending significant time on repetitive tasks. Mentioned they're also evaluating Gong but primarily for conversation intelligence.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented for our CS team?",
+          "answer": "Typical implementation is 4-6 weeks depending on customization needs"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating this type of solution?",
+          "answer": "Mainly me and my CS ops lead, though Aaliyah from RevOps will handle procurement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map detailed workflow requirements",
+        "Rep to send case study on CS automation ROI"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-05",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into StellarFlow's onboarding workflow pain points. Chris walked through their current 12-step manual process and highlighted where automation could save 8-10 hours per rep weekly. Discussed timeline pressure to implement before Q3.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the timeline to implement before Q3?",
+          "answer": "We're scaling CS headcount and need efficiency gains before onboarding new hires"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong's workflow capabilities?",
+          "answer": "Gong is conversation-focused; we specialize in end-to-end workflow automation with deeper CS-specific playbooks"
+        },
+        {
+          "by": "rep",
+          "question": "Will you need executive approval for this type of investment?",
+          "answer": "I have budget authority up to a certain threshold, but larger deals go through our CFO"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on onboarding automation workflows",
+        "Chris to share current process documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Email recapping discovery call and confirming demo agenda. Attached workflow automation guide and requested Chris share any process docs ahead of demo to customize the presentation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week",
+        "Chris to provide workflow documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-15",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial product demo showcasing core automation capabilities for CS onboarding. Chris engaged actively, asked detailed questions about customization and reporting. Mentioned budget is approved for this quarter but wants to see full technical capabilities before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation triggers based on customer segment?",
+          "answer": "Yes, full conditional logic and segmentation available in all plans"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do we get on automation performance?",
+          "answer": "Dashboards showing time saved, completion rates, bottlenecks, plus custom report builder"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a technical member of your team join a follow-up session?",
+          "answer": "Yes, I'd like our CS Ops lead to see the platform and validate the technical fit"
+        }
+      ],
+      "objections": [
+        "Need to ensure this doesn't duplicate functionality we'd get with Gong"
+      ],
+      "next_steps": [
+        "Schedule second demo with CS Ops lead",
+        "Rep to send technical documentation and integration specs"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-18",
+      "type": "demo",
+      "duration_minutes": 30,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up demo with Chris focusing on advanced workflow scenarios and integration architecture. Walked through specific StellarFlow use cases. Chris seemed pleased with flexibility but asked about pricing ranges without committing to next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical pricing model for a team our size?",
+          "answer": "We price per seat with tiered plans; for 16 seats you'd likely be in our Growth tier around $12-15K annually"
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating any other solutions besides Gong?",
+          "answer": "Just Gong for now, but they're positioned more as call intelligence than workflow automation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Chris to loop in Aaliyah from RevOps for procurement discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-24",
+      "type": "technical_eval",
+      "duration_minutes": 27,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Chris covering API capabilities, data security, and compliance requirements. Discussion on implementation timeline and resource requirements. Chris confirmed technical fit but noted they need to finalize budget allocation between multiple tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of technical resources do we need on our end for implementation?",
+          "answer": "Minimal - our team handles most setup, you'd need ~5-10 hours from a technical contact for integrations"
+        },
+        {
+          "by": "rep",
+          "question": "Is budget allocation between platforms like ours and Gong creating any timeline concerns?",
+          "answer": "We're trying to optimize spend across tools - may need to prioritize based on ROI projections"
+        }
+      ],
+      "objections": [
+        "Concerned about overlapping costs if we implement both platforms"
+      ],
+      "next_steps": [
+        "Schedule executive alignment meeting",
+        "Rep to provide ROI calculator and competitive comparison"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-01",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Chris to discuss business case and timeline. Conversation focused on proving value to leadership and securing final approval. Chris mentioned his VP of Ops would need to sign off but hasn't been involved yet. Discussed potential pilot approach to reduce risk.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to include your VP of Ops in the evaluation at this stage?",
+          "answer": "Probably, though I usually bring them in closer to the final decision"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a phased rollout or pilot with a subset of the team?",
+          "answer": "We typically recommend full team deployment for best results, but can discuss pilot structures"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for your leadership?",
+          "answer": "Clear ROI on time savings and a price point that fits our allocated budget for CS tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion",
+        "Rep to prepare formal proposal with ROI modeling"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-04",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Chris to discuss commercial terms. Presented $16.4K proposal for 16 seats on automations_plus_consulting plan. Chris pushed back on price, mentioned budget constraints and asked for discount to stay competitive with Gong's pricing. Negotiated down to $11.7K with reduced consulting hours.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match closer to what Gong quoted us for a comparable package?",
+          "answer": "Let me see what flexibility we have - I can likely reduce consulting hours and offer a first-year discount"
+        },
+        {
+          "by": "rep",
+          "question": "If we can get to a number that works, how quickly can you move to signature?",
+          "answer": "I'd need to run it by Aaliyah in procurement, but likely within a week or two"
+        }
+      ],
+      "objections": [
+        "Initial price is above our allocated budget for this tool category"
+      ],
+      "next_steps": [
+        "Rep to send revised proposal at $11.7K",
+        "Chris to review with Aaliyah and provide feedback"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chris Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal at $11.7K ACV reflecting 28.7% discount and reduced consulting package. Outlined next steps for contract review with procurement and requested timeline for decision. Emphasized implementation timeline to meet Q3 goals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee or SLA in the contract terms?",
+          "answer": "Yes, we can add standard SLA terms to the agreement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Chris and Aaliyah to review proposal",
+        "Target signature within 2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

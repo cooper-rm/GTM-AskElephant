@@ -1,0 +1,729 @@
+{
+  "deal_id": "DEAL-0652",
+  "company": {
+    "name": "QuantumCube",
+    "industry": "Professional Services",
+    "employee_count": 930,
+    "annual_revenue": 87329113,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24600.0,
+    "seats": 31,
+    "price_per_seat_monthly": 64.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.7,
+    "sales_cycle_days": 83,
+    "close_date": "2024-10-22",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Daniel Thomas",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 14
+    },
+    {
+      "name": "Lisa Gomez",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 11
+    },
+    {
+      "name": "Scarlett Baker",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 11
+    },
+    {
+      "name": "Amanda Lima",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 6
+    },
+    {
+      "name": "Brandon Lima",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Daniel Thomas (Head of RevOps) expressing interest in automation solutions for sales-to-CS handoff processes. Initial inquiry submitted through website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Daniel confirming receipt of inbound request and proposing times for initial qualification call. Included brief overview of how we handle sales-to-CS handoff automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing CS platform?",
+          "answer": "Yes, we have native integrations with Salesforce and most major CS platforms. We can discuss your specific stack on our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm call time for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Daniel responded confirming Thursday works. Sent calendar invite and pre-call questionnaire to understand current handoff process and pain points.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete pre-call questionnaire",
+        "Join Thursday qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-08",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Daniel. QuantumCube currently struggling with manual handoff process between sales and CS teams, leading to delays and information loss. Professional services company with 930 employees, looking for ~30 seats initially. Budget allocated for Q2.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving this initiative right now?",
+          "answer": "We've had several high-value customers complain about slow onboarding. Our sales team closes deals but CS doesn't get context, so we're starting from scratch each time."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Depends on complexity, but for your use case typically 4-6 weeks including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call with more stakeholders",
+        "Share case study on professional services handoff automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-10",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on mapping current state workflow. Daniel walked through their existing process: sales closes in Salesforce, manually creates handoff doc, emails CS team lead, CS schedules kickoff. Major pain points are information loss, 5-7 day delays, and inconsistent documentation quality.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many deals per month go through this handoff process?",
+          "answer": "About 40-50 new customers monthly, plus expansions. It's becoming unmanageable."
+        },
+        {
+          "by": "rep",
+          "question": "What have you tried so far to solve this?",
+          "answer": "We built some Salesforce automation but it's brittle. Looked at building custom solution but don't have eng resources."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system automatically pull data from sales calls and emails to populate the handoff?",
+          "answer": "Yes, that's core functionality. We extract key details from recorded calls, email threads, and CRM data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up discovery with CS team lead",
+        "Daniel to map out ideal future state workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email summarizing discovery insights and sharing professional services customer case study showing 73% reduction in handoff time. Daniel confirmed next discovery call scheduled for Tuesday with Scarlett Baker (Sales Manager) joining.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focusing on automation workflows",
+        "Tuesday discovery with extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-21",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Daniel and Scarlett Baker (Sales Manager). Scarlett described frustrations from sales side: reps spend 2-3 hours per deal on handoff documentation, inconsistent templates, CS comes back with questions that slow down commission recognition. Discussed ideal state with automated handoff triggering on deal close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the handoff templates?",
+          "answer": "Fully customizable. You define what fields are required, what gets auto-populated, and approval workflows."
+        },
+        {
+          "by": "rep",
+          "question": "What does CS need to see in a perfect handoff?",
+          "answer": "Scarlett: Deal context, customer pain points, promised deliverables, key contacts, technical requirements, timeline commitments."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we route different deal types to different CS teams automatically?",
+          "answer": "Yes, routing rules based on any Salesforce field - product, deal size, region, etc."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with implementation team",
+        "Build custom demo with QuantumCube workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-26",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third discovery session focused on technical requirements and integration points. Daniel outlined their tech stack: Salesforce (CRM), Gainsight (CS platform), Gong (call recording), Gmail. Discussed data security requirements and SOC 2 compliance. Daniel mentioned they need this live by end of Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have dedicated implementation support or is this self-serve?",
+          "answer": "Dedicated implementation manager assigned to every customer, included in subscription."
+        },
+        {
+          "by": "rep",
+          "question": "Who needs to be involved from your side for implementation?",
+          "answer": "RevOps (Daniel and Amanda), sales leadership (Scarlett), CS leadership, and our IT implementation lead Brandon Lima."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Brandon Lima",
+        "Prepare detailed integration architecture doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-08-31",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Brandon Lima",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation call scheduled with Brandon Lima (Implementation Lead) was rescheduled by prospect due to conflicting priority. Brief connection made to introduce Brandon and outline technical scope.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of API access do you need to our systems?",
+          "answer": "Read access to Salesforce and Gong, read/write to Gainsight for creating handoff records. All via OAuth, no credentials stored."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical deep dive for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-09-02",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Daniel showcasing end-to-end handoff automation workflow using QuantumCube's specific use case. Walked through: deal close trigger, automated data extraction from calls/emails, handoff document generation, routing to CS team, notification workflows. Daniel very engaged, asked detailed questions about customization.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add approval steps before handoff goes to CS?",
+          "answer": "Yes, configurable approval workflows. Sales manager approval, RevOps review, whatever you need."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if the automation misses something important?",
+          "answer": "Reps can review and edit before submission. Also have confidence scores - if AI isn't confident, it flags for human review."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in 6 months?",
+          "answer": "Sub-24-hour handoff time, zero complaints from CS about missing info, sales reps spending <30min on handoff tasks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule rescheduled technical eval with Brandon",
+        "Daniel to socialize with COO Lisa Gomez"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-09-08",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Brandon Lima",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second attempt at technical evaluation with Brandon Lima. Call rescheduled again by prospect - Brandon pulled into urgent infrastructure issue. Brief exchange confirmed continued interest but timing challenging.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical eval for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-09-12",
+      "type": "technical_eval",
+      "duration_minutes": 61,
+      "person_name": "Brandon Lima",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full technical evaluation with Brandon Lima. Deep dive on security, data handling, API architecture, and implementation process. Brandon focused on integration complexity, timeline, and resource requirements from QuantumCube IT. Discussed sandbox environment for testing before production rollout. Brandon asked detailed questions about error handling and rollback procedures.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's involved in the implementation from our IT team?",
+          "answer": "Primarily OAuth setup and API permissions. Most configuration is no-code on our side. Estimate 10-15 hours total IT time."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle PII and data retention?",
+          "answer": "Customer data encrypted at rest and in transit. Configurable retention policies. You control what data we process and how long we keep it."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers you're seeing?",
+          "answer": "No blockers. Need to verify Gainsight API permissions but should be straightforward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% uptime SLA, 24/7 monitoring, status page, incident response within 1 hour for P0 issues."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Brandon to review security docs and confirm technical fit",
+        "Schedule executive alignment call with Lisa Gomez"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-09-17",
+      "type": "exec_meeting",
+      "duration_minutes": 1,
+      "person_name": "Lisa Gomez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief intro call with Lisa Gomez (COO). Daniel had briefed her on the initiative. Lisa joined for 1 minute to confirm she's supportive and wants to see business case and pricing before full review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare business case with ROI analysis",
+        "Schedule full exec review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-09-23",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Lisa Gomez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Lisa Gomez and Daniel. Presented ROI analysis showing estimated 180 hours/month saved in sales and CS time, improved customer satisfaction, faster time-to-value. Lisa focused on implementation risk, change management, and timeline to value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the risk if this implementation doesn't go smoothly?",
+          "answer": "We have phased rollout approach - start with pilot team, validate, then expand. Existing process stays in place until new system proven."
+        },
+        {
+          "by": "prospect",
+          "question": "How much training is required for sales and CS teams?",
+          "answer": "2-hour session per team, plus documentation and office hours. Most customers see adoption within 2 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Daniel to prepare internal business case",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-09-25",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Lisa Gomez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended executive session with Lisa Gomez, Daniel, and Scarlett. Walked through implementation plan, timeline, change management approach, and success metrics. Lisa challenged on whether unlimited automation tier is necessary vs. starter tier. Discussed scaling as they prove value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automation tiers?",
+          "answer": "Starter caps automation workflows, unlimited removes those caps. Given your 40-50 deals/month plus expansions, you'd hit starter limits."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with starter tier and upgrade later?",
+          "answer": "Yes, upgrades are prorated and take effect immediately. Some customers start smaller to prove value."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you confident this is the right investment?",
+          "answer": "Lisa: Proof it works in our environment, clear ROI, manageable implementation, and ability to scale down if needed."
+        }
+      ],
+      "objections": [
+        "Concerned about committing to unlimited tier before proving value in our specific workflow"
+      ],
+      "next_steps": [
+        "Provide pricing for both unlimited and starter tiers",
+        "Daniel to model internal ROI"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-09-30",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Lisa Gomez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting to address Lisa's concerns about tier selection. Presented customer case study of similar professional services company that started with unlimited tier and saw ROI within 90 days. Lisa more comfortable but wants to see final pricing before commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical contract length?",
+          "answer": "Annual contracts standard. We can discuss quarterly for pilot but pricing is higher."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we need to reduce seats mid-contract?",
+          "answer": "Seat reductions take effect at renewal. We're flexible if business circumstances change significantly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal pricing proposal",
+        "Schedule pricing review with Daniel"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-10-06",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Daniel. Presented proposal for 31 seats on unlimited automation tier: $34,000 ACV. Daniel transparent that budget approved is closer to $25,000. Discussed what's possible within budget constraints - could do starter tier or reduce seat count.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best price on unlimited tier for 31 seats?",
+          "answer": "Standard pricing is $34k. I can work with my manager on discount for multi-year or other concessions."
+        },
+        {
+          "by": "rep",
+          "question": "Is $25k a hard budget ceiling?",
+          "answer": "Daniel: That's what's approved currently. Could potentially get more approved but would need strong justification and take time."
+        }
+      ],
+      "objections": [
+        "Budget approved is $25k, proposal is $34k - significant gap to close"
+      ],
+      "next_steps": [
+        "Explore discount options with management",
+        "Daniel to check if additional budget possible"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-10-09",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Daniel. Proposed compromise: $24,600 for 31 seats unlimited tier (27.7% discount) if they commit to annual contract, provide case study testimonial, and agree to start date within 2 weeks. Daniel receptive but needs to confirm with Lisa and Amanda (RevOps Analyst handling procurement).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why the case study requirement?",
+          "answer": "We're building presence in professional services vertical. Your story would be valuable for similar prospects."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the case study commitment involve?",
+          "answer": "90-day check-in interview, review of draft, participation in webinar or written case study. About 3-4 hours total time."
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your budget?",
+          "answer": "Daniel: Yes, $24,600 fits. Need to run it by Lisa and get Amanda involved for contract process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal at $24,600",
+        "Daniel to get exec and procurement alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-10-13",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Daniel and Amanda Lima (RevOps Analyst). Reviewed formal proposal, contract terms, payment terms. Amanda focused on payment schedule, auto-renewal clauses, and termination terms. Requested net-60 payment terms instead of net-30.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do net-60 instead of net-30 payment terms?",
+          "answer": "Let me check with finance. We typically do net-30 but can explore for this deal size."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the termination clause?",
+          "answer": "Annual commitment, 60-day notice required for non-renewal. No early termination without cause."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm net-60 payment terms with finance",
+        "Amanda to begin legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-10-17",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up negotiation call. Confirmed net-60 payment terms approved. Amanda raised questions about data processing addendum, liability caps, and indemnification language. Standard procurement concerns but nothing unusual. Daniel confirmed Lisa has signed off on business terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send your standard DPA?",
+          "answer": "Yes, sending today. It's GDPR and CCPA compliant, covers everything you'll need."
+        },
+        {
+          "by": "rep",
+          "question": "Any other terms blockers we should address now?",
+          "answer": "Amanda: DPA is the main one. Once legal reviews that we should be clear to move forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send DPA",
+        "Amanda to route contract for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-10-23",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Daniel Thomas",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Daniel and Amanda. Legal review complete with minor redlines to DPA and liability language. Both parties agreed to changes. Amanda confirmed procurement approval and contracting process. Daniel confirmed start date planned for first week of May pending signature. All parties aligned on moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we expect countersigned contract?",
+          "answer": "Once you return signed copy, we'll countersign within 1 business day."
+        },
+        {
+          "by": "rep",
+          "question": "Are we ready to move to signature?",
+          "answer": "Daniel: Yes, Amanda is routing for signatures today. Should have signed contract back to you by tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "QuantumCube to sign and return contract",
+        "Begin implementation planning",
+        "Assign implementation manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

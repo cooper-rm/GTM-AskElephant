@@ -1,0 +1,470 @@
+{
+  "deal_id": "DEAL-0081",
+  "company": {
+    "name": "BrightFlow",
+    "industry": "SaaS/Tech",
+    "employee_count": 1000,
+    "annual_revenue": 60000000,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 31700.0,
+    "seats": 32,
+    "price_per_seat_monthly": 76.79,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 13.7,
+    "sales_cycle_days": 79,
+    "close_date": "2023-09-04",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Julian Brooks",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ella Taylor",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 38
+    },
+    {
+      "name": "Ella Brooks",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-13",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Julian Brooks submitted an inbound demo request via website form expressing interest in improving pipeline visibility for their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-20",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Julian to confirm basic fit. Discussed company size, current challenges with pipeline tracking, and scheduled deeper discovery.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's prompting you to look for a solution now?",
+          "answer": "Our sales team is growing and we're losing visibility into deal progression across reps"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for extended qualification call",
+        "Share one-pager on platform capabilities"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 17.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with meeting confirmation, one-pager attachment, and prep questions for upcoming qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Julian to review materials before next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-02",
+      "type": "qualification_call",
+      "duration_minutes": 26,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed qualification call covering current state, pain points, and desired outcomes. Julian mentioned they're also evaluating Fireflies. Discussed team structure, use cases, and decision process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current process for tracking pipeline health",
+          "answer": "Mostly manual Salesforce reports and weekly manager check-ins, very time-consuming"
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in evaluating this solution?",
+          "answer": "Our CEO Ella Taylor will need to sign off, and IT Director Ella Brooks will handle technical evaluation"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fireflies?",
+          "answer": "Fireflies focuses on conversation intelligence; we provide end-to-end pipeline analytics with predictive scoring"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Loop in technical stakeholders for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-09",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to clarify technical requirements and integration needs before scheduling demo. Julian confirmed budget approval process and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally implement within next quarter, decision by end of this month"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical evaluation with Ella Brooks",
+        "Prepare customized demo for sales use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-16",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "Ella Brooks",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with IT Director Ella Brooks covering security, data privacy, API capabilities, and integration architecture. Reviewed SSO requirements and data retention policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we configure it?",
+          "answer": "Standard 2-year retention, configurable down to 90 days for compliance needs"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO with Okta?",
+          "answer": "Yes, we support all major SSO providers including Okta"
+        },
+        {
+          "by": "rep",
+          "question": "Any specific compliance requirements we should address?",
+          "answer": "SOC 2 Type II is required, GDPR compliance for EU data"
+        }
+      ],
+      "objections": [
+        "Need to review your DPA template with legal team"
+      ],
+      "next_steps": [
+        "Send security documentation and DPA",
+        "Schedule demo with Julian and sales team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-24",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on pipeline visibility dashboards, automated deal scoring, and reporting capabilities. Julian brought two sales managers who were engaged and asked detailed questions about implementation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the deal scoring model to our sales process?",
+          "answer": "Yes, scoring factors are fully configurable based on your specific sales methodology"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For your size, 2-3 weeks including data migration and team training"
+        },
+        {
+          "by": "rep",
+          "question": "Which features are most valuable for your team?",
+          "answer": "Real-time pipeline health alerts and the executive dashboard for forecasting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-30",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Julian covering pricing for 32 seats with automations plus consulting package. Discussed contract terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package?",
+          "answer": "Custom playbook development, advanced automation setup, and quarterly strategy reviews"
+        },
+        {
+          "by": "rep",
+          "question": "Is the $31,700 annual investment within your approved budget?",
+          "answer": "It's slightly higher than initially planned but defensible given the ROI projections"
+        }
+      ],
+      "objections": [
+        "Need to get CEO buy-in on the consulting add-on"
+      ],
+      "next_steps": [
+        "Schedule executive alignment call with Ella Taylor",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Julian with ROI calculator, customer success stories from similar companies, and proposed agenda for CEO meeting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any specific concerns Ella has that we should address in the meeting?",
+          "answer": "She wants to understand the competitive advantage versus Fireflies and long-term product roadmap"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare executive deck for Ella Taylor meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-08-15",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Ella Taylor",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with CEO Ella Taylor covering strategic value, competitive positioning versus Fireflies, and business case. Ella expressed support but wanted to understand pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why should we choose you over Fireflies given their lower price point?",
+          "answer": "Our solution provides complete pipeline intelligence beyond call transcription, with predictive analytics that directly impact forecast accuracy"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your product roadmap look like for the next 12 months?",
+          "answer": "AI-powered deal coaching, enhanced forecasting models, and expanded integrations with revenue tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to final negotiations",
+        "Ella to discuss internally with finance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-08-22",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Ella Taylor",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled executive meeting to finalize terms. Ella Taylor requested pricing concessions and discussed contract flexibility. Conversation focused on discount possibilities and payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual price if we commit to a multi-year contract?",
+          "answer": "We can explore a 10% discount for a 2-year commitment"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for you?",
+          "answer": "Getting closer to our original budget target while maintaining the consulting package"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We typically require annual but can discuss quarterly for multi-year deals"
+        }
+      ],
+      "objections": [
+        "Price is above budget threshold",
+        "Fireflies quoted significantly lower for basic features"
+      ],
+      "next_steps": [
+        "Bring revised pricing proposal to Julian",
+        "Confirm final decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-08-26",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Julian to discuss discount structure and payment terms. Worked through options to meet budget constraints while preserving consulting value.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can hit your budget number, are you ready to move forward this week?",
+          "answer": "Yes, Ella has approved moving forward if we can land around $28,500"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we reduce the consulting hours to lower the price?",
+          "answer": "We could shift to a lighter consulting tier, but it would impact implementation success"
+        }
+      ],
+      "objections": [
+        "Fireflies came back with aggressive pricing to win the deal"
+      ],
+      "next_steps": [
+        "Get approval for 10% discount",
+        "Send final proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-09-05",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Julian Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Julian. Agreed on $28,500 ACV with 8% discount, 2-year commitment, and quarterly payments. Julian confirmed verbal agreement pending legal review of contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "We can kick off within 5 business days of signed contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Introduce customer success manager",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

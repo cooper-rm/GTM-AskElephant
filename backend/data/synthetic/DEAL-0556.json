@@ -1,0 +1,305 @@
+{
+  "deal_id": "DEAL-0556",
+  "company": {
+    "name": "TrueGear",
+    "industry": "Healthcare IT",
+    "employee_count": 70,
+    "annual_revenue": 4200000,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 59.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.6,
+    "sales_cycle_days": 40,
+    "close_date": "2025-09-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Theo Schulz",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 21
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-31",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Theo Schulz submitted an inbound demo request via website form. Interested in automating their sales-to-CS handoff process. No conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming receipt of demo request and proposing times for qualification call. Theo responded positively and confirmed Thursday 2pm slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we focus specifically on the handoff automation features?",
+          "answer": "Absolutely, we'll tailor the call to your sales-to-CS workflow"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-08",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with Theo. Discussed current manual handoff process causing customer confusion and lost context. TrueGear using basic CRM with no automation. Theo owns sales operations, looking to improve NPS and reduce CS onboarding time. Timeline: start in 6-8 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Usually 2-3 weeks for your use case, mostly configuration"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this?",
+          "answer": "Mainly me, I'll loop in our CS lead Sarah for input on workflow"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case overview doc",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-16",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute follow-up call diving deeper into TrueGear's handoff workflow. Theo walked through their current 7-step manual process. Discussed unlimited_automation tier to handle their volume (15-20 handoffs/month). Confirmed 4 seats needed: Theo, Sarah (CS lead), and 2 AEs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current budget range for this solution?",
+          "answer": "We're flexible, but looking to stay under $5K annually"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff checklist fields?",
+          "answer": "Yes, fully customizable templates for your workflow"
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't create extra work for the sales team"
+      ],
+      "next_steps": [
+        "Prepare demo focused on automation features",
+        "Include ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 12.7,
+      "rescheduled": false,
+      "ai_summary": "Email with demo recording and ROI breakdown sent. Showed 8-hour/month time savings. Theo responded that demo looked great and he's sharing with Sarah. Requested pricing proposal for 4 seats, unlimited_automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs quarterly payment?",
+          "answer": "We can discuss payment terms on our next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-24",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute proposal call presenting $2,900 ACV for 4 seats (unlimited_automation). Theo seemed surprised by pricing, expected lower based on competitor research. Mentioned TrueGear's budget constraints. No other executives on the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical discount for companies our size?",
+          "answer": "We can explore options, but this pricing already reflects SMB positioning"
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or CEO involved for budget approval?",
+          "answer": "Not necessary, I have authority up to $5K"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than anticipated for our team size"
+      ],
+      "next_steps": [
+        "Theo to review internally with Sarah",
+        "Reconvene Friday to discuss"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in after proposal review. Theo replied that Sarah likes the solution but they need better pricing to move forward. Requested 'best and final' pricing by end of week to hit their fiscal quarter deadline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount options with sales leadership",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-06",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute negotiation call. Offered 33.6% discount bringing ACV to $2,900 to close this quarter. Theo accepted pending final legal review. Discussed implementation timeline starting May 1st. Still only Theo on call, no exec sponsor or Sarah present. Theo emphasized urgency to sign before quarter-end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get the discount locked in even if we sign early next quarter?",
+          "answer": "Discount only available if signed by March 31st"
+        },
+        {
+          "by": "rep",
+          "question": "When can we schedule a kickoff call with your full team?",
+          "answer": "I'll coordinate with Sarah once contract is signed"
+        }
+      ],
+      "objections": [
+        "Legal review might take 10-12 days, could push past quarter-end"
+      ],
+      "next_steps": [
+        "Send contract with approved pricing",
+        "Theo to expedite legal review",
+        "Target signature by March 28th"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-12",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Theo Schulz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute exec alignment meeting scheduled to meet leadership and finalize. Only Theo attended - Sarah had conflict, no C-level present. Reviewed implementation plan and success metrics. Theo confirmed verbal commitment to sign by Friday. Reiterated urgency around quarter-end pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "Me initially, then I'll bring Sarah in for CS workflow setup"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Theo to route contract through legal",
+        "Final signature targeted March 29th",
+        "Implementation kickoff scheduled for May 3rd"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

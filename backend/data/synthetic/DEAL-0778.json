@@ -1,0 +1,349 @@
+{
+  "deal_id": "DEAL-0778",
+  "company": {
+    "name": "NimbusPulse",
+    "industry": "Professional Services",
+    "employee_count": 300,
+    "annual_revenue": 34423612,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 28100.0,
+    "seats": 29,
+    "price_per_seat_monthly": 72.19,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.9,
+    "sales_cycle_days": 45,
+    "close_date": "2025-03-22",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lucas Rivera",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Chris Yang",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 10
+    },
+    {
+      "name": "Jessica Carter",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-13",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lucas Rivera introducing AskElephant's call recording and coaching capabilities for professional services teams. Highlighted ROI through improved onboarding and quality assurance. Lucas responded expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-08",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Lucas Rivera to understand current pain points and budget authority. Lucas confirmed they're evaluating call recording solutions and have budget allocated. Currently using basic recording but need better coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at call recording solutions now?",
+          "answer": "We're scaling our CS team from 12 to 25 reps this year and our current manual QA process doesn't scale. We need automated coaching insights."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline and budget range for this?",
+          "answer": "Looking to implement by end of quarter. Budget is approved for around $30K annually."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with full use case walkthrough"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery call agenda and preliminary materials about coaching automation features. Lucas confirmed the meeting time and mentioned he's also looking at Fireflies as an alternative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your coaching automation compare to what Fireflies offers?",
+          "answer": "Shared comparison doc highlighting our advanced sentiment analysis and custom coaching playbooks that Fireflies doesn't offer at their tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call on scheduled date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-17",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth discovery call covering current workflows, team structure, and integration requirements. Lucas walked through their CS process, pain points with manual QA, and need for Salesforce integration. Discussed rollout plan for 29 seats across CS and sales leadership. Fireflies mentioned as current evaluation alternative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current QA process and where it breaks down.",
+          "answer": "Managers manually review 2-3 calls per rep per week. Takes 4-5 hours weekly and we miss coaching moments. Need real-time insights."
+        },
+        {
+          "by": "rep",
+          "question": "What integrations are must-haves versus nice-to-haves?",
+          "answer": "Salesforce is critical. Slack notifications would be great. We use Zoom for all calls."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching criteria to our specific CS playbook?",
+          "answer": "Yes, we support fully custom scorecards and can map to your existing QA framework during onboarding."
+        }
+      ],
+      "objections": [
+        "Need to make sure the AI summaries are accurate enough that managers trust them without reviewing every call"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with live demo",
+        "Include IT Director Jessica Carter in next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-02-25",
+      "type": "technical_eval",
+      "duration_minutes": 55,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Lucas and Jessica Carter (IT Director). Demonstrated live call recording, AI summarization, custom coaching scorecards, and Salesforce integration. Jessica asked detailed questions about data security, SOC 2 compliance, and API capabilities. Lucas tested the coaching dashboard and scorecard customization. Competitive differentiation versus Fireflies discussed in context of advanced analytics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we configure it per our compliance needs?",
+          "answer": "Default is 2 years, fully configurable down to 30 days. All data encrypted at rest and in transit. SOC 2 Type II certified."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the Salesforce integration work and can we push custom fields?",
+          "answer": "Bi-directional sync via native connector. Can map any AskElephant field to custom Salesforce objects and fields."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently thinking about Fireflies versus our solution?",
+          "answer": "Fireflies is cheaper but lacks the coaching analytics we need. Your sentiment tracking and custom scorecards are more aligned to our use case."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we trial this with a small group before full rollout?",
+          "answer": "Yes, we can do a 2-week pilot with 5-10 users before expanding to all 29 seats."
+        }
+      ],
+      "objections": [
+        "Price point is higher than Fireflies - need to justify the ROI to finance"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 29 seats and pilot plan",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 9.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal email with pricing breakdown: $28,100 ACV for 29 seats with unlimited automation tier, including Salesforce integration and premium support. Included ROI calculator showing estimated 15 hours/week savings for management team. Lucas acknowledged receipt and scheduled proposal review call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing if we commit to annual?",
+          "answer": "We can discuss volume discounts on the proposal call. Annual commitment does unlock better rates than monthly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal review call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-11",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Lucas to walk through pricing, contract terms, and implementation timeline. Lucas expressed budget concern around $28K versus Fireflies' lower pricing. Discussed ROI justification and value of advanced coaching features. Agreed to pilot structure: 2-week trial with 10 users, then full rollout pending success.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation look like and how much internal IT time is required?",
+          "answer": "Typical implementation is 1-2 weeks. IT involvement is primarily for Salesforce connector setup, around 4-6 hours total. We handle the rest."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer yes for you and your team?",
+          "answer": "If we can get closer to $25K and prove the coaching analytics work in the pilot, I can get this approved quickly."
+        }
+      ],
+      "objections": [
+        "Price is the main sticking point - Fireflies is significantly cheaper and finance is pushing back on the premium"
+      ],
+      "next_steps": [
+        "Check with leadership on discount flexibility",
+        "Schedule negotiation call to finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-15",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Lucas Rivera",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Lucas to finalize pricing and contract terms. Discussed discount options and landed on $28,100 (original price) with extended payment terms and additional training hours included. Lucas agreed to bring final proposal to Chris Yang (CEO) for executive approval given budget threshold. Need exec sign-off before proceeding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include additional onboarding support or training hours instead of a direct discount?",
+          "answer": "Yes, we can add 5 additional training hours and a dedicated CSM for first 90 days at the $28,100 price point."
+        },
+        {
+          "by": "rep",
+          "question": "What's your process for getting Chris's approval and what's his timeline?",
+          "answer": "I'll present to Chris this week. He's generally supportive but wants to understand the Fireflies comparison. Can you join a call with him?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive meeting with Chris Yang",
+        "Prepare competitive comparison doc for CEO"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-19",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Chris Yang",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Chris Yang (CEO) and Lucas Rivera. Presented business case, ROI analysis, and competitive differentiation versus Fireflies. Chris asked strategic questions about long-term product roadmap and data security. Expressed comfort with investment given CS team expansion plans. Chris approved moving forward pending legal review of contract terms. Lucas to coordinate with procurement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your product roadmap for the next 12-18 months, particularly around AI capabilities?",
+          "answer": "Roadmap includes real-time coaching alerts, automated deal risk scoring, and integration with LMS platforms. All included in unlimited tier."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy with AI processing, especially for sensitive client conversations?",
+          "answer": "All AI processing happens in isolated tenant environments. Customer data never used for model training. Full data residency options available."
+        },
+        {
+          "by": "prospect",
+          "question": "Why should we pay premium over Fireflies when they offer similar transcription features?",
+          "answer": "Fireflies is great for transcription. We're built specifically for coaching and QA workflows - custom scorecards, sentiment trends, and manager analytics that Fireflies doesn't offer. ROI is in reduced manager time and faster rep ramp."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to legal for review",
+        "Lucas to coordinate with procurement on PO process",
+        "Target close date: end of month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

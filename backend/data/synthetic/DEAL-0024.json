@@ -1,0 +1,192 @@
+{
+  "deal_id": "DEAL-0024",
+  "company": {
+    "name": "IronForge",
+    "industry": "PropTech",
+    "employee_count": 100,
+    "annual_revenue": 16593387,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6200.0,
+    "seats": 8,
+    "price_per_seat_monthly": 64.62,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.4,
+    "sales_cycle_days": 18,
+    "close_date": "2025-10-28",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Morgan Brooks",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-29",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Morgan Brooks",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Morgan Brooks at IronForge. No answer, left voicemail introducing AskElephant's AI call analysis platform and requesting a brief conversation about their sales-to-CS handoff process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-01",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Brooks",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 23.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after voicemail. Morgan responded positively, expressing interest in solving post-sale handoff gaps. Mentioned they're currently evaluating Fathom but open to exploring alternatives. Agreed to schedule a qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes AskElephant different from Fathom for handoff workflows?",
+          "answer": "Our AI specifically extracts deal context and customer commitments to auto-populate CS onboarding templates, whereas Fathom focuses more on general call transcription."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-10",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Morgan Brooks",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute qualification call with Morgan Brooks. Discussed IronForge's current handoff pain points\u2014CS team lacks context from sales calls, leading to rework and slower onboarding. Morgan sees value in automated handoff summaries. Confirmed budget authority and expressed urgency to solve before Q2 kickoff.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our Salesforce and Intercom setup?",
+          "answer": "Yes, we have native integrations with both platforms to push summaries directly into your existing workflows."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating sales tools at IronForge?",
+          "answer": "I own the sales ops stack. I'll loop in our CFO for final budget approval, but I drive the decision."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to share example handoff workflow",
+        "Schedule demo for full sales team next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-20",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Morgan Brooks",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute executive meeting with Morgan Brooks. Walked through live demo of AI-powered call summaries and CS handoff automation. Morgan was impressed by automation tier and asked detailed questions about seat licensing and ROI. Expressed concern about pricing compared to Fathom's lower tier. No other executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing difference between the standard and unlimited automation tiers?",
+          "answer": "Standard is $950/seat annually, unlimited automation is $1,200/seat. For 8 seats, that's $9,600 total on unlimited."
+        },
+        {
+          "by": "prospect",
+          "question": "Fathom is quoting us around $6,000 for a similar setup. How do you justify the premium?",
+          "answer": "Our automation engine saves 4-5 hours per week per CS rep by eliminating manual handoff documentation. Most customers see ROI within 60 days."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring your CS leader or CFO into the next conversation to align on ROI and budget?",
+          "answer": "I can handle the CFO piece. Let me think about CS\u2014they're slammed right now, but I'll keep you posted."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom's competitive offer"
+      ],
+      "next_steps": [
+        "Send ROI calculator and case study",
+        "Morgan to review internally and schedule pricing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-28",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Morgan Brooks",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute pricing negotiation call with Morgan Brooks. Morgan pushed for discount to match Fathom's pricing. Agreed to 27% discount, bringing ACV to $6,200 for 8 seats on unlimited automation tier. Morgan committed to moving forward but mentioned needing to finalize budget approval with CFO. No concrete timeline provided for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's $6,000 pricing to close this week?",
+          "answer": "I can bring it down to $6,200 with a 27% discount if you can commit to a 12-month contract and close by end of month."
+        },
+        {
+          "by": "rep",
+          "question": "When do you expect to have CFO sign-off, and can we loop them in to address any final questions?",
+          "answer": "Should have approval in the next week or two. I'll handle the CFO conversation\u2014no need to involve them directly."
+        }
+      ],
+      "objections": [
+        "Need lower pricing to stay within budget and competitive with Fathom"
+      ],
+      "next_steps": [
+        "Send updated proposal with discounted pricing",
+        "Morgan to secure CFO approval and confirm contract timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

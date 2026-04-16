@@ -1,0 +1,408 @@
+{
+  "deal_id": "DEAL-0199",
+  "company": {
+    "name": "LoopMarket",
+    "industry": "eCommerce",
+    "employee_count": 702,
+    "annual_revenue": 74076137,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19500.0,
+    "seats": 23,
+    "price_per_seat_monthly": 69.76,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.6,
+    "sales_cycle_days": 31,
+    "close_date": "2024-05-25",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jessica Sanchez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 29
+    },
+    {
+      "name": "Taylor Rogers",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    },
+    {
+      "name": "Amelia Santos",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 34
+    },
+    {
+      "name": "Derek Johnson",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-12",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Jessica Sanchez introducing our platform's rep productivity capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-13",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 14.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message to Jessica referencing eCommerce CS challenges. Jessica responded expressing interest in learning more about call analytics and coaching tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-24",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Jessica to understand LoopMarket's current CS workflow. Discussed team size (23 reps), current tools (Fireflies for transcription), and pain points around coaching consistency. Jessica confirmed budget authority sits with RevOps but she can champion internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for reviewing rep calls and providing coaching?",
+          "answer": "We use Fireflies to record calls, but managers have to manually review transcripts. There's no structure around it, so coaching is inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Fireflies?",
+          "answer": "We layer AI-powered analytics and automated coaching workflows on top of transcription - surfacing deal risks, competitor mentions, and coaching moments automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jessica to review current Fireflies usage internally",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar eCommerce company and ROI calculator. Jessica responded asking about implementation timeline and whether we integrate with their existing tech stack (Salesforce, Gong).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline, and do you integrate with Salesforce and Gong?",
+          "answer": "Implementation is typically 2-3 weeks. We have native integrations with both Salesforce and Gong, with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with deeper dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-30",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on LoopMarket's CS org structure and coaching bottlenecks. Jessica walked through their current quarterly review process and explained manager bandwidth constraints. Discussed specific use cases: onboarding acceleration, at-risk account identification, competitive intelligence. Jessica mentioned Fireflies contract renews in 4 months. She'll need to involve RevOps (Taylor, Derek) and IT (Amelia) for vendor evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Faster ramp time for new hires and managers spending less time on manual call review. If we can cut onboarding from 8 weeks to 6, that's a win."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "RevOps owns the vendor relationship and budget approval - that's Taylor and Derek. Amelia in IT will need to review security and integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you pull historical call data from Fireflies into your platform?",
+          "answer": "Yes, we can ingest historical transcripts and backfill analytics so you see value immediately rather than waiting for new data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation to Amelia",
+        "Schedule demo with Jessica and RevOps stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-05",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Jessica covering automated coaching workflows, deal risk scoring, and competitive intelligence features. Walked through live example using LoopMarket's ICP. Jessica engaged throughout, particularly interested in the Fireflies migration path and how we surface competitor mentions. She asked about pricing structure and noted she'll need to build internal business case for RevOps review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the migration from Fireflies work - do we lose historical data?",
+          "answer": "No data loss. We can import all your Fireflies transcripts and run our analytics retroactively, so you have full history from day one."
+        },
+        {
+          "by": "rep",
+          "question": "Which features would have the most immediate impact for your team?",
+          "answer": "The automated onboarding playbooks and the at-risk account alerts. Those directly address our two biggest pain points."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 23 seats?",
+          "answer": "For your use case with automations and onboarding consulting, we're looking at around $24,900 ACV. I can send a detailed breakdown."
+        }
+      ],
+      "objections": [
+        "That's higher than our current Fireflies spend - I'll need to justify the ROI to RevOps"
+      ],
+      "next_steps": [
+        "Send ROI analysis and pricing breakdown",
+        "Jessica to socialize internally with Taylor and Derek",
+        "Schedule follow-up with broader team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-10",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Jessica - no exec sponsor joined as expected. Jessica shared that RevOps is pushing back on pricing and comparing to Fireflies' lower cost. She's building business case around reduced onboarding time and manager efficiency gains. Discussed potential compromises on seat count or feature tier to hit budget constraints.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the main blocker from RevOps right now?",
+          "answer": "It's purely budget. They see the value but Fireflies is $8K annually and we're comparing a significant jump. Taylor asked if we can get closer to $18K."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package or seat count to bring the price down?",
+          "answer": "We could explore a lighter consulting engagement or phase the rollout with fewer seats initially."
+        }
+      ],
+      "objections": [
+        "RevOps is concerned about the price delta versus Fireflies"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with flexible options",
+        "Jessica to schedule review with Taylor and Derek"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-12",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting, again without exec sponsor present. Jessica provided feedback from RevOps conversations - they're interested but price remains the central issue. Discussed revised proposal options: reduced consulting scope, phased seat rollout, or annual commitment discount. Jessica advocated for keeping full feature set due to onboarding ROI.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we can get to $19,500 with the full feature set and all 23 seats, does that work?",
+          "answer": "Let me check with the team, but that would likely get us there. I'd need to see the formal proposal to confirm."
+        },
+        {
+          "by": "rep",
+          "question": "Would an exec from your side help accelerate the decision timeline?",
+          "answer": "Honestly, this is really a RevOps and CS decision. Our VP of Revenue trusts Taylor's vendor evaluations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal at $19,500",
+        "Jessica to review with Taylor and Amelia for final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-16",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing review call with Jessica to walk through revised $19,500 proposal (21.6% discount from initial quote). Covered what's included: all 23 seats, full automations tier, reduced consulting engagement (3 sessions vs. 5). Jessica confirmed this aligns with RevOps budget expectations and asked about contract terms and payment structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this an annual contract, and can we do quarterly payments?",
+          "answer": "It's a 12-month commitment, and we can accommodate quarterly invoicing if that helps with cash flow."
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing get us to a yes from RevOps and IT?",
+          "answer": "I believe so. Taylor gave me a soft yes at this number, and Amelia's security review came back clean. I need to get formal sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal contract at $19,500",
+        "Jessica to circulate for signatures from Taylor and Derek"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-21",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to address contract redlines from LoopMarket's procurement team (Derek). Discussed data retention policy, termination clause, and auto-renewal terms. Derek pushed for 60-day termination notice instead of 90-day, and Jessica advocated for the change. Agreed to compromise on procurement requests to keep deal moving.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we revise the termination notice from 90 days to 60 days?",
+          "answer": "We can make that adjustment. I'll have the updated contract over today."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other contract terms blocking signature?",
+          "answer": "No, this was the main one. Once we have the revised version, we should be good to execute."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with 60-day termination clause",
+        "Derek and Taylor to review and sign"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-25",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Jessica Sanchez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Jessica and Taylor to confirm contract terms and kickoff timeline. Reviewed implementation plan, integration requirements with Salesforce/Gong, and onboarding schedule for CS team. Taylor confirmed budget approval and target signature date. Jessica expressed enthusiasm about getting the team ramped quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the earliest we can start implementation once the contract is signed?",
+          "answer": "We can kick off within one week of signature. Our team will schedule the technical onboarding and integration setup immediately."
+        },
+        {
+          "by": "rep",
+          "question": "Who should be our primary point of contact during implementation?",
+          "answer": "I'll own it from the CS side, and Amelia will handle the technical integration with IT support."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you anticipate any issues getting signatures this week?",
+          "answer": "No blockers on our end. Taylor and Derek have both approved, so we're just waiting on final legal review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Taylor and Derek to execute contract",
+        "Schedule implementation kickoff call",
+        "Begin Fireflies data migration planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

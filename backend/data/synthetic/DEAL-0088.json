@@ -1,0 +1,255 @@
+{
+  "deal_id": "DEAL-0088",
+  "company": {
+    "name": "CoastalCo",
+    "industry": "Marketing Agency",
+    "employee_count": 54,
+    "annual_revenue": 3520962,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5900.0,
+    "seats": 7,
+    "price_per_seat_monthly": 69.82,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.6,
+    "sales_cycle_days": 39,
+    "close_date": "2023-09-13",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Nathan Kim",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Grayson Wolf",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-29",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 14.0,
+      "rescheduled": false,
+      "ai_summary": "Initial LinkedIn outreach to Nathan Kim. Rep introduced AskElephant's automation platform for sales teams. Nathan responded positively, mentioning current challenges with manual follow-up processes at CoastalCo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of automation capabilities does your platform offer for sales teams?",
+          "answer": "Rep explained workflow automation, email sequencing, and task management features with consulting support to customize for their team's needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-05",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute qualification call with Nathan Kim. Discussed CoastalCo's current sales process, team size (7 sales reps), and pain points around manual follow-ups and lack of visibility into rep activity. Nathan confirmed budget authority and timeline for Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for managing sales follow-ups and activity tracking?",
+          "answer": "Nathan explained they use a mix of spreadsheets and their CRM, but lack automated workflows. Reps often miss follow-ups during busy periods."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting component work with the platform?",
+          "answer": "Rep outlined the onboarding process with dedicated consulting hours to build custom automations specific to their sales motions."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Nathan mentioned their RevOps Analyst, Grayson Wolf, handles technical evaluations but felt confident moving forward with his approval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questions via email",
+        "Schedule demo for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery questionnaire covering current tech stack, integration requirements, and specific automation use cases. Nathan responded within 24 hours with detailed answers, noting they need Salesforce integration and want to automate outbound sequences.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this integrate with our Salesforce instance?",
+          "answer": "Rep confirmed native Salesforce integration and offered to demonstrate it in the upcoming demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on Salesforce integration and outbound automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-19",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "29-minute product demo (rescheduled from original time). Demonstrated core automation features, Salesforce integration, and outbound sequencing. Nathan asked detailed questions about reporting capabilities and implementation timeline. Meeting ended slightly early due to Nathan's scheduling conflict.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we track which automations are driving the most pipeline?",
+          "answer": "Rep showed reporting dashboard with automation attribution and conversion metrics by workflow type."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Rep estimated 3-4 weeks including consulting setup, noting flexibility based on complexity of custom workflows."
+        },
+        {
+          "by": "rep",
+          "question": "Should we bring Grayson into the next conversation to review technical requirements?",
+          "answer": "Nathan said he'd loop Grayson in after seeing pricing, wanted to make sure it fit budget first."
+        }
+      ],
+      "objections": [
+        "Nathan mentioned needing to move quickly due to another meeting, requested abbreviated demo"
+      ],
+      "next_steps": [
+        "Send demo recording and additional resources",
+        "Prepare pricing proposal for 7 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, case study from similar-sized marketing agency, and request for timing on pricing discussion. Nathan responded asking for pricing options and noting budget constraints for Q2.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to discuss options and budget"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-04",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute pricing call. Presented standard pricing at $7,525 ACV for 7 seats with automations_plus_consulting tier. Nathan pushed back on price, citing budget approval challenges and mentioned they're limited to ~$6,000 for this initiative. Rep offered 21.6% discount to $5,900 to close in current quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours, or could we start with fewer seats?",
+          "answer": "Rep explained the consulting component is tied to the tier, but offered the discount as alternative to reducing scope."
+        },
+        {
+          "by": "rep",
+          "question": "Who needs to approve this budget, and what's the approval process?",
+          "answer": "Nathan indicated he has approval authority up to $10k but wants to stay conservative. No mention of executive review needed."
+        }
+      ],
+      "objections": [
+        "Price higher than budgeted amount, needs to stay around $6,000",
+        "Concern about getting full value from consulting hours with current team capacity"
+      ],
+      "next_steps": [
+        "Send revised proposal at $5,900",
+        "Nathan to review internally and confirm by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Kim",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with updated proposal at $5,900 for 7 seats, automations_plus_consulting tier. Included implementation timeline, ROI calculator, and contract for review. Nathan acknowledged receipt and said he's reviewing with finance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Nathan to provide feedback on contract terms",
+        "Target signature by end of next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 129,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

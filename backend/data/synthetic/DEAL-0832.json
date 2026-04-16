@@ -1,0 +1,560 @@
+{
+  "deal_id": "DEAL-0832",
+  "company": {
+    "name": "CoastalLabs",
+    "industry": "Fintech",
+    "employee_count": 6529,
+    "annual_revenue": 546024527,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 72300.0,
+    "seats": 59,
+    "price_per_seat_monthly": 105.25,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 121,
+    "close_date": "2023-08-10",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Owen Smith",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 48
+    },
+    {
+      "name": "Mason Levy",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 47
+    },
+    {
+      "name": "Elijah Baker",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Owen Smith at CoastalLabs regarding forecasting accuracy solutions. Initial interest logged, follow-up scheduled.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Owen"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-11",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Owen Smith to understand CoastalLabs' current forecasting challenges. Owen described inconsistent pipeline visibility across their sales org and mentioned they're currently evaluating multiple solutions including Gong. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in improving forecasting accuracy right now?",
+          "answer": "Our executive team is concerned about revenue predictability. We've had two quarters of significant forecast misses and need better visibility into our pipeline health."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in this evaluation?",
+          "answer": "I'm leading the evaluation from CS, but we'll need to bring in Mason Levy from implementation and Elijah Baker from sales management. They'll want to see how this integrates with our current stack."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview materials",
+        "Schedule technical deep-dive",
+        "Identify additional stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-19",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to discuss CoastalLabs' tech stack and integration requirements. Owen provided details on current CRM setup and data quality concerns. Discussed timeline for decision (8-10 weeks) and confirmed they're running a parallel evaluation with Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle data quality issues? Our CRM hygiene isn't perfect.",
+          "answer": "Our AI models are designed to work with imperfect data. We use normalization and enrichment to fill gaps, and our accuracy actually improves over time as the system learns your patterns."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for generating forecasts?",
+          "answer": "Mostly manual spreadsheets compiled by regional managers. It's time-consuming and error-prone, which is why we're looking for automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share integration documentation",
+        "Prepare discovery session for deeper use case analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery session prep materials and agenda. Included case study from similar fintech company and requested Owen share current forecasting templates ahead of next call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can you share a sample of your current forecast template so we can tailor the discovery session?",
+          "answer": "Yes, I'll send over a sanitized version by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review forecast templates from Owen",
+        "Prepare customized discovery agenda"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-06",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on CoastalLabs' forecasting workflow and pain points. Owen walked through their current quarterly process, highlighting manual effort and lack of real-time insights. Discussed requirement for 59 seats across sales and CS teams. Noted that Gong's pricing came in higher than expected.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond forecasting, are there other analytics or coaching use cases you're interested in?",
+          "answer": "Definitely coaching. We want to scale best practices across our team, and conversation intelligence would help identify what top performers are doing differently."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline, and what level of consulting support do you provide?",
+          "answer": "Standard implementation is 4-6 weeks with our automations package. Given your use case complexity, we'd recommend our consulting add-on for customized playbook development and change management support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Draft preliminary scope of work",
+        "Schedule demo for next week",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-11",
+      "type": "follow_up_call",
+      "duration_minutes": 7,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to confirm demo attendees and agenda. Owen confirmed Mason and Elijah will join the demo. Discussed focus areas: forecasting accuracy metrics, CRM integration, and reporting dashboards.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there specific reports or metrics that would make this demo most valuable for Mason and Elijah?",
+          "answer": "Mason will want to see the integration architecture, and Elijah needs to understand how we'd roll this out to the sales team without disrupting current workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Customize demo environment with CoastalLabs data",
+        "Prepare integration architecture overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-21",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Owen, Mason, and Elijah. Showcased forecasting accuracy features, conversation intelligence, and CRM integration. Mason asked detailed technical questions about API architecture and data security. Elijah focused on user adoption and reporting capabilities. Team engaged positively, though noted Gong demo is scheduled for next week. No executive attendance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data residency requirements? We have customers in the EU.",
+          "answer": "We offer regional data hosting options and are SOC 2 and GDPR compliant. We can configure your instance to ensure EU data stays in EU data centers."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the change management process look like for a team our size?",
+          "answer": "With the consulting package, we'd assign a dedicated CSM to work with your managers on rollout planning, training sessions, and ongoing adoption tracking. Typical ramp time is 60-90 days to full team adoption."
+        },
+        {
+          "by": "rep",
+          "question": "Should we plan to include your CFO or CRO in the next conversation given the forecasting accuracy impact?",
+          "answer": "That's a good idea. I'll check their availability, but they typically trust my recommendations on CS tools."
+        }
+      ],
+      "objections": [
+        "We need to see how this compares to Gong before we can move forward"
+      ],
+      "next_steps": [
+        "Send demo recording and feature comparison",
+        "Attempt to schedule exec briefing",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-29",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive discovery call with Owen to explore change management requirements and success metrics. Discussed training approach for 59 users and how to measure ROI on forecasting improvement. Owen mentioned Gong demo went well but pricing was steep. Still no exec involvement confirmed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you measuring forecast accuracy today, and what improvement would make this a clear win?",
+          "answer": "We track variance between forecast and actual closed revenue. Currently we're at about 68% accuracy. Getting to 85%+ would be transformational for our planning process."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ongoing support is included after implementation?",
+          "answer": "All customers get access to our support team, quarterly business reviews, and our customer community. With consulting, you also get monthly strategy sessions with your CSM for the first year."
+        },
+        {
+          "by": "rep",
+          "question": "What's your sense of timing to make a decision?",
+          "answer": "We're hoping to finalize by end of next month so we can start implementation before Q3 planning kicks off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with consulting package",
+        "Request executive sponsor introduction"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Email sent requesting introduction to CRO or CFO before sending formal proposal. Emphasized that exec alignment on success metrics would strengthen implementation. Owen responded that he'll try to arrange an exec touchpoint but mentioned leadership is currently focused on quarter-end.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up on exec meeting availability",
+        "Prepare proposal draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo with comparison matrix showing our platform vs. Gong, highlighting consulting support and forecasting-specific features. Included customer reference from similar fintech company that achieved 22% forecasting accuracy improvement.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call",
+        "Await feedback on exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-22",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Owen, Mason, and Elijah. Presented $72,300 ACV for 59 seats with automations plus consulting package. Team expressed concern about budget, noting Gong came in at $68K but without consulting. Mason confirmed technical fit is strong. Elijah asked about flexibility on contract terms. Owen mentioned he's still working on getting exec time but hasn't secured it yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package? Could we phase that in after we see initial results?",
+          "answer": "The consulting is really key to achieving the forecasting accuracy gains you're targeting. We could potentially structure it as a monthly add-on rather than annual prepay, but that would impact the overall discount."
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process once you have a preferred vendor?",
+          "answer": "I can approve up to $75K, so this is within my authority. We'd need legal review of the contract, but that's typically quick."
+        }
+      ],
+      "objections": [
+        "The price is about 6% higher than Gong's quote"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Request legal contact for contract review",
+        "Continue pursuing exec touchpoint"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-06-30",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Owen present, but no C-level attendance. Instead met with Owen's manager (VP of CS) who was supportive but deferred to Owen's judgment. Discussed strategic value of forecasting accuracy for board reporting. VP asked about multi-year pricing but didn't commit to sponsoring the deal at exec level.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we committed to a two-year deal, what kind of discount could you offer?",
+          "answer": "For a two-year commitment at this seat count, we could offer 12% off, bringing year one to approximately $63,600. That would also lock in your pricing for year two."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be valuable to have our CRO connect with your CRO on how forecasting accuracy has impacted our own business?",
+          "answer": "That could be helpful, though our CRO's schedule is pretty packed. Let me think about the right timing for that."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with multi-year pricing options",
+        "Attempt CRO-to-CRO connection"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal showing one-year at $72,300 and two-year option at $63,600 annually. Emphasized value of consulting package for achieving 85%+ forecasting accuracy target. Requested decision timeline and next steps.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await Owen's response on pricing options",
+        "Prepare for negotiation conversation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.5,
+      "rescheduled": false,
+      "ai_summary": "Email from Owen indicating they're leaning toward our solution but need to negotiate final pricing. Finance is pushing for the lower number given Gong's competitive quote. Asked if we can match $68K for one-year deal with consulting included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any way to get to $68K all-in with the consulting package? That would make this an easy yes.",
+          "answer": "Let me discuss with my leadership and get back to you tomorrow. That's a significant discount but I want to make this work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for pricing concession",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-07-25",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Owen and Mason. Discussed pricing options and deal structure. Proposed meeting in the middle at $70K for one-year with full consulting package, or $68K with reduced consulting hours. Owen and Mason preferred the full consulting at $70K but needed to confirm with finance. Committed to respond within 48 hours.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can land at $70K with full consulting, is there anything else that would prevent you from moving forward?",
+          "answer": "No, at that price with the full support package, this is clearly the better solution for our needs. I just need finance to sign off."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the payment structure? Can we do quarterly instead of annual upfront?",
+          "answer": "For deals over $60K, we typically do quarterly payments. That won't be an issue."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await finance approval on $70K pricing",
+        "Prepare contract with quarterly payment terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-07-31",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up negotiation call. Owen confirmed finance approved $70K. Discussed contract terms, implementation timeline, and success metrics. Legal review to begin next week. Elijah joined briefly to confirm rollout plan for sales team. Positive momentum, deal appears to be moving to close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance clause tied to forecast accuracy improvement?",
+          "answer": "We typically don't include performance guarantees in contracts, but we can document your success metrics in the SOW and structure our QBRs around tracking progress toward your 85% accuracy goal."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for legal review on your end?",
+          "answer": "Usually 3-5 business days. I'll make sure they prioritize this so we can start implementation by early next month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Owen for legal review",
+        "Schedule implementation kickoff planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-08-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Smith",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Email confirming contract sent to legal and implementation kickoff scheduled for first week of next month. Owen confirmed all stakeholders aligned and expects contract signature within the week. Thanked team for flexibility on pricing and emphasized excitement about improving their forecasting process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Monitor legal review progress",
+        "Prepare implementation team introduction",
+        "Schedule kickoff call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

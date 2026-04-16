@@ -1,0 +1,604 @@
+{
+  "deal_id": "DEAL-0237",
+  "company": {
+    "name": "GraniteLens",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 670,
+    "annual_revenue": 109297241,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18000.0,
+    "seats": 21,
+    "price_per_seat_monthly": 69.24,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 22.2,
+    "sales_cycle_days": 66,
+    "close_date": "2025-10-31",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Kevin Weber",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 39
+    },
+    {
+      "name": "Alex Rodriguez",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 9
+    },
+    {
+      "name": "Sofia Sharma",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 6
+    },
+    {
+      "name": "Sarah Reddy",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Kevin Weber submitted an inbound demo request via website form, expressing interest in improving the sales-to-CS handoff process. He mentioned current challenges with their existing workflow and asked for a conversation to explore solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-26",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Kevin Weber to understand GraniteLens's current handoff process. Kevin shared pain points around missed context during account transitions and explained their team structure (21 users across sales and CS). Discussed timeline and budget parameters.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had several escalations from new customers who felt blindsided during onboarding because sales promises weren't captured properly"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot and Intercom?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to map out current handoff workflow",
+        "Send case study on similar use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study from similar mid-market MSP customer and confirming next call. Kevin responded quickly confirming he reviewed the materials and is excited to continue the conversation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for second qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-03",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving deeper into technical requirements and team structure. Kevin walked through their current process and pain points with manual note-taking. Discussed the 21-seat count (12 AEs, 9 CSMs) and explored automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation plan work compared to competitors like Gong?",
+          "answer": "Unlike Gong which charges per automation or limits workflows, our unlimited plan includes all automation features with no usage caps"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll need to loop in Sofia Sharma from our technical team and eventually Alex Rodriguez who oversees the entire revenue org"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to introduce Sofia Sharma",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.5,
+      "rescheduled": false,
+      "ai_summary": "Email recap of qualification discussion with proposed agenda for discovery call. Kevin confirmed Sofia's availability and requested we include technical integration details in the discovery session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over API documentation beforehand so Sofia can review?",
+          "answer": "Absolutely, I'll include our integration guide and API docs in the calendar invite"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send API docs and integration guide",
+        "Prepare discovery call deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email sent with meeting agenda, API documentation, and integration overview. Kevin acknowledged receipt and confirmed he's looking forward to the deep dive with the team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-17",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Kevin Weber covering detailed workflow mapping, integration requirements, and success metrics. Kevin shared specific examples of handoff failures and discussed how they currently use spreadsheets and Slack to bridge gaps. Explored their tech stack and data security requirements given their cybersecurity focus.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this initiative in 6 months?",
+          "answer": "Zero customer escalations related to handoff issues and CSMs spending 30% less time on information gathering"
+        },
+        {
+          "by": "prospect",
+          "question": "We're pretty strict on data security\u2014what certifications do you have?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant, with enterprise-grade encryption at rest and in transit"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "For your use case, typically 2-3 weeks from kickoff to go-live"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Prepare customized demo based on GraniteLens workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-19",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Kevin Weber showcasing sales-to-CS handoff automation, call recording analysis, and automated briefing generation. Walked through live examples using GraniteLens's specific workflow. Kevin was engaged and asked detailed questions about customization options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get automatically populated in the handoff brief?",
+          "answer": "Yes, you have full control over the template and can map any conversation insights to your CRM fields"
+        },
+        {
+          "by": "prospect",
+          "question": "What if a rep forgets to record a call\u2014can we still capture the information?",
+          "answer": "You can set up automatic call recording for all meetings, plus we support email ingestion and manual note uploads"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so probably 4-6 weeks"
+        }
+      ],
+      "objections": [
+        "Kevin mentioned they're also looking at Gong and want to understand differentiation beyond just the handoff use case"
+      ],
+      "next_steps": [
+        "Kevin to schedule technical evaluation with Sofia Sharma",
+        "Send competitive comparison vs Gong"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-22",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Sofia Sharma",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Sofia Sharma covering API capabilities, data model, integration architecture, and security protocols. Sofia tested the HubSpot and Intercom integrations hands-on and reviewed webhook configurations. Discussion focused heavily on data residency and access controls given GraniteLens's cybersecurity business.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is data stored and can we specify regional residency?",
+          "answer": "Primary storage is US-based AWS, and yes, we offer EU data residency as an add-on for enterprise plans"
+        },
+        {
+          "by": "prospect",
+          "question": "How granular is the role-based access control?",
+          "answer": "You can configure permissions at the user, team, and data-type level, including read-only access to call recordings"
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers you're seeing for your environment?",
+          "answer": "No blockers\u2014the API looks solid and the integrations are straightforward. I'll need to validate with our IT team but it looks good"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sofia to review with IT security team",
+        "Kevin to schedule executive alignment meeting with Alex Rodriguez"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-09-26",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First executive meeting with Alex Rodriguez (SVP of Revenue) to discuss strategic value, ROI projections, and investment justification. Alex focused on understanding business impact beyond the handoff use case and how this fits into their broader revenue operations strategy. Kevin joined to provide context.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline for customers in our segment?",
+          "answer": "Mid-market customers typically see positive ROI within 4-6 months through reduced churn and faster onboarding cycles"
+        },
+        {
+          "by": "rep",
+          "question": "Beyond the handoff use case, are there other areas where conversation intelligence could help your team?",
+          "answer": "Potentially coaching and deal reviews, but the handoff pain is the most acute right now"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our use case?",
+          "answer": "For your specific needs around handoff automation, our unlimited plan offers better value since you won't hit usage caps or pay extra for workflows"
+        }
+      ],
+      "objections": [
+        "Alex noted they need to understand total cost of ownership including implementation and training, not just license fees"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with ROI model",
+        "Schedule follow-up to review proposal details"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-10-04",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Alex Rodriguez to review detailed proposal including pricing ($18K ACV for 21 seats), implementation timeline, success metrics, and ROI projections. Alex asked pointed questions about discount structure and contract flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on contract length if we want to start with a shorter commitment?",
+          "answer": "We can discuss annual vs multi-year, though the pricing reflects an annual commitment"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the implementation support include?",
+          "answer": "Dedicated implementation manager, custom workflow configuration, integration setup, and team training\u2014all included"
+        }
+      ],
+      "objections": [
+        "Alex expressed concern about budget timing and whether they should wait until next fiscal year"
+      ],
+      "next_steps": [
+        "Alex to review internally with finance",
+        "Kevin to build internal business case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-10-05",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Alex Rodriguez addressing budget timing concerns. Discussed options for phased rollout or adjusted payment terms to fit current fiscal year budget. Alex indicated they're leaning toward moving forward but need to finalize numbers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would quarterly payment terms help with budget constraints?",
+          "answer": "That could work\u2014let me confirm with our CFO, but that would likely make this easier to approve"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with payment options",
+        "Alex to discuss with finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-10-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.0,
+      "rescheduled": false,
+      "ai_summary": "Email from rep to Kevin checking in on internal discussions and offering to address any additional questions. Kevin responded that Alex is working through budget approvals and they should have an update by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal update from GraniteLens team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-10-15",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Alex Rodriguez to discuss contract terms, pricing adjustments, and implementation timeline. Alex requested pricing concessions to fit budget and raised questions about Gong's competitive offer. Productive discussion but clear price sensitivity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Gong has offered us a discount to match your handoff features\u2014what's your best number?",
+          "answer": "I'd need to understand their specific offer, but our value is in the unlimited automation and purpose-built handoff workflows"
+        },
+        {
+          "by": "rep",
+          "question": "What price point would make this an easy yes for you?",
+          "answer": "We're targeting around $14K for the initial year, with potential to expand if we see the value"
+        }
+      ],
+      "objections": [
+        "Alex pushed back on list pricing and wants to see movement to competitive levels"
+      ],
+      "next_steps": [
+        "Rep to check discount approval with leadership",
+        "Reconvene later this week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-10-18",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up negotiation meeting with Alex Rodriguez presenting revised pricing at $14K ACV (22% discount from list) to meet their budget target. Alex seemed more positive but wanted to review final terms including auto-renewal, seat expansion terms, and implementation commitments.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-contract?",
+          "answer": "Additional seats are pro-rated at the same per-seat rate for the remainder of the term"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there an auto-renewal clause?",
+          "answer": "Yes, standard 12-month auto-renewal with 30-day notice period, but we can discuss terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send redlined contract with discussed terms",
+        "Alex to route for legal and final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-10-21",
+      "type": "exec_meeting",
+      "duration_minutes": 14,
+      "person_name": "Alex Rodriguez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Short call with Alex Rodriguez addressing minor contract language questions and confirming implementation start date. Alex indicated they're ready to move forward pending legal review, which should complete by end of week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any remaining concerns we should address before legal review?",
+          "answer": "No, I think we're in good shape\u2014just need legal to bless the contract language"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal review completion",
+        "Prepare implementation kickoff materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-10-26",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled negotiation call with Kevin Weber was rescheduled due to conflict on Kevin's side. He sent a brief note apologizing and suggesting alternative times later in the week. Call was intended to finalize implementation logistics and confirm stakeholder alignment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-10-31",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Kevin Weber",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing and terms confirmation call with Kevin Weber. Reviewed contract details, confirmed $14K pricing, discussed implementation timeline, and identified Sarah Reddy as the implementation lead. Kevin confirmed all stakeholders are aligned and contract is in final legal review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we expect signatures and kickoff?",
+          "answer": "Contract should be signed by early next week, and we'd like to start implementation immediately after"
+        },
+        {
+          "by": "prospect",
+          "question": "Will Sarah Reddy be our main point of contact during implementation?",
+          "answer": "Yes, Sarah will lead the implementation working with your team, and I'll stay involved for any escalations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Schedule implementation kickoff with Sarah Reddy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

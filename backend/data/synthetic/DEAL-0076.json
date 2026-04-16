@@ -1,0 +1,323 @@
+{
+  "deal_id": "DEAL-0076",
+  "company": {
+    "name": "ProtonDynamics",
+    "industry": "Marketing Agency",
+    "employee_count": 601,
+    "annual_revenue": 136154708,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 26200.0,
+    "seats": 31,
+    "price_per_seat_monthly": 66.75,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.0,
+    "sales_cycle_days": 34,
+    "close_date": "2023-06-15",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Owen Williams",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 43
+    },
+    {
+      "name": "Zara OConnor",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    },
+    {
+      "name": "Megan Roberts",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 52
+    },
+    {
+      "name": "Ezra Choi",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Owen Williams submitted an inbound demo request via the website, indicating interest in automating their sales-to-CS handoff process. No direct conversation occurred.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Owen"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-12",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Owen Williams to understand ProtonDynamics' handoff challenges. Owen described friction between their sales and CS teams during account transitions, leading to context loss and customer confusion. Discussed current manual processes and team size. Owen expressed strong interest in seeing a demo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at handoff automation right now?",
+          "answer": "We've had three client escalations in the past quarter due to poor handoff communication. Our CS team is spending too much time re-discovering context that sales already gathered."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot and Zendesk?",
+          "answer": "Yes, we have native integrations with both and can sync handoff playbooks bidirectionally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule technical evaluation with Ezra Choi"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and case study from similar marketing agency. Owen responded same day thanking us and confirming Ezra Choi's availability for next week's technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share the ROI metrics from that case study customer?",
+          "answer": "Attached detailed ROI breakdown showing 40% reduction in handoff time and 25% improvement in CS team efficiency within 90 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm technical eval with Ezra for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-21",
+      "type": "technical_eval",
+      "duration_minutes": 51,
+      "person_name": "Ezra Choi",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ezra Choi covering platform architecture, automation capabilities, and integration requirements. Ezra walked through their current tech stack and tested key workflows including automated handoff playbooks and notification routing. Discussed data security and compliance requirements. Ezra seemed satisfied with technical fit but mentioned needing to loop in procurement and implementation teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the system handle custom fields from HubSpot that don't map to standard objects?",
+          "answer": "We provide a flexible field mapping interface where you can create custom mappings and transformation rules during setup."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 31 seats with standard integrations, usually 3-4 weeks from kickoff to full rollout."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other solutions you're currently evaluating?",
+          "answer": "Not actively. We looked at a few options last year but nothing stuck. Owen found you through a peer recommendation."
+        }
+      ],
+      "objections": [
+        "We'll need to ensure this doesn't disrupt our current sales workflow during implementation."
+      ],
+      "next_steps": [
+        "Send technical documentation and security whitepaper",
+        "Schedule proposal review with Owen and Megan Roberts"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Owen summarizing the technical evaluation and next steps. Included technical docs requested by Ezra and proposed meeting time with procurement (Megan Roberts) to discuss commercial terms. Owen confirmed Megan's involvement and suggested moving forward with a formal proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 31 seats with unlimited automation tier",
+        "Schedule proposal walkthrough"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for $35,000 ACV (31 seats, unlimited automation tier). Owen acknowledged receipt and mentioned he's reviewing internally with Megan and Zara (implementation lead). Asked for a few days to consolidate feedback before scheduling a review call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the per-seat pricing given our volume?",
+          "answer": "Let me discuss with my manager and get back to you. We can typically work with committed annual contracts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review feedback",
+        "Prepare pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review status. Owen responded that the team is generally aligned on moving forward but procurement is pushing back on budget. He requested a call to discuss pricing adjustments and asked if there's room to negotiate given their commitment to annual contract.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call with Owen and Megan",
+        "Prepare discount options for annual commit"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-11",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Owen to address budget concerns. Owen explained that their approved budget for this initiative is closer to $26K and asked if we could meet that number for year one with a committed expansion path. Discussed reducing ACV to $26,200 (25% discount) in exchange for annual contract and case study participation. Owen seemed relieved and confirmed he could get this approved quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to the annual contract at this price, what's the renewal pricing structure?",
+          "answer": "Renewal would be at standard pricing, but we'd lock in a not-to-exceed 8% annual increase for the first two renewals."
+        },
+        {
+          "by": "rep",
+          "question": "Can you get executive sign-off at this price point, or do we need to involve anyone else?",
+          "answer": "I have spending authority up to $30K. I can approve this with Megan's alignment. I'll brief our VP but don't anticipate needing formal sign-off from her."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract at $26,200 ACV",
+        "Schedule brief alignment call with leadership if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-16",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Owen Williams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Owen, Megan, and Zara to finalize terms and discuss implementation plan. Walked through revised contract, timeline, and success criteria. The team confirmed budget approval and alignment on scope. Discussed onboarding process and assigned Zara as implementation lead. Owen committed to getting contract signed by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the onboarding support look like during the first 30 days?",
+          "answer": "You'll have a dedicated implementation manager, weekly check-ins, and 24/7 support access. We also provide train-the-trainer sessions for your internal champions."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we phase the rollout by team rather than all at once?",
+          "answer": "Absolutely. Most customers start with a pilot team and expand. We can structure the rollout however works best for you."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else we need to address before sending the final contract?",
+          "answer": "No, I think we're good. Just need legal to review the MSA but don't expect any issues."
+        }
+      ],
+      "objections": [
+        "We want to make sure there's a clear rollback plan if the initial rollout doesn't meet expectations."
+      ],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff for next month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "deal_id": "DEAL-0317",
+  "company": {
+    "name": "BluePathway",
+    "industry": "Fintech",
+    "employee_count": 46,
+    "annual_revenue": 5834025,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 10100.0,
+    "seats": 11,
+    "price_per_seat_monthly": 73.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 17.5,
+    "sales_cycle_days": 44,
+    "close_date": "2023-06-19",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zoey Kim",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 16
+    },
+    {
+      "name": "Diego Wang",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-19",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Zoey Kim with personalized message about onboarding automation challenges in fintech. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-21",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Zoey Kim highlighting onboarding automation ROI for customer success teams at fintech companies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-25",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempted to Zoey Kim. Left voicemail introducing our platform and mentioning relevant fintech use cases. No callback received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-28",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Zoey Kim. She mentioned they're currently evaluating tools to streamline customer onboarding. Expressed interest in learning more about automation capabilities. Agreed to connect us with Diego Wang from RevOps for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in onboarding automation right now?",
+          "answer": "We're scaling our customer base and manual onboarding is becoming a bottleneck for our CS team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Intro email to Diego Wang",
+        "Schedule qualification call with Diego"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-06",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Diego Wang",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Diego Wang from RevOps. Discussed current tech stack and integration requirements. He mentioned they're also looking at Fireflies but want to compare automation capabilities. Confirmed they need solution for 10-15 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with Salesforce and our existing workflow tools?",
+          "answer": "We have native Salesforce integration with bi-directional sync, plus API connections for most common CS platforms"
+        },
+        {
+          "by": "rep",
+          "question": "What other tools are you currently evaluating?",
+          "answer": "We're looking at Fireflies primarily, but want something with stronger automation features"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Zoey",
+        "Send integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-14",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Zoey Kim. Deep dive into their onboarding workflow, pain points, and success metrics. She outlined specific automation needs for customer communication and task management. Discussed team size and budget considerations. No executive involvement mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show us examples of how other fintech companies use your automation features?",
+          "answer": "Shared case study of similar-sized fintech client who reduced onboarding time by 40% using our workflow automation"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Mostly our CS team and Diego from RevOps. We can move forward with their buy-in"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation takes 2-3 weeks with our onboarding team"
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't overlap with what Fireflies already offers"
+      ],
+      "next_steps": [
+        "Prepare custom demo focused on automation workflows",
+        "Send pricing overview for 11 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-23",
+      "type": "demo",
+      "duration_minutes": 28,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Zoey Kim. Walked through unlimited automation tier features and specific onboarding use cases. She was engaged and asked detailed questions about workflow customization. Mentioned Fireflies comparison again - wants to understand differentiation clearly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows for our specific onboarding steps?",
+          "answer": "Fully customizable via drag-and-drop builder, plus custom triggers and conditions"
+        },
+        {
+          "by": "prospect",
+          "question": "What makes your automation better than what Fireflies offers?",
+          "answer": "Fireflies focuses on transcription, while we provide end-to-end workflow automation with task assignment, email sequences, and CRM updates"
+        },
+        {
+          "by": "rep",
+          "question": "Would you like to run a pilot with your team before full commitment?",
+          "answer": "Let me discuss with Diego, but I think we'd prefer to move forward if pricing works"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 11 seats",
+        "Schedule follow-up to discuss proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-01",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review meeting with Zoey Kim. Discussed $10,100 ACV pricing for 11 seats with unlimited automation. She reviewed terms and asked about contract flexibility. Still no executive sponsor present. She indicated she has budget authority for this size deal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs quarterly payment terms?",
+          "answer": "We can offer quarterly payments with a small upcharge, or annual with 5% discount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in onboarding support?",
+          "answer": "Dedicated onboarding specialist, custom workflow setup, and 30 days of hands-on support"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include anyone from leadership in final approval discussion?",
+          "answer": "I'll sync with my director, but this falls within my approval range"
+        }
+      ],
+      "objections": [
+        "Pricing is slightly higher than Fireflies - need to justify the premium"
+      ],
+      "next_steps": [
+        "Zoey to review proposal internally",
+        "Follow up next week for decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-10",
+      "type": "exec_meeting",
+      "duration_minutes": 45,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Zoey Kim. Discussed final terms and implementation timeline. She pushed back on pricing, referencing lower Fireflies quote. Explored contract length and payment terms flexibility. Agreed to minor adjustments. Still proceeding without executive involvement, which is noted as potential risk.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a shorter contract term to derisk the commitment?",
+          "answer": "We typically do annual minimum, but can include a 60-day satisfaction guarantee"
+        },
+        {
+          "by": "prospect",
+          "question": "Fireflies quoted us about 20% less - can you match or get closer?",
+          "answer": "Our pricing reflects the comprehensive automation platform, but I can offer a 10% discount if we close this month"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "Need to finalize this week. Have budget allocated but need to choose between solutions"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we expand the team?",
+          "answer": "Yes, we can add seats anytime with prorated pricing"
+        }
+      ],
+      "objections": [
+        "Price sensitivity compared to Fireflies offering"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Zoey to get final internal approval",
+        "Target contract signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Zoey Kim with revised proposal reflecting negotiated terms. Included implementation timeline, discount details, and contract for review. Awaiting final decision between our solution and Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do you need any additional information to move forward with the decision?",
+          "answer": "No, we have everything we need. Will review with Diego and get back to you by Friday"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Zoey reviewing final proposal",
+        "Decision expected by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

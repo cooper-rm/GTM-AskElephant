@@ -1,0 +1,386 @@
+{
+  "deal_id": "DEAL-0357",
+  "company": {
+    "name": "PulseApps",
+    "industry": "eCommerce",
+    "employee_count": 894,
+    "annual_revenue": 159358419,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 23800.0,
+    "seats": 33,
+    "price_per_seat_monthly": 61.17,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.3,
+    "sales_cycle_days": 42,
+    "close_date": "2023-03-19",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Kevin Hill",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 6
+    },
+    {
+      "name": "Mia Takahashi",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 14
+    },
+    {
+      "name": "Javier Adams",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 13
+    },
+    {
+      "name": "Liam Wright",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-31",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Kevin Hill submitted an inbound demo request through the website, expressing interest in improving rep productivity and visibility into pipeline health.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current workflow and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-05",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Kevin Hill to understand current sales process and pain points. Kevin shared frustrations with lack of visibility into rep activities and inconsistent deal qualification. Currently using basic CRM tools and considering Gong as an alternative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in conversation intelligence right now?",
+          "answer": "We're missing too many deals in late stages and I don't have visibility into why. Reps aren't consistently qualifying or documenting their calls."
+        },
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for sales enablement?",
+          "answer": "Just Salesforce and some basic call recording, but nothing automated. We've also been looking at Gong."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "We focus more on automations and workflow integrations, plus we offer consulting to help with implementation and adoption."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper dive on use cases and team size",
+        "Send pricing overview for 30-35 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-10",
+      "type": "discovery_call",
+      "duration_minutes": 41,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call diving deeper into team structure and specific automation needs. Kevin outlined the sales org (33 reps across 3 teams) and emphasized need for quick time-to-value. Discussion included integration requirements with existing stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current tech stack and what integrations are critical?",
+          "answer": "Salesforce is our core CRM, Outreach for sequences, Slack for internal comms. We need everything to sync automatically."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this on your side?",
+          "answer": "I'll need to bring in Mia from IT for technical review, and Javier handles vendor procurement. I can champion this internally."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "With our consulting package, we can get you up and running in 2-3 weeks with full adoption support."
+        }
+      ],
+      "objections": [
+        "Budget approval might be tight this quarter, we'll need to see strong ROI justification"
+      ],
+      "next_steps": [
+        "Prepare demo focused on rep productivity workflows",
+        "Include Mia and Javier in next meeting",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery discussions and sharing ROI analysis based on 33 seats. Attached case study from similar mid-market eCommerce company showing 23% improvement in close rates.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the consulting package?",
+          "answer": "Includes implementation planning, custom workflow setup, admin training, and 60 days of adoption support with weekly check-ins."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review materials before technical evaluation",
+        "Confirm availability for demo with full buying committee"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming upcoming technical evaluation with Mia and sharing pre-demo technical documentation. Included security questionnaire and integration architecture overview.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete security questionnaire before technical eval",
+        "Technical evaluation scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-26",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Mia Takahashi",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation with Mia Takahashi (rescheduled once). Detailed review of platform architecture, security protocols, and Salesforce integration capabilities. Mia expressed concerns about implementation complexity and asked pointed questions about data residency and API rate limits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is conversation data stored and do we have options for data residency?",
+          "answer": "US-based AWS servers by default, EU residency available as an add-on. All data encrypted at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "What are your API rate limits and how does that scale with our call volume?",
+          "answer": "Standard tier supports up to 10,000 API calls per day, enterprise tier is unlimited. For 33 users we'd recommend standard."
+        },
+        {
+          "by": "prospect",
+          "question": "How much IT resources are required during implementation?",
+          "answer": "Minimal - mostly OAuth setup and webhook configuration. Our consulting team handles the heavy lifting, you'd need about 5-10 hours from IT total."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers you're seeing on your end?",
+          "answer": "Nothing major, but I'll need to review our current API usage with other tools to ensure we don't hit limits. Also want to confirm SSO compatibility."
+        }
+      ],
+      "objections": [
+        "Implementation timeline might conflict with Q3 system upgrades we have planned"
+      ],
+      "next_steps": [
+        "Send SSO compatibility documentation",
+        "Mia to review internally and provide technical sign-off",
+        "Schedule proposal review with Kevin"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Email to Kevin sharing formal proposal with pricing for 33 seats on automations_plus_consulting package. Included tiered pricing options and outlined discount structure based on annual commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing if we commit to a multi-year deal?",
+          "answer": "We can explore additional discounts for multi-year commitments - let's discuss on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review proposal with procurement",
+        "Schedule call to discuss pricing and terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-08",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Kevin to review business case and discuss internal approval process. Kevin mentioned budget scrutiny but confirmed strong internal support. No executive sponsor from prospect side in attendance. Conversation focused on demonstrating ROI to finance team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does the approval process look like from here?",
+          "answer": "I need to get finance sign-off and Javier will handle the contract review. We don't need C-level approval for deals under $50K."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anyone else we should be talking to before you submit for approval?",
+          "answer": "No, I can drive this internally. The VP of Revenue trusts my judgment on sales tools."
+        },
+        {
+          "by": "prospect",
+          "question": "The proposed pricing is coming in higher than Gong's quote - can you match their pricing?",
+          "answer": "Gong doesn't include implementation consulting which adds significant value. Let me see what flexibility we have on pricing and we can discuss on our next call."
+        }
+      ],
+      "objections": [
+        "Pricing is above budget expectations, especially compared to competitive quote from Gong"
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Schedule pricing negotiation call",
+        "Kevin to prepare internal business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-13",
+      "type": "pricing_call",
+      "duration_minutes": 2,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Brief pricing discussion call (rescheduled once, only 2 minutes). Kevin had to cut the call short due to urgent internal matter. Confirmed continued interest but needed to reschedule full negotiation discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Before we dive in, can you confirm there's room to negotiate on the consulting package price?",
+          "answer": "Yes, we have some flexibility. Let's discuss the full structure on our rescheduled call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for full pricing negotiation discussion",
+        "Prepare revised pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-19",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Kevin Hill",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call (rescheduled once) to finalize pricing and terms. After discussion, agreed to 31.3% discount to reach $23,800 ACV to stay within budget and close deal before quarter end. Kevin confirmed this meets internal approval thresholds and Javier has approved the terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward this week, is there any additional flexibility you can offer?",
+          "answer": "We can approve the discount to $23,800 if you can commit before end of quarter and provide a case study testimonial after 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "Yes, this gets us under our $25K threshold and I can get this approved by end of week."
+        }
+      ],
+      "objections": [
+        "Need contract to include quarterly business reviews as part of consulting package"
+      ],
+      "next_steps": [
+        "Send updated proposal with revised pricing",
+        "Include QBR commitment in consulting SOW",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

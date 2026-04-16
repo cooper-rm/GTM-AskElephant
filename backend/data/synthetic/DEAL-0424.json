@@ -1,0 +1,361 @@
+{
+  "deal_id": "DEAL-0424",
+  "company": {
+    "name": "BrightStack",
+    "industry": "Marketing Agency",
+    "employee_count": 82,
+    "annual_revenue": 9678793,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4600.0,
+    "seats": 7,
+    "price_per_seat_monthly": 51.69,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 41.9,
+    "sales_cycle_days": 40,
+    "close_date": "2025-07-26",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lucas Roberts",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Ivy Ryan",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-05",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Lucas Roberts at BrightStack. No answer, left voicemail introducing our call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Lucas introducing our platform's capabilities for sales coaching and call analysis. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-15",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 17.0,
+      "rescheduled": false,
+      "ai_summary": "Third outreach email highlighting specific use cases for marketing agencies. Lucas responded expressing interest in learning more about call recording capabilities for their CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM setup?",
+          "answer": "Yes, we have native integrations with all major CRMs and can discuss your specific tech stack on a call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email exchange confirming discovery call time. Lucas mentioned wanting to improve coaching processes for their growing CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most clients are up and running within 1-2 weeks depending on team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email sent with discovery agenda and questions. Lucas confirmed attendance and shared that they're currently using manual call reviews which is time-consuming.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-26",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Lucas covering current CS coaching processes and pain points. BrightStack has 82 employees with growing CS team. Currently doing manual call reviews taking 5-6 hours weekly. Looking for automation and better insights. Lucas is VP of CS and sees clear value but mentioned needing to involve procurement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching your CS team on calls?",
+          "answer": "We manually listen to recorded calls and provide feedback in weekly 1:1s. It's very time-consuming and inconsistent."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can champion this internally, but Ivy Ryan from RevOps will need to be involved for procurement and budget approval."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we see the platform in action with our own call data?",
+          "answer": "Absolutely, we can set up a technical evaluation where you upload sample calls and see the AI analysis firsthand."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We've looked at a few solutions before but haven't pulled the trigger due to budget constraints.",
+          "response": "Understood. Let's focus on ROI and how time saved on manual reviews translates to cost savings."
+        }
+      ],
+      "next_steps": [
+        "Set up technical evaluation",
+        "Share pricing overview",
+        "Introduce Ivy Ryan to process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-03",
+      "type": "technical_eval",
+      "duration_minutes": 31,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session where Lucas uploaded sample CS calls. Walked through AI transcription, sentiment analysis, and coaching recommendations. Lucas impressed with accuracy and actionable insights. Discussed 7 seats for CS team and unlimited automation tier. He's ready to move forward but wants to align on pricing before bringing in leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How accurate is the sentiment analysis with technical support conversations?",
+          "answer": "Our AI is trained specifically on B2B conversations and achieves 94% accuracy on sentiment detection."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementing a solution like this?",
+          "answer": "Ideally within the next quarter. We're scaling the CS team and need this in place before we onboard new hires."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 7 seats with the unlimited automation tier?",
+          "answer": "I'll prepare a formal proposal, but for 7 seats with unlimited automation we're typically around $8K annually."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review call",
+        "Get Ivy involved"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-07",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled at Lucas's request due to conflicting meeting. Brief exchange confirming new time and that Lucas is reviewing proposal internally with Ivy.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule proposal call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-14",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review with Lucas and Ivy. Walked through $8K proposal for 7 seats. Ivy raised concerns about budget and mentioned they were expecting something closer to $5K based on initial conversations. Lucas supportive but deferring to Ivy on budget. No executive sponsor present. Team needs to discuss internally and may need adjustments to pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing given our company size and seat count?",
+          "answer": "There's some room to work within, especially for annual commitments. Let's discuss what budget you're working with."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or leadership involved to discuss budget allocation?",
+          "answer": "Not yet. Ivy and I need to align internally first on what we can allocate."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The $8K annual price is above what we budgeted for this initiative. We were thinking more in the $5K range.",
+          "response": "I understand budget constraints. Let me see what we can do to get closer to your target while maintaining the value you need."
+        }
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Follow up with revised proposal",
+        "Try to engage executive sponsor"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-07-23",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled by Lucas. He mentioned they're close to a decision but need more time to review revised pricing internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-07-26",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Lucas Roberts",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Lucas and Ivy. Presented revised proposal at $4,600 ACV (42% discount) to meet their budget constraints. Lucas and Ivy receptive and confirmed this works within their budget. Agreement to move forward with 7 seats and unlimited automation tier. Discussed implementation timeline for next quarter. Still no executive involvement but Lucas confident he can get internal sign-off at this price point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the $4,600 includes all 7 seats with full unlimited automation features?",
+          "answer": "Yes, that's correct. All 7 seats with unlimited automation, full feature access, and standard support included."
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process look like from here?",
+          "answer": "Ivy will process the paperwork on her end. Should be straightforward now that we're within budget."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once the contract is signed?",
+          "answer": "We can kick off within a week of signed agreement. I'll introduce you to our implementation team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Await procurement approval",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 103,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

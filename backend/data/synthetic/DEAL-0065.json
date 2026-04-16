@@ -1,0 +1,350 @@
+{
+  "deal_id": "DEAL-0065",
+  "company": {
+    "name": "CobaltCo",
+    "industry": "PropTech",
+    "employee_count": 44,
+    "annual_revenue": 7173628,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 5,
+    "price_per_seat_monthly": 64.3,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.8,
+    "sales_cycle_days": 38,
+    "close_date": "2023-11-20",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Tyler Rivera",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 7
+    },
+    {
+      "name": "Emily Oliveira",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 32
+    },
+    {
+      "name": "Emma Kapoor",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-07",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Tyler Rivera submitted an inbound demo request through the website expressing interest in automating their onboarding workflows. Currently using manual processes that are slowing down their PropTech operations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Tyler"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-13",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Tyler Rivera to understand CobaltCo's current onboarding process and pain points. Tyler described their manual onboarding workflow affecting 44 employees and expressed urgency around scaling their PropTech platform. Discussed team structure and decision-making process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in onboarding automation right now?",
+          "answer": "We're scaling our PropTech platform and manual onboarding is creating bottlenecks. Takes 3-4 days to get new customers fully set up."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in evaluating this solution?",
+          "answer": "Emily Oliveira from IT handles procurement, and Emma Kapoor on our RevOps team will do the technical evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom? We've been looking at them too.",
+          "answer": "Both handle workflow automation well, but our unlimited automation tier gives you more flexibility as you scale without usage caps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Tyler with product overview, case studies from similar PropTech companies, and proposed demo times. Tyler responded confirming demo for Thursday.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share examples of other PropTech companies using your platform?",
+          "answer": "Attached two case studies showing 60-70% reduction in onboarding time for companies in your vertical."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-25",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Tyler Rivera walking through onboarding automation workflows, integration capabilities, and unlimited automation features. Tyler was engaged and asked detailed questions about their specific use case. Showed strong interest in the visual workflow builder.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we integrate this with our existing CRM and support tools?",
+          "answer": "Yes, we have native integrations with major CRMs and a flexible API for custom connections."
+        },
+        {
+          "by": "rep",
+          "question": "What does your ideal onboarding workflow look like?",
+          "answer": "We need to trigger automated welcome emails, provision accounts, schedule training sessions, and assign account managers all in one flow."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly could we get this up and running?",
+          "answer": "Most customers are live within 2-3 weeks. We provide implementation support to build your initial workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference between your tiers? Fathom has been showing us their enterprise plan.",
+          "answer": "Our unlimited automation tier removes all workflow limits, while Fathom caps executions. For your growth trajectory, unlimited makes more sense."
+        }
+      ],
+      "objections": [
+        "Need to see how this compares with Fathom's pricing and features before moving forward"
+      ],
+      "next_steps": [
+        "Schedule technical deep-dive with Emma Kapoor",
+        "Send pricing comparison vs Fathom"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-29",
+      "type": "demo",
+      "duration_minutes": 23,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical demo with Tyler present focusing on advanced automation features, API capabilities, and scalability. Walked through building a sample onboarding workflow live. Tyler confirmed this meets their technical requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any technical concerns or requirements we should address?",
+          "answer": "Need to make sure Emma signs off on the security and integration approach. She'll have questions about data handling."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export workflow analytics for reporting?",
+          "answer": "Yes, full analytics dashboard with export capabilities and API access to all metrics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Emma Kapoor for technical evaluation",
+        "Prepare proposal for 5 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-05",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with Tyler covering pricing for 5 seats on unlimited automation tier. Discussed implementation timeline and support options. Tyler seemed engaged but mentioned needing to review with Emily and Emma before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation support include?",
+          "answer": "Dedicated CSM for first 90 days, workflow template library, and weekly check-ins during onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of quarter. Need to sync with Emily on budget and Emma on technical fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Tyler to review internally with Emily and Emma",
+        "Follow up next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-11-08",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled proposal follow-up call with Tyler. He had reviewed with the team but raised concerns about pricing compared to Fathom's proposal. Discussed budget constraints and explored potential adjustments. Tyler mentioned they haven't engaged their executive team yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom came in lower on their enterprise tier. Can you work on the pricing?",
+          "answer": "Let me understand your budget constraints. What would make this work for you?"
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to loop in your leadership on this decision?",
+          "answer": "Not yet - I wanted to get the pricing sorted first before bringing it to executives."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can get approval on budget, how fast can we start implementation?",
+          "answer": "We can kick off within a week of contract signature. Implementation team has availability."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom's competing offer",
+        "Need to justify ROI to get executive approval"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with adjusted pricing",
+        "Request executive sponsor meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-14",
+      "type": "exec_meeting",
+      "duration_minutes": 8,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief executive alignment call with Tyler. Attempted to discuss bringing in CobaltCo leadership to review strategic value and ROI, but Tyler indicated they wanted to keep evaluation at his level for now. Call was shorter than expected.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it make sense to bring in your VP or executive sponsor to discuss strategic alignment?",
+          "answer": "I think we can move forward at my level. Just need to finalize pricing with Emily."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Tyler to review revised proposal with Emily",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-20",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Tyler Rivera",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Tyler to finalize terms. Discussed revised pricing with 27.8% discount to match budget constraints and compete with Fathom. Tyler appreciated the flexibility and indicated Emily is reviewing procurement terms. No executive sponsor has been engaged in the process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get this discount locked in for a longer contract term?",
+          "answer": "This pricing is available for annual commitment. Multi-year would require executive approval on our side."
+        },
+        {
+          "by": "rep",
+          "question": "What's the next step to get this across the line?",
+          "answer": "Emily needs to review the contract terms, then we should be good to move forward. I'll push to get this done this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to review contract and procurement terms",
+        "Tyler to confirm final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

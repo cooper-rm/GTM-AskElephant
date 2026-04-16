@@ -1,0 +1,370 @@
+{
+  "deal_id": "DEAL-0672",
+  "company": {
+    "name": "VioletHub",
+    "industry": "SaaS/Tech",
+    "employee_count": 350,
+    "annual_revenue": 36120864,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14400.0,
+    "seats": 17,
+    "price_per_seat_monthly": 71.9,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 19.2,
+    "sales_cycle_days": 34,
+    "close_date": "2025-06-04",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Morgan Anderson",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 52
+    },
+    {
+      "name": "Sage Yoon",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Morgan Anderson at VioletHub expressing interest in improving forecasting accuracy for their sales team. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-01",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Morgan Anderson. Discussed current forecasting challenges at VioletHub with 350-person team. Morgan mentioned they're also evaluating Fathom. Confirmed budget authority and timeline for decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better forecasting accuracy right now?",
+          "answer": "Our pipeline visibility is inconsistent across regions, causing missed quarterly targets"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fathom?",
+          "answer": "We focus on AI-driven deal scoring with custom workflow automations, while Fathom emphasizes conversation intelligence"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to share current tech stack",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-05",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review VioletHub's tech stack and forecasting workflow. Morgan explained their current manual process and pain points around rep accountability. Discussed timeline for implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Sage Yoon from our implementation team will need to review technical integration aspects"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for core setup, 4-6 weeks for custom automations depending on complexity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery deck focusing on forecasting use case",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-10",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into VioletHub's forecasting methodology, deal stages, and integration requirements. Morgan shared specific metrics they want to improve. Discussed involving technical stakeholder Sage Yoon for evaluation phase.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics define forecasting success for your team?",
+          "answer": "Within 5% accuracy week-over-week, and reducing commit variance from current 18% to under 10%"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our Salesforce instance and data warehouse?",
+          "answer": "Yes, we have native Salesforce integration and can connect to most major data warehouses via API"
+        },
+        {
+          "by": "prospect",
+          "question": "How many seats would we need for 17 revenue team members?",
+          "answer": "Licensing is per-seat, so 17 seats would be the starting point"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Morgan and Sage",
+        "Send case study on forecasting improvements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-16",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo for Morgan and Sage showcasing forecasting dashboard, deal scoring, and automation builder. Sage asked detailed technical questions about data security and API rate limits. Morgan engaged positively on UI and forecasting visualizations. Compared favorably to Fathom's approach during demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where is data stored?",
+          "answer": "90-day active retention, 2-year archive, AWS us-east-1 with SOC2 Type II certification"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the deal scoring model learn from our specific sales process?",
+          "answer": "It trains on your historical won/lost data, identifying patterns in activities, timeline, and engagement"
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fathom?",
+          "answer": "Fathom focuses more on call recording and transcription, less on predictive scoring and workflow automation"
+        }
+      ],
+      "objections": [
+        "Need to validate integration complexity with our data warehouse team"
+      ],
+      "next_steps": [
+        "Sage to review technical documentation",
+        "Morgan to discuss internally",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-21",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Morgan to discuss business case and ROI. Morgan expressed strong interest but noted they haven't yet involved their VP of Sales in the evaluation. Discussed pricing framework and implementation scope for 17 seats with automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we include your VP of Sales in the conversation to align on strategic priorities?",
+          "answer": "They're traveling this month, but I can bring them up to speed and get their input asynchronously"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include exactly?",
+          "answer": "Up to 40 hours of custom automation development, workflow optimization, and best practice training"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the annual commitment required?",
+          "answer": "Standard is 12-month contract with quarterly payment options available"
+        }
+      ],
+      "objections": [
+        "Budget approval process requires VP sign-off, which may take additional time"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Morgan to brief VP of Sales",
+        "Schedule follow-up in one week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-23",
+      "type": "exec_meeting",
+      "duration_minutes": 55,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended executive discussion with Morgan. VP of Sales still not engaged directly. Morgan provided positive feedback on proposal but expressed concern about annual commitment and asked about flexibility. Discussed competitive positioning versus Fathom and implementation timeline. Morgan mentioned they need to move quickly but faces internal approval hurdles.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on contract length or payment terms?",
+          "answer": "We can explore quarterly payments, but annual commitment ensures pricing stability and full consulting engagement"
+        },
+        {
+          "by": "rep",
+          "question": "What would help you get VP buy-in faster?",
+          "answer": "Honestly, they trust my judgment but want to see the numbers. I need to build the internal business case"
+        },
+        {
+          "by": "prospect",
+          "question": "If we move forward, how quickly can you start implementation?",
+          "answer": "We can kick off within two weeks of signed contract, targeting full deployment in 4-6 weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "What's Fathom's pricing looking like in comparison?",
+          "answer": "Their per-seat cost is lower, but they don't include the consulting hours or advanced deal scoring we offer"
+        }
+      ],
+      "objections": [
+        "Annual commitment is a concern given current budget cycle timing"
+      ],
+      "next_steps": [
+        "Provide ROI calculator for Morgan to use internally",
+        "Schedule pricing discussion",
+        "Morgan to attempt VP introduction"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-29",
+      "type": "pricing_call",
+      "duration_minutes": 13,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Morgan to review proposal details. Morgan asked about discount options and potential to reduce scope to lower initial cost. Discussed possibility of starting with fewer seats or removing consulting package. Morgan mentioned Fathom is offering aggressive pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on the $14,400 annual price?",
+          "answer": "We have some room to work with depending on contract terms and commitment timeline"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than expected compared to Fathom's offer"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Schedule follow-up pricing call",
+        "Morgan to finalize seat count"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-04",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Morgan Anderson",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended pricing negotiation with Morgan. Discussed various discount scenarios and contract configurations. Morgan requested 15% discount to match budget constraints and competitive pressure from Fathom. Confirmed final seat count at 17 and importance of consulting package for implementation success. Still no direct VP engagement, which Morgan acknowledged as a risk but committed to managing internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet a 15% discount to help us close this within our Q2 budget?",
+          "answer": "I can bring that to leadership, but would need commitment to move forward this week to justify the discount"
+        },
+        {
+          "by": "rep",
+          "question": "What's the final decision timeline and approval process?",
+          "answer": "I need to present final numbers to our VP by end of week, then finance review, so probably 7-10 days total"
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign by Friday, can you guarantee the April implementation start date?",
+          "answer": "Yes, we can lock in our implementation team for late April kickoff with signed contract by EOW"
+        }
+      ],
+      "objections": [
+        "Need discount to compete with Fathom's pricing and fit our budget cycle"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount options",
+        "Morgan to present to VP and finance",
+        "Target decision by end of next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "deal_id": "DEAL-0848",
+  "company": {
+    "name": "BrightForge",
+    "industry": "Marketing Agency",
+    "employee_count": 485,
+    "annual_revenue": 32794280,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 22400.0,
+    "seats": 24,
+    "price_per_seat_monthly": 74.58,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 16.2,
+    "sales_cycle_days": 42,
+    "close_date": "2025-02-06",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "James Diallo",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Madison Adams",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-15",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to James Diallo with brief intro about helping marketing agencies automate onboarding workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-16",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent highlighting how similar agencies reduced onboarding time by 60% with automation. Included case study link. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-21",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call connected with James. He expressed interest in streamlining their current manual onboarding process for new clients. Mentioned they're evaluating a few tools. Agreed to follow up via email with more details.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with client onboarding right now?",
+          "answer": "Manual handoffs between sales and delivery, takes too long and clients sometimes fall through the cracks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck via email",
+        "James to review and loop in team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and ROI calculator. James responded asking about integration with their existing CRM and whether we support multi-step workflows. Confirmed both capabilities and proposed call with their sales manager.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce and can we build complex multi-step automation sequences?",
+          "answer": "Yes, native Salesforce integration and unlimited automation workflows included in your tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Madison Adams"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-01",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Madison Adams",
+      "person_role": "end_user",
+      "person_title": "Sales Manager",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Madison Adams, who manages the sales team day-to-day. She walked through their current onboarding process, pain points with manual follow-ups, and need for better visibility. Mentioned they're also looking at Fathom but concerned about ease of use. Interested in seeing a demo focused on their specific workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many new clients do you onboard per month?",
+          "answer": "Around 15-20, and each one requires 5-7 touchpoints across different teams"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Fathom in terms of setup complexity?",
+          "answer": "Our setup is typically 2-3 days vs. 2-3 weeks, and you don't need developer resources"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with James and Madison",
+        "Share demo environment access"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-02",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to James with article about onboarding automation best practices. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-09",
+      "type": "technical_eval",
+      "duration_minutes": 56,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with James. Walked through building a sample onboarding workflow for their use case. He tested the interface, asked about reporting capabilities and whether they can customize templates. Positive engagement but noted he needs to get buy-in from leadership before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we create custom templates for different service tiers?",
+          "answer": "Yes, unlimited templates and you can clone/modify them easily"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you offer on automation performance?",
+          "answer": "Real-time dashboards showing completion rates, bottlenecks, and time saved per workflow"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve from leadership to ensure this gets approved?",
+          "answer": "I'll need to bring this to our COO, but I want to finish testing first"
+        }
+      ],
+      "objections": [
+        "Need executive approval before committing"
+      ],
+      "next_steps": [
+        "James to continue testing workflows",
+        "Schedule follow-up eval session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-13",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with James. He built out two complete workflows and tested Salesforce integration. Asked about pricing structure and seat count flexibility. Mentioned Fathom's pricing is lower but acknowledged our platform is easier to use. Wants to see formal proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does pricing work if we need to add more seats later?",
+          "answer": "You can add seats anytime, prorated to your renewal date"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier vs. lower tiers?",
+          "answer": "Unlimited workflows, advanced branching logic, priority support, and dedicated CSM"
+        },
+        {
+          "by": "rep",
+          "question": "How far along are you with Fathom in your evaluation?",
+          "answer": "We've seen their demo but haven't done hands-on testing yet. Their pricing is about 20% lower."
+        }
+      ],
+      "objections": [
+        "Pricing concerns relative to Fathom"
+      ],
+      "next_steps": [
+        "Send formal proposal for 24 seats",
+        "James to review with team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-19",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with James. Walked through $22,400 ACV pricing for 24 seats with unlimited automation. He expressed concern about budget and asked if we could match Fathom's pricing. Explained value differentiation but agreed to check on discount options. He confirmed timeline to decide by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual price given we're comparing other options?",
+          "answer": "Let me discuss with my manager and get back to you on what we can do"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and approval process?",
+          "answer": "Need to decide by end of quarter, and I'll need COO sign-off for anything over $20k"
+        }
+      ],
+      "objections": [
+        "Price higher than competitor",
+        "Needs budget approval from COO"
+      ],
+      "next_steps": [
+        "Rep to discuss discount options internally",
+        "James to schedule exec meeting with COO"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-25",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with James and the team. James presented the use case and ROI projections. Asked about implementation timeline and support during rollout. Positive discussion but COO did not attend the call as expected. James said he'll follow up separately with COO and get back to us.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "2-3 weeks with our onboarding team, including training for your 24 users"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of support do we get during the first 90 days?",
+          "answer": "Dedicated CSM with weekly check-ins, plus priority support access"
+        },
+        {
+          "by": "rep",
+          "question": "Will the COO be able to join the next discussion?",
+          "answer": "He had a conflict today, but I'll brief him and try to get him on our next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "James to brief COO",
+        "Schedule follow-up exec meeting if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-02-03",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with James. COO still not engaged directly. Discussed contract terms and James requested 15% discount to match budget constraints. We offered 10% discount bringing it to $20,160. He said he needs to think it over and discuss with finance. Conversation was cordial but non-committal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include an early termination clause in case it doesn't work out?",
+          "answer": "We can include a 30-day out after the first 6 months if metrics aren't met"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other concerns we should address before you make a decision?",
+          "answer": "Just need to run the final numbers by our CFO and make sure this fits our Q2 budget"
+        }
+      ],
+      "objections": [
+        "Needs further budget approval",
+        "Wants larger discount"
+      ],
+      "next_steps": [
+        "James to discuss with finance team",
+        "Follow up next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-02-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "James Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent recapping the 10% discount offer, implementation timeline, and support commitment. James replied thanking us and said they're still in discussions internally. Mentioned they're also finalizing the Fathom evaluation. No clear next steps or timeline provided.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you hold the 10% discount pricing if we need another week to decide?",
+          "answer": "Yes, we can hold that pricing through end of month"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for James to confirm decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "deal_id": "DEAL-0149",
+  "company": {
+    "name": "SageExchange",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 4164,
+    "annual_revenue": 682581478,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 54700.0,
+    "seats": 40,
+    "price_per_seat_monthly": 110.99,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 54,
+    "close_date": "2025-07-14",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Tariq Friedman",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 7
+    },
+    {
+      "name": "Elena Wright",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 98
+    },
+    {
+      "name": "Nicole Moore",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 32
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-08",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Tariq Friedman introducing our call recording and coaching solution for RevOps teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-12",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Tariq. He acknowledged receiving the email and expressed mild interest in discussing how call recording could help their growing sales team. Agreed to schedule a proper qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Did you get a chance to see my email about call recording and coaching?",
+          "answer": "Yes, I saw it. We've been thinking about this area actually."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-21",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Tariq to understand SageExchange's current state. They have 40 AEs and no standardized call recording. Tariq owns RevOps and is looking to improve coaching consistency. Discussed pain points around onboarding new reps and identifying deal risks early.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call recording and coaching?",
+          "answer": "We have some reps using Zoom recordings but nothing systematic. Coaching is ad-hoc and manager-dependent."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution integrate with Salesforce?",
+          "answer": "Native bi-directional sync. All calls, transcripts, and insights flow automatically into your deal records."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Tariq to map out current tech stack",
+        "Follow-up call to discuss integration requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-24",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call focused on technical fit. Discussed integration with their existing Salesforce instance and Slack for notifications. Tariq confirmed they need coverage for 40 seats across sales and customer success.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your coaching insights be customized to our sales methodology?",
+          "answer": "Yes, we can train the AI on your specific playbooks and frameworks."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Elena Wright, our CRO, will need to sign off. And Nicole from procurement for contracting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Tariq to introduce Elena Wright",
+        "Schedule discovery call with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar managed IT company and ROI calculator. Tariq responded positively, confirming Elena is interested and available for a discovery call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share more detail on the implementation timeline?",
+          "answer": "Typically 2-3 weeks from contract signature to full rollout for 40 users."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Elena and Tariq"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-01",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call diving deeper into their use case. Tariq explained they want to use call data to identify which deals are at risk and improve rep coaching. Discussed their quarterly business reviews and how our analytics could support them.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of reporting and dashboards do you provide?",
+          "answer": "Real-time dashboards for managers showing talk-time ratios, question quality, objection handling, and deal health scores."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving this initiative right now?",
+          "answer": "We're scaling fast and our current coaching model doesn't scale. New reps are taking too long to ramp."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery deck for Elena",
+        "Schedule broader discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-05",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Tariq covering their coaching workflow and success metrics. He's concerned about rep adoption and wants to understand change management support. Discussed how automations can reduce manual note-taking burden.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of training and enablement do you provide during onboarding?",
+          "answer": "Full onboarding program including admin training, rep workshops, and 30-day check-ins. Plus ongoing CSM support."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Faster rep ramp time, better forecast accuracy, and managers spending less time on admin and more on strategic coaching."
+        }
+      ],
+      "objections": [
+        "Reps might resist being recorded"
+      ],
+      "next_steps": [
+        "Send change management best practices doc",
+        "Schedule call with Elena"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-08",
+      "type": "follow_up_call",
+      "duration_minutes": 22,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call addressing Tariq's change management concerns. Walked through how other customers handled rollout and drove adoption. Discussed including Elena in the demo and technical evaluation. Tariq mentioned they need to involve procurement (Nicole) before final negotiations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have consulting services to help us build our coaching program?",
+          "answer": "Yes, our automations plus consulting package includes a dedicated coach to help design your playbooks and frameworks."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter. Elena wants to see this in action first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Elena and Tariq",
+        "Prepare technical evaluation plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-13",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation call originally scheduled but rescheduled due to Elena's conflict. Tariq apologized and confirmed strong interest. Rescheduled for the following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical eval with Elena and Tariq"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-16",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo call with Tariq and Elena. Walked through live call recording, AI-generated summaries, coaching insights, and Salesforce integration. Elena was impressed with deal health scoring and asked detailed questions about ROI and implementation. Strong engagement from both stakeholders.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you calculate the deal health score?",
+          "answer": "We analyze 20+ factors including sentiment, question types, next steps commitment, and multi-threading. Trained on thousands of won and lost deals."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure?",
+          "answer": "We price per seat with different tiers. For 40 seats with consulting, we're looking at around $55k annually."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a pilot first?",
+          "answer": "We typically recommend starting with a smaller team for 30 days, then rolling out broadly. We can structure that into the contract."
+        }
+      ],
+      "objections": [
+        "Need to see clear ROI before committing to full team rollout"
+      ],
+      "next_steps": [
+        "Send formal proposal with pilot option",
+        "Intro to Nicole for procurement review",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-06-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 17.5,
+      "rescheduled": false,
+      "ai_summary": "Email sent with formal proposal for 40 seats, automations plus consulting package, $54,700 ACV. Included pilot structure and ROI projection. Tariq responded confirming he's reviewing with Elena and will loop in Nicole.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review",
+        "Prepare for Nicole's procurement questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-06-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Tariq responded that Elena is supportive and they're ready to move to negotiation phase. Nicole from procurement will join next call to discuss terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call with Tariq, Elena, and Nicole"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-06-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Email sent to confirm negotiation call and provide contract template for Nicole to review in advance. Highlighted key terms including seat count, consulting hours, and payment terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Negotiation call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-07-03",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Tariq, Elena, and Nicole. Discussed contract terms, implementation timeline, and consulting deliverables. Nicole raised questions about annual vs multi-year pricing and data security compliance. Elena confirmed budget is approved at proposed ACV.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your security and compliance certification status?",
+          "answer": "SOC 2 Type II, GDPR compliant, and we can sign BAA if needed. Full details in our security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs quarterly payment terms?",
+          "answer": "We can offer net-30 annual or break into quarterly installments with a small processing fee."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the proposed scope or timeline?",
+          "answer": "No, the scope looks good. We just need to align on final payment terms and MSA review."
+        }
+      ],
+      "objections": [
+        "Prefer quarterly payment terms over annual upfront"
+      ],
+      "next_steps": [
+        "Send updated contract with quarterly payment option",
+        "Nicole to review MSA with legal",
+        "Schedule pricing finalization call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-07-06",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Tariq and Nicole to finalize payment terms. Agreed on quarterly payments with 2% processing fee. Discussed consulting hours allocation and success metrics. Nicole confirmed legal review is in progress and should complete this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How are consulting hours tracked and delivered?",
+          "answer": "Monthly allocation with rollover option. Your dedicated coach will provide monthly reports and recommendations."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for legal review?",
+          "answer": "Should be done by end of week. No major redlines expected based on initial review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await legal review completion",
+        "Prepare final contract with agreed terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-07-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent with final contract incorporating quarterly payment terms and legal feedback. Tariq confirmed he's reviewing with Elena and Nicole for final signatures. Targeting close by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signatures from Elena and Nicole",
+        "Prepare implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-07-14",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Tariq Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to address minor MSA redlines from legal. Resolved questions about liability caps and termination clauses. All parties confirmed agreement on final terms. Contract sent for signature via DocuSign.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the liability cap to match our standard vendor terms?",
+          "answer": "Yes, we can align with your standard 12-month fee cap for general liability."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena and Nicole to sign via DocuSign",
+        "Schedule implementation kickoff for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "deal_id": "DEAL-0148",
+  "company": {
+    "name": "IronLabs",
+    "industry": "eCommerce",
+    "employee_count": 6533,
+    "annual_revenue": 1094838551,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 49700.0,
+    "seats": 36,
+    "price_per_seat_monthly": 104.39,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 158,
+    "close_date": "2024-01-06",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Riley Harris",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 60
+    },
+    {
+      "name": "Amanda Collins",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 9
+    },
+    {
+      "name": "Peyton Hill",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Zainab Walsh",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 6
+    },
+    {
+      "name": "Jude Moore",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 7
+    },
+    {
+      "name": "Grace White",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 1
+    },
+    {
+      "name": "Penelope Pereira",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    },
+    {
+      "name": "Leo Lee",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Riley Harris expressing interest in improving pipeline visibility for their sales team. Initial inquiry submitted through website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-01",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Riley Harris to understand current pain points. Riley described challenges with forecast accuracy and lack of real-time visibility into deal progression across their 36-person sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in pipeline visibility right now?",
+          "answer": "Our forecasts have been off by 20-30% each quarter and leadership is pushing for better predictability."
+        },
+        {
+          "by": "rep",
+          "question": "How many users would need access?",
+          "answer": "About 36 across sales and sales ops."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with real-time sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with overview deck and case study from similar eCommerce company. Riley responded positively and confirmed interest in moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing for 36 users?",
+          "answer": "Will provide detailed pricing on our next call after understanding full requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review materials",
+        "Reconvene to discuss use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-16",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving deeper into technical requirements and current tech stack. Riley confirmed they use Salesforce and need automation capabilities for deal scoring and alerts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking deal health?",
+          "answer": "Mostly manual reviews in weekly pipeline meetings. Takes hours of prep time."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll need to loop in Amanda Collins, our CRO, and probably some folks from IT and sales management."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of automation features do you offer?",
+          "answer": "Automated deal scoring, risk alerts, workflow triggers, and custom notifications based on deal activity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce other stakeholders",
+        "Schedule discovery session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent confirming next steps and requesting introductions to Amanda Collins and technical stakeholders. Riley responded with availability and confirmed he'll bring in the broader team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate calendars for multi-stakeholder discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-31",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Riley focusing on detailed use case requirements. Discussed current workflow inefficiencies, manual forecasting processes, and desired automation scenarios. Riley emphasized importance of unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementation?",
+          "answer": "Forecast accuracy within 10%, automated alerts for at-risk deals, and sales managers spending 50% less time on pipeline reviews."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're planning budget allocations for Q3, so ideally have something in place by end of next quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For your team size and use case, typically 3-4 weeks from kickoff to full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed automation capabilities doc",
+        "Schedule technical evaluation with Grace White"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with automation capabilities documentation and implementation timeline. Also included ROI calculator based on time savings discussed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review materials internally",
+        "Set up technical eval session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Email introducing Grace White (Account Manager, technical evaluator) into the conversation. Proposed agenda for technical evaluation sessions focusing on integration requirements and automation workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm Grace's availability for technical eval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-24",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call confirming technical evaluation logistics and timeline. Riley mentioned that Grace White and IT stakeholders are ready to evaluate. Also discussed need to involve Amanda Collins before final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any other solutions you're currently evaluating?",
+          "answer": "We looked at a few options earlier but nothing stuck. Right now focused on your solution."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for unlimited automation?",
+          "answer": "Will provide full proposal after technical eval. Typically ranges based on user count and commitment term."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule two technical eval sessions with Grace",
+        "Prepare for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Email coordinating technical evaluation sessions with Grace White. Sent calendar invites and pre-work materials including integration checklist and security documentation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete pre-work review",
+        "Conduct first technical eval session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-10-06",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Grace White",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Grace White covering Salesforce integration architecture, data security, and API capabilities. Grace asked detailed questions about field mapping, sync frequency, and user permissions model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle custom Salesforce objects and fields?",
+          "answer": "Full support for custom objects with flexible field mapping through our configuration UI."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and security model?",
+          "answer": "SOC 2 Type II certified, data encrypted at rest and in transit, configurable retention policies."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we control which users see which automation rules?",
+          "answer": "Yes, role-based permissions with granular control over automation visibility and editing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule second technical session focused on automation workflows",
+        "Send security documentation to IT"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-10-14",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Grace White",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Grace focusing on automation workflow configuration and reporting capabilities. Walked through specific use cases for deal scoring and risk alerts. Grace expressed satisfaction with flexibility of the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom scoring models or are they predefined?",
+          "answer": "Fully customizable scoring models with ability to weight different factors based on your sales process."
+        },
+        {
+          "by": "prospect",
+          "question": "How do alerts get delivered to users?",
+          "answer": "Multiple channels: in-app, email, Slack integration, and webhook support for custom integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "What reporting is available on automation performance?",
+          "answer": "Dashboards showing automation trigger frequency, user engagement, and impact on deal outcomes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Grace to provide technical sign-off",
+        "Schedule full team demo with Riley"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-10-22",
+      "type": "demo",
+      "duration_minutes": 49,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full platform demo with Riley and extended team showing end-to-end workflow from deal creation to automated alerts and reporting. Demonstrated specific pipeline visibility scenarios relevant to their eCommerce sales cycle. Team engaged positively throughout.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboard views for different roles?",
+          "answer": "Yes, unlimited custom dashboards with role-based defaults and personal customization."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the deal health scoring actually work?",
+          "answer": "Machine learning model trained on millions of deals, considers activity patterns, stakeholder engagement, timeline progression, and custom factors you define."
+        },
+        {
+          "by": "rep",
+          "question": "What did you think about the automation capabilities we showed?",
+          "answer": "Really impressive. This would save our managers probably 10+ hours per week."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost of ownership including implementation"
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Amanda Collins",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-10-31",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Amanda Collins",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Amanda Collins (CRO) to discuss strategic value and business case. Presented ROI analysis showing projected time savings and forecast accuracy improvements. Amanda emphasized importance of team adoption and implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your implementation and onboarding support look like?",
+          "answer": "Dedicated implementation manager, weekly check-ins during rollout, customized training sessions, and ongoing CSM support."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of results have similar companies seen?",
+          "answer": "Similar eCommerce companies typically see 15-25% improvement in forecast accuracy within first quarter and 40% reduction in pipeline review time."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision-making process from here?",
+          "answer": "Need to review proposal with finance and procurement, but if pricing is reasonable this should move quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Introduce procurement contacts"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-11-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Amanda and Riley with formal proposal including $49,700 ACV for 36 seats with unlimited automation tier. Outlined implementation timeline and support structure.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review proposal internally",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-11-14",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Riley to walk through pricing structure and contract terms. Riley asked clarifying questions about user licensing model and what's included in unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the 36 seats a hard limit or can we add users mid-contract?",
+          "answer": "You can add users anytime with pro-rated pricing for remainder of term."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to build more automation workflows later?",
+          "answer": "Unlimited tier means no restrictions on number of workflows, rules, or automations you create."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to socialize pricing with Amanda and procurement",
+        "Address any questions from procurement team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-11-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Email introduction to Peyton Hill and Zainab Walsh from procurement team. Shared proposal and offered to answer any questions about terms and implementation scope.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Procurement review of contract terms",
+        "Schedule call if questions arise"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-11-29",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Riley to address initial procurement feedback. Discussed payment terms flexibility and implementation timeline alignment with their Q3 planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can offer quarterly billing with standard terms."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from procurement we should address?",
+          "answer": "They want to review security docs and understand renewal terms. Nothing major."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with quarterly payment terms",
+        "Provide additional security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-12-07",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Riley to discuss contract terms and address procurement requests. Covered data processing agreement requirements, renewal terms, and service level commitments. Riley indicated they're close to final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your standard SLA commitments?",
+          "answer": "99.9% uptime guarantee, 24/7 support for critical issues, response times based on severity level."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a performance review clause at 6 months?",
+          "answer": "Absolutely, we can include quarterly business review commitments in the contract."
+        }
+      ],
+      "objections": [
+        "Procurement wants clearer language around data ownership and portability"
+      ],
+      "next_steps": [
+        "Legal to review updated contract language",
+        "Schedule pricing alignment call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email sending revised contract with updated data processing terms and clearer portability language requested by procurement. Also included standard DPA for their legal review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Legal review of updated terms",
+        "Finalize pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-12-20",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Riley to discuss budget alignment and potential multi-year commitment. Riley asked about discount opportunities for longer commitment and requested to bring Amanda Collins into final pricing discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of pricing would a 2-year commitment look like?",
+          "answer": "For 2-year commit we could offer 12% discount, bringing annual cost to approximately $43,700."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include expansion pricing in the contract?",
+          "answer": "Yes, we can lock in per-seat pricing for additional users added during contract term."
+        },
+        {
+          "by": "rep",
+          "question": "Is the multi-year option something Amanda would consider?",
+          "answer": "Possibly, but let's discuss the 1-year pricing first. She's budget-conscious this quarter."
+        }
+      ],
+      "objections": [
+        "Budget approval may require slight adjustment to year one pricing"
+      ],
+      "next_steps": [
+        "Schedule exec meeting with Amanda to finalize pricing",
+        "Prepare final contract version"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2023-12-31",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Amanda Collins",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Amanda Collins to finalize commercial terms. Discussed budget fit and ROI timeline. Amanda confirmed the business case is strong but requested to understand if any flexibility exists on year one pricing given budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $49,700 for year one?",
+          "answer": "Given your team size and commitment timeline, we could adjust to $47,200 for year one if you can commit to 2-year term."
+        },
+        {
+          "by": "rep",
+          "question": "Would the 2-year structure work within your planning cycle?",
+          "answer": "Yes, actually that helps us from a budget predictability standpoint."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated 2-year proposal",
+        "Final legal and procurement review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-01-07",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Riley Harris",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Riley to confirm 2-year agreement structure and walk through updated contract terms. Riley confirmed internal alignment and indicated they're ready to move to signature pending final procurement sign-off on payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Just to confirm, we're locked in at $47,200 per year for both years?",
+          "answer": "Correct, $47,200 annually for 2 years, with quarterly payment schedule as discussed."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for final signatures?",
+          "answer": "Procurement needs about a week for final review, then we should be clear to sign. Targeting implementation start in 3 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Procurement final review and approval",
+        "Execute contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

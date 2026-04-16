@@ -1,0 +1,606 @@
+{
+  "deal_id": "DEAL-0275",
+  "company": {
+    "name": "AspenDigital",
+    "industry": "eCommerce",
+    "employee_count": 352,
+    "annual_revenue": 39896333,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18700.0,
+    "seats": 23,
+    "price_per_seat_monthly": 70.08,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.3,
+    "sales_cycle_days": 71,
+    "close_date": "2025-12-06",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Mateus King",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    },
+    {
+      "name": "Daniel Richter",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Mateus King, VP of Customer Success at AspenDigital. Expressed interest in improving pipeline visibility for their CS team. Mentioned currently evaluating solutions including Fireflies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and calendar link. Mateus responded confirming interest and availability for qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your solution integrate with Salesforce and Zendesk?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-29",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mateus. AspenDigital's CS team struggles with visibility into customer health and pipeline forecasting. Team of 23 needs automation for call summaries and action items. Mateus is championing the evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fireflies in terms of accuracy?",
+          "answer": "Our AI accuracy is 95%+ and includes custom CS-specific fields that Fireflies doesn't support"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for this evaluation?",
+          "answer": "Q2 planning cycle - need to show ROI on CS automation before budget locks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Share CS automation case study"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-04",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call covering AspenDigital's CS workflows, current pain points with manual note-taking, and integration requirements. Mateus shared that 23 CS team members spend ~5 hours/week on admin work. Discussed unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation process?",
+          "answer": "Daniel Richter from IT will need to approve from a security and procurement standpoint"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI fields for our specific CS use cases?",
+          "answer": "Yes, unlimited custom fields are included in the automation tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation for Daniel",
+        "Schedule technical evaluation",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-07",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to confirm Daniel Richter received security docs and answer initial questions. Mateus confirmed internal alignment on moving forward with technical eval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has Daniel had a chance to review the security documentation?",
+          "answer": "Yes, he's reviewing now and has a few questions about data retention"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call with Daniel to address security questions",
+        "Confirm technical eval date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-10-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Email to Mateus with additional data retention and compliance documentation requested by Daniel. Also shared customer references from similar mid-market eCommerce companies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-15",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call with Mateus to prep for technical evaluation. Discussed specific workflows to test during eval, including Salesforce sync and custom field mapping. Mateus mentioned Fireflies demo is scheduled for same week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What differentiates your product from Fireflies beyond the custom fields?",
+          "answer": "Our CS-specific analytics, automated escalation triggers, and unlimited automation tier pricing"
+        },
+        {
+          "by": "rep",
+          "question": "What criteria will you use to compare solutions?",
+          "answer": "Accuracy, integration depth, ease of use for the team, and total cost for 23 users"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval preparation",
+        "Send eval test scenarios"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical eval logistics and test scenarios. Mateus confirmed he'll have 3 team members join to test the product hands-on.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval tomorrow at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-26",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with broader context on AspenDigital's tech stack and integration requirements. Discussed API access, webhook capabilities, and reporting needs. Mateus shared that exec leadership is asking for more CS efficiency metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export all call data to our data warehouse for custom reporting?",
+          "answer": "Yes, full API access and daily exports are included"
+        },
+        {
+          "by": "rep",
+          "question": "Have you identified an executive sponsor for this initiative?",
+          "answer": "I'm working on getting buy-in from our Chief Customer Officer, but haven't formally engaged yet"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for the unlimited automation tier?",
+          "answer": "Per-user annual pricing with volume discounts starting at 20+ seats"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share pricing framework",
+        "Encourage CCO engagement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-10-29",
+      "type": "technical_eval",
+      "duration_minutes": 30,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Mateus and 3 CS team members. Tested live call recording, AI summarization, Salesforce sync, and custom field configuration. Team provided positive feedback on accuracy and ease of use.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we test this with our own calls before committing?",
+          "answer": "Yes, we can set up a 14-day pilot with your team"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the seat licensing work if we want to expand beyond 23 users?",
+          "answer": "You can add seats anytime at prorated cost, or plan for expansion at renewal"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up 14-day pilot",
+        "Schedule demo for leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-11-02",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo for Mateus and his CS leadership team. Showcased pipeline visibility dashboards, automated escalations, and ROI calculator showing ~$47K annual savings from reduced admin time. Team engaged and asked detailed questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens to our data if we decide not to renew?",
+          "answer": "You have 90 days to export all data, and we provide full data portability"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboard views for different team roles?",
+          "answer": "Yes, role-based dashboards are included in the unlimited tier"
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision timeline looking like?",
+          "answer": "Need to finalize by end of Q1 to get into Q2 budget, so roughly 3-4 weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-11-07",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Mateus. Presented pricing for 23 seats at $18,700 ACV with unlimited automation. Mateus expressed that pricing is higher than Fireflies' offer and will need to discuss with Daniel and finance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fireflies quoted us about 30% less - can you match that pricing?",
+          "answer": "Our pricing reflects the CS-specific features and unlimited automation, but we can discuss volume discounts"
+        },
+        {
+          "by": "rep",
+          "question": "When do you need final pricing to move forward?",
+          "answer": "This week - we're trying to get procurement approval by end of next week"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than competitive offer from Fireflies"
+      ],
+      "next_steps": [
+        "Reschedule to discuss pricing options",
+        "Loop in Daniel Richter"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-11-11",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled due to Mateus conflict. Brief discussion confirmed he's still working on internal alignment with Daniel and finance team on budget.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-11-16",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Rescheduled proposal call with Mateus. Discussed pricing concerns and Daniel's procurement requirements. Mateus pushed for discount to match Fireflies pricing. Explained value differentiation but agreed to explore options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on pricing for 23 seats?",
+          "answer": "Let me work with leadership on a competitive offer and get back to you this week"
+        }
+      ],
+      "objections": [
+        "Need pricing closer to Fireflies to get procurement approval"
+      ],
+      "next_steps": [
+        "Provide revised pricing proposal",
+        "Include Daniel in next discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-11-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised pricing proposal including 21.3% discount to align with budget constraints. Emphasized CS-specific value and ROI vs. Fireflies. Requested feedback from both Mateus and Daniel.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "This is much closer - reviewing with Daniel and finance now"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing review call with Mateus and Daniel"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-11-23",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call scheduled with Mateus and Daniel but rescheduled due to Daniel's conflict. Mateus confirmed revised pricing is being reviewed internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule with Daniel's availability"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-11-27",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Mateus to discuss getting CCO engaged before final approval. Mateus acknowledged this is a gap but expressed confidence in moving forward based on CS team consensus.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we get 15 minutes with your CCO to align on strategic value?",
+          "answer": "I'll try, but she's been very busy - I think we can move forward without her formal signoff"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the contract term and renewal process?",
+          "answer": "Standard 12-month term with 30-day renewal notice"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Attempt to schedule brief CCO call",
+        "Finalize terms with Daniel"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-12-01",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call rescheduled again due to Daniel's availability. Mateus confirmed finance approved the revised pricing and Daniel is reviewing contract terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call for early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-12-06",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Mateus King",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Mateus and Daniel. Reviewed contract terms, data security provisions, and payment terms. Daniel requested annual payment option instead of quarterly. Mateus confirmed team is ready to onboard. No CCO engagement achieved, but Mateus confident in approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment as annual instead of quarterly?",
+          "answer": "Yes, we can accommodate annual payment with a 3% discount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we're not satisfied after 6 months?",
+          "answer": "Annual contracts are non-cancellable, but we offer performance guarantees and quarterly reviews"
+        },
+        {
+          "by": "rep",
+          "question": "Are we ready to move forward with contracting?",
+          "answer": "Yes, pending final legal review which should complete this week"
+        }
+      ],
+      "objections": [
+        "Prefer more flexibility on contract cancellation terms"
+      ],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Plan onboarding kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

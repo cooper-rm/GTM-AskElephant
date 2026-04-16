@@ -1,0 +1,374 @@
+{
+  "deal_id": "DEAL-0649",
+  "company": {
+    "name": "LoopHealth",
+    "industry": "SaaS/Tech",
+    "employee_count": 55,
+    "annual_revenue": 6273405,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6800.0,
+    "seats": 7,
+    "price_per_seat_monthly": 77.22,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 13.2,
+    "sales_cycle_days": 37,
+    "close_date": "2025-08-04",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Ava Wagner",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 31
+    },
+    {
+      "name": "Asher Liu",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Ava Wagner (Director of Sales) at LoopHealth inquiring about AI notetaking solutions to improve rep productivity. Brief form submission indicating current use of Fireflies and interest in exploring alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Ava confirming receipt of inquiry and proposing times for qualification call. Ava responded positively, selecting Thursday 2pm slot and mentioning team is evaluating options to scale sales operations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, native integration available with real-time sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-03",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ava Wagner. Discussed current pain points with manual note-taking slowing down 7-person sales team. LoopHealth currently uses Fireflies but looking for more automation capabilities. Ava owns sales ops decisions but mentioned IT Director Asher Liu handles vendor approvals. Budget appears flexible within typical SaaS spend range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to evaluate alternatives to Fireflies?",
+          "answer": "Need better automation for follow-up tasks and CRM updates, current solution requires too much manual work"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision process?",
+          "answer": "I own the sales tools decision, but Asher Liu in IT handles procurement and security reviews"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model compared to Fireflies?",
+          "answer": "Outlined per-seat pricing with unlimited automation tier, will send detailed comparison"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send competitive comparison vs Fireflies",
+        "Confirm budget range"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-10",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on LoopHealth's sales workflow and specific automation needs. Ava described challenges with reps spending 30+ minutes post-call on admin tasks. Team interested in unlimited automation tier to handle task creation, email drafting, and CRM enrichment. Discussed 7 seat deployment timeline and onboarding expectations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific automation would have the biggest impact on your team?",
+          "answer": "Automated follow-up email generation and automatic task assignment based on call context"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Standard onboarding is 1-2 weeks with training included"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a pilot with 3-4 reps first?",
+          "answer": "Yes, we can structure as phased rollout starting with your core team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for full team",
+        "Prepare use case examples for sales automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-13",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Ava and three sales reps. Walked through live call recording, AI summary generation, automated CRM field population, and task creation workflows. Team engaged with questions about customization and integration depth. Compared automation capabilities directly to Fireflies, highlighting advanced workflow triggers. Positive reception on UI and automation flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields auto-populate in Salesforce?",
+          "answer": "Yes, fully configurable field mapping and custom object support"
+        },
+        {
+          "by": "prospect",
+          "question": "How does accuracy compare to Fireflies for technical sales calls?",
+          "answer": "Demonstrated similar transcription quality with stronger contextual understanding for follow-up generation"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if the AI misinterprets something important?",
+          "answer": "Reps can edit summaries before sync, and we have feedback loop to improve accuracy"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include Asher from IT in the next demo?",
+          "answer": "Ava mentioned she'll brief him separately, wants to see technical demo first herself"
+        }
+      ],
+      "objections": [
+        "One rep asked if switching tools would disrupt current workflows during busy quarter"
+      ],
+      "next_steps": [
+        "Schedule technical deep-dive demo",
+        "Send trial access for Ava to test",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-21",
+      "type": "demo",
+      "duration_minutes": 57,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive demo focusing on security, compliance, and integration architecture. Ava brought specific questions about data retention, SOC2 compliance, and API limitations. Discussed enterprise security features and admin controls. Conversation shifted to implementation timeline and pricing structure for 7 seats with unlimited automation tier. Ava mentioned need to align with Asher on vendor approval process but hasn't scheduled intro yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we configure it?",
+          "answer": "Default 2-year retention, configurable down to 90 days for compliance needs"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have SOC2 Type II certification?",
+          "answer": "Yes, current report available under NDA"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier vs standard?",
+          "answer": "Unlimited workflow triggers, custom integrations, advanced AI models, and priority support"
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to have this implemented by?",
+          "answer": "Ideally next month to impact Q2 productivity, but need to get Asher's approval first"
+        }
+      ],
+      "objections": [
+        "Expressed concern about pricing being higher than current Fireflies spend"
+      ],
+      "next_steps": [
+        "Send formal proposal with 7 seats unlimited tier",
+        "Schedule call with Asher Liu",
+        "Provide customer references"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-23",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ava. Walked through $6,800 ACV pricing for 7 seats on unlimited automation tier, annual contract. Ava receptive to value proposition but flagged that she still needs to loop in Asher for procurement approval and hasn't connected him with us yet. Discussed contract terms, implementation timeline, and success metrics. Some hesitation around committing to annual vs quarterly terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual commitment? Could we do quarterly?",
+          "answer": "Annual provides 20% savings, but can explore quarterly at higher rate if needed"
+        },
+        {
+          "by": "rep",
+          "question": "When can we connect with Asher to address any procurement requirements?",
+          "answer": "Ava will introduce us via email this week after she briefs him internally"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if it doesn't work out?",
+          "answer": "30-day termination clause after initial 90-day period"
+        }
+      ],
+      "objections": [
+        "Pushback on annual commitment without trial period",
+        "Mentioned Fireflies contract doesn't expire for 2 months"
+      ],
+      "next_steps": [
+        "Ava to introduce Asher Liu",
+        "Send revised proposal with implementation milestones",
+        "Provide case study from similar-sized sales team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent checking on Asher introduction and addressing pricing questions from previous call. Ava responded that she's still working on internal alignment and wants to revisit pricing options. Mentioned budget approval process is taking longer than expected. Requested comparison showing ROI vs Fireflies to help build internal case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide a detailed cost comparison vs Fireflies with feature breakdown?",
+          "answer": "Sent comprehensive comparison sheet highlighting automation capabilities and time savings"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call",
+        "Wait for Asher introduction"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-04",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Ava Wagner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Ava focused on finding structure that works within budget constraints. Explored discount options and contract flexibility. Ava confirmed strong interest in product capabilities but expressed concern about price premium vs Fireflies, especially without executive sponsor pushing initiative forward. Discussed potential 15% discount for annual commitment and extended payment terms. Still no introduction to Asher Liu scheduled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for annual commitment with 7 seats?",
+          "answer": "Can offer 15% discount bringing ACV to $5,780 for annual prepay"
+        },
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor who can help prioritize this decision?",
+          "answer": "Ava mentioned VP Sales is aware but hasn't been directly involved, focused on other initiatives"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with 5 seats and add more later?",
+          "answer": "Yes, can structure as 5 seat minimum with option to expand within 90 days"
+        }
+      ],
+      "objections": [
+        "Hesitation around price differential vs Fireflies for capabilities that may take time to prove ROI"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount and flexible seat count",
+        "Ava to discuss internally with VP Sales",
+        "Follow up next week on decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "deal_id": "DEAL-0601",
+  "company": {
+    "name": "OrbitalAgency",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 3492,
+    "annual_revenue": 347418308,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 96700.0,
+    "seats": 61,
+    "price_per_seat_monthly": 122.6,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 117,
+    "close_date": "2024-05-08",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Mia Ryan",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 17
+    },
+    {
+      "name": "Jack Kapoor",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 27
+    },
+    {
+      "name": "Jordan Wilson",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 22
+    },
+    {
+      "name": "Avery Weiss",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Emma Ito",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Mia Ryan submitted an inbound request through the website expressing interest in automation tools for sales-to-CS handoff. Brief form fill mentioned current manual processes causing delays in customer onboarding.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-12",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mia Ryan to understand OrbitalAgency's current handoff process. Mia described pain points with scattered information across tools and CS team waiting days for context. Currently evaluating solutions including Fathom. Discussed team size (61 sales/CS seats) and basic use case fit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle technical call transcription for cybersecurity discussions?",
+          "answer": "Our AI is trained on technical vocabulary including security terms, with custom glossaries available for specialized terminology."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current timeline for making a decision?",
+          "answer": "Hoping to have something in place within 60 days, but need to evaluate options first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and ROI calculator. Mia responded confirming receipt and asking about integration with their Salesforce and Zendesk setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce and Zendesk?",
+          "answer": "Yes, we have native integrations for both platforms with automatic data sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-29",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call to dive deeper into OrbitalAgency's tech stack and workflow. Mia confirmed they're using Salesforce, Zendesk, and Slack. Discussed specific pain point: CS team missing critical context from sales calls, leading to repeated questions and frustrated enterprise customers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to bring in our COO Jack Kapoor eventually, and probably a couple of account managers to test it."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo focused on sales-to-CS handoff",
+        "Get Jack Kapoor's availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-06",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call to review budget parameters and decision process. Mia indicated budget flexibility for the right solution, with final approval needed from Jack Kapoor for deals over $50K. Mentioned they're also looking at Fathom but concerned about feature gaps for their use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the approval process for a purchase in this range?",
+          "answer": "I can recommend, but Jack will need to sign off on anything over $50K. Emma in RevOps will handle procurement paperwork."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're typically positioned as a premium solution with more robust automation features. Happy to walk through a detailed comparison."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with use case scenarios",
+        "Prepare Fathom comparison doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-14",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focusing on specific automation requirements. Mia detailed their ideal workflow: calls automatically transcribed, action items extracted, key deal info pushed to Salesforce, and CS onboarding packet auto-generated. Discussed unlimited automation tier as best fit for their volume (300+ calls/month).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize what information gets pulled into the CS handoff packet?",
+          "answer": "Absolutely. You can create custom templates and rules for what data gets extracted and where it flows."
+        },
+        {
+          "by": "rep",
+          "question": "What's the biggest risk to this deal not closing?",
+          "answer": "Honestly, if Fathom's price is significantly lower and Jack pushes back on budget, that could be an issue. But I think we can make the ROI case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week",
+        "Invite Jordan and Avery to demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-21",
+      "type": "demo",
+      "duration_minutes": 17,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled by Mia due to conflict with customer escalation. Briefly discussed moving to later in the week with Jordan and Avery attending.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule demo for two days out"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email confirming rescheduled demo time and sending calendar invite to Mia, Jordan Wilson, and Avery Weiss. Mia confirmed all three will attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-12",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Mia, Jordan, and Avery. Walked through live example of sales call transcription, automated action item extraction, and Salesforce sync. Jordan asked detailed questions about mobile app functionality. Avery focused on technical implementation and API access. Team seemed engaged but Avery raised concerns about data security for customer calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the mobile app work for field sales reps?",
+          "answer": "Mobile app captures calls, transcribes in real-time, and syncs to CRM. Works on iOS and Android with offline capability."
+        },
+        {
+          "by": "prospect",
+          "question": "What are your data security certifications?",
+          "answer": "We're SOC 2 Type II certified, GDPR compliant, and offer data residency options. All transcripts encrypted at rest and in transit."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for your team?",
+          "answer": "If we can validate the ROI and get comfortable with security, this could work. Need to show Jack the business case."
+        }
+      ],
+      "objections": [
+        "Need more detail on data security protocols for customer call recordings"
+      ],
+      "next_steps": [
+        "Send security documentation and compliance certifications",
+        "Schedule technical deep-dive for Avery",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-18",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical demo and security deep-dive with Avery. Reviewed encryption standards, access controls, and compliance frameworks. Walked through API documentation and discussed custom integration possibilities. Avery seemed satisfied with security posture but mentioned they'd need to review with IT security team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we control who has access to specific call recordings?",
+          "answer": "Yes, role-based access controls let you define permissions at the team, user, and even call level."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% uptime SLA with redundant infrastructure and 24/7 monitoring. We provide monthly uptime reports."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers from your perspective?",
+          "answer": "Not blockers, but I need to validate the API integration with our Salesforce customizations. I'll test that this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide API sandbox access for Avery",
+        "Schedule proposal review with Mia"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-29",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Mia to review pricing for 61 seats on unlimited automation plan. Discussed $96,700 annual contract with quarterly payment terms. Mia indicated price is higher than Fathom but believes she can justify it based on automation capabilities and ROI. Needs to present business case to Jack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on payment terms?",
+          "answer": "We can offer quarterly payments instead of annual upfront. Monthly available at a slight premium."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation timeline look like?",
+          "answer": "Typical implementation is 2-3 weeks including integration setup, training, and team onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "When can you present to Jack?",
+          "answer": "I'm meeting with him next week. If you can send the proposal and ROI deck, I'll walk him through it."
+        }
+      ],
+      "objections": [
+        "Price is about 30% higher than Fathom quote"
+      ],
+      "next_steps": [
+        "Send formal proposal and ROI analysis",
+        "Prepare executive summary for Jack"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-04-02",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mia following her presentation to Jack. Jack approved the general direction but pushed back on price, asking for discount to get closer to Fathom's pricing. Mia advocating for 15-20% discount to close the gap. Discussed potential concessions: annual payment upfront, case study participation, or tiered rollout.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's pricing?",
+          "answer": "We're positioned differently with more advanced automation. I can explore options but unlikely to match dollar-for-dollar."
+        },
+        {
+          "by": "rep",
+          "question": "If we found a creative solution on pricing, is everything else approved?",
+          "answer": "Jack is generally on board. Emma will need to review the contract terms, but pricing is the main sticking point."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we started with a smaller seat count and expanded?",
+          "answer": "We could phase the rollout, though per-seat pricing increases on smaller plans. Let me run scenarios."
+        }
+      ],
+      "objections": [
+        "Jack wants pricing closer to competitive alternative",
+        "Considering phased rollout to reduce upfront cost"
+      ],
+      "next_steps": [
+        "Prepare revised pricing scenarios",
+        "Loop in Emma on contract review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-04-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with three pricing scenarios: 10% discount for annual prepay, 12% discount with case study commitment, or phased rollout starting with 35 seats. Also included feature comparison matrix vs Fathom to reinforce value gap. Mia responded favoring the 12% discount option and will discuss with Jack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What would the case study commitment involve?",
+          "answer": "Typically a written case study and optional participation in a customer webinar. Marketing team handles the heavy lifting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mia to review options with Jack",
+        "Schedule call to finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-23",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Mia Ryan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mia to finalize terms. Jack approved 12% discount with case study participation, bringing contract to approximately $85K. Mia confirmed she'll introduce Emma from RevOps to handle contract and procurement. Discussed implementation start date targeting 3 weeks out.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are we aligned on all terms now?",
+          "answer": "Yes, I think this works. Emma will have questions on contract language, but we're good from a business standpoint."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the 3-week implementation timeline?",
+          "answer": "Yes, we'll assign a dedicated implementation manager and prioritize your onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with 12% discount",
+        "Intro call with Emma",
+        "Schedule exec meeting with Jack to finalize"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-27",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Jack Kapoor",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Jack Kapoor, Mia Ryan, and rep to review final proposal and business case. Walked through ROI calculation showing 200+ hours saved monthly in handoff time. Jack asked detailed questions about competitive landscape, customer retention metrics, and implementation risk. Generally positive but wants to review contract details before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate?",
+          "answer": "94% annual retention rate with enterprise customers. Average customer expands seats by 40% in year two."
+        },
+        {
+          "by": "prospect",
+          "question": "Who are your top 3 competitors and how do you differentiate?",
+          "answer": "Fathom, Gong, and Chorus. We differentiate on unlimited automation, custom workflows, and sales-to-CS handoff capabilities."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if implementation takes longer than 3 weeks?",
+          "answer": "We'll provide weekly progress updates and adjust resources to meet the timeline. Any delays result in extended support at no cost."
+        },
+        {
+          "by": "rep",
+          "question": "What else do you need to feel confident moving forward?",
+          "answer": "I want Emma to review the contract terms carefully. Assuming nothing unusual there, I'm ready to approve."
+        }
+      ],
+      "objections": [
+        "Wants to ensure contract terms are standard and favorable"
+      ],
+      "next_steps": [
+        "Emma to complete contract review",
+        "Final exec meeting to sign off"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-05-08",
+      "type": "exec_meeting",
+      "duration_minutes": 53,
+      "person_name": "Jack Kapoor",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive meeting with Jack Kapoor to review Emma's contract feedback and address final questions. Emma negotiated minor revisions to data retention terms and auto-renewal language. Jack approved the deal with revised contract terms. Discussed kickoff timeline and assigned Jordan as primary implementation contact. Contract ready for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the auto-renewal clause to require 90-day notice instead of 60?",
+          "answer": "Yes, we can accommodate 90-day notice for enterprise contracts."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation and ongoing support?",
+          "answer": "Dedicated implementation manager, custom integration setup, team training, and 24/7 support post-launch. Quarterly business reviews included."
+        },
+        {
+          "by": "rep",
+          "question": "Are we ready to move forward?",
+          "answer": "Yes, send the final contract. I'll sign this week and we can kick off implementation."
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact after go-live?",
+          "answer": "You'll have a dedicated Customer Success Manager assigned within 48 hours of contract signature."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Assign CSM",
+        "Schedule implementation kickoff with Jordan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

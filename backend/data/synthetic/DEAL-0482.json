@@ -1,0 +1,367 @@
+{
+  "deal_id": "DEAL-0482",
+  "company": {
+    "name": "QuartzLabs",
+    "industry": "Healthcare IT",
+    "employee_count": 1000,
+    "annual_revenue": 111273078,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17000.0,
+    "seats": 18,
+    "price_per_seat_monthly": 77.74,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 12.7,
+    "sales_cycle_days": 31,
+    "close_date": "2025-10-26",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Noah Le",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 23
+    },
+    {
+      "name": "Javier Harris",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 6
+    },
+    {
+      "name": "Jackson Chen",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 8
+    },
+    {
+      "name": "Elijah Stern",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 24
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Noah Le expressing interest in call recording and coaching tools for their CS team. Brief form submission noting they're currently evaluating alternatives including Fireflies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Noah"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-25",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Noah Le to understand QuartzLabs' current state and pain points. Noah explained their CS team needs better visibility into customer calls and wants to improve coaching workflows. Currently using manual note-taking. Team of 18 CS reps needs solution. Discussed timeline and budget parameters.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your coaching workflow differ from Fireflies?",
+          "answer": "We offer AI-generated coaching scorecards, custom playbook integration, and dedicated implementation support that goes beyond basic transcription"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving this evaluation now?",
+          "answer": "Our CS team is scaling rapidly and managers are spending too much time reviewing calls manually. We need to standardize coaching across the team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Noah to share current process documentation",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar healthcare IT company and pricing overview for 18 seats. Noah responded asking about implementation timeline and confirming interest in moving forward with discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks from contract signature to full rollout, including training sessions for your CS managers"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-03",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Noah diving deeper into QuartzLabs' CS operations and success metrics. Noah shared that their current manual QA process only covers 5% of calls and managers want to coach on specific skills like objection handling and de-escalation. Discussed integrations with their existing Salesforce setup and reporting needs. Noah mentioned they're also talking to Fireflies but likes our consulting approach.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific coaching metrics matter most to your CS leadership?",
+          "answer": "We track first-call resolution rate, customer sentiment scores, and manager-to-rep coaching hours. Want to improve all three"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our Salesforce instance and push call summaries automatically?",
+          "answer": "Yes, we have a native Salesforce integration that syncs call summaries, sentiment, and action items directly to the contact record"
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the coaching scorecards?",
+          "answer": "Fully customizable - you can define your own rubrics, weight different skills, and create role-specific scorecards for different CS segments"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Noah to loop in Jackson Chen for technical evaluation",
+        "Share detailed integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-08",
+      "type": "technical_eval",
+      "duration_minutes": 36,
+      "person_name": "Jackson Chen",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Jackson Chen, Implementation Lead. Walked through platform architecture, security compliance (SOC 2, HIPAA), API capabilities, and Salesforce integration setup. Jackson tested the UI, asked detailed questions about data retention policies and user provisioning. He expressed concern about potential overlap with their existing Fireflies pilot but appreciated the coaching layer and analytics depth.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it for HIPAA compliance?",
+          "answer": "Default is 24 months, but you can configure custom retention windows. We're HIPAA compliant and can provide BAA as needed"
+        },
+        {
+          "by": "prospect",
+          "question": "How does SSO provisioning work with Okta?",
+          "answer": "Native SAML integration with Okta - users auto-provision based on group membership and you can map roles through SCIM"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current setup with Fireflies and what gaps are you seeing?",
+          "answer": "We piloted Fireflies for basic transcription but it doesn't have the coaching workflows or analytics we need. It's more of a note-taking tool than a CS enablement platform"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we run both tools during a transition period?",
+          "answer": "Yes, they can coexist - though most customers consolidate to avoid redundant recording once they see the feature overlap"
+        }
+      ],
+      "objections": [
+        "We already have some investment in Fireflies and need to justify switching costs to leadership"
+      ],
+      "next_steps": [
+        "Jackson to complete technical validation checklist",
+        "Schedule executive stakeholder meeting with Javier Harris"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-10-13",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Javier Harris",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Javier Harris (CEO) and Noah Le. Presented business case focused on improving CS efficiency and reducing churn through better coaching. Javier asked about ROI metrics and competitive positioning versus Fireflies. Discussed strategic value of coaching infrastructure as QuartzLabs scales their CS org from 18 to 30+ reps this year. Javier expressed interest but wants to see pricing proposal before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are similar healthcare customers seeing in terms of CS productivity or retention improvement?",
+          "answer": "Healthcare customers typically see 20-30% reduction in coaching time per rep and 15% improvement in CSAT scores within first quarter"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and who else needs to be involved?",
+          "answer": "Ideally close by end of quarter. I'm the final decision maker, but need buy-in from Noah's team and validation from RevOps on implementation"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you position against Fireflies from a cost perspective?",
+          "answer": "We're a coaching and enablement platform, not just a transcription tool. Yes, higher ACV, but the consulting and custom scorecard value more than pays for itself in manager time saved"
+        }
+      ],
+      "objections": [
+        "The price point is higher than Fireflies - need to justify the premium to our board"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule follow-up exec meeting to review proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-18",
+      "type": "exec_meeting",
+      "duration_minutes": 54,
+      "person_name": "Javier Harris",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second executive meeting (rescheduled from previous week). Javier and Noah reviewed the proposal for 18 seats at $17k ACV including automations and consulting package. Javier pushed back on pricing, referencing Fireflies' lower cost and asking for discount justification. Discussed payment terms and implementation support. Noah advocated strongly for the platform based on technical eval. Javier requested time to discuss internally with CFO and RevOps before proceeding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the consulting package versus the base platform?",
+          "answer": "Base includes all core features - recording, AI summaries, integrations. Consulting adds quarterly strategy sessions, custom scorecard building, and dedicated CSM for first 90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing if we commit to annual prepayment?",
+          "answer": "For annual prepay we can offer 10% discount, bringing it to roughly $15.3k ACV"
+        },
+        {
+          "by": "rep",
+          "question": "Is there a specific budget constraint or approval threshold we should be aware of?",
+          "answer": "Board approved up to $20k for CS tooling this quarter, but they'll ask why we're not going with the cheaper option, so ROI story needs to be airtight"
+        },
+        {
+          "by": "prospect",
+          "question": "If we started with a smaller pilot, what would that look like?",
+          "answer": "We could do 10 seats as a pilot, but you'd lose per-seat pricing leverage and the consulting package ROI works best with full team adoption"
+        }
+      ],
+      "objections": [
+        "Fireflies is less than half the cost - our CFO will question why we need the premium solution"
+      ],
+      "next_steps": [
+        "Javier to discuss with CFO and Elijah from RevOps",
+        "Reconvene in 5 days to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-19",
+      "type": "negotiation_call",
+      "duration_minutes": 7,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief negotiation call with Noah after Javier's internal review. Noah confirmed that leadership approved budget but is asking for small concessions on contract terms - specifically quarterly payment option instead of annual prepay, and flexibility on seat count in year two if CS team grows beyond 18. Quick alignment on moving forward pending final pricing call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments at the discounted annual rate?",
+          "answer": "We can do quarterly at a 5% discount instead of 10%, so roughly $16.2k ACV"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to finalize contract structure",
+        "Loop in Elijah from RevOps for final approval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-26",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Noah Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Noah and Elijah Stern (RevOps Analyst). Confirmed contract structure: 18 seats, $16.2k ACV, quarterly payments, automations plus consulting package included. Elijah verified implementation timeline and integration requirements. Noah confirmed they're moving forward and will send signed contract by end of week. Agreed on kickoff date and assigned CSM.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the process if we need to add seats mid-contract?",
+          "answer": "Seats can be added anytime, prorated to your renewal date at the same per-seat rate"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns or blockers before we send the contract?",
+          "answer": "No blockers - just need to finalize legal review on data processing terms, but that's standard and shouldn't delay signature"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff for week of contract start"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

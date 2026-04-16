@@ -1,0 +1,329 @@
+{
+  "deal_id": "DEAL-0532",
+  "company": {
+    "name": "ObsidianWorks",
+    "industry": "Marketing Agency",
+    "employee_count": 408,
+    "annual_revenue": 50789750,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 23800.0,
+    "seats": 27,
+    "price_per_seat_monthly": 71.06,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 20.2,
+    "sales_cycle_days": 30,
+    "close_date": "2025-05-26",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zoey Davis",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 18
+    },
+    {
+      "name": "Lucas Costa",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 27
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Zoey Davis introducing our platform's rep productivity capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-09",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Zoey Davis. Rep introduced the platform's ability to automate CRM updates and surface rep coaching opportunities. Zoey expressed interest in learning more given their team's struggle with manual note-taking.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from what we're already getting from Fireflies?",
+          "answer": "Rep explained that while Fireflies focuses on transcription, our platform provides action-oriented insights, automated CRM sync, and tailored coaching recommendations based on conversation analysis."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study on rep productivity gains"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study showing 8 hours saved per rep per week. Zoey responded confirming interest and asking about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like for a team our size?",
+          "answer": "Rep outlined 2-3 week onboarding with dedicated CSM support, including CRM integration setup and team training sessions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss current workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Email exchange confirming qualification call details. Zoey mentioned bringing Lucas Costa from implementation team to future discussions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery questions around current tech stack and pain points"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Discovery email sent requesting info on current tools, team structure, and key metrics. Zoey provided details on 27-person sales team struggling with inconsistent CRM hygiene and limited visibility into deal risks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top 3 challenges with your current setup?",
+          "answer": "Zoey identified: manual CRM entry eating 10+ hours/week per rep, no standardized call analysis, and inability to spot at-risk deals early."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on CRM automation and deal risk detection"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Demo confirmation email with agenda. Zoey confirmed demo timing and requested pricing ballpark for 27 seats with consulting add-on.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you give us a rough pricing range before the demo?",
+          "answer": "Rep provided range of $850-1,100 per seat annually depending on tier, with consulting priced separately based on scope."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo and discuss consulting engagement options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-15",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Zoey reviewing initial pricing of $29,800 for automations_plus_consulting tier. Zoey noted budget constraints and asked about flexibility. Rep walked through ROI calculations showing 200+ hours saved monthly across team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to move on price given we're comparing against Fireflies at a much lower cost?",
+          "answer": "Rep acknowledged competitive landscape and offered to explore creative packaging options."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in final approval?",
+          "answer": "Zoey mentioned she has budget authority for this range but wants Lucas to validate technical fit."
+        }
+      ],
+      "objections": [
+        "Price premium compared to current Fireflies subscription"
+      ],
+      "next_steps": [
+        "Revise proposal with adjusted pricing",
+        "Schedule technical validation call with Lucas"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-16",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled proposal review call. Zoey apologized for needing to reschedule due to urgent internal project. When call occurred, rep presented revised proposal at $23,800 (20% discount). Zoey appreciated the flexibility and confirmed technical review would happen within the week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting engagement actually include at this tier?",
+          "answer": "Rep detailed: initial workflow audit, 3 custom playbook builds, monthly optimization sessions, and dedicated Slack channel for ongoing support."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to loop in executive leadership on this initiative?",
+          "answer": "Zoey mentioned it's not required for this budget level and she's driving the decision with Lucas's technical sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to complete technical validation",
+        "Zoey to provide contract review timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-23",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call following Lucas's technical validation. Lucas confirmed platform meets requirements but raised concerns about data security protocols. Rep walked through compliance certifications and security architecture. Discussion turned to contract terms and implementation start date.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get SOC 2 Type II documentation before signing?",
+          "answer": "Rep confirmed documentation would be provided within 24 hours."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the earliest we could go live if we sign this week?",
+          "answer": "Rep outlined 3-week implementation timeline starting the following Monday."
+        }
+      ],
+      "objections": [
+        "Need written confirmation of data retention policies"
+      ],
+      "next_steps": [
+        "Send SOC 2 docs and data retention policy",
+        "Finalize contract terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-05-28",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Zoey Davis",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing alignment call. Zoey confirmed $23,800 ACV works within budget constraints. Rep reviewed payment terms, implementation timeline, and consulting deliverables. Zoey requested Net 45 payment terms instead of Net 30. Rep agreed to terms and confirmed contract would be sent for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Rep confirmed quarterly billing option available at same total ACV."
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on moving forward with signature this week?",
+          "answer": "Zoey confirmed she and Lucas are ready to sign pending legal review of final contract language."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with Net 45 terms and quarterly billing",
+        "Legal review by ObsidianWorks",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 103,
+    "churn_reason": "lack of executive alignment"
+  }
+}

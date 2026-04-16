@@ -1,0 +1,307 @@
+{
+  "deal_id": "DEAL-0797",
+  "company": {
+    "name": "PivotHub",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 36,
+    "annual_revenue": 4281544,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7600.0,
+    "seats": 11,
+    "price_per_seat_monthly": 55.84,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 37.3,
+    "sales_cycle_days": 34,
+    "close_date": "2023-03-05",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Lucas Smith",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Lucas Smith submitted an inbound demo request through the website form, expressing interest in onboarding automation solutions for their sales team. Brief form fill indicated they're currently evaluating Chorus as well.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-30",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lucas to understand PivotHub's current onboarding challenges. Lucas explained they're a 36-person managed IT/cybersecurity firm looking to scale their sales processes. Currently manual onboarding taking 2-3 weeks per new rep. Evaluating our platform alongside Chorus.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can new reps get up to speed with your platform versus building custom workflows?",
+          "answer": "Most teams see reps productive within the first week with our pre-built templates, versus 3-4 weeks building from scratch."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 6-8 weeks, before Q3 starts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-03",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call covering PivotHub's current state and desired outcomes. Lucas walked through their manual onboarding process, pain points with rep ramp time, and goals to reduce onboarding from 3 weeks to under 1 week. Discussed the automations_plus_consulting tier to include implementation support. Lucas mentioned Chorus offers similar automation but lacks the consulting component.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing CRM and learning management system?",
+          "answer": "Yes, we have native integrations with all major CRMs and can connect to most LMS platforms via API or webhooks."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of customization is available for our specific cybersecurity sales processes?",
+          "answer": "Fully customizable workflows, playbooks, and content libraries. The consulting tier includes 20 hours of implementation support to tailor everything to your processes."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this besides yourself?",
+          "answer": "I'll be driving this evaluation. I may loop in our VP of Sales closer to the end, but I have budget authority for this."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "Chorus is significantly cheaper for just the automation features."
+        }
+      ],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare custom demo environment",
+        "Share case studies from managed services companies"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-09",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to address questions from discovery and confirm demo requirements. Lucas clarified which integrations are must-haves and shared example onboarding content they'd want to migrate. Discussed the 11-seat count (all current sales team plus 3 planned hires in Q3).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we start with 11 seats, how easy is it to add more as we scale?",
+          "answer": "Seats can be added anytime with pro-rated billing. Most customers adjust quarterly as teams grow."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to review the case studies I sent over?",
+          "answer": "Yes, the SecureNet example was really relevant. Similar company size and challenges."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical demo for next week",
+        "Lucas to compile list of use cases to test"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-16",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Lucas walking through live platform demo. Covered workflow automation, content library setup, analytics dashboard, and reporting. Lucas tested creating a sample onboarding workflow for their cybersecurity sales scenarios. Positive feedback on UI and flexibility, but noted Chorus has stronger call recording/transcription features they also value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export data for custom reporting in our BI tools?",
+          "answer": "Yes, full API access and CSV exports available. We also offer pre-built connectors for Tableau and PowerBI on enterprise plans."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting support work\u2014is it ongoing or just implementation?",
+          "answer": "The 20 hours is focused on implementation over the first 60 days. Ongoing support available through success plans or additional consulting packages."
+        },
+        {
+          "by": "rep",
+          "question": "How are you feeling about the platform compared to Chorus?",
+          "answer": "I like the onboarding automation focus here. Chorus is stronger on conversation intelligence, but that's not our primary need right now."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The price point is higher than we initially budgeted for this initiative."
+        }
+      ],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review call",
+        "Lucas to finalize seat count"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-21",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call presenting formal pricing for 11 seats on automations_plus_consulting tier at $12,120 ACV. Lucas appreciated the implementation support but expressed concern about total cost compared to Chorus's offering at roughly $8K. Discussed ROI based on reducing onboarding time and improving rep productivity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the per-seat pricing given our commitment to 11 seats upfront?",
+          "answer": "Let me discuss with my manager what we can do for a multi-seat commitment. I'll get back to you with options."
+        },
+        {
+          "by": "rep",
+          "question": "If we could get closer to your budget, is there anything else blocking a decision?",
+          "answer": "Price is the main thing. I'm confident in the platform, just need to make the numbers work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal pricing discussion",
+        "Schedule pricing call to review adjusted proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-02",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call presenting revised proposal at $7,600 ACV (37.3% discount) to match closer to Chorus pricing while maintaining consulting support. Lucas appreciated the adjustment and confirmed this fits within his approved budget. Discussed contract terms and start date.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing locks in for the full year, correct?",
+          "answer": "Yes, annual contract with locked pricing. Renewal discussion would happen 90 days before term end."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to review contract internally",
+        "Schedule final call to address any remaining questions before signing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-05",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Lucas Smith",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to address contract questions and confirm implementation timeline. Lucas requested minor payment term adjustment (Net 45 instead of Net 30) which was approved. Discussed onboarding kickoff timeline and consulting hour allocation. Lucas confirmed he's ready to move forward pending legal review of MSA.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we schedule the implementation kickoff for the first week of Q3 to align with our new hire onboarding?",
+          "answer": "Absolutely, we'll coordinate with your timeline. Implementation team typically starts within 5-7 days of contract signature."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need to loop in your VP of Sales or anyone else before final signature?",
+          "answer": "No, I have sign-off authority here. Just need our legal team to review the agreement, should be quick."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Lucas to return signed agreement within 1 week",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

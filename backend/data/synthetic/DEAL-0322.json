@@ -1,0 +1,223 @@
+{
+  "deal_id": "DEAL-0322",
+  "company": {
+    "name": "TealSystems",
+    "industry": "SaaS/Tech",
+    "employee_count": 31,
+    "annual_revenue": 7642724,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3600.0,
+    "seats": 5,
+    "price_per_seat_monthly": 62.13,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.2,
+    "sales_cycle_days": 22,
+    "close_date": "2024-02-20",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Owen Gonzalez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 34
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-09",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn outreach to Owen Gonzalez at TealSystems. Message highlighted call recording and coaching capabilities for sales teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-10",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 10.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message to Owen. Mentioned specific pain points around coaching visibility for remote sales teams. Owen responded expressing interest in learning more about the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have time for a quick call next week to walk through what you're offering?",
+          "answer": "Absolutely - I'll send over some times that work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-29",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Owen Gonzalez. Discussed TealSystems' current process for call recording (manual note-taking, inconsistent) and coaching needs. Owen manages a team of 5 SDRs and wants better visibility into call quality. Expressed interest in unlimited automation tier. No other stakeholders mentioned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for reviewing calls and coaching your team?",
+          "answer": "Honestly, it's pretty manual. We ask reps to self-report, but there's no systematic way to listen in or coach. I end up missing a lot."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating a tool like this?",
+          "answer": "Probably just me at this point. I own the sales tools budget and process."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of pricing are we talking about for 5 seats?",
+          "answer": "Let me put together a proposal and we can walk through it on the next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with unlimited automation tier pricing",
+        "Schedule demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 16.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with proposal for 5 seats on unlimited automation plan. Owen replied asking about discount options and whether we could get a demo scheduled before committing to pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing if we move quickly?",
+          "answer": "Let me talk to my manager - we can definitely work with you on timing-based discounts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Explore discount options",
+        "Schedule demo/exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-13",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "42-minute exec meeting (originally scheduled with Owen only, rescheduled once). Owen walked through a live demo of the platform with screen share. Focused heavily on coaching dashboard and automation features. Owen confirmed 5 seats and asked about contract length flexibility. Pricing discussion revealed 30% discount applied. No other executives or decision-makers joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a shorter contract term, like 6 months, to start?",
+          "answer": "Our standard is annual, but given the discount we're offering, we'd need to keep it at 12 months minimum."
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to loop in your CFO or CEO on the final decision?",
+          "answer": "I have budget approval for this tier, so we should be good to move forward without them."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in onboarding and support?",
+          "answer": "You'll get a dedicated onboarding specialist for the first 30 days, plus ongoing email/chat support and a knowledge base."
+        }
+      ],
+      "objections": [
+        "Would prefer shorter contract term to test before committing long-term"
+      ],
+      "next_steps": [
+        "Finalize contract terms",
+        "Schedule pricing/negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-20",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Owen Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute pricing and negotiation call with Owen. Confirmed final terms: $3,600 ACV, 5 seats, unlimited automation tier, 30.2% discount applied, 12-month contract. Owen requested one final review of the contract language before signing. Discussed implementation timeline (2-week target). Owen to check internally and confirm signature timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we realistically get up and running after signature?",
+          "answer": "Typically 2 weeks from contract signature to full rollout for a team your size."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need to run this by legal or finance before signing?",
+          "answer": "I'll give it a quick review on my end, but shouldn't need formal legal sign-off for this amount."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Owen to review and confirm signature date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

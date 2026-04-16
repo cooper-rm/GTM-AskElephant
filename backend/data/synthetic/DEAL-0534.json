@@ -1,0 +1,625 @@
+{
+  "deal_id": "DEAL-0534",
+  "company": {
+    "name": "SagePrism",
+    "industry": "SaaS/Tech",
+    "employee_count": 446,
+    "annual_revenue": 38388333,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17800.0,
+    "seats": 22,
+    "price_per_seat_monthly": 65.06,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.9,
+    "sales_cycle_days": 71,
+    "close_date": "2025-12-05",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Ava Gomez",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 17
+    },
+    {
+      "name": "Aria Silva",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 12
+    },
+    {
+      "name": "Jackson Hill",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 17
+    },
+    {
+      "name": "Ethan Ryan",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 20
+    },
+    {
+      "name": "Megan Mitchell",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Ava Gomez from SagePrism submitted an inbound request expressing interest in CRM automation solutions for their RevOps team. Initial inquiry focused on workflow automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with overview of automation capabilities",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Ava providing overview of CRM automation platform and positioning against market alternatives. Highlighted RevOps-specific use cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Clari for forecasting accuracy?",
+          "answer": "Positioned our automation-first approach vs Clari's analytics focus, noting complementary use cases"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Ava confirmed availability for qualification call and shared preliminary team size (around 20-25 RevOps/Sales users). Expressed urgency around Q2 planning cycle.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-02",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Ava. Discussed current CRM workflow challenges, manual data entry burden on sales team, and need for better pipeline visibility. Ava mentioned evaluating Clari but concerned about complexity. Team size confirmed at 22 seats across RevOps and Sales.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline for a team our size?",
+          "answer": "4-6 weeks for core automation setup, with consulting engagement to customize workflows"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this solution?",
+          "answer": "Ava mentioned Aria Silva (RevOps Analyst) and potentially IT for technical review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map current workflows",
+        "Send use case examples for RevOps teams"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-06",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute discovery call with Ava diving into SagePrism's current RevOps processes. Identified key pain points: duplicate data entry, inconsistent pipeline updates, and lack of automation triggers. Ava expressed strong interest in automations tier but noted budget discussion needed with leadership. Mentioned Clari again as alternative being considered.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance and Slack?",
+          "answer": "Yes, confirmed native integrations for both with workflow automation across tools"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of technical resources do we need on our side for implementation?",
+          "answer": "Minimal - consulting package includes configuration and training, IT involvement for SSO/security review"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the timeline for this decision?",
+          "answer": "Q2 planning cycle and need to reduce manual workload before summer peak season"
+        }
+      ],
+      "objections": [
+        "Budget authority unclear - needs CFO or executive approval for software purchases over $15K"
+      ],
+      "next_steps": [
+        "Map out technical requirements with IT team",
+        "Prepare demo focused on automation workflows",
+        "Discuss pricing and package options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-10-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 24.8,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email to Ava with technical requirements checklist and requested introduction to IT contact for security/integration review. Included pricing calculator for 22 seats with automation tier.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Connect with Jackson Hill (IT Director) for technical evaluation",
+        "Schedule demo for broader team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Ava responded introducing Jackson Hill from IT and Aria Silva from her team. Confirmed interest in demo and requested comparison document vs Clari since they're evaluating both options. Noted that procurement will also need to be involved (Ethan Ryan).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide a side-by-side feature comparison with Clari?",
+          "answer": "Will prepare competitive comparison focused on automation capabilities and implementation complexity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send Clari comparison document",
+        "Schedule multi-stakeholder demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-19",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute follow-up call with Ava to discuss demo logistics and stakeholder alignment. Ava mentioned that executive sponsor engagement has been challenging - CFO is focused on other priorities. Discussed competitive positioning vs Clari and confirmed automation use cases are the primary differentiator.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there an executive champion we should include in upcoming conversations?",
+          "answer": "Ava noted she reports to VP Sales but they haven't been engaged yet on this evaluation"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your flexibility on pricing for a multi-year commitment?",
+          "answer": "Discussed volume discounts and noted pricing will depend on final package selection"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Ava, Aria, Jackson, and account managers",
+        "Prepare ROI analysis for executive presentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email sent to all attendees. Demo covered core automation workflows, Salesforce integration, and reporting capabilities. Team seemed engaged, particularly around automated pipeline updates and forecast accuracy features. Jackson raised questions about data security and SOC2 compliance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Provide SOC2 documentation and security questionnaire responses to Jackson",
+        "Schedule technical deep-dive for IT review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-10-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.1,
+      "rescheduled": false,
+      "ai_summary": "Ava requested formal proposal with pricing for 22 seats, automations tier plus consulting package. Mentioned budget target is around $12-15K annually. Also asked for customer references in similar RevOps use cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have reference customers in SaaS with similar team sizes?",
+          "answer": "Provided three reference contacts from mid-market SaaS companies using automation tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Facilitate reference calls"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-11-01",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute meeting with Ava and Megan Mitchell (Account Manager) to review preliminary proposal. Discussed $17.8K pricing for 22 seats with consulting package. Megan raised concerns about pricing being higher than expected. Ava reiterated budget constraints and mentioned Clari pricing came in lower for similar capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to negotiate on the consulting package cost?",
+          "answer": "Noted flexibility to adjust scope or phase implementation to manage costs"
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision-making process from here?",
+          "answer": "Needs procurement review, IT security sign-off, and informal CFO approval"
+        }
+      ],
+      "objections": [
+        "Pricing concern - initial quote exceeds budget expectations",
+        "Competitive pressure from Clari's lower pricing"
+      ],
+      "next_steps": [
+        "Revise proposal with pricing options",
+        "Schedule follow-up to address procurement requirements"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-11-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 16.4,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal with three pricing tiers: base automation ($13K), automation plus consulting ($17.8K), and premium with expanded support ($22K). Highlighted ROI analysis showing 6-month payback on mid-tier option.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review proposal options with Ava and procurement team",
+        "Address any outstanding technical questions from Jackson"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-11-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Ava responded that mid-tier option ($17.8K) aligns best with requirements but needs approval on pricing. Ethan Ryan from procurement copied on thread requesting vendor information form and contract terms for review. Jackson confirmed security review is progressing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete procurement vendor questionnaire",
+        "Provide standard contract terms to Ethan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-11-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.6,
+      "rescheduled": false,
+      "ai_summary": "Submitted vendor questionnaire and contract terms to Ethan. Ava mentioned they're nearing end of fiscal quarter and asked about any additional flexibility on pricing to close before month-end. Reiterated that Clari is still in consideration and pricing is competitive factor.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discuss pricing flexibility with leadership",
+        "Schedule proposal review call to address final questions"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-11-18",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute proposal review call with Ava, Aria, and Ethan. Discussed contract terms, implementation timeline, and pricing. Ethan raised questions about payment terms and renewal conditions. Ava pushed for discount to meet budget threshold. Discussed 26% discount to bring total to $13K, matching their budget target.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment as quarterly rather than annual upfront?",
+          "answer": "Standard terms are annual, but can discuss payment plan options"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens to pricing at renewal if we want to add seats?",
+          "answer": "Renewal pricing locked for term, seat additions prorated at same rate"
+        }
+      ],
+      "objections": [
+        "Pricing still above budget even with standard discount",
+        "Payment terms preference for quarterly vs annual"
+      ],
+      "next_steps": [
+        "Seek approval for extended discount to $13K",
+        "Prepare final contract with agreed terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-11-23",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute meeting with Ava and Aria to finalize terms. Confirmed 26.9% discount to reach $13K total, though this reduces margin significantly. Ava committed to moving forward pending final IT security sign-off from Jackson and informal CFO nod. No executive sponsor formally engaged in evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we include VP Sales or CFO in final approval discussion?",
+          "answer": "Ava will handle internal approvals, prefers to keep current stakeholder group"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract at $13K pricing",
+        "Obtain IT security final approval",
+        "Target signature before quarter-end"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-11-27",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "38-minute negotiation call with Ava, Ethan, and Aria to review final contract. Ethan raised concerns about auto-renewal clause and requested opt-in renewal instead. Discussed data retention and termination terms. Ava confirmed budget approved at $13K level but emphasized need to close quickly before end of month.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we modify auto-renewal to require explicit opt-in at end of term?",
+          "answer": "Standard practice is auto-renewal with 30-day notice, but can discuss exceptions"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the data export process if we decide not to renew?",
+          "answer": "Full data export available in standard formats, 30-day retention post-termination"
+        },
+        {
+          "by": "rep",
+          "question": "Is Jackson's security review complete?",
+          "answer": "Final approval expected this week, no major concerns identified"
+        }
+      ],
+      "objections": [
+        "Contract terms - auto-renewal clause pushback",
+        "Timeline pressure creating urgency but also scrutiny"
+      ],
+      "next_steps": [
+        "Revise contract with opt-in renewal language",
+        "Confirm Jackson's final security approval",
+        "Prepare for signature"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-11-29",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "41-minute negotiation session with expanded group including Megan Mitchell. Reviewed revised contract with opt-in renewal terms. Ethan requested additional language around implementation deliverables and success criteria for consulting package. Megan expressed concerns about support SLAs and escalation process. Jackson joined briefly to confirm security approval complete.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do we have around implementation timeline and deliverables?",
+          "answer": "Standard SOW includes milestone timeline and acceptance criteria, can formalize in contract appendix"
+        },
+        {
+          "by": "prospect",
+          "question": "What are support response times for critical issues?",
+          "answer": "Business tier includes 4-hour response for P1 issues, 24-hour for P2, detailed in SLA appendix"
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on quarter-end signature target?",
+          "answer": "Ava confirmed working toward this week, pending final procurement review"
+        }
+      ],
+      "objections": [
+        "Implementation deliverables need clearer definition in contract",
+        "Support SLA concerns from end-users"
+      ],
+      "next_steps": [
+        "Add implementation SOW appendix to contract",
+        "Provide detailed SLA documentation",
+        "Final procurement review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-12-07",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Ava Gomez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute final review with Ava, Ethan, and Aria. Contract updated with all requested terms: opt-in renewal, implementation SOW appendix, SLA documentation. Ethan confirmed procurement approval. Ava noted CFO informally aware but not directly engaged in decision. Agreed to move forward with signature, though still competitive tension with Clari as backup option. Deal positioned to close at $13K (26.9% discount from list).",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do you need any final approvals before signing?",
+          "answer": "Ava has authority to sign, CFO informed of spend level"
+        },
+        {
+          "by": "prospect",
+          "question": "When can implementation kick off after signature?",
+          "answer": "Onboarding team can start within 5 business days of signed contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff",
+        "Assign customer success manager"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

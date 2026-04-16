@@ -1,0 +1,366 @@
+{
+  "deal_id": "DEAL-0814",
+  "company": {
+    "name": "NimbusVentures",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 100,
+    "annual_revenue": 15945554,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 5,
+    "price_per_seat_monthly": 62.12,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.2,
+    "sales_cycle_days": 42,
+    "close_date": "2023-06-28",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Harper Watson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 35
+    },
+    {
+      "name": "Zoey Sun",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 12
+    },
+    {
+      "name": "Sophia Gomez",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 36.4,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message to Harper Watson introducing AskElephant's call recording and coaching capabilities. Harper responded positively, expressed interest in learning more about how it compares to their current evaluation of Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your coaching feature differ from what Gong offers?",
+          "answer": "Rep explained AskElephant's AI-powered coaching workflows and real-time feedback capabilities, offered to show detailed comparison in a qualification call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Harper Watson. Discussed NimbusVentures' current call recording gaps and coaching needs for their CS team. Harper mentioned they're also evaluating Gong but appreciates AskElephant's automation features. Confirmed budget authority lies with Zoey Sun (SVP Revenue).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for 5 seats with unlimited automation?",
+          "answer": "Rep provided standard pricing framework, mentioned typical range for similar deployments is $4,500-6,000 ACV depending on package."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Harper indicated they're looking to implement within 6-8 weeks, currently in evaluation phase."
+        }
+      ],
+      "objections": [
+        "Gong has stronger brand recognition in our space"
+      ],
+      "next_steps": [
+        "Harper to share current call recording pain points via email",
+        "Rep to send discovery prep materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Harper with discovery framework and questions about current workflows. Harper replied with detailed pain points: lack of automated coaching feedback, difficulty scaling CS quality across distributed team, no integration with their current tech stack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our Zendesk and Salesforce setup?",
+          "answer": "Rep confirmed native integrations available and offered to show technical setup in next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call to map technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-29",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into NimbusVentures' tech stack and coaching workflows. Harper walked through current manual QA process and expressed frustration with lack of actionable insights. Discussed integration requirements with Zendesk and Salesforce. Harper confirmed Zoey Sun will need to be involved for final approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many calls per week does your CS team handle?",
+          "answer": "Harper estimated 200-250 calls weekly across 5 team members."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Rep outlined 2-3 week implementation with dedicated support, lighter lift than Gong's typical 4-6 week onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Harper to loop in Sophia Gomez from IT for technical validation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-04",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled once, then conducted with Harper Watson. Showed live call recording, AI coaching suggestions, and automation workflows. Harper particularly engaged with real-time feedback features and custom coaching templates. Asked detailed questions about reporting and analytics compared to Gong's offerings.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI coaching criteria for our specific cybersecurity use cases?",
+          "answer": "Rep demonstrated custom template builder and showed examples from similar managed IT clients."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your analytics dashboard compare to Gong's deal intelligence features?",
+          "answer": "Rep acknowledged Gong's strength in sales analytics, positioned AskElephant as superior for CS coaching and quality assurance workflows."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear win over Gong for your team?",
+          "answer": "Harper emphasized faster implementation, better CS-focused features, and more flexible automation capabilities."
+        }
+      ],
+      "objections": [
+        "Gong has more robust sales intelligence features that our revenue team might need"
+      ],
+      "next_steps": [
+        "Schedule exec meeting with Zoey Sun to discuss strategic fit and pricing",
+        "Send ROI calculator and case study from similar MSP client"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-08",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Zoey Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First exec meeting with Zoey Sun (SVP Revenue) and Harper Watson. Discussed strategic value of call coaching for both CS and sales teams. Zoey asked pointed questions about ROI, competitive positioning vs Gong, and pricing flexibility. Expressed concern about budget allocation for this fiscal year.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are similar-sized companies seeing in the first year?",
+          "answer": "Rep shared case study showing 25% reduction in customer churn and 15% improvement in CS efficiency metrics within 6 months."
+        },
+        {
+          "by": "prospect",
+          "question": "Why should we choose AskElephant over Gong given their market position?",
+          "answer": "Rep positioned on CS-first design, faster implementation, and 40% lower total cost of ownership for comparable feature set."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "Zoey indicated $4-5K ACV is feasible but mentioned budget constraints this quarter."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to justify cost vs Gong"
+      ],
+      "next_steps": [
+        "Rep to prepare formal proposal with pricing options",
+        "Follow-up meeting to review proposal and address procurement questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-16",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Zoey Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Zoey Sun to review formal proposal. Zoey brought Sophia Gomez (Implementation Lead) to discuss technical requirements and security review. Discussed 5 seats with unlimited automation package at $5,400 list price. Zoey requested significant discount to match budget constraints, referenced competitive Gong pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the lowest you can go on pricing for a multi-year commitment?",
+          "answer": "Rep explored options, mentioned potential for 15-20% discount on annual contract, would need to discuss further with leadership."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your security review and compliance process look like?",
+          "answer": "Sophia asked detailed questions; rep provided SOC 2 documentation and security whitepaper."
+        },
+        {
+          "by": "rep",
+          "question": "If we can work on pricing, is there anything else blocking a decision?",
+          "answer": "Zoey indicated pricing is the main hurdle, otherwise team is aligned on moving forward."
+        }
+      ],
+      "objections": [
+        "Gong offered us a more aggressive discount for first year"
+      ],
+      "next_steps": [
+        "Rep to discuss discount approval with sales leadership",
+        "Sophia to complete security review",
+        "Schedule final negotiation meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-21",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Zoey Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third exec meeting focused on pricing negotiation. Rep received approval for 30% discount bringing ACV to $3,780. Zoey accepted pending final review of contract terms. Sophia raised questions about data retention policies and GDPR compliance. Discussion of implementation timeline and support model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get month-to-month for the first quarter before committing to annual?",
+          "answer": "Rep explained discount only applies to annual commitment, offered 30-day money-back guarantee instead."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in implementation support?",
+          "answer": "Rep detailed dedicated onboarding specialist, weekly check-ins for first month, and unlimited training sessions."
+        },
+        {
+          "by": "rep",
+          "question": "Does $3,780 ACV work within your budget?",
+          "answer": "Zoey confirmed this fits budget constraints and represents good value vs Gong alternative."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to review contract",
+        "Sophia to finalize security sign-off",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-27",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Harper Watson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Harper Watson to review contract details and confirm implementation timeline. Discussed minor contract term adjustments requested by NimbusVentures legal. Harper confirmed all stakeholders are aligned, Sophia completed security review with no blockers. Finalized $3,800 ACV (30.2% discount) for 5 seats with unlimited automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a clause for additional seats at the same discounted rate if we expand in Q3?",
+          "answer": "Rep agreed to honor discount rate for up to 5 additional seats if added within 6 months."
+        },
+        {
+          "by": "rep",
+          "question": "Are we ready to move forward with signature this week?",
+          "answer": "Harper confirmed Zoey will sign by Friday, implementation can start following week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff for following Monday",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

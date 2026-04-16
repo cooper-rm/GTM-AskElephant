@@ -1,0 +1,303 @@
+{
+  "deal_id": "DEAL-0073",
+  "company": {
+    "name": "RubyNetworks",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 74,
+    "annual_revenue": 14599813,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5300.0,
+    "seats": 7,
+    "price_per_seat_monthly": 61.69,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.7,
+    "sales_cycle_days": 36,
+    "close_date": "2023-06-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Diego Pereira",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 100
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Diego Pereira from RubyNetworks submitted an inbound demo request via website form, expressing interest in improving sales-to-CS handoff workflows. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Diego"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-07",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Diego covering current pain points around handoff gaps between sales and customer success teams. Diego mentioned they're also evaluating Clari. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look for a solution now?",
+          "answer": "We're losing context during handoffs and CS is spending too much time digging through Salesforce notes"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot?",
+          "answer": "Yes, we have native HubSpot integration with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-12",
+      "type": "qualification_call",
+      "duration_minutes": 3,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to confirm discovery meeting time and share relevant use case materials. Diego confirmed availability and expressed interest in seeing technical demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Share pre-call questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-17",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call covering RubyNetworks' current workflow, team structure, and specific handoff challenges. Diego walked through their sales process and pain points. Discussed competitor evaluation with Clari. Identified 7 potential seats across RevOps and CS leadership.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "Right now it's mainly me driving this. I'll need to get buy-in from our COO eventually but want to see the product first"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's forecasting features?",
+          "answer": "We focus on workflow automation and handoff quality rather than forecasting - the use cases complement each other"
+        },
+        {
+          "by": "rep",
+          "question": "What does your current tech stack look like?",
+          "answer": "HubSpot for CRM, Gong for call recording, and we're piecing together handoffs manually"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Diego",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-22",
+      "type": "technical_eval",
+      "duration_minutes": 38,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed technical evaluation session walking through unlimited automation tier features, HubSpot integration, and handoff workflow customization. Diego tested the platform hands-on and asked detailed questions about implementation timeline and configuration options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup, with ongoing optimization support"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different deal types?",
+          "answer": "Yes, fully customizable templates with conditional logic based on deal attributes"
+        },
+        {
+          "by": "rep",
+          "question": "Does this solve your primary handoff challenges we discussed?",
+          "answer": "Yes, definitely. I can see this working well for our process"
+        }
+      ],
+      "objections": [
+        "Need to understand total cost before moving forward"
+      ],
+      "next_steps": [
+        "Prepare pricing proposal for 7 seats",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-27",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call rescheduled by Diego due to scheduling conflict. Original meeting time cancelled day-of.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule proposal call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing proposal: $5,300 ACV for 7 seats on unlimited automation tier with 30% discount applied. Diego responded asking to schedule call to discuss pricing and timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on this pricing?",
+          "answer": "Let's discuss on our scheduled call - I've already applied a significant discount given your use case fit"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-06",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled by Diego. Brief conversation confirming he's still reviewing internally and needs to push the meeting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-14",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Diego Pereira",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss pricing and contract terms. Diego expressed concern about budget and mentioned Clari came in lower. Discussed payment terms and contract length. Diego still hasn't involved executive sponsor. Agreed on current pricing with 30% discount but Diego non-committal on timeline to close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "We can offer monthly payments with a 10% uplift, or keep annual for this rate"
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally want to have this implemented?",
+          "answer": "Probably next quarter, but I need to finalize budget conversations first"
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your COO involved to discuss strategic fit?",
+          "answer": "Let me validate the technical fit first, then I'll loop her in"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Clari's proposal",
+        "Need to confirm budget availability for this quarter"
+      ],
+      "next_steps": [
+        "Diego to discuss internally and confirm budget",
+        "Follow up next week on decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

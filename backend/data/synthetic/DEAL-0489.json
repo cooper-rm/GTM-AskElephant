@@ -1,0 +1,321 @@
+{
+  "deal_id": "DEAL-0489",
+  "company": {
+    "name": "AtomOps",
+    "industry": "Vertical SaaS",
+    "employee_count": 1000,
+    "annual_revenue": 132801480,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13900.0,
+    "seats": 20,
+    "price_per_seat_monthly": 61.42,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.0,
+    "sales_cycle_days": 54,
+    "close_date": "2023-12-23",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Valentina Le",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Aria Lee",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 30
+    },
+    {
+      "name": "Ava Sharma",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 33
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Valentina Le at AtomOps expressing interest in onboarding automation solutions. She mentioned they're currently evaluating options including Fireflies and looking for a solution that can scale with their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-30",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Valentina Le to understand AtomOps' onboarding automation needs. Discussed current pain points with manual onboarding processes, team size of 20 users, and budget considerations. Valentina confirmed she's championing this internally and will involve COO Aria Lee for executive alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup, with ongoing optimization based on your workflows"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're scaling rapidly and our manual onboarding process is creating bottlenecks in our sales cycle"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-03",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to dive deeper into technical requirements and integration needs. Valentina confirmed they're looking at Fireflies as an alternative but appreciates our consulting offering. Discussed specific automation workflows they want to implement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your consulting package compare to what Fireflies offers?",
+          "answer": "We include dedicated implementation support and custom workflow design, whereas Fireflies is primarily self-serve"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on onboarding automation use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-13",
+      "type": "follow_up_call",
+      "duration_minutes": 8,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call to confirm demo agenda and ensure we're aligned on key stakeholders. Valentina mentioned she'll also bring in Ava Sharma from the sales management team for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any specific integration points we should highlight in the demo?",
+          "answer": "Yes, our CRM and Slack integrations are critical for our workflow"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct product demo with focus on integrations"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-22",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial product demo with Valentina Le covering core automation capabilities, CRM integration, and workflow customization. Strong engagement throughout, with detailed questions about implementation specifics. Valentina expressed concern about pricing relative to Fireflies but acknowledged the value of consulting support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation triggers for different deal stages?",
+          "answer": "Yes, fully customizable based on your sales stages and criteria"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for the sales team?",
+          "answer": "Most teams are productive within the first week, and our consulting package includes training"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies for 20 seats?",
+          "answer": "Our base pricing is higher but includes consulting and advanced automation features they don't offer"
+        }
+      ],
+      "objections": [
+        "Initial pricing seems steep compared to Fireflies"
+      ],
+      "next_steps": [
+        "Schedule follow-up demo for technical deep-dive",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-30",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive demo focusing on advanced automation workflows and API capabilities. Valentina brought specific use cases from her team. Discussion centered on implementation timeline and ongoing support model. She mentioned they're in final stages of Fireflies evaluation but prefers our solution if pricing can work.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we phase the rollout across different teams?",
+          "answer": "Absolutely, we can start with a pilot group and expand based on success metrics"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of ongoing support is included in the consulting package?",
+          "answer": "Monthly strategy calls plus email/chat support with 24-hour response time"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-07",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Valentina Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Valentina to walk through pricing, implementation plan, and ROI projections. Discussed discount options to be competitive with Fireflies while maintaining value of consulting package. Valentina requested significant discount to get executive buy-in from Aria Lee. Agreed to 31% discount contingent on executive approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual commitment?",
+          "answer": "We can structure as annual with quarterly payments if that helps with budgeting"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you match Fireflies' pricing if we commit to annual?",
+          "answer": "We can offer a significant discount to close the gap while preserving the consulting value"
+        }
+      ],
+      "objections": [
+        "Need pricing closer to Fireflies to get executive approval"
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Aria Lee",
+        "Send revised proposal with discount"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Aria Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with COO Aria Lee rescheduled due to conflicting priorities. Valentina confirmed continued interest and apologized for the delay. Will reconnect next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule executive meeting with Aria Lee"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-12-23",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Aria Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with COO Aria Lee to review business case and negotiate final terms. Aria focused on ROI timeline and risk mitigation. Confirmed budget approval at discounted rate and discussed implementation kickoff timeline. Valentina and Aria aligned on moving forward pending legal review of contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's our recourse if we don't see ROI within the first quarter?",
+          "answer": "We include quarterly business reviews and can adjust the consulting focus based on your metrics"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-year if the pilot is successful?",
+          "answer": "Yes, seats can be added anytime with pro-rated pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

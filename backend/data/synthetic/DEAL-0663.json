@@ -1,0 +1,392 @@
+{
+  "deal_id": "DEAL-0663",
+  "company": {
+    "name": "IndigoLink",
+    "industry": "SaaS/Tech",
+    "employee_count": 30,
+    "annual_revenue": 4133499,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6200.0,
+    "seats": 9,
+    "price_per_seat_monthly": 63.33,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.8,
+    "sales_cycle_days": 41,
+    "close_date": "2023-03-14",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lucas Turner",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-22",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lucas Turner introducing AskElephant's Sales-to-CS handoff automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-24",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Lucas highlighting pain points around revenue operations handoffs. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-01",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Lucas Turner. Discussed IndigoLink's current Sales-to-CS process and identified pain points around lost context during handoffs. Lucas mentioned they're evaluating solutions including Fathom. Qualified opportunity based on timeline and budget fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for handing off deals from Sales to Customer Success?",
+          "answer": "Mostly manual right now - AEs send summary emails and there's usually a handoff call, but context still gets lost"
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Fathom for this use case?",
+          "answer": "Both have call recording, but AskElephant has purpose-built handoff workflows and integrations that automate the context transfer"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case overview doc",
+        "Schedule technical deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with use case documentation and ROI calculator for Sales-to-CS handoff automation. Lucas responded with interest in scheduling a technical evaluation and requested pricing ballpark.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical price range for a team of about 9 users?",
+          "answer": "For 9 seats on our Automations Plus tier with consulting, typically $8-10K annually, but we can discuss specific pricing on the next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-13",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick check-in call to confirm technical evaluation logistics and gather additional context on IndigoLink's tech stack. Lucas confirmed they use Salesforce and Slack, which integrates well with AskElephant.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What CRM and communication tools are you using today?",
+          "answer": "Salesforce for CRM, Slack for internal comms, and we're piloting a couple different meeting tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical demo with Salesforce integration"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-14",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Lucas. Demoed Sales-to-CS handoff automation, call intelligence features, and Salesforce integration. Lucas engaged positively but noted budget constraints and mentioned Fathom's lower pricing. Discussed customization options for IndigoLink's specific workflow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can the handoff summaries be customized to our CS team's intake template?",
+          "answer": "Yes, the templates are fully customizable and we can configure them during implementation"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and are there other stakeholders we should involve?",
+          "answer": "Looking to decide by end of quarter. I'm driving this but will need to get CEO signoff on the contract"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're typically positioned at a premium because of the automation and consulting included, but we can work with you on pricing that fits your budget"
+        }
+      ],
+      "objections": [
+        "Fathom is significantly cheaper and covers our basic recording needs"
+      ],
+      "next_steps": [
+        "Follow up with custom pricing proposal",
+        "Share customer case study with similar use case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-17",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled technical evaluation - deeper dive into automation workflows and consulting services. Lucas brought specific questions about implementation timeline and change management. Discussed ROI projections and time savings for RevOps team. Lucas still single-threaded, no exec involvement yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation process look like and how much time will it require from our team?",
+          "answer": "Typically 2-3 weeks with about 10-15 hours of your team's time. Our consulting team handles the heavy lifting"
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to get your CEO on a brief call to align on the business case?",
+          "answer": "Let me get a proposal first and then I can socialize it internally before bringing in other stakeholders"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ongoing support is included?",
+          "answer": "You get a dedicated CSM, quarterly business reviews, and unlimited email/chat support with <4 hour response time"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with 9 seats",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-23",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call. Presented $6,200 ACV for 9 seats (28.8% discount from list) to meet IndigoLink's budget constraints. Lucas appreciated the flexibility but expressed concern about getting CEO approval without stronger ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you help me build the business case for our CEO in terms of time savings?",
+          "answer": "Based on your team size, we estimate 15-20 hours saved per week across handoffs, which at your revenue per employee translates to significant efficiency gains"
+        }
+      ],
+      "objections": [
+        "The discount is helpful but I'm worried the CEO will still see this as expensive compared to Fathom"
+      ],
+      "next_steps": [
+        "Send ROI calculator with IndigoLink's specific metrics",
+        "Schedule meeting with CEO to present business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-04",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First meeting with Lucas and CEO to present business case. CEO engaged and asked about competitive differentiation, security compliance, and contract flexibility. Positive discussion but CEO requested time to review internally before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "We're also looking at Fathom - what's your unique value beyond call recording?",
+          "answer": "The key differentiator is our purpose-built handoff automation and consulting services that ensure successful adoption, not just tooling"
+        },
+        {
+          "by": "prospect",
+          "question": "What are your security and compliance certifications?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant, and can provide our security documentation"
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for implementation?",
+          "answer": "CEO: We'd want to start next quarter if we move forward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "CEO to review proposal with finance team",
+        "Follow-up meeting in one week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-08",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation discussion with Lucas and CEO. CEO pushed back on pricing and contract terms, requesting annual payment option instead of upfront and exploring potential for further discount. Discussion around Fathom comparison continued.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly or monthly payments instead of annual upfront?",
+          "answer": "We can offer quarterly payments with a 10% payment plan fee, or keep annual upfront at the current discounted rate"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to scale down to fewer seats mid-contract?",
+          "answer": "Seats are locked for the contract term, but we can right-size at renewal"
+        }
+      ],
+      "objections": [
+        "The upfront annual payment is a cash flow challenge for us",
+        "We need more flexibility on seat count given our growth uncertainty"
+      ],
+      "next_steps": [
+        "Send revised proposal with payment options",
+        "Schedule final decision meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-03-14",
+      "type": "exec_meeting",
+      "duration_minutes": 54,
+      "person_name": "Lucas Turner",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled final negotiation meeting. Extended discussion on contract terms, payment structure, and success metrics. CEO agreed to move forward with annual payment to preserve the 28.8% discount. Lucas confirmed he'll drive internal signoff. Security review completed. Discussed implementation kickoff timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do we have around the time savings and ROI you've projected?",
+          "answer": "We include success metrics in our QBRs and our consulting team works with you to optimize workflows to hit those targets"
+        },
+        {
+          "by": "rep",
+          "question": "What's your process for getting this to signature?",
+          "answer": "Lucas: I need to get legal review, then CEO and I will both sign. Should be 1-2 weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add a performance clause tied to the ROI projections?",
+          "answer": "We typically don't include financial guarantees, but we do commit to the implementation timeline and support SLAs in the contract"
+        },
+        {
+          "by": "prospect",
+          "question": "When would we realistically start seeing the benefits?",
+          "answer": "Most customers see measurable impact within 30-45 days post-implementation"
+        }
+      ],
+      "objections": [
+        "We need some downside protection if the solution doesn't deliver the projected ROI"
+      ],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Lucas to coordinate internal approvals",
+        "Target signature within 2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

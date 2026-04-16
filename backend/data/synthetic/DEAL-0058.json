@@ -1,0 +1,380 @@
+{
+  "deal_id": "DEAL-0058",
+  "company": {
+    "name": "ArcForm",
+    "industry": "PropTech",
+    "employee_count": 711,
+    "annual_revenue": 94150738,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15900.0,
+    "seats": 20,
+    "price_per_seat_monthly": 63.85,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.3,
+    "sales_cycle_days": 35,
+    "close_date": "2024-03-28",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Henry Mensah",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 33
+    },
+    {
+      "name": "Finn Sun",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 10
+    },
+    {
+      "name": "Ade Lewis",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 34
+    },
+    {
+      "name": "Hiroshi Ali",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 21
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-07",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call to Henry Mensah, Director of CS at ArcForm. Rep introduced automation platform for CS teams. Henry expressed interest in improving rep productivity across their 711-person org. Brief discovery of current manual processes in ticket routing and customer outreach. Scheduled qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any automation tools for your CS operations?",
+          "answer": "We have some basic workflows in Zendesk but nothing sophisticated for rep productivity"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of productivity gains are your customers typically seeing?",
+          "answer": "Most mid-market CS teams see 20-30% time savings on repetitive tasks within the first quarter"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next week",
+        "Send overview deck before the call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-22",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Henry. Discussed ArcForm's CS team structure (20 reps handling PropTech customers), current pain points around manual ticket tagging and response templates. Henry confirmed budget authority sits with CRO Finn Sun. Identified use case: automating repetitive customer communications and ticket workflows. Henry is champion, will introduce exec sponsor.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current team size and how are responsibilities divided?",
+          "answer": "We have 20 CS reps supporting our PropTech customers, mostly reactive support with some proactive outreach"
+        },
+        {
+          "by": "rep",
+          "question": "Who typically approves software purchases at this price point?",
+          "answer": "Our CRO Finn Sun has final approval, but I can champion this internally if it solves our productivity issues"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Zendesk and Salesforce setup?",
+          "answer": "Yes, we have native integrations with both and can have you up and running in under a week"
+        }
+      ],
+      "objections": [
+        "We've looked at automation tools before and found them too rigid for our workflows"
+      ],
+      "next_steps": [
+        "Henry to audit current manual processes and time spent",
+        "Schedule follow-up to review findings and discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-25",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Henry. Reviewed his audit: team spending ~15 hours/week on manual ticket categorization and template-based responses. Discussed technical requirements and data security. Henry mentioned IT Director Ade Lewis will need to be involved for technical evaluation. Moving to discovery stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What did your audit reveal about time spent on repetitive tasks?",
+          "answer": "Roughly 15 hours per week per rep on ticket tagging and using response templates - significant opportunity"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data handling and security certification status?",
+          "answer": "SOC 2 Type II certified, GDPR compliant, all data encrypted at rest and in transit"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Ade Lewis for technical evaluation",
+        "Prepare custom demo focused on CS rep productivity use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Henry confirming next steps. Shared case study from similar PropTech company that reduced manual CS work by 25%. Proposed demo agenda focusing on ticket automation and template workflows. Henry confirmed Ade Lewis's availability for technical eval next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share the case study metrics in more detail before our demo?",
+          "answer": "Absolutely, I'll send the full case study with breakdown of time savings by workflow type"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Henry and Ade Lewis",
+        "Send detailed case study and demo agenda"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-06",
+      "type": "technical_eval",
+      "duration_minutes": 30,
+      "person_name": "Ade Lewis",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ade Lewis (IT Director) and Henry. Walked through platform architecture, API capabilities, and integration requirements. Ade asked detailed questions about data residency, SSO requirements, and scalability. Discussed unlimited_automation tier to support their 711-employee org growth. Ade seemed satisfied with technical answers but noted IT needs to review security documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support data residency requirements?",
+          "answer": "US-based AWS infrastructure with option for EU residency if needed for GDPR customers"
+        },
+        {
+          "by": "prospect",
+          "question": "How does SSO integration work and which providers do you support?",
+          "answer": "We support Okta, Azure AD, and Google Workspace via SAML 2.0 - typically 1-day setup"
+        },
+        {
+          "by": "rep",
+          "question": "How many users do you anticipate needing access beyond the initial 20 CS reps?",
+          "answer": "Potentially expanding to sales ops team in 6 months, so scalability is important"
+        }
+      ],
+      "objections": [
+        "We need to review your security documentation with our compliance team before moving forward"
+      ],
+      "next_steps": [
+        "Send complete security documentation and compliance certifications",
+        "Ade to review with compliance team within 5 business days",
+        "Schedule follow-up with Henry to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Henry after technical eval. Shared security documentation package for Ade's compliance review. Henry confirmed internal enthusiasm but mentioned budget discussions happening with Finn Sun (CRO). Proposed pricing conversation once technical review complete.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await compliance review from Ade",
+        "Prepare proposal for 20 seats with unlimited_automation tier",
+        "Request introduction to Finn Sun for budget alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Email introduction from Henry to Finn Sun (CRO). Summarized business case: 15hrs/week savings per rep, ROI projecting 300+ hours/month back to customer-facing work. Finn responded positively but noted tight Q4 budget. Rep sent proposal for $15,900 ACV (20 seats, unlimited_automation tier). Finn requested exec meeting to discuss pricing and terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given our Q4 budget constraints?",
+          "answer": "Happy to discuss creative structures - let's set up time to walk through the proposal together"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment call with Finn",
+        "Prepare to discuss pricing flexibility and payment terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-20",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Finn Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Finn Sun. Discussed strategic value of CS automation for ArcForm's growth plans. Finn expressed strong interest but pushed back on pricing - requested significant discount due to Q4 budget freeze. Rep explored payment terms (quarterly vs annual) and discussed 20-seat starting point with expansion potential. Finn mentioned need to finalize by month-end for Q4 booking.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer to get this deal done in Q4?",
+          "answer": "Let me discuss with my leadership - if we can close by month-end, I may have flexibility"
+        },
+        {
+          "by": "rep",
+          "question": "Would an annual prepay vs quarterly structure help with budget approval?",
+          "answer": "Annual prepay could work if the total investment is within our revised Q4 number"
+        },
+        {
+          "by": "prospect",
+          "question": "What does expansion pricing look like if we add more seats in Q1?",
+          "answer": "Same per-seat rate, prorated to your renewal date - no penalty for growing mid-contract"
+        }
+      ],
+      "objections": [
+        "The list price is above our adjusted Q4 budget - we need a meaningful discount to move forward this quarter"
+      ],
+      "next_steps": [
+        "Rep to discuss discount approval with leadership",
+        "Finn to confirm internal budget ceiling",
+        "Target contract signature by end of month"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-23",
+      "type": "exec_meeting",
+      "duration_minutes": 11,
+      "person_name": "Finn Sun",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec call with Finn. Rep returned with 28.3% discount to meet ArcForm's Q4 budget ($15,900 ACV). Finn accepted pricing with annual prepay terms. Discussed 30-day implementation timeline starting in Q1. Brief review of contract terms and MSA. Finn committed to legal review this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation if we sign this week?",
+          "answer": "We can kick off in early Q1 - typically 2-week setup for your configuration"
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to review before you send to legal?",
+          "answer": "No, Henry and Ade are aligned - just need legal review and my signature"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with 28.3% discount and annual prepay terms",
+        "Finn to route to legal for review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email to Henry confirming contract sent to Finn and legal. Outlined implementation plan: onboarding kickoff in Q1, 2-week technical setup with Ade's team, 20 CS reps trained on automation workflows. Henry confirmed excitement from team and thanked rep for working through budget constraints.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await legal review and signature from Finn",
+        "Prepare implementation kickoff materials",
+        "Schedule onboarding with Henry and Ade for Q1"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

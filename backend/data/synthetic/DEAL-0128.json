@@ -1,0 +1,334 @@
+{
+  "deal_id": "DEAL-0128",
+  "company": {
+    "name": "TealSpark",
+    "industry": "Professional Services",
+    "employee_count": 76,
+    "annual_revenue": 13232742,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6000.0,
+    "seats": 7,
+    "price_per_seat_monthly": 69.15,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 22.3,
+    "sales_cycle_days": 44,
+    "close_date": "2023-10-17",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Amelia Lee",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Grace Carter",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Amelia Lee submitted an inbound demo request form mentioning challenges with sales-to-CS handoffs and wanting to explore automation options. No direct conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email to Amelia confirming receipt of demo request and proposing times for a brief qualification call. Amelia responded confirming interest and availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get a demo scheduled?",
+          "answer": "We can do a qualification call this week and demo next week if it's a good fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-09",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amelia covered current handoff process pain points. She mentioned 7-person sales team struggling with manual CS transitions. Discussed timeline and mentioned they're also evaluating Clari. Brief overview of our platform capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for initial setup, then ongoing customization as needed."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "Grace Carter from IT will need to review security and integrations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full demo",
+        "Send pricing overview",
+        "Loop in Grace Carter"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-15",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on TealSpark's sales process, CRM stack, and handoff bottlenecks. Amelia shared that reps spend 3-4 hours weekly on handoff admin. Discussed integration requirements with their Salesforce instance. She mentioned Clari's automation features but noted our CS-focused approach resonates more.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your ideal state look like for the sales-to-CS transition?",
+          "answer": "Zero manual data entry, automatic context transfer, and CS gets notified with all deal history instantly."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's workflow capabilities?",
+          "answer": "We're more CS-handoff specialized while Clari focuses broader on revenue operations. Our automation is template-based for handoffs specifically."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules?",
+          "answer": "Yes, the unlimited automation tier gives you full flexibility on triggers and workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare tailored demo",
+        "Include Grace Carter in demo invite",
+        "Send case study on services companies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-21",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo covering automation builder, CS handoff templates, and Salesforce integration. Amelia engaged throughout, asking detailed workflow questions. Grace joined for the technical portion and asked about SSO and API rate limits. Walked through unlimited automation tier features. Amelia mentioned budget is allocated but needs to move quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger different handoff workflows based on deal size?",
+          "answer": "Absolutely, you can set conditional logic based on any Salesforce field including deal value."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% uptime guaranteed in our standard agreement."
+        },
+        {
+          "by": "prospect",
+          "question": "How does seat licensing work if we grow the team?",
+          "answer": "You can add seats anytime at the same per-seat rate, billed pro-rata."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline looking like?",
+          "answer": "We'd like to decide by end of quarter, so next 3-4 weeks ideally."
+        }
+      ],
+      "objections": [
+        "Grace noted that Clari's pricing came in lower on their initial quote."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Provide security documentation to Grace",
+        "Schedule check-in call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent formal proposal for 7 seats at unlimited automation tier. Included implementation plan and ROI breakdown based on time savings discussed. Amelia acknowledged receipt and said she's reviewing with Grace.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up in 3 days if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Rep offered to answer questions and mentioned flexibility on pricing structure. Amelia responded that the price point is higher than expected and they're comparing closely with Clari's offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room for negotiation on the annual price?",
+          "answer": "Let's schedule a call to discuss\u2014we have some flexibility depending on commitment length and use case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-10",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call originally scheduled was rescheduled by Amelia due to conflict. When call occurred, discussed pricing concerns and comp with Clari. Rep offered 22% discount to match budget constraints. Amelia receptive but mentioned she needs exec alignment before proceeding. No CFO or CEO involved yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who on the exec team needs to sign off?",
+          "answer": "Our CFO approves anything over $5K annually, but I think I can get this through if pricing works."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a shorter term to prove ROI?",
+          "answer": "We typically do annual agreements, but the discount is contingent on the 12-month commitment."
+        }
+      ],
+      "objections": [
+        "Amelia pushed back on annual commit without a trial period or quarterly option."
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Amelia to socialize with finance"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-16",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Amelia Lee",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended meeting with Amelia and Grace to finalize terms and implementation scope. Walked through revised pricing, confirmed 7 seats, and mapped out go-live plan. Grace confirmed technical requirements met. Amelia still hasn't gotten exec sponsor formally engaged but feels confident she can secure approval. Discussed contract timeline and kickoff schedule.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we need to scale down seats mid-contract?",
+          "answer": "Contract is based on committed seats, but we can discuss adjustments at renewal."
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to go live?",
+          "answer": "Ideally within 2 weeks of contract signature if possible."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get a draft contract before final exec review?",
+          "answer": "Yes, we'll send the agreement today so you can route it internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract",
+        "Amelia to route for CFO approval",
+        "Tentative kickoff scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 105,
+    "churn_reason": "lack of executive alignment"
+  }
+}

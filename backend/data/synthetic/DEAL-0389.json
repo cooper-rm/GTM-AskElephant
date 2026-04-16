@@ -1,0 +1,438 @@
+{
+  "deal_id": "DEAL-0389",
+  "company": {
+    "name": "SilverTech",
+    "industry": "Professional Services",
+    "employee_count": 412,
+    "annual_revenue": 53364733,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 25900.0,
+    "seats": 32,
+    "price_per_seat_monthly": 67.44,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.2,
+    "sales_cycle_days": 85,
+    "close_date": "2023-06-13",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Noah Martinez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 23
+    },
+    {
+      "name": "Samuel Morgan",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    },
+    {
+      "name": "Kevin Schneider",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-15",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Noah Martinez (Director of CS) expressing interest in automation tools to improve rep productivity. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-20",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Noah to understand current workflow challenges. Noah described manual processes slowing down CS team, mentioned need for automation across 30+ seats. Discussed timeline and budget parameters.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for automation right now?",
+          "answer": "CS team spending too much time on manual tasks, need to scale without adding headcount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Usually 2-4 weeks depending on complexity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and discovery call calendar invite. Noah confirmed availability for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call attendance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-03",
+      "type": "discovery_call",
+      "duration_minutes": 3,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call check-in. Noah mentioned bringing Samuel Morgan (RevOps Analyst) into the evaluation process soon. Call cut short due to Noah's schedule conflict.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should we involve in the evaluation?",
+          "answer": "Samuel from RevOps will need to be involved for technical evaluation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for longer discovery session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-09",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call covering current tech stack, pain points, and success metrics. Noah outlined specific use cases around rep productivity and workflow automation. Discussed integration requirements and data migration needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What systems would this need to integrate with?",
+          "answer": "Salesforce, Zendesk, and our internal ticketing system"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize automation rules per team?",
+          "answer": "Yes, fully customizable with role-based permissions"
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like in 6 months?",
+          "answer": "20% reduction in manual tasks, better CS team capacity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on rep productivity use cases",
+        "Include Samuel in demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Email sent with demo agenda and calendar invite. Included custom deck showing rep productivity workflows relevant to SilverTech's use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendance for Noah and Samuel"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Reminder email about upcoming demo. Noah confirmed he and Samuel would attend. Noah mentioned Kevin Schneider (Account Manager) might join as end user representative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we record the demo for others who can't attend?",
+          "answer": "Yes, we'll send the recording afterward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final demo prep"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-01",
+      "type": "demo",
+      "duration_minutes": 59,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Noah and Samuel. Walked through automation workflows, integration capabilities, and unlimited_automation tier features. Samuel asked detailed technical questions about API limits and data handling. Noah expressed enthusiasm about UI simplicity for end users like Kevin.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits for integrations?",
+          "answer": "Unlimited tier has no rate limits, full API access"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does initial setup typically take?",
+          "answer": "Most customers are live within 2 weeks"
+        },
+        {
+          "by": "rep",
+          "question": "Does this address your main pain points around rep productivity?",
+          "answer": "Yes, this would solve most of our workflow bottlenecks"
+        }
+      ],
+      "objections": [
+        "Need to understand total cost for 32 seats before moving forward"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 32 seats",
+        "Follow up on technical documentation for Samuel"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with pricing for 32 seats on unlimited_automation tier. Initial quote: $34,200 ACV. Included ROI calculator and case studies from similar professional services companies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to review proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on proposal review. Noah responded that pricing is higher than budget, need to discuss options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for our seat count?",
+          "answer": "Let's schedule a call to discuss what we can do"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-20",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing constraints. Noah explained budget is closer to $26k, asked about discounting options. Rep proposed $25,900 with annual commitment and case study participation. Noah expressed concern about getting approval without executive sponsor involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get to $26k or below?",
+          "answer": "We can do $25,900 with annual prepay and a case study"
+        },
+        {
+          "by": "rep",
+          "question": "Who needs to approve this purchase internally?",
+          "answer": "Technically just me, but larger purchases usually involve my VP"
+        }
+      ],
+      "objections": [
+        "Budget constraints",
+        "Uncertain about approval process without VP buy-in"
+      ],
+      "next_steps": [
+        "Send revised proposal at $25,900",
+        "Consider involving VP of CS for executive alignment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-28",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to finalize terms at $25,900. Discussed payment terms, contract length, and case study deliverables. Noah seemed satisfied with discount but mentioned needing to review contract details with Samuel before signing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's required for the case study commitment?",
+          "answer": "Just a 30-min interview and review of draft, minimal time commitment"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this signed?",
+          "answer": "Hoping to close before end of quarter"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Schedule contract review with Samuel"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-06-06",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled negotiation call was rescheduled by Noah last minute. Noah mentioned unexpected internal priority came up, proposed meeting later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm rescheduled time"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Email confirming rescheduled call and checking if anything changed regarding the deal. Noah confirmed still moving forward, just had temporary scheduling conflict.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Final contract review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

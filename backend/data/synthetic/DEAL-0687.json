@@ -1,0 +1,493 @@
+{
+  "deal_id": "DEAL-0687",
+  "company": {
+    "name": "QuantumVault",
+    "industry": "Professional Services",
+    "employee_count": 638,
+    "annual_revenue": 40649598,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 29800.0,
+    "seats": 33,
+    "price_per_seat_monthly": 70.54,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.7,
+    "sales_cycle_days": 67,
+    "close_date": "2023-03-27",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Henry Sharma",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Amara King",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 9
+    },
+    {
+      "name": "Tyler Sun",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Henry Sharma at QuantumVault expressing interest in call recording and coaching solutions for their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-19",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Henry to understand org structure and high-level needs. Henry mentioned he's new to the VP of Sales role and wants to implement call coaching quickly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What prompted you to look for a call recording solution now?",
+          "answer": "Just started as VP of Sales two months ago and need visibility into how my team is performing on calls"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-25",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to discuss team size and current tech stack. Henry confirmed 33 sales reps and mentioned they're evaluating Clari as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many sales reps would be using the platform?",
+          "answer": "33 reps across our SDR and AE teams"
+        },
+        {
+          "by": "rep",
+          "question": "What other solutions are you evaluating?",
+          "answer": "Looking at Clari too, but your coaching features seem more robust"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks depending on integration complexity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full discovery with technical details",
+        "Include Tyler Sun from procurement on next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-30",
+      "type": "discovery_call",
+      "duration_minutes": 36,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call covering use cases, success metrics, and technical requirements. Henry detailed his coaching workflow needs and budget constraints. Discussed unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific coaching workflows are most important to you?",
+          "answer": "Automated call scoring, keyword tracking for competitor mentions, and coaching prompts for managers"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to have something in place by end of quarter, so pretty aggressive"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're generally competitive, but I'd need to understand your exact requirements to provide accurate pricing"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get a demo environment to test with our team?",
+          "answer": "Yes, we can set up a trial for your key users"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, will need to keep costs reasonable"
+      ],
+      "next_steps": [
+        "Set up demo environment",
+        "Prepare pricing proposal",
+        "Schedule demo session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-06",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up to address technical questions from Henry about API access and data retention policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy?",
+          "answer": "Standard is 2 years, can extend to 5 years with enterprise plan"
+        },
+        {
+          "by": "rep",
+          "question": "Do you have any compliance requirements we should be aware of?",
+          "answer": "Nothing beyond standard SOC 2, we're a professional services firm"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "Confirm demo date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.4,
+      "rescheduled": false,
+      "ai_summary": "Email to Henry sharing security docs and confirming demo scheduled for next week. Also sent ROI calculator based on discovery conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include Amara King from our team on the demo? She'll be the primary admin.",
+          "answer": "Absolutely, I'll send her a calendar invite"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo on calendar for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Tyler Sun",
+      "person_role": "procurement",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email introduction to Tyler Sun in procurement, providing high-level overview and pricing context ahead of demo evaluation phase.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Include Tyler on upcoming proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-24",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo and initial proposal review with Henry. Walked through unlimited automation features and presented pricing at $29,800 ACV for 33 seats. Henry expressed concern about price and mentioned Clari came in lower.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the unlimited automation tier vs standard?",
+          "answer": "Unlimited includes custom playbooks, advanced analytics, API access, and priority support"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the decision timeline on your end?",
+          "answer": "I need to show progress on sales enablement initiatives in my first 90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Clari's quote was noticeably lower.",
+          "answer": "Let me see what I can do, but we'd need commitment on contract length"
+        }
+      ],
+      "objections": [
+        "Price is higher than expected based on Clari's proposal"
+      ],
+      "next_steps": [
+        "Check on discount approval",
+        "Schedule follow-up with decision makers"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.5,
+      "rescheduled": false,
+      "ai_summary": "Email to Henry summarizing demo takeaways and requesting introduction to executive sponsor to discuss strategic value and business case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who on the exec team should we involve to discuss the strategic coaching initiative?",
+          "answer": "Honestly, I'm driving this decision. The CRO is focused on other priorities right now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare revised pricing proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-07",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review meeting with Henry. Discussed revised pricing with 20.7% discount to match competitive pressure. Henry seemed more receptive but mentioned need to run it by Tyler for procurement approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing would be locked in for the full contract term?",
+          "answer": "Yes, annual contract with pricing locked for 12 months"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders we should involve before moving forward?",
+          "answer": "Just Tyler for final approval, and Amara will handle implementation"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your onboarding process like?",
+          "answer": "Dedicated CSM, 2 week implementation, and ongoing training sessions"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal to Henry and Tyler",
+        "Draft MSA"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-03-13",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Henry to finalize terms. Discussed payment terms, implementation timeline, and contract language. Henry pushed for additional discount or added seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can do that but would need to adjust pricing slightly for payment plan"
+        },
+        {
+          "by": "prospect",
+          "question": "If we're paying this much, can you throw in 5 extra seats?",
+          "answer": "I'm already at my discount limit, but I can include extended onboarding support"
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get this closed this week?",
+          "answer": "Need to get Tyler's sign-off on the contract terms, hoping to have that by Friday"
+        }
+      ],
+      "objections": [
+        "Still feels like we're paying premium pricing without additional value"
+      ],
+      "next_steps": [
+        "Finalize contract with legal",
+        "Confirm Tyler's approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-03-20",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Henry to address final concerns and confirm business value. Reviewed success metrics and coaching ROI projections. Henry committed to moving forward pending legal review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "30% of calls reviewed and scored, managers actively using coaching prompts"
+        },
+        {
+          "by": "prospect",
+          "question": "What if we need to add more seats mid-contract?",
+          "answer": "You can add seats anytime at prorated pricing based on your contract rate"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get a reference call with a similar-sized professional services company?",
+          "answer": "Yes, I'll connect you with two customers in your industry"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send reference customer contacts",
+        "Legal review of MSA",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-03-28",
+      "type": "negotiation_call",
+      "duration_minutes": 31,
+      "person_name": "Henry Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to address legal redlines and confirm signature timeline. Discussed data security terms and auto-renewal clauses. Henry confirmed Tyler approved the budget allocation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Our legal team wants to adjust the liability cap, is that negotiable?",
+          "answer": "We have some flexibility there, let me loop in our legal team"
+        },
+        {
+          "by": "rep",
+          "question": "Are we clear to move forward once legal signs off?",
+          "answer": "Yes, Tyler gave budget approval this morning, just waiting on final contract"
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after signing?",
+          "answer": "We can kick off within 48 hours of signed contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize legal terms",
+        "Target signature within 3 business days",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

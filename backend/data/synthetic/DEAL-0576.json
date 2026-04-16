@@ -1,0 +1,569 @@
+{
+  "deal_id": "DEAL-0576",
+  "company": {
+    "name": "WillowDynamics",
+    "industry": "PropTech",
+    "employee_count": 729,
+    "annual_revenue": 43740000,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18000.0,
+    "seats": 23,
+    "price_per_seat_monthly": 59.49,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.2,
+    "sales_cycle_days": 94,
+    "close_date": "2024-04-15",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Noah Koch",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 24
+    },
+    {
+      "name": "Evelyn Diaz",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 6
+    },
+    {
+      "name": "Javier Pereira",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 40
+    },
+    {
+      "name": "Madison Park",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    },
+    {
+      "name": "Riley Osei",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 28
+    },
+    {
+      "name": "Kevin Mitchell",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    },
+    {
+      "name": "Peyton Kang",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Noah Koch submitted an inbound request expressing interest in CRM automation solutions for WillowDynamics' sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-12",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Noah. Discussed WillowDynamics' current CRM workflow challenges and pain points around manual data entry for their 23-person sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look for CRM automation right now?",
+          "answer": "Our sales team is spending 4-5 hours per week on manual CRM updates, and we're missing opportunities because of incomplete data."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle call recording and transcription?",
+          "answer": "We use AI to automatically transcribe calls and extract key data points like next steps, objections, and sentiment to push directly into your CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-23",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Noah provided details on tech stack (Salesforce) and confirmed budget authority. Mentioned they're also evaluating Fathom.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the decision-making process?",
+          "answer": "Evelyn Diaz, our CRO, will need to sign off. Javier from RevOps will handle the technical evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for a team our size?",
+          "answer": "For 23 seats with unlimited automation, we're looking at around $27K annually, but I can work with you on the exact configuration."
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating other solutions?",
+          "answer": "Yes, we're looking at Fathom as well, but we like your deeper CRM integration capabilities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce Javier for technical discussion",
+        "Schedule full demo with sales managers"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-27",
+      "type": "follow_up_call",
+      "duration_minutes": 25,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on use case requirements and success metrics. Noah outlined their goal to reduce CRM admin time by 70% and improve data quality. Discussed integration requirements with Salesforce and existing tech stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "We need near-perfect data capture from all customer interactions and our reps should be spending less than 30 minutes per week on CRM hygiene."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you handle both calls and email tracking?",
+          "answer": "Yes, we capture and process both call transcripts and email threads, pulling action items and sentiment from each."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack beyond Salesforce?",
+          "answer": "We use Gong for conversation intelligence and Outreach for sequencing. Javier can walk through the full MarTech map."
+        }
+      ],
+      "objections": [
+        "We're concerned about duplicate functionality with Gong"
+      ],
+      "next_steps": [
+        "Send integration documentation",
+        "Connect with Javier to map technical requirements",
+        "Schedule demo for Madison and Kevin"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent integration documentation and use case examples from similar PropTech customers. Noah responded confirming he shared materials with Javier and Riley.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have references from companies using both your platform and Gong together?",
+          "answer": "Yes, I'll include two PropTech references who use both tools in complementary ways - Gong for coaching, our platform for CRM automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Javier's availability for technical eval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Check-in email regarding technical evaluation scheduling. Noah confirmed Javier is reviewing documentation and will be ready to meet next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical eval with Javier"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-14",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "Javier Pereira",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep technical evaluation with Javier. Walked through Salesforce integration architecture, API capabilities, data security model, and compliance certifications. Javier tested the platform with sample WillowDynamics call data.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data residency and SOC 2 compliance?",
+          "answer": "We're SOC 2 Type II certified, support data residency requirements, and can provide our security documentation for your review."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit and how does batching work for bulk historical data?",
+          "answer": "Standard rate limit is 10K calls per hour, and we support bulk import with automatic batching for historical transcripts."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementation if you move forward?",
+          "answer": "We'd want to go live by end of Q2, so implementation would need to start within 3-4 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your sentiment analysis compare to Fathom's accuracy?",
+          "answer": "Our model is trained on 50M+ sales conversations with 94% accuracy on sentiment classification. Happy to share our validation methodology."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Fathom for similar seat count"
+      ],
+      "next_steps": [
+        "Send security documentation",
+        "Prepare ROI analysis",
+        "Schedule demo with full sales team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-23",
+      "type": "demo",
+      "duration_minutes": 51,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Full team demo with Noah, Madison, and Kevin (originally scheduled earlier but rescheduled). Walked through live CRM automation workflow, showing real-time call processing and Salesforce field mapping. Team tested the interface with their use cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get auto-populated versus requiring rep approval?",
+          "answer": "Yes, you have full control over auto-populate rules and approval workflows on a per-field basis."
+        },
+        {
+          "by": "prospect",
+          "question": "How do we handle data from calls with multiple contacts on the prospect side?",
+          "answer": "The platform identifies all participants, creates or updates contact records, and links the activity to the appropriate account and opportunity."
+        },
+        {
+          "by": "rep",
+          "question": "What did you think of the UI compared to Fathom?",
+          "answer": "The CRM integration feels tighter, but we'll need to see pricing before making a final call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule pricing discussion with Noah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-03",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal discussion with Noah. Presented pricing at $18K ACV for 23 seats with unlimited automation tier - a 33% discount from list to match budget constraints and compete with Fathom's offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk me through what's included at this price point versus your standard offering?",
+          "answer": "This includes all core automation features, unlimited call processing, Salesforce integration, and email tracking. Only difference from enterprise tier is dedicated support response time."
+        },
+        {
+          "by": "rep",
+          "question": "What's Fathom's pricing looking like for you?",
+          "answer": "They're at around $15K but with some feature limitations. Your deeper CRM integration is worth the premium if we can get closer on price."
+        }
+      ],
+      "objections": [
+        "Still higher than Fathom's quote by about 20%"
+      ],
+      "next_steps": [
+        "Review proposal with Evelyn",
+        "Schedule exec meeting",
+        "Revisit pricing if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-09",
+      "type": "technical_eval",
+      "duration_minutes": 57,
+      "person_name": "Javier Pereira",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical validation session with Javier and Peyton. Reviewed API documentation, discussed custom field mapping requirements, and validated data migration plan from their current manual process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a Salesforce integration of our complexity?",
+          "answer": "For your environment, we estimate 2-3 weeks for full deployment including custom field mapping, testing, and user training."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support single sign-on with Okta?",
+          "answer": "Yes, we support SAML 2.0 SSO with all major providers including Okta."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers from your side?",
+          "answer": "No blockers. The platform meets our requirements. This is coming down to commercial terms at this point."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the ongoing maintenance burden on our RevOps team?",
+          "answer": "Minimal - typically just managing user permissions and occasional field mapping adjustments. We handle all platform updates and maintenance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical sign-off complete",
+        "Await commercial decision from Evelyn"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-17",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Evelyn Diaz",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Evelyn and Noah. Discussed business value, ROI projection showing 200+ hours saved quarterly, and strategic fit with WillowDynamics' sales efficiency goals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate and what are the primary reasons for churn?",
+          "answer": "We maintain 96% gross retention. The 4% churn is primarily from companies that were acquired or underwent major CRM platform changes."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable with the pricing Noah and I discussed?",
+          "answer": "The ROI is clear, but I need you closer to $16K to make this work within our Q2 budget. Can you move on price?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review pricing flexibility",
+        "Prepare revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-03-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after exec meeting proposing revised terms at $18K with extended payment terms (quarterly vs annual upfront) to help with budget timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include implementation services in the base price rather than as an add-on?",
+          "answer": "Yes, I can bundle implementation at no additional cost if we can finalize by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await response from Evelyn and Riley on revised terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-03-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Noah forwarded feedback from Riley (procurement) requesting MSA revisions around data ownership and termination clauses. Confirmed legal review is in progress.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send MSA redlines to legal",
+        "Schedule final negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-07",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Noah and Riley to address contract terms. Agreed to data ownership language revisions and 60-day termination notice instead of 90-day. Pricing still under discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you agree to our standard data portability clause?",
+          "answer": "Yes, we can accept your data portability language with minor clarifications on export format specifications."
+        },
+        {
+          "by": "rep",
+          "question": "Where do we stand on final pricing approval?",
+          "answer": "Evelyn is still pushing for $16K. If you can meet that number, we can close this week."
+        }
+      ],
+      "objections": [
+        "Need final price concession to get exec approval"
+      ],
+      "next_steps": [
+        "Final pricing approval from sales leadership",
+        "Prepare contract with agreed terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-16",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Noah Koch",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Noah. Unable to reach $16K target - held at $18K but added two extra user licenses and upgraded support tier at no cost. Noah committed to taking final offer to Evelyn for approval by EOW.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can't move below $18K, what would make this an easy yes at that price?",
+          "answer": "Additional seats would help - we're planning to hire 2-3 more reps next quarter. And faster support response times would be valuable."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you confirm the upgraded support SLA includes 2-hour response time?",
+          "answer": "Correct - business hours 2-hour response time and dedicated Slack channel with your CSM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Evelyn to review final proposal",
+        "Contract execution pending approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

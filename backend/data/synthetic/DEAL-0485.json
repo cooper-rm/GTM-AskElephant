@@ -1,0 +1,301 @@
+{
+  "deal_id": "DEAL-0485",
+  "company": {
+    "name": "MaplePulse",
+    "industry": "EdTech",
+    "employee_count": 62,
+    "annual_revenue": 9135320,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2300.0,
+    "seats": 3,
+    "price_per_seat_monthly": 60.96,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.5,
+    "sales_cycle_days": 29,
+    "close_date": "2024-08-30",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Nora Brown",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Nora Brown, VP of Sales at MaplePulse. She's looking for a solution to improve their sales-to-CS handoff process. Currently evaluating options including Chorus. Interested in understanding how our platform handles post-sale transitions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies focused on sales-to-CS handoff use cases. Nora responded positively, confirming interest in a discovery call and sharing that their current process is manual and causing customer friction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing CS tools?",
+          "answer": "Yes, we have native integrations with Salesforce and most major CS platforms including Gainsight and ChurnZero."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Book discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-05",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Nora. MaplePulse has 62 employees, growing EdTech company. Current pain: sales context gets lost in handoff, causing CS team to re-ask questions and delaying time-to-value. Evaluating us and Chorus. Needs solution within 6 weeks for new fiscal year. Timeline feels aggressive but Nora seems motivated.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Usually 2-3 weeks for your size, including integrations and team training."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation process?",
+          "answer": "Primarily me right now, I'll loop in our CS lead later in the process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Share ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-10",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Nora. Walked through sales-to-CS handoff automation, call recording features, and unlimited automation tier. Nora engaged, asked detailed questions about Salesforce sync and automation rules. Compared favorably to Chorus in her view, especially on handoff workflows. She's eager to move forward but mentioned budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates by product line?",
+          "answer": "Absolutely, unlimited automation tier includes custom workflows and templates per product, team, or any other criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for similar features?",
+          "answer": "Our unlimited automation tier is positioned competitively, and includes handoff features Chorus charges extra for. I'll send detailed pricing after this call."
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally like to have this live?",
+          "answer": "Start of Q3, so early July. Our new CS hire starts then."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to make sure pricing works"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-15",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Nora to review proposal. Still single-threaded - no other executives joined despite invite. Discussed $3,360 list price for 3 seats, unlimited automation. Nora pushed back on price, mentioned Chorus quote is lower. Proposed use case makes sense but lack of broader buy-in is concerning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're a smaller team?",
+          "answer": "Let me discuss with my manager what we can do for a growing company like MaplePulse."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have your CFO or CS leader on our next call?",
+          "answer": "Not necessary at this point, I have budget authority for tools in this range."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Chorus quote we received"
+      ],
+      "next_steps": [
+        "Explore pricing options",
+        "Schedule proposal follow-up"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-19",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal follow-up call with Nora. Discussed pricing concerns in detail. She shared Chorus is offering a significant discount. Emphasized our differentiated handoff automation and ROI for their use case. Nora remains interested but pricing is clearly the main barrier. No other stakeholders engaged yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the lowest you can go for 3 seats?",
+          "answer": "I can likely get approval for around 30% off to match your budget and timeline, let me confirm."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to share the proposal with your CS lead?",
+          "answer": "I walked them through it briefly, they're supportive but leaving the decision to me."
+        }
+      ],
+      "objections": [
+        "Need to stay within $2,500 budget",
+        "Chorus pricing is more competitive right now"
+      ],
+      "next_steps": [
+        "Get approval for discount",
+        "Send revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-25",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting to finalize terms. Again, no executives from MaplePulse joined. Presented revised pricing at $2,300 (31.5% discount) to meet Nora's budget. She appreciated the flexibility and is ready to move forward. Still competitive situation with Chorus. Single-threaded nature remains a risk but Nora assures us she has authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment across two quarters?",
+          "answer": "We typically do annual upfront, but I can check if quarterly is possible for this deal size."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "Need to decide by end of this week to hit our Q3 launch target."
+        }
+      ],
+      "objections": [
+        "Annual upfront payment is challenging for cash flow"
+      ],
+      "next_steps": [
+        "Confirm payment terms",
+        "Prepare final contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-27",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Nora Brown",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize contract terms. Agreed to $2,300 annual, 3 seats, unlimited automation tier with annual payment (no quarterly split approved). Nora accepted terms and will route to legal. Timeline tight for Q3 launch. Deal moving to close but still single-threaded and heavily discounted, which may indicate implementation or renewal risk.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does onboarding support look like?",
+          "answer": "Dedicated onboarding specialist, 2-week implementation plan, and ongoing support via Slack and email."
+        },
+        {
+          "by": "rep",
+          "question": "Who from your team will be our main implementation contact?",
+          "answer": "I'll be primary contact, will loop in our CS lead for the handoff workflow configuration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Nora to review with legal",
+        "Target signature by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

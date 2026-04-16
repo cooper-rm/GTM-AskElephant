@@ -1,0 +1,605 @@
+{
+  "deal_id": "DEAL-0933",
+  "company": {
+    "name": "DeltaSoftware",
+    "industry": "EdTech",
+    "employee_count": 492,
+    "annual_revenue": 39226981,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17100.0,
+    "seats": 19,
+    "price_per_seat_monthly": 75.52,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 15.1,
+    "sales_cycle_days": 78,
+    "close_date": "2023-07-31",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lisa Fischer",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 57
+    },
+    {
+      "name": "Oliver Cooper",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 9
+    },
+    {
+      "name": "Rosa Moore",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 16
+    },
+    {
+      "name": "Mateo Oliveira",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-28",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to Lisa Fischer at DeltaSoftware introducing our onboarding automation platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-04",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Lisa Fischer mentioning challenges with scaling sales onboarding in EdTech. Lisa responded expressing interest in learning more about automation solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lisa agreed to continue conversation via email"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study of EdTech company improving onboarding efficiency. Lisa replied asking about integration capabilities and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with existing CRM systems?",
+          "answer": "Native integrations with Salesforce, HubSpot, and APIs for custom systems"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-18",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lisa Fischer to understand DeltaSoftware's current onboarding process and pain points. Lisa shared they're manually onboarding 15-20 new sales reps per quarter and it's consuming significant management time. Discussed team size and initial fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current onboarding process look like?",
+          "answer": "Mostly manual with scattered documentation, takes 4-6 weeks per cohort"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "6-8 weeks including customization and training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lisa to review internal requirements",
+        "Schedule follow-up call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-24",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call to dive deeper into DeltaSoftware's requirements. Lisa mentioned they're also evaluating Clari but are concerned about complexity. Discussed use case priorities and stakeholder alignment.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Oliver Cooper our CRO will need to approve, plus Rosa Moore from IT for integrations"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We typically see 20-30% lower total cost with faster implementation"
+        }
+      ],
+      "objections": [
+        "Already in conversations with Clari"
+      ],
+      "next_steps": [
+        "Move to discovery phase",
+        "Lisa to brief Oliver on the conversation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after qualification calls summarizing DeltaSoftware's key requirements and proposing discovery agenda. Lisa confirmed the agenda looks good.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Reminder email sent day before scheduled discovery call with agenda and prep questions. Lisa confirmed attendance and shared she's bringing Mateo Oliveira, Sales Manager who would be an end user.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call tomorrow with Lisa and Mateo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-07",
+      "type": "discovery_call",
+      "duration_minutes": 2,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call start - technical issue caused early disconnect. Rescheduled for later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-13",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Lisa Fischer focusing on onboarding automation workflows. Walked through template library, automation builder, and reporting dashboard. Lisa engaged positively, asking detailed questions about customization and analytics capabilities. Discussed how our approach differs from Clari's forecast-focused platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize onboarding paths for different sales roles?",
+          "answer": "Yes, fully customizable workflows with role-based branching"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of analytics do you provide on onboarding effectiveness?",
+          "answer": "Time-to-productivity metrics, completion rates, knowledge retention scoring"
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring onboarding success?",
+          "answer": "Mostly time-to-first-deal and manager feedback, no systematic tracking"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lisa to share demo feedback with Oliver and Mateo",
+        "Schedule technical deep-dive demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and case study of similar EdTech company. Lisa responded that Oliver wants to see a demo focused on ROI and consultant services component.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide more detail on the consulting services included?",
+          "answer": "Dedicated success manager, quarterly strategy sessions, custom playbook development"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule second demo with ROI focus"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-21",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focused on ROI modeling and consulting services. Walked through expected time savings, productivity gains, and onboarding cost reduction. Lisa asked good questions about implementation support and long-term partnership model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation support look like during the first 90 days?",
+          "answer": "Weekly check-ins, dedicated Slack channel, on-demand training sessions"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place by end of quarter, about 6 weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "How does ongoing consulting work after initial implementation?",
+          "answer": "Quarterly business reviews, strategy optimization, new feature training"
+        }
+      ],
+      "objections": [
+        "Need to understand total cost including consulting vs Clari"
+      ],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Lisa to coordinate Oliver's availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-06-26",
+      "type": "proposal_call",
+      "duration_minutes": 27,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Lisa Fischer. Presented 19-seat package with automations plus consulting services at $17,100 ACV. Lisa expressed concern about budget approval process and mentioned Clari came in lower on their base platform pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting services component?",
+          "answer": "We can discuss tiering the services, but the value is in the integrated approach"
+        },
+        {
+          "by": "rep",
+          "question": "What's Clari's pricing looking like for you?",
+          "answer": "Base platform is lower but doesn't include the consulting and implementation support"
+        }
+      ],
+      "objections": [
+        "Clari base pricing is more competitive",
+        "Budget approval process requires executive sign-off"
+      ],
+      "next_steps": [
+        "Schedule exec meeting with Oliver Cooper",
+        "Lisa to review proposal details"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-02",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Oliver Cooper",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Oliver Cooper and Lisa Fischer. Oliver focused on strategic value and ROI timeline. Discussed how onboarding automation aligns with DeltaSoftware's growth targets. Oliver supportive but wants Rosa Moore from IT involved for technical validation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate for mid-market EdTech companies?",
+          "answer": "94% annual retention in EdTech segment, average 3.2 year relationship"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "Validated IT integration path and competitive final pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical review with Rosa Moore",
+        "Refine proposal based on feedback"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-03",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal refinement call with Lisa to address Oliver's feedback. Discussed phased implementation approach and adjusted service package to focus on onboarding automation core use case. Lisa more confident about internal buy-in.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as a pilot program first?",
+          "answer": "We can do phased rollout but annual commitment ensures best pricing and priority support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rosa Moore technical review scheduled",
+        "Updated proposal to be sent"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-07-13",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third proposal discussion with Lisa after she spoke with Rosa. IT review went well on integration capabilities. Lisa mentioned procurement is now involved and they need to formalize next steps. Discussed contract terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are standard payment terms?",
+          "answer": "Annual upfront or quarterly with 5% premium"
+        },
+        {
+          "by": "rep",
+          "question": "What's procurement's typical review timeline?",
+          "answer": "Usually 1-2 weeks for deals this size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal to procurement",
+        "Lisa to coordinate internal approval process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on procurement review status. Lisa responded that they're comparing final numbers with Clari and need to discuss pricing before moving forward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-07-18",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Lisa. Discussed competitive positioning versus Clari and value of integrated consulting services. Lisa transparent that Clari is $3K less annually but missing key features DeltaSoftware needs. Explored options to close price gap.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility to get closer to Clari's pricing?",
+          "answer": "Limited room on services package, but can discuss multi-year commitment discount"
+        },
+        {
+          "by": "rep",
+          "question": "If we can get within $1K annually, does that close the deal?",
+          "answer": "Very likely yes, that would make the ROI case much easier internally"
+        }
+      ],
+      "objections": [
+        "Price gap with Clari is main blocker"
+      ],
+      "next_steps": [
+        "Rep to review discount approval with leadership",
+        "Lisa to confirm final requirements"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-07-26",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Oliver Cooper",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive alignment meeting with Oliver Cooper, Lisa Fischer, and Rosa Moore scheduled but rescheduled due to Oliver's conflict. Brief discussion confirmed strong interest pending final pricing resolution.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-08-01",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Lisa Fischer",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Lisa Fischer. Presented revised proposal with modest discount to close gap with Clari while maintaining consulting services value. Lisa positive about the revised terms and committed to driving internal approval with Oliver and procurement this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the implementation timeline with these terms?",
+          "answer": "6-week implementation starting within 2 weeks of contract signature"
+        },
+        {
+          "by": "rep",
+          "question": "What's the final approval process from here?",
+          "answer": "Oliver sign-off, then procurement paperwork, targeting close by end of this week"
+        },
+        {
+          "by": "prospect",
+          "question": "Is the dedicated success manager locked in for the full year?",
+          "answer": "Yes, guaranteed for 12 months as part of the consulting package"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lisa to present to Oliver for final approval",
+        "Procurement to receive updated contract",
+        "Target close by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

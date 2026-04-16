@@ -1,0 +1,334 @@
+{
+  "deal_id": "DEAL-0550",
+  "company": {
+    "name": "IronLabs",
+    "industry": "Vertical SaaS",
+    "employee_count": 50,
+    "annual_revenue": 4304447,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4600.0,
+    "seats": 8,
+    "price_per_seat_monthly": 50.55,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.2,
+    "sales_cycle_days": 54,
+    "close_date": "2024-11-18",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Abigail Hernandez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Madison Lima",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Abigail Hernandez (VP of Sales) expressing interest in improving rep productivity. She mentioned currently evaluating multiple solutions including Gong. Brief exchange to schedule initial qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions for improving sales rep efficiency and call coaching?",
+          "answer": "Yes, our platform specializes in rep productivity with AI-powered coaching and automation features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call within next few days"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call time and requesting information about current tech stack and pain points. Abigail responded confirming the meeting and noting they're a 50-person team struggling with rep ramp time.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for sales enablement?",
+          "answer": "Mostly basic CRM, looking to add conversation intelligence layer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 13.0,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email sent with agenda and discovery framework. Abigail confirmed receipt and added Madison Lima (RevOps Analyst) to the thread as the primary end user who would be managing the system day-to-day.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Include Madison in upcoming discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-09",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute discovery call with Abigail covering current challenges with rep onboarding and productivity tracking. Team of 50 with 8 active sales reps. Currently in market comparing solutions including Gong. Budget discussions were deferred to later stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation right now?",
+          "answer": "New reps taking 4-5 months to ramp, we need better coaching and visibility into what's working."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision?",
+          "answer": "I'm leading this, Madison will be the admin, but I have full authority for tools under $10K."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's features?",
+          "answer": "We offer unlimited automation workflows versus Gong's tiered limits, which can save significant time on manual tasks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for next week",
+        "Send pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-17",
+      "type": "demo",
+      "duration_minutes": 57,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "57-minute product demo with Abigail walking through conversation intelligence, coaching workflows, and automation features. Strong engagement on the unlimited automation tier. Abigail compared specific features to Gong demo she saw last week. Madison was not on the call despite being cc'd.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our methodology?",
+          "answer": "Yes, fully customizable scorecards and you can map them to your existing sales framework."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically?",
+          "answer": "Most customers are live within 2 weeks with basic config, full customization in 4-6 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "How many seats are you thinking?",
+          "answer": "Probably 8 for the sales team to start."
+        },
+        {
+          "by": "prospect",
+          "question": "Gong quoted us around $8K for similar setup - where do you come in?",
+          "answer": "Our list pricing for 8 seats with unlimited automation would be $8,100 annually, but we have flexibility depending on contract length."
+        }
+      ],
+      "objections": [
+        "Need to make sure this integrates smoothly with our existing CRM setup."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule technical validation call with Madison",
+        "Provide integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal for 8 seats at $8,100 ACV (list price). Abigail responded asking if there's room for negotiation given they're comparing multiple vendors and mentioned Gong's pricing again.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing for a faster close?",
+          "answer": "Let me connect with our team on what we can do - would you be ready to sign this month?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal pricing discussion",
+        "Schedule pricing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.1,
+      "rescheduled": false,
+      "ai_summary": "Email exchange about pricing expectations. Abigail indicated budget is tight and they need to stay closer to $5K to make it work this quarter. No mention of executive approval or involvement in budget discussions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there executive buy-in at that budget level?",
+          "answer": "I have approval for sales tools in this range, shouldn't need to escalate."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing call to discuss options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-10",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute pricing call discussing discount options. Agreed to $4,600 ACV (43% discount) for 8 seats with annual commit to match competitive pressure. Abigail seemed satisfied with the number and said she'd finalize internally this week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At $4,600 can you commit to closing by end of month?",
+          "answer": "Yes, that works for our budget and timeline. I'll just need to loop in Madison on the implementation plan."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this include all the automation features we discussed?",
+          "answer": "Yes, unlimited automation tier is included at this price with annual contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract at $4,600",
+        "Schedule implementation kickoff with Madison",
+        "Target close by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-18",
+      "type": "negotiation_call",
+      "duration_minutes": 32,
+      "person_name": "Abigail Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "32-minute negotiation call (rescheduled from earlier in week). Abigail reviewed contract terms and requested flexibility on payment terms and offboarding clause. Also mentioned Madison raised some questions about data security that need addressing. Discussion around Gong's offering resurfaced briefly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "At this discount level we need annual prepay, but we can offer NET 30 terms on the invoice."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we want to expand to more seats mid-year?",
+          "answer": "You can add seats anytime at prorated pricing for the remainder of the term."
+        },
+        {
+          "by": "rep",
+          "question": "What data security questions does Madison have?",
+          "answer": "Just standard stuff around where recordings are stored and retention policies - can you send the security docs?"
+        }
+      ],
+      "objections": [
+        "Payment terms are tight for us right now with quarterly budget cycles."
+      ],
+      "next_steps": [
+        "Send security documentation to Madison",
+        "Finalize contract with NET 30 terms",
+        "Schedule signing call for next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

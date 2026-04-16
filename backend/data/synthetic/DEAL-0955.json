@@ -1,0 +1,305 @@
+{
+  "deal_id": "DEAL-0955",
+  "company": {
+    "name": "AspenGear",
+    "industry": "Marketing Agency",
+    "employee_count": 56,
+    "annual_revenue": 3360000,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 9000.0,
+    "seats": 10,
+    "price_per_seat_monthly": 72.8,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 18.2,
+    "sales_cycle_days": 31,
+    "close_date": "2025-10-14",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Ava Jackson",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Ava Jackson at AspenGear. She mentioned challenges with sales-to-CS handoff and currently evaluating Gong. Expressed interest in seeing how AskElephant handles post-sale transitions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email confirming qualification call scheduled for Thursday. Shared brief overview of handoff automation capabilities and asked about current pain points.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency around improving your sales-to-CS handoff?",
+          "answer": "New to VP role, inherited messy process with lots of context lost in transition"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-17",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ava. AspenGear has 56 employees, needs 10 seats initially. Current handoff process manual, causing customer onboarding delays. Ava owns sales tooling decisions but mentioned she's been in role only 3 months. Also evaluating Gong primarily for call recording.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant differ from Gong for handoff automation?",
+          "answer": "Gong focuses on conversation intelligence; we specialize in cross-functional workflows and automated deal context transfer to CS"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll drive this decision. Our CRO is focused on hiring right now"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questions",
+        "Schedule technical eval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping qualification call. Shared case study on sales-to-CS handoff automation for similar-sized agency. Confirmed technical eval for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-26",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Ava. Walked through handoff workflow automation, CRM integration, and CS playbook triggers. Ava asked detailed questions about Salesforce sync and automation customization. Mentioned Gong's pricing came in lower than expected.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which deal fields trigger specific CS playbooks?",
+          "answer": "Yes, fully configurable based on deal attributes, customer segment, or custom fields"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 2-3 weeks for standard handoff automation with your Salesforce instance"
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you're seeing from Gong?",
+          "answer": "Gong has better call analytics, but doesn't handle the workflow piece. Still deciding if we need both or just one"
+        }
+      ],
+      "objections": [
+        "Concerned about adding another tool when Gong might cover some of this"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Share pricing framework"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-29",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on automations plus consulting tier. Showed live handoff automation for AspenGear's use case. Ava engaged, asked about reporting and success metrics. Confirmed 10 seats, interested in consulting for process design.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of consulting is included in the plus tier?",
+          "answer": "Quarterly process reviews, custom playbook design, and dedicated CSM for optimization"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "Proving ROI on faster onboarding and making sure it integrates cleanly with our current stack"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-05",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call to review $9k ACV for 10 seats with automations plus consulting. Ava liked the structure but asked about discount and contract flexibility. Mentioned she needs to brief her CRO before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs quarterly payments?",
+          "answer": "We can do quarterly at a 5% premium, or annual with standard terms"
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to get this live?",
+          "answer": "Ideally within 30 days, but need exec signoff first"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Gong when comparing base features"
+      ],
+      "next_steps": [
+        "Ava to brief CRO",
+        "Schedule exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-11",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Meeting rescheduled by Ava due to CRO conflict. When reconnected, brief intro with CRO present but Ava led most of the conversation. CRO asked high-level questions about ROI but seemed distracted. No strong endorsement, deferred decision back to Ava.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical payback period for this investment?",
+          "answer": "Most customers see positive ROI within 4-6 months through faster onboarding and reduced churn"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ava to finalize internally",
+        "Follow up on contract timing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on exec meeting outcomes and next steps. Asked about timeline for final decision and whether any additional information needed. Offered 10% discount for annual commitment signed by month-end.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking us from moving forward?",
+          "answer": "No blockers, just working through budget allocation with finance"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await internal decision",
+        "Circle back end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

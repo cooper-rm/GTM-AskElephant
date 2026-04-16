@@ -1,0 +1,282 @@
+{
+  "deal_id": "DEAL-0186",
+  "company": {
+    "name": "CrimsonVentures",
+    "industry": "Healthcare IT",
+    "employee_count": 27,
+    "annual_revenue": 3202123,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6800.0,
+    "seats": 10,
+    "price_per_seat_monthly": 59.32,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.3,
+    "sales_cycle_days": 24,
+    "close_date": "2025-05-11",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Elena Lewis",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 4
+    },
+    {
+      "name": "Morgan Choi",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to Elena Lewis introducing our AI sales platform and highlighting forecasting accuracy improvements. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up in 3 days if no response"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-08",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.0,
+      "rescheduled": false,
+      "ai_summary": "Second cold email sent with case study on forecasting accuracy for healthcare IT companies. Elena responded expressing interest in learning more about how we compare to Fathom, which they're currently evaluating.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Fathom for sales forecasting?",
+          "answer": "Scheduled a follow-up call to discuss our unique approach to multi-source data integration and predictive analytics versus Fathom's conversation-focused approach."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with comparison sheet highlighting our forecasting capabilities versus Fathom. Elena confirmed availability for a discovery call and mentioned she recently joined as Head of Sales and is rebuilding their sales operations stack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you support a team of around 10 reps initially with room to grow?",
+          "answer": "Confirmed our platform scales easily and outlined flexible seat-based pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-23",
+      "type": "follow_up_call",
+      "duration_minutes": 22,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute discovery call with Elena. Discussed current forecasting challenges - they're using spreadsheets and struggling with accuracy. Elena is 3 months into her role and tasked with improving forecast reliability. Team of 10 AEs selling to healthcare providers. Mentioned Morgan Choi (IT Director) will need to review any new tools for security/integration approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to improve forecasting accuracy right now?",
+          "answer": "Board wants better visibility into revenue projections; current process is manual and error-prone."
+        },
+        {
+          "by": "rep",
+          "question": "What other tools are you evaluating besides Fathom?",
+          "answer": "Fathom is the main alternative, but they're more focused on conversation intelligence than forecasting."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented if we move forward?",
+          "answer": "Typical implementation is 2-3 weeks including data integration and rep training."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We need to see this work with our existing CRM before committing",
+          "response": "Agreed to show live demo with CRM integration in next meeting"
+        }
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Send integration documentation to Morgan Choi"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-29",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "47-minute product demo with Elena. Walked through forecasting dashboard, CRM integration, and automation features. Elena was engaged and asked detailed questions about reporting capabilities. She noted budget constraints but sees clear value. Mentioned that decision will ultimately need executive sign-off though she has authority to recommend tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecast categories to match our sales stages?",
+          "answer": "Yes, fully configurable to match your existing pipeline stages and probability weights."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place within 4-6 weeks; end of quarter is ideal."
+        },
+        {
+          "by": "prospect",
+          "question": "What does unlimited automation include exactly?",
+          "answer": "Automated data entry, follow-up reminders, deal scoring, and forecast roll-ups without workflow limits."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing work for 10 seats?",
+          "answer": "Will send formal proposal with pricing options in next 24 hours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with pricing for 10 seats",
+        "Include Fathom comparison in proposal",
+        "Loop in Morgan Choi for technical review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-04",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute meeting with Elena to review proposal. Discussed $10,200 list price for 10 seats with unlimited automation tier. Elena expressed concern about budget - needs to come in under $7k to get her approval authority. Asked about discount options. Noted she hasn't yet scheduled exec review but is confident she can get buy-in if price works.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing to get closer to $7k?",
+          "answer": "Offered to explore options - can potentially offer first-year discount for multi-year commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in final approval?",
+          "answer": "Elena has authority up to $7k; above that needs CFO sign-off but she's confident that won't be an issue."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical discount for new customers in our segment?",
+          "answer": "Explained standard pricing holds for most SMB deals, but can work with her on annual vs monthly commitment trade-offs."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The price is higher than we budgeted for this tool",
+          "response": "Agreed to bring back revised pricing options in next call"
+        }
+      ],
+      "next_steps": [
+        "Present revised pricing options",
+        "Request formal intro to CFO or exec sponsor if needed"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-12",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Elena Lewis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute pricing call with Elena. Presented revised offer: $6,800 ACV (33% discount) for annual contract with 10 seats and unlimited automation tier. Elena accepted the pricing and said she'll move forward without escalating to CFO since it's within her authority. Plans to start onboarding within two weeks. Did not bring Morgan Choi or any other stakeholders onto the call despite earlier mentions of IT review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with monthly and switch to annual later?",
+          "answer": "Explained the $6,800 annual rate is contingent on annual commitment; monthly would be higher per-seat cost."
+        },
+        {
+          "by": "rep",
+          "question": "Has Morgan reviewed the integration requirements?",
+          "answer": "Elena said she reviewed it with him offline and he's comfortable with the standard integrations we support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule kickoff call with implementation team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

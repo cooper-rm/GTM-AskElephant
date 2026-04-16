@@ -1,0 +1,365 @@
+{
+  "deal_id": "DEAL-0519",
+  "company": {
+    "name": "KineticExchange",
+    "industry": "SaaS/Tech",
+    "employee_count": 81,
+    "annual_revenue": 14617887,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7100.0,
+    "seats": 8,
+    "price_per_seat_monthly": 73.39,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 17.5,
+    "sales_cycle_days": 53,
+    "close_date": "2025-08-16",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Henry Hill",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 34
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Henry Hill (Head of RevOps) expressing interest in improving forecasting accuracy. Brief initial contact captured via web form submission.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Henry"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-24",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Henry to understand KineticExchange's current forecasting challenges. Company uses spreadsheets and Salesforce reports, struggling with pipeline visibility across their 81-person team. Henry mentioned they're also evaluating Clari. Qualified for budget ($5-10K range) and timeline (looking to implement within Q2).",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a forecasting solution right now?",
+          "answer": "We're missing our quarterly targets by 15-20% and leadership needs better visibility into what's actually going to close."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in this decision?",
+          "answer": "Right now it's mainly me driving this, but I'll need to loop in our VP Sales eventually."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Clari?",
+          "answer": "We focus on automation and AI-driven insights rather than just reporting dashboards, plus we integrate deeper with your existing CRM workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case studies",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with three SaaS forecasting case studies and ROI calculator. Henry responded positively, confirming discovery call timing and sharing their current Salesforce setup details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customers in the 50-100 employee range we could reference?",
+          "answer": "Yes, I'll include a case study from a similar-sized company in the materials."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Review their Salesforce configuration"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-10",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to confirm discovery agenda and gather additional context. Henry shared that their sales team (8 AEs) all struggle with deal stage accuracy and forecasting categories. Confirmed attendance for full discovery session.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current forecasting process look like day-to-day?",
+          "answer": "AEs update Salesforce, I pull reports into Google Sheets, then manually adjust based on gut feel and 1:1s. It takes hours every week."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your solution handle custom fields in Salesforce?",
+          "answer": "Yes, we map to all standard and custom objects."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct full discovery call on Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-14",
+      "type": "discovery_call",
+      "duration_minutes": 39,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call covering current state, pain points, and success criteria. Henry walked through their end-of-quarter scramble process and showed current spreadsheet-based forecasting workflow. Identified key requirements: Salesforce native integration, automated roll-ups, AI-suggested close dates, and team adoption (citing poor uptake of previous tools). Discussed 8-seat deployment for their AE team. Henry mentioned Clari is slightly more expensive but has stronger brand recognition.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happened with previous tools that didn't get adopted?",
+          "answer": "They were too complex and required too much manual data entry. AEs just ignored them and kept using Salesforce + Slack."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementation?",
+          "answer": "AEs spending 50% less time on forecast updates, and our exec team trusting the numbers enough to make hiring and budget decisions."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are live within 2-3 weeks with our unlimited automation tier."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support do you provide during rollout?",
+          "answer": "Dedicated onboarding specialist, weekly check-ins for the first month, and ongoing CSM support."
+        }
+      ],
+      "objections": [
+        "I'm concerned about getting buy-in from the sales team\u2014they're already resistant to new tools."
+      ],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Prepare customized demo environment with KineticExchange data",
+        "Send pricing overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-22",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo tailored to KineticExchange's forecasting workflow. Walked through Salesforce integration, automated pipeline roll-ups, AI-suggested close dates, and mobile app for AEs. Henry was engaged and asked detailed questions about automation capabilities and reporting customization. Discussed unlimited automation tier at 8 seats. Henry noted Clari's demo was more polished but acknowledged our deeper automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI model based on our historical close rates?",
+          "answer": "Yes, the system learns from your past 12-24 months of closed deals to calibrate predictions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the mobile app work for AEs in the field?",
+          "answer": "They can update deal stages, log notes, and see their personal forecast\u2014all syncs back to Salesforce in real-time."
+        },
+        {
+          "by": "rep",
+          "question": "What are your thoughts compared to what you've seen from Clari?",
+          "answer": "Clari feels more enterprise-ready, but you're giving us more automation out of the box. I need to think about which matters more for our team size."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing for 8 seats with unlimited automation?",
+          "answer": "I'll send over a formal proposal, but you're looking at around $7K annually for that configuration."
+        }
+      ],
+      "objections": [
+        "The interface looks less polished than Clari\u2014will that hurt adoption with our team?"
+      ],
+      "next_steps": [
+        "Send formal proposal with 8-seat pricing",
+        "Schedule exec meeting with VP Sales",
+        "Provide reference customer contact"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-30",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Henry present. VP Sales joined for first 15 minutes then dropped due to conflict. Henry presented business case and walked through demo highlights. Discussed ROI projections and implementation timeline. Concern raised about lack of executive sponsor continuity. Agreed to move forward with proposal review, but Henry is driving the process alone.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will the VP Sales be involved in the final decision and contract review?",
+          "answer": "Yes, but honestly I'm the one doing all the legwork. They trust my judgment on RevOps tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your approval process for a purchase of this size?",
+          "answer": "I need VP Sales sign-off and finance approval. I can usually get both within a week if the ROI is clear."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else you need to see before moving forward?",
+          "answer": "Just the final pricing and contract terms. I want to make sure we're getting a fair deal compared to Clari."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with $7,100 ACV pricing",
+        "Follow up on VP Sales engagement",
+        "Prepare contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-08",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing and contract terms. Henry requested 15% discount to match Clari's quoted price and quarterly payment terms instead of annual. Discussed value differentiation and held firm on annual commitment but offered 8% discount. Henry pushed back on annual terms citing budget cycle constraints. Acknowledged need to finalize before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's pricing? They're offering us a 15% discount.",
+          "answer": "We typically don't discount that deeply in year one, but I can explore an 8% reduction if you commit to annual payment."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Our standard terms are annual, but let me check with finance on payment flexibility."
+        },
+        {
+          "by": "rep",
+          "question": "Besides pricing, is there anything else blocking your decision?",
+          "answer": "No, it's really just about making the numbers work and getting final VP approval."
+        }
+      ],
+      "objections": [
+        "Clari is offering better pricing and quarterly terms\u2014I need you to be more competitive.",
+        "Annual payment is tough with our current budget allocation."
+      ],
+      "next_steps": [
+        "Confirm 8% discount and payment term options with leadership",
+        "Schedule final exec meeting",
+        "Prepare revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-16",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Henry Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting rescheduled by Henry citing VP Sales calendar conflict. Originally planned to finalize terms and review contract. Henry confirmed continued interest but needs to align internally before proceeding. Meeting pushed to following week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything we can do to help prep for the rescheduled meeting?",
+          "answer": "Just have the revised proposal ready with the pricing we discussed. I'll make sure VP Sales blocks the full time."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you send the contract draft ahead of time so we can review internally?",
+          "answer": "Yes, I'll send that over today so legal can take a look before we meet."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with 8% discount",
+        "Send contract draft for legal review",
+        "Reschedule exec meeting for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

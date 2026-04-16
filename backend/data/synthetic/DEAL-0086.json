@@ -1,0 +1,458 @@
+{
+  "deal_id": "DEAL-0086",
+  "company": {
+    "name": "AmberStudio",
+    "industry": "Healthcare IT",
+    "employee_count": 293,
+    "annual_revenue": 31747895,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14200.0,
+    "seats": 16,
+    "price_per_seat_monthly": 73.59,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 17.3,
+    "sales_cycle_days": 85,
+    "close_date": "2025-03-30",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Aisha Morgan",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Yuki Watson",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 15
+    },
+    {
+      "name": "Leila Sun",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 52
+    },
+    {
+      "name": "Amara Tanaka",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Aisha Morgan, Director of Sales at AmberStudio. Expressed interest in exploring solutions for sales-to-CS handoff automation. Currently evaluating multiple vendors including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Aisha confirming receipt of inquiry and proposing times for initial qualification call. Acknowledged their interest in improving handoff workflows between sales and customer success teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await confirmation on meeting time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-11",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with Aisha Morgan. Discussed current pain points with manual handoffs causing delays and information loss. Team of 16 sales reps struggling with inconsistent documentation. Mentioned they're also talking to Gong but concerned about cost and complexity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks with our automations_plus_consulting package, includes dedicated onboarding specialist"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for this project?",
+          "answer": "Customer churn has increased due to poor handoffs - CEO wants this resolved by Q2"
+        }
+      ],
+      "objections": [
+        "Concerned about adoption - tried tools before that reps didn't use"
+      ],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule discovery call to map current workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Sent discovery prep email to Aisha with workflow mapping template and questions about their current tech stack. Requested she invite IT Director to next call given integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our CRM (Salesforce)?",
+          "answer": "Yes, native Salesforce integration included"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-25",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute discovery call with Aisha. Mapped current handoff process involving email, Slack, and manual CRM updates. Discussed automations_plus_consulting package fit. Aisha enthusiastic but noted Yuki Watson (IT Director) will need to approve integrations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently measuring handoff quality?",
+          "answer": "Mostly anecdotal from CS team - no formal metrics"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation workflows?",
+          "answer": "Yes, consulting component includes custom workflow design"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Yuki Watson and Leila Sun for technical evaluation",
+        "Prepare custom demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email introducing technical evaluation process and coordinating with Leila Sun and Yuki Watson. Shared security documentation and integration specs requested by IT team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation session with Leila scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-08",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Leila Sun",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute technical evaluation with Leila Sun (Sales Manager). Walked through platform capabilities, automation rules engine, and reporting dashboards. Leila tested core workflows and asked detailed questions about data sync and user permissions. Positive feedback on UI but raised questions about API limits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits for Salesforce sync?",
+          "answer": "Standard plan includes 10K API calls/day, can increase with enterprise tier"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle conflicts if a rep updates a field during handoff?",
+          "answer": "Conflict resolution rules configurable - can set rep or automation as source of truth"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Aiming to have something in place by end of quarter - about 6 weeks"
+        }
+      ],
+      "objections": [
+        "API limits might be tight if we scale beyond 16 users"
+      ],
+      "next_steps": [
+        "Second technical session to review reporting and admin console",
+        "Include Yuki Watson in next call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-15",
+      "type": "technical_eval",
+      "duration_minutes": 64,
+      "person_name": "Leila Sun",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "64-minute deep-dive technical evaluation with Leila Sun (rescheduled from previous week). Covered advanced reporting, admin controls, and integration architecture. Leila brought up comparison with Gong's conversation intelligence features. Clarified our focus on workflow automation vs. call analytics. Discussion on pricing came up - Leila mentioned Gong quote was higher but included more features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Gong for our use case?",
+          "answer": "Gong excels at conversation intelligence; we focus on automation and workflow orchestration - complementary tools"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and expand?",
+          "answer": "Yes, monthly contracts allow flexibility - 16 seats is our recommended starting point for your team size"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in final decision?",
+          "answer": "Aisha has budget authority but wants buy-in from Yuki on technical side"
+        }
+      ],
+      "objections": [
+        "Gong offers broader feature set for similar price point",
+        "No executive sponsor visibility yet - might need CFO or VP approval for new vendor"
+      ],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Request executive briefing with leadership"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal email to Aisha with pricing breakdown for 16 seats on automations_plus_consulting plan ($14,200 ACV). Included ROI calculator and implementation timeline. Referenced technical evaluation feedback from Leila.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review call scheduled to discuss proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 20.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Aisha responded that she's working to get executive meeting scheduled but calendar has been challenging. Mentioned competing priorities internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Executive meeting being coordinated"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-03-06",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "24-minute executive meeting with Aisha Morgan (rescheduled once due to conflict). Discussed business case, ROI projections, and implementation plan. Aisha supportive but noted she'll need to present to finance for final approval. No other executives attended despite invitation to VP Sales and CFO.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide customer references in healthcare sector?",
+          "answer": "Yes, can arrange reference calls with two healthcare IT clients"
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process from here?",
+          "answer": "Need to present business case to finance - should have answer in 2 weeks"
+        }
+      ],
+      "objections": [
+        "Price point requires finance sign-off we didn't anticipate"
+      ],
+      "next_steps": [
+        "Provide reference customer contacts",
+        "Await finance review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-03-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Email from Aisha indicating finance has questions about contract terms and is requesting some flexibility on pricing. Mentioned Gong has come back with revised proposal that includes discounts. Requested our best and final pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer any discount or flexible payment terms?",
+          "answer": "Discussed potential 10% discount for annual prepay vs. monthly billing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare revised pricing options",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-03-22",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute negotiation call with Aisha. Discussed pricing flexibility and contract terms. Offered 10% discount for annual commitment, bringing ACV to $12,780. Aisha appreciative but still comparing with Gong's competitive offer which includes additional features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual contract, can we add seats mid-year without penalty?",
+          "answer": "Yes, can add seats anytime - prorated for remainder of contract period"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear decision for you?",
+          "answer": "Honestly need to see final Gong pricing and get finance comfortable with new vendor relationship"
+        }
+      ],
+      "objections": [
+        "Still weighing Gong's feature set vs. our workflow focus",
+        "Finance hesitant about adding another SaaS vendor"
+      ],
+      "next_steps": [
+        "Aisha to review with finance",
+        "Decision expected next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 13.3,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email to Aisha offering to answer any remaining questions from finance or other stakeholders. Reiterated value proposition around workflow automation ROI and implementation support. Awaiting final decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await final decision from AmberStudio"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

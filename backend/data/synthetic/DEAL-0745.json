@@ -1,0 +1,620 @@
+{
+  "deal_id": "DEAL-0745",
+  "company": {
+    "name": "ObsidianSphere",
+    "industry": "EdTech",
+    "employee_count": 10000,
+    "annual_revenue": 1187475981,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 55200.0,
+    "seats": 39,
+    "price_per_seat_monthly": 121.94,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 59,
+    "close_date": "2025-07-06",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zainab Green",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Aiden Katz",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 7
+    },
+    {
+      "name": "Jordan Williams",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 9
+    },
+    {
+      "name": "Luna Le",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-11",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email to Head of Sales at ObsidianSphere regarding sales-to-CS handoff automation. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-12",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 16.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email. Prospect responded expressing interest in learning more about automating handoffs between sales and customer success teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your platform different from what we're currently evaluating?",
+          "answer": "Focused on our unique approach to post-sale transition automation and how we integrate with existing CRM workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule initial qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Sent meeting availability and additional context on sales-to-CS handoff use cases in EdTech. Prospect confirmed interest in scheduling.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm qualification call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Shared case study of similar EdTech company improving handoff efficiency. Prospect asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Outlined 6-8 week timeline for enterprise implementations with 30+ seats."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email with agenda for qualification discussion. Prospect confirmed attendance and requested we include product integration capabilities in the conversation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-19",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute qualification call with Head of Sales. Discussed current handoff process pain points, team size (39 sales reps), and timeline. Prospect mentioned they're also looking at Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing Salesforce setup?",
+          "answer": "Confirmed native Salesforce integration and bi-directional sync capabilities."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "Prospect cited growing CS team complaints about incomplete handoff information from sales."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-22",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute discovery call diving into current workflow, pain points with manual handoffs, and desired outcomes. Prospect shared that Gong is strong in conversation intelligence but they need better post-sale transition features. Identified Sales-to-CS handoff as primary use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle custom fields and data mapping during handoffs?",
+          "answer": "Demonstrated flexible field mapping and automation rules engine."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Prospect mentioned needing to involve implementation team and account management leads."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for our size organization?",
+          "answer": "Outlined per-seat pricing structure and mentioned consulting packages available."
+        }
+      ],
+      "objections": [
+        "Concerned about change management with sales team already using other tools"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Invite implementation and AM stakeholders",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-24",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute follow-up call to confirm demo attendees and agenda. Discussed bringing in Aiden from implementation and Jordan from account management team. Prospect reiterated interest but noted timeline pressure to decide by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would a successful outcome look like for your team?",
+          "answer": "Prospect described reducing handoff errors by 80% and cutting transition time from 3 days to same-day."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo for EdTech handoff workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-30",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "33-minute product demo focused on sales-to-CS handoff automation. Walked through workflow builder, field mapping, and notification system. Prospect engaged with questions about customization and integration points. Noted Gong handles call recording well but lacks this handoff functionality.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff checklist per product line?",
+          "answer": "Demonstrated template system allowing product-specific handoff requirements."
+        },
+        {
+          "by": "prospect",
+          "question": "How does reporting work for tracking handoff completion rates?",
+          "answer": "Showed analytics dashboard with customizable metrics and executive views."
+        },
+        {
+          "by": "rep",
+          "question": "Does this workflow match what you're envisioning?",
+          "answer": "Prospect confirmed it addresses their core needs but wants to see advanced automation scenarios."
+        }
+      ],
+      "objections": [
+        "Asked how this would work alongside Gong if they keep conversation intelligence separate"
+      ],
+      "next_steps": [
+        "Schedule follow-up demo for advanced features",
+        "Share demo recording with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Sent demo recording and additional resources on automation capabilities. Prospect confirmed sharing with implementation lead and account managers for feedback.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await feedback from extended team",
+        "Prepare advanced demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-06-07",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "44-minute advanced demo with Zainab, Aiden (implementation), and Jordan (account management). Deep dive into automation rules, API capabilities, and migration process. Team asked technical questions about data security and system requirements. Discussed consulting package for custom workflow setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's involved in migrating our existing handoff templates and historical data?",
+          "answer": "Outlined migration services included in consulting package, 2-3 week timeline."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have SOC 2 certification and GDPR compliance?",
+          "answer": "Confirmed both compliance certifications and shared security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing work for the automation plus consulting package?",
+          "answer": "Explained seat-based pricing plus fixed consulting fee for implementation support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and process from here?",
+          "answer": "Prospect indicated need to finalize by end of quarter, requires procurement and likely one more stakeholder review."
+        }
+      ],
+      "objections": [
+        "Luna (AM) asked about ongoing costs and whether consulting is one-time or recurring"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing breakdown",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with proposal attached: 39 seats at automations_plus_consulting tier, $55,200 ACV. Included implementation timeline and success metrics. Prospect acknowledged receipt and scheduled proposal review call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-06-13",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute proposal review call. Walked through pricing structure, seat count, and consulting deliverables. Zainab supportive but mentioned needing to compare final numbers with Gong's offering. Discussed value differentiation on handoff automation vs pure conversation intelligence.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting fee given our team size?",
+          "answer": "Noted some room to discuss package scope based on their internal capabilities."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what Gong has proposed?",
+          "answer": "Prospect shared Gong quoted lower per-seat but doesn't include handoff automation or consulting."
+        }
+      ],
+      "objections": [
+        "Pricing higher than Gong's conversation intelligence platform, need to justify ROI internally"
+      ],
+      "next_steps": [
+        "Internal stakeholder review",
+        "Follow up on decision timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-06-15",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled 29-minute negotiation call. Call was rescheduled by prospect due to conflicting leadership meeting. Brief exchange confirmed continued interest but indicated procurement now involved in process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-06-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Sent updated meeting invite and asked about procurement requirements. Prospect confirmed Aiden from implementation will join to discuss vendor approval process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct rescheduled negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-06-22",
+      "type": "negotiation_call",
+      "duration_minutes": 36,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "36-minute negotiation call with Zainab and Aiden. Discussed contract terms, payment structure, and procurement timelines. Aiden raised questions about vendor compliance requirements. Zainab still championing the solution but noted executive sponsor hasn't been directly engaged yet. Discussed ROI justification for leadership approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment as quarterly vs annual upfront?",
+          "answer": "Confirmed quarterly payment option available, outlined slight pricing difference."
+        },
+        {
+          "by": "prospect",
+          "question": "What vendor documentation do you need for our procurement process?",
+          "answer": "Committed to providing insurance certificates, references, and compliance docs within 48 hours."
+        },
+        {
+          "by": "rep",
+          "question": "Who from executive team should we connect with to ensure alignment?",
+          "answer": "Prospect mentioned CRO but hasn't scheduled meeting yet, wants to finalize terms first."
+        }
+      ],
+      "objections": [
+        "Aiden concerned about onboarding timeline conflicting with Q2 product launch internally"
+      ],
+      "next_steps": [
+        "Provide procurement documentation",
+        "Discuss executive sponsor engagement",
+        "Align on implementation timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-06-26",
+      "type": "exec_meeting",
+      "duration_minutes": 49,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "49-minute executive alignment meeting with Zainab and broader leadership team. Presented business case, ROI projections, and implementation plan. Leadership asked about competitive positioning vs Gong and long-term platform roadmap. Meeting productive but no exec sponsor emerged as clear champion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your product roadmap for AI-driven insights in handoffs?",
+          "answer": "Shared 12-month roadmap including predictive analytics and automated success planning features."
+        },
+        {
+          "by": "prospect",
+          "question": "How do customers typically measure success with your platform?",
+          "answer": "Discussed handoff completion rates, time-to-value metrics, and CS satisfaction scores from existing customers."
+        },
+        {
+          "by": "rep",
+          "question": "What would help move this forward to a decision?",
+          "answer": "Leadership indicated need to finalize budget allocation and compare total cost of ownership vs Gong plus manual processes."
+        }
+      ],
+      "objections": [
+        "Question raised about whether to invest in specialized handoff tool vs expanding Gong usage"
+      ],
+      "next_steps": [
+        "Provide additional competitive differentiation analysis",
+        "Await budget finalization"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-07-02",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Zainab Green",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute call to address competitive concerns and discuss final terms. Zainab still engaged but acknowledged internal debate about platform consolidation vs best-of-breed. Discussed potential discount to help with budget approval. Agreed to slight adjustment on consulting scope to reduce total cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on total price to help us get this approved?",
+          "answer": "Proposed reducing consulting hours while maintaining core implementation support, bringing ACV to budget range."
+        },
+        {
+          "by": "rep",
+          "question": "What's the realistic timeline for final decision?",
+          "answer": "Prospect indicated likely decision within 2 weeks pending procurement review and final leadership sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal",
+        "Await procurement approval",
+        "Loop in Aiden on vendor paperwork"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-07-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aiden Katz",
+      "person_role": "procurement",
+      "person_title": "Implementation Lead",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Email to Aiden with all procurement documentation, revised proposal, and vendor compliance materials. Aiden confirmed receipt and noted moving into formal vendor review process with expected 1-week turnaround.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have existing EdTech customer references we can contact?",
+          "answer": "Provided three EdTech customer contacts willing to discuss their implementation experience."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await procurement review completion",
+        "Stand by for reference calls"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "deal_id": "DEAL-0010",
+  "company": {
+    "name": "JadeGroup",
+    "industry": "Professional Services",
+    "employee_count": 669,
+    "annual_revenue": 81474007,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20500.0,
+    "seats": 21,
+    "price_per_seat_monthly": 79.07,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 11.2,
+    "sales_cycle_days": 77,
+    "close_date": "2024-06-09",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Wyatt Brown",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 11
+    },
+    {
+      "name": "Noah Stern",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 53
+    },
+    {
+      "name": "Dylan Chen",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-16",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Wyatt Brown, Head of Sales. No answer, left voicemail introducing our platform for sales-to-CS handoff automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up with second attempt"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-18",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Wyatt Brown. No answer, no voicemail left this time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Try again later this week"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-18",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third cold call attempt to Wyatt Brown. No answer, left brief voicemail mentioning specific pain point around handoff gaps.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "One more attempt before moving to email"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-20",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Connected with Wyatt Brown for 3-minute intro call. He expressed interest in solving sales-to-CS handoff issues they're experiencing with current manual processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your approach different from what we're doing now?",
+          "answer": "Our platform automates the handoff with AI-powered summaries and task routing, eliminating manual documentation gaps"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with one-pager",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study. Wyatt replied asking about pricing tiers and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For mid-market teams, typically 2-3 weeks from kickoff to full adoption"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-25",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "6-minute qualification call with Wyatt. Confirmed they have 21 sales reps, experiencing handoff issues leading to CS team missing key context. Budget authority sits with CEO Noah Stern.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for sales-to-CS handoffs?",
+          "answer": "Mostly manual notes in Salesforce, lots of context gets lost"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing CRM and CS platform?",
+          "answer": "Yes, we have native integrations with Salesforce and major CS tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in CEO Noah Stern",
+        "Schedule discovery call with broader context"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-31",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Wyatt. No answer, appears to be out of office.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reach out via email instead"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-02",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Noah Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute call with Noah Stern, CEO. He confirmed budget availability and strategic priority around improving customer experience. Mentioned they're also looking at Clari for revenue intelligence.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency around improving handoffs now?",
+          "answer": "We're scaling fast and losing too much context between teams, impacting retention"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from broader revenue platforms like Clari?",
+          "answer": "We're purpose-built for handoff automation with deeper AI processing, while Clari focuses more on forecasting and pipeline management"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full discovery call with Wyatt and sales team",
+        "Share competitive comparison with Clari"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Wyatt with Clari comparison document and ROI calculator. Wyatt acknowledged and shared with Dylan Chen, Sales Manager.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Include Dylan in upcoming discovery calls"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Email from Wyatt introducing Dylan Chen to the conversation. Dylan expressed interest in understanding end-user workflow impact.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much training do reps need to adopt this?",
+          "answer": "Minimal - most reps are fully productive within their first week, the AI does the heavy lifting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep-dive discovery call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email sent with agenda and requested Wyatt share current handoff documentation examples for review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-04-18",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute discovery call with Wyatt and Dylan. Walked through their current handoff workflow, identified 3-4 hours/week per rep spent on manual documentation. Discussed technical requirements and integration needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point your reps face in the handoff process?",
+          "answer": "Spending time writing summaries instead of selling, and CS still asks for more context"
+        },
+        {
+          "by": "rep",
+          "question": "Who on the CS team should we involve in evaluation?",
+          "answer": "Our CS Director will need to weigh in, but Wyatt can champion internally"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules per deal type?",
+          "answer": "Yes, unlimited automation tier includes full customization of routing and summary rules"
+        }
+      ],
+      "objections": [
+        "We're already evaluating Clari and they offer some handoff features"
+      ],
+      "next_steps": [
+        "Share technical architecture doc",
+        "Schedule follow-up discovery with CS team perspective"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-04-24",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute discovery call focused on technical implementation. Reviewed API capabilities, data security, and compliance requirements. Wyatt confirmed they need SOC 2 compliance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support SAML SSO for enterprise authentication?",
+          "answer": "Yes, SAML SSO is included in all plans"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, about 8 weeks out"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to demo/evaluation phase",
+        "Prepare custom demo with their workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent with demo environment credentials and custom setup reflecting JadeGroup's sales process. Wyatt confirmed he'll test with 2-3 reps this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation period begins",
+        "Check-in call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-29",
+      "type": "technical_eval",
+      "duration_minutes": 25,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute technical evaluation review call with Wyatt and Dylan. They tested with 3 deals, very positive on AI summary quality. Dylan noted the integration was smoother than expected.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the summary template to match our internal format?",
+          "answer": "Absolutely, templates are fully customizable in the unlimited automation tier"
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you saw with Clari?",
+          "answer": "Clari's handoff features are more basic, yours is more purpose-built for this use case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-05-04",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute proposal call with Wyatt. Presented $20,500 ACV for 21 seats with unlimited automation tier. Wyatt asked for breakdown and will review with Noah.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in ongoing support?",
+          "answer": "Dedicated CSM, 24/7 technical support, and quarterly business reviews"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Executive review meeting with Noah",
+        "Send formal proposal document"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-05-07",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Noah Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute exec meeting with Noah Stern. Reviewed business case and ROI projection. Noah is supportive but wants to understand the competitive positioning vs Clari before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we go with you, does this preclude us from using Clari for forecasting?",
+          "answer": "Not at all - many customers use both, we integrate with Clari's platform"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for you?",
+          "answer": "Clear ROI on time savings and improved customer satisfaction from better handoffs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up with expanded ROI analysis",
+        "Another exec meeting to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-05-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with detailed ROI analysis showing $67K annual savings from rep time recovery and reduced churn from better CS context. Noah acknowledged receipt.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Final exec meeting scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-05-14",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Noah Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute executive meeting with Noah and Wyatt. Deep discussion on implementation plan, change management, and comparison with Clari's capabilities. Noah is leaning toward moving forward but wants to negotiate contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard contract length?",
+          "answer": "Typically annual with quarterly payment options available"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot before rolling out to all 21 seats?",
+          "answer": "We can structure a phased rollout, but pricing is based on full team size"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders we should include before moving to contract?",
+          "answer": "Legal and procurement will need to review, but I have authority to approve"
+        }
+      ],
+      "objections": [
+        "The pricing feels high compared to what we're seeing elsewhere"
+      ],
+      "next_steps": [
+        "Move to negotiation phase",
+        "Prepare for contract discussions"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Email recap of exec meeting action items and proposed contract structure. Wyatt responded asking about flexibility on payment terms and annual vs multi-year options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount is available for a multi-year commitment?",
+          "answer": "We can discuss 10-15% discount for 2-3 year terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Negotiation call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-05-23",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute negotiation call with Wyatt. Discussed payment terms, contract length, and pricing flexibility. Wyatt is advocating internally but Noah is pushing back on budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best price for annual commitment with quarterly payments?",
+          "answer": "We can offer $18,500 ACV with quarterly billing"
+        }
+      ],
+      "objections": [
+        "We're being quoted lower for Clari's full platform which includes handoff features"
+      ],
+      "next_steps": [
+        "Regroup with leadership on pricing",
+        "Follow-up negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-05-28",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute negotiation call with Wyatt. Discussed value differentiation vs Clari and explored creative contract structures. Agreed to hold at $19,000 ACV for 2-year term with quarterly billing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can get to $19K with 2-year term, can you get Noah on board?",
+          "answer": "I think so, but he'll want to meet one more time to finalize"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final exec meeting to close",
+        "Prepare contract for review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-05-31",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Noah Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute executive meeting with Noah and Wyatt. Reviewed final proposal at $19K ACV, 2-year term. Noah pushed for additional concessions on implementation support and success guarantees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the ROI you're projecting in year one?",
+          "answer": "We can build in success metrics and quarterly check-ins to ensure you're tracking to value"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you include additional implementation support given the 2-year commitment?",
+          "answer": "We can add 20 hours of premium implementation support at no additional cost"
+        }
+      ],
+      "objections": [
+        "We need more assurance this will deliver the promised time savings"
+      ],
+      "next_steps": [
+        "One more call with Noah to finalize terms",
+        "Legal review of contract"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 24,
+      "date": "2024-06-04",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Noah Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute negotiation call with Noah. Finalized contract terms: $19K ACV, 2-year commitment, quarterly billing, 20 hours premium implementation, quarterly success reviews. Noah approved pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't work out?",
+          "answer": "Standard terms allow termination after year one with 90-day notice if success metrics aren't met"
+        },
+        {
+          "by": "rep",
+          "question": "Can we move to contract review with your legal team?",
+          "answer": "Yes, I'll introduce you to our procurement and legal contacts"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to legal",
+        "Pricing alignment call with finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 25,
+      "date": "2024-06-08",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Wyatt Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute pricing call with Wyatt and finance team. Reviewed final pricing at $20,500 ACV (adjusted from $19K to account for full 21 seats at standard rate). Confirmed budget approval and contract routing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after contract signature?",
+          "answer": "We can kick off within 3-5 business days of signed agreement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract signature expected within 1 week",
+        "Implementation kickoff planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

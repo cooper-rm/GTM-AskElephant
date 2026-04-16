@@ -1,0 +1,353 @@
+{
+  "deal_id": "DEAL-0861",
+  "company": {
+    "name": "CoreCloud",
+    "industry": "Marketing Agency",
+    "employee_count": 79,
+    "annual_revenue": 8974058,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7600.0,
+    "seats": 10,
+    "price_per_seat_monthly": 63.71,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.4,
+    "sales_cycle_days": 45,
+    "close_date": "2025-11-22",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Amanda Flores",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 64
+    },
+    {
+      "name": "Casey Doyle",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 78
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-10-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Amanda Flores submitted an inbound demo request via website form. Indicated interest in improving pipeline visibility for their sales team. Brief intake form completed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send calendar link for discovery call",
+        "Amanda to review product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and calendar booking link. Amanda responded confirming availability for discovery call next week and asked about pricing tiers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your pricing tiers for a team of around 10 people?",
+          "answer": "Rep provided high-level pricing range and mentioned custom packages based on automation needs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday",
+        "Amanda to invite Casey Doyle to the call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Rep sent pre-call email with discovery agenda and questions to prep Amanda. Amanda confirmed and mentioned they're currently evaluating Gong as well.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this integrate with our existing Salesforce setup?",
+          "answer": "Rep confirmed native Salesforce integration and shared case study"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed for tomorrow",
+        "Rep to prepare competitive comparison vs Gong"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-22",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Amanda Flores covered current pipeline challenges at CoreCloud. Team of 10 sales reps struggling with forecast accuracy and deal visibility. Currently using basic CRM reports, exploring Gong and our solution. Amanda is champion but noted VP Sales will need to approve budget.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence solution right now?",
+          "answer": "Amanda explained Q1 forecasts were off by 30%, need better visibility into deal health"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Amanda mentioned Casey Doyle (Sales Manager) and noted VP Sales has final budget approval"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's features?",
+          "answer": "Rep outlined differentiation in unlimited automation tier vs Gong's usage limits"
+        }
+      ],
+      "objections": [
+        "Amanda mentioned Gong is the frontrunner due to brand recognition"
+      ],
+      "next_steps": [
+        "Schedule technical eval for Amanda and Casey",
+        "Rep to send ROI calculator",
+        "Amanda to check VP Sales availability for future call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-26",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Amanda walking through live demo focused on pipeline visibility dashboards and automated call summaries. Amanda engaged, tested integrations, asked detailed questions about reporting customization. Casey Doyle was invited but did not attend.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the risk signals to match our sales process stages?",
+          "answer": "Rep demonstrated configuration options and offered custom field mapping"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Rep explained 2-3 week onboarding with dedicated CSM support"
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently tracking conversation data?",
+          "answer": "Amanda explained manual note-taking in Salesforce, inconsistent across team"
+        }
+      ],
+      "objections": [
+        "Amanda concerned about user adoption given team's resistance to new tools in the past"
+      ],
+      "next_steps": [
+        "Rep to prepare proposal for 10 seats with unlimited automation",
+        "Amanda to sync with Casey and get his feedback",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-02",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Amanda. Presented $7,600 ACV for 10 seats with unlimited automation tier. Amanda reacted to pricing, mentioned Gong quote came in lower. Discussed ROI based on forecast accuracy improvements. Amanda requested discount to match Gong's pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's pricing? They quoted us about 30% less.",
+          "answer": "Rep asked about Gong's feature set in their quote, mentioned flexibility on price with exec approval"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for your team?",
+          "answer": "Amanda said competitive pricing and getting VP Sales comfortable with the platform"
+        }
+      ],
+      "objections": [
+        "Pricing higher than Gong's quote",
+        "VP Sales not yet engaged or shown value"
+      ],
+      "next_steps": [
+        "Rep to work on revised pricing",
+        "Amanda to schedule call with VP Sales",
+        "Target decision by end of month"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-11-12",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled exec meeting with VP Sales was rescheduled by Amanda due to VP's calendar conflict. Brief check-in call with Amanda only. She confirmed still interested but noted budget approval moving slower than expected.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking the VP Sales meeting from happening?",
+          "answer": "Amanda said VP is slammed with board prep, should open up next week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting for next week",
+        "Rep to send one-pager for VP to review beforehand"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-17",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Amanda, rep presented revised proposal with 28% discount to match competitive pressure from Gong. Amanda appreciated the movement on price. Discussed contract terms and implementation timeline. Amanda committed to getting VP Sales on next call to finalize.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month commitment instead of annual?",
+          "answer": "Rep explained discount pricing requires annual commitment, offered quarterly payment terms"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for going live with a solution?",
+          "answer": "Amanda said ideally before end of Q2 to impact second half forecasting"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-contract?",
+          "answer": "Rep explained pro-rated expansion pricing and seat scalability"
+        }
+      ],
+      "objections": [
+        "Annual commitment a concern given budget constraints"
+      ],
+      "next_steps": [
+        "Schedule final call with VP Sales for approval",
+        "Amanda to review MSA with their procurement",
+        "Target signature within 2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-11-22",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Amanda Flores",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Follow-up exec meeting rescheduled by Amanda again due to VP conflict. Call happened with Amanda only. She expressed continued interest but noted VP Sales has concerns about ROI timeline and wants to see more customer references. Amanda still advocating internally but momentum slowing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have references from marketing agencies our size who've seen forecast improvement?",
+          "answer": "Rep offered to connect with two similar customers for reference calls"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else the VP needs to feel confident moving forward?",
+          "answer": "Amanda said VP wants proof of ROI and is comparing total cost vs Gong more carefully"
+        },
+        {
+          "by": "prospect",
+          "question": "What if we reduced to 8 seats to lower the initial investment?",
+          "answer": "Rep ran revised numbers, offered slight additional discount for 8 seats"
+        }
+      ],
+      "objections": [
+        "VP Sales still not directly engaged",
+        "ROI timeline concerns compared to Gong"
+      ],
+      "next_steps": [
+        "Rep to arrange customer reference calls",
+        "Amanda to make one more push for VP meeting",
+        "Decision pushed to next month"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

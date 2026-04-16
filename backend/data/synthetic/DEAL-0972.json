@@ -1,0 +1,343 @@
+{
+  "deal_id": "DEAL-0972",
+  "company": {
+    "name": "HarborSystems",
+    "industry": "Marketing Agency",
+    "employee_count": 592,
+    "annual_revenue": 95459515,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20600.0,
+    "seats": 25,
+    "price_per_seat_monthly": 73.36,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 17.6,
+    "sales_cycle_days": 42,
+    "close_date": "2024-06-28",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Liam Allen",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Isaac Rivera",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 27
+    },
+    {
+      "name": "Caleb Liu",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Kwame Lim",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 6
+    },
+    {
+      "name": "Casey Yoon",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Liam Allen",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request submitted via website form. Liam Allen (Director of CS) expressed interest in improving forecasting accuracy for their revenue team. Mentioned currently evaluating Gong but looking for alternatives with better workflow automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Liam Allen",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Liam Allen. Discussed current forecasting challenges at HarborSystems\u2014relying on manual Salesforce updates from 25-person revenue team. Liam recently joined as Director of CS (3 months ago) and is driving this initiative. Confirmed budget authority sits with Isaac Rivera (SVP Revenue) and procurement involves IT Director Casey Yoon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong for forecasting specifically?",
+          "answer": "Our AI models are trained specifically on deal progression patterns and integrate directly with your CRM workflow, whereas Gong focuses primarily on conversation intelligence. We also offer consulting to tune models to your sales process."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecasting error rate?",
+          "answer": "We're missing by 15-20% quarter over quarter. Leadership wants this under 10%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-23",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Liam Allen",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Liam walked through their current tech stack and confirmed 25 seats needed (all revenue-facing roles). Discussed timeline\u2014ideally close before end of quarter to impact Q2 forecasting. Liam mentioned Kwame Lim (RevOps Analyst) will need to evaluate technical integration with their Salesforce instance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 2-3 weeks for initial setup, then 30 days of model calibration with your historical data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery with broader team",
+        "Provide technical integration doc for Kwame"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-30",
+      "type": "discovery_call",
+      "duration_minutes": 37,
+      "person_name": "Liam Allen",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Liam Allen. Reviewed specific use case: forecasting accuracy for their mid-market agency clients. Discussed automations_plus_consulting package\u2014Liam liked the consulting component given his newness to the role. Covered competitive landscape; HarborSystems has Gong in eval but Liam feels it's over-indexed on call recording vs. predictive analytics. Confirmed $20K budget range fits their planning.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision beyond you and Isaac?",
+          "answer": "Casey Yoon from IT handles procurement and vendor approvals. Kwame will need to validate the Salesforce integration and data security."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your consulting team help us build custom dashboards for our executive team?",
+          "answer": "Yes, that's included in the automations_plus_consulting tier. We typically deliver 3-5 custom views based on your KPIs."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy for our customer pipeline data?",
+          "answer": "All data is encrypted at rest and in transit, SOC 2 Type II certified, and we support single-tenant deployments if needed."
+        }
+      ],
+      "objections": [
+        "We're concerned about adoption\u2014our team is already stretched thin with new tools."
+      ],
+      "next_steps": [
+        "Schedule technical eval with Kwame",
+        "Send case study on change management"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-04",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Kwame Lim",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation call with Kwame Lim rescheduled due to conflicting RevOps sprint planning session. Kwame requested to push by 3 days.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical eval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-11",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Kwame Lim",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Kwame Lim (RevOps Analyst). Walked through Salesforce API integration, data sync cadence, and HNSW-based deal matching architecture. Kwame tested sandbox environment and validated that custom fields map correctly. Discussed security requirements\u2014Casey Yoon will need to review SOC 2 report. Kwame expressed concern about model transparency ('black box' risk) but appreciated the calibration dashboard we provide.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export the underlying feature scores for each deal prediction?",
+          "answer": "Yes, we provide a feature importance view and deal-level score breakdowns via API or CSV export."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% uptime guaranteed, with 4-hour response time for P1 incidents."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have any concerns about the data sync approach?",
+          "answer": "No major concerns\u2014our Salesforce instance is pretty standard. I'll need to loop in Casey on the vendor security questionnaire."
+        }
+      ],
+      "objections": [
+        "We need to ensure this doesn't create another data silo\u2014integration with our existing BI tools is critical."
+      ],
+      "next_steps": [
+        "Send security questionnaire to Casey",
+        "Schedule exec alignment call with Isaac"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-15",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Isaac Rivera",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec alignment call with Isaac Rivera (SVP Revenue). Liam provided context on the evaluation. Isaac confirmed forecasting accuracy is a top-3 priority for the year and asked about ROI benchmarks. Short call\u2014Isaac had another meeting but wanted to put a face to the deal. Positive tone, asked to reconvene for deeper pricing discussion next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are your customers typically seeing in the first 6 months?",
+          "answer": "Most customers reduce forecast error by 30-50% within the first quarter, which translates to better resource planning and pipeline confidence."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review with Isaac and Liam"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 44,
+      "person_name": "Isaac Rivera",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal and negotiation call with Isaac Rivera. Walked through $20,600 ACV pricing for 25 seats (automations_plus_consulting tier). Isaac pushed back on pricing\u2014mentioned Gong quoted lower for their call intelligence tier, though acknowledged it's not apples-to-apples. Discussed contract terms: Isaac requested quarterly payment option instead of annual upfront. Also requested 5% discount if they commit by end of month. Rep agreed to review with leadership on payment terms and discount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a 6-month pilot instead of annual commit?",
+          "answer": "We typically require annual for the consulting component, but we can structure as quarterly payments with a 12-month term."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to expand to 40 seats mid-year?",
+          "answer": "We can do a mid-term expansion\u2014just pro-rated based on remaining contract period."
+        },
+        {
+          "by": "rep",
+          "question": "If we accommodate quarterly payments and 5% discount, can you commit to closing by April 30?",
+          "answer": "I need to confirm with Casey on procurement timeline, but yes, that's our target."
+        }
+      ],
+      "objections": [
+        "Gong's pricing is about 15% lower for comparable seat count, even though their forecasting features are lighter."
+      ],
+      "next_steps": [
+        "Send revised proposal with quarterly payment terms",
+        "Confirm discount approval internally",
+        "Loop in Casey for final procurement review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Allen",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email from rep to Liam Allen summarizing negotiation call. Confirmed that leadership approved 5% discount ($19,570 ACV) and quarterly payment structure. Attached revised Order Form and requested intro to Casey Yoon to finalize procurement/security review. Liam responded same day thanking rep and cc'ing Casey, indicating he'll schedule final approval meeting with Isaac for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send the SOC 2 report directly to Casey?",
+          "answer": "Yes, sent via separate secure link."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Casey to complete vendor security review",
+        "Schedule final approval call with Isaac",
+        "Target signature by April 30"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

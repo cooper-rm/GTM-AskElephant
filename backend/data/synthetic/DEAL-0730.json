@@ -1,0 +1,208 @@
+{
+  "deal_id": "DEAL-0730",
+  "company": {
+    "name": "PeakAxis",
+    "industry": "EdTech",
+    "employee_count": 40,
+    "annual_revenue": 6080337,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 70.54,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 20.7,
+    "sales_cycle_days": 27,
+    "close_date": "2025-07-28",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Diego Brown",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Abigail Gomez",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Diego Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Diego Brown at PeakAxis. Expressed interest in improving rep productivity and sales coaching capabilities. Mentioned currently evaluating solutions including Gong. Brief initial outreach captured.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer conversation intelligence and coaching tools for sales teams?",
+          "answer": "Yes, we provide AI-powered conversation intelligence with coaching workflows and rep productivity features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and calendar link. Diego responded confirming interest in scheduling a discovery call to discuss their sales coaching needs and current evaluation process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark for around 8 reps?",
+          "answer": "Shared typical range for 8 seats with automation features, noted we'd refine based on specific needs in discovery."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-12",
+      "type": "discovery_call",
+      "duration_minutes": 35,
+      "person_name": "Diego Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Diego Brown covering current sales process challenges at PeakAxis. Team of 40 with growing sales org struggling with inconsistent rep performance and lack of coaching visibility. Currently using basic tools, actively evaluating Gong as primary alternative. Diego owns sales productivity but noted RevOps analyst Abigail Gomez will evaluate technical requirements. No executive sponsor mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for conversation intelligence now?",
+          "answer": "We've doubled our sales team in 6 months and coaching quality is inconsistent. Need scalable way to improve rep ramp time and performance."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating solutions?",
+          "answer": "I'm leading the evaluation. Abigail Gomez from RevOps will assess technical fit and integrations. We're also looking at Gong."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation and consulting package compare to standard conversation intelligence?",
+          "answer": "Explained our automations plus consulting tier includes custom workflow automation, dedicated CSM support, and quarterly coaching strategy sessions beyond core call intelligence."
+        }
+      ],
+      "objections": [
+        "We're already pretty far along with Gong - what makes your solution different for our use case?"
+      ],
+      "next_steps": [
+        "Send proposal for 8 seats with automations plus consulting tier",
+        "Include Abigail Gomez on technical documentation",
+        "Schedule demo for Abigail to review integrations"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal for 8 seats at $6,500 ACV with automations plus consulting package. Diego responded asking about discount options given budget constraints and Gong's competitive pricing. Mentioned Abigail is reviewing technical specs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Gong came in lower and we're working within a tight budget.",
+          "answer": "Acknowledged budget sensitivity and indicated willingness to discuss pricing on next call, emphasized value of consulting tier for their coaching goals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss pricing and finalize terms",
+        "Get Abigail's technical feedback"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-27",
+      "type": "negotiation_call",
+      "duration_minutes": 38,
+      "person_name": "Diego Brown",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call with Diego (rescheduled once from previous week). Discussed pricing flexibility - agreed to 20.7% discount to match competitive pressure and budget constraints. Diego confirmed Abigail approved technical fit. Focused on rep productivity ROI and coaching value to justify investment over Gong. No executive sponsor brought into conversation yet. Diego pushing to close quickly before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's pricing or get closer to their quote?",
+          "answer": "Offered 20.7% discount bringing ACV to $6,500 for 8 seats, emphasized consulting and automation differentiators justify remaining premium."
+        },
+        {
+          "by": "rep",
+          "question": "Should we loop in your CFO or executive team for final sign-off?",
+          "answer": "Diego said he has approval authority for this budget level and wants to move forward without additional stakeholders."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation timeline and consulting support?",
+          "answer": "Outlined 2-week implementation, quarterly coaching strategy sessions, and dedicated CSM for first 6 months."
+        }
+      ],
+      "objections": [
+        "Even with the discount, this is still 15% more than Gong's offer - need to justify the delta to move forward"
+      ],
+      "next_steps": [
+        "Send updated contract with discount applied",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 65,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

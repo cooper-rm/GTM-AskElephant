@@ -1,0 +1,605 @@
+{
+  "deal_id": "DEAL-0909",
+  "company": {
+    "name": "CrimsonPartners",
+    "industry": "Marketing Agency",
+    "employee_count": 918,
+    "annual_revenue": 159147252,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18700.0,
+    "seats": 28,
+    "price_per_seat_monthly": 61.87,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 30.5,
+    "sales_cycle_days": 79,
+    "close_date": "2025-07-24",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Ava Johnson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 21
+    },
+    {
+      "name": "Sebastian Lee",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 33
+    },
+    {
+      "name": "Willow Lee",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    },
+    {
+      "name": "Evelyn Hall",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Ava Johnson submitted an inbound request expressing interest in improving pipeline visibility for their marketing agency's sales operations. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to follow up with qualification email"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 15.4,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email introducing platform capabilities and requesting time to discuss CrimsonPartners' current pipeline challenges. Ava responded positively, confirming availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot?",
+          "answer": "Yes, we have native HubSpot integration with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Rep shared case study of similar mid-market marketing agency achieving 40% improvement in forecast accuracy. Ava confirmed interest in scheduling a qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-14",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute qualification call with Ava to understand current state. CrimsonPartners using spreadsheets for pipeline tracking, leading to inconsistent forecasting. Team of ~30 in sales/CS roles. Ava mentioned budget approved for Q2 tooling investments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking pipeline health?",
+          "answer": "Mostly manual updates in spreadsheets, which get outdated quickly"
+        },
+        {
+          "by": "rep",
+          "question": "How many people would need access to the system?",
+          "answer": "Probably 25-30 across sales, CS, and leadership"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to deep-dive on use cases",
+        "Rep to send product overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-21",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute discovery call focused on pain points. Ava described challenges with visibility into deal progression and difficulty identifying at-risk accounts. Expressed particular interest in automation capabilities to reduce manual data entry.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your system automatically pull in meeting notes and email activity?",
+          "answer": "Yes, we capture all touchpoints automatically via calendar and email integration"
+        },
+        {
+          "by": "rep",
+          "question": "What metrics matter most to your leadership team?",
+          "answer": "Close rate, sales cycle length, and forecast accuracy"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow-up call to discuss implementation timeline",
+        "Ava to identify technical point person"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-27",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute follow-up call to discuss implementation approach. Ava confirmed Evelyn Hall from RevOps would handle technical evaluation. Discussed phased rollout starting with sales team, then expanding to CS.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for going live?",
+          "answer": "We'd like to launch by end of Q2, early Q3 at latest"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of onboarding support do you provide?",
+          "answer": "Dedicated implementation manager, plus training sessions for admins and end users"
+        }
+      ],
+      "objections": [
+        "Ava mentioned concern about team adoption given past failed tool rollouts"
+      ],
+      "next_steps": [
+        "Schedule another discovery session",
+        "Connect Evelyn Hall for technical discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-31",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute discovery call diving into specific automation needs. Ava walked through current workflow gaps and explained how reps often forget to log activities. Discussed consulting services to help with process optimization.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting to help redesign our sales process?",
+          "answer": "Yes, our professional services team can help map your workflows and configure the platform"
+        },
+        {
+          "by": "rep",
+          "question": "Are there other stakeholders we should involve in the evaluation?",
+          "answer": "Our CEO Sebastian likes to weigh in on significant investments, and Willow manages the sales team day-to-day"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Evelyn",
+        "Prepare demo focused on automation and analytics"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Rep sent email recapping discovery findings and confirming next steps. Shared agenda for upcoming technical eval and demo. Ava acknowledged and confirmed Evelyn's availability.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled",
+        "Product demo scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-12",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Evelyn Hall",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "58-minute technical evaluation with Evelyn Hall covering data security, integrations, API capabilities, and admin controls. Evelyn asked detailed questions about HubSpot sync, user permissions, and data retention policies. Generally satisfied with technical capabilities but flagged questions about custom reporting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How granular are the permission controls for different user roles?",
+          "answer": "Role-based access control down to field level, with custom role creation available"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we export everything?",
+          "answer": "Unlimited retention, full data export available anytime via API or UI"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we build custom dashboards or are we limited to templates?",
+          "answer": "Fully customizable dashboards with drag-and-drop builder, plus SQL access for advanced users"
+        }
+      ],
+      "objections": [
+        "Evelyn expressed concern about complexity of initial setup and learning curve for admins"
+      ],
+      "next_steps": [
+        "Evelyn to review documentation and test environment",
+        "Follow up on custom reporting requirements"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-17",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "41-minute product demo with Ava focusing on pipeline visibility dashboards, automation workflows, and forecasting features. Walked through real scenarios matching CrimsonPartners' use cases. Ava engaged positively, asking about specific configurations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we set up automated alerts for deals that haven't had activity in X days?",
+          "answer": "Yes, fully configurable activity-based triggers and escalations"
+        },
+        {
+          "by": "rep",
+          "question": "Which features are most exciting for your team?",
+          "answer": "The automated activity capture and the predictive deal scoring stand out"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo for Willow and sales team",
+        "Begin drafting proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-06-22",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "46-minute demo rescheduled from earlier date. Presented to broader group including Willow Lee. Demonstrated end-user workflows, mobile app, and reporting capabilities. Willow asked practical questions about daily rep usage. Meeting ran long due to detailed Q&A.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much time does this actually save reps each day?",
+          "answer": "Customers report 30-45 minutes saved daily on admin tasks"
+        },
+        {
+          "by": "prospect",
+          "question": "What if reps don't adopt it? Do we have usage visibility?",
+          "answer": "Admin dashboard shows adoption metrics and we provide change management best practices"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from the team about switching tools?",
+          "answer": "Willow mentioned the team is stretched thin, so ease of use is critical"
+        }
+      ],
+      "objections": [
+        "Willow concerned about disruption during busy Q2 period"
+      ],
+      "next_steps": [
+        "Share proposal with pricing options",
+        "Schedule call with Sebastian for executive alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-06-27",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute proposal review call with Ava. Presented three tiers, recommended automations_plus_consulting package given their process optimization needs. Discussed 28 seats covering sales, CS, and leadership. Ava responded positively but mentioned need for budget approval from Sebastian.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package versus just the platform?",
+          "answer": "Consulting includes process audit, workflow design, custom configuration, and 3 months of optimization support"
+        },
+        {
+          "by": "rep",
+          "question": "Does the pricing fit within your approved budget range?",
+          "answer": "It's at the higher end, but I think we can make the case given the ROI"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule meeting with Sebastian to present business case",
+        "Ava to socialize proposal internally"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-07-01",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Sebastian Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute executive meeting with Sebastian Lee and Ava Johnson. Presented ROI analysis and strategic value of pipeline visibility improvements. Sebastian asked pointed questions about implementation risk, time to value, and competitive alternatives. Showed strong interest but indicated final decision would come after internal discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the realistic timeline to seeing measurable improvement in forecast accuracy?",
+          "answer": "Most customers see 20-30% improvement within 60-90 days of launch"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to other platforms in this space?",
+          "answer": "We're positioned as premium but include automation and consulting that others charge separately for"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you?",
+          "answer": "Sebastian said proof of quick adoption and clear ROI within first quarter"
+        }
+      ],
+      "objections": [
+        "Sebastian questioned whether the full consulting package is necessary or if they could start smaller"
+      ],
+      "next_steps": [
+        "Sebastian to discuss with finance and ops team",
+        "Rep to follow up next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-07-06",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "18-minute negotiation call, rescheduled from previous week. Ava indicated Sebastian supportive but pushing back on price. Requested options to reduce cost while maintaining core functionality. Discussed potential to adjust seat count or consulting scope.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Could we start with fewer seats and add more later?",
+          "answer": "Yes, we can structure as 20 seats initially with quarterly true-up option"
+        },
+        {
+          "by": "rep",
+          "question": "What's the main concern\u2014total budget or timing of payment?",
+          "answer": "Total budget is the issue; we're trying to stay under $20K annually"
+        }
+      ],
+      "objections": [
+        "Ava mentioned Sebastian comparing to a lower-cost competitor option"
+      ],
+      "next_steps": [
+        "Rep to prepare revised proposal with pricing options",
+        "Ava to clarify must-have vs nice-to-have features"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-07-14",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute negotiation call to review revised proposal options. Presented scenario with 28 seats but reduced consulting hours, bringing ACV to $18,700. Ava receptive and believed this would work within budget constraints. Discussed payment terms and contract length.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on payment terms or can we do quarterly billing?",
+          "answer": "Annual pre-pay is standard, but we can discuss quarterly with a small upcharge"
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing structure work for your team?",
+          "answer": "This feels much more manageable; I think Sebastian will approve"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ava to get final sign-off from Sebastian",
+        "Schedule pricing finalization call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-07-18",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute pricing call to confirm final details. Ava requested additional discount to get under $18K threshold. Rep explained limited flexibility but offered to include extra onboarding session as added value. Ava agreed to take current proposal to Sebastian for decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to move on price to get us under $18K?",
+          "answer": "I'm at my floor on discount, but I can add two extra training sessions for your team"
+        }
+      ],
+      "objections": [
+        "Ava pushed for deeper discount to match internal budget target"
+      ],
+      "next_steps": [
+        "Ava to present final offer to Sebastian",
+        "Decision expected within 48 hours"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-07-21",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Ava Johnson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute final pricing call with Ava. Sebastian approved the $18,700 proposal with 28 seats and reduced consulting scope. Discussed contract terms, implementation kickoff timeline, and onboarding schedule. Ava confirmed legal review should take 3-5 days, targeting contract signature by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we realistically start the implementation after contract signature?",
+          "answer": "We can kick off within one week of signed contract, sooner if your team is ready"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns or blockers on your end?",
+          "answer": "No, we're aligned; just need to get through legal review"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-contract?",
+          "answer": "Simple amendment process, prorated pricing for remainder of term"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff meeting",
+        "Ava to coordinate with Evelyn on technical prep"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

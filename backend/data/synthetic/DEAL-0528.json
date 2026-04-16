@@ -1,0 +1,372 @@
+{
+  "deal_id": "DEAL-0528",
+  "company": {
+    "name": "IronNetworks",
+    "industry": "SaaS/Tech",
+    "employee_count": 749,
+    "annual_revenue": 102277445,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15700.0,
+    "seats": 20,
+    "price_per_seat_monthly": 64.06,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.0,
+    "sales_cycle_days": 48,
+    "close_date": "2023-03-07",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Owen Rogers",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 12
+    },
+    {
+      "name": "Lucas Tanaka",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 3
+    },
+    {
+      "name": "Carter Harris",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-09",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Owen Rogers, Director of CS at IronNetworks. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Owen highlighting sales-to-CS handoff automation. Owen responded expressing interest in learning more about reducing manual work during customer onboarding transitions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform specifically handle the sales-to-CS handoff?",
+          "answer": "Rep explained the unlimited automation tier enables custom workflows that automatically transfer deal context, customer data, and agreed deliverables from CRM to CS tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call scheduled. Owen confirmed availability and mentioned they're currently evaluating a few solutions including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-23",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute qualification call with Owen. Discussed current pain points with manual handoff processes at IronNetworks. Owen mentioned they lose critical context during transitions and CS team often starts discovery from scratch. Confirmed budget range and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest challenge you face today during the sales-to-CS transition?",
+          "answer": "Owen explained that agreed commitments from sales calls often don't make it to the CS team, leading to confusion and erosion of customer trust in the first 30 days."
+        },
+        {
+          "by": "prospect",
+          "question": "Are you looking at other platforms besides ours?",
+          "answer": "Rep acknowledged competition and asked what's most important in Owen's evaluation criteria."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Loop in technical stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-01-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery questionnaire and case study. Owen responded with completed questionnaire and introduced Lucas Tanaka and Carter Harris from IT for technical evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Owen and IT team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email to coordinate demo scheduling with Owen, Lucas, and Carter. Discussed technical requirements and integration points with existing stack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with Salesforce and our CS platform?",
+          "answer": "Rep confirmed native integrations and offered to demonstrate specific workflows during the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with agenda and technical documentation. Lucas requested information about data security and compliance certifications ahead of the demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "Confirm demo attendees"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-13",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute demo with Owen, Lucas, and Carter. Walked through sales-to-CS handoff automation, custom workflow builder, and integration capabilities. Lucas raised questions about API rate limits and data residency. Carter focused on implementation timeline and IT resource requirements. Owen was enthusiastic about the automation capabilities but noted they're comparing with Gong's offering.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a company our size?",
+          "answer": "Rep explained 4-6 weeks for mid-market with dedicated CS support during onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits for the unlimited automation tier?",
+          "answer": "Rep provided technical specifications and offered to connect Lucas with solutions engineering for detailed technical deep-dive."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently evaluating Gong versus our platform?",
+          "answer": "Owen mentioned Gong is strong on conversation intelligence but lacks the workflow automation depth they need for handoff processes."
+        }
+      ],
+      "objections": [
+        "Lucas expressed concern about implementation requiring significant IT resources during Q2 planning cycle"
+      ],
+      "next_steps": [
+        "Send proposal for 20 seats",
+        "Technical deep-dive with Lucas",
+        "Provide implementation timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-02-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with proposal for 20 seats at $15,700 ACV (28% discount applied). Owen acknowledged receipt and said he needs to discuss pricing with leadership before moving forward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-02-25",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute pricing call with Owen. Discussed discount rationale, ROI projections, and contract terms. Owen expressed concern about the price point compared to Gong's offer but acknowledged the automation capabilities justify premium. Asked about flexibility on payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Rep offered to explore quarterly payments with 5% increase to ACV."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you and your team?",
+          "answer": "Owen said he needs executive buy-in, specifically from VP of Customer Success, who hasn't been involved yet."
+        }
+      ],
+      "objections": [
+        "Owen mentioned Gong's pricing came in lower and questioned whether the automation features warrant the price difference"
+      ],
+      "next_steps": [
+        "Schedule executive alignment meeting",
+        "Provide ROI analysis"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-02-27",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "25-minute executive meeting (originally scheduled earlier but rescheduled by IronNetworks). Owen attended but VP of Customer Success sent last-minute regrets. Discussed strategic value and implementation plan. Owen remained engaged but noted he'll need to schedule a separate conversation with the VP before final approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the VP's primary concern or focus area we should address?",
+          "answer": "Owen explained the VP is cautious about adding new tools mid-year and wants to ensure this integrates smoothly with planned CS process changes in Q3."
+        },
+        {
+          "by": "prospect",
+          "question": "If we move forward, what does the onboarding timeline look like?",
+          "answer": "Rep outlined phased rollout starting with 10 seats, expanding to full 20 after validation period."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Owen to schedule follow-up with VP",
+        "Send implementation plan"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-03-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping executive meeting and providing implementation plan. Owen responded that he's working to get time with the VP next week and will update on timeline. Thanked rep for patience.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Owen to confirm VP meeting",
+        "Rep to check in early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

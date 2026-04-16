@@ -1,0 +1,564 @@
+{
+  "deal_id": "DEAL-0308",
+  "company": {
+    "name": "MeridianDynamics",
+    "industry": "Fintech",
+    "employee_count": 576,
+    "annual_revenue": 109826748,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21700.0,
+    "seats": 29,
+    "price_per_seat_monthly": 61.51,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.9,
+    "sales_cycle_days": 59,
+    "close_date": "2025-07-26",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Kwame Mehta",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 19
+    },
+    {
+      "name": "Isaac Singh",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 17
+    },
+    {
+      "name": "Aiden Agarwal",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 9
+    },
+    {
+      "name": "Grace Brown",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 4
+    },
+    {
+      "name": "Camila Adams",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 59
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Kwame Mehta introducing our conversation intelligence platform for sales-to-CS handoff workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-05",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message to Kwame Mehta highlighting specific use case for revenue team handoffs. Kwame responded expressing initial interest and willingness to learn more.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from what we're currently evaluating with Chorus?",
+          "answer": "Our platform specializes in cross-functional handoffs between sales and CS, with automated playbooks that trigger based on deal attributes and conversation insights. Chorus focuses primarily on sales coaching."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kwame to check calendar availability for intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Email sent with case study on sales-to-CS handoff automation for a similar fintech company. Kwame confirmed interest and shared that handoff gaps are causing customer churn in their first 90 days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce and Gainsight setup?",
+          "answer": "Yes, we have native integrations with both and can sync conversation insights directly into CS workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.4,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email with calendar invite for qualification call. Kwame accepted and mentioned he'd like to involve his SVP of Revenue if things look promising.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-05",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Kwame Mehta. Discussed current pain points with sales-to-CS handoffs, confirmed 29-seat requirement across sales and CS teams. Kwame mentioned they're mid-evaluation with Chorus but open to alternatives that better address handoff workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're losing 15% of new customers in first 90 days due to poor handoff context. Our CS team is flying blind on what was promised during sales."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks depending on integration complexity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Kwame to gather specific handoff workflow requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-09",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Kwame Mehta covering current tech stack, team structure, and detailed handoff workflow pain points. Kwame confirmed budget range and mentioned Isaac Singh (SVP Revenue) would need to approve any deal. Discussed competitive evaluation with Chorus and differentiated on handoff-specific features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process from closed-won to CS onboarding.",
+          "answer": "Sales updates a few Salesforce fields, CS gets a notification, then spends first call re-asking everything. No conversation context transfers."
+        },
+        {
+          "by": "rep",
+          "question": "What's Isaac's main concern when evaluating tools like this?",
+          "answer": "ROI and adoption. He wants proof it'll reduce churn and that reps will actually use it."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle unlimited automation pricing? We need flexibility as we scale.",
+          "answer": "Our unlimited plan includes all automation workflows, integrations, and seats within your contracted user count."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with Kwame's team",
+        "Prepare ROI analysis for Isaac"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-15",
+      "type": "follow_up_call",
+      "duration_minutes": 4,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to confirm technical evaluation logistics. Kwame mentioned he's bringing in Aiden Agarwal (IT Director) and Grace Brown (Account Manager) to the eval sessions to pressure-test integrations and end-user experience.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will Aiden need any special access or documentation beforehand?",
+          "answer": "We'll send integration guides and API docs 24 hours before the session."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send prep materials to Aiden and Grace",
+        "Schedule two technical eval sessions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-16",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Kwame, Aiden, and Grace. Walked through Salesforce/Gainsight integration, live demo of conversation analysis, and handoff automation playbooks. Aiden raised questions about data security and API rate limits. Grace tested end-user workflow and provided positive feedback on UI simplicity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we configure it per compliance requirements?",
+          "answer": "Default is 2 years, configurable down to 90 days or up to 7 years depending on your needs. All data encrypted at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "How do API rate limits work if we're processing high call volumes?",
+          "answer": "Unlimited plan includes enterprise API limits that scale with usage. We can discuss custom thresholds if needed."
+        },
+        {
+          "by": "rep",
+          "question": "Grace, how does this compare to your current workflow?",
+          "answer": "This would save me 30 minutes per new account. I currently dig through Slack and email to find context."
+        }
+      ],
+      "objections": [
+        "Aiden concerned about integration maintenance burden if APIs change"
+      ],
+      "next_steps": [
+        "Second eval session to test advanced automation scenarios",
+        "Aiden to review security documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-25",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation focusing on advanced automation workflows and custom playbook building. Team tested real handoff scenarios. Aiden's security concerns addressed with documentation. Grace and Kwame enthusiastic about automation capabilities. Discussed pricing and Kwame mentioned needing to compare final numbers with Chorus before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom triggers based on specific deal attributes or conversation keywords?",
+          "answer": "Yes, full customization available through our workflow builder. You can trigger on any CRM field, conversation sentiment, or detected topics."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need to finalize by end of quarter. Chorus proposal is due next week, so we'll be comparing shortly after."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for our seat count?",
+          "answer": "We'll need to see final proposals side-by-side, but we're looking for best value on the unlimited automation tier."
+        }
+      ],
+      "objections": [
+        "Pricing needs to be competitive with Chorus to justify switching evaluation focus"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing",
+        "Kwame to schedule decision meeting with Isaac"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent with formal proposal for 29 seats, unlimited automation plan, $21,700 ACV. Included ROI calculator showing estimated churn reduction value. Kwame acknowledged receipt and mentioned he's reviewing alongside Chorus proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Kwame to review with Isaac and finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-07-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Kwame responded that pricing is higher than Chorus and asked if there's flexibility. Mentioned Isaac wants to see stronger differentiation to justify the premium.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to move on pricing to match competitive options?",
+          "answer": "Let me schedule a call to discuss the value drivers and see what we can do to make this work within your budget."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-07-07",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Kwame. Discussed pricing gap with Chorus and value differentiation on handoff-specific features. Kwame advocates for our solution but needs to bring Isaac into the conversation to address pricing concerns and get executive buy-in. Emphasized urgency due to end-of-quarter deadline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the exact pricing gap we're working with?",
+          "answer": "Chorus came in about 30% lower for similar seat count, but their unlimited automation tier is more limited than yours."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can get closer on price, is Isaac ready to move forward?",
+          "answer": "Yes, if we can justify the ROI and get within 15-20% of Chorus, I think we can get his approval."
+        }
+      ],
+      "objections": [
+        "Pricing significantly higher than competitive option"
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Isaac",
+        "Prepare revised pricing options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-07-12",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Isaac Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First executive meeting with Isaac Singh and Kwame Mehta. Presented ROI analysis focused on churn reduction and CS efficiency. Isaac engaged but pushed back on pricing premium versus Chorus. Acknowledged our handoff features are stronger but questioned whether that justifies 30% higher cost. Requested best and final pricing to make decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the measurable impact we can expect in first 6 months?",
+          "answer": "Based on similar fintech deployments, you should see 20-25% reduction in early churn and 40% time savings on handoff admin work."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you meet Chorus pricing or get close enough to make this an easy decision?",
+          "answer": "Let me go back to leadership with your budget parameters and see what we can do."
+        }
+      ],
+      "objections": [
+        "30% pricing premium over Chorus difficult to justify to finance"
+      ],
+      "next_steps": [
+        "Revise pricing proposal",
+        "Isaac to review with finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-07-16",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Isaac Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Isaac Singh to present revised pricing. Offered 30.9% discount to close pricing gap with Chorus while maintaining unlimited automation tier. Isaac receptive but wants final approval from Camila Adams (procurement) on contract terms and wants to ensure implementation timeline works with Q2 planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's driving the discount and is this your best pricing?",
+          "answer": "This is end-of-quarter pricing to get you live before Q2. It's our best offer for your seat count and tier."
+        },
+        {
+          "by": "rep",
+          "question": "If we can align on terms with procurement, what's your timeline to sign?",
+          "answer": "We'd want to close this week to start implementation early Q2."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the 2-3 week implementation timeline?",
+          "answer": "Yes, we'll commit to that in the SOW with dedicated implementation resources."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Camila for procurement review",
+        "Schedule negotiation call with Kwame for final terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-07-21",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Kwame to finalize contract details. Discussed payment terms, implementation timeline commitments, and SLA requirements. Kwame mentioned Camila has a few questions on contract language but overall things are moving forward. Kwame confirmed he's championing this internally and expects to close within days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any remaining concerns from your end or the team?",
+          "answer": "Just the contract language Camila is reviewing. Functionally and financially we're aligned."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get net-30 payment terms instead of upfront annual?",
+          "answer": "We can do quarterly payments with net-30 terms on each installment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Address Camila's contract questions",
+        "Schedule final signature call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-07-26",
+      "type": "negotiation_call",
+      "duration_minutes": 38,
+      "person_name": "Kwame Mehta",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Final negotiation call with Kwame, originally scheduled to review Camila's contract feedback and finalize signature logistics. Meeting was rescheduled due to Camila's scheduling conflict. Kwame confirmed all technical and business stakeholders are aligned, just need procurement sign-off on revised payment terms and liability clauses.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking signature once Camila approves the contract language?",
+          "answer": "No, Isaac and I are ready to go. Just waiting on Camila's final review of the liability caps and payment schedule."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get standard liability cap language instead of unlimited?",
+          "answer": "We can cap at 12 months of contract value, which is our standard enterprise terms."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we reschedule to finalize this?",
+          "answer": "Let's get back on calendar tomorrow or the next day to close this out."
+        }
+      ],
+      "objections": [
+        "Contract liability language needs revision per procurement requirements"
+      ],
+      "next_steps": [
+        "Revise contract with liability caps and payment terms",
+        "Reschedule with Kwame and Camila for final signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

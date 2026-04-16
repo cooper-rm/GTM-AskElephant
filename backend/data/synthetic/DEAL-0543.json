@@ -1,0 +1,213 @@
+{
+  "deal_id": "DEAL-0543",
+  "company": {
+    "name": "ScaleIO",
+    "industry": "eCommerce",
+    "employee_count": 82,
+    "annual_revenue": 9883576,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4600.0,
+    "seats": 5,
+    "price_per_seat_monthly": 72.47,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.6,
+    "sales_cycle_days": 23,
+    "close_date": "2023-01-31",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Camila Nelson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2022-12-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email to VP of CS at ScaleIO introducing AskElephant's sales-to-CS handoff capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2022-12-16",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study on improving handoff visibility for eCommerce companies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2022-12-16",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Third outreach email highlighting automated deal intelligence for CS teams. Camila responded expressing interest in learning more about handoff automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this compare to what we'd get with Gong?",
+          "answer": "Scheduled a qualification call to discuss her specific handoff challenges and how AskElephant differs from call recording platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-08",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Camila to understand ScaleIO's sales-to-CS handoff pain points. She described gaps in context transfer when deals close, leading to CS onboarding delays. Currently evaluating Gong but concerned it focuses more on sales coaching than handoff intelligence.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can AskElephant pull insights from both email and calls without us changing our workflow?",
+          "answer": "Yes, integrates with existing email and calendar systems to automatically process interactions"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating solutions for this problem?",
+          "answer": "Camila mentioned she owns this decision for CS but hasn't looped in sales leadership yet"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo",
+        "Send pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-01-21",
+      "type": "demo",
+      "duration_minutes": 52,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on sales-to-CS handoff automation with unlimited automation tier. Camila engaged deeply with the interface, asking detailed questions about deal intelligence visibility and CS team workflows. She expressed strong interest in the automated handoff summaries but noted she'd need to discuss budget with her director.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the handoff summaries for our CS team's specific workflow?",
+          "answer": "Demonstrated template customization and showed how summaries can be tailored to CS intake forms"
+        },
+        {
+          "by": "prospect",
+          "question": "Does the unlimited automation tier cover all 5 CS team members we'd need?",
+          "answer": "Confirmed 5-seat package with unlimited automation covers the team"
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to bring your sales VP into the conversation to align on the handoff process?",
+          "answer": "Camila preferred to validate internally first before expanding stakeholders"
+        }
+      ],
+      "objections": [
+        "Price feels high compared to what we're seeing with Gong, which also includes sales coaching features"
+      ],
+      "next_steps": [
+        "Send proposal",
+        "Camila to review with her director",
+        "Follow up next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-01-31",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Camila Nelson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss $4,600 ACV proposal for 5 seats. Camila expressed budget concerns and requested a discount. Discussion focused on contract terms and implementation timeline. She remained the sole stakeholder on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get this closer to $3,500 to match our approved budget?",
+          "answer": "Offered to explore a 10% discount if they can commit to annual payment upfront"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Camila indicated she'd like to move forward this quarter but needs final director approval"
+        }
+      ],
+      "objections": [
+        "Budget allocation was planned around Gong's pricing tier"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Camila to get director sign-off",
+        "Target close by end of quarter"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "deal_id": "DEAL-0803",
+  "company": {
+    "name": "ScaleMint",
+    "industry": "EdTech",
+    "employee_count": 865,
+    "annual_revenue": 152709837,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 11900.0,
+    "seats": 16,
+    "price_per_seat_monthly": 61.34,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.1,
+    "sales_cycle_days": 38,
+    "close_date": "2024-03-08",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Emma Lewis",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 5
+    },
+    {
+      "name": "Avery Doyle",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 12
+    },
+    {
+      "name": "Hazel Chen",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 52
+    },
+    {
+      "name": "Grace Walker",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 15
+    },
+    {
+      "name": "Zoey Walker",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 15
+    },
+    {
+      "name": "Lucas Scott",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Emma Lewis submitted an inbound form requesting information about CRM automation solutions. Indicated current frustration with manual processes in customer success workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-30",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Emma to understand ScaleMint's needs. Discussed current pain points with manual CRM processes affecting CS team efficiency. Emma mentioned evaluating Clari as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look for a CRM automation solution now?",
+          "answer": "Our CS team is spending too much time on manual data entry and we're scaling quickly"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you work with mid-market EdTech companies?",
+          "answer": "Yes, we have several clients in your space"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery meeting invite",
+        "Share relevant case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with EdTech case studies and discovery meeting agenda. Emma confirmed availability and requested that IT Director Avery Doyle join the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include integration details for our tech stack in the discovery call?",
+          "answer": "Absolutely, please send over your current tools list"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call with Emma and Avery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-07",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Emma covering detailed workflow requirements. Discussed 16-seat deployment across CS and Sales teams. Emma is new to VP role (3 months) and building her tech stack. Noted interest in unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Avery from IT for technical review, and likely a couple team leads"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's workflow builder?",
+          "answer": "Our platform offers more flexibility with custom triggers and doesn't require engineering resources"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6-8 weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-13",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled from original time. Presented core automation capabilities to Emma, with Avery joining for technical evaluation. Walked through CRM integration, workflow automation, and reporting features. Team engaged with specific use case questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules without developer support?",
+          "answer": "Yes, our no-code builder allows business users to create and modify workflows"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically?",
+          "answer": "Most customers are live within 2-3 weeks with our onboarding team"
+        },
+        {
+          "by": "rep",
+          "question": "Which use cases would deliver the most immediate value for your team?",
+          "answer": "Automated task creation and account health scoring for our CS team"
+        }
+      ],
+      "objections": [
+        "Need to validate data security protocols with our compliance team"
+      ],
+      "next_steps": [
+        "Send security documentation",
+        "Schedule follow-up with Hazel and Grace to see end-user workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Sent comprehensive follow-up email with demo recording, security documentation, and ROI calculator. Emma responded positively and confirmed looping in Hazel Chen and Grace Walker from their teams for additional input.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal based on 16 seats, unlimited automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-24",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial proposal discussion with Emma. Walked through pricing for 16 seats at unlimited automation tier. Emma expressed concern about budget and mentioned Clari's pricing came in lower.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing given our volume?",
+          "answer": "Let me discuss options with our team for multi-year or expanded seat count"
+        },
+        {
+          "by": "rep",
+          "question": "Have you received Clari's final proposal?",
+          "answer": "Yes, they're about 25% lower but missing some features we need"
+        }
+      ],
+      "objections": [
+        "Price is above our initial budget allocation"
+      ],
+      "next_steps": [
+        "Revise proposal with discount options",
+        "Schedule call to review adjusted pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-26",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Emma and Zoey Walker from procurement. Presented revised proposal with 31% discount to match budget constraints and remain competitive with Clari. Discussed contract terms and implementation plan.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as a one-year agreement with expansion options?",
+          "answer": "Yes, we can do annual with the option to add seats quarterly"
+        },
+        {
+          "by": "rep",
+          "question": "Who needs to sign off on final approval?",
+          "answer": "Zoey handles procurement paperwork, but I have budget authority for this amount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in onboarding and support?",
+          "answer": "Dedicated CSM, 2-week implementation, and unlimited support on our business tier"
+        }
+      ],
+      "objections": [
+        "Need to confirm this fits within Q2 budget cycles"
+      ],
+      "next_steps": [
+        "Send formal proposal document",
+        "Schedule negotiation call for final terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-04",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emma and Zoey to finalize contract terms. Discussed payment schedule, implementation timeline, and expansion rights. Emma confirmed budget approval but mentioned wanting executive alignment before signing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor we should include in final discussions?",
+          "answer": "Our CFO typically reviews deals over $10K, but I'm working on getting time on their calendar"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee or trial period?",
+          "answer": "We offer a 30-day satisfaction guarantee where you can exit if success criteria aren't met"
+        }
+      ],
+      "objections": [
+        "Want to ensure exec leadership is aligned before final commitment"
+      ],
+      "next_steps": [
+        "Schedule executive meeting",
+        "Prepare executive summary deck"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-07",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Emma Lewis",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Emma, Zoey, and Lucas Scott from Sales leadership. Presented business case, ROI projections, and implementation plan. Lucas asked detailed questions about reporting and analytics capabilities. Emma advocated for the solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our existing sales analytics stack?",
+          "answer": "We have native integrations with major BI tools and a robust API for custom connections"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a definitive yes for your team?",
+          "answer": "We need to see clear ROI metrics and ensure smooth handoff between sales and CS workflows"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to expand to more seats mid-contract?",
+          "answer": "You can add seats anytime at prorated pricing with quarterly true-ups"
+        }
+      ],
+      "objections": [
+        "Want to ensure change management support for team adoption"
+      ],
+      "next_steps": [
+        "Add change management resources to proposal",
+        "Finalize contract for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

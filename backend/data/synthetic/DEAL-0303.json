@@ -1,0 +1,299 @@
+{
+  "deal_id": "DEAL-0303",
+  "company": {
+    "name": "VioletCore",
+    "industry": "SaaS/Tech",
+    "employee_count": 24,
+    "annual_revenue": 3400687,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5000.0,
+    "seats": 6,
+    "price_per_seat_monthly": 74.95,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 15.8,
+    "sales_cycle_days": 23,
+    "close_date": "2024-09-17",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Riley Singh",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 45
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Riley Singh, Director of Sales at VioletCore, expressing interest in improving rep productivity with automation tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-25",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Riley Singh to understand VioletCore's current sales process and initial fit for automation platform. Riley confirmed team size of 6 reps and budget authority for tools under $10k.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in sales automation right now?",
+          "answer": "Our reps are spending too much time on manual data entry and follow-ups. We need to free them up to actually sell."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to share current workflow documentation",
+        "Schedule discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-28",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into VioletCore's sales workflow, pain points with manual processes, and specific automation needs. Riley described challenges with lead follow-up consistency and CRM hygiene across the 6-person sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current lead-to-close process and where you're seeing the biggest bottlenecks.",
+          "answer": "Leads come in through our website and get manually assigned. Reps are inconsistent with follow-up timing and logging activities. We're probably losing deals just from slow response times."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months if you implement this?",
+          "answer": "Faster response times, complete activity logging without manual work, and honestly just getting our reps focused on conversations instead of admin tasks."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For a team your size, usually 2-3 weeks from kickoff to full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share case study from similar-sized SaaS company",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from comparable SaaS company that reduced manual work by 40% and improved response times. Confirmed demo scheduled for the following Tuesday.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the integration requirements doc before the demo?",
+          "answer": "Absolutely, I'll include that with the demo prep materials."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review case study",
+        "Demo scheduled for Tuesday at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-07",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on automated lead routing, activity logging, and follow-up sequencing. Riley was engaged throughout, asking specific questions about customization and reporting. Expressed strong interest in the unlimited automation tier for future scalability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation triggers based on our specific lead scoring model?",
+          "answer": "Yes, the platform supports custom triggers and you can build logic based on any field in your CRM."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you offer on rep activity and automation performance?",
+          "answer": "We have pre-built dashboards for activity metrics, response times, and automation effectiveness, plus custom report builder."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this from your side?",
+          "answer": "Honestly, I have budget authority for this and our CEO trusts my judgment on sales tools. I'll keep him updated but this is my call."
+        }
+      ],
+      "objections": [
+        "Would love to see this, but I need to make sure it doesn't create more work during the transition period."
+      ],
+      "next_steps": [
+        "Riley to review internally",
+        "Schedule proposal call to discuss pricing and implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-10",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call to present pricing for 6-seat unlimited automation package at $5,000 ACV. Call was rescheduled from original time. Riley confirmed budget fit and expressed intent to move forward, though mentioned wanting to review contract terms before final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the contract term length?",
+          "answer": "We typically do annual contracts, but can discuss quarterly billing if that helps with cash flow."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in implementation support?",
+          "answer": "Dedicated onboarding specialist, custom workflow setup, team training, and 30 days of hands-on support post-launch."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to get this rolled out before end of quarter. Just need to review the contract details and we should be good to go."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal and contract",
+        "Riley to review contract terms",
+        "Follow up early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal, contract, and implementation timeline. Addressed Riley's question about contract terms and offered to walk through any concerns on a quick call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Riley reviewing contract",
+        "Available for questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-17",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Riley Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms discussion call. Riley asked about payment terms and confirmed budget is approved on his end. Discussed quarterly vs annual billing options and implementation start date. Riley indicated he'll finalize this week but didn't commit to specific signature timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure it as quarterly payments at the same annual rate."
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign this week, when's the earliest we could start implementation?",
+          "answer": "We could kick off implementation the following Monday with your dedicated specialist."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything blocking you from moving forward at this point?",
+          "answer": "No blockers, just want to make sure I've thought through everything. This is the right move, I just need a couple days to finalize everything on my end."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to finalize internally",
+        "Check in Thursday for signature",
+        "Implementation kickoff tentatively scheduled for following Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

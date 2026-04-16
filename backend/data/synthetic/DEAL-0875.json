@@ -1,0 +1,267 @@
+{
+  "deal_id": "DEAL-0875",
+  "company": {
+    "name": "CrimsonPortal",
+    "industry": "Healthcare IT",
+    "employee_count": 65,
+    "annual_revenue": 8980402,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7500.0,
+    "seats": 9,
+    "price_per_seat_monthly": 64.66,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.4,
+    "sales_cycle_days": 34,
+    "close_date": "2024-11-06",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Penelope Diallo",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 50
+    },
+    {
+      "name": "Harper Tanaka",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-01",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from VP of Customer Success at CrimsonPortal. Prospect interested in improving rep productivity and automation capabilities. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-05",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Penelope Diallo (VP of CS). Discussed current workflow challenges with manual data entry and follow-up tracking. Team of 9 CS reps spending 8-10 hours/week on administrative tasks. Interested in unlimited automation tier to support scaling plans.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation plan versus standard?",
+          "answer": "Unlimited automation includes workflow builder, custom triggers, API access, and advanced reporting. Standard caps at 100 automations/month."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're hiring 3 more CS reps next quarter and need systems in place before onboarding. Current manual processes won't scale."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule technical evaluation with CS team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with pricing breakdown and case study from similar healthcare IT company. Penelope confirmed budget availability and interest in moving forward with technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get a custom demo focused on our specific workflow?",
+          "answer": "Yes, we'll tailor the technical eval to your CS processes and automation needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-17",
+      "type": "technical_eval",
+      "duration_minutes": 56,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Penelope and 2 CS team members. Walked through automation builder, demonstrated workflow templates for healthcare compliance, and tested integration with their existing CRM. Team engaged and asked detailed implementation questions. Some concerns raised about timeline for setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for full onboarding with 9 seats, including training and workflow setup."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have HIPAA compliance documentation we can review?",
+          "answer": "Yes, we're fully HIPAA compliant. Will send BAA and compliance docs today."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this purchase?",
+          "answer": "I have budget authority for tools under $10K, but Harper in Sales usually wants to review vendor contracts."
+        }
+      ],
+      "objections": [
+        "Need to make sure implementation doesn't disrupt Q2 launch prep"
+      ],
+      "next_steps": [
+        "Send HIPAA docs and implementation timeline",
+        "Loop in Harper from Sales for contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-22",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Penelope and Harper (Sales Manager). Discussed contract terms and pricing. Harper focused on ROI justification and asked about discounting options. Penelope advocated strongly for the solution but Harper pushed back on list price given current budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard discount for companies our size?",
+          "answer": "For SMB customers we typically offer 10-15% for annual commitment."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide references from other healthcare IT companies?",
+          "answer": "Absolutely. Will send 3 customer references in similar industries and company size."
+        },
+        {
+          "by": "rep",
+          "question": "Is there a specific budget number you're working with?",
+          "answer": "We had allocated $8K for this category. The list price is stretching our Q2 budget."
+        }
+      ],
+      "objections": [
+        "Pricing is above initial budget allocation"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Send customer references",
+        "Regroup in 2 days"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-28",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up meeting with Penelope and Harper. Presented revised pricing at 27% discount to meet budget constraints. Harper satisfied with pricing but wants legal review before final approval. Penelope confirmed they want to move forward and will coordinate internal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the renewal pricing structure after year one?",
+          "answer": "Renewal at standard rates, with option to lock current pricing for multi-year agreement."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add more seats mid-contract if we hire faster than expected?",
+          "answer": "Yes, seats can be added anytime at prorated pricing."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need executive approval or can you and Harper sign off?",
+          "answer": "We can approve, but our CFO reviews all contracts over $5K. Should be routine."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Harper for legal review",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Penelope Diallo",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Email to Harper with final contract and implementation timeline. Harper confirmed legal is reviewing and expects approval within 48 hours. Penelope copied, expressed enthusiasm about getting started before new hires onboard.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal approval",
+        "Prepare onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 67,
+    "churn_reason": "lack of executive alignment"
+  }
+}

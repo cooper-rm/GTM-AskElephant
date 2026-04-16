@@ -1,0 +1,358 @@
+{
+  "deal_id": "DEAL-0272",
+  "company": {
+    "name": "LunarForm",
+    "industry": "SaaS/Tech",
+    "employee_count": 85,
+    "annual_revenue": 9273243,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 63.85,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.3,
+    "sales_cycle_days": 63,
+    "close_date": "2024-03-05",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Chloe Hassan",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Casey Clark",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-14",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Chloe Hassan, VP of CS at LunarForm. Introduced AskElephant as a call recording and coaching platform. Chloe expressed interest in improving CS team performance and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools for call recording or coaching your CS team?",
+          "answer": "We've looked at Gong briefly but haven't committed to anything yet. Our team is small but growing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-02",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chloe Hassan. Discussed LunarForm's 85-person team, CS growth plans, and current challenges with coaching consistency. Chloe mentioned she's been in the VP of CS role for 3 months and is building out processes. Confirmed budget authority sits with Casey Clark (Sales Manager) for procurement. Competitive evaluation includes Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording and coaching right now?",
+          "answer": "I'm new to this role and want to standardize how we coach our CS team. Right now it's very ad-hoc."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating and approving a solution like this?",
+          "answer": "Casey Clark handles procurement for sales tools. I'd need to loop him in for final sign-off, but I can drive the evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Gong in terms of pricing and features?",
+          "answer": "We're typically more affordable for teams your size, and we focus specifically on coaching workflows rather than just analytics. I can show you a detailed comparison in our demo."
+        }
+      ],
+      "objections": [
+        "We're also looking at Gong, and they seem to have more market presence."
+      ],
+      "next_steps": [
+        "Schedule discovery call to map out coaching workflow requirements"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-11",
+      "type": "discovery_call",
+      "duration_minutes": 15,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on LunarForm's current coaching process. Chloe walked through how CS managers currently review calls manually (time-consuming, inconsistent). Discussed pain points around onboarding new CS reps and identifying best practices. Identified 6 users initially (CS managers + team leads).",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently identifying which calls to review for coaching?",
+          "answer": "Honestly, it's pretty random. Managers just pick calls when they have time, which isn't often enough."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our existing tools like Zendesk and Slack?",
+          "answer": "Yes, we have native integrations with both. I'll show you how that works in the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow-up discovery call to discuss automation requirements",
+        "Share integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-19",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call diving into automation needs. Chloe is interested in unlimited automation tier to scale coaching as team grows. Discussed specific use cases: auto-tagging calls by topic, flagging coaching moments, generating summary reports for managers. Confirmed timeline to have solution in place within 60 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would successful automation look like for your team in 6 months?",
+          "answer": "I'd love to see every call automatically analyzed, with key coaching moments surfaced to managers without them having to dig through recordings."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing difference between your standard and unlimited automation tiers?",
+          "answer": "It's about 40% more for unlimited, but given your growth plans and the use cases you've described, it would give you the most flexibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo focused on automation features",
+        "Prepare pricing proposal for unlimited tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-01-27",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Chloe Hassan. Walked through call recording, AI-powered coaching insights, and automation workflows. Chloe engaged positively with the platform, particularly the coaching dashboard and auto-generated feedback suggestions. Asked detailed questions about implementation timeline and team training. Mentioned Gong demo is scheduled for next week for comparison.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it typically take to get the system fully set up and the team trained?",
+          "answer": "Most teams our size are fully onboarded within 2 weeks. We provide dedicated implementation support and training sessions."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching frameworks to match our specific CS methodology?",
+          "answer": "Absolutely. The frameworks are fully customizable, and we can work with you during implementation to set them up."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Gong so far?",
+          "answer": "We've only had preliminary conversations with Gong. I have a demo with them next week, but so far AskElephant seems more focused on the coaching piece, which is our priority."
+        }
+      ],
+      "objections": [
+        "I'll need to see how this compares to Gong before making a decision."
+      ],
+      "next_steps": [
+        "Follow up after Gong demo",
+        "Prepare formal proposal with pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-08",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Chloe Hassan (no other executives attended). Discussed business case, ROI projections, and implementation plan. Chloe expressed strong preference for AskElephant over Gong based on coaching focus and ease of use. However, noted that Casey Clark (procurement) will need to review pricing and contracts. Chloe requested pricing options and asked about potential discounts given team size.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of flexibility do you have on pricing for a team our size?",
+          "answer": "Let me put together a formal proposal with our best pricing. I'll include a few options based on your budget constraints."
+        },
+        {
+          "by": "prospect",
+          "question": "When would we need to sign to get started within our 60-day timeline?",
+          "answer": "Ideally within the next two weeks to allow for implementation and training before your deadline."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a call with Casey to walk through the procurement process?",
+          "answer": "Let me review the proposal first, then I'll loop him in. He's pretty hands-off if I'm confident in the vendor."
+        }
+      ],
+      "objections": [
+        "The pricing is higher than I expected for only 6 users. I'll need to see if we can get a discount to make the budget work."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Prepare discount justification for Casey Clark review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal: $4,400 ACV for 6 seats on unlimited automation tier (28.3% discount applied). Email outlined ROI, implementation timeline, and contract terms. Requested feedback and offered to schedule pricing review call. Chloe responded acknowledging receipt and mentioned she's discussing with Casey.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this the best pricing you can offer, or is there room to negotiate further?",
+          "answer": "This reflects a significant discount from our standard pricing. I'm happy to discuss on a call if there are specific budget constraints we need to address."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to address questions",
+        "Prepare to introduce Casey Clark to the conversation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-27",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Chloe Hassan to review proposal. Chloe confirmed the discount helps fit within budget and that Casey is reviewing the contract terms. Discussed payment terms (annual vs. quarterly) and confirmed 6 seats is the right starting point. Chloe seems ready to move forward but is waiting on Casey's final approval. No other executives have been involved in the process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Our standard terms are annual, but I can check with finance if quarterly is an option. It may affect the discount slightly."
+        },
+        {
+          "by": "rep",
+          "question": "When do you expect to hear back from Casey on the contract review?",
+          "answer": "He said he'd review it by end of week. I don't anticipate any issues, but he's thorough with vendor contracts."
+        }
+      ],
+      "objections": [
+        "The annual payment is a lot upfront for our current budget cycle."
+      ],
+      "next_steps": [
+        "Check on quarterly payment option with finance",
+        "Follow up with Chloe after Casey completes contract review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-04",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Chloe Hassan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Chloe Hassan. Discussed final contract terms and payment structure. Confirmed quarterly payments are possible with adjusted pricing (slight reduction in discount). Chloe expressed concern about timing relative to budget approvals but remains committed to moving forward. Agreed to final terms pending Casey's sign-off. No executive sponsor has been engaged throughout the process, which presents some risk for deal approval at leadership level.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we go with quarterly payments, what's the final ACV?",
+          "answer": "We can keep it at $4,400 ACV with quarterly payments. I'll update the contract to reflect that."
+        },
+        {
+          "by": "rep",
+          "question": "Do you foresee any other stakeholders who need to weigh in before we can finalize?",
+          "answer": "No, it's really just Casey and me. I have budget authority for tools in my org, and he handles the procurement paperwork."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-year?",
+          "answer": "We can do that anytime. We'll just prorate the additional seats for the remainder of the annual term."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with quarterly payment terms",
+        "Await final sign-off from Casey Clark",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 157,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

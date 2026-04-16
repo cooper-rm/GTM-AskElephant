@@ -1,0 +1,339 @@
+{
+  "deal_id": "DEAL-0221",
+  "company": {
+    "name": "PlasmaCo",
+    "industry": "Fintech",
+    "employee_count": 586,
+    "annual_revenue": 110724796,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 9900.0,
+    "seats": 14,
+    "price_per_seat_monthly": 60.37,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.2,
+    "sales_cycle_days": 41,
+    "close_date": "2024-07-08",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Aria Nkrumah",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 52
+    },
+    {
+      "name": "Jordan Chen",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aria Nkrumah at PlasmaCo expressing interest in call recording and coaching capabilities for their sales team. Prospect indicated they're evaluating solutions to improve rep performance and win rates.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer call recording with automated coaching insights?",
+          "answer": "Yes, our platform includes AI-powered call recording with real-time coaching recommendations and performance analytics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and case studies",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, relevant fintech case studies, and ROI calculator. Aria responded positively and confirmed availability for qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For mid-market teams with 10-20 seats, implementation typically takes 2-3 weeks including data migration and training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for Tuesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-06-02",
+      "type": "follow_up_call",
+      "duration_minutes": 6,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Aria to confirm basic fit. Discussed current pain points around inconsistent sales methodology and lack of visibility into rep conversations. Confirmed budget authority sits with CRO Jordan Chen, and Aria will champion internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a call recording solution right now?",
+          "answer": "We're scaling the sales team quickly and need to standardize our approach. Too much variation in how reps handle objections and discovery."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation process?",
+          "answer": "I'll drive it, but Jordan Chen our CRO has final approval. He's focused on improving our win rates this quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full discovery call with Aria",
+        "Send pricing overview ahead of discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-06-08",
+      "type": "discovery_call",
+      "duration_minutes": 43,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Aria covering current tech stack, team structure, and success metrics. PlasmaCo has 14 reps across SDR and AE roles, currently using basic recording but no analytics. Key priorities are coaching automation, deal insights, and integration with their Salesforce instance. Discussed unlimited automation tier to support their growth plans.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this investment in 6 months?",
+          "answer": "We want to see a measurable increase in win rates and faster ramp time for new reps. Ideally 15-20% improvement in close rates."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current recording setup?",
+          "answer": "Just basic Zoom recording, but no one actually reviews them. We need something that surfaces insights automatically."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the unlimited automation tier differ from standard?",
+          "answer": "Unlimited includes advanced workflows, custom playbooks, API access, and no limits on automated coaching touchpoints. Perfect for scaling teams."
+        },
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing Salesforce setup?",
+          "answer": "Yes, we have a native Salesforce integration that syncs call data, insights, and next steps directly to opportunity records."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Provide Salesforce integration documentation",
+        "Send preliminary pricing for 14 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-14",
+      "type": "technical_eval",
+      "duration_minutes": 23,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation session with Aria, originally scheduled earlier but rescheduled due to conflict on her end. Walked through platform demo focusing on coaching workflows, Salesforce integration, and custom playbook creation. Aria tested the interface and confirmed it meets technical requirements. Some discussion around data security and compliance given their fintech vertical.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What certifications do you have for financial services data handling?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant, with encryption at rest and in transit. Many fintech customers use us for sensitive customer calls."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching criteria to match our internal methodology?",
+          "answer": "Absolutely. The unlimited tier includes full playbook customization so you can define your own scoring criteria and coaching triggers."
+        }
+      ],
+      "objections": [
+        "Need to verify data residency requirements with our compliance team before moving forward"
+      ],
+      "next_steps": [
+        "Send security documentation and compliance overview",
+        "Schedule executive meeting with Jordan Chen",
+        "Confirm data residency options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-20",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Jordan Chen",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Jordan Chen (CRO) and Aria to discuss strategic value and business case. Jordan focused on ROI metrics and impact on pipeline velocity. Reviewed case study from similar fintech customer showing 22% win rate improvement. Jordan expressed support for moving forward pending acceptable pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline for customers in our segment?",
+          "answer": "Most mid-market customers see positive ROI within 3-4 months as rep productivity increases and win rates improve. The coaching automation saves managers 5-10 hours per week."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what your enterprise customers are paying per seat?",
+          "answer": "Enterprise pricing varies based on volume and customization, but for similar configurations we're typically in the range you're seeing in the proposal."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline looking like?",
+          "answer": "We'd like to have something in place before Q3 starts. We're bringing on 4 new reps in July and want the coaching infrastructure ready."
+        }
+      ],
+      "objections": [
+        "Pricing feels high for our team size, especially compared to basic recording tools we've looked at"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI model",
+        "Follow up on pricing expectations"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-26",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Jordan Chen",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Jordan to address pricing concerns. Discussed business value of unlimited tier versus standard offering. Jordan indicated budget constraints this quarter and asked about flexibility on pricing to close before month end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual commitment if we're signing this quarter?",
+          "answer": "We can work with you on timing. If you can commit before end of month, we have some flexibility on both pricing and payment terms."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to see if we can make the numbers work"
+      ],
+      "next_steps": [
+        "Revised proposal with adjusted pricing",
+        "Loop back with Aria on contract details"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-07-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Aria with revised proposal reflecting discount to accommodate budget constraints. Pricing adjusted to $9,900 ACV for 14 seats on unlimited tier. Aria confirmed this works within their approved budget and will route to legal for review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract to PlasmaCo legal",
+        "Schedule negotiation call to finalize terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-07-08",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Aria Nkrumah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract negotiation call with Aria to finalize terms and address legal feedback. Discussed payment terms, data processing addendum, and implementation timeline. Aria confirmed all terms acceptable and will route for Jordan's signature. Agreement to start onboarding first week of July to align with new hire ramp.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a quarterly business review as part of the contract?",
+          "answer": "Yes, QBRs are standard for all customers on the unlimited tier. We'll assign a dedicated customer success manager."
+        },
+        {
+          "by": "rep",
+          "question": "Any other approvals needed before we can execute?",
+          "answer": "Just Jordan's signature. He's already approved, so we should have this signed by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final contract review with legal",
+        "Target signature by Friday",
+        "Schedule implementation kickoff for early July"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

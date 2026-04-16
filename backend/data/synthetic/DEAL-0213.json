@@ -1,0 +1,176 @@
+{
+  "deal_id": "DEAL-0213",
+  "company": {
+    "name": "ScaleVault",
+    "industry": "EdTech",
+    "employee_count": 83,
+    "annual_revenue": 7178061,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7000.0,
+    "seats": 8,
+    "price_per_seat_monthly": 66.23,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.6,
+    "sales_cycle_days": 15,
+    "close_date": "2024-09-06",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Kwame Park",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 15
+    },
+    {
+      "name": "Aaliyah Brooks",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kwame Park",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Kwame Park at ScaleVault inquiring about forecast accuracy capabilities for their CS team. Brief initial contact to schedule discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Park",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call and sharing preliminary materials. Kwame confirmed availability and expressed interest in seeing how the platform handles educational customer churn patterns.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your system integrate with existing student information systems?",
+          "answer": "Yes, we have pre-built connectors for major SIS platforms and a flexible API for custom integrations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-29",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Kwame Park",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute product demo with Kwame Park focused on forecasting accuracy for CS workflows. Kwame was engaged and asked detailed questions about implementation timeline and team onboarding. Mentioned need to loop in IT for procurement approval but seemed enthusiastic about the unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For 8 seats with your use case, typically 2-3 weeks including data integration and team training."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training is included for our CS team?",
+          "answer": "Unlimited onboarding sessions, dedicated success manager for first 90 days, and on-demand training library."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Aaliyah Brooks from IT will need to approve from a procurement and security standpoint."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost of ownership including implementation fees"
+      ],
+      "next_steps": [
+        "Send proposal with pricing",
+        "Schedule call with Aaliyah Brooks",
+        "Provide security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-06",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Kwame Park",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute negotiation call with Kwame Park to discuss pricing and contract terms. Kwame pushed for additional discount citing budget constraints for remainder of fiscal year. Agreed to 25.6% discount to close before quarter end. Some concern that executive leadership hasn't been directly involved, but Kwame assured he has budget authority for this amount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get additional discount if we commit to annual contract?",
+          "answer": "We can offer 25.6% off to help fit your current budget cycle."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a brief call with your CFO or VP to confirm alignment?",
+          "answer": "That shouldn't be necessary - I have approval authority up to $10K annually."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we need to adjust seat count mid-contract?",
+          "answer": "You can reduce seats at renewal, and add seats anytime with pro-rated billing."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than budgeted for this quarter"
+      ],
+      "next_steps": [
+        "Send final contract with discount applied",
+        "Coordinate with Aaliyah on security review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "deal_id": "DEAL-0222",
+  "company": {
+    "name": "PivotEngine",
+    "industry": "Healthcare IT",
+    "employee_count": 622,
+    "annual_revenue": 108771931,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18700.0,
+    "seats": 25,
+    "price_per_seat_monthly": 61.04,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.4,
+    "sales_cycle_days": 91,
+    "close_date": "2023-07-07",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Taylor Koch",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 45
+    },
+    {
+      "name": "Elena Pham",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 16
+    },
+    {
+      "name": "Willow Nkrumah",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Jack Rodriguez",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 9
+    },
+    {
+      "name": "David Okafor",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 16
+    },
+    {
+      "name": "Jackson Jung",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Taylor Koch submitted an inbound demo request for onboarding automation. Currently evaluating solutions to reduce manual CS processes and improve new customer time-to-value.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-07",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "David Okafor",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with David Okafor to confirm technical fit. He's evaluating automation platforms for the sales and CS teams. Mentioned they're also looking at Clari. Confirmed budget authority lies with Elena Pham (COO).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with Salesforce and our existing tech stack?",
+          "answer": "Native Salesforce integration, plus API connectors for most major CRM and support tools"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally implement within 60 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send integration documentation",
+        "Schedule discovery with Taylor Koch"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Taylor with integration docs and calendar link for discovery call. Highlighted customer success use cases relevant to healthcare IT.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share a case study from a similar-sized healthcare company?",
+          "answer": "Sent case study from HealthTech Solutions (500 employees, 40% reduction in onboarding time)"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await response on discovery call availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Taylor confirmed discovery call scheduled for next week. Mentioned Elena Pham is keen to see how we differentiate from Clari, which they're currently demoing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Research Clari competitive positioning"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-25",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Taylor Koch. Discussed current onboarding process: 45-day avg time-to-value, heavy manual CSV uploads, limited automation. Taylor is champion, reports to Elena. Team of 25 CS reps handling 200+ new customers/year. Budget approved for $15-20K.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest bottleneck in your current onboarding process?",
+          "answer": "Manual data entry and lack of automated workflows between systems"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle custom workflow triggers?",
+          "answer": "Visual workflow builder with conditional logic and event-based triggers"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of IT involvement is needed for setup?",
+          "answer": "Minimal\u2014business users can configure most workflows without IT"
+        }
+      ],
+      "objections": [
+        "Concerned about implementation timeline and resource requirements"
+      ],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule technical deep-dive with David"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Sent ROI calculator showing potential 30-day reduction in onboarding time and $120K annual labor savings. Taylor responded enthusiastically, wants to loop in David Okafor for technical validation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical evaluation call with David"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-08",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call with Taylor to walk through specific onboarding workflows. Reviewed their Salesforce setup, existing Zapier automations, and pain points with current tools. Taylor confirmed Clari is in the mix but focused on forecasting, not onboarding automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build workflows that trigger based on Salesforce opportunity stage changes?",
+          "answer": "Yes, full Salesforce event monitoring with customizable triggers"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the technical evaluation?",
+          "answer": "David Okafor will lead technical review, Jackson Jung from IT needs to approve integrations"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your implementation support look like?",
+          "answer": "Dedicated implementation manager, 30-day onboarding program, ongoing CSM support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with David",
+        "Prepare security documentation for Jackson"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-14",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "David Okafor",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with David Okafor. Deep dive into API capabilities, data security, workflow builder functionality, and Salesforce integration architecture. David tested sandbox environment, validated key use cases. Raised questions about enterprise SSO and audit logging.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support SAML-based SSO with our Okta setup?",
+          "answer": "Yes, full SAML 2.0 support with Okta, Azure AD, and other providers"
+        },
+        {
+          "by": "prospect",
+          "question": "What audit logging capabilities are included?",
+          "answer": "Comprehensive audit logs for all workflow executions, user actions, and data changes with 2-year retention"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any integration requirements we haven't covered?",
+          "answer": "Need to integrate with Zendesk and our internal training platform"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data residency for healthcare compliance?",
+          "answer": "US-based data centers with HIPAA compliance, customer-controlled data residency options"
+        }
+      ],
+      "objections": [
+        "Initial concern about Zendesk integration complexity"
+      ],
+      "next_steps": [
+        "Provide Zendesk integration guide",
+        "Schedule follow-up for remaining technical questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to David with Zendesk integration documentation and security white paper. Also included SOC 2 Type II report and HIPAA compliance certification as requested.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await David's technical signoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-25",
+      "type": "technical_eval",
+      "duration_minutes": 31,
+      "person_name": "David Okafor",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up technical call with David. Reviewed Zendesk integration approach, confirmed security requirements met. David gave technical greenlight but mentioned Jackson Jung (IT Director) needs to review before final approval. David noted Clari doesn't address their onboarding automation needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's Jackson's primary concern for IT approval?",
+          "answer": "Data governance and ensuring integrations don't create security gaps"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide references from healthcare customers?",
+          "answer": "Connected David with two healthcare IT references"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief call with Jackson Jung",
+        "Prepare proposal for Taylor"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-30",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call with Taylor Koch (rescheduled from previous week due to Taylor's conflict). Presented 25-seat unlimited automation package at $18,700 ACV. Taylor receptive but noted budget was approved at $15K, needs to discuss with Elena. Mentioned Clari quoted lower for their forecasting module.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing given our budget constraints?",
+          "answer": "Can explore options\u2014let's discuss your must-have vs nice-to-have features"
+        },
+        {
+          "by": "rep",
+          "question": "What's Clari's pricing for comparison?",
+          "answer": "Around $12K but doesn't include onboarding automation workflows"
+        }
+      ],
+      "objections": [
+        "Price above approved budget",
+        "Need to justify premium over Clari"
+      ],
+      "next_steps": [
+        "Revise proposal with pricing options",
+        "Schedule call with Elena to discuss ROI"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-06-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 9.2,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal with three pricing tiers. Highlighted that unlimited automation tier delivers 3x ROI vs base tier. Included competitive comparison showing Clari focuses on forecasting, not onboarding automation. Taylor forwarding to Elena for review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller seat count and expand later?",
+          "answer": "Yes, but per-seat cost is higher at <25 seats\u2014can structure expansion pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Elena's feedback",
+        "Prepare for pricing negotiation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-06-12",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Taylor. Discussed discount options to bridge budget gap. Taylor confirmed Elena is supportive but needs justification for $3-4K over budget. Explored multi-year commitment for better pricing. Taylor concerned about committing long-term without proven results.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would a phased implementation approach help with budget?",
+          "answer": "Possibly\u2014we could start with core team and expand quarterly"
+        },
+        {
+          "by": "prospect",
+          "question": "What discount can you offer for annual prepayment?",
+          "answer": "Can offer 10% discount for annual upfront vs quarterly billing"
+        }
+      ],
+      "objections": [
+        "Hesitant to commit multi-year without proof of value"
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Elena",
+        "Prepare ROI business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-06-18",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Elena Pham",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Elena Pham. Presented business case for onboarding automation ROI: $120K annual savings, 30-day reduction in time-to-value, 25% improvement in CS team efficiency. Elena supportive but wants to understand why we're 30%+ more than Clari. Clarified that Clari doesn't solve onboarding automation problem.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the ROI projections in the business case?",
+          "answer": "ROI based on similar healthcare customers\u2014can structure success metrics into contract"
+        },
+        {
+          "by": "rep",
+          "question": "What would make you comfortable with the investment?",
+          "answer": "Discount to get closer to $15K budget, plus clear success metrics in first 90 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare final pricing proposal with discount",
+        "Include 90-day success metrics in contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-06-26",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Taylor. Proposed $18,700 with 31% discount (bringing effective price to ~$12,900) to meet budget, but requiring annual prepayment and case study participation. Taylor needs to confirm with Willow Nkrumah (procurement) and Jack Rodriguez (implementation lead) on payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual prepayment?",
+          "answer": "Discount only applies to annual prepayment\u2014quarterly would be $16K"
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to have this in place?",
+          "answer": "Targeting May 1 start to align with Q2 customer onboarding cycle"
+        },
+        {
+          "by": "prospect",
+          "question": "What does case study participation entail?",
+          "answer": "6-month check-in interview and metrics sharing\u2014minimal time commitment"
+        }
+      ],
+      "objections": [
+        "Procurement may push back on annual prepayment requirement"
+      ],
+      "next_steps": [
+        "Send contract with discount terms",
+        "Loop in Willow and Jack on procurement process"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-07-03",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Taylor Koch",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Taylor to finalize terms. Willow approved annual prepayment with 31% discount. Discussed implementation timeline with Jack Rodriguez to ensure May 1 kickoff. Taylor confirmed Elena's final approval pending contract review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before Elena's final signoff?",
+          "answer": "Just need legal to review contract\u2014should be quick"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Taylor",
+        "Schedule executive signoff meeting with Elena"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-07-08",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Elena Pham",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Elena Pham for final approval. Reviewed contract terms, 90-day success metrics, implementation timeline. Elena approved deal at $18,700 ACV with 31% discount, 25 seats, annual prepayment. Signed contract, kickoff scheduled for May 1.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's our escalation path if we hit implementation issues?",
+          "answer": "Dedicated implementation manager plus executive sponsor\u2014direct escalation path to VP Customer Success"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Process contract",
+        "Schedule implementation kickoff with Jack Rodriguez"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

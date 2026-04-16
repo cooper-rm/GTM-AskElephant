@@ -1,0 +1,215 @@
+{
+  "deal_id": "DEAL-0593",
+  "company": {
+    "name": "CentralSpark",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 54,
+    "annual_revenue": 7859096,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5900.0,
+    "seats": 6,
+    "price_per_seat_monthly": 77.17,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 13.3,
+    "sales_cycle_days": 16,
+    "close_date": "2025-01-29",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Asher Perez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 58
+    },
+    {
+      "name": "Aiden Yoon",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Asher Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Asher Perez requesting information about call recording and coaching capabilities for their customer success team. Initial interest expressed in improving team performance visibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform support real-time call recording and automated coaching insights?",
+          "answer": "Yes, we provide real-time call recording with AI-powered coaching recommendations based on conversation analysis."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and pricing tiers. Asher confirmed interest and mentioned they're currently evaluating Clari as well. Requested discovery call to discuss technical requirements and integration needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your integration with our existing CRM work?",
+          "answer": "We integrate natively with major CRMs via API, syncing call data and coaching metrics automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-19",
+      "type": "discovery_call",
+      "duration_minutes": 36,
+      "person_name": "Asher Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Asher covering current pain points with CS team performance visibility. Discussed 6-seat deployment for coaching use case. Asher mentioned Aiden Yoon from IT will need to review security/compliance before moving forward. Competitive evaluation with Clari ongoing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where are recordings stored?",
+          "answer": "Recordings stored in SOC2-compliant US data centers with configurable retention from 90 days to 7 years."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our specific CS workflows?",
+          "answer": "Yes, fully customizable scorecards and you can weight criteria based on your team priorities."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline\u2014any specific milestones or pain points?",
+          "answer": "Q2 CS performance reviews coming up and we need better visibility before then. Also evaluating Clari but your coaching features seem stronger."
+        }
+      ],
+      "objections": [
+        "Need to loop in IT director for security review before we can commit to anything"
+      ],
+      "next_steps": [
+        "Send security documentation to Aiden Yoon",
+        "Schedule executive meeting with broader stakeholder group"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-25",
+      "type": "exec_meeting",
+      "duration_minutes": 55,
+      "person_name": "Asher Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Asher present, but no executive sponsor attended\u2014only Asher and two CS managers. Discussed implementation timeline and pricing for Automations Plus Consulting tier at $5,900 ACV for 6 seats. Asher expressed concern about budget approval process and mentioned Clari quoted lower. Aiden Yoon not present despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package versus the base tier?",
+          "answer": "Consulting tier includes quarterly business reviews, custom playbook development, and dedicated CSM\u2014base tier is self-service only."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For 6 seats with consulting, typically 3-4 weeks including training and customization."
+        },
+        {
+          "by": "rep",
+          "question": "Who typically signs off on software purchases at this price point?",
+          "answer": "Usually our VP of Operations, but I can champion it through\u2014just need to build the business case."
+        },
+        {
+          "by": "rep",
+          "question": "How are you evaluating Clari versus our solution?",
+          "answer": "Clari's forecasting is interesting but your coaching features are more relevant to our immediate needs. Their pricing is about 15% lower though."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Clari's quote and I'll need to justify the difference internally"
+      ],
+      "next_steps": [
+        "Send ROI calculator and case study",
+        "Follow up on IT security review status",
+        "Discuss potential pricing flexibility"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with ROI calculator showing projected CS efficiency gains and case study from similar-sized MSP. Requested update on security review and decision timeline. Offered to connect with VP of Operations to discuss strategic value. Also indicated flexibility on pricing if they can commit before month-end.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has Aiden completed the security review\u2014any blockers we can help address?",
+          "answer": "He's still reviewing but no red flags so far. Should have his sign-off by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for security review completion",
+        "Schedule call with VP of Operations if Asher can arrange it",
+        "Provide formal proposal with adjusted pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

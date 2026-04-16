@@ -1,0 +1,581 @@
+{
+  "deal_id": "DEAL-0952",
+  "company": {
+    "name": "ClearVision",
+    "industry": "Vertical SaaS",
+    "employee_count": 836,
+    "annual_revenue": 97393150,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14900.0,
+    "seats": 18,
+    "price_per_seat_monthly": 71.07,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.1,
+    "sales_cycle_days": 83,
+    "close_date": "2024-06-23",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Parker Schmidt",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 31
+    },
+    {
+      "name": "Daniel Wang",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 23
+    },
+    {
+      "name": "Leila Ito",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 8
+    },
+    {
+      "name": "Amelia Patel",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-17",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Parker Schmidt at ClearVision. No answer, left voicemail introducing our CRM automation solution.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-18",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Parker Schmidt highlighting CRM automation capabilities and requesting 15 minutes to discuss RevOps efficiency. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-19",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Connected with Parker Schmidt for 6-minute introductory call. Parker expressed interest in exploring automation solutions for their sales team. Confirmed pain points around manual data entry and CRM hygiene.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest challenges with CRM adoption today?",
+          "answer": "Manual data entry is killing us - reps spend 30% of their time logging activities instead of selling."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution handle automated call logging?",
+          "answer": "We use AI to transcribe and summarize calls automatically, with smart field mapping to your CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to review calendar for qualification call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 15.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study showing 40% time savings for similar mid-market SaaS companies. Parker responded confirming qualification call scheduled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, native bi-directional sync with Salesforce, HubSpot, and others."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-07",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Parker Schmidt. Discussed current state with 18 reps struggling with CRM compliance. Parker mentioned they're also evaluating Fireflies. Confirmed budget authority sits with CRO Daniel Wang. Identified need for unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving this initiative now?",
+          "answer": "Board wants to see pipeline accuracy improve - we're missing forecasts by 20% because data is incomplete."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation?",
+          "answer": "I'm driving it, but Daniel Wang (CRO) has final approval. IT will need to sign off on security - Leila Ito runs that."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model look like?",
+          "answer": "Per seat annual contracts, with tiers based on automation volume. For 18 seats with unlimited automation, we're typically around $15-18K ACV."
+        }
+      ],
+      "objections": [
+        "We're looking at Fireflies too - they seem cheaper"
+      ],
+      "next_steps": [
+        "Send competitive comparison vs Fireflies",
+        "Schedule technical overview with Parker's team",
+        "Parker to brief Daniel Wang on initial findings"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-16",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute follow-up qualification call. Parker shared that Fireflies quoted them significantly lower but lacks some automation features they need. Discussed use case requirements in detail - focus on email automation and meeting intelligence.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you automate email logging and sentiment analysis too, or just calls?",
+          "answer": "Both - we process emails and calls with the same AI engine, extracting key entities and sentiment."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for a decision?",
+          "answer": "We'd like to have something in place by end of quarter - so about 6 weeks out."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical evaluation with Leila Ito",
+        "Prepare demo focusing on email automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Parker confirming demo logistics and looping in Leila Ito for technical evaluation. Parker responded introducing Leila and Amelia Patel (also IT Director) to the thread.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled with IT team",
+        "Demo scheduled with Parker for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-27",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Leila Ito",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute technical evaluation with Leila Ito covering security, data residency, API access, and integration architecture. Leila asked detailed questions about encryption, SOC2 compliance, and data retention policies. Overall receptive but cautious on implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is data stored and do we have options for data residency?",
+          "answer": "US-based AWS infrastructure with SOC2 Type II. Enterprise tier offers EU residency options."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Standard deployment is 2 weeks - 1 week technical setup, 1 week user onboarding and training."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle PII and sensitive customer data in transcripts?",
+          "answer": "Automatic PII redaction with configurable policies - credit cards, SSNs, etc. are masked before storage."
+        }
+      ],
+      "objections": [
+        "Two weeks feels aggressive for our change management process"
+      ],
+      "next_steps": [
+        "Share SOC2 report and security documentation",
+        "Provide detailed implementation plan with flexibility for longer rollout"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-04",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute demo with Parker Schmidt showcasing live call transcription, email automation, and CRM auto-population. Parker was impressed with accuracy and UI simplicity. Discussed reporting capabilities and admin controls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can reps edit the AI summaries before they sync to CRM?",
+          "answer": "Yes, there's a review step if you enable it, or you can set it to auto-sync for full automation."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of analytics do you provide on rep activity?",
+          "answer": "Full dashboard showing talk time, question patterns, competitor mentions, deal velocity - all segmentable by rep, team, or deal stage."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fireflies?",
+          "answer": "Fireflies is solid for basic transcription but doesn't have the email automation or the depth of CRM intelligence we need."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to demo internally to Daniel Wang and sales leadership",
+        "Schedule executive conversation to discuss business case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo recording, ROI calculator, and executive briefing deck. Parker confirmed he's presenting to Daniel Wang later this week and requested pricing proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over formal pricing for 18 seats with unlimited automation?",
+          "answer": "Yes, preparing proposal now - will have it over by tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing proposal",
+        "Schedule exec meeting with Daniel Wang"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-15",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Daniel Wang",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute executive meeting with Daniel Wang (CRO) and Parker Schmidt. Daniel focused on ROI, risk mitigation, and competitive differentiation. Expressed concern about pricing relative to Fireflies but acknowledged feature gap.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the payback period typically for a team our size?",
+          "answer": "Most mid-market customers see 4-6 month payback based on time savings alone - faster if you factor in pipeline accuracy improvement."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you justify the premium over Fireflies?",
+          "answer": "Fireflies is a transcription tool - we're a revenue intelligence platform. The email automation, CRM intelligence, and analytics are where customers see 10x the value."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for you?",
+          "answer": "Honestly, pricing. If we can get closer to $12K we can move fast. At $15K it's a tougher sell internally."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than we budgeted - Fireflies quoted us under $8K"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Daniel to review with finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-23",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Daniel Wang",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute follow-up executive meeting with Daniel Wang. Discussed business case in detail, reviewed competitive landscape, and explored contract terms. Daniel more receptive after seeing internal demo feedback but still price-sensitive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does support look like and is it included?",
+          "answer": "Email and chat support included, with priority SLAs for enterprise tier. Dedicated CSM available as add-on."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a shorter initial term to test the impact?",
+          "answer": "Standard is annual, but we can discuss a 6-month pilot structure if that helps derisk the decision."
+        },
+        {
+          "by": "rep",
+          "question": "If we can work on price, what's your timeline to signature?",
+          "answer": "If we can land around $12K and get IT comfortable with implementation, we could close this month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Propose revised pricing structure",
+        "Daniel to get final IT signoff from Leila and Amelia"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Parker and Daniel with revised proposal at $14,900 (20% discount) to meet budget constraints while maintaining value. Parker responded positively, noting they're reviewing with IT and finance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "IT final review in progress",
+        "Finance approval expected this week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-03",
+      "type": "negotiation_call",
+      "duration_minutes": 6,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "6-minute negotiation call with Parker. Quick check-in on IT review status and contract terms. Parker confirmed Leila is comfortable with implementation plan but finance is pushing back on annual commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on payment terms - quarterly vs annual upfront?",
+          "answer": "We can do quarterly payments with a small processing fee, or annual with 2% discount."
+        }
+      ],
+      "objections": [
+        "Finance prefers quarterly payments for cash flow management"
+      ],
+      "next_steps": [
+        "Revise contract with quarterly payment terms",
+        "Schedule pricing call to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-10",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute pricing call with Parker Schmidt. Negotiated final terms including quarterly payments, implementation support, and contract language. Parker comfortable with $14,900 at quarterly terms. Discussed renewal provisions and auto-renewal clauses.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens at renewal - does price increase?",
+          "answer": "Price locked for first year, standard 5-7% increase at renewal based on platform enhancements."
+        },
+        {
+          "by": "rep",
+          "question": "Are we ready to move to legal review?",
+          "answer": "Yes, let me get Daniel's final signoff and we can kick off legal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Parker to get Daniel's final approval",
+        "Send contract for legal review",
+        "Schedule signature call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-16",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "15-minute negotiation call with Parker Schmidt (originally scheduled for earlier but rescheduled). Reviewed redlines from legal - minor adjustments to liability cap and data protection language. Parker confirmed Daniel approved and legal is nearly done.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we cap liability at 1x annual fees instead of 2x?",
+          "answer": "We can agree to 1x for direct damages, keeping 2x for gross negligence or breach."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to finalize redlines",
+        "Schedule final pricing call to confirm signature timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-06-23",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Parker Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute final pricing call with Parker Schmidt. Confirmed all contract terms, reviewed implementation timeline, and discussed onboarding kickoff. Parker confirmed Daniel and legal have signed off. Agreement to execute contract this week with go-live target in 3 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once contract is signed?",
+          "answer": "Implementation team can kick off within 48 hours of signature - we'll assign a dedicated onboarding specialist."
+        },
+        {
+          "by": "rep",
+          "question": "Any last concerns before we finalize?",
+          "answer": "No, we're good to go. Team is excited to get started."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract signature scheduled for this week",
+        "Implementation kickoff call to follow",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "deal_id": "DEAL-0926",
+  "company": {
+    "name": "CoralWorks",
+    "industry": "Marketing Agency",
+    "employee_count": 482,
+    "annual_revenue": 84898499,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15800.0,
+    "seats": 24,
+    "price_per_seat_monthly": 58.69,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.1,
+    "sales_cycle_days": 50,
+    "close_date": "2025-07-31",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sophia Goldberg",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 29
+    },
+    {
+      "name": "Charlotte Choi",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-04",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Sophia Goldberg at CoralWorks. No answer, left voicemail introducing AskElephant's CRM automation platform and mentioning potential time savings for marketing agencies managing client workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up with email"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Sophia introducing AskElephant's CRM automation capabilities for marketing agencies. Sophia responded expressing interest in learning more about how we help agencies streamline client communication and campaign tracking.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you work with other marketing agencies our size?",
+          "answer": "Yes, we have several mid-market agency clients using our platform to automate client onboarding and campaign reporting workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-11",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Sophia. Discussed CoralWorks' current pain points with manual CRM data entry and client communication tracking. Sophia confirmed they're evaluating automation solutions and have budget allocated for Q2.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "Our sales team is spending 10+ hours weekly on manual data entry and our client success team struggles to track communication history across 100+ active accounts."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most agencies are fully onboarded within 2-3 weeks depending on integration complexity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Send case study from similar agency"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with agency case study and proposed demo agenda. Sophia confirmed availability for demo and mentioned she'd like to see the unlimited automation tier in action.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-25",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Sophia covering CRM automation workflows, contact enrichment, and campaign tracking features. Strong engagement during unlimited automation tier walkthrough. Sophia mentioned they need to move quickly due to Q2 planning deadlines.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for different client segments?",
+          "answer": "Absolutely - you can create unlimited custom workflows with conditional logic based on client type, deal size, or any CRM field."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the pricing scale with seat count?",
+          "answer": "We charge per seat with volume discounts starting at 20 seats. For 24 seats you'd qualify for our mid-market tier pricing."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation process?",
+          "answer": "I'll need to bring in Charlotte Choi, our CRO, before we finalize anything. She owns all sales tooling decisions."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "We'd need to see how this integrates with our existing marketing automation stack before committing."
+        }
+      ],
+      "next_steps": [
+        "Send integration documentation",
+        "Schedule exec meeting with Charlotte",
+        "Provide pricing estimate"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with integration docs and proposed pricing for 24 seats on unlimited automation plan. Sophia responded asking about discount options given their seat count and mentioned Charlotte wants to meet before end of month.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for annual commitment?",
+          "answer": "Yes, we can discuss volume discounting and annual payment terms during the exec meeting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Charlotte"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-11",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Charlotte Choi",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Charlotte Choi (originally scheduled earlier but rescheduled). Discussed strategic value of CRM automation for CoralWorks' growth plans. Charlotte expressed interest but noted budget constraints and asked about discounting for multi-year commitment. Some hesitation around ROI timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are other agencies seeing in the first 6 months?",
+          "answer": "Most see 15-20 hours saved per week in the first quarter, which typically translates to 30-40% productivity gain for sales and client success teams."
+        },
+        {
+          "by": "rep",
+          "question": "What's your target implementation date?",
+          "answer": "Ideally early May to align with our Q2 planning cycle, but budget approval might push that out."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing given we're buying 24 seats upfront?",
+          "answer": "We can explore volume discounting and extended payment terms - let me have Sophia and our team work through options on a follow-up call."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The list price is higher than we budgeted for this initiative - we'd need significant discount to make this work."
+        }
+      ],
+      "next_steps": [
+        "Prepare custom pricing proposal",
+        "Schedule pricing call with Sophia"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-16",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Sophia to discuss discount options. Walked through revised proposal with 34% discount to meet their budget constraints. Sophia acknowledged the pricing is now workable but wants to review terms with Charlotte before finalizing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount contingent on annual payment upfront?",
+          "answer": "We can offer quarterly payment terms with a slightly smaller discount, or the full 34% off with annual prepayment."
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process looking like on your end?",
+          "answer": "Charlotte needs to sign off, and then it goes to finance for contract review. Probably 1-2 weeks total."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with discount terms",
+        "Get Charlotte's approval",
+        "Begin legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-22",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Sophia to finalize contract terms. Discussed payment schedule, implementation timeline, and SLA requirements. Sophia pushed for additional concessions on support tier upgrade at no cost. Some back-and-forth on deliverables timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include premium support in this pricing tier?",
+          "answer": "Premium support is typically an add-on, but given the discount we've already applied, we can include standard support with 24-hour response time."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats in 6 months?",
+          "answer": "Additional seats would be prorated at the same discounted rate for the remainder of your annual term."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "We need faster implementation than 3 weeks - our timeline is tight for Q2 launch."
+        }
+      ],
+      "next_steps": [
+        "Revise proposal with expedited implementation timeline",
+        "Final review call",
+        "Send to legal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-07-31",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Sophia Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Sophia to address remaining contract terms. Agreed to expedited 2-week implementation with dedicated onboarding resource. Sophia confirmed Charlotte approved the pricing and they're ready to move to legal review pending final MSA edits.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any other blockers we need to address before legal review?",
+          "answer": "No, we're good to proceed. Just need to finalize data privacy language in the MSA."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we realistically go live if we sign next week?",
+          "answer": "With expedited onboarding, we can have you live by May 1st if contracts are signed by April 25th."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final MSA with privacy edits",
+        "Legal review",
+        "Target signature by April 25"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

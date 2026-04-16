@@ -1,0 +1,676 @@
+{
+  "deal_id": "DEAL-0978",
+  "company": {
+    "name": "NextTech",
+    "industry": "PropTech",
+    "employee_count": 436,
+    "annual_revenue": 97271433,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8700.0,
+    "seats": 10,
+    "price_per_seat_monthly": 65.89,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.0,
+    "sales_cycle_days": 70,
+    "close_date": "2023-06-19",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Elijah Doyle",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 11
+    },
+    {
+      "name": "Camila Almeida",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Elijah Doyle expressing interest in improving forecasting accuracy for their PropTech operations. Brief inquiry about automation capabilities and pricing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-13",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Elijah (VP of CS). Discussed current forecasting challenges at NextTech and pain points with manual processes. Elijah mentioned they're evaluating a few options including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better forecasting accuracy right now?",
+          "answer": "We're missing quarterly targets by 15-20% and leadership is frustrated. Our current manual process is too slow."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation stack compare to Fireflies?",
+          "answer": "We offer deeper consulting integration and custom workflow automation beyond just transcription."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule follow-up to discuss use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with overview deck and case studies focused on PropTech forecasting improvements. Elijah responded positively, asking about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation time for a team our size?",
+          "answer": "Usually 3-4 weeks for full rollout with 10 seats including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-16",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving into technical requirements and current tech stack. Elijah confirmed budget authority sits with IT Director Camila Almeida for procurement approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation process?",
+          "answer": "Camila Almeida from IT handles all software procurement. I can champion internally but she'll need to sign off."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing CRM setup?",
+          "answer": "Yes, we have native Salesforce integration and can connect to most CRM systems."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader use case review",
+        "Loop in Camila if possible"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email recapping technical fit and proposing discovery agenda. Elijah confirmed availability and mentioned Camila will join later in the process once we have a clearer proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-24",
+      "type": "discovery_call",
+      "duration_minutes": 37,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call covering forecasting workflows, team structure, and pain points. Elijah detailed gaps in their current process and expressed strong interest. Mentioned Fireflies is cheaper but lacks consulting depth.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current forecasting process end-to-end.",
+          "answer": "We manually aggregate data from 8 different sources, takes 2 days each week. Accuracy is poor because data is stale by the time we compile it."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 6 months after implementing our solution?",
+          "answer": "Forecasting accuracy above 90%, real-time visibility, and freeing up 10+ hours per week for my CS team."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting piece work exactly?",
+          "answer": "We assign a dedicated consultant for the first 90 days to customize workflows and train your team on best practices."
+        }
+      ],
+      "objections": [
+        "Pricing seems higher than Fireflies, need to understand the ROI better"
+      ],
+      "next_steps": [
+        "Prepare custom demo",
+        "Send ROI analysis",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery email with ROI calculator showing potential time savings and accuracy improvements. Elijah appreciated the analysis and confirmed demo date.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-02",
+      "type": "follow_up_call",
+      "duration_minutes": 25,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to refine demo agenda and understand key stakeholders. Elijah confirmed he's the primary champion but needs to bring Camila in before final decision. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor we should involve in the demo or proposal stage?",
+          "answer": "Not at this stage. I report to the Chief Customer Officer but they usually trust my recommendations for tools under $50k."
+        },
+        {
+          "by": "prospect",
+          "question": "Will Camila join the demo?",
+          "answer": "She'll review it after, wants to see the proposal first before investing time in demos."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with demo for Elijah and team",
+        "Plan to engage Camila post-demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo logistics and sharing agenda focused on forecasting automation and consulting workflow. Elijah confirmed attendance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo in 2 days"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-09",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on forecasting workflows and automation capabilities. Elijah brought 2 team members who were engaged. Strong interest in consulting component. Asked about pricing tiers and discounts.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard pricing for 10 seats with the consulting package?",
+          "answer": "List price is $11,800 annually for 10 seats with automations plus consulting tier."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for first-year customers?",
+          "answer": "We can discuss discounting based on contract length and use case fit."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fireflies?",
+          "answer": "Fireflies is about 40% cheaper but doesn't include any consulting or custom automation. More of a basic transcription tool."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than alternatives, need to justify to Camila and finance"
+      ],
+      "next_steps": [
+        "Schedule proposal call",
+        "Prepare pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-11",
+      "type": "proposal_call",
+      "duration_minutes": 37,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call presenting 3 pricing tiers. Elijah focused on mid-tier option with 26% discount to $8,700 ACV to fit budget constraints. Discussed implementation timeline and need to get Camila's approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your approved budget range for this initiative?",
+          "answer": "We have $9k allocated. Anything above that needs additional CFO approval which could delay things."
+        },
+        {
+          "by": "prospect",
+          "question": "If we hit $8,700, can you move forward without additional approvals?",
+          "answer": "Yes, that works within our discretionary budget. Just need Camila to sign off on the vendor and security review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal at $8,700",
+        "Introduce Camila for technical/security review",
+        "Schedule second demo if needed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-16",
+      "type": "demo",
+      "duration_minutes": 55,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended second demo diving deeper into security, data privacy, and technical architecture for Camila's review (though she wasn't live on the call). Elijah recorded it for her and asked detailed integration questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where is data stored?",
+          "answer": "Data stored in SOC 2 compliant AWS infrastructure, customizable retention from 30 days to 7 years."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO and what identity providers?",
+          "answer": "Yes, we support Okta, Azure AD, Google Workspace, and OneLogin."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does your standard security review take?",
+          "answer": "Usually 3-5 business days if no custom requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elijah to share recording with Camila",
+        "Wait for security questionnaire",
+        "Schedule proposal finalization call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-05-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Email following up on proposal and demo recording. Checked in on Camila's review status and next steps. Elijah responded that she's reviewing but has questions about competitor alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Address Camila's questions",
+        "Schedule call with both Elijah and Camila if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-05-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email providing detailed competitive comparison against Fireflies highlighting consulting value, custom automation, and ROI beyond basic transcription. Elijah acknowledged and said he's working on getting exec alignment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal alignment",
+        "Stand by for exec meeting scheduling"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-05-27",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Elijah and his CS team to review business case and ROI. Discussed implementation plan and success metrics. Still no C-level executive engaged, which Elijah acknowledged as potential friction point.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we involve your Chief Customer Officer in the final decision discussion?",
+          "answer": "Probably smart, but they're hard to schedule. Let me try to get 15 minutes with them next week."
+        },
+        {
+          "by": "prospect",
+          "question": "What's Camila's current stance after the technical review?",
+          "answer": "She's approved from a security perspective but wants to understand why we're not going with the cheaper Fireflies option."
+        }
+      ],
+      "objections": [
+        "Camila pushing back on price premium versus Fireflies"
+      ],
+      "next_steps": [
+        "Attempt to schedule CCO for exec meeting",
+        "Address Camila's pricing concerns",
+        "Prepare value justification doc"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-05-31",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal refinement call with Elijah to address Camila's pricing concerns. Walked through value differentiation again. Elijah committed to championing internally but expressed concern about timeline slipping without exec buy-in.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you go lower on price to make this easier to approve?",
+          "answer": "We're already at 26% discount which is at our limit for this tier. The consulting component alone is worth $3k."
+        },
+        {
+          "by": "rep",
+          "question": "What's the realistic timeline for getting final approval from your side?",
+          "answer": "If we can get the CCO aligned this week, we could close by end of month. Otherwise it might slip into next quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final push to schedule CCO meeting",
+        "Prepare executive summary for decision-makers"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-06-04",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Elijah and two CS managers to finalize business case and timeline. Still no C-level executive present. Team aligned on value but Camila's procurement approval still pending.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's blocking Camila's final approval at this point?",
+          "answer": "She wants to see if we can negotiate better terms or if Fireflies can match some of your features at their price point."
+        }
+      ],
+      "objections": [
+        "Competitive pressure from Fireflies on price"
+      ],
+      "next_steps": [
+        "Standby for procurement decision",
+        "Prepare for potential negotiation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-06-07",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Elijah as Camila began formal procurement evaluation. Discussed contract terms, payment structure, and potential multi-year discounts. Elijah advocating internally but procurement process moving slowly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would a multi-year deal unlock better pricing?",
+          "answer": "For a 2-year commit we could consider an additional 5% reduction, bringing it to $8,265 annually."
+        },
+        {
+          "by": "rep",
+          "question": "Is multi-year an option given your budget cycle?",
+          "answer": "Probably not this round. We're locked into annual planning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for Camila's procurement decision",
+        "Stand by for legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-06-10",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call as Camila pushed for additional concessions. Discussed payment terms, implementation costs, and ongoing support. Elijah still championing but expressed frustration with procurement pace.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are there any additional implementation or hidden costs?",
+          "answer": "No, the $8,700 is all-in including consulting, training, and support."
+        }
+      ],
+      "objections": [
+        "Camila concerned about total cost of ownership versus simpler alternatives"
+      ],
+      "next_steps": [
+        "Final decision expected within 1 week",
+        "Legal review to begin if approved"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-06-15",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive alignment meeting was rescheduled by Elijah due to internal scheduling conflicts. Brief discussion confirmed deal still active but timeline extending into next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking progress on your end beyond scheduling?",
+          "answer": "No, just end-of-quarter craziness. Everyone's aligned, just need to get the final sign-off meeting scheduled."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting",
+        "Target decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-06-20",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Elijah Doyle",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation meeting with Elijah and Camila both present. Walked through contract terms, implementation timeline, and success metrics. Camila approved vendor and pricing at $8,700. Legal review to begin, targeting close within 5 business days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your legal review process look like and how long does it typically take?",
+          "answer": "Usually 3-5 days for standard SaaS agreements. We'll flag any concerns early."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any remaining concerns or blockers on your side?",
+          "answer": "No, we're good to proceed. Just need to get through legal and we can sign."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff pending signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

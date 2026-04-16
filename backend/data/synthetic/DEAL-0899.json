@@ -1,0 +1,410 @@
+{
+  "deal_id": "DEAL-0899",
+  "company": {
+    "name": "HelixExchange",
+    "industry": "Healthcare IT",
+    "employee_count": 339,
+    "annual_revenue": 32906151,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16400.0,
+    "seats": 21,
+    "price_per_seat_monthly": 64.77,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.2,
+    "sales_cycle_days": 36,
+    "close_date": "2024-04-25",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zoey Hoffmann",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 15
+    },
+    {
+      "name": "Willow Koch",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 60
+    },
+    {
+      "name": "Asher Scott",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-07",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call to VP of Sales Zoey Hoffmann introducing our sales automation platform. Prospect expressed initial interest in hearing more about rep productivity improvements. Agreed to follow-up email with details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specific productivity gains are you seeing with your healthcare clients?",
+          "answer": "Our healthcare IT clients typically see 15-20% time savings on admin tasks, allowing reps to focus on high-value selling activities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview email with healthcare case studies",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with platform overview and healthcare IT case studies. Zoey responded positively, confirming interest in discussing how we can help their 21-person sales team. Qualification call scheduled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing CRM systems?",
+          "answer": "Yes, we have native integrations with all major CRMs including Salesforce, HubSpot, and Microsoft Dynamics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-24",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Zoey to understand current challenges and goals. HelixExchange sales team struggling with manual data entry and lack of visibility into pipeline. Zoey mentioned need to improve forecast accuracy and rep efficiency. Discussed team size (21 reps) and current process pain points.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top 2-3 pain points with your current sales process?",
+          "answer": "Manual CRM updates eating up 6-8 hours per rep per week, inconsistent pipeline data making forecasting difficult, and new reps taking too long to ramp."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can your solution be implemented?",
+          "answer": "Typical implementation for a team your size is 2-3 weeks, with full adoption within 30-45 days."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Our COO Willow Koch will need to approve, and Asher Scott our Sales Manager should evaluate the technical fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call to map detailed requirements",
+        "Introduce other stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-29",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into specific use cases and requirements. Zoey outlined need for call recording, email tracking, and automated activity logging. Discussed success metrics around rep productivity and forecast accuracy. Explored integration requirements with their existing tech stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Reps spending 30% less time on admin, forecast accuracy above 85%, and new hires ramping 40% faster."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you handle our compliance requirements for healthcare data?",
+          "answer": "Yes, we're HIPAA compliant and SOC 2 Type II certified. We can provide full compliance documentation."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next quarter. Our fiscal year ends in June."
+        }
+      ],
+      "objections": [
+        "We need to make sure this doesn't add more complexity to our reps' workflow"
+      ],
+      "next_steps": [
+        "Prepare customized demo focused on rep productivity",
+        "Share compliance documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-01",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to finalize demo agenda and confirm stakeholder participation. Zoey confirmed Willow Koch (COO) and Asher Scott (Sales Manager) will join upcoming sessions. Discussed specific workflows to showcase in demo. Clarified budget expectations and approval process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "We're looking at $15-20K annually, but need to see strong ROI justification for Willow."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting services to help with change management?",
+          "answer": "Yes, our automations_plus_consulting package includes dedicated onboarding and ongoing strategic support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Zoey",
+        "Technical evaluation with Asher to follow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-08",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Zoey focusing on automation features, rep productivity tools, and reporting capabilities. Walked through call recording, email tracking, automated activity capture, and AI-powered insights. Zoey engaged positively, asking detailed questions about implementation and user adoption. Highlighted ROI projections based on their team size.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows?",
+          "answer": "Fully customizable through our workflow builder. We can tailor them to your specific sales process and integrate with your existing tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training is included?",
+          "answer": "The consulting package includes live training sessions, recorded materials, and ongoing support during the first 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "What concerns do you have about getting buy-in from your reps?",
+          "answer": "Our team is generally open to new tools, but we need to show clear value quickly. They're skeptical of anything that feels like micromanagement."
+        }
+      ],
+      "objections": [
+        "The list price seems high for our team size - we need to see how this fits our budget"
+      ],
+      "next_steps": [
+        "Technical evaluation with Asher Scott",
+        "Prepare ROI analysis and proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-11",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Asher Scott",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Sales Manager Asher Scott. Deep dive into platform architecture, integrations, security, and user management. Asher tested key workflows and validated technical requirements. Discussed API capabilities, data residency, and mobile app functionality. Overall positive technical assessment with some questions about customization limits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom fields and objects in the system?",
+          "answer": "Yes, custom fields are fully supported. Custom objects require the enterprise tier, but we can discuss options."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI handle industry-specific terminology in healthcare IT?",
+          "answer": "The AI model can be trained on your specific terminology and use cases. We've done this successfully with other healthcare clients."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers or concerns from your side?",
+          "answer": "No major blockers. I'd like to see the API documentation for our integration needs, but overall looks solid."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% uptime SLA with 24/7 support on the consulting package."
+        }
+      ],
+      "objections": [
+        "Some of the advanced customization we might need seems locked to higher tiers"
+      ],
+      "next_steps": [
+        "Share API documentation",
+        "Asher to provide technical sign-off to Zoey and Willow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-14",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with Zoey. Reviewed formal proposal including automations_plus_consulting package for 21 seats, implementation timeline, success metrics, and ROI projections. Zoey appreciated the detail but flagged that pricing is at the high end of their budget. Needs to review with Willow before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot group before rolling out to all 21 reps?",
+          "answer": "We typically recommend full team adoption for best results, but we can discuss a phased approach."
+        },
+        {
+          "by": "rep",
+          "question": "What's your main concern about the pricing?",
+          "answer": "We're closer to the $15K range in our budget. The $16,400 ACV is a stretch, and I'll need to make a strong case to Willow."
+        }
+      ],
+      "objections": [
+        "The total cost is higher than our initial budget allocation"
+      ],
+      "next_steps": [
+        "Zoey to review proposal with Willow",
+        "Discuss potential pricing adjustments on next call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-19",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Zoey following her conversation with Willow. Budget constraints surfaced - they're targeting $12K annually. Discussed value justification, ROI timeline, and potential adjustments to package or seat count. Zoey pushing for significant discount to get within budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the absolute best pricing you can offer for 21 seats with consulting?",
+          "answer": "Let me discuss with my leadership. I want to make this work for you, but I need to understand what flexibility we have."
+        },
+        {
+          "by": "rep",
+          "question": "Is the $12K budget firm, or is there any flex if we show strong ROI?",
+          "answer": "There might be some room, but Willow is pretty firm on keeping it under $13K. We have other priorities competing for budget."
+        }
+      ],
+      "objections": [
+        "We can't justify the current pricing to our leadership given budget constraints this quarter"
+      ],
+      "next_steps": [
+        "Get approval for pricing concessions",
+        "Follow-up call to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-23",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Zoey Hoffmann",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing negotiation call with Zoey. Offered 27% discount to bring ACV to $11,947 for 21 seats with consulting package, fitting within their budget. Zoey confirmed this works and will get final sign-off from Willow. Discussed contract terms, implementation kickoff timeline, and success criteria. Verbal commitment to move forward pending contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in for our renewal, or just year one?",
+          "answer": "This is first-year pricing. Renewals are typically at standard rates, but we can discuss multi-year options."
+        },
+        {
+          "by": "rep",
+          "question": "When can you get the contract back to us signed?",
+          "answer": "I'll route it to Willow this week. Assuming no issues, we should have it back within 5-7 business days."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get the implementation started before the contract is fully executed?",
+          "answer": "We typically wait for signature, but I can get the onboarding team to prep materials in parallel to save time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Schedule implementation kickoff",
+        "Await signed contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

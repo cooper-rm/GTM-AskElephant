@@ -1,0 +1,337 @@
+{
+  "deal_id": "DEAL-0912",
+  "company": {
+    "name": "OrbitGroup",
+    "industry": "eCommerce",
+    "employee_count": 22,
+    "annual_revenue": 3679013,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5800.0,
+    "seats": 7,
+    "price_per_seat_monthly": 63.24,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.9,
+    "sales_cycle_days": 67,
+    "close_date": "2023-07-16",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Luna Garcia",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 28
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Luna Garcia at OrbitGroup expressing interest in improving their sales-to-CS handoff process. Brief form submission noting current challenges with data silos between teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-10",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "11-minute qualification call with Luna Garcia to understand current process and pain points. Luna manages a 7-person sales team and struggles with context loss during handoffs. Currently evaluating Chorus as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge in the sales-to-CS handoff today?",
+          "answer": "We lose critical context from sales calls when deals move to CS. Our team has to re-ask customers the same questions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Chorus?",
+          "answer": "We focus specifically on handoff workflows with unlimited automation, while Chorus is more conversation intelligence focused."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-19",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute discovery call diving into OrbitGroup's tech stack and workflow. Luna explained their HubSpot setup and current manual handoff process. Team of 22, mostly remote. Luna owns this evaluation but hasn't looped in leadership yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Right now it's just me. I'll bring in our CS lead once I validate it's worth their time."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing model for 7 seats?",
+          "answer": "We'll cover detailed pricing in the proposal stage, but it's seat-based with unlimited automation included."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6-8 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Provide integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery call and confirming technical eval agenda. Attached HubSpot integration guide and sample automation workflows relevant to sales-to-CS handoff use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we invite our CS lead Sarah to the technical eval?",
+          "answer": "Absolutely, the more stakeholders the better for the evaluation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm technical eval attendees"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-08",
+      "type": "technical_eval",
+      "duration_minutes": 66,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "66-minute technical evaluation (rescheduled from previous week). Luna attended solo - CS lead Sarah had a conflict. Walked through live demo of automation builder, HubSpot integration, and handoff templates. Luna asked detailed questions about customization and compared specific features to Chorus. Expressed budget concerns toward end of call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different deal types?",
+          "answer": "Yes, the unlimited automation tier includes fully customizable templates and conditional logic."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your reporting compare to what we'd get with Chorus?",
+          "answer": "Chorus has deeper conversation analytics, but our reporting focuses on handoff completion rates and CS onboarding efficiency."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Reducing our handoff time by 50% and eliminating the duplicate discovery calls CS currently has to do."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of pricing flexibility do you have for a smaller team like ours?",
+          "answer": "Let me work up a proposal and we can discuss options on our next call."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - we're a small team and need to make sure the ROI is clear"
+      ],
+      "next_steps": [
+        "Prepare custom proposal",
+        "Schedule proposal review call",
+        "Try to include CS lead Sarah"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-18",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute proposal call reviewing $5,800 ACV pricing for 7 seats with unlimited automation. Luna appreciated the discount from list price but still seemed hesitant. Mentioned Chorus is coming in lower but acknowledged our handoff focus is more aligned to their need. Still no executive sponsor involved.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the unlimited automation tier?",
+          "answer": "Unlimited workflows, custom templates, HubSpot + Salesforce integrations, and priority support."
+        },
+        {
+          "by": "rep",
+          "question": "Where are you leaning between us and Chorus at this point?",
+          "answer": "You're more purpose-built for our use case, but I need to make sure the investment makes sense for our size."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any more flexibility on price for a commitment to annual?",
+          "answer": "This is already discounted about 29% from our standard pricing. Let me see what I can do and discuss with my team."
+        }
+      ],
+      "objections": [
+        "The price is higher than Chorus even with the discount, and we're a small team working with limited budget"
+      ],
+      "next_steps": [
+        "Schedule executive alignment meeting",
+        "Explore additional pricing flexibility"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-26",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute exec meeting, but attendees were still just Luna and one peer from marketing (not C-level). Discussed strategic value of better handoffs for customer retention and expansion. Luna's colleague was supportive but deferred final decision to Luna. No CFO or CEO involvement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are purchasing decisions typically made at OrbitGroup?",
+          "answer": "For tools under $10K, department heads like Luna can approve. Larger investments need CEO sign-off."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation look like - how much time will my team need to invest?",
+          "answer": "Typical implementation is 2-3 weeks with about 10 hours of your team's time for setup and training."
+        },
+        {
+          "by": "rep",
+          "question": "What would help you feel confident moving forward?",
+          "answer": "I need to finalize the budget piece and make sure this won't require ongoing technical resources we don't have."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide implementation timeline",
+        "Discuss final pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-08",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute pricing negotiation call. Luna pushed for deeper discount citing team size and Chorus competitive pricing. Agreed to hold at current $5,800 pricing (28.9% discount) with quarterly business reviews included. Luna seemed satisfied but mentioned needing a few days to finalize internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include quarterly check-ins as part of the package?",
+          "answer": "Yes, we can include QBRs with your customer success manager."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process from here?",
+          "answer": "I'll review with our finance lead and should be able to get back to you by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Await internal approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Garcia",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with final contract, SOW, and implementation overview. Recapped pricing at $5,800 ACV for 7 seats with QBRs included. Confirmed next step is Luna's internal review with finance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signature",
+        "Schedule kickoff once signed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 97,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

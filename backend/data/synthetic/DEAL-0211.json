@@ -1,0 +1,228 @@
+{
+  "deal_id": "DEAL-0211",
+  "company": {
+    "name": "StellarMarket",
+    "industry": "Fintech",
+    "employee_count": 43,
+    "annual_revenue": 5271463,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2000,
+    "seats": 3,
+    "price_per_seat_monthly": 50.12,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.7,
+    "sales_cycle_days": 18,
+    "close_date": "2023-02-27",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jessica Abiola",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 27
+    },
+    {
+      "name": "Harper Baker",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Abiola",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email to Jessica Abiola introducing AskElephant's call recording and coaching capabilities. Highlighted use case for sales teams looking to improve rep performance and scale coaching efforts. Jessica responded expressing interest in learning more about automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM and dialer setup?",
+          "answer": "Yes, we have native integrations with all major CRMs including Salesforce, HubSpot, and Pipedrive, plus most common dialers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss current coaching process and pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-09",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Jessica Abiola",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute qualification call with Jessica Abiola to understand StellarMarket's current sales coaching challenges. Jessica shared that their VP Sales lacks time to review calls manually and reps aren't getting consistent feedback. Team of 8 SDRs/AEs would benefit from automated call scoring and highlights. Jessica confirmed budget authority for tools under $5K.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can reps access call summaries after a conversation ends?",
+          "answer": "Summaries are typically available within 60-90 seconds of the call ending, with key moments tagged automatically."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for onboarding new sales reps?",
+          "answer": "We have a 2-week onboarding program, but new reps struggle without hearing good examples from top performers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Jessica to map out detailed workflow and success metrics"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-18",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Jessica Abiola",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute discovery call diving into StellarMarket's sales team structure and coaching gaps. Jessica explained their remote team makes it hard to provide real-time feedback, and they need a way to identify which deals are at risk based on conversation quality. Discussed metrics around talk-time ratio, question patterns, and objection handling. Jessica mentioned they're moving quickly and want to implement before Q2 ends.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this beyond yourself?",
+          "answer": "I'll need to loop in Harper from IT for the security review, but I own the decision for sales tools in this range."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which moments get flagged as coachable - like competitor mentions or pricing discussions?",
+          "answer": "Absolutely, you can create custom trackers for any keywords, topics, or conversation patterns specific to your sales process."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do managers get on team-wide trends?",
+          "answer": "Managers get dashboard views showing coaching velocity, common objections across the team, win/loss conversation patterns, and individual rep scorecards."
+        }
+      ],
+      "objections": [
+        "We'd need to make sure this doesn't create extra work for reps - they're already stretched thin with quota pressure."
+      ],
+      "next_steps": [
+        "Schedule demo focused on manager dashboard and rep coaching workflow",
+        "Send security questionnaire to Harper Baker"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-21",
+      "type": "demo",
+      "duration_minutes": 53,
+      "person_name": "Jessica Abiola",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "53-minute product demo walking Jessica through the full platform - call recording, AI-generated summaries, coaching scorecards, and team analytics dashboard. Jessica was particularly engaged with the playlist feature for sharing best-practice examples with new hires. Discussed implementation timeline and she requested pricing for 3 seats with unlimited automation. She noted they're budget-conscious as a smaller fintech and asked about flexibility on pricing. Mentioned she'd like to move forward quickly but needs to confirm final headcount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy for recorded calls, especially with financial services compliance?",
+          "answer": "We're SOC 2 Type II certified, offer regional data residency options, and support automated PII redaction for sensitive information like account numbers."
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for getting this rolled out to the team?",
+          "answer": "We'd love to have this live by mid-May so we can use it for our Q2 performance reviews and Q3 planning."
+        },
+        {
+          "by": "prospect",
+          "question": "Can reps opt out of recording for certain calls, or is it always-on once implemented?",
+          "answer": "Reps have control to pause recording when needed, and we support consent workflows to notify prospects that calls are being recorded."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for our team size, and is there flexibility for startups?",
+          "answer": "Standard pricing is $125/seat/month for the unlimited automation tier. Given your stage and team size, we can work with you on a package that fits your budget."
+        }
+      ],
+      "objections": [
+        "The list price feels high for our current budget - we're trying to keep sales tool costs under $2K annually if possible."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options for 3 seats",
+        "Coordinate security review with Harper Baker",
+        "Schedule exec alignment meeting to finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-27",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Jessica Abiola",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute exec meeting with Jessica to finalize deal terms and address budget constraints. Jessica confirmed she has approval to move forward but emphasized they need aggressive pricing to fit within their approved sales tool budget. Agreed to $2,000 annual contract for 3 seats with unlimited automation (43.7% discount from list). Jessica committed to signing by end of week pending IT security approval from Harper. Discussed onboarding timeline and success metrics for first 90 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anyone else who needs to sign off before we can move to contract?",
+          "answer": "No, I have budget authority for this. Harper just needs to complete the security review, but that's more of a checkpoint than a blocker."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add more seats mid-contract if we hire additional reps in Q3?",
+          "answer": "Yes, you can add seats anytime and we'll pro-rate the cost for the remaining contract period."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first quarter with AskElephant?",
+          "answer": "I want to see our new hires ramping faster with the call library, and I want visibility into which deals need coaching intervention before they stall."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for 3 seats at $2K ACV",
+        "Complete security review with Harper by end of week",
+        "Schedule kickoff call post-signature for implementation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

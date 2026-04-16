@@ -1,0 +1,686 @@
+{
+  "deal_id": "DEAL-0037",
+  "company": {
+    "name": "ArcRelay",
+    "industry": "Fintech",
+    "employee_count": 894,
+    "annual_revenue": 155740740,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19000.0,
+    "seats": 21,
+    "price_per_seat_monthly": 73.13,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 17.8,
+    "sales_cycle_days": 121,
+    "close_date": "2024-09-05",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Jessica Kelly",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Nicole Adams",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Jessica Kelly at ArcRelay expressing interest in call recording and coaching tools. She mentioned they're currently evaluating options including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up with initial discovery questions"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent introducing our platform and requesting time to discuss ArcRelay's specific needs around call recording and coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your pricing model compared to Gong?",
+          "answer": "Sent overview of our seat-based pricing with unlimited automation tier, suggested call to discuss specific use case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-14",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Jessica. She oversees a 21-person sales team and wants better call coaching capabilities. Currently using manual processes. Timeline is flexible, budget approximately $20K range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for call recording now?",
+          "answer": "New VP of Sales hired 3 months ago, wants to standardize coaching approach across team"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI coaching compare to Gong's?",
+          "answer": "Explained our approach focuses on customizable coaching frameworks vs. prescriptive insights"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send case study on coaching use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Sent case study featuring similar fintech company and proposed agenda for discovery call covering current workflow, team structure, and success metrics.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-26",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Jessica covering current state: manual call reviews taking 5+ hours/week per manager, inconsistent coaching quality, no visibility into rep performance trends. She emphasized need for easy adoption and automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "Jessica owns the decision for sales tools, but will need IT (Nicole Adams) to review integrations"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place by end of quarter, but not a hard deadline"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce and Zoom setup?",
+          "answer": "Yes, confirmed native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up demo for next week",
+        "Include Nicole Adams on technical review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 11.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email summarizing discovery insights and confirming demo scheduled. Included technical integration overview for Nicole Adams to review ahead of demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo focusing on coaching workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Check-in email sent with demo prep questions about specific coaching scenarios to tailor the walkthrough. Jessica responded with three key scenarios her team faces regularly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will we be able to see the automation features in the demo?",
+          "answer": "Confirmed we'll showcase automated call summaries and coaching prompt generation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize demo customization"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-15",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Jessica covering call recording, AI-generated coaching prompts, and automated summary features. She was particularly engaged with the customizable coaching framework and automation capabilities. Compared several features to what she'd seen in Gong demos.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it typically take to get the system fully configured?",
+          "answer": "2-3 weeks for full rollout including team training and workflow customization"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which call moments get flagged for coaching?",
+          "answer": "Yes, demonstrated the custom trigger builder with her specific scenarios"
+        },
+        {
+          "by": "rep",
+          "question": "What stood out most compared to other tools you've evaluated?",
+          "answer": "Automation piece is stronger than Gong, likes the flexibility in coaching frameworks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with Nicole",
+        "Send pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Recap email sent with demo recording and key feature highlights. Proposed timeline for technical evaluation with IT team and executive alignment discussion.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate with Nicole Adams for technical deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Followed up on scheduling technical evaluation. Jessica confirmed Nicole's availability and mentioned she's discussing internally with her team about moving forward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm technical eval meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-07-04",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "Nicole Adams",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Nicole Adams covering security, data privacy, SSO integration, API capabilities, and Salesforce/Zoom sync architecture. She asked detailed questions about data residency and compliance certifications. Thorough review of technical requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is call data stored and can we specify region?",
+          "answer": "Explained data residency options and SOC2/GDPR compliance posture"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your API rate limit and can we export raw call data?",
+          "answer": "Covered API limits and bulk export capabilities via REST API"
+        },
+        {
+          "by": "prospect",
+          "question": "How does SSO integration work with our Okta setup?",
+          "answer": "Walked through SAML configuration process and provided technical documentation"
+        }
+      ],
+      "objections": [
+        "Need to verify data retention policies align with our internal compliance requirements"
+      ],
+      "next_steps": [
+        "Send compliance documentation",
+        "Provide API technical specs",
+        "Follow up with Jessica on business case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-07-08",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Jessica to discuss business case and ROI. Reviewed potential time savings from automated coaching and improved ramp time for new reps. Jessica mentioned she needs to build internal case but hasn't yet engaged executive sponsor.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who will be the executive sponsor for this investment?",
+          "answer": "Jessica mentioned her CRO but hasn't formally brought them into the conversation yet"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you help me build the ROI case for leadership?",
+          "answer": "Provided ROI calculator template and case study with similar company profile"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the contract term typically look like?",
+          "answer": "Discussed standard annual agreements with quarterly payment options"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jessica to socialize with CRO",
+        "Send formal proposal",
+        "Schedule executive intro if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-07-16",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Jessica to review updated ROI analysis and implementation plan. She's making progress internally but CRO hasn't been directly engaged yet. Discussed Gong comparison and differentiation points.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you differentiate from Gong on the coaching side?",
+          "answer": "Emphasized customizable frameworks and automation tier vs. Gong's more prescriptive approach"
+        },
+        {
+          "by": "rep",
+          "question": "What's the main hesitation at this point?",
+          "answer": "Jessica mentioned budget approval process and wanting to make sure she's picking the right solution"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jessica to set up meeting with CRO",
+        "Prepare executive-level overview deck"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-07-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Check-in email asking about progress with CRO engagement and offering to join executive discussion. Sent one-page executive summary highlighting key business outcomes.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await response on CRO meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-07-28",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Jessica. She mentioned CRO is supportive but hasn't joined a call yet. Discussed competitive dynamics with Gong and addressed questions about feature roadmap and customer support model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's on your product roadmap for the next 6 months?",
+          "answer": "Shared high-level roadmap focusing on AI coaching enhancements and workflow automation"
+        },
+        {
+          "by": "prospect",
+          "question": "What does customer support look like post-implementation?",
+          "answer": "Explained dedicated CSM model and support SLAs"
+        },
+        {
+          "by": "rep",
+          "question": "When can we expect to connect with your CRO directly?",
+          "answer": "Jessica will try to arrange but mentioned CRO is traveling for next two weeks"
+        }
+      ],
+      "objections": [
+        "Gong has stronger brand recognition which makes internal sell easier"
+      ],
+      "next_steps": [
+        "Send proposal",
+        "Keep executive intro open as option"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-08-04",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Jessica covering $19K ACV proposal for 21 seats with unlimited automation tier. She mentioned this is at top of her budget range and asked about flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to move on pricing for a multi-year commitment?",
+          "answer": "Discussed potential 10% discount for 2-year agreement"
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "Jessica confirmed around $20K but wants best value possible"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than expected compared to initial Gong quotes"
+      ],
+      "next_steps": [
+        "Review multi-year pricing options",
+        "Jessica to finalize internal budget approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-08-10",
+      "type": "pricing_call",
+      "duration_minutes": 27,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second pricing call addressing discount request and contract terms. Discussed payment structure and implementation timeline. Jessica pushing for lower price point given competitive options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot and expand?",
+          "answer": "Explained minimum seat requirements but offered phased rollout approach"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation fee?",
+          "answer": "Clarified that implementation and training are included in quoted price"
+        }
+      ],
+      "objections": [
+        "Need to justify premium over Gong's pricing to leadership"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with multi-year option",
+        "Jessica to review with finance"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-08-16",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting to address pricing concerns and value justification. Walked through detailed ROI comparison and differentiation vs. Gong. Jessica remains engaged but price sensitivity is clear.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes from your perspective?",
+          "answer": "Jessica indicated better pricing alignment and clearer executive buy-in would help"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide customer references in fintech?",
+          "answer": "Agreed to connect her with two fintech customers using similar coaching workflows"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best and final pricing?",
+          "answer": "Discussed exploring 15% discount for 2-year commitment with quarterly payments"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up customer reference calls",
+        "Prepare final pricing proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-08-25",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing alignment call. Jessica confirmed she spoke with references and feedback was positive. Discussed final contract terms and payment structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly invoicing instead of annual upfront?",
+          "answer": "Confirmed quarterly payment option available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final proposal with agreed terms",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-08-29",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up pricing call to review final proposal details. Jessica confirmed terms look good and she's preparing for final internal approval. Mentioned wanting to move forward but needs one more review cycle.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the approval process from here?",
+          "answer": "Jessica needs final sign-off from finance and CRO, expects 3-5 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jessica to route for approvals",
+        "Follow up mid-week on status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-09-05",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Jessica Kelly",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call covering last-minute contract questions about renewal terms and usage overages. Jessica confirmed internal approvals are progressing and legal is reviewing contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we add seats mid-contract?",
+          "answer": "Explained pro-rated pricing for additional seats added during term"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the renewal pricing structure?",
+          "answer": "Standard renewal at then-current list pricing with advance notice"
+        }
+      ],
+      "objections": [
+        "Legal flagged auto-renewal clause, requested opt-in renewal instead"
+      ],
+      "next_steps": [
+        "Adjust contract terms per legal feedback",
+        "Target signature next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

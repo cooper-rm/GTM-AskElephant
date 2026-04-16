@@ -1,0 +1,341 @@
+{
+  "deal_id": "DEAL-0411",
+  "company": {
+    "name": "AmberStudio",
+    "industry": "Healthcare IT",
+    "employee_count": 56,
+    "annual_revenue": 7431081,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8000.0,
+    "seats": 8,
+    "price_per_seat_monthly": 81.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 8.6,
+    "sales_cycle_days": 83,
+    "close_date": "2025-02-11",
+    "use_case": "Pipeline visibility",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Lucas Morris",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 21
+    },
+    {
+      "name": "Kwame Garcia",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Lucas Morris seeking pipeline visibility solution for their CS team. Brief initial exchange to schedule discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer solutions for tracking customer success pipeline activity?",
+          "answer": "Yes, our platform provides real-time pipeline visibility with conversation intelligence and automation features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled. Lucas confirmed availability and mentioned current use of Chorus for some teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the demo cover integrations with our existing CRM stack?",
+          "answer": "Yes, we'll walk through all integration capabilities during the discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-30",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery alignment call. Lucas outlined challenges with pipeline forecasting and visibility across 8 CS reps. Mentioned they're currently evaluating Chorus but find it complex for their use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with pipeline visibility today?",
+          "answer": "We lack consistent visibility into customer health signals across our CS team's calls and emails."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Chorus?",
+          "answer": "We focus on unlimited automation workflows specifically for CS and sales ops teams, whereas Chorus emphasizes conversation analytics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full discovery call with detailed workflow review",
+        "Lucas to map out current tech stack"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-13",
+      "type": "discovery_call",
+      "duration_minutes": 15,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Lucas covering current workflows, team structure, and pain points. Team of 8 CS reps lacks standardized tracking. Lucas is champion but mentioned decision will involve IT director Kwame Garcia.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else will be involved in evaluating and approving this purchase?",
+          "answer": "Kwame Garcia from IT will need to review security and integrations. I'll drive the business case."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6-8 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you support our Salesforce and Intercom setup?",
+          "answer": "Yes, both are standard integrations we support out of the box."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Lucas and Kwame",
+        "Send over integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-25",
+      "type": "technical_eval",
+      "duration_minutes": 45,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Lucas walking through platform capabilities, automation workflows, and integration setup. Lucas engaged and asked detailed workflow questions. Kwame Garcia joined briefly but did not participate actively.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the pipeline stages to match our CS workflow?",
+          "answer": "Yes, stages are fully customizable and you can map them to your existing Salesforce stages."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does initial setup typically take?",
+          "answer": "Most teams are up and running within 1-2 weeks depending on integration complexity."
+        },
+        {
+          "by": "rep",
+          "question": "What specific automation workflows are most important for your team?",
+          "answer": "Auto-logging calls, flagging at-risk accounts based on sentiment, and pipeline stage progression triggers."
+        }
+      ],
+      "objections": [
+        "Kwame mentioned they need to review data security protocols before moving forward"
+      ],
+      "next_steps": [
+        "Send security documentation to Kwame",
+        "Prepare custom proposal for 8 seats with unlimited automation tier"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-05",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Lucas. Walked through pricing for 8 seats at $8,000 ACV with unlimited automation tier. Lucas expressed interest but noted need to compare with Chorus pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing if we commit annually?",
+          "answer": "The quoted price is already for annual commitment. We can discuss multi-year options if helpful."
+        }
+      ],
+      "objections": [
+        "Lucas mentioned Chorus has offered a lower per-seat rate"
+      ],
+      "next_steps": [
+        "Lucas to review proposal internally",
+        "Follow up on Kwame's security review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-18",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal discussion. Lucas shared that internal feedback is positive on features but concerns about pricing compared to Chorus. No update yet from Kwame on security review. Lucas still driving the conversation without executive sponsor involvement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has leadership reviewed the business case and ROI projections?",
+          "answer": "I'm building that case now. I report to the VP of Customer Success but haven't brought her in yet."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you match Chorus pricing?",
+          "answer": "Let's schedule a pricing discussion so I can understand their offer and see where we can be competitive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule dedicated pricing call",
+        "Lucas to engage VP of Customer Success"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-29",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Lucas shared Chorus offer details and requested discount to match. Discussed value differentiation around automation capabilities. Lucas acknowledged value but expressed budget constraints and need to stay competitive with Chorus pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond price, what are the key differentiators you're weighing between us and Chorus?",
+          "answer": "Your automation features are stronger for our workflow, but Chorus has better brand recognition and they've been aggressive on pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "If you can get within 10% of Chorus pricing, would that close the gap?",
+          "answer": "That would help, but I'll still need to get Kwame's sign-off on security and loop in my VP."
+        }
+      ],
+      "objections": [
+        "Price remains primary concern relative to Chorus offer"
+      ],
+      "next_steps": [
+        "Prepare revised pricing proposal with discount",
+        "Request meeting with Lucas and VP of Customer Success"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-10",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Lucas Morris",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing discussion. Presented revised offer with discount to match Chorus competitively. Lucas receptive but still has not secured exec sponsor commitment or Kwame's final security approval. Deal progression uncertain without broader stakeholder buy-in.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we get time with your VP to review the business case together?",
+          "answer": "She's slammed right now, but I can share the proposal with her offline and get back to you."
+        },
+        {
+          "by": "rep",
+          "question": "Has Kwame completed the security review?",
+          "answer": "He's been tied up with other projects. I'll follow up with him this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to share revised proposal with VP and Kwame",
+        "Follow up early next week for decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "deal_id": "DEAL-0585",
+  "company": {
+    "name": "CrimsonLogic",
+    "industry": "SaaS/Tech",
+    "employee_count": 80,
+    "annual_revenue": 14881654,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4600.0,
+    "seats": 5,
+    "price_per_seat_monthly": 72.99,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.0,
+    "sales_cycle_days": 51,
+    "close_date": "2024-01-26",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Fatima Campbell",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 29
+    },
+    {
+      "name": "Nora Kapoor",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Fatima Campbell at CrimsonLogic expressing interest in call recording and coaching solutions. She mentioned they're currently evaluating options including Gong and found us through a search for alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand their requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-06",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Fatima to understand CrimsonLogic's needs. Team of 80 with 5 SDRs/AEs needing call coaching. Currently using basic recording but no AI analysis. Budget allocated for Q2 tooling upgrade. Fatima owns CS but wants to improve revenue team performance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call intelligence now?",
+          "answer": "Our revenue team is growing and we need consistent coaching at scale. Manual call reviews aren't sustainable."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong?",
+          "answer": "We're typically 30-40% more cost-effective for teams your size, with comparable AI capabilities."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation?",
+          "answer": "Nora from IT will need to review security and integrations. Our VP Sales will want to see it but he's traveling a lot this month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview and case studies",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with pricing deck, case studies from similar-sized SaaS companies, and security documentation. Fatima confirmed Nora Kapoor (IT Director) will review technical specs and requested demo access for both of them.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get demo access for Nora and me to test with our Salesforce instance?",
+          "answer": "Absolutely, I'll provision a trial environment and send connection instructions within 24 hours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provision demo environment",
+        "Schedule technical walkthrough with Nora"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-21",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Fatima to ensure demo access is working and answer initial questions. She confirmed both she and Nora are testing it. Mentioned their VP Sales (potential exec sponsor) is still traveling but she's keeping him updated via email.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How's the initial testing going with the platform?",
+          "answer": "Really smooth so far. Nora is impressed with the Salesforce integration. I'm testing the coaching features."
+        },
+        {
+          "by": "rep",
+          "question": "When might your VP Sales be available to see a demo?",
+          "answer": "He's back mid-month but his calendar is packed. I can loop him in async for now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper technical evaluation with Fatima and Nora",
+        "Send executive summary video for VP Sales"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-30",
+      "type": "technical_eval",
+      "duration_minutes": 46,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Fatima and Nora covering unlimited automation workflows, API integrations, SSO requirements, and call analytics dashboards. Nora had detailed security questions which were addressed. Fatima demonstrated strong understanding of coaching use cases. Discussion included comparison of automation capabilities vs Gong's workflow builder.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to Gong's workflow limits?",
+          "answer": "Gong caps workflows at their enterprise tier. Our unlimited plan gives you full automation access at a lower price point."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we export all recordings?",
+          "answer": "Standard retention is 2 years with full export capabilities via API or bulk download. We can extend retention with an add-on if needed."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a definite yes for you both?",
+          "answer": "I need to see ROI projections for our team size, and Nora needs final security sign-off. We also need to get buy-in from leadership."
+        }
+      ],
+      "objections": [
+        "Need to ensure VP Sales is aligned before moving forward with contract"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis for 5-seat deployment",
+        "Send security compliance documentation",
+        "Attempt to schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-04",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting intended as exec alignment but VP Sales didn't join due to conflicting priority. Fatima and Nora reviewed ROI projections showing 12-month payback based on coaching efficiency gains. Discussed implementation timeline and training. Fatima committed to getting 30 minutes with VP Sales next week to present the business case internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like for a team our size?",
+          "answer": "Usually 1-2 weeks for full deployment: integration setup, user training, and workflow configuration. We assign a dedicated CSM."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter. I need to present this to leadership first though."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you hold pricing if we need an extra week to get exec approval?",
+          "answer": "Yes, I can guarantee current pricing through end of month."
+        }
+      ],
+      "objections": [
+        "Still haven't gotten VP Sales engaged directly in the evaluation"
+      ],
+      "next_steps": [
+        "Fatima to present internally to VP Sales",
+        "Schedule proposal review call for following week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-01-11",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call was rescheduled by Fatima - VP Sales meeting ran long and she wanted to have his feedback before discussing terms. When rescheduled call occurred, Fatima shared that VP Sales is supportive but concerned about budget and asked her to negotiate on price. Also mentioned Gong reached out with a competitive offer.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What feedback did your VP have on the proposal?",
+          "answer": "He likes the platform but wants to make sure we're getting the best value. Gong offered us 20% off their list price."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $4,600 annual pricing?",
+          "answer": "Let me understand your budget constraints better and I can take a discount request to my leadership."
+        }
+      ],
+      "objections": [
+        "Gong has submitted a competitive proposal with discount",
+        "Price sensitivity from exec level"
+      ],
+      "next_steps": [
+        "Discuss discount parameters internally",
+        "Schedule pricing alignment call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-01-19",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Fatima focused on finding middle ground. Reviewed value differentiation vs Gong: unlimited automation, faster implementation, and better support model. Fatima confirmed $4,600 would work if we can match on payment terms (quarterly vs annual prepay). She's advocating internally but needs final confirmation from VP Sales.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment instead of annual upfront?",
+          "answer": "Yes, we can structure it as $1,150 quarterly at the $4,600 annual rate."
+        },
+        {
+          "by": "rep",
+          "question": "If we align on these terms, what's your path to signature?",
+          "answer": "I'll need VP Sales final sign-off and then legal review, probably 5-7 days total."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with quarterly payment terms",
+        "Fatima to get final VP Sales approval",
+        "Schedule close meeting with exec"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-26",
+      "type": "exec_meeting",
+      "duration_minutes": 46,
+      "person_name": "Fatima Campbell",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec alignment meeting with Fatima, Nora, and VP Sales present. Walked through final proposal: 5 seats, unlimited automation, $4,600 ACV with quarterly billing. VP Sales asked about scalability if team grows and expansion pricing. Confirmed implementation timeline fits their Q2 goals. VP Sales gave verbal approval pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we add more seats in 6 months, what's the pricing structure?",
+          "answer": "Additional seats are $920/year each, and we can add them mid-contract with pro-rated billing."
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned to move forward with legal review?",
+          "answer": "Yes, this works for us. Fatima will coordinate with legal to get the contract reviewed this week."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation and ongoing support?",
+          "answer": "Full implementation support, dedicated CSM, and unlimited technical support. Training for all users included."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Fatima for legal review",
+        "Schedule implementation kickoff pending signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

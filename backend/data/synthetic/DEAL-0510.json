@@ -1,0 +1,326 @@
+{
+  "deal_id": "DEAL-0510",
+  "company": {
+    "name": "SummitAnalytics",
+    "industry": "EdTech",
+    "employee_count": 28,
+    "annual_revenue": 3451164,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3700.0,
+    "seats": 7,
+    "price_per_seat_monthly": 48.33,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 45.7,
+    "sales_cycle_days": 33,
+    "close_date": "2025-02-10",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Isabella Takahashi",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 54
+    },
+    {
+      "name": "Nora Wright",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 25
+    },
+    {
+      "name": "Zara Hassan",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-07",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Isabella Takahashi submitted an inbound demo request form expressing interest in improving CS team efficiency and rep productivity. Brief form fill indicated early-stage interest in automations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to reach out within 24 hours to schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email to Isabella acknowledging the demo request and proposing times for an initial discovery conversation. Isabella responded confirming interest and suggesting availability later in the week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we schedule for Thursday or Friday? Our week is packed.",
+          "answer": "Absolutely, I've sent over a few options for Thursday afternoon."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Rep sent calendar invite confirmation and pre-call questionnaire to help frame the discovery conversation. Isabella confirmed receipt and mentioned she'd loop in technical stakeholders if the initial call goes well.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed for Thursday at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-16",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute discovery call with Isabella covering current CS workflows, pain points around manual reporting and ticket routing, and team size. Isabella expressed strong interest in automations to reduce time spent on repetitive tasks. Discussed potential ROI and use cases specific to EdTech customer onboarding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our current ticketing system?",
+          "answer": "Yes, we have native integrations with most major platforms. I'll confirm your specific setup and send over documentation."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current reporting process look like, and how much time does it take weekly?",
+          "answer": "Manually pulling data from three systems, probably 6-8 hours per week across the team."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 7 seats with standard integrations, typically 2-3 weeks from kickoff to full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Rep to send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-22",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "46-minute product demo with Isabella (originally scheduled earlier but rescheduled due to conflicting customer emergency). Walked through automation workflows, reporting dashboards, and CS-specific use cases. Isabella asked detailed questions about customization and expressed enthusiasm about time savings potential. Mentioned wanting to bring in Nora Wright for executive alignment on budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules based on customer tier?",
+          "answer": "Yes, the automations_plus tier includes full conditional logic and custom rule builders."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include, and is it required?",
+          "answer": "It includes 10 hours of implementation support and best practices workshops. For your use case, I'd strongly recommend it to accelerate time-to-value."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this on your end?",
+          "answer": "I'll need to bring in Nora, our CRO, for final budget approval, and Zara from our ops team for the technical side."
+        }
+      ],
+      "objections": [
+        "Isabella mentioned budget is tight this quarter and they'll need to see a strong ROI case to get executive buy-in."
+      ],
+      "next_steps": [
+        "Rep to send proposal with ROI breakdown",
+        "Isabella to schedule exec meeting with Nora"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.1,
+      "rescheduled": false,
+      "ai_summary": "Rep sent formal proposal email with pricing breakdown for 7 seats on automations_plus_consulting plan, ROI calculator, and case study from similar EdTech company. Isabella responded quickly acknowledging receipt and confirming executive meeting with Nora scheduled for the following week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "The list price seems high for our team size\u2014is there any flexibility here?",
+          "answer": "Let's discuss the business case with Nora and I can work with my leadership on creative packaging if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Nora scheduled for Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-31",
+      "type": "exec_meeting",
+      "duration_minutes": 46,
+      "person_name": "Nora Wright",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "46-minute executive meeting with Nora Wright (CRO) and Isabella. Discussed strategic value, impact on CS efficiency and customer satisfaction metrics, and alignment with SummitAnalytics growth goals. Nora expressed support but raised concerns about upfront cost relative to current budget constraints. Agreed to explore pricing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical discount range for companies at our stage?",
+          "answer": "It varies based on commitment length and use case, but I can work with my team to find a structure that fits your budget."
+        },
+        {
+          "by": "rep",
+          "question": "If we could get this into a range that works, what's your timeline for making a decision?",
+          "answer": "We're planning Q2 initiatives now, so ideally within the next two weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer monthly payment plans instead of annual upfront?",
+          "answer": "We typically do annual contracts, but let me check on quarterly payment terms."
+        }
+      ],
+      "objections": [
+        "Nora noted that the proposed price is nearly double what they budgeted for CS tooling this quarter."
+      ],
+      "next_steps": [
+        "Rep to present revised pricing options",
+        "Schedule pricing call with Isabella"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-05",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute pricing call with Isabella to review revised proposal with significant discount to fit budget constraints. Isabella appreciated the flexibility and confirmed the new number works within their available budget. Discussed payment terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign this week, can we defer the start date to early next month when Zara is back from leave?",
+          "answer": "Absolutely, we can align kickoff with your team's availability."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else blocking your ability to move forward at this price point?",
+          "answer": "Just need final sign-off from Nora, but I'm confident this works. Let me get her confirmation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isabella to confirm with Nora",
+        "Rep to prepare contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-11",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Isabella Takahashi",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute negotiation call with Isabella to finalize contract terms. Discussed quarterly payment structure, implementation start date, and minor adjustments to consulting hours allocation. Isabella confirmed Nora approved and they're ready to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a 30-day cancellation clause in case the integration doesn't work as expected?",
+          "answer": "Our standard terms include a 14-day satisfaction guarantee. I can check on extending that, but let's make sure we scope implementation properly to avoid any issues."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send final contract for signature",
+        "Schedule kickoff call with Zara for early next month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

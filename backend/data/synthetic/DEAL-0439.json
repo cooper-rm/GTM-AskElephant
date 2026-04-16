@@ -1,0 +1,302 @@
+{
+  "deal_id": "DEAL-0439",
+  "company": {
+    "name": "VortexCube",
+    "industry": "Professional Services",
+    "employee_count": 92,
+    "annual_revenue": 12437828,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 10800.0,
+    "seats": 12,
+    "price_per_seat_monthly": 79.35,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 10.8,
+    "sales_cycle_days": 63,
+    "close_date": "2023-05-22",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aria Kapoor",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 49
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.8,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Aria Kapoor introducing our sales-to-CS handoff automation platform. Highlighted pain points around post-sale account transitions and revenue retention. Aria responded positively, expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-20",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute qualification call with Aria Kapoor. Discussed current challenges with sales-to-CS handoffs at VortexCube. Aria mentioned they're evaluating Chorus but looking for broader workflow automation. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at handoff automation now?",
+          "answer": "We're losing context during account transitions. Sales closes deals but CS doesn't have visibility into what was promised. It's causing churn."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Chorus?",
+          "answer": "Chorus focuses on conversation intelligence. We automate the entire handoff workflow - deal notes, commitments, risk flags, automatic CS briefing docs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery meeting invite",
+        "Share one-pager on handoff automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery call calendar invite and use case overview. Aria confirmed availability and asked to include her sales ops lead in the discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our sales ops person in the discovery?",
+          "answer": "Absolutely - the more stakeholders we can involve early, the better."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-07",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute discovery call with Aria. Walked through their current handoff process - manual Slack messages, scattered notes in Salesforce, no standardized briefing for CS. Aria owns the sales team but not CS reporting. Discussed 12-seat deployment for sales team. Sales ops lead did not join the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who on the CS side would need to be involved in evaluating this?",
+          "answer": "Our CS Director reports to the COO. I can loop them in once we see if this fits our workflow."
+        },
+        {
+          "by": "rep",
+          "question": "What does your ideal state look like post-implementation?",
+          "answer": "Every deal that closes has a complete handoff doc auto-generated. CS knows exactly what was sold, who the key contacts are, and any red flags before the kickoff call."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce and our existing call recording tool?",
+          "answer": "Yes - we have native Salesforce integration and can pull transcripts from Chorus or any other recording platform you're using."
+        }
+      ],
+      "objections": [
+        "We're already paying for Chorus - would need to justify another tool to finance"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Send ROI calculator and integration spec sheet"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-18",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "45-minute product demo focusing on sales-to-CS handoff automation. Walked through live example of deal briefing generation, CRM integration, and automated workflows. Aria engaged heavily, asked detailed questions about setup and customization. Expressed concern about getting buy-in from CS leadership and CFO for contract approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For 12 seats with standard Salesforce setup, about 2 weeks from contract signature to launch."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff template fields?",
+          "answer": "Yes - fully customizable. We'll work with you during onboarding to map your ideal handoff format."
+        },
+        {
+          "by": "rep",
+          "question": "Who would need to sign off on a purchase like this at VortexCube?",
+          "answer": "Our CFO approves anything over 10K. I can champion it internally but will need to build a business case."
+        }
+      ],
+      "objections": [
+        "Chorus overlap - need to show clear differentiation to justify both tools"
+      ],
+      "next_steps": [
+        "Send proposal for 12 seats",
+        "Provide case study showing Chorus + our platform working together"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal: $10,800 ACV for 12 seats on unlimited automation plan. Included ROI breakdown and customer reference using both Chorus and our platform. Aria acknowledged receipt and said she's reviewing with her team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up in 3 days if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on proposal status. Aria responded that she's working on internal business case but hasn't yet connected with CS Director or CFO. Mentioned budget cycle pressure and asked if there's flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual price for a multi-year commit?",
+          "answer": "We can explore that - let me discuss with my manager. Would a 2-year agreement be something you could commit to?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Check pricing flexibility internally",
+        "Aria to connect with CFO and CS Director"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming 10% discount available for 2-year contract ($9,720/year). Aria responded positively but said CFO is questioning overlap with Chorus investment. Still no CS Director involvement mentioned.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to address pricing and Chorus concerns"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-24",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Aria Kapoor",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute negotiation call with Aria. Discussed pricing, contract terms, and Chorus differentiation. Aria pushed for deeper discount, settled on original 10% for 1-year agreement. Agreed to move forward with standard terms. Still single-threaded - Aria mentioned she'll 'handle' CFO approval and loop in CS after contract is signed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you go to 15% discount if we sign this week?",
+          "answer": "10% is the best we can do for a 1-year deal. For 15% we'd need a 2-year commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Should we have CS leadership on the contract review before signature?",
+          "answer": "I'll bring them in during implementation. Right now I just need to get this through finance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Aria to route to CFO for approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

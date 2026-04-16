@@ -1,0 +1,308 @@
+{
+  "deal_id": "DEAL-0190",
+  "company": {
+    "name": "PearlStack",
+    "industry": "Marketing Agency",
+    "employee_count": 33,
+    "annual_revenue": 4793153,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 52.5,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 41.0,
+    "sales_cycle_days": 58,
+    "close_date": "2025-12-18",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ivy Oliveira",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-10-13",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Ivy Oliveira at PearlStack. No answer, left voicemail introducing AskElephant's conversation intelligence platform and requesting a brief call to discuss their sales-to-CS handoff challenges.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-15",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after voicemail. Ivy responded expressing interest in learning more about how AskElephant differs from their current evaluation of Gong. She mentioned challenges with post-sale handoffs and information getting lost between teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant handle handoffs between sales and customer success teams compared to Gong?",
+          "answer": "AskElephant automatically generates structured handoff packets with key promises, technical requirements, and customer context extracted from all conversations, while Gong focuses more on sales coaching."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand PearlStack's current process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Qualification email exchange. Ivy confirmed they're a 33-person marketing agency looking to improve consistency in client onboarding. Currently evaluating Gong primarily for sales coaching but interested in handoff automation. She has budget authority for tools under $5k.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had two clients churn in the past quarter due to poor onboarding experiences where commitments made during sales weren't delivered."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery to map current process and pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Discovery email thread. Ivy shared that their sales team uses a mix of Zoom and phone calls, with inconsistent note-taking. She confirmed interest in the unlimited automation tier and mentioned 6 team members who would need access. Asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Most teams our size are up and running within 1-2 weeks, including integrations with your CRM and communication tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-06",
+      "type": "technical_eval",
+      "duration_minutes": 25,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute technical evaluation call with Ivy. Walked through AskElephant's handoff automation features, showed live demo of AI-generated summaries and action item extraction. Ivy was engaged but asked detailed questions about data security and comparing pricing with Gong's quoted proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is conversation data stored and what's your SOC 2 status?",
+          "answer": "All data is encrypted at rest and in transit, stored in US-based AWS servers. We're SOC 2 Type II certified as of last quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "Gong quoted us $8,400 for 6 seats - how does your pricing compare for similar functionality?",
+          "answer": "Our unlimited automation tier is $6,480 annually for 6 seats, and includes handoff automation features that would require Gong's enterprise tier."
+        }
+      ],
+      "objections": [
+        "Concerned about adding another tool when Gong covers sales coaching needs"
+      ],
+      "next_steps": [
+        "Send pricing proposal and ROI calculator",
+        "Ivy to review internally with sales team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo. Ivy confirmed the team liked the handoff features but is being cautious about budget. She asked if there's flexibility on pricing since they're a smaller team. Mentioned the sales team is the primary stakeholder and no exec review needed for this budget range.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $6,480 pricing given our size and budget constraints?",
+          "answer": "Let me connect with our team on what we can do. I'll include some options in the formal proposal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal with pricing options for review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-11-23",
+      "type": "proposal_call",
+      "duration_minutes": 5,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief 5-minute proposal review call. Walked through standard pricing at $6,480 and a discounted option at $3,800 for first-year commitment. Ivy was pleased with the discount option and indicated this would likely work within budget. Call was rushed as she had another meeting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ivy to review numbers with finance",
+        "Aim to finalize by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-29",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute negotiation call focused on finalizing terms. Ivy pushed back on annual commitment, preferring quarterly given it's their first conversation intelligence tool. Also requested additional discount beyond the $3,800 offer. Discussion centered on contract length and payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly billing instead of annual upfront payment?",
+          "answer": "The $3,800 pricing requires annual commitment, but we can do quarterly billing at $1,050 per quarter if that helps with cash flow."
+        },
+        {
+          "by": "rep",
+          "question": "Are you planning to involve your CEO or any other executives in the final decision?",
+          "answer": "No need - I have authority on tools in this price range and the sales team is aligned."
+        }
+      ],
+      "objections": [
+        "Annual payment is steep for a first-time investment in this category",
+        "Still comparing final numbers with Gong's latest offer"
+      ],
+      "next_steps": [
+        "Finalize payment terms and send updated contract",
+        "Ivy to confirm Gong comparison by Tuesday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised contract offering quarterly billing at $3,800 annual total. Ivy acknowledged receipt and said she's waiting on one final piece of information from Gong before making the decision. Requested 48 hours to finalize.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ivy to provide decision by Thursday",
+        "Stand by for any last questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-12-17",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Ivy Oliveira",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute alignment call with Ivy to address final questions before decision. She confirmed the sales team prefers AskElephant's handoff features but wanted to walk through onboarding logistics one more time. Conversation was practical and detail-oriented, focused on implementation steps rather than executive buy-in.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "You'll have a dedicated customer success manager assigned within 24 hours of signing who will guide the full onboarding process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ivy to make final decision and sign contract by end of week",
+        "Implementation kickoff call to follow within 3 business days of signing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "deal_id": "DEAL-0208",
+  "company": {
+    "name": "SentinelStudio",
+    "industry": "Professional Services",
+    "employee_count": 86,
+    "annual_revenue": 14197855,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 71.39,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.8,
+    "sales_cycle_days": 37,
+    "close_date": "2024-11-02",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Aiden Shah",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 6
+    },
+    {
+      "name": "Amelia Okafor",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 38
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-23",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aiden Shah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Aiden Shah submitted an inbound demo request via the website. Form indicated interest in improving forecast accuracy and mentioned they're currently evaluating Clari. No direct conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Aiden"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-26",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Aiden Shah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aiden Shah (Director of Sales). Discussed current forecasting challenges with spreadsheets and lack of pipeline visibility. Aiden confirmed evaluating Clari but concerned about implementation complexity. Mentioned team of 6 reps. No exec involvement mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take compared to Clari?",
+          "answer": "Our unlimited automation tier includes dedicated onboarding support, typically 2-3 weeks vs 6-8 weeks for Clari's enterprise setup"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Right now it's mainly me and Amelia from my team. I'll bring in leadership once I've seen a demo"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo environment access",
+        "Schedule product walkthrough for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aiden Shah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo environment credentials and ROI calculator based on their forecasting accuracy goals. Aiden responded confirming he and Amelia reviewed the platform and are impressed with the automation features. Requested pricing discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk us through pricing for 6 seats with the unlimited automation tier?",
+          "answer": "Absolutely, let's schedule a call to review the proposal and make sure it fits your budget"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule pricing call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-20",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Aiden Shah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Aiden reviewing $5,200 ACV for 6 seats on unlimited automation tier. Aiden appreciates the forecasting dashboards but noted Clari's pricing came in lower. Still no exec sponsor engaged. Discussion focused on ROI and feature differentiation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Clari quoted us about 20% less for similar seat count. What justifies the premium?",
+          "answer": "Our unlimited automation includes AI-powered deal scoring and custom workflow automation that Clari charges extra for. ROI calculator shows 3-month payback on forecast accuracy gains"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your VP or CFO to review the business case together?",
+          "answer": "Let me talk to them first and see if they want to join a follow-up call"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical discount range for deals this size?",
+          "answer": "For Q4 close we have some flexibility. Let me connect with my manager on what we can offer"
+        }
+      ],
+      "objections": [
+        "Pricing higher than Clari's competing offer"
+      ],
+      "next_steps": [
+        "Aiden to brief leadership internally",
+        "Rep to return with discount options",
+        "Target exec call next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-02",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Aiden Shah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended call with Aiden to finalize terms. Aiden confirmed leadership verbally approved but still hasn't joined any calls. Negotiated 15% discount to match competitive pressure from Clari. Aiden committed to pushing paperwork through but flagged procurement review may take 2-3 weeks. Deal advancing but exec validation remains missing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we schedule a quick 15-minute call with your VP to confirm alignment before we send contracts?",
+          "answer": "They're traveling this week but gave me the green light. I can get this signed on my authority up to this amount"
+        },
+        {
+          "by": "prospect",
+          "question": "If we close by end of quarter, can you hold the 15% discount?",
+          "answer": "Yes, we can lock that in with signature by April 30th"
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like, and will Amelia's team get hands-on training?",
+          "answer": "Unlimited tier includes dedicated CSM, live training sessions, and custom playbook setup. Amelia and the whole team get onboarding workshops"
+        }
+      ],
+      "objections": [
+        "Procurement process may delay signature by 2-3 weeks"
+      ],
+      "next_steps": [
+        "Send revised contract with 15% discount",
+        "Aiden to route through procurement and legal",
+        "Schedule implementation kickoff pending signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

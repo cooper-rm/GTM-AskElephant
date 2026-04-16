@@ -1,0 +1,191 @@
+{
+  "deal_id": "DEAL-0399",
+  "company": {
+    "name": "OrbitStudio",
+    "industry": "eCommerce",
+    "employee_count": 66,
+    "annual_revenue": 8716809,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2100.0,
+    "seats": 3,
+    "price_per_seat_monthly": 54.67,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 38.6,
+    "sales_cycle_days": 28,
+    "close_date": "2025-12-07",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sophia Clark",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 26
+    },
+    {
+      "name": "Luna Chen",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-10-13",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Clark",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Sophia Clark introducing AskElephant's onboarding automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-15",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sophia Clark",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 17.9,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent referencing OrbitStudio's growth and eCommerce onboarding challenges. Sophia responded expressing interest in learning more about automation solutions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your approach different from what we've seen with Chorus?",
+          "answer": "We focus specifically on onboarding automation with unlimited workflow capacity, whereas Chorus is primarily conversation intelligence. Happy to show you the difference on a call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-10",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Sophia Clark",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute qualification call with Sophia Clark. Discussed current onboarding pain points and team structure. Sophia manages RevOps but mentioned Account Managers like Luna Chen would be primary users. No executive involvement mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current onboarding process and where it breaks down",
+          "answer": "We're manually sending sequences for each new customer. Takes Luna and the team hours each week. We need something that just runs itself."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Honestly, I can probably make this call with Luna's input. It's within my budget authority."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Include Luna Chen if available"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-23",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Sophia Clark",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute technical evaluation with Sophia. Walked through product capabilities and unlimited automation tier. Sophia compared features heavily to Chorus trial they ran last quarter. Discussed pricing and asked about discounts for faster close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Chorus gave us conversation analytics on top of automation\u2014do you have anything like that?",
+          "answer": "Our focus is pure automation execution. If analytics are critical, we could discuss integrations, but our strength is in the workflow engine itself."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing flexibility if we move quickly?",
+          "answer": "I can work with you on timeline-based incentives. Let me put together a proposal."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to get this in place?",
+          "answer": "We're scaling customer count fast and the manual work is killing us. Need something live by end of quarter."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Chorus for fewer features"
+      ],
+      "next_steps": [
+        "Send proposal with pricing options",
+        "Follow up on decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-12-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Clark",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with proposal sent. Offered 38.6% discount for 3 seats on unlimited automation tier to close by month-end. Sophia confirmed budget approval and readiness to move forward pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with 3 seats and add more later if it works out?",
+          "answer": "Absolutely. The unlimited automation tier scales with you\u2014just seat count changes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 93,
+    "churn_reason": "lack of executive alignment"
+  }
+}

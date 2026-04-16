@@ -1,0 +1,162 @@
+{
+  "deal_id": "DEAL-0788",
+  "company": {
+    "name": "PeakCapital",
+    "industry": "Marketing Agency",
+    "employee_count": 92,
+    "annual_revenue": 11939434,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7900.0,
+    "seats": 9,
+    "price_per_seat_monthly": 69.85,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.5,
+    "sales_cycle_days": 23,
+    "close_date": "2023-09-22",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Hiroshi Torres",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Arjun Phillips",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Torres",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Hiroshi Torres from PeakCapital submitted an inbound request expressing interest in automation tools to improve rep productivity. He mentioned their team of 92 is struggling with manual tasks eating into customer-facing time. Brief initial exchange to understand their workflow and schedule a proper discovery call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What prompted you to reach out today?",
+          "answer": "Our CS team is spending too much time on manual follow-ups and data entry. We need something that can automate the repetitive stuff so our reps can focus on actual customer interactions."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM?",
+          "answer": "Yes, we have native integrations with all major CRMs. I'd love to walk you through exactly how that works in a demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week",
+        "Send overview deck with integration details"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Torres",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming demo scheduled for Thursday. Hiroshi responded quickly asking to include Arjun Phillips from IT to evaluate technical requirements. Confirmed both attendees and shared pre-demo questionnaire to understand their current tech stack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we bring our IT Director to review security and integration requirements?",
+          "answer": "Absolutely, that's actually ideal. I'll make sure to allocate time to cover security protocols and API documentation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Add Arjun Phillips to demo invite",
+        "Share security documentation in advance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Torres",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email. Demo went well with both Hiroshi and Arjun attending. They were particularly interested in the workflow automation features. Hiroshi confirmed they're moving forward and requested pricing for 9 seats. Arjun had some technical questions about data retention that were addressed in the email.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Based on what you saw, does this align with what you're trying to solve?",
+          "answer": "Yes, the automation capabilities are exactly what we need. Send over pricing for 9 seats and we'll review internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule technical Q&A with Arjun if needed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Torres",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation email exchange. Hiroshi mentioned budget constraints and requested a discount to get this approved quickly. Proposed $7,900 ACV (21.5% discount from list) for 9 seats with unlimited automation tier. Hiroshi accepted and said he'll push this through on his authority without needing executive sign-off since it's under his approval threshold.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing? Our budget is tight this quarter.",
+          "answer": "Let me see what I can do. I can offer $7,900 annually if we can close this week. Does that work within your budget?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal at $7,900 ACV",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

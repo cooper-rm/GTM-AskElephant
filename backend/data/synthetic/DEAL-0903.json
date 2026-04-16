@@ -1,0 +1,295 @@
+{
+  "deal_id": "DEAL-0903",
+  "company": {
+    "name": "MaplePulse",
+    "industry": "eCommerce",
+    "employee_count": 34,
+    "annual_revenue": 5354577,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2000,
+    "seats": 3,
+    "price_per_seat_monthly": 52.9,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.6,
+    "sales_cycle_days": 27,
+    "close_date": "2025-07-05",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ava Singh",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 49
+    },
+    {
+      "name": "Penelope Nelson",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-10",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Ava Singh at MaplePulse. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-11",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Ava Singh highlighting call recording and coaching solutions for eCommerce support teams. Ava responded expressing interest in learning more about automation capabilities for her CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform support automated coaching workflows?",
+          "answer": "Yes, our unlimited_automation tier includes automated coaching triggers, scorecards, and feedback loops."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 16.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email providing case study of similar eCommerce company using call recording for CS coaching. Ava confirmed interest and introduced Penelope Nelson from IT to join discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with our existing tools?",
+          "answer": "We integrate with most major CRMs, helpdesks, and communication platforms. Will review your specific stack on the discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up discovery call with Ava and Penelope"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-15",
+      "type": "discovery_call",
+      "duration_minutes": 47,
+      "person_name": "Penelope Nelson",
+      "person_role": "end_user",
+      "person_title": "IT Director",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Penelope Nelson (IT Director) focusing on technical requirements and integration capabilities. Discussed current call recording gaps, team size (3 CS reps), and automation needs. Penelope expressed concerns about implementation timeline and internal IT resources but confirmed technical feasibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 3 seats with unlimited automation, typically 2-3 weeks including integration setup and initial training."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller automation package and upgrade later?",
+          "answer": "Yes, though unlimited automation provides the best ROI for coaching use cases based on similar customers."
+        },
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for call recording?",
+          "answer": "We're using basic Zoom recording but nothing structured for coaching or quality assurance."
+        },
+        {
+          "by": "rep",
+          "question": "Who would own the coaching workflow on your team?",
+          "answer": "That would be Ava and the CS team lead, but I need to ensure IT can support the technical setup."
+        }
+      ],
+      "objections": [
+        "Concerned about limited IT bandwidth for implementation support"
+      ],
+      "next_steps": [
+        "Send technical documentation to Penelope",
+        "Schedule demo with Ava to show coaching workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ava with demo scheduling options and preview of coaching dashboard features. Ava confirmed demo time but requested to reschedule once due to conflicting customer escalation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule demo for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-23",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Product demo with Ava Singh showcasing call recording, automated coaching scorecards, and CS performance analytics. Ava was engaged and asked detailed questions about reporting and team adoption. Noted budget constraints and mentioned needing to keep costs low for initial rollout. No executive sponsor mentioned or invited to the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our specific CS metrics?",
+          "answer": "Absolutely, the platform allows full customization of evaluation criteria and scoring rubrics."
+        },
+        {
+          "by": "prospect",
+          "question": "What does reporting look like for team performance over time?",
+          "answer": "Demonstrated the analytics dashboard showing trend analysis, individual and team benchmarks, and improvement tracking."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for rolling this out to the CS team?",
+          "answer": "Ideally within the next quarter, but we need to work within a tight budget this fiscal year."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the final decision?",
+          "answer": "It's mainly my call for CS tools, though I'll need to run final numbers by our finance team."
+        }
+      ],
+      "objections": [
+        "Budget is constrained for this fiscal year"
+      ],
+      "next_steps": [
+        "Send pricing proposal",
+        "Provide ROI calculator for CS coaching efficiency"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with pricing proposal at $2,000 ACV for 3 seats (40.6% discount applied). Ava responded asking if the discount could be maintained for future renewals and confirmed interest in moving forward pending final pricing discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in for renewals or just year one?",
+          "answer": "This is a first-year discount to help get your team started. Happy to discuss renewal pricing on our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-05",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Ava Singh",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Ava to discuss contract terms and discount structure. Ava negotiated to maintain the 40% discount, citing budget limitations and small team size. Discussed payment terms and implementation start date. Ava committed to moving forward with the deal pending internal finance approval, but noted she's the primary decision-maker for this purchase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can accommodate quarterly payments with a small processing fee. Will include options in the final contract."
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to start implementation?",
+          "answer": "Ideally early next month, once we close out this quarter's planning."
+        },
+        {
+          "by": "rep",
+          "question": "Should we include anyone else from leadership in the contract review?",
+          "answer": "No, I have authority for CS tools under $5K. I'll just need to log it with finance."
+        }
+      ],
+      "objections": [
+        "Requested continuation of 40% discount beyond year one"
+      ],
+      "next_steps": [
+        "Send final contract with quarterly payment terms",
+        "Await finance approval and signature"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

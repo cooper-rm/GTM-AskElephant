@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0634",
+  "company": {
+    "name": "VertexCube",
+    "industry": "eCommerce",
+    "employee_count": 400,
+    "annual_revenue": 39426775,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24900.0,
+    "seats": 30,
+    "price_per_seat_monthly": 71.72,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.4,
+    "sales_cycle_days": 35,
+    "close_date": "2025-02-23",
+    "use_case": "Pipeline visibility",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Elijah Murphy",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 91
+    },
+    {
+      "name": "Cameron Baker",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 14
+    },
+    {
+      "name": "Jessica Jones",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Rowan Hoffmann",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 27
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Elijah Murphy (Head of RevOps) requesting information about pipeline visibility solutions. Currently evaluating alternatives to Clari. Expressed interest in understanding how our platform handles forecasting accuracy and deal inspection for a 30-person sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Clari for pipeline visibility and forecasting?",
+          "answer": "Our platform offers real-time pipeline inspection with AI-driven risk signals and automatic data capture, similar to Clari but with deeper CRM integration and more flexible automation capabilities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study from similar eCommerce company. Elijah confirmed interest and shared that they're struggling with manual pipeline reviews and lack of visibility into rep activity. Agreed to qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples from other eCommerce companies in our size range?",
+          "answer": "Yes, shared case study from mid-market eCommerce client that reduced forecast error by 40% and saved 10 hours/week on pipeline reviews."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Include RevOps-focused materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email with agenda and discovery questions. Elijah responded confirming attendance and mentioned wanting to discuss specific workflow automation capabilities, particularly around activity tracking and deal health scoring.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call on Thursday",
+        "Prepare workflow automation examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-29",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute qualification call with Elijah. Discussed current state: using basic CRM reporting, manual weekly pipeline reviews taking 3-4 hours, limited visibility into rep behaviors. Budget confirmed at ~$25K annually for 30 seats. Timeline: looking to implement within 60 days. Currently also evaluating Clari but concerned about setup complexity and cost.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "CEO pushing for more accurate forecasts after two quarters of significant misses. Need better early warning system for at-risk deals."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Standard implementation is 2-3 weeks with our unlimited automation tier, including custom workflow setup and team training."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation?",
+          "answer": "Elijah mentioned Sales Manager (Jessica Jones) will need to validate technical fit, and AMs Cameron Baker and Rowan Hoffmann as primary end users."
+        }
+      ],
+      "objections": [
+        "Concerned about change management and adoption with the sales team"
+      ],
+      "next_steps": [
+        "Schedule demo with Jessica Jones included",
+        "Send implementation timeline and change management resources"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Demo confirmation email sent to Elijah with calendar invite including Jessica Jones. Shared agenda focusing on pipeline visibility dashboards, AI deal scoring, and automation workflows. Elijah confirmed and asked to ensure the demo covers integration with their existing Salesforce instance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the demo show our specific Salesforce setup or just generic examples?",
+          "answer": "We'll use a sandbox environment configured to match your Salesforce fields and deal stages, showing realistic workflows for your team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct technical demo with Jessica Jones",
+        "Prepare Salesforce-specific integration examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-07",
+      "type": "technical_eval",
+      "duration_minutes": 38,
+      "person_name": "Jessica Jones",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "38-minute technical demo with Jessica Jones (Sales Manager) and Elijah. Walked through pipeline dashboard, AI deal health scoring, activity tracking automation, and Salesforce bi-directional sync. Jessica focused on ease of use for her AMs and asked detailed questions about data accuracy and report customization. Positive response to automation capabilities but noted need to validate with end users Cameron and Rowan.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the AI determine deal health scores - what signals does it use?",
+          "answer": "The model analyzes 40+ signals including engagement frequency, multi-threading, time in stage, email sentiment, meeting attendance, and historical win patterns from similar deals."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the reports and dashboards for different roles?",
+          "answer": "Yes, unlimited automation tier includes full customization - different views for AMs, managers, and executives with role-based permissions."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen with Clari?",
+          "answer": "Jessica noted Clari felt more enterprise-focused and complex, appreciated our cleaner UI and simpler setup, but wants to compare pricing before deciding."
+        }
+      ],
+      "objections": [
+        "Need to validate that AMs will actually use it daily - concerned about adding another tool to their workflow"
+      ],
+      "next_steps": [
+        "Arrange brief session with Cameron and Rowan to show AM view",
+        "Send pricing proposal for 30 seats unlimited automation tier",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Pricing proposal sent to Elijah: $24,900 ACV for 30 seats with unlimited automation tier. Email included ROI breakdown showing estimated 15-hour monthly time savings for RevOps and improved forecast accuracy. Elijah responded that pricing is within budget but needs to discuss with finance and wants to understand implementation support included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of implementation support and training is included at this price point?",
+          "answer": "Includes dedicated implementation specialist, custom workflow configuration, 4 training sessions for different user roles, and 90-day premium support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss contract terms and implementation timeline",
+        "Send implementation plan overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-16",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute negotiation call with Elijah. Discussed contract terms, payment structure, and implementation timeline. Elijah requested quarterly payment option instead of annual upfront and asked about flexibility on user count as team may grow. Also mentioned Clari offered slightly lower pricing but prefers our platform if we can match terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure as quarterly payments with a small processing fee, or offer 5% discount for annual prepayment."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "Need to finalize by end of next week to hit the 60-day implementation target. Waiting on final Clari proposal but leaning toward us if terms work."
+        },
+        {
+          "by": "prospect",
+          "question": "If we add seats mid-contract, how does pricing work?",
+          "answer": "Pro-rated to contract end date, then bundled into renewal. Can also restructure to 35-seat tier now for $27,500 if growth is likely."
+        }
+      ],
+      "objections": [
+        "Clari offered 15% discount - need competitive pricing to get this approved by finance"
+      ],
+      "next_steps": [
+        "Discuss discount options with sales leadership",
+        "Send revised proposal with quarterly payment terms",
+        "Follow up in 2 days with final offer"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-22",
+      "type": "negotiation_call",
+      "duration_minutes": 10,
+      "person_name": "Elijah Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "10-minute follow-up negotiation call. Presented revised offer: $24,900 with quarterly payments (3% processing fee) or $23,700 with annual prepayment (5% discount). Elijah appreciated the flexibility but mentioned he still needs to get exec sign-off and hasn't been able to schedule time with VP Sales yet. Asked for one more week to finalize decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking you from getting exec approval this week?",
+          "answer": "VP Sales is traveling, back next Monday. Elijah feels confident but hasn't formally presented yet since this wasn't originally budgeted for Q2."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elijah to present to VP Sales next week",
+        "Check in after exec meeting",
+        "Offer to join exec presentation if helpful"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

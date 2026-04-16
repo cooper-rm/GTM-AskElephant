@@ -1,0 +1,154 @@
+{
+  "deal_id": "DEAL-0006",
+  "company": {
+    "name": "OrbitalForward",
+    "industry": "SaaS/Tech",
+    "employee_count": 95,
+    "annual_revenue": 19663626,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7300.0,
+    "seats": 9,
+    "price_per_seat_monthly": 71.93,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.2,
+    "sales_cycle_days": 12,
+    "close_date": "2023-08-21",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Sofia Diallo",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sofia Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Sofia Diallo submitted an inbound demo request via the website for OrbitalForward. She mentioned they're looking for a call recording and coaching solution for their growing sales team of 9 reps. Brief form submission with contact details and preferred time slot.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to confirm discovery call scheduled for Thursday at 2pm ET. Sofia responded confirming attendance and mentioned she's excited to see how the platform can help their team improve conversion rates. She noted their reps are remote and coaching has been inconsistent.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot? That's our CRM.",
+          "answer": "Yes, we have a native HubSpot integration that syncs call data and activities automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call Thursday 2pm ET",
+        "Prepare demo focused on coaching workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email sent with pricing proposal for 9 seats on unlimited_automation plan ($7,300 ACV). Sofia replied saying the demo went well and the coaching features are exactly what they need. She asked for a few days to review internally and mentioned she'll need to get budget approval but doesn't anticipate issues.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is onboarding included, or is that an additional cost?",
+          "answer": "Onboarding and training are included at no extra charge for all annual plans."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal review at OrbitalForward",
+        "Follow up early next week for decision"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-20",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Sofia Diallo",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Sofia. She confirmed the team loves the product and wants to move forward. She requested a 15% discount citing budget constraints for Q2, and asked if they could start with 6 seats instead of 9. Rep held firm on pricing but offered flexible payment terms. Sofia agreed to the original 9 seats at full price but requested a 60-day payment window instead of 30. Deal moving to contracts.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add more seats mid-year if we hire additional reps?",
+          "answer": "Absolutely, you can add seats anytime with prorated billing for the remainder of the contract period."
+        },
+        {
+          "by": "rep",
+          "question": "Who else on the leadership team should we loop in before finalizing the contract?",
+          "answer": "Honestly, I have budget authority for this amount, so it's really just me making the call."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than expected for Q2 budget",
+        "Concerned about committing to 9 seats when they might only need 6 initially"
+      ],
+      "next_steps": [
+        "Send updated contract with 60-day payment terms",
+        "Sofia to review and sign by end of week",
+        "Schedule kickoff call for following Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 118,
+    "churn_reason": "lack of executive alignment"
+  }
+}

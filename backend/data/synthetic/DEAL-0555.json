@@ -1,0 +1,310 @@
+{
+  "deal_id": "DEAL-0555",
+  "company": {
+    "name": "TrueHealth",
+    "industry": "Marketing Agency",
+    "employee_count": 29,
+    "annual_revenue": 2971588,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5600.0,
+    "seats": 8,
+    "price_per_seat_monthly": 53.81,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.5,
+    "sales_cycle_days": 40,
+    "close_date": "2025-04-19",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Luna Costa",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 68
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Luna Costa, VP of Customer Success at TrueHealth. She expressed interest in exploring automation tools to improve their sales-to-CS handoff process. Mentioned they're currently doing manual handoffs via spreadsheets and it's causing friction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions for automating customer handoffs between sales and CS teams?",
+          "answer": "Yes, our platform specializes in workflow automation including sales-to-CS transitions. We can schedule a call to understand your specific needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and meeting availability. Luna responded quickly confirming interest and sharing times that work for her team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-15",
+      "type": "follow_up_call",
+      "duration_minutes": 24,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Luna. She walked through TrueHealth's current process - managing 150+ client accounts with manual handoffs causing delays and information loss. Team of 29, looking to scale. She has budget authority for CS tools but mentioned she'd need to loop in leadership for final approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We just lost a client because information didn't transfer properly from sales to CS. Our team is stretched thin and we're planning to grow accounts by 40% this year."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating tools like this?",
+          "answer": "I own the CS stack. I'd probably run the final contract by our CFO but I make the call on what we need."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are up and running within 2-3 weeks with our onboarding team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Luna to share current workflow doc",
+        "Schedule deeper dive on automation capabilities"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-21",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive discovery session. Luna shared detailed workflow documentation and pain points. Discussed specific automation needs: deal data sync, task creation, Slack notifications. She's enthusiastic about the unlimited automation tier. Mentioned they haven't looked at other vendors - found us through a partner referral.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the fields that get passed from sales to CS?",
+          "answer": "Yes, fully customizable. You can map any fields from your CRM and trigger custom workflows based on deal characteristics."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing work - is it per user or per automation?",
+          "answer": "Per user with tiered automation limits. For your use case, the unlimited automation plan at 8 seats would be the best fit."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to have something in place by end of quarter - so within the next 5-6 weeks ideally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo environment",
+        "Send pricing proposal for 8 seats unlimited tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-26",
+      "type": "follow_up_call",
+      "duration_minutes": 27,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review demo environment and answer technical questions. Luna tested the workflow builder and was impressed. Conversation shifted to budget - she mentioned the list price is higher than expected and asked about flexibility. Confirmed she hasn't brought this to her CFO or CEO yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing for a smaller company like us?",
+          "answer": "Let me see what I can do. If you're able to commit before month-end, I can likely work with our team on a discount."
+        },
+        {
+          "by": "rep",
+          "question": "Have you discussed this with your CFO or anyone else on the leadership team?",
+          "answer": "Not yet - I wanted to make sure it was the right fit first. I'll brief them once we have a concrete proposal."
+        }
+      ],
+      "objections": [
+        "Pricing is above initial budget expectations"
+      ],
+      "next_steps": [
+        "Prepare discounted proposal",
+        "Luna to review internally and identify any other stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal email with 39.5% discount bringing ACV to $5,600 for 8 seats with unlimited automation. Emphasized the value of unlimited workflows for their scaling plans and included ROI calculator. Luna responded same day thanking us and said she'd review with her team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount contingent on signing by a specific date?",
+          "answer": "Yes, this pricing is available if we can close by end of month (April 30)."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call",
+        "Luna to discuss with internal team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-06",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Luna. She's aligned on the value and excited to move forward. Confirmed the discounted price works for her budget. However, she mentioned she still needs to get final approval from finance before signing. Asked about contract terms and payment options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual upfront?",
+          "answer": "The discount is structured for annual payment, but we can discuss quarterly if that helps with cash flow."
+        },
+        {
+          "by": "rep",
+          "question": "When do you think you'll have the finance conversation?",
+          "answer": "I'm meeting with our CFO this week. Shouldn't be an issue - this is well within my approved budget range."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for review",
+        "Luna to confirm with CFO by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on CFO approval. Luna responded that the meeting was pushed back a few days. She reassured that there are no concerns, just scheduling conflicts. Reiterated she's committed to moving forward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for CFO meeting confirmation",
+        "Check in early next week if no update"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Second follow-up email as month-end deadline approaches. Luna acknowledged and said she's still working on getting time with finance leadership. She asked if we can extend the discount deadline by a week since internal scheduling is out of her control. Tone remains positive but timeline is slipping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any chance to extend the discount deadline by a week given our internal delays?",
+          "answer": "Let me check with my manager and get back to you tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discount extension approval",
+        "Luna to secure CFO meeting within extended window"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

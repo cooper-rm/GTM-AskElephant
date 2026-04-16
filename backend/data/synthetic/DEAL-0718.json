@@ -1,0 +1,325 @@
+{
+  "deal_id": "DEAL-0718",
+  "company": {
+    "name": "ForgeLogic",
+    "industry": "Professional Services",
+    "employee_count": 629,
+    "annual_revenue": 43880929,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13900.0,
+    "seats": 18,
+    "price_per_seat_monthly": 61.22,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.2,
+    "sales_cycle_days": 47,
+    "close_date": "2025-05-31",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Riley Rogers",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Cameron Hill",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 34
+    },
+    {
+      "name": "Emma Brooks",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 11
+    },
+    {
+      "name": "Luke Fischer",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Riley Rogers submitted inbound demo request via website form. Interest indicated in forecasting accuracy solution for 18-seat deployment. No conversation occurred.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-14",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Riley Rogers (VP of CS). Discussed current forecasting challenges and team size. Riley mentioned they're also evaluating Gong but interested in our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a new forecasting solution right now?",
+          "answer": "Our current manual process is creating too much variability in our revenue predictions. The CS and Sales teams need better visibility."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation tier compare to Gong's analytics features?",
+          "answer": "Our unlimited automation tier includes workflow triggers and custom integrations that go beyond standard analytics - happy to show you specific examples in a demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview",
+        "Include automation tier comparison"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and automation tier feature breakdown. Riley responded positively, requesting to loop in Cameron Hill from RevOps for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our RevOps Analyst in the next conversation?",
+          "answer": "Absolutely - I'll send a calendar invite for a discovery call with you and Cameron."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Riley and Cameron"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call scheduled for next week. Riley confirmed Cameron Hill and Emma Brooks (Sales Manager) will join. No concerns raised.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call with expanded group"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo session (conducted off-platform). Riley confirmed team is impressed with automation workflows. Requested pricing for 18 seats and asked to include Luke Fischer (Sales Manager) in proposal discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical timeline from contract signature to full deployment?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks for your size deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom proposal for 18 seats",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-10",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Riley and Cameron. Walked through $13,900 ACV pricing for unlimited automation tier. Cameron raised questions about integration requirements. Riley mentioned budget approval process will require CFO sign-off but didn't commit to introducing executive sponsor yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations are required for the forecasting automation to work with our Salesforce instance?",
+          "answer": "We have a native Salesforce connector that requires admin permissions for initial setup - typically takes 1-2 hours to configure."
+        },
+        {
+          "by": "rep",
+          "question": "Should we plan to present this proposal to your CFO or finance team directly?",
+          "answer": "I'll handle the internal approvals first and let you know if we need additional meetings."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our use case?",
+          "answer": "Gong typically prices per seat with analytics add-ons. Our unlimited automation tier is designed to be competitive at your seat count with more comprehensive workflow coverage."
+        }
+      ],
+      "objections": [
+        "Pricing seems higher than initially expected for our budget cycle"
+      ],
+      "next_steps": [
+        "Riley to review internally with finance",
+        "Follow up on executive sponsor intro"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-18",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second proposal call with Riley and Luke Fischer. Luke asked detailed technical questions about API limits and data retention. Riley mentioned CFO is concerned about price point compared to Gong's offer. No commitment to executive sponsor involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits on the unlimited automation tier?",
+          "answer": "Unlimited tier has no hard rate limits - we use fair-use throttling that accommodates batch operations and high-frequency workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get more competitive on pricing given we're comparing against Gong's proposal?",
+          "answer": "Let me discuss discount options with leadership and get back to you within 48 hours."
+        }
+      ],
+      "objections": [
+        "Gong's proposal is coming in lower for similar forecasting capabilities"
+      ],
+      "next_steps": [
+        "Discuss discount approval internally",
+        "Riley to confirm final stakeholder list"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised pricing reflecting 31.2% discount to match competitive pressure. Riley acknowledged receipt and said they're discussing internally but mentioned timeline is tighter than expected due to quarter-end budget considerations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule final negotiation call",
+        "Confirm if executive sponsor will join"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-31",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Riley Rogers",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call (originally scheduled for 30min, rescheduled once, ran 24min). Riley confirmed discount is acceptable but still hasn't introduced CFO or executive sponsor. Discussed contract terms and implementation timeline. Riley expressed commitment to move forward but requested flexibility on payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we split payment across two quarters instead of upfront annual?",
+          "answer": "We typically require annual prepayment, but I can explore quarterly billing options with our finance team."
+        },
+        {
+          "by": "rep",
+          "question": "When can we schedule a call with your CFO to finalize terms?",
+          "answer": "I'll need to coordinate that internally - they're traveling this week but should be available next week."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the onboarding support look like for the first 30 days?",
+          "answer": "You'll have a dedicated CSM for the first 60 days plus weekly check-ins during month one."
+        }
+      ],
+      "objections": [
+        "Annual prepayment is difficult with our current budget allocation"
+      ],
+      "next_steps": [
+        "Explore payment term flexibility",
+        "Riley to schedule CFO intro",
+        "Send contract draft"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

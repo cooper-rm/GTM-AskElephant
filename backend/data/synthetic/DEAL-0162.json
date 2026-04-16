@@ -1,0 +1,404 @@
+{
+  "deal_id": "DEAL-0162",
+  "company": {
+    "name": "BeaconCloud",
+    "industry": "Professional Services",
+    "employee_count": 659,
+    "annual_revenue": 90534713,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16100.0,
+    "seats": 21,
+    "price_per_seat_monthly": 66.5,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.3,
+    "sales_cycle_days": 55,
+    "close_date": "2025-02-28",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Elena Sharma",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 6
+    },
+    {
+      "name": "Ryan Osei",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-31",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Elena Sharma at BeaconCloud expressing interest in CRM automation solutions. Contact information captured, initial qualification scheduled.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Elena"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-04",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Elena to understand BeaconCloud's current CRM challenges. Discussed team size (21 sales reps), manual data entry pain points, and desire for automation. Elena mentioned evaluating Fathom as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your team to look at CRM automation right now?",
+          "answer": "Our sales team is spending 3-4 hours per week on manual CRM updates. We need to free them up to focus on selling."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're competitive on pricing and offer more comprehensive automation capabilities. Let's dive deeper into your specific needs on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-11",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to map BeaconCloud's sales workflow and identify automation opportunities. Elena confirmed budget authority for her department and 6-week decision timeline. Team currently using Salesforce.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current post-call workflow for your sales team.",
+          "answer": "Reps take notes during calls, then manually enter key points into Salesforce. It's inconsistent and time-consuming."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need buy-in from Ryan Osei, one of our Sales Managers. He's the main end user. I can drive this forward from my side."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with technical deep-dive",
+        "Include Ryan if available"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-17",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on BeaconCloud's sales process, integration requirements with Salesforce, and success metrics. Elena shared that accurate pipeline forecasting is a major pain point due to incomplete CRM data. Discussed unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you 90 days after implementation?",
+          "answer": "100% of our calls automatically logged with key details captured. Sales managers can trust pipeline data for forecasting."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you handle integrations beyond just Salesforce? We use Slack and our own custom tools.",
+          "answer": "Yes, we support Slack notifications and have API capabilities for custom integrations. We can discuss specific requirements."
+        },
+        {
+          "by": "rep",
+          "question": "Have you calculated the ROI of saving those 3-4 hours per rep per week?",
+          "answer": "Roughly $40K annually in productivity gains, plus better win rates from accurate data. That's our internal justification."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add complexity to the rep workflow"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare integration requirements doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-23",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Elena demonstrating core platform capabilities. Walked through call recording, AI summarization, automatic field mapping to Salesforce, and analytics dashboard. Elena tested the system with sample calls and confirmed it meets technical requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How accurate is the AI at picking up technical terms specific to our industry?",
+          "answer": "Our models are trained on B2B conversations and learn from corrections. Accuracy typically exceeds 95% after initial calibration period."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the setup timeline? We want this running by end of quarter.",
+          "answer": "Standard implementation is 2-3 weeks including Salesforce integration and team training. That fits your timeline."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about security or data privacy with call recordings?",
+          "answer": "We'll need to review compliance requirements. Our legal team will want to see SOC 2 documentation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule live demo for Elena and Ryan",
+        "Share security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-30",
+      "type": "demo",
+      "duration_minutes": 56,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo for Elena showcasing end-to-end workflow from call recording through CRM automation. Demonstrated competitor differentiation vs Fathom (unlimited automation, advanced analytics). Elena confirmed strong interest and requested formal proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom quoted us a lower price for their basic tier. What's the value of unlimited automation?",
+          "answer": "Fathom caps automations which creates bottlenecks as you scale. With 21 reps, you'll hit limits quickly. Our unlimited tier gives you room to grow."
+        },
+        {
+          "by": "rep",
+          "question": "Is Ryan able to join this call or provide feedback on the demo?",
+          "answer": "He's tied up today but I can represent the team's needs. I'll brief him separately."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a pilot before full rollout?",
+          "answer": "We can structure this as a 21-seat license with phased onboarding if that reduces risk for you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 21 seats, unlimited automation tier",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-03",
+      "type": "proposal_call",
+      "duration_minutes": 30,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Elena. Presented $16,100 ACV for 21 seats with unlimited automation tier. Elena requested discount to match Fathom's competitive pricing and align with remaining budget for the fiscal year.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you sharpen your pencil on pricing? Fathom is coming in lower and we have budget constraints this quarter.",
+          "answer": "Let me take this back to leadership. What's the target number you're working with?"
+        },
+        {
+          "by": "rep",
+          "question": "If we can meet on price, are there any other blockers to moving forward?",
+          "answer": "No, pricing is the main issue. I'm ready to move once we align there."
+        }
+      ],
+      "objections": [
+        "Pricing needs to be more competitive with Fathom"
+      ],
+      "next_steps": [
+        "Review discount approval internally",
+        "Follow up with revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-09",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call presenting revised pricing with 25.3% discount to match budget and win vs Fathom. Elena appreciated the flexibility and committed to internal review with finance and Ryan.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing works. What's required from our side to finalize?",
+          "answer": "We'll need final approval from your finance team and legal review of the MSA. I can support with any questions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to review with finance and Ryan",
+        "Schedule exec alignment call if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on internal review process. Shared case study from similar professional services company. Requested update on timeline and next steps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any feedback from Ryan or finance on the revised proposal?",
+          "answer": "Still gathering feedback internally. Should have update by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for Elena's internal review update"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-02-17",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec alignment call with Elena to discuss final terms. Elena confirmed Ryan is supportive. Asked about payment terms flexibility (quarterly vs annual). No executive sponsor from BeaconCloud side joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Our standard terms are annual, but let me check if we can accommodate quarterly billing at this price point."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm payment terms options",
+        "Schedule final alignment call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-03-01",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Elena Sharma",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Elena to close on terms. Agreed to quarterly payment structure with annual contract commitment. Elena confirmed she has approval to proceed and will route contract to legal. No VP or C-level involvement secured. Target close date end of this week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we loop in your VP or CFO for final sign-off given the contract value?",
+          "answer": "I have delegated authority for this purchase. I'll handle internal approvals and get this to legal."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard contract length? Can we negotiate annual renewal terms?",
+          "answer": "Standard is 12-month term with annual renewal. We can discuss renewal pricing closer to that date."
+        },
+        {
+          "by": "rep",
+          "question": "Any other concerns before we finalize?",
+          "answer": "No concerns. Let's get the paperwork moving."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final MSA for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

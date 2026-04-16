@@ -1,0 +1,605 @@
+{
+  "deal_id": "DEAL-0725",
+  "company": {
+    "name": "IonLogic",
+    "industry": "SaaS/Tech",
+    "employee_count": 900,
+    "annual_revenue": 54000000,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17800.0,
+    "seats": 25,
+    "price_per_seat_monthly": 60.37,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.2,
+    "sales_cycle_days": 73,
+    "close_date": "2024-06-17",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Taylor Singh",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 17
+    },
+    {
+      "name": "Finn Mensah",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    },
+    {
+      "name": "Abigail Brooks",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-21",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message to Taylor Singh introducing our automation platform as a solution for sales-to-CS handoff challenges. Taylor responded expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-05",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute qualification call with Taylor Singh. Discussed current pain points with manual handoffs between sales and customer success teams. Taylor confirmed budget authority and timeline for Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're scaling fast and manual handoffs are causing customer onboarding delays"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks depending on integrations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and case study focused on sales-to-CS automation. Taylor confirmed receipt and interest in deeper discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customers in our industry vertical?",
+          "answer": "Yes, included three SaaS case studies in the deck"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review materials",
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.4,
+      "rescheduled": false,
+      "ai_summary": "Check-in email regarding discovery call scheduling. Taylor responded with availability for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lock in discovery call for Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Calendar invite sent for discovery call with prep questions. Taylor accepted and mentioned bringing technical questions about integrations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare integration documentation",
+        "Discovery call confirmed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-23",
+      "type": "discovery_call",
+      "duration_minutes": 15,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute discovery call with Taylor Singh. Deep dive into current handoff workflow, pain points with manual processes, and technical requirements. Taylor mentioned evaluating Fireflies as an alternative. Discussed integration needs with Salesforce and HubSpot.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales-to-CS handoff process",
+          "answer": "Reps manually fill out forms, CS team often missing context, leads to customer confusion"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Zero manual handoff tasks, CS has full context from sales calls automatically"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies?",
+          "answer": "We focus specifically on workflow automation, not just transcription"
+        }
+      ],
+      "objections": [
+        "Currently looking at Fireflies which is lower cost"
+      ],
+      "next_steps": [
+        "Send ROI comparison vs Fireflies",
+        "Schedule demo with use case scenarios"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with ROI calculator comparing our automation capabilities vs Fireflies transcription-only approach. Emphasized time savings from automated workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review ROI materials",
+        "Confirm demo attendance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.2,
+      "rescheduled": false,
+      "ai_summary": "Demo confirmation email sent with agenda focused on sales-to-CS handoff automation. Requested Taylor invite relevant stakeholders. Taylor confirmed but mentioned demo would need to be rescheduled due to conflict.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we reschedule the demo to next week?",
+          "answer": "Yes, sent new time options"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule demo",
+        "Identify additional attendees"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-05",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "48-minute product demo with Taylor Singh. Walked through live sales-to-CS handoff automation, Salesforce integration, and custom workflow builder. Taylor engaged heavily with questions about customization and scalability for 25 users.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation workflows for different product lines?",
+          "answer": "Yes, unlimited automation workflows included in this tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in the Salesforce integration setup?",
+          "answer": "Pre-built connector, typically 2-3 days for full configuration"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluation from your side?",
+          "answer": "Will need to loop in Finn from procurement and Abigail from IT"
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Fireflies"
+      ],
+      "next_steps": [
+        "Send demo recording",
+        "Intro to Finn and Abigail",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up with recording and comparison document addressing Fireflies pricing question. Highlighted automation ROI vs basic transcription.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Internal review with stakeholders",
+        "Schedule follow-up"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Email checking in on stakeholder review and offering to meet with Finn and Abigail. Taylor responded that they're moving forward and ready to discuss proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you join our internal review meeting next week?",
+          "answer": "Absolutely, sent availability"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Join internal review meeting",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-19",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute executive meeting with Taylor Singh to present formal proposal. Discussed 25-seat deployment, unlimited automation tier, implementation timeline. Taylor appreciated the proposal but noted no executive sponsor has been engaged yet on their side.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who will be the executive sponsor for this initiative?",
+          "answer": "Still working on getting VP Sales buy-in, currently just my authority"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the payment structure?",
+          "answer": "Annual prepay with quarterly payment option available"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Hoping to close by end of quarter"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Taylor to socialize with VP Sales",
+        "Follow up on executive engagement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email offering to present to VP Sales or other executives to help build internal business case. Taylor acknowledged but no commitment on executive meeting yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for executive sponsor engagement",
+        "Prepare executive briefing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-05-30",
+      "type": "exec_meeting",
+      "duration_minutes": 44,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "44-minute meeting with Taylor Singh to refine proposal terms. Still no executive sponsor engaged. Taylor mentioned procurement (Finn) will be involved in final negotiations. Discussed security review with IT Director Abigail.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can Finn from procurement join the pricing discussion?",
+          "answer": "Yes, let's get him on the next call"
+        },
+        {
+          "by": "rep",
+          "question": "Has Abigail started the security review?",
+          "answer": "She's reviewing our SOC 2 documentation now"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given we're comparing to Fireflies?",
+          "answer": "Let's discuss specific pricing on a dedicated call"
+        }
+      ],
+      "objections": [
+        "Budget is tight, Fireflies is significantly cheaper"
+      ],
+      "next_steps": [
+        "Schedule pricing call with Finn",
+        "Complete security review with Abigail"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-02",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute pricing call with Taylor Singh focused on budget constraints and competitive pricing pressure from Fireflies. Discussed potential discount to close the gap while maintaining value differentiation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for 25 seats?",
+          "answer": "Working on a competitive package, need to understand your budget constraints"
+        },
+        {
+          "by": "rep",
+          "question": "What's Fireflies offering you?",
+          "answer": "About 40% less but lacks the automation workflows we need"
+        }
+      ],
+      "objections": [
+        "Need to hit a lower price point to get this approved"
+      ],
+      "next_steps": [
+        "Prepare discounted proposal",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-07",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute negotiation call with Taylor Singh. Discussed revised pricing at $17,800 ACV (32% discount from list) to address budget concerns while competing with Fireflies. Taylor appreciative but still concerned about lack of executive sponsorship for final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get this to $15,000?",
+          "answer": "$17,800 is the floor given the automation capabilities included"
+        },
+        {
+          "by": "rep",
+          "question": "Can we schedule time with your VP Sales to get executive buy-in?",
+          "answer": "I'll try but they're hard to pin down"
+        }
+      ],
+      "objections": [
+        "VP Sales still not engaged, may be a blocker"
+      ],
+      "next_steps": [
+        "Send revised proposal at $17,800",
+        "Push for executive meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-06-12",
+      "type": "exec_meeting",
+      "duration_minutes": 52,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "52-minute executive strategy meeting with Taylor Singh to address final concerns and close the deal. Discussed implementation plan, success metrics, and quarterly business review cadence. Taylor committed to pushing for internal approval despite no VP Sales engagement yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your confidence level on getting this approved without VP Sales sign-off?",
+          "answer": "About 70% - I have budget authority but it's a stretch"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual prepay?",
+          "answer": "Annual prepay is required for this discount level"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a definitive yes for you?",
+          "answer": "The $17,800 pricing works if I can get informal VP nod"
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation if approved?",
+          "answer": "Onboarding can begin within 5 business days of contract signature"
+        }
+      ],
+      "objections": [
+        "Annual prepay is a big commitment without exec sponsor"
+      ],
+      "next_steps": [
+        "Taylor to get informal VP approval",
+        "Final pricing call with Finn"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-06-15",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Taylor Singh",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute final pricing call with Taylor Singh and Finn Mensah from procurement. Confirmed $17,800 ACV for 25 seats with unlimited automation. Finn raised questions about contract terms and payment schedule. Taylor indicated they're ready to move forward pending final legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the auto-renewal clause?",
+          "answer": "12-month term with 60-day cancellation notice"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add a performance SLA?",
+          "answer": "99.5% uptime SLA is standard, included in contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

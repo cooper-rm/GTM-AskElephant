@@ -1,0 +1,418 @@
+{
+  "deal_id": "DEAL-0764",
+  "company": {
+    "name": "WillowLabs",
+    "industry": "Healthcare IT",
+    "employee_count": 72,
+    "annual_revenue": 9272480,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 58.45,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.3,
+    "sales_cycle_days": 54,
+    "close_date": "2024-07-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rosa Perez",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 16
+    },
+    {
+      "name": "Riley Young",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-11",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Rosa Perez at WillowLabs. No answer, left voicemail introducing AskElephant and mentioning challenges with sales-to-CS handoff visibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up via LinkedIn"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-12",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Rosa Perez highlighting common pain points in healthcare IT around customer onboarding visibility. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Attempt another call next week"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-20",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Rosa Perez. She expressed frustration with current manual handoff process between sales and CS teams. Discussed team size (6 customer-facing seats) and automation needs. Rosa confirmed budget authority within CS but mentioned IT Director Riley Young would need to review technical requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for handing off deals from sales to customer success?",
+          "answer": "Mostly manual - sales sends an email summary, sometimes we get call recordings, but there's no structured system. We lose context constantly."
+        },
+        {
+          "by": "rep",
+          "question": "How many seats would need access to this type of platform?",
+          "answer": "Probably 6 - our CS team plus a couple sales managers who stay involved post-sale."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant handle HIPAA compliance for healthcare companies?",
+          "answer": "We're fully HIPAA compliant with BAA available. All data encrypted at rest and in transit, with audit logging built in."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send HIPAA compliance documentation",
+        "Schedule discovery call to map current workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-21",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Rosa to confirm receipt of HIPAA docs and schedule deeper discovery session. She mentioned they're also looking at Clari but likes AskElephant's focus on handoff automation specifically.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're typically more accessible for SMB healthcare companies. I'll put together specific pricing for your use case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-26",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call continued. Rosa walked through their current tech stack and integration requirements. Confirmed Salesforce as CRM and need for Slack notifications. Discussed timeline - they want something in place before Q3 starts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What integrations are must-haves for your team?",
+          "answer": "Salesforce definitely, and Slack for notifications. We also use Gong for call recording."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the timeline?",
+          "answer": "We're hiring 3 new CS reps in Q3 and want a proper system in place before they start."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we try this with a subset of deals first or is it all-or-nothing?",
+          "answer": "You can start with specific deal types or team members and expand from there. Fully flexible rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Riley Young for technical review",
+        "Prepare demo focused on Salesforce integration"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-03",
+      "type": "discovery_call",
+      "duration_minutes": 36,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Rosa mapping current workflow pain points. Identified key gaps: lack of structured deal context during handoff, no visibility into customer expectations set during sales cycle, and difficulty tracking which automation rules were promised. Rosa emphasized need for unlimited automation given their complex customer segments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happens when context gets lost during handoff today?",
+          "answer": "CS has to re-ask questions the prospect already answered. Makes us look disorganized and delays time-to-value."
+        },
+        {
+          "by": "rep",
+          "question": "How many different customer segments or deal types do you manage?",
+          "answer": "We have about 8 different healthcare verticals - hospitals, clinics, labs, etc. Each needs different onboarding automation."
+        },
+        {
+          "by": "prospect",
+          "question": "How much setup work is required on our end?",
+          "answer": "Initial setup takes 2-3 hours with our team, then Riley's team would handle ongoing automation rules. We provide templates for healthcare companies."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we need to customize the automation logic significantly?",
+          "answer": "Unlimited automation tier gives you full flexibility - custom rules, conditional logic, API access if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Rosa and Riley",
+        "Prepare healthcare-specific use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-10",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Rosa Perez and Riley Young. Walked through Salesforce integration, automation rule builder, and handoff workflow templates. Riley asked detailed technical questions about data security and API rate limits. Rosa loved the visual workflow builder. Riley seemed cautious about implementation timeline and requested technical documentation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Riley, what's your main concern from a technical standpoint?",
+          "answer": "Making sure this doesn't create another data silo and that our IT team can maintain it without constant vendor support."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit and how do you handle large data syncs?",
+          "answer": "10,000 calls per hour default, with burst capacity. Large syncs are batched overnight. We can increase limits for enterprise needs."
+        },
+        {
+          "by": "prospect",
+          "question": "Who handles updates and maintenance on your side?",
+          "answer": "Fully managed service - updates are automatic, zero downtime. We maintain all infrastructure."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to building automation directly in Salesforce Flow?",
+          "answer": "You could build some of this in Flow, but our AI call summarization and cross-platform context tracking would require custom development. We're purpose-built for handoff automation."
+        }
+      ],
+      "objections": [
+        "Riley expressed concern about implementation bandwidth given other IT projects in flight"
+      ],
+      "next_steps": [
+        "Send technical documentation to Riley",
+        "Prepare proposal with 6 seats and unlimited automation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-18",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Rosa. Presented $6,700 list price for 6 seats with unlimited automation. Rosa expressed concern about budget and mentioned Clari came in lower. Discussed value differentiation around healthcare-specific features and handoff focus vs. general revenue intelligence. Rosa asked about discount flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you help me understand why the price is higher than Clari's quote?",
+          "answer": "Clari is focused on forecasting and revenue intelligence. We're specialized for handoff automation with healthcare compliance built in. Different tools for different problems."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're a smaller healthcare company?",
+          "answer": "Let me see what I can do. What budget range were you targeting?"
+        }
+      ],
+      "objections": [
+        "Price higher than expected compared to Clari alternative"
+      ],
+      "next_steps": [
+        "Check on discount approval for healthcare segment",
+        "Follow up with revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-26",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal follow-up call. Presented revised pricing at $4,400 ACV (34% discount) to match budget constraints. Rosa appreciated the flexibility and confirmed this fits their budget. Mentioned she still needs to get Riley's final technical sign-off and ideally would want an executive sponsor to review before final approval, but timeline is tight.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in final approval?",
+          "answer": "Riley needs to confirm he's comfortable, and ideally our VP of Ops would review, but she's been hard to schedule. I might just move forward with Riley's approval."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the onboarding and how long does it typically take?",
+          "answer": "2-week onboarding - first week is setup and integration, second week is training and automation configuration. We assign a dedicated CSM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get Riley's technical approval",
+        "Send contract for legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-07-06",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting scheduled but VP of Ops didn't attend - only Rosa and Riley present. Riley confirmed technical requirements are met and he's comfortable moving forward. Rosa pushed to close before end of quarter to hit Q3 onboarding timeline. Discussed contract terms and payment structure.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we reschedule to include your VP of Ops?",
+          "answer": "She's traveling for the next two weeks. Riley and I have authority to move forward - we just need to finalize terms."
+        },
+        {
+          "by": "prospect",
+          "question": "What payment terms are standard?",
+          "answer": "Annual payment upfront is standard, but we can do quarterly if needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-year?",
+          "answer": "You can add seats anytime - we prorate the cost for the remaining contract period and true up at renewal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract terms",
+        "Legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-07-12",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Rosa Perez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms finalization call with Rosa and Riley. Confirmed $4,400 ACV, 6 seats, unlimited automation, annual payment with quarterly invoicing option. Riley asked about renewal terms and auto-renewal clauses. Rosa confirmed they're ready to proceed pending standard legal review. Both seemed satisfied with final terms but noted the discount was necessary to fit budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the renewal terms and is there auto-renewal?",
+          "answer": "One-year term with 30-day notice required to cancel. Renewal at then-current pricing unless we agree otherwise."
+        },
+        {
+          "by": "prospect",
+          "question": "Will this discounted rate carry forward at renewal?",
+          "answer": "Renewal pricing is typically list price, but we evaluate based on usage and expansion. If you expand seats or referrals, we can definitely work with you."
+        }
+      ],
+      "objections": [
+        "Concern about losing discount at renewal"
+      ],
+      "next_steps": [
+        "Send final contract to legal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

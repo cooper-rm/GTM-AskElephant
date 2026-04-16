@@ -1,0 +1,324 @@
+{
+  "deal_id": "DEAL-0276",
+  "company": {
+    "name": "QuantumGroup",
+    "industry": "PropTech",
+    "employee_count": 437,
+    "annual_revenue": 26220000,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24000.0,
+    "seats": 34,
+    "price_per_seat_monthly": 57.93,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 34.9,
+    "sales_cycle_days": 61,
+    "close_date": "2023-03-16",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Omar Suzuki",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 36
+    },
+    {
+      "name": "Ravi Kapoor",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Omar Suzuki expressing interest in improving pipeline visibility for their sales team. Initial outreach captured, no detailed conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Omar"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-14",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Omar covering current pain points around sales forecasting accuracy and lack of real-time pipeline insights. Omar mentioned team struggles with spreadsheet-based tracking across 30+ sales reps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better pipeline visibility right now?",
+          "answer": "Our forecasting has been off by 20-30% each quarter, and leadership is pushing for more predictable revenue planning"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule discovery call to dive deeper into requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-22",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call exploring QuantumGroup's current tech stack, team structure, and specific automation needs. Omar shared that they're evaluating workflow automation to reduce manual data entry for their sales and ops teams. Discussed use cases around deal scoring and automated alerts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales workflow from lead to close",
+          "answer": "Leads come through our website and referrals, reps manually qualify in Salesforce, then it's a lot of back-and-forth on email and calls with no structured process"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Probably Ravi from procurement eventually, but I can drive this internally for now"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules based on our deal stages?",
+          "answer": "Absolutely, the platform is fully configurable to match your sales process"
+        }
+      ],
+      "objections": [
+        "We tried another tool last year and adoption was terrible, how do you handle change management?"
+      ],
+      "next_steps": [
+        "Prepare custom demo showing pipeline visibility dashboards",
+        "Share case study from similar PropTech company"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-31",
+      "type": "follow_up_call",
+      "duration_minutes": 7,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to address questions about implementation timeline and consulting services. Omar confirmed budget approval is in progress and wants to move quickly, targeting rollout before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 34 seats with consulting, we typically complete setup in 3-4 weeks including training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Draft proposal with automations plus consulting package",
+        "Include implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with custom proposal deck outlining recommended package: automations plus consulting for 34 seats at $24K ACV. Included ROI calculator and implementation roadmap. Omar responded same day requesting minor adjustments to scope.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we phase the consulting hours over two quarters instead of all upfront?",
+          "answer": "Yes, we can structure the consulting as 50% in Q1 and 50% in Q2"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise proposal with phased consulting",
+        "Schedule next call to review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised proposal reflecting phased consulting approach. Omar acknowledged receipt and mentioned he's working on getting executive alignment but noted some internal budget discussions happening. Tone remained positive but introduced slight uncertainty around timing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Omar to confirm exec meeting availability",
+        "Prepare exec-level business case materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-26",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Omar present, but no C-level attendees joined. Omar explained VP of Sales had a conflict and asked to reschedule the exec portion. Discussion focused on technical requirements and Omar reiterated strong interest, but lack of executive sponsor engagement noted.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the best way to get time with your VP of Sales or another exec sponsor?",
+          "answer": "They're slammed this month, but I can champion this internally and keep you updated"
+        },
+        {
+          "by": "prospect",
+          "question": "If we move forward, can we start with a smaller pilot first?",
+          "answer": "Our minimum is 20 seats, but we can discuss a phased rollout approach within your 34-seat commitment"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting with VP of Sales",
+        "Omar to socialize proposal internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-08",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled executive meeting (second attempt). Omar joined along with Ravi from procurement. Still no VP of Sales. Ravi raised pricing concerns and pushed back on list price, citing budget constraints. Omar remained supportive but deferred to Ravi on commercial terms. Pricing negotiation now required.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer given our budget limitations?",
+          "answer": "We can work within your budget, let me put together some options"
+        },
+        {
+          "by": "rep",
+          "question": "What's your target budget for this initiative?",
+          "answer": "We were hoping to stay around $15-16K annually"
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any additional fees we should know about?",
+          "answer": "No hidden fees, the ACV includes platform access, consulting hours, and standard support"
+        }
+      ],
+      "objections": [
+        "The pricing feels high compared to what we budgeted for this type of tool"
+      ],
+      "next_steps": [
+        "Prepare revised pricing with discount options",
+        "Schedule pricing call with Ravi and Omar"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-16",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Omar Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Ravi and Omar. Discussed discount scenarios and landed on 34.9% discount bringing ACV to $24K (down from ~$37K list). Ravi accepted pending final internal approval. Omar confirmed strong business case but mentioned procurement needs one week for final sign-off. No executive sponsor ever engaged in process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you hold this pricing if we need an extra week for approvals?",
+          "answer": "Yes, we can hold this pricing through end of month"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else needed from our side to help get this across the line?",
+          "answer": "No, we just need to run it through our standard procurement review, should be straightforward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Ravi to route through procurement",
+        "Target signature within 7 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

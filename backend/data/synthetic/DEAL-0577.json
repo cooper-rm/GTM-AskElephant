@@ -1,0 +1,229 @@
+{
+  "deal_id": "DEAL-0577",
+  "company": {
+    "name": "HarborSystems",
+    "industry": "eCommerce",
+    "employee_count": 94,
+    "annual_revenue": 15043424,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 8,
+    "price_per_seat_monthly": 75.3,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 15.4,
+    "sales_cycle_days": 26,
+    "close_date": "2023-11-04",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "James Sanchez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from James Sanchez at HarborSystems inquiring about onboarding automation capabilities. Brief form submission expressing interest in streamlining new hire onboarding workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-09",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with James Sanchez covering current onboarding pain points and team structure. HarborSystems currently manual process, evaluating automation tools. James mentioned they're also looking at Fireflies but prefers our consulting approach. Discussed 8-seat deployment for sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for onboarding automation right now?",
+          "answer": "We've scaled from 40 to 94 employees in 18 months and onboarding is completely manual. Sales team spends 2-3 days per new rep just on admin."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your consulting package work compared to Fireflies?",
+          "answer": "We provide hands-on implementation support and custom workflow design, not just software. Fireflies is self-serve."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questions",
+        "Schedule technical demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery questions and calendar link for demo. James responded confirming demo time and answering workflow questions. Mentioned his VP is interested but hasn't committed to attending yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can the system integrate with our existing Salesforce setup?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo",
+        "Attempt to include VP in proposal call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-22",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with James covering pricing and implementation timeline. Discussed $6,700 ACV for 8 seats with automations plus consulting package. James engaged but mentioned needing to review budget. No other stakeholders joined despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline with the consulting package?",
+          "answer": "4-6 weeks for full deployment, with first workflows live in week 2."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "My VP of Sales should probably weigh in, but I can likely move forward independently for this budget level."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies for similar functionality?",
+          "answer": "Fireflies is lower on software cost, but our consulting package delivers faster ROI and handles custom workflows they don't support."
+        }
+      ],
+      "objections": [
+        "Need to confirm budget availability for this quarter"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule follow-up for Q&A"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-26",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled proposal review call with James. Discussed contract terms and implementation scope. James asked about discount options and payment flexibility. Noted that VP still hasn't reviewed but James feels confident moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual pricing if we commit to a longer term?",
+          "answer": "We can discuss multi-year options, but the 8-seat tier is already our best rate for annual commit."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule time with your VP before finalizing?",
+          "answer": "I'll loop her in via email. She trusts my judgment on tools in this range."
+        }
+      ],
+      "objections": [
+        "Pricing is slightly higher than internal budget estimate"
+      ],
+      "next_steps": [
+        "Revise proposal with payment terms",
+        "Get VP acknowledgment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-06",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "James Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with James and brief appearance from VP. Reviewed final terms and implementation plan. VP expressed support but limited involvement. James confirmed budget approval and readiness to proceed pending legal review of contract.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any outstanding concerns from the executive team before we finalize?",
+          "answer": "No major concerns. VP confirmed budget is approved, just need legal to review MSA."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical contract turnaround time from legal?",
+          "answer": "Usually 5-7 business days for standard agreements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send MSA to legal contact",
+        "Schedule kickoff call for post-signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

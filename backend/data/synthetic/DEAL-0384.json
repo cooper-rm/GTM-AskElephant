@@ -1,0 +1,169 @@
+{
+  "deal_id": "DEAL-0384",
+  "company": {
+    "name": "BoldAxis",
+    "industry": "eCommerce",
+    "employee_count": 95,
+    "annual_revenue": 12180720,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2500.0,
+    "seats": 3,
+    "price_per_seat_monthly": 66.22,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.6,
+    "sales_cycle_days": 13,
+    "close_date": "2024-11-19",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Aria Turner",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Aria Turner at BoldAxis regarding automation for sales-to-CS handoff. Expressed frustration with current manual process causing customer context loss. Mentioned currently exploring Fireflies. Brief exchange to schedule qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform capture sales call context and automatically surface it for the CS team during onboarding?",
+          "answer": "Yes, we automatically extract key details from sales conversations and create structured handoff summaries that integrate directly into your CS workflow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-06",
+      "type": "qualification_call",
+      "duration_minutes": 5,
+      "person_name": "Aria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "5-minute qualification call with Aria Turner. Confirmed pain point: CS team receiving customers without context from sales conversations, leading to poor onboarding experience. BoldAxis has 95 employees, 3 CS reps handling handoffs. Currently testing Fireflies but finding it too generic. Aria is Director of CS, owns the buying decision for CS tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We just lost a customer who cited poor onboarding experience. They felt like they had to repeat everything they told sales."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies for our team size?",
+          "answer": "For 3 seats with automation features, we're in a similar range but offer deeper CS-specific workflows that Fireflies doesn't have."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case overview focused on sales-to-CS handoff",
+        "Aria to review with CS team",
+        "Schedule demo for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 12.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study on sales-to-CS handoff automation and pricing proposal for 3 seats. Aria responded positively, confirmed interest and asked about implementation timeline. Mentioned that Fireflies demo left her team underwhelmed. Requested meeting to discuss contract terms and get started before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 1-2 weeks for initial setup and integration with your CRM, then we provide onboarding support for your CS team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule contract discussion meeting",
+        "Prepare pricing proposal with implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-19",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Aria Turner",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "42-minute meeting with Aria Turner to finalize terms. Aria expressed strong interest and urgency to close before quarter-end. Requested 25% discount citing budget constraints and competitive pricing from Fireflies. No other executives joined the call. Discussed implementation plan and confirmed 3-seat automations package with consulting add-on. Agreed to discount in exchange for case study participation. Aria committed to getting contract signed by week's end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk me through what the consulting package includes beyond the standard automation features?",
+          "answer": "The consulting package includes 10 hours of dedicated CS workflow design, custom playbook templates, and quarterly optimization reviews with our team."
+        },
+        {
+          "by": "rep",
+          "question": "Will you need to involve your CFO or CEO in the final approval process?",
+          "answer": "No, I have budget authority for CS tools up to $5K. I can sign off on this myself."
+        },
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing? Fireflies quoted us about 25% less for comparable features.",
+          "answer": "I can work with that discount level if you're willing to participate in a case study once you've seen results."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fireflies competitive offer"
+      ],
+      "next_steps": [
+        "Send revised contract with 25.6% discount",
+        "Aria to review and sign by end of week",
+        "Schedule implementation kickoff call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

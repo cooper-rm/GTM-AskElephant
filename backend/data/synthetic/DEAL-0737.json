@@ -1,0 +1,325 @@
+{
+  "deal_id": "DEAL-0737",
+  "company": {
+    "name": "CometPartners",
+    "industry": "Fintech",
+    "employee_count": 100,
+    "annual_revenue": 17715600,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2400.0,
+    "seats": 4,
+    "price_per_seat_monthly": 53.32,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.1,
+    "sales_cycle_days": 36,
+    "close_date": "2024-04-28",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Riley Almeida",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 27
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Riley Almeida submitted an inbound demo request via website form, expressing interest in call recording and coaching tools for their CS team. Mentioned currently evaluating Clari but looking for alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call within 24 hours"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-23",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Riley to understand CometPartners' needs. Riley described their 100-person fintech company and CS team pain points around coaching consistency. Asked about pricing tiers and implementation timeline. Confirmed budget authority sits with VP of CS but final approval likely needs CFO sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks from contract signature to full rollout for SMB customers"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll be the main point of contact. Our CFO approves anything over $10K but I can drive the evaluation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with pricing overview",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Sent pricing overview and case studies. Riley responded asking for clarification on seat-based vs usage-based pricing and requested discovery call be moved up to this week due to Q2 planning cycles.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you clarify the difference between your seat-based and usage-based pricing models?",
+          "answer": "Seat-based is fixed cost per user, usage-based scales with call volume - for your team size seat-based typically makes more sense"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule discovery to Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-04",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive discovery call covering current CS processes, pain points with manual QA, and coaching workflow gaps. Riley explained they're piloting Clari but finding it overly complex for their needs. Discussed 4-seat initial rollout focused on call recording and automated coaching insights. Riley mentioned tight Q2 budget but didn't specify exact constraints.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working well with Clari and what's missing?",
+          "answer": "The forecasting is good but the coaching features are buried and our team finds it too complicated. We need something focused on CS, not just sales"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have pre-built coaching frameworks or do we build from scratch?",
+          "answer": "We have industry templates including fintech-specific compliance coaching, plus custom framework builder"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the Q2 timeline?",
+          "answer": "New CS leadership wants better coaching in place before Q3 hiring ramp"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Share fintech customer case study",
+        "Prepare custom coaching framework mockup"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-10",
+      "type": "technical_eval",
+      "duration_minutes": 61,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Riley and two CS managers. Walked through live demo of call recording, transcription accuracy, and automated coaching scorecards. Team responded positively to UI simplicity vs Clari. Riley asked detailed questions about data privacy and SOC 2 compliance. Discussed unlimited automation tier to support scaling. Some concerns raised about integration complexity with existing tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your SOC 2 compliance compare to Clari's security posture?",
+          "answer": "We're SOC 2 Type II certified with annual audits, same standard as Clari, plus we offer data residency options"
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in integrating with our existing CRM and ticketing systems?",
+          "answer": "Standard integrations are plug-and-play via OAuth, typically 1-2 hours of setup time"
+        },
+        {
+          "by": "rep",
+          "question": "How are you measuring coaching effectiveness today?",
+          "answer": "Mostly manual manager reviews and CSAT trends - we want to tie coaching directly to customer outcomes"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we trial this with our team before committing?",
+          "answer": "We can offer a 2-week pilot with full feature access for your 4-seat cohort"
+        }
+      ],
+      "objections": [
+        "Integration setup sounds simple but we've had issues with other tools claiming easy integrations"
+      ],
+      "next_steps": [
+        "Send SOC 2 report and security documentation",
+        "Provide integration setup guide",
+        "Schedule proposal call to discuss pricing and pilot structure"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-16",
+      "type": "proposal_call",
+      "duration_minutes": 33,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call initially scheduled but rescheduled by Riley due to conflicting CFO meeting. When rescheduled call occurred, presented pricing for 4-seat unlimited automation tier at $4,000 ACV list price. Riley reacted strongly to pricing, stating it's nearly double their allocated budget. Discussed discount options and Riley mentioned Clari offered aggressive pricing to keep them. Agreed to bring revised proposal with discount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on this pricing given we're a smaller team?",
+          "answer": "We can explore discount options for multi-year commitments or if you're willing to be a case study customer"
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you planning for?",
+          "answer": "We allocated around $2,500 for this tool, and Clari came in at $2,800 with a discount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price to close this month?",
+          "answer": "Let me work with my sales director on end-of-quarter options and get back to you"
+        }
+      ],
+      "objections": [
+        "Pricing is significantly higher than expected and what Clari is offering",
+        "Hard to justify premium pricing when Clari already offers similar features"
+      ],
+      "next_steps": [
+        "Request approval for 40% discount to match competitive pricing",
+        "Send revised proposal at $2,400 ACV",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-25",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to review revised $2,400 proposal with 40% discount. Riley appreciative of the pricing adjustment and confirmed it fits budget. Discussed contract terms, implementation timeline, and success metrics. Riley mentioned still needs to socialize with CFO but feels confident about approval. Asked about payment terms and annual vs quarterly billing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly billing instead of annual upfront?",
+          "answer": "Annual is standard for this discount level, but we can offer net-60 payment terms"
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to have final CFO approval?",
+          "answer": "Hoping to get on her calendar this week, definitely before month-end"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-contract?",
+          "answer": "Seats can be added anytime, prorated to your renewal date at the same per-seat rate"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for review",
+        "Riley to schedule CFO alignment meeting",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-27",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Riley Almeida",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Riley and CFO (joined for 15 minutes). Riley presented business case and CFO asked clarifying questions about ROI timeline and contract terms. CFO seemed neutral but didn't raise blockers. After CFO dropped, Riley expressed confidence deal will close but mentioned CFO wants to see one more competitive comparison before final approval. Riley committed to decision by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline your customers see?",
+          "answer": "Most customers see measurable coaching adoption within 30 days and CSAT improvements within 60-90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for the full year or subject to increase?",
+          "answer": "Pricing is locked for your initial 12-month term, renewal pricing would be at current list rates unless we lock multi-year"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for final approval?",
+          "answer": "CFO wants me to confirm Clari can't match the coaching features at their price point - doing final comparison this week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to complete final Clari comparison",
+        "Follow up Thursday for decision update",
+        "Prepare implementation kickoff plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 97,
+    "churn_reason": "lack of executive alignment"
+  }
+}

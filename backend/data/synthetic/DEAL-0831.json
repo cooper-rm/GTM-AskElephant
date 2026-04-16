@@ -1,0 +1,171 @@
+{
+  "deal_id": "DEAL-0831",
+  "company": {
+    "name": "ArcMint",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 35,
+    "annual_revenue": 5252604,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 5,
+    "price_per_seat_monthly": 67.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.6,
+    "sales_cycle_days": 15,
+    "close_date": "2024-08-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "David Walsh",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-06-30",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "David Walsh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with David Walsh, new Director of CS at ArcMint. He expressed interest in solving sales-to-CS handoff visibility issues. Call was short but productive, scheduled follow-up for more details.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently handling the handoff between sales and customer success?",
+          "answer": "We're using a mix of email threads and Slack messages. It's pretty fragmented and we lose context constantly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send email with product overview and case studies",
+        "Schedule 30-minute discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Walsh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, competitive comparison to Chorus, and case studies for managed IT companies. David responded positively, confirmed time for demo, mentioned budget is tight but sees value in solving handoff pain.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus? We've been evaluating them as well.",
+          "answer": "We're typically more cost-effective for teams your size, especially with our unlimited automation tier. Happy to walk through a detailed comparison on the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday 2pm",
+        "Send calendar invite with prep materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-05",
+      "type": "demo",
+      "duration_minutes": 43,
+      "person_name": "David Walsh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute product demo with David Walsh. Walked through sales-to-CS handoff automation, call/email tracking, and AI summarization features. David was engaged and asked detailed questions about implementation timeline and integration with their existing stack. He mentioned Chorus again but noted our automation features are stronger. Concerns emerged around getting executive buy-in since he's new to the role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation timeline look like? I've only been in this role for 3 months and need a quick win.",
+          "answer": "Typically 2-3 weeks for full deployment. We can start with a pilot on your team within a week."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you integrate with Salesforce and our existing CRM workflow?",
+          "answer": "Native bi-directional sync. All summaries and touch points flow directly into Salesforce activity timeline."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this? Any other stakeholders we should loop in?",
+          "answer": "Honestly, it's mainly my decision right now. I have budget authority for CS tools under $5K. Might loop in my VP later if needed."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we'd need to see a significant discount to move forward quickly"
+      ],
+      "next_steps": [
+        "David to review pricing and discuss internally",
+        "Schedule follow-up call to discuss terms and implementation",
+        "Send ROI calculator and reference customers"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-13",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "David Walsh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute negotiation call with David Walsh. Discussed pricing for 5 seats on unlimited automation plan. David requested substantial discount, citing budget constraints and competitive offer from Chorus. Rep offered 24.6% discount to close deal this quarter. David verbally committed but mentioned he'd need to finalize paperwork this week. No executive sponsor involved despite attempts to introduce VP of Sales or CEO to conversation. Single-threaded deal relying entirely on David's authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match or beat the Chorus pricing we were quoted? We need to make a decision this week.",
+          "answer": "Let me see what I can do. Given your timeline and the strong fit for your use case, I can offer 24.6% off to get you started at $3,800 ACV."
+        },
+        {
+          "by": "rep",
+          "question": "Should we set up a brief call with your VP or exec team to align on rollout strategy?",
+          "answer": "Not necessary at this point. I have the authority to sign and we can expand later if it goes well."
+        }
+      ],
+      "objections": [
+        "Your list pricing is higher than Chorus and we need to stay within budget"
+      ],
+      "next_steps": [
+        "Send contract and SOW by end of day",
+        "David to review with finance and return signed docs by Friday",
+        "Schedule kickoff call for following Monday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 89,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

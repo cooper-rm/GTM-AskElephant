@@ -1,0 +1,536 @@
+{
+  "deal_id": "DEAL-0263",
+  "company": {
+    "name": "FluxConsulting",
+    "industry": "EdTech",
+    "employee_count": 1000,
+    "annual_revenue": 73719432,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16300.0,
+    "seats": 22,
+    "price_per_seat_monthly": 63.37,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.8,
+    "sales_cycle_days": 89,
+    "close_date": "2025-11-29",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Emma Young",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 17
+    },
+    {
+      "name": "Santiago Kapoor",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 39
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Emma Young from FluxConsulting submitted an inbound request via website form expressing interest in call recording and coaching tools for their CS team. Brief automated acknowledgment sent.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send introductory materials"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Emma introducing AskElephant's call recording and coaching capabilities. Highlighted EdTech customer success stories and requested calendar availability for discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing tech stack (Salesforce, Zoom)?",
+          "answer": "Yes, we have native integrations with both platforms and can discuss your full stack on our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Emma confirmed meeting time and asked for preliminary pricing. Rep sent pricing overview and agenda for upcoming discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the ballpark pricing for around 20-25 users?",
+          "answer": "Typically $18-24K annually depending on features and support level. We'll dial this in based on your specific needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-14",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Emma covering current pain points with manual call review and coaching workflows. She mentioned evaluating Fathom but wants more robust analytics. Discussed team size (22 CS reps) and use case around onboarding and QA. Emma is Director of CS, no other stakeholders mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving this initiative right now?",
+          "answer": "We're scaling our CS team and need consistent coaching. Manual review isn't sustainable."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Probably Santiago from RevOps for reporting, but I can drive the decision from CS side."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your analytics compare to Fathom?",
+          "answer": "We offer custom scorecards, conversation intelligence, and XGBoost-powered deal risk scoring that Fathom doesn't provide."
+        }
+      ],
+      "objections": [
+        "We're already demoing Fathom next week, need to understand differentiation clearly."
+      ],
+      "next_steps": [
+        "Send comparison sheet vs Fathom",
+        "Loop in Santiago for technical review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Sent detailed competitive comparison highlighting conversation analytics, coaching workflows, and automation capabilities vs Fathom. Emma responded positively and introduced Santiago Kapoor for technical alignment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical deep dive with Santiago"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-24",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Emma to confirm technical evaluation logistics. She mentioned timeline pressure due to Q2 planning cycle and asked about implementation speed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "2-3 weeks for standard setup, faster if you need expedited onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next week",
+        "Prep custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-01",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call diving into specific coaching workflows and reporting needs. Emma walked through their current manual QA process and emphasized need for automation. Discussed integration requirements and data privacy considerations for EdTech compliance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your must-have features vs nice-to-haves?",
+          "answer": "Must-have: call recording, automated transcription, coaching scorecards. Nice-to-have: sentiment analysis, deal risk insights."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support FERPA compliance for EdTech companies?",
+          "answer": "Yes, we're SOC 2 Type II certified and have FERPA-compliant data handling policies."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical eval with Santiago",
+        "Send compliance documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-05",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Emma and Santiago. Walked through API integrations, reporting dashboards, and data architecture. Santiago asked detailed questions about data warehousing and custom reporting. Emma stayed engaged but deferred technical decisions to Santiago.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export raw call data to our Snowflake warehouse?",
+          "answer": "Yes, we support data export via API and can set up automated syncs to Snowflake."
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the coaching scorecards?",
+          "answer": "Fully customizable\u2014you can define criteria, weightings, and scoring logic per your methodology."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current reporting stack?",
+          "answer": "Salesforce for CRM, Looker for BI, Snowflake for warehousing. Need clean integration across all three."
+        }
+      ],
+      "objections": [
+        "Santiago concerned about potential duplication with existing Salesforce conversation logging."
+      ],
+      "next_steps": [
+        "Schedule demo tailored to coaching workflows",
+        "Provide technical integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-12",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo focused on coaching workflows, scorecard configuration, and automation features. Emma highly engaged with coaching playbooks. Santiago asked about reporting latency and data refresh rates. Positive reaction to automation capabilities that differentiate from Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle real-time coaching alerts?",
+          "answer": "We support configurable triggers\u2014managers get Slack alerts when scorecards fall below thresholds."
+        },
+        {
+          "by": "rep",
+          "question": "Have you finished your Fathom demo yet?",
+          "answer": "Yes, completed last week. They're lighter on analytics and automation, but pricing is competitive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal for automations_plus_consulting tier",
+        "Include ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-10-18",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call walking through pricing for 22 seats at automations_plus_consulting tier ($22.9K ACV). Emma expressed budget concern and asked if we can work within $18K. Discussed value of included consulting hours and premium automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet us at $18K for the first year?",
+          "answer": "That's a significant discount. Let me talk to my manager about what we can do while preserving the full feature set you need."
+        },
+        {
+          "by": "rep",
+          "question": "Is budget the main blocker, or are there other concerns?",
+          "answer": "Budget is tight this quarter, but we see the value. Just need to make the numbers work."
+        }
+      ],
+      "objections": [
+        "Budget allocated is closer to $18K, $23K feels high compared to Fathom's pricing."
+      ],
+      "next_steps": [
+        "Check on discount approval",
+        "Prepare revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-10-26",
+      "type": "proposal_call",
+      "duration_minutes": 3,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call confirming discount approval to $16.3K (28.8% off) to close within budget. Emma appreciative and committed to moving forward. Mentioned needing to brief her VP before final signatures.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal",
+        "Schedule exec alignment meeting with Emma's VP"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-10-29",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting intended to include VP of Customer Success, but only Emma attended. She explained VP had a conflict and she's empowered to proceed. Reviewed business case, ROI, and implementation timeline. Emma confident in moving to contracts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will your VP need a separate briefing before contract approval?",
+          "answer": "I'll brief her offline. She trusts my judgment on CS tooling decisions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-11-04",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting scheduled to include VP, but again only Emma present. She mentioned VP is traveling but supportive. Walked through contract terms and implementation milestones. No red flags raised, but lack of exec engagement noted internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we reschedule to ensure your VP can join?",
+          "answer": "No need, I've kept her updated. Let's keep momentum going."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract terms",
+        "Address any legal redlines"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-11-10",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to finalize contract details at $16.3K ACV. Discussed payment terms (annual prepay vs quarterly). Emma pushed for quarterly to ease cash flow, rep agreed to split payment. Reviewed MSA and SOW terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can accommodate quarterly billing with a small admin fee. I'll update the contract."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from legal on the MSA?",
+          "answer": "Still in review, should have feedback by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with quarterly terms",
+        "Follow up on legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-11-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking status of legal review. Emma responded that legal is slow but expects to close by month-end. Reiterated excitement about getting team onboarded.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in next week if no legal feedback",
+        "Prep onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-11-21",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final exec meeting to address remaining contract redlines. Emma joined with legal counsel. Discussed data security terms and liability caps. Legal requested minor edits to indemnification clause, otherwise ready to sign.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you adjust the liability cap to 1x annual fees instead of 2x?",
+          "answer": "Let me run this by our legal team. It's a reasonable request."
+        }
+      ],
+      "objections": [
+        "Legal wants tighter liability language before final approval."
+      ],
+      "next_steps": [
+        "Finalize liability terms with legal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-11-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Young",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Email confirming final contract terms agreed to by both legal teams. Emma confirmed VP verbal approval and expects signatures within 48 hours. Onboarding kickoff scheduled for following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Prepare implementation plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

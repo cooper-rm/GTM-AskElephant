@@ -1,0 +1,664 @@
+{
+  "deal_id": "DEAL-0360",
+  "company": {
+    "name": "ValleyWorks",
+    "industry": "eCommerce",
+    "employee_count": 1000,
+    "annual_revenue": 159809668,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 73700.0,
+    "seats": 63,
+    "price_per_seat_monthly": 101.2,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 80,
+    "close_date": "2023-07-20",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Wyatt Friedman",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 52
+    },
+    {
+      "name": "Valentina Desai",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 64
+    },
+    {
+      "name": "Priya Wright",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 15
+    },
+    {
+      "name": "Liam Diaz",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Ivy Singh",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 9
+    },
+    {
+      "name": "Sarah Singh",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 13
+    },
+    {
+      "name": "Amelia Tanaka",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-19",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Wyatt Friedman introducing our platform's pipeline visibility capabilities. Wyatt responded expressing interest in learning more about how we differ from Fireflies, which they're currently evaluating.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies for pipeline visibility?",
+          "answer": "We focus specifically on RevOps workflows with native CRM integration and predictive deal scoring, while Fireflies is primarily a transcription tool."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-01",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Wyatt. Discussed ValleyWorks' current challenges with pipeline forecasting across their 1000-person org. Wyatt confirmed they're in active evaluation mode and looking at multiple vendors including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "Our forecast accuracy has dropped below 60% and leadership needs better visibility into deal health."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for 63 users?",
+          "answer": "We'll need to do discovery first to understand your workflows, but typically in the $70-80K range for your profile."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up with case studies",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Sent case study showing 40% forecast accuracy improvement for similar eCommerce company. Wyatt replied asking about implementation timeline and whether we offer consulting services.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you provide implementation support beyond just the platform?",
+          "answer": "Yes, we have an automations plus consulting package that includes dedicated RevOps consulting."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss consulting package on next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming interest in consulting package. Wyatt mentioned they'd need to loop in Valentina (CRO) for any decision above $50K and wanted to understand our implementation approach before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your typical implementation timeline look like?",
+          "answer": "8-12 weeks for enterprise customers with consulting, including custom automation setup and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map current state"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-14",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current tech stack and pain points. Wyatt walked through their Salesforce setup and mentioned they've been using Fireflies for 3 months but aren't getting actionable insights. Discussed their RevOps team structure.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working and not working with Fireflies?",
+          "answer": "Transcripts are good but there's no deal-level intelligence or integration with our forecast model."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce workflows without disrupting current processes?",
+          "answer": "Yes, we build on top of your existing fields and flows - no rip and replace required."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Map out specific automation use cases",
+        "Schedule technical deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-17",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued discovery with Wyatt covering their 63-seat user base breakdown and specific pipeline visibility gaps. He expressed concern about change management and mentioned Valentina will want to see ROI projections before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who are the 63 users and what are their roles?",
+          "answer": "Mix of account managers, RevOps team, and sales leadership - anyone who needs to understand deal health."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI have other customers seen?",
+          "answer": "Typically 25-40% improvement in forecast accuracy and 15-20% reduction in deal slippage within first quarter."
+        }
+      ],
+      "objections": [
+        "Need to show clear ROI to justify moving away from Fireflies which is already implemented"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis",
+        "Schedule technical evaluation with Ivy"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-24",
+      "type": "technical_eval",
+      "duration_minutes": 23,
+      "person_name": "Ivy Singh",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Ivy Singh (Implementation Lead) covering integration requirements, data security, and API capabilities. Ivy asked detailed questions about Salesforce field mapping and whether we can handle their custom objects.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle custom Salesforce objects and fields?",
+          "answer": "We have flexible field mapping that supports custom objects - we'll configure during implementation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and security model?",
+          "answer": "SOC 2 Type II certified, data encrypted at rest and in transit, configurable retention policies."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide security documentation",
+        "Schedule extended technical demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Email to Wyatt summarizing technical eval feedback from Ivy and confirming next steps. Wyatt responded positively noting Ivy was impressed but wants to see a full demo with their actual data structure before proceeding.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule full demo with sample ValleyWorks data"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-31",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended discovery call with Wyatt covering budget and decision process. Wyatt confirmed $70-80K budget range is available, mentioned Valentina and Liam (procurement) need to be involved for final approval. Discussed their Fireflies contract ends in 4 months.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place before our Fireflies renewal in 4 months, ideally decide in next 6-8 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to run both platforms during transition?",
+          "answer": "That's common - we can do a phased rollout starting with your RevOps team before full deployment."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Valentina will make final call, Liam handles procurement, and we'll need IT (Sarah) to sign off on security."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Valentina for exec alignment",
+        "Schedule extended technical demo with Ivy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-08",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Ivy Singh",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Ivy covering full platform capabilities, custom automation setup, and integration architecture. Walked through specific use cases for pipeline visibility and deal scoring. Ivy expressed strong interest but flagged need for IT security review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the deal scoring model to our specific sales motion?",
+          "answer": "Yes, we'll train the model on your historical data and you can adjust weightings for different signals."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the automation consulting work - is it ongoing or just implementation?",
+          "answer": "Implementation package includes 12 weeks of consulting, then optional ongoing support quarterly."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your team?",
+          "answer": "Proving we can actually improve forecast accuracy better than our current tools - that's the key metric."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Connect with Sarah for IT security review",
+        "Prepare proposal for Valentina meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-13",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "First exec meeting with Valentina scheduled but rescheduled due to conflict. Wyatt mentioned she's traveling and pushed to following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-06-17",
+      "type": "exec_meeting",
+      "duration_minutes": 56,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second attempt at exec meeting with Valentina rescheduled again - Valentina had urgent board prep. Wyatt apologized and confirmed her interest is still high but timing is challenging this month.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule with firm commitment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-06-21",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Valentina finally connected. Presented ROI analysis and strategic value for pipeline visibility. Valentina expressed strong interest but questioned whether this is the right time given current Fireflies investment. Discussed competitive positioning and unique value of our deal scoring vs basic transcription.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why should we switch from Fireflies when we just implemented it 3 months ago?",
+          "answer": "Fireflies gives you transcripts, we give you predictive deal intelligence - they solve different problems and can complement each other initially."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the business case for $73K when we're already spending on Fireflies?",
+          "answer": "If we improve forecast accuracy by 30%, that translates to $2-3M in prevented slippage for your pipeline size - 30x ROI in year one."
+        },
+        {
+          "by": "rep",
+          "question": "What would need to be true for this to be a priority this quarter?",
+          "answer": "We need confidence in the ROI metrics and a smooth implementation that doesn't disrupt the team."
+        }
+      ],
+      "objections": [
+        "Concerned about switching costs given recent Fireflies investment",
+        "Wants proof of forecasted ROI before committing"
+      ],
+      "next_steps": [
+        "Provide customer references with similar transitions",
+        "Prepare detailed proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-06-25",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Wyatt reviewing formal proposal: $73,700 ACV for 63 seats with automations plus consulting package. Walked through implementation plan, success metrics, and support structure. Wyatt supportive but mentioned Valentina is still weighing Fireflies sunk cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're already invested in Fireflies?",
+          "answer": "We can discuss creative structures like phased rollout or pilot program to reduce initial risk."
+        },
+        {
+          "by": "rep",
+          "question": "What's Valentina's biggest concern right now?",
+          "answer": "Justifying the cost on top of Fireflies - she wants to see this as complementary not replacement initially."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss pricing options",
+        "Connect with Liam on procurement process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-07-02",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Wyatt discussing pricing flexibility and contract terms. Wyatt asked about discount options and whether we can structure as pilot with expansion option. Discussed quarterly vs annual payment terms and success criteria for expansion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a smaller pilot first - maybe 20 seats - then expand if it works?",
+          "answer": "We can structure it as 63-seat annual contract with phased rollout, but need full commitment for ROI model to work."
+        },
+        {
+          "by": "prospect",
+          "question": "What discount can you offer given the Fireflies overlap concern?",
+          "answer": "We can discuss 10-15% discount for annual prepay or multi-year commitment."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you comfortable committing to full 63 seats?",
+          "answer": "Clear success metrics after first 30 days and confirmed Valentina buy-in on the ROI case."
+        }
+      ],
+      "objections": [
+        "Prefer pilot approach due to overlap with Fireflies"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with payment options",
+        "Schedule follow-up with Valentina"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-07-03",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Valentina to address pricing and competitive concerns. Discussed positioning as complementary to Fireflies initially, with option to sunset Fireflies at renewal. Valentina more comfortable with this framing and asked about implementation support to ensure smooth rollout.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, how do we ensure this doesn't disrupt current workflows?",
+          "answer": "Our consulting package includes dedicated change management - we'll work alongside your team for 12 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable with the ROI projections we've outlined?",
+          "answer": "Yes, if we hit even 20% of forecasted improvement it's worth it - I just need confidence in execution."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract terms with Liam",
+        "Confirm security approval from Sarah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-07-09",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Wyatt Friedman",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Wyatt finalizing contract details. Discussed 12-month term at $73,700 with quarterly payment option. Wyatt confirmed Valentina is on board and Liam is drafting contract. Reviewed implementation timeline and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance clause tied to forecast accuracy improvement?",
+          "answer": "We can include success metrics in the agreement but standard terms don't have refund provisions - we're confident in delivery."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review contract draft from Liam",
+        "Confirm start date with Ivy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-07-14",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec check-in with Valentina on contract terms and timing. Valentina confirmed she's approved and asked Liam to expedite. Discussed rollout communication plan for the 63 users and training approach. Positive tone, moving to close.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any final concerns before we get contracts signed?",
+          "answer": "No, we're good - just want to make sure training is comprehensive so adoption is high."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute contract",
+        "Schedule kickoff with implementation team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-07-19",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Valentina Desai",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Valentina reviewing contract before signature. Confirmed all stakeholders aligned (Ivy on technical, Sarah approved security, Liam on procurement). Discussed kickoff timeline and first 30-day success metrics. Valentina committed to close this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we realistically start seeing results in our forecast accuracy?",
+          "answer": "You'll see initial insights within first 2 weeks once integrations live, meaningful accuracy improvements by end of quarter one."
+        },
+        {
+          "by": "rep",
+          "question": "What would make the first 90 days a clear success for you?",
+          "answer": "10-15% forecast accuracy improvement and strong user adoption across the RevOps team - if we hit that, we'll expand."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sign contract",
+        "Begin implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

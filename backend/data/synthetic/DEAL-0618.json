@@ -1,0 +1,204 @@
+{
+  "deal_id": "DEAL-0618",
+  "company": {
+    "name": "SummitVision",
+    "industry": "Marketing Agency",
+    "employee_count": 61,
+    "annual_revenue": 8741329,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 8,
+    "price_per_seat_monthly": 63.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 29.1,
+    "sales_cycle_days": 28,
+    "close_date": "2023-06-21",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Nicole Cooper",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 24
+    },
+    {
+      "name": "David Young",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 11
+    },
+    {
+      "name": "Mateus Rogers",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nicole Cooper",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Nicole Cooper requesting information about automation capabilities for their sales team. Nicole mentioned they're looking to improve rep productivity and streamline workflows across 8 sales reps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform handle automation for follow-ups and task management for a small sales team?",
+          "answer": "Yes, our unlimited automation tier is designed specifically for teams your size. It includes automated follow-ups, task routing, and workflow triggers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and pricing tiers",
+        "Schedule qualification call with Nicole for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nicole Cooper",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and initial pricing ranges. Nicole responded quickly expressing interest in the unlimited automation tier and confirmed availability for discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typically included in an implementation for a team our size?",
+          "answer": "Implementation includes onboarding, workflow setup, and training. For 8 seats, we typically complete setup within 2 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm",
+        "Nicole to share current workflow documentation ahead of call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-05",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Nicole Cooper",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Nicole covering current sales processes and pain points. She described manual follow-up workflows taking 2+ hours daily per rep. Team uses basic CRM but lacks automation. Nicole is Director of Sales and has budget authority for tools under $10k. No mention of other decision-makers or executive involvement yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll probably loop in David Young from our implementation team and Mateus Rogers who manages procurement, but I can drive this decision."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get up and running if we move forward?",
+          "answer": "Typically 2 weeks for implementation with your team size, then 1-2 weeks for full adoption."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 4-6 weeks if the pricing works."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, so we'll need to stay around $5k-$6k annually"
+      ],
+      "next_steps": [
+        "Prepare custom proposal for 8 seats with unlimited automation",
+        "Schedule proposal review call",
+        "Include ROI calculator based on 2hrs/day savings per rep"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-11",
+      "type": "proposal_call",
+      "duration_minutes": 5,
+      "person_name": "Nicole Cooper",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal call to review pricing. Presented standard pricing at $9k ACV but Nicole pushed back firmly on budget constraints. Agreed to bring proposal down to $6,400 to fit their Q2 budget. Nicole seemed satisfied with the discount but didn't commit to timeline or next steps. No mention of executive review or other stakeholders joining.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this the best you can do on pricing for 8 seats?",
+          "answer": "Given your timeline and budget constraints, I can approve $6,400 annually to get this moving."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with $6,400 pricing",
+        "Nicole to review with Mateus and David internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nicole Cooper",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal at $6,400 ACV. Nicole confirmed she's reviewing with procurement (Mateus) and will have feedback by end of week. Mentioned David will handle implementation planning once approved. Tone is positive but no urgency indicated.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the payment terms to quarterly instead of annual?",
+          "answer": "Yes, we can structure quarterly payments at this price point."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Nicole to review internally with Mateus and David",
+        "Follow up Friday for feedback on proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "deal_id": "DEAL-0253",
+  "company": {
+    "name": "RubyCube",
+    "industry": "Marketing Agency",
+    "employee_count": 1000,
+    "annual_revenue": 60000000,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17400.0,
+    "seats": 22,
+    "price_per_seat_monthly": 66.71,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.0,
+    "sales_cycle_days": 46,
+    "close_date": "2024-10-24",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Reese Diaz",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 13
+    },
+    {
+      "name": "Blake Anderson",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Reese Diaz introducing AskElephant's CRM automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-27",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email sent to Reese referencing marketing agency pain points around manual CRM workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-29",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call connected with Reese. Introduced AskElephant's automation platform for sales teams. Reese expressed mild interest in learning more about time savings and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any CRM automation tools?",
+          "answer": "We use some basic workflows in Salesforce but nothing sophisticated"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-01",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent with message about helping marketing agencies scale their sales operations. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-08",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Reese to understand RubyCube's sales process and pain points. Reese mentioned their team spends 8-10 hours weekly on manual CRM updates and lead routing. Discussed team size and current tooling. Good engagement but Reese seemed cautious about budget.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many people are on your sales team today?",
+          "answer": "We have about 22 reps across inbound and outbound"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical price range for a team our size?",
+          "answer": "It depends on the package, but for 22 seats we'd be looking at $15-25K annually depending on features"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Email sent with pricing overview and case study from similar marketing agency. Reese responded asking about implementation timeline and whether consulting services were included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation usually take?",
+          "answer": "Typically 2-3 weeks for initial setup, with consulting support included in the Plus tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call and sharing agenda. Reese confirmed availability and mentioned wanting to discuss specific automation workflows for their lead qualification process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-19",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into RubyCube's sales workflow, tech stack, and pain points. Reese walked through their current manual processes for lead scoring, routing, and follow-up. Identified CRM automation as top priority. Discussed integration with their existing Salesforce instance and marketing automation tools. Reese engaged but mentioned needing to loop in RevOps before moving forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest bottleneck in the sales process right now?",
+          "answer": "Definitely lead routing and follow-up. Everything is manual and reps waste time on admin work"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating this solution?",
+          "answer": "I'd need to bring in Blake from RevOps for the technical side and procurement"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce and HubSpot setup?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce Blake Anderson",
+        "Schedule technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-23",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Reese to review discovery notes and discuss next steps. Reese confirmed Blake would join for technical evaluation but mentioned Blake has concerns about adding another tool to the stack. Also noted that budget approval process might require VP sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are your customers typically seeing?",
+          "answer": "Most customers see 15-20 hours saved per week across the team, plus 20-30% improvement in lead response times"
+        }
+      ],
+      "objections": [
+        "Blake is worried about tool sprawl and integration complexity"
+      ],
+      "next_steps": [
+        "Prepare technical evaluation materials",
+        "Schedule eval with Blake"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-09-27",
+      "type": "technical_eval",
+      "duration_minutes": 12,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Reese and Blake. Blake asked detailed questions about API capabilities, data security, and Salesforce integration architecture. Blake seemed skeptical about whether the platform could handle their custom objects and workflows. Agreed to provide technical documentation for Blake to review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle custom Salesforce objects and fields?",
+          "answer": "We can map to any custom objects and fields through our flexible schema configuration"
+        },
+        {
+          "by": "prospect",
+          "question": "What are your data security and compliance certifications?",
+          "answer": "We're SOC 2 Type II certified and GDPR compliant"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical documentation to Blake",
+        "Schedule product demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-09-30",
+      "type": "demo",
+      "duration_minutes": 24,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First product demo focused on lead routing and automation workflows. Walked through use cases specific to RubyCube's needs. Reese was enthusiastic about the lead scoring features. Blake asked questions about customization limits and whether they'd need developer resources to maintain automations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build and modify these workflows ourselves or do we need developer support?",
+          "answer": "Our no-code builder lets your team create and modify workflows. Developer support is only needed for very custom integrations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule second demo for CRM cleanup features",
+        "Provide workflow templates"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-05",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo covering advanced automation and reporting features. Showed data enrichment, duplicate management, and analytics dashboards. Reese very engaged and already planning rollout strategy. Blake remained cautious, asking about support resources and ongoing maintenance requirements. Discussed pricing and Reese asked about volume discounts.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does ongoing support look like, especially during implementation?",
+          "answer": "The Automations Plus tier includes dedicated implementation consulting and ongoing support through Slack and email"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for a team our size?",
+          "answer": "We can certainly explore options based on commitment length and specific needs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-08",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Reese to discuss business case and ROI. Reese shared that they don't have executive sponsor lined up yet but is working on getting VP of Sales involved. Walked through ROI calculations showing $40K in time savings annually. Reese enthusiastic but acknowledged budget constraints and mentioned needing significant discount to get approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When do you need this solution in place?",
+          "answer": "Ideally by end of quarter, but budget is the bigger constraint than timeline"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your flexibility on pricing given our budget limitations?",
+          "answer": "We can work with you on pricing, but I need to understand your budget parameters first"
+        }
+      ],
+      "objections": [
+        "Budget constraints are tight this quarter"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI analysis",
+        "Attempt to schedule meeting with VP of Sales"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-12",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Reese. VP of Sales was not available. Reese mentioned that Blake is pushing back on timeline and wants to evaluate alternatives. Discussed budget again and Reese indicated they'd need to come in under $18K to get it approved without VP sign-off. Rep offered to explore discount options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we can get budget approved, can we start with a smaller rollout first?",
+          "answer": "We typically recommend full team rollout for maximum impact, but we can phase the implementation"
+        }
+      ],
+      "objections": [
+        "Blake wants to look at other vendors before committing"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with discount",
+        "Address Blake's competitive concerns"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-10-16",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Reese and Blake to discuss revised proposal. Presented 25% discount bringing total to $17,400 to fit budget constraints. Blake remained skeptical about long-term value and questioned whether they'd fully utilize the consulting services. Reese advocated for moving forward but acknowledged they still need to get final approval from procurement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in for renewals or will it increase significantly?",
+          "answer": "First year is at this discounted rate, renewals typically see 5-10% increase based on usage and seats"
+        }
+      ],
+      "objections": [
+        "Concerned about getting locked into annual contract if the platform doesn't deliver expected ROI"
+      ],
+      "next_steps": [
+        "Send final contract with 25% discount",
+        "Blake to review with procurement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-10-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Email sent with final contract and discounted pricing. Reese responded acknowledging receipt and mentioned Blake is reviewing terms with procurement team. Asked about payment terms and whether quarterly payments were an option.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can accommodate quarterly payments with a small processing fee"
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-10-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Reese Diaz",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on contract review status. Reese responded that Blake and procurement are still reviewing terms and comparing to budget allocation. Mentioned decision expected within a week but no firm commitment on timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

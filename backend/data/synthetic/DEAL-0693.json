@@ -1,0 +1,263 @@
+{
+  "deal_id": "DEAL-0693",
+  "company": {
+    "name": "CedarOps",
+    "industry": "SaaS/Tech",
+    "employee_count": 42,
+    "annual_revenue": 6602982,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7100.0,
+    "seats": 9,
+    "price_per_seat_monthly": 64.0,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.1,
+    "sales_cycle_days": 43,
+    "close_date": "2023-12-01",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Javier Cooper",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 22
+    },
+    {
+      "name": "Ravi Huang",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 28
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Javier Cooper (VP Sales) at CedarOps regarding automation for sales-to-CS handoff. Currently evaluating Fireflies but looking for better integration options. Expressed interest in seeing a demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform handle automated handoff notes between sales and customer success teams?",
+          "answer": "Yes, we offer automated deal summaries and customizable handoff workflows that integrate directly with your CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study focused on sales-to-CS automation. Javier responded confirming interest and availability for qualification call. Mentioned they're currently trialing Fireflies but open to alternatives.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a team our size?",
+          "answer": "For 9 seats, typical onboarding is 1-2 weeks including training and integration setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Discovery email exchange clarifying CedarOps' current process gaps. Javier shared that handoffs are currently manual, leading to context loss. Team of 42 with 9 AEs needing automation. Budget discussed at high level, timeline to decision is 3-4 weeks.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation with Ravi Huang (Account Manager) next Tuesday",
+        "Prepare technical deep-dive on CRM integrations"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-06",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Ravi Huang",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute technical evaluation with Ravi Huang covering API capabilities, CRM integration depth, and automation workflow builder. Ravi compared features directly with Fireflies trial they're running. Positive reception on customization options but noted pricing concerns without seeing final numbers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your API rate limiting compare to Fireflies for high-volume call processing?",
+          "answer": "Unlimited automation tier has no rate limits on call processing, unlike Fireflies' 100 calls/month cap on comparable plans."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff template fields to match our internal CS workflow?",
+          "answer": "Yes, fully customizable templates with conditional logic and custom field mapping."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current monthly call volume across the sales team?",
+          "answer": "Approximately 180-200 calls per month across 9 reps."
+        }
+      ],
+      "objections": [
+        "Need to see pricing before moving forward - concerned about budget approval without exec visibility"
+      ],
+      "next_steps": [
+        "Schedule exec meeting with Javier to discuss business case",
+        "Prepare ROI analysis for CedarOps"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-15",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute exec meeting with Javier Cooper to present business case and ROI analysis. Discussed time savings on handoffs (est. 4 hours/week recovered per rep). Javier acknowledged value but mentioned no executive sponsor looped in yet. Conversation focused on internal selling strategy and timeline to close.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who typically approves software purchases at this contract size for CedarOps?",
+          "answer": "Anything over $5K needs CFO sign-off, but I can champion it through if the business case is strong."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of pricing flexibility do you have for a company our size?",
+          "answer": "We can work within your budget - let's schedule a dedicated pricing call to explore options."
+        },
+        {
+          "by": "prospect",
+          "question": "How does support work during the first 90 days post-implementation?",
+          "answer": "Dedicated onboarding specialist plus 24/7 chat support and weekly check-ins for the first quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled for Friday",
+        "Javier to socialize internally with CS leadership"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-21",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute pricing call presenting $7,100 ACV for 9 seats on unlimited automation tier. Javier reacted to pricing as higher than expected compared to Fireflies quote. Discussed discount options to match budget constraints. Agreed to come back with revised proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the list price difference between your platform and Fireflies for equivalent features?",
+          "answer": "Our unlimited tier is positioned premium but includes features Fireflies charges extra for like custom integrations and advanced analytics."
+        }
+      ],
+      "objections": [
+        "Pricing is 40% higher than Fireflies - need to close that gap to get internal buy-in"
+      ],
+      "next_steps": [
+        "Rep to discuss discount approval with sales leadership",
+        "Follow-up negotiation call Tuesday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-01",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Javier Cooper",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute negotiation call presenting revised pricing at $7,100 ACV (28.1% discount from list). Javier appreciated the movement and agreed pricing is now workable. Discussed contract terms and implementation timeline. Still no exec sponsor engaged but Javier confident he can push through approval within his authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount locked in if we sign by end of month?",
+          "answer": "Yes, pricing valid through April 30th with signature."
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally want to go live with the platform?",
+          "answer": "Targeting early May kickoff to align with our Q2 planning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Javier to confirm signature timeline by EOW"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

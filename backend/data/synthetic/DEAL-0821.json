@@ -1,0 +1,680 @@
+{
+  "deal_id": "DEAL-0821",
+  "company": {
+    "name": "QuasarGrid",
+    "industry": "Healthcare IT",
+    "employee_count": 209,
+    "annual_revenue": 28415054,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16600.0,
+    "seats": 17,
+    "price_per_seat_monthly": 81.73,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 8.2,
+    "sales_cycle_days": 84,
+    "close_date": "2023-10-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Omar Martin",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 11
+    },
+    {
+      "name": "Julian Sanchez",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Aaliyah Wright",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Omar Martin requesting information about AskElephant's AI capabilities for sales-to-CS handoff automation. Initial interest expressed in streamlining post-sale transitions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-28",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute qualification call with Omar Martin. Discussed current manual handoff process causing customer confusion and delayed onboarding. Omar oversees 17-person sales team struggling with inconsistent handoff documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant capture tribal knowledge from sales calls that CS needs?",
+          "answer": "AI processes call recordings to extract key commitments, pain points, and customer context, automatically populating CS handoff templates"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current timeline for improving this process?",
+          "answer": "Q2 priority - we've had three customer escalations in the past month due to poor handoffs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Omar to share current handoff template",
+        "Send product overview focused on sales-to-CS use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with tailored product overview and case study from similar healthcare IT company. Highlighted automated handoff documentation and reduced onboarding time metrics.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Omar to review materials with team",
+        "Schedule deeper discovery for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Email from Omar sharing their current handoff template and noting interest from sales management team. Requested information on implementation timeline and training requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation time for a team our size?",
+          "answer": "2-3 weeks for core setup, with ongoing optimization. Training is typically 2 sessions per team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up call to walk through template integration"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-10",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute call reviewing QuasarGrid's handoff template. Omar confirmed budget authority for tools under $25K. Discussed integration with their Salesforce instance and current call recording setup with Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who typically owns the CS handoff process on the customer success side?",
+          "answer": "Our VP of Customer Success, though she's swamped with renewals right now"
+        },
+        {
+          "by": "prospect",
+          "question": "Does this work with Gong recordings or do we need to switch tools?",
+          "answer": "Works directly with Gong - we pull recordings via API and process them"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Omar to loop in Julian from sales management for technical perspective"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-15",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute discovery call focusing on current pain points. Omar detailed recent escalation where enterprise customer almost churned due to missed commitments during handoff. Team currently uses manual notes in shared Google doc.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How much time does your team spend on handoff documentation per deal?",
+          "answer": "Conservatively 2-3 hours per deal, but varies wildly by rep quality"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize what fields get extracted from calls?",
+          "answer": "Yes, the AI can be tuned to your specific handoff template fields"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator based on time savings",
+        "Schedule technical evaluation with Julian"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "ROI projection email showing potential 120 hours/month time savings across sales team, plus reduced customer escalations. Included technical eval scheduling link for Julian Sanchez.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-22",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute call discussing integration requirements and data security. Omar confirmed healthcare data handling concerns and need for SOC 2 compliance. Mentioned IT Director (Aaliyah Wright) will need to review security before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is call data processed and stored?",
+          "answer": "US-based AWS infrastructure with encryption at rest and in transit, SOC 2 Type II certified"
+        },
+        {
+          "by": "rep",
+          "question": "What's your typical procurement process for software like this?",
+          "answer": "Under $25K I can approve with IT and sales management buy-in, no formal RFP needed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical deep-dive for Julian",
+        "Send security documentation for Aaliyah's review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-27",
+      "type": "technical_eval",
+      "duration_minutes": 73,
+      "person_name": "Julian Sanchez",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "73-minute technical evaluation with Julian Sanchez. Deep dive into Salesforce integration, Gong API connection, and custom field mapping. Julian tested sandbox environment and walked through AI extraction accuracy on sample calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do we handle calls where multiple products or commitments are discussed?",
+          "answer": "AI segments by topic and maps to corresponding template sections, flagging anything it's uncertain about"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if the AI misses something critical?",
+          "answer": "Reps can review and edit before finalizing handoff, plus we track accuracy metrics over time"
+        },
+        {
+          "by": "rep",
+          "question": "What's your assessment of the technical fit for your team?",
+          "answer": "Looks solid - the Gong integration is cleaner than I expected, and Salesforce mapping is straightforward"
+        }
+      ],
+      "objections": [
+        "Need to ensure AI accuracy is high enough to trust - don't want to create more work reviewing bad outputs"
+      ],
+      "next_steps": [
+        "Julian to share findings with Omar",
+        "Schedule demo for broader team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-02",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "50-minute demo with Omar and three sales managers. Showed live example of AI processing a QuasarGrid-style sales call and auto-populating their handoff template. Team asked detailed questions about edge cases and customization.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the AI prompts if we change our handoff template?",
+          "answer": "Yes, template changes are reflected automatically, or you can customize extraction rules"
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly does processing happen after a call ends?",
+          "answer": "Typically 5-10 minutes depending on call length"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "80%+ of handoffs completed within 24 hours of deal close, zero escalations due to missed information"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Omar to discuss internally with sales leadership",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-09-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and answers to questions raised during presentation. Highlighted customization flexibility and included implementation timeline estimate.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Omar to confirm stakeholder alignment by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Email to Omar requesting confirmation on seat count (17 confirmed) and service tier. Outlined pricing for Automations Plus tier with consulting package for template optimization.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do you need involvement from your VP of Customer Success before we move to proposal?",
+          "answer": "Not at this stage - she's delegated this to me and Julian to evaluate"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize proposal for Omar's review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-09-14",
+      "type": "technical_eval",
+      "duration_minutes": 53,
+      "person_name": "Julian Sanchez",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "53-minute technical evaluation with Julian and Aaliyah Wright (IT Director). Aaliyah reviewed security documentation, API access permissions, and data retention policies. Discussed SSO integration and user provisioning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data do you retain and for how long?",
+          "answer": "Call metadata and extracted summaries per your retention policy, typically 90 days unless configured otherwise"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we restrict access by role or team?",
+          "answer": "Yes, full RBAC support with Salesforce permission inheritance"
+        },
+        {
+          "by": "rep",
+          "question": "Aaliyah, any security concerns from your side?",
+          "answer": "Documentation looks good - I'll need to review BAA terms since we handle PHI, but no blockers so far"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send BAA template to Aaliyah for legal review",
+        "Julian and Aaliyah to approve moving forward"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-09-18",
+      "type": "proposal_call",
+      "duration_minutes": 10,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "10-minute proposal review call with Omar. Walked through $16,600 ACV pricing for 17 seats on Automations Plus tier with consulting package. Omar noted pricing is within budget expectations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the consulting package one-time or ongoing?",
+          "answer": "One-time implementation consulting, with optional ongoing optimization available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Omar to review with finance",
+        "Target close date end of quarter"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-09-22",
+      "type": "proposal_call",
+      "duration_minutes": 34,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "34-minute call with Omar discussing contract terms and implementation plan. Omar confirmed Julian and Aaliyah are both supportive. Reviewed success metrics and training schedule for sales team rollout.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on the contract?",
+          "answer": "Just me and finance approval, which should be quick given the budget tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-year?",
+          "answer": "Pro-rated addition to your annual contract, or we can discuss volume discounts if you anticipate growth"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal contract for legal review",
+        "Schedule kickoff planning call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-09-28",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled 29-minute negotiation call rescheduled by Omar - finance team requested additional budget justification due to Q2 spending review. Omar apologetic but needs to build stronger ROI case internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for next week",
+        "Send detailed ROI documentation for finance review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-10-02",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute call with Omar (positioned as exec alignment check). Omar shared that finance is scrutinizing all Q2 purchases over $15K more closely than expected. He remains committed but needs stronger business case documentation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there a specific ROI threshold finance is looking for?",
+          "answer": "They want to see 3x return in first year, which I think we can hit with time savings alone"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you help us quantify the cost of the escalations we've had?",
+          "answer": "Yes - we can build an analysis showing customer churn risk and support costs from handoff failures"
+        }
+      ],
+      "objections": [
+        "Finance is being more conservative than usual - need bulletproof ROI justification"
+      ],
+      "next_steps": [
+        "Build detailed ROI document with escalation cost analysis",
+        "Omar to present to finance next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-10-06",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second rescheduling of negotiation call - Omar's finance meeting pushed due to competing priorities. He expressed frustration with internal delays but confirmed deal is not at risk, just slower than anticipated.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for following week",
+        "Omar to provide update on finance meeting outcome"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-10-13",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute call with Omar post-finance review. Finance approved budget but requested modest discount (~10%) to stay comfortably under $15K threshold. Omar asked if there's flexibility on pricing given slight delay.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room on the annual pricing to get us under $15K?",
+          "answer": "Let me discuss with my team - we typically don't discount much on Automations Plus, but I understand the internal dynamics"
+        },
+        {
+          "by": "rep",
+          "question": "If we can find a path forward, what's your timeline to close?",
+          "answer": "Could sign within a week once pricing is confirmed"
+        }
+      ],
+      "objections": [
+        "Need to hit $14,999 or below to avoid additional executive approval layer"
+      ],
+      "next_steps": [
+        "Internal pricing discussion",
+        "Return with pricing options by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-10-14",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute negotiation call presenting modified options: slight discount to $15,900 (5% off) with annual payment, or $14,900 with reduced consulting hours. Omar leaning toward reduced consulting option to hit budget threshold.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we take reduced consulting, can we add hours later if needed?",
+          "answer": "Yes, available as add-on at standard consulting rates"
+        },
+        {
+          "by": "rep",
+          "question": "Which option works best for your approval process?",
+          "answer": "$14,900 with reduced consulting gets us through cleanly - we can always add hours in Q3 if needed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise contract to $14,900 with adjusted consulting scope",
+        "Omar to route for final signatures"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-10-20",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Omar Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute pricing finalization call confirming $16,600 structure with value-add adjustments instead of direct discount - added extra optimization session and extended support to justify full pricing while addressing budget concerns. Omar agreed to present this approach to finance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you document the additional value-adds in the revised proposal?",
+          "answer": "Yes, updating contract to reflect extended support window and additional optimization session"
+        },
+        {
+          "by": "rep",
+          "question": "Does this structure work for your finance approval?",
+          "answer": "I think so - it shows we negotiated value rather than just a discount. I'll confirm by end of day."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with value-add structure",
+        "Omar to obtain final finance and legal sign-off",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 72,
+    "churn_reason": "never fully onboarded"
+  }
+}

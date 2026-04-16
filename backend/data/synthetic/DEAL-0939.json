@@ -1,0 +1,183 @@
+{
+  "deal_id": "DEAL-0939",
+  "company": {
+    "name": "QuartzSoftware",
+    "industry": "SaaS/Tech",
+    "employee_count": 45,
+    "annual_revenue": 7055509,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 10200.0,
+    "seats": 11,
+    "price_per_seat_monthly": 75.29,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 15.4,
+    "sales_cycle_days": 13,
+    "close_date": "2024-10-07",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Amara Byrne",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 11
+    },
+    {
+      "name": "Aaliyah Baker",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amara Byrne",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Amara Byrne at QuartzSoftware expressing interest in CRM automation solutions. She mentioned their team is struggling with manual data entry and reporting across their sales and CS workflows. Brief exchange confirming initial fit and scheduling a qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support integrations with Salesforce and our existing support ticketing system?",
+          "answer": "Yes, we have native integrations with Salesforce and most major support platforms. We can review your specific tech stack on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand workflows and requirements",
+        "Send calendar invite for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-26",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Amara Byrne",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amara Byrne to understand QuartzSoftware's CRM automation needs. She outlined pain points around manual data entry consuming 5-7 hours per week for their RevOps and CS teams. Discussed current Salesforce setup and identified workflow automation and reporting as primary use cases. Team size of 11 users would benefit from automations_plus_consulting tier. Amara confirmed budget authority and timeline of 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Primarily myself and Aaliyah Baker from RevOps who will be hands-on with the tool. I can get budget approval on my own."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting component include in the plus tier?",
+          "answer": "It includes quarterly workflow audits and optimization sessions with our automation specialists, plus priority support for custom automation builds."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Send ROI calculator and case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-30",
+      "type": "technical_eval",
+      "duration_minutes": 56,
+      "person_name": "Amara Byrne",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Amara Byrne and Aaliyah Baker. Walked through live demo of automation builder, Salesforce sync, and reporting dashboards. Aaliyah tested the interface and asked detailed questions about custom field mapping and API rate limits. Demonstrated three automation templates relevant to their CS workflow. Both expressed strong interest but Aaliyah raised questions about implementation timeline and internal training requirements. Amara mentioned they'd like to move quickly but needs to confirm with finance on contract timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup and automation configuration, with consulting support throughout."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of technical expertise do our users need?",
+          "answer": "The automation builder is no-code, so most workflows can be set up by operations teams. We provide training sessions and documentation for your team."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a subset of users and expand?",
+          "answer": "Yes, though our pricing is structured by seat tiers. Starting with 11 seats gives you the best per-seat rate and you can add more anytime."
+        }
+      ],
+      "objections": [
+        "Implementation timeline feels tight given our Q2 planning cycle"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing breakdown",
+        "Schedule follow-up to address implementation timeline concerns",
+        "Provide implementation playbook and training resources"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-07",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Amara Byrne",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Amara Byrne to finalize contract terms. Discussed pricing for 11 seats at $10,200 ACV for automations_plus_consulting tier. Amara requested clarification on renewal terms and asked about flexibility on payment terms. She confirmed finance has approved the budget but wants to start implementation in early Q2. Reviewed MSA terms and implementation kickoff schedule. Amara agreed to move forward pending final internal sign-off, targeting contract signature within the week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on annual vs quarterly payment terms?",
+          "answer": "We can offer quarterly payments with a 5% premium, or keep annual payment at the quoted $10,200."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-contract?",
+          "answer": "You can add seats anytime, prorated for the remainder of the contract term at the same per-seat rate."
+        }
+      ],
+      "objections": [
+        "Would prefer quarterly payment terms to align with our cash flow planning"
+      ],
+      "next_steps": [
+        "Send updated proposal with quarterly payment option",
+        "Amara to get final approval from finance by end of week",
+        "Schedule implementation kickoff call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

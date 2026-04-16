@@ -1,0 +1,318 @@
+{
+  "deal_id": "DEAL-0434",
+  "company": {
+    "name": "DeltaGrid",
+    "industry": "Vertical SaaS",
+    "employee_count": 21,
+    "annual_revenue": 2984471,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5500.0,
+    "seats": 7,
+    "price_per_seat_monthly": 66.7,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.1,
+    "sales_cycle_days": 39,
+    "close_date": "2023-11-01",
+    "use_case": "Rep productivity",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aria Stern",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 15
+    },
+    {
+      "name": "Anika Osei",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-31",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call to Aria Stern at DeltaGrid. No answer, left voicemail introducing AskElephant's sales productivity platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-01",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 47.7,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Aria Stern highlighting rep productivity gains. Aria responded expressing interest in learning more about automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration and can sync deal data in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-23",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Aria. Confirmed DeltaGrid has 7 sales reps struggling with manual CRM updates. Aria mentioned they're evaluating options to improve forecast accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for managing pipeline visibility?",
+          "answer": "Mostly manual updates in Salesforce. Reps spend 3-4 hours weekly on admin work."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of automation do you offer?",
+          "answer": "Automated call logging, email tracking, and AI-powered next best actions for reps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-30",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to confirm discovery meeting agenda. Aria mentioned they're also talking to Clari but interested in comparing feature sets. Brief discussion on team size and current pain points.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should join the discovery call from your team?",
+          "answer": "Just me for now. I'll bring in our Sales Manager Anika if we move forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-04",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Aria covering current workflow challenges. DeltaGrid reps lose 30% of time to manual data entry. Aria emphasized need for unlimited automation across all reps. Discussed Clari comparison - Aria likes our UI better but concerned about pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally within the quarter. Budget is tight but this is a priority."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're competitive, and I can work with you on a package that fits your team size."
+        },
+        {
+          "by": "rep",
+          "question": "Who controls budget decisions for sales tools?",
+          "answer": "I have approval up to a certain threshold, then need to loop in Anika for procurement."
+        }
+      ],
+      "objections": [
+        "Need to stay within budget constraints"
+      ],
+      "next_steps": [
+        "Send demo video",
+        "Prepare custom proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and ROI calculator. Aria confirmed she shared with her team and they're excited about the automation features.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Aria to review internally",
+        "Schedule proposal call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email with custom proposal for 7 seats with unlimited automation tier at $5,500 ACV. Aria acknowledged receipt and mentioned she needs to get Anika's sign-off on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat price if we commit to annual?",
+          "answer": "Yes, I've already included a discount in this proposal based on annual commitment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal review call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-19",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Aria. Walked through pricing, implementation timeline, and ROI projections. Aria appreciates the discount but pushed for additional reduction to match internal budget. No exec sponsor mentioned. Discussed Clari's competing offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's pricing? They came in about 15% lower.",
+          "answer": "This proposal already includes 25% off our standard pricing. I'm at my limit but can explore extended payment terms."
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to go live?",
+          "answer": "Next month ideally, but depends on final approvals from Anika."
+        }
+      ],
+      "objections": [
+        "Pricing still higher than budget allocation",
+        "Clari offered lower price point"
+      ],
+      "next_steps": [
+        "Aria to present to Anika",
+        "Follow up on procurement approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on procurement review. Aria mentioned Anika has questions about contract terms and implementation support. Still comparing with Clari's final offer.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Address Anika's contract questions",
+        "Await procurement decision"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-11-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Stern",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Email to Aria with contract terms clarification and implementation support details. Offered to set up call with Anika directly. Aria responded that they're still in final review and will have decision by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for final decision",
+        "Standby for potential Anika call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

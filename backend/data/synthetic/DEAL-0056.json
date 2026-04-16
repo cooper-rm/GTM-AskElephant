@@ -1,0 +1,340 @@
+{
+  "deal_id": "DEAL-0056",
+  "company": {
+    "name": "HelixSolutions",
+    "industry": "Fintech",
+    "employee_count": 54,
+    "annual_revenue": 6225270,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5000.0,
+    "seats": 7,
+    "price_per_seat_monthly": 58.26,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.5,
+    "sales_cycle_days": 31,
+    "close_date": "2025-02-09",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Theo Watson",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 35
+    },
+    {
+      "name": "Blake Khan",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-20",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Theo Watson, VP of Sales. No answer, left voicemail introducing AskElephant's AI call analysis capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-22",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Theo highlighting rep productivity gains through automated call intelligence. Theo responded expressing interest in learning more about how it compares to their current evaluation of Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant differ from Gong in terms of coaching workflows?",
+          "answer": "Rep outlined AskElephant's focus on automated deal risk scoring and real-time coaching triggers vs. Gong's manual review workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call to discuss use case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-29",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call attempt after email exchange. No answer, left message referencing previous email conversation about Gong comparison.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study of similar fintech company achieving 23% faster ramp time for new sales reps. Theo confirmed interest in discovery call and shared that their 6-person sales team struggles with inconsistent qualification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Rep indicated 2-3 weeks for full rollout including integrations and initial training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email sent with discovery agenda and questions about current sales process, tech stack (Salesforce confirmed), and pain points. Theo responded confirming agenda and noting Blake Khan from their team would benefit from seeing a demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed",
+        "Include Blake Khan in follow-up"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-17",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Theo covering current process using manual call reviews and spreadsheet-based pipeline tracking. Team of 6 AMs struggles with coaching consistency. Gong eval in progress but concerns about cost and complexity for SMB. Theo confirmed budget authority but mentioned wanting CFO visibility before final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation of conversation intelligence tools right now?",
+          "answer": "Theo explained new hires ramping too slowly and inconsistent objection handling across team."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Theo noted he owns the budget but CFO likes visibility on any new software spend over $3K."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our current Salesforce setup without heavy IT involvement?",
+          "answer": "Rep confirmed native Salesforce integration with minimal IT lift, typically completed in days."
+        }
+      ],
+      "objections": [
+        "Gong has stronger brand recognition and more references in fintech"
+      ],
+      "next_steps": [
+        "Send demo link for Theo and Blake",
+        "Share fintech customer references",
+        "Propose pricing for 7 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, fintech references, and initial pricing of $7,650 ACV for 7 seats (unlimited automation tier). Theo responded asking about discount flexibility given Gong quoted lower, and requested exec meeting to discuss ROI model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing if we move quickly?",
+          "answer": "Rep indicated willingness to discuss pricing in exec meeting and explore multi-year options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec business review",
+        "Prepare ROI calculator"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Pre-meeting email sharing ROI calculator showing projected $45K productivity gain in year one based on faster ramp and improved win rates. Theo acknowledged and confirmed exec meeting for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting confirmed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-30",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Theo to review business case and ROI model. Positive reception to automation capabilities and coaching workflows. Theo shared that CFO won't join calls for deals under $10K but trusts his judgment. Discussed pricing gap with Gong. Theo pushing for $5K to match competitive offer. Rep agreed to take back to leadership.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make AskElephant the clear winner over Gong for your team?",
+          "answer": "Theo cited faster implementation, simpler UI for their less technical reps, and better automation at lower user count."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can get to $5K annual, can we move forward this week?",
+          "answer": "Rep committed to reviewing discount request and responding within 24 hours."
+        }
+      ],
+      "objections": [
+        "Gong quoted $4,800 for similar seat count with more brand credibility"
+      ],
+      "next_steps": [
+        "Internal discount approval",
+        "Send revised proposal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at $5,000 ACV (34.5% discount approved) for 7 seats, annual commit, unlimited automation tier. Theo responded positively, confirming he'll review with Blake and legal, targeting signature in 2-3 days.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Theo to review with Blake and legal",
+        "Send contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-02-08",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Theo Watson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Theo requested quarterly payment terms instead of annual upfront. Rep countered that discount was predicated on annual payment. Theo agreed to annual payment with 30-day payment terms. Discussed implementation kickoff timeline. Contract to be sent for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments at this price?",
+          "answer": "Rep explained discount requires annual commitment but offered 30-day payment terms instead of immediate."
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to kick off implementation?",
+          "answer": "Theo indicated early next month to align with their quarterly sales kickoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with 30-day terms",
+        "Schedule kickoff call",
+        "Introduce customer success manager"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

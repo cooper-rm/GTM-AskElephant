@@ -1,0 +1,163 @@
+{
+  "deal_id": "DEAL-0568",
+  "company": {
+    "name": "PineFoundry",
+    "industry": "Marketing Agency",
+    "employee_count": 29,
+    "annual_revenue": 4351733,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3300.0,
+    "seats": 6,
+    "price_per_seat_monthly": 47.81,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 46.3,
+    "sales_cycle_days": 17,
+    "close_date": "2023-05-24",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Theo Taylor",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 39
+    },
+    {
+      "name": "Levi Hernandez",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 3
+    },
+    {
+      "name": "Grayson Rivera",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Theo Taylor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Theo Taylor (Head of Sales) via website form. Expressed interest in automating their sales-to-CS handoff process. Mentioned current manual process causing delays and context loss between teams. Requested initial call to discuss requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Theo"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-07",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Theo Taylor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Theo Taylor. Discussed current handoff pain points at PineFoundry - manual Slack messages and spreadsheet tracking causing delays. Team of 6 people would use the platform. Theo sees value in automation tier for their workflow. Confirmed budget authority sits with RevOps (Grayson Rivera). IT Director (Levi) would need to review integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot and Slack?",
+          "answer": "Yes, we have native integrations with both. Levi from your IT team can review our integration documentation."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current handoff process look like?",
+          "answer": "Right now it's manual - sales reps post deal info in a Slack channel and fill out a Google Sheet. CS team picks it up from there, but context gets lost and there are delays."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal for 6 seats with unlimited automation tier",
+        "Loop in Levi for technical review",
+        "Connect with Grayson on budget/timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Taylor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Theo with proposal attached. Outlined $3,300 ACV for 6 seats on unlimited automation plan. Theo responded positively, mentioned he's sharing with Grayson (RevOps) for budget approval. Asked about implementation timeline and noted they'd like to move quickly if pricing works.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline once we sign?",
+          "answer": "Usually 2-3 weeks for setup and integration with your existing tools, then 1 week for team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await feedback from Grayson on budget",
+        "Prepare implementation timeline doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Taylor",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email from Theo indicating Grayson is requesting pricing adjustment to fit Q2 budget. Theo mentioned they're excited about the solution but need to work within budget constraints. Requested discount to close this quarter. Rep offered 46% discount to accommodate, bringing ACV to fit their range. Theo confirmed moving forward pending Levi's final technical sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing to fit our Q2 budget allocation?",
+          "answer": "We can offer a 46% discount for this quarter to help you get started. Let's get Levi's technical approval and we can move to contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Levi's technical review",
+        "Prepare contract at discounted rate",
+        "Schedule kickoff call once signed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

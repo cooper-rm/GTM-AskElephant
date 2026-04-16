@@ -1,0 +1,355 @@
+{
+  "deal_id": "DEAL-0296",
+  "company": {
+    "name": "NextFoundry",
+    "industry": "Marketing Agency",
+    "employee_count": 67,
+    "annual_revenue": 9287366,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.1,
+    "sales_cycle_days": 36,
+    "close_date": "2025-04-17",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Chris Schmidt",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 24
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Chris Schmidt introducing AskElephant's conversation intelligence platform for marketing agencies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-07",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Chris following up on email, highlighting forecasting accuracy benefits. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-09",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call connected with Chris. He expressed interest in improving their current call tracking setup and agreed to a longer qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any conversation intelligence tools?",
+          "answer": "We've been piloting Fireflies but haven't committed yet"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-12",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chris to understand NextFoundry's needs. He explained they're struggling with accurate revenue forecasting and want better visibility into client conversations across their 9-person sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for conversation intelligence right now?",
+          "answer": "Our forecasting is off by 20-30% each quarter and we have no visibility into what's actually being promised to clients"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "We're typically positioned as a premium solution with more advanced analytics, happy to walk through specifics on our next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on forecasting accuracy",
+        "Schedule discovery call to map current process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-18",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to dive deeper into NextFoundry's forecasting challenges. Chris shared that their CEO is frustrated with pipeline accuracy and they need a solution implemented before Q3 planning starts.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll be the main point of contact - I own all our RevOps tools and report directly to the CEO"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with HubSpot and our existing call recording system?",
+          "answer": "Yes, we have native HubSpot integration and can ingest recordings from most major platforms"
+        }
+      ],
+      "objections": [
+        "We're already spending a lot on our tech stack this year"
+      ],
+      "next_steps": [
+        "Schedule full discovery call with screen share",
+        "Send integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-23",
+      "type": "discovery_call",
+      "duration_minutes": 35,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call reviewing NextFoundry's current process, tech stack, and pain points. Chris walked through their CRM setup and forecasting methodology. He mentioned budget constraints but emphasized the ROI of better forecasting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6-8 weeks, before our Q3 planning cycle"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Forecasting accuracy within 10%, and our CEO being able to trust the pipeline numbers without constant questioning"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you require annual contracts or can we start with quarterly?",
+          "answer": "Our standard is annual, but we can discuss contract terms that work for both sides"
+        }
+      ],
+      "objections": [
+        "Fireflies is significantly cheaper and we're not sure the premium is worth it"
+      ],
+      "next_steps": [
+        "Schedule customized demo showing forecasting analytics",
+        "Prepare ROI analysis comparing forecast improvement value"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-29",
+      "type": "demo",
+      "duration_minutes": 57,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session focused on forecasting analytics, deal risk detection, and automated pipeline scoring. Chris was impressed with the XGBoost-powered risk scoring and asked detailed questions about implementation timeline and training requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it take to get meaningful insights after implementation?",
+          "answer": "Most customers see initial insights within 2 weeks, and our models improve continuously as they ingest more conversations"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of training would our team need?",
+          "answer": "We provide onboarding for admins like you, and the interface is intuitive enough that reps need minimal training"
+        },
+        {
+          "by": "rep",
+          "question": "Would you need to involve your CEO or CFO in the final approval?",
+          "answer": "For this price range I have approval authority, though I'll likely give the CEO a heads up"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with pricing for 9 seats",
+        "Schedule follow-up to review proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-04",
+      "type": "proposal_call",
+      "duration_minutes": 31,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call discussing pricing and contract terms. Chris expressed concern about the $9,500 list price and asked for a discount to stay within budget. Discussed value drivers and agreed to explore pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing? Our budget for this category is around $6,500.",
+          "answer": "Let me discuss with my manager - if we can get to annual commitment and some case study participation, we may be able to work something out"
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating any other vendors besides Fireflies?",
+          "answer": "No, it's really between you and Fireflies at this point"
+        }
+      ],
+      "objections": [
+        "The pricing is above our allocated budget for this tool"
+      ],
+      "next_steps": [
+        "Check on discount approval internally",
+        "Schedule call to discuss revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-12",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Chris to present revised pricing at $6,500 with annual commitment. He seemed pleased with the discount but wanted to review internally before committing. Discussed implementation timeline and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign by end of month, can you guarantee implementation before our Q3 planning starts?",
+          "answer": "Yes, our implementation timeline is 10-12 business days from contract signature"
+        },
+        {
+          "by": "rep",
+          "question": "When do you think you'll be ready to move forward?",
+          "answer": "I need a few days to review the terms, but assuming everything looks good I should be able to get this approved this week"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your support look like post-implementation?",
+          "answer": "You'll have a dedicated CSM, access to our support team, and quarterly business reviews"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with $6,500 pricing",
+        "Follow up in 2 days for any questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-04-18",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Chris Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing finalization call to address Chris's questions on contract terms and confirm final details. He requested one modification to payment terms and confirmed he'll be signing within 48 hours.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do net-30 payment terms instead of due on signature?",
+          "answer": "Yes, we can accommodate net-30 for this deal"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders who need to review before you sign?",
+          "answer": "No, I have final say on this. Just want to make sure all the terms are clear on my end"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with net-30 terms",
+        "Chris to review and sign within 48 hours"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 71,
+    "churn_reason": "lack of executive alignment"
+  }
+}

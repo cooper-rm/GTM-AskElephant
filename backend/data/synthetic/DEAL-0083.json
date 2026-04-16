@@ -1,0 +1,335 @@
+{
+  "deal_id": "DEAL-0083",
+  "company": {
+    "name": "CobaltVentures",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 44,
+    "annual_revenue": 5443106,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6800.0,
+    "seats": 10,
+    "price_per_seat_monthly": 57.95,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.9,
+    "sales_cycle_days": 42,
+    "close_date": "2023-02-20",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Henry Singh",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2022-12-31",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold outreach to Henry Singh at CobaltVentures. Rep introduced our call recording and coaching platform, mentioned helping similar managed IT firms improve CS team performance. Henry expressed initial interest in learning more, open to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools for call recording or coaching your CS team?",
+          "answer": "We have some basic recording through our phone system but nothing structured for coaching."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-09",
+      "type": "qualification_call",
+      "duration_minutes": 5,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Henry to understand current state and pain points. Henry described challenges with inconsistent CS quality across their cybersecurity clients, no systematic way to review calls or coach reps. Team of ~10 CS reps handling technical support. Budget discussions deferred to later stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in call coaching right now?",
+          "answer": "We're scaling our managed security services and need to ensure consistent quality. Too many escalations from poor initial handling."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle technical support calls versus sales calls?",
+          "answer": "Fully configurable - we support both use cases with custom scorecards and coaching workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Henry to share current call volume metrics",
+        "Rep to send follow-up email with case study"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar MSP customer, outlined next steps toward discovery call. Henry responded positively, confirmed interest in moving forward and shared that they're also evaluating Clari.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing ticketing system (ConnectWise)?",
+          "answer": "Yes, we have native ConnectWise integration for ticket context."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call to map out requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-20",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into technical requirements and workflow. Henry outlined need for 10 seats covering CS team, discussed automation use cases for call summaries and ticket creation. Mentioned evaluating Clari in parallel but concerned about their complexity. No other stakeholders introduced yet - Henry managing evaluation solo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this - your VP or CTO?",
+          "answer": "I'll bring them in later if needed, but I'm owning this evaluation for now."
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are your automation workflows?",
+          "answer": "Fully customizable - you can build any workflow with our visual builder."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally wrap this up in the next 4-6 weeks."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add overhead - team is already stretched thin"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Rep to prepare demo focused on automation and CS use cases"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-01-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical eval session, shared agenda and demo environment credentials. Henry confirmed attendance and requested focus on automation capabilities, specifically call-to-ticket workflows. Mentioned timeline pressure to decide before end of quarter.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next week",
+        "Henry to invite IT lead if available"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-01-31",
+      "type": "technical_eval",
+      "duration_minutes": 57,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Henry. Walked through platform capabilities, call recording quality, AI summarization, and unlimited automation tier. Henry engaged heavily with automation builder, tested ConnectWise integration. Compared favorably to Clari on ease of use. Still no exec sponsor involved. Henry mentioned budget constraints but didn't share specific numbers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we test this with real call data before committing?",
+          "answer": "Absolutely - we can set up a 2-week pilot with your team."
+        },
+        {
+          "by": "rep",
+          "question": "What would need to happen for you to choose us over Clari?",
+          "answer": "Honestly, better pricing and simpler setup. Clari feels over-engineered for what we need."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the onboarding timeline typically?",
+          "answer": "2-3 weeks for full rollout with training."
+        }
+      ],
+      "objections": [
+        "Pricing will be critical - we're a small team with tight budgets"
+      ],
+      "next_steps": [
+        "Rep to prepare formal proposal with pricing options",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-09",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting scheduled as 'exec alignment' but only Henry attended - mentioned his VP was unavailable. Discussed business case, ROI projections, and implementation plan. Henry emphasized need for competitive pricing to get internal approval. Rep presented proposal framework, discussed seat count and tier options. Single-threaded concern growing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we get your VP on the next call to align on strategic priorities?",
+          "answer": "I'll try, but honestly I have the authority to move this forward if the price is right."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer for a quick close?",
+          "answer": "Let's discuss specific numbers on our pricing call - I'll need to understand your constraints better."
+        },
+        {
+          "by": "rep",
+          "question": "Where does Clari stand in your evaluation now?",
+          "answer": "Still in play, but you're the frontrunner if pricing aligns."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule dedicated pricing discussion",
+        "Henry to share budget parameters"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-14",
+      "type": "pricing_call",
+      "duration_minutes": 35,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Henry pushed hard for discount, citing Clari's competitive offer and budget limitations. Rep offered 34.9% discount to secure deal - final price $6,800 ACV for 10 seats with unlimited automation. Henry seemed satisfied but couldn't commit without 'final internal review.' Still no executive visibility. Competitive pressure evident throughout discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's pricing if I share their quote?",
+          "answer": "I can't match exactly, but I've gone to our floor with this 35% discount."
+        },
+        {
+          "by": "rep",
+          "question": "What does final approval look like on your end?",
+          "answer": "I need to run it by finance and my VP, but this should work."
+        },
+        {
+          "by": "prospect",
+          "question": "Is this price locked in if we sign by end of week?",
+          "answer": "Yes, this discount holds through Friday."
+        }
+      ],
+      "objections": [
+        "Clari came in lower on their proposal",
+        "Need to justify this spend to leadership"
+      ],
+      "next_steps": [
+        "Henry to present internally",
+        "Rep to send formal contract with agreed pricing",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-02-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Singh",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with contract and pricing confirmation. Henry acknowledged receipt, confirmed he's presenting to leadership this week. Mentioned appreciation for the discount and reiterated preference over Clari. Requested minor terms clarification on contract length and renewal terms. No commitment timeline yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a 1-year term instead of 2-year?",
+          "answer": "The discount pricing requires a 2-year commitment, but we can discuss after initial term."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Henry to provide feedback from leadership by end of week",
+        "Rep standing by for any final questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "deal_id": "DEAL-0333",
+  "company": {
+    "name": "OnyxScope",
+    "industry": "Marketing Agency",
+    "employee_count": 63,
+    "annual_revenue": 6926568,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5500.0,
+    "seats": 7,
+    "price_per_seat_monthly": 65.43,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.5,
+    "sales_cycle_days": 50,
+    "close_date": "2024-02-08",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Liam Evans",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Miles Mensah",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 42
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-28",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Liam Evans, Director of Sales at OnyxScope. No answer, left voicemail introducing AskElephant's conversation intelligence platform for sales-to-CS handoff workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-04",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Connected with Liam Evans. Brief intro call where Liam expressed interest in solving manual handoff issues between sales and customer success. Currently using basic note-taking, mentioned they've looked at Fireflies but haven't committed. Agreed to longer qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for passing deal context from sales to CS?",
+          "answer": "Mostly manual notes in our CRM and handoff meetings. It's messy and things fall through the cracks."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this differ from Fireflies?",
+          "answer": "We focus specifically on structured handoff workflows and automation, not just transcription. We extract action items and sync directly to your CS platform."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call",
+        "Send calendar invite and prep materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Liam with AskElephant overview deck and case study on sales-to-CS handoff ROI. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-20",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Liam. Discussed OnyxScope's pain points: CS team spends first two weeks of every client engagement re-discovering context sales already gathered. 7-person sales team, looking to automate handoff for all reps. Budget authority sits with VP Ops, but Liam has discretion under $10k. Interested in unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many sales reps would need access?",
+          "answer": "Seven on the sales team, but we'd want our account managers looped in too for context during handoff."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline? We've got Q2 starting soon.",
+          "answer": "Typically 1-2 weeks for setup and training. We can prioritize your onboarding if you close by end of month."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Miles Mensah, one of our senior AMs, should definitely test the CS side. He's the most technical on the team."
+        }
+      ],
+      "objections": [
+        "We've been burned by tools that promise automation but still require tons of manual work."
+      ],
+      "next_steps": [
+        "Liam to introduce Miles Mensah for technical evaluation",
+        "Send pricing overview for 7 seats, unlimited automation tier",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-28",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into workflow requirements. Liam confirmed main use case is capturing sales calls and auto-generating CS handoff briefs. Noted that Fireflies pricing is cheaper but lacks the structured workflow piece. Expressed concern about budget approval without exec visibility, but wants to move forward with eval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing CRM and CS tools?",
+          "answer": "Yes, we have native integrations with most major CRMs and CS platforms. What stack are you using?"
+        },
+        {
+          "by": "rep",
+          "question": "Have you formalized a business case for this internally yet?",
+          "answer": "Not formally. I know it's a problem but haven't put hard numbers to it. Probably should before I go higher up."
+        },
+        {
+          "by": "prospect",
+          "question": "If we go with Fireflies, would that meet your needs?",
+          "answer": "Fireflies is solid for transcription, but you'd still be manually pulling out handoff details. We automate that extraction and routing, which saves your team hours per deal."
+        }
+      ],
+      "objections": [
+        "I'm not sure I can get exec sign-off without building a stronger ROI case first."
+      ],
+      "next_steps": [
+        "Rep to send ROI calculator template",
+        "Liam to intro Miles for technical eval call",
+        "Target demo/eval in next 5 days"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.5,
+      "rescheduled": false,
+      "ai_summary": "Email sent with ROI calculator, implementation guide, and Calendly link for Miles's technical eval. Liam responded confirming Miles's availability and asking about discount options for multi-year commit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Any flexibility on pricing for annual vs monthly commit?",
+          "answer": "Yes, we offer 15% discount on annual prepay. Happy to discuss further on the eval call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled with Miles for later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-01-11",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Miles Mensah",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Miles Mensah. Walked through platform demo focusing on CS handoff workflow, API integrations, and data security. Miles tested live call recording and reviewed auto-generated handoff brief. Positive on functionality but raised questions about data retention policies and whether they could customize fields in handoff templates. Confirmed 7 seats needed. Miles noted Fireflies is simpler but agreed AskElephant's structure is more valuable for their workflow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get pulled into the CS handoff brief?",
+          "answer": "Yes, fully customizable. You can map fields to your CS platform and set rules for what gets auto-populated."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current data retention policy on call recordings?",
+          "answer": "We need at least 90 days. Compliance requires we keep client interaction logs for audits."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats later?",
+          "answer": "Prorated based on your contract term. We can build in expansion pricing now if you anticipate growth."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns I should relay back to Liam?",
+          "answer": "Not technical ones. This works well. My only worry is whether we'll actually get budget approved without someone higher up championing it."
+        }
+      ],
+      "objections": [
+        "I like the product, but I'm not the budget holder here. Liam will need to sell this internally and I don't know if he has the exec support."
+      ],
+      "next_steps": [
+        "Miles to recommend approval to Liam",
+        "Rep to send proposal with 7 seats, unlimited automation tier",
+        "Liam to review internally and discuss budget path"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-01-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.8,
+      "rescheduled": false,
+      "ai_summary": "Proposal sent to Liam: 7 seats, unlimited automation, $7,500 ACV. Liam responded asking if there's room to negotiate closer to $5k-$6k range, citing budget constraints and comparing to Fireflies' lower price point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility to get closer to $5,500 if we commit to annual prepay?",
+          "answer": "Let me discuss with leadership. That's a significant discount but I want to make this work if you're serious about moving forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to review discount approval internally",
+        "Schedule pricing call to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Email confirming rep has approval for $5,500 ACV with annual prepay (26.5% discount). Outlined revised proposal and requested confirmation of decision timeline. Liam acknowledged and scheduled pricing call to finalize.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled for this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-30",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Liam. Confirmed $5,500 ACV for 7 seats, unlimited automation, annual prepay. Liam accepted terms but expressed concern about getting contract through legal and finance without VP Ops sign-off. Discussed implementation timeline and onboarding. Liam committed to pushing internally but acknowledged risk of delays.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your internal approval process from here?",
+          "answer": "I need to route through finance and legal. Normally VP Ops would sign, but I'm hoping my discretion covers this since we're under $10k."
+        },
+        {
+          "by": "prospect",
+          "question": "If finance pushes back, can we loop in your VP to expedite?",
+          "answer": "I'd rather not unless we have to. I don't want to lose momentum by escalating too early."
+        }
+      ],
+      "objections": [
+        "I'm confident in the product, but I'm worried about internal process slowing this down."
+      ],
+      "next_steps": [
+        "Liam to submit for finance/legal review",
+        "Rep to send contract and SOW",
+        "Follow-up call scheduled for next week to confirm progress"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-02-07",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Liam Evans",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up pricing call. Liam confirmed contract is with legal but flagged that finance is questioning the discount and asking for VP Ops approval. Deal is stalled pending executive review. Liam is advocating internally but admits he may not have enough influence to push it through alone. Discussed potential of bringing in VP Ops for final approval call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to have our team connect directly with your VP Ops to address any concerns?",
+          "answer": "Maybe. Let me try once more internally first. If I can't get traction this week, I'll set that up."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if finance rejects the discount?",
+          "answer": "We could revisit at standard pricing, or potentially do a shorter trial period to prove ROI first. Let's see where we land after your internal push."
+        }
+      ],
+      "objections": [
+        "Finance is pushing back on the discount without exec sponsorship. I may need help getting this over the line."
+      ],
+      "next_steps": [
+        "Liam to attempt internal escalation by end of week",
+        "Rep to prepare exec-level briefing in case VP Ops call is needed",
+        "Check-in call scheduled for early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

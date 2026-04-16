@@ -1,0 +1,244 @@
+{
+  "deal_id": "DEAL-0639",
+  "company": {
+    "name": "GraniteForward",
+    "industry": "SaaS/Tech",
+    "employee_count": 53,
+    "annual_revenue": 6244143,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 5,
+    "price_per_seat_monthly": 59.34,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.3,
+    "sales_cycle_days": 28,
+    "close_date": "2023-12-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Maria Lee",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Maria Lee at GraniteForward regarding automation for sales-to-CS handoff. She mentioned currently evaluating Fireflies but interested in comparing options. Brief form submission noted pain points with manual handoff processes.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-22",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with Maria Lee. Discussed current handoff challenges between 5-person sales team and CS. Maria confirmed budget authority for tools under $5k but mentioned needing to loop in VP Sales for final approval. Expressed interest in unlimited automation tier. Fireflies currently in trial phase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automation limits and Fireflies' approach?",
+          "answer": "Our unlimited tier removes all processing caps, while Fireflies charges per seat with usage limits. For your volume, unlimited makes sense."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this for the sales team?",
+          "answer": "Probably our VP Sales eventually, but I can drive the initial evaluation since this impacts CS handoffs most."
+        }
+      ],
+      "objections": [
+        "Need to understand ROI clearly since we're also looking at Fireflies"
+      ],
+      "next_steps": [
+        "Send ROI comparison doc",
+        "Maria to review with CS team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing ROI calculator and case study from similar-sized SaaS company. Maria responded positively, confirmed CS team sees value. Requested pricing for 5 seats and demo scheduling options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over official pricing for 5 seats on unlimited plan?",
+          "answer": "Sent pricing: $5,700 ACV list price for 5 seats unlimited tier, with demo invite links."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming demo went well. Maria indicated strong interest but flagged that pricing is higher than Fireflies quote. Asked about flexibility on price and whether we could meet before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $5,700 price point? Fireflies came in lower.",
+          "answer": "Let me connect you with our sales leader to discuss options. We can definitely work with you on pricing for a good-fit customer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up exec meeting to discuss terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-08",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute call with Maria to discuss pricing and implementation. Maria reiterated value but emphasized budget constraints and Fireflies competitive position. Discussed discount options to get to $3,800 ACV. Maria comfortable moving forward at that price but noted VP Sales is busy and trusts her judgment on CS tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, what does implementation look like with our existing stack?",
+          "answer": "2-week onboarding, integrates with your CRM and Slack. We'll assign a CSM for setup."
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your VP Sales in the final review before we send paperwork?",
+          "answer": "I'll keep him updated, but he's slammed this quarter. He trusts me on this since it's primarily a CS workflow tool."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the unlimited automation compare in practice to Fireflies' per-seat model for our size?",
+          "answer": "For 5 seats with your call volume, unlimited prevents overage fees and scales better as you grow."
+        }
+      ],
+      "objections": [
+        "Price is still 30% higher than Fireflies even with discount"
+      ],
+      "next_steps": [
+        "Send proposal at $3,800 ACV",
+        "Maria to review internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-16",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute negotiation call. Maria confirmed internal alignment on $3,800 pricing and ready to move forward. Discussed contract terms, payment schedule (annual upfront), and start date. Maria asked about quarterly business reviews and success metrics. Agreed to send final contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does ongoing support look like after onboarding?",
+          "answer": "Dedicated CSM, quarterly business reviews, and 24/7 email support with 4-hour SLA."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to review the contract before signing?",
+          "answer": "Just our finance team for payment processing, but that's usually quick."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Maria to route to finance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Contract sent via DocuSign. Maria confirmed receipt and said she'd forward to finance for review. Expects signature within a few days pending finance approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Maria to get finance approval",
+        "Follow up in 2 days if not signed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "deal_id": "DEAL-0916",
+  "company": {
+    "name": "SouthpointSphere",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 15845631,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2500.0,
+    "seats": 3,
+    "price_per_seat_monthly": 67.3,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.4,
+    "sales_cycle_days": 39,
+    "close_date": "2024-04-01",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Olivia Morgan",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-09",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Olivia Morgan at SouthpointSphere. No answer, left voicemail introducing AskElephant's conversation intelligence platform and mentioning forecasting accuracy use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-11",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Olivia referencing her role in CS and challenges with forecasting deal outcomes. Olivia responded expressing interest in learning more about conversation intelligence tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are you integrated with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration that syncs call insights directly to opportunity records."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call to discuss forecasting challenges"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after LinkedIn connection. Olivia confirmed current challenges with manual call reviews and inconsistent pipeline visibility. Mentioned they're currently evaluating Fireflies but open to alternatives.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "Our unlimited automation tier at $2,500 ACV for 3 seats offers more advanced forecasting features than Fireflies' comparable plan."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on forecasting ROI",
+        "Move to discovery"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Discovery email exchange. Olivia shared that their team of 100 struggles with accurate pipeline forecasting and wants to reduce manual note-taking. She's the primary stakeholder evaluating solutions but hasn't looped in exec team yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Right now it's just me leading the evaluation. I'll bring in leadership once I've vetted the top options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Share pricing overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-07",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "50-minute product demo with Olivia covering forecasting dashboards, automated call summaries, and Salesforce sync. Olivia engaged positively with automation features but asked multiple times about cost and implementation timeline. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are fully onboarded within 2 weeks with our standard setup."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get a trial period before committing?",
+          "answer": "We offer a 14-day pilot program for qualified opportunities to test the platform with your team."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier?",
+          "answer": "Unlimited call transcription, AI summaries, forecasting models, and all integrations including Salesforce."
+        }
+      ],
+      "objections": [
+        "Budget constraints - need to stay within allocated CS tools budget"
+      ],
+      "next_steps": [
+        "Send proposal with 3-seat unlimited tier",
+        "Schedule follow-up to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Proposal follow-up email. Olivia reviewed the $2,500 ACV proposal but expressed concern about budget approval. Requested discount to get under $2,000 threshold. Still no executive sponsor involved in discussions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing to get us closer to $2,000?",
+          "answer": "Let me discuss with my manager and see what we can do to meet your budget constraints."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Schedule call to review adjusted pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-24",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute meeting positioned as exec alignment call, but only Olivia attended. Discussed revised pricing at $1,890 ACV (24.4% discount). Olivia expressed appreciation for flexibility but mentioned she still needs to finalize decision between AskElephant and Fireflies. No firm commitment yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make AskElephant the clear winner over Fireflies?",
+          "answer": "Honestly, price is the biggest factor right now. Fireflies quoted us lower, but your forecasting features are stronger."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you hold the discounted price if we need another week to decide?",
+          "answer": "Yes, we can hold this pricing through end of month to give you time to evaluate."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to bring in your VP of Sales or CFO to discuss forecasting ROI?",
+          "answer": "I think I have what I need to make the case internally. Let me circle back after I review both options."
+        }
+      ],
+      "objections": [
+        "Fireflies has quoted lower pricing",
+        "Need more time to evaluate both platforms"
+      ],
+      "next_steps": [
+        "Send updated proposal at $1,890",
+        "Follow up in one week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-02",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Olivia Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute pricing finalization call. Olivia confirmed the discounted $1,890 pricing works within her budget and she's ready to move forward. Discussed contract terms, onboarding timeline, and seat allocation. She'll handle internal approvals and expects to have signed agreement within a few days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the contract term - is it annual or can we do monthly?",
+          "answer": "The discounted rate requires an annual commitment, but we can discuss monthly options at standard pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start onboarding after signing?",
+          "answer": "We can begin onboarding within 48 hours of signed contract and typically complete setup in under 2 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule onboarding kickoff call",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

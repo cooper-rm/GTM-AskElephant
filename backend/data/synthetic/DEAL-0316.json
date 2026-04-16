@@ -1,0 +1,367 @@
+{
+  "deal_id": "DEAL-0316",
+  "company": {
+    "name": "SageConnect",
+    "industry": "Marketing Agency",
+    "employee_count": 947,
+    "annual_revenue": 113243992,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19300.0,
+    "seats": 25,
+    "price_per_seat_monthly": 63.19,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 29.0,
+    "sales_cycle_days": 28,
+    "close_date": "2025-06-28",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rachel Martin",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 18
+    },
+    {
+      "name": "Santiago Taylor",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    },
+    {
+      "name": "Dylan Murphy",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    },
+    {
+      "name": "Camila Kang",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-20",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Rachel Martin introducing our CRM automation platform and requesting time to discuss potential fit for SageConnect's sales operations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-22",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Rachel Martin. She expressed interest in automating their current manual CRM processes. Scheduled qualification call for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specifically does your platform automate?",
+          "answer": "We automate data entry, lead routing, follow-up sequencing, and pipeline reporting - eliminating manual CRM tasks for sales teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-31",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Rachel Martin (Head of Sales). She described their current pain points with manual CRM hygiene and data entry consuming 8-10 hours per rep weekly. Discussed team size (25 sales reps) and current workflow challenges. Rachel confirmed budget authority and expressed strong interest in moving forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many sales reps would need access to this automation?",
+          "answer": "We have 25 reps across our sales org who would benefit from this."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are fully live within 2-3 weeks including data migration and training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader team",
+        "Prepare custom demo for their use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Rachel confirming discovery call agenda and sharing relevant case study from similar marketing agency customer. Rachel responded confirming she'll bring Santiago from RevOps to the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our RevOps analyst in the discovery call?",
+          "answer": "Absolutely - the more stakeholders involved early, the better we can tailor the solution."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with Rachel and Santiago"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-08",
+      "type": "discovery_call",
+      "duration_minutes": 10,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call prep with Rachel before main session. Confirmed attendees and walked through agenda. Rachel mentioned they're not currently evaluating other vendors but want to move quickly if pricing makes sense.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you evaluating any other automation platforms currently?",
+          "answer": "No, we're focused on getting this solved rather than doing a lengthy comparison process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed to full discovery session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-13",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full discovery call with Rachel Martin (Head of Sales) and Santiago Taylor (RevOps Analyst). Deep dive into their current workflow, pain points, and technical requirements. Santiago asked detailed questions about data security and API capabilities. Team expressed interest in the unlimited automation tier. Dylan and Camila were mentioned as key end users but not on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your security model work for sensitive customer data?",
+          "answer": "We're SOC 2 Type II certified with field-level encryption and role-based access controls."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize automation workflows for different product lines?",
+          "answer": "Yes, our unlimited tier includes custom workflow builder with conditional logic."
+        },
+        {
+          "by": "rep",
+          "question": "Who else on the team should we involve in evaluating this?",
+          "answer": "Dylan Murphy and Camila Kang are our other RevOps analyst and sales manager who will be heavy users."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your pricing look like for 25 seats?",
+          "answer": "I'll prepare a custom proposal based on the unlimited automation tier we discussed and send it over this week."
+        }
+      ],
+      "objections": [
+        "We need to see clear ROI justification before committing to annual contract"
+      ],
+      "next_steps": [
+        "Prepare custom proposal with ROI analysis",
+        "Schedule executive review meeting",
+        "Include Dylan and Camila in next discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-15",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting to present proposal with Rachel Martin. Walked through pricing at $19,300 ACV for 25 seats with unlimited automation tier. Rachel appreciated the ROI breakdown but noted she'll need to get final approval from procurement. No executive sponsor from their side joined the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual commitment - can we do quarterly?",
+          "answer": "Our standard terms are annual, but let me see what options we have for your situation."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule time with your VP or C-level to review this investment?",
+          "answer": "I can champion this internally - I have budget authority for this range."
+        }
+      ],
+      "objections": [
+        "The pricing is higher than we initially budgeted for this project"
+      ],
+      "next_steps": [
+        "Rachel to socialize proposal internally",
+        "Reconvene next week with procurement team",
+        "Explore contract flexibility options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email addressing Rachel's pricing concerns and offering revised proposal with adjusted discount to bring ACV to their budget range. Rachel responded asking to schedule negotiation call with Santiago from procurement.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call with Rachel and Santiago"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Rachel Martin and Santiago Taylor. Discussed revised pricing with 29% discount to meet their budget constraints. Santiago raised questions about contract terms, implementation support, and cancellation policy. Rachel expressed urgency to close this month but needs final internal approval. Still no executive sponsor engaged directly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of implementation support is included at this price point?",
+          "answer": "You'll get dedicated onboarding specialist, custom workflow setup, and 30 days of premium support."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to reduce seats mid-contract?",
+          "answer": "We can discuss flex terms - typically we allow up to 20% seat reduction at renewal with 60 days notice."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "We'd like to have this implemented by end of quarter - so ideally sign within the next week."
+        }
+      ],
+      "objections": [
+        "We need more favorable cancellation terms given this is our first automation platform investment"
+      ],
+      "next_steps": [
+        "Send revised contract with negotiated terms",
+        "Rachel to get final internal sign-off",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Martin",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sending finalized contract with agreed pricing ($19,300 ACV, 29% discount) and revised terms addressing cancellation policy concerns. Rachel confirmed she's routing for final approvals and expects to have decision by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the implementation start date if we sign this week?",
+          "answer": "We can kick off implementation within 3 business days of signed contract with your dedicated onboarding specialist."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rachel routing contract for final approval",
+        "Follow up end of week for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "deal_id": "DEAL-0588",
+  "company": {
+    "name": "WillowHealth",
+    "industry": "Professional Services",
+    "employee_count": 61,
+    "annual_revenue": 10366823,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5000.0,
+    "seats": 7,
+    "price_per_seat_monthly": 61.78,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.6,
+    "sales_cycle_days": 9,
+    "close_date": "2023-07-18",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Oliver Shah",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-15",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Oliver Shah, VP of Customer Success at WillowHealth. No answer, left voicemail introducing AskElephant's call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-18",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 20.0,
+      "rescheduled": false,
+      "ai_summary": "Oliver responded to cold email expressing interest in improving their CS team's call quality and coaching workflows. Mentioned they're growing fast and need better visibility into customer conversations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM and support tools?",
+          "answer": "Yes, we have native integrations with major CRMs and support platforms. We can discuss your specific stack on a call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand WillowHealth's current coaching process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-19",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with proposed meeting times and case study from similar professional services company. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-22",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Oliver to follow up on scheduling. No answer, no voicemail left.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Oliver replied to follow-up email apologizing for delay. Confirmed availability for qualification call next week. Mentioned he's new to the VP role (3 months) and building out coaching infrastructure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 7 seats, typically 1-2 weeks from contract signature to full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Oliver responded positively after demo, confirming the unlimited automation tier fits their needs. Asked for pricing proposal for 7 seats. Noted he'll need to run this by finance but believes budget is available.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot before committing to all 7 seats?",
+          "answer": "Our minimum is 5 seats, but we can structure the rollout in phases if that helps with adoption."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the decision process?",
+          "answer": "It's primarily my call, but I'll loop in our CFO for budget approval on anything over $3k."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing proposal for 7 seats with unlimited automation",
+        "Oliver to review internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-18",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Oliver Shah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing negotiation call, rescheduled from previous week. Oliver expressed concerns about budget constraints and requested significant discount. Mentioned they're bootstrapped and watching spend carefully. Agreed to 30.6% discount to close deal. No other decision-makers joined the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the absolute lowest you can go on pricing? Our budget is tight this quarter.",
+          "answer": "We can offer a 30% discount for an annual commitment, bringing it to $5,000 ACV."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have a conversation with your CFO to discuss ROI and budget allocation?",
+          "answer": "I can handle the budget discussion internally. I have approval authority up to $10k."
+        },
+        {
+          "by": "rep",
+          "question": "Are there other stakeholders who should review the contract before we finalize?",
+          "answer": "No, I'm driving this. I'll get it through our procurement process once we agree on terms."
+        }
+      ],
+      "objections": [
+        "List pricing is too high for our current budget cycle",
+        "Need to see stronger ROI justification to commit at full price"
+      ],
+      "next_steps": [
+        "Send revised proposal with 30.6% discount",
+        "Oliver to review contract and process internally",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

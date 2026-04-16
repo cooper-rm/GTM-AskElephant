@@ -1,0 +1,206 @@
+{
+  "deal_id": "DEAL-0558",
+  "company": {
+    "name": "IvorySpark",
+    "industry": "EdTech",
+    "employee_count": 42,
+    "annual_revenue": 6737039,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3700.0,
+    "seats": 6,
+    "price_per_seat_monthly": 51.36,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.3,
+    "sales_cycle_days": 13,
+    "close_date": "2023-05-18",
+    "use_case": "CRM automation",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Grace Friedman",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-08",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Grace Friedman introducing CRM automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-10",
+      "type": "cold_call",
+      "duration_minutes": 7,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Grace. She expressed interest in CRM automation to reduce manual work for her CS team. Agreed to a longer qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with your current CRM workflow?",
+          "answer": "We're spending too much time on manual data entry and follow-ups. I just started in this role and inherited a messy process."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to what we're already using?",
+          "answer": "We currently don't have a formal automation tool, but I'd love to show you what's possible in our next conversation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-06",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Grace covering team size, current tools, and automation needs. She mentioned evaluating Gong as well. Discussed use cases around call analysis and workflow automation for 6 CS team members.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current tech stack and where automation would have the biggest impact.",
+          "answer": "We use Salesforce but barely scratch the surface. The CS team of 6 is drowning in manual tasks. I need something that can automate follow-ups and surface insights from customer calls."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing look like for 6 seats?",
+          "answer": "Let me put together a tailored proposal based on what we discussed. I'll send that over by end of week."
+        },
+        {
+          "by": "rep",
+          "question": "Are there other stakeholders we should involve in the evaluation?",
+          "answer": "Right now it's just me driving this. I have the budget authority for CS tools under $5K."
+        }
+      ],
+      "objections": [
+        "We're also looking at Gong. How are you different?"
+      ],
+      "next_steps": [
+        "Send proposal by Friday",
+        "Schedule demo for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and case study. Grace responded positively, mentioned she's presenting to her team internally and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Usually 2-3 weeks for a team your size. We'll assign a dedicated onboarding specialist."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Grace to review internally and respond by Monday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with $3,700 ACV for 6 seats with unlimited automation tier. Grace responded that the price is higher than expected and Gong came in lower. Requested discount to match budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing? Gong's quote was quite a bit lower.",
+          "answer": "Let me talk to my manager about what we can do. What's your target budget?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revised pricing by Wednesday",
+        "Grace to confirm decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Friedman",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Negotiation email with revised pricing at 42% discount to close the deal. Grace accepted the pricing and requested contract. Timeline to close is end of quarter.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Target close date: end of Q1"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

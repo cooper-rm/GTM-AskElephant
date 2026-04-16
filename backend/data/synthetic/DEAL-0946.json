@@ -1,0 +1,335 @@
+{
+  "deal_id": "DEAL-0946",
+  "company": {
+    "name": "GoldenLogic",
+    "industry": "Healthcare IT",
+    "employee_count": 50,
+    "annual_revenue": 7171807,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5400.0,
+    "seats": 8,
+    "price_per_seat_monthly": 55.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 37.8,
+    "sales_cycle_days": 53,
+    "close_date": "2024-05-07",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Grace Watanabe",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Samuel Morgan",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Grace Watanabe, VP of Customer Success at GoldenLogic. Expressed interest in CRM automation solutions to reduce manual work for their growing CS team. Mentioned currently evaluating a couple of options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-15",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Grace to understand current state and needs. GoldenLogic is a 50-person healthcare IT company with manual CRM processes causing bottlenecks. Grace owns CS operations and is looking for automation to scale without headcount. Timeline is 4-6 weeks. Budget authority sits with IT Director Samuel Morgan.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Our CS team is spending 15+ hours weekly on data entry and follow-ups. We just onboarded 20 new customers and can't scale this way."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model?",
+          "answer": "We price per seat with tiered automation limits. For your team size, we typically see 8-10 seats in the unlimited automation tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-21",
+      "type": "discovery_call",
+      "duration_minutes": 13,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current workflow pain points. Grace walked through their manual process for logging customer interactions, follow-up tasks, and reporting. Team uses Salesforce but minimal automation. Grace mentioned they're also looking at Fathom but concerned about ease of use for non-technical users.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "Samuel Morgan from IT will need to review security and integrations. I can drive the business case, but he controls vendor approvals."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fathom?",
+          "answer": "Fathom focuses primarily on meeting recording and transcription. We provide end-to-end CRM automation including email follow-ups, task routing, and custom workflows beyond just call notes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical demo",
+        "Include Samuel Morgan in next meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-29",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to clarify use cases and integration requirements. Grace provided specific examples of workflows they want to automate: post-call follow-up emails, escalation routing for at-risk accounts, and quarterly business review scheduling. Discussed Salesforce API integration needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for customer communication?",
+          "answer": "Salesforce for CRM, Zoom for calls, Gmail for email. We need everything to sync back to Salesforce automatically."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you handle conditional workflows based on customer health scores?",
+          "answer": "Yes, we support rule-based triggers including custom fields like health scores. You can route tasks, send alerts, or trigger sequences based on any Salesforce field."
+        }
+      ],
+      "objections": [
+        "Need to confirm IT security requirements before moving forward"
+      ],
+      "next_steps": [
+        "Prepare demo environment with Salesforce integration",
+        "Send security documentation to Grace for Samuel's review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-05",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Grace covering core automation workflows. Demonstrated call logging, automated follow-up sequences, and task routing. Grace was particularly impressed with the email template customization and Salesforce two-way sync. She asked detailed questions about setup time and user training requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does initial setup and integration typically take?",
+          "answer": "For Salesforce integration with your use cases, typically 1-2 weeks including workflow configuration and user onboarding. We provide dedicated implementation support."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of training do our team members need?",
+          "answer": "Most users are productive within 30 minutes. We provide live onboarding sessions and video tutorials. The interface is designed for non-technical CS teams."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fathom?",
+          "answer": "Fathom's call recording is good, but it doesn't handle the follow-up automation we need. Your solution feels more complete for our end-to-end workflow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Samuel Morgan",
+        "Provide trial access for Grace's team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-12",
+      "type": "technical_eval",
+      "duration_minutes": 19,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Grace only - Samuel Morgan did not join. Grace asked technical questions on his behalf regarding API rate limits, data privacy, and SSO. She mentioned Samuel is busy with other projects but trusts her assessment. Discussed moving to proposal stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits for Salesforce sync?",
+          "answer": "We batch sync every 5 minutes and stay well within Salesforce's standard API limits. For your volume, you won't hit any constraints."
+        },
+        {
+          "by": "rep",
+          "question": "When can we get Samuel on a call to address security questions directly?",
+          "answer": "He's swamped with a data center migration project. I can relay questions back and forth. He's generally supportive if I'm confident in the solution."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Include security documentation for Samuel"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal for 8 seats at unlimited automation tier. Proposed pricing at $5,400 ACV (37.8% discount from list) given budget constraints Grace mentioned. Included ROI calculator showing time savings. Grace responded same day asking for contract terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a shorter initial commitment to pilot this with the CS team first?",
+          "answer": "Standard contract is 12 months, but we're flexible on expanding seat count after you see results with the initial 8 users."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss terms",
+        "Prepare contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-01",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Grace regarding pricing and contract terms. Grace pushed back on annual commitment, asking for quarterly option. Discussed discount justification - Grace cited budget limitations and competitive pricing from Fathom. Agreed to hold at $5,400 ACV annual with 30-day opt-out clause.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom quoted us significantly lower for similar seat count. Can you match their pricing?",
+          "answer": "Fathom's core product is narrower - mainly call transcription. Our automation capabilities are much broader. The $5,400 pricing already reflects a substantial discount given your use case fit."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you confident enough to commit to annual rather than quarterly?",
+          "answer": "If we can get through implementation smoothly and see results in the first month, I'm comfortable with annual. The 30-day opt-out gives me coverage."
+        }
+      ],
+      "objections": [
+        "Annual commitment feels risky without executive buy-in from leadership",
+        "Pricing still higher than competitor alternatives"
+      ],
+      "next_steps": [
+        "Send updated contract with opt-out clause",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-08",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Grace Watanabe",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting scheduled to align leadership, but only Grace attended - no executive sponsor joined. Grace explained their CEO trusts her judgment on CS tooling decisions. Walked through business case and ROI projections. Grace committed to moving forward pending legal review of contract. She seemed confident but mentioned this is her first software purchase of this size.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anyone from leadership who should review this before we finalize?",
+          "answer": "Our CEO is hands-off on departmental tools as long as Samuel clears security and I own the budget. I've briefed him via email and he's supportive."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the timeline for legal review?",
+          "answer": "We use standard vendor contract templates. Legal typically turns these around in 3-5 business days unless there are custom terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Grace for legal review",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

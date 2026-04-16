@@ -1,0 +1,600 @@
+{
+  "deal_id": "DEAL-0959",
+  "company": {
+    "name": "MintSoftware",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 399,
+    "annual_revenue": 69092674,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8000,
+    "seats": 10,
+    "price_per_seat_monthly": 60.76,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.7,
+    "sales_cycle_days": 63,
+    "close_date": "2024-01-03",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Quinn Suzuki",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 75
+    },
+    {
+      "name": "Wyatt Tanaka",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 6
+    },
+    {
+      "name": "Ava Moore",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Parker Baker",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 58
+    },
+    {
+      "name": "Peyton Agarwal",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-16",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Quinn Suzuki at MintSoftware. No answer, left voicemail introducing AskElephant's forecasting capabilities for sales teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-17",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Quinn Suzuki highlighting forecasting accuracy challenges in managed IT sales. Quinn responded positively, expressed interest in learning more about how AskElephant differs from their current approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your forecasting different from typical CRM forecasting?",
+          "answer": "AskElephant uses AI to analyze communication patterns across calls and emails to surface hidden risk signals that CRMs miss, giving revenue leaders real-time deal health visibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-02",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Quinn Suzuki. Discussed current forecasting challenges at MintSoftware - using manual pipeline reviews and Salesforce reports. Quinn mentioned they're evaluating Gong as well. Team of 10 sales reps struggling with forecast accuracy in 60-90 day cycles.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant integrate with our existing Salesforce setup?",
+          "answer": "Native Salesforce integration syncs deal data bidirectionally. We analyze call recordings and emails to enrich your pipeline with AI-driven risk scores."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for forecasting and where does it break down?",
+          "answer": "Weekly pipeline reviews with manual rep input. Deals slip frequently because we don't catch warning signs early enough - champions go dark or procurement stalls."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Quinn to check calendar availability for deeper discovery",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Quinn with AskElephant overview deck and case study from similar managed IT company. Quinn confirmed availability for discovery call next week and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical time to value after implementing AskElephant?",
+          "answer": "Most customers see actionable insights within 2 weeks of go-live as the AI learns from historical deal patterns."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-09",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Quinn to prepare for full discovery. Discussed MintSoftware's sales org structure - 10 reps across cybersecurity and managed services. Quinn confirmed SVP of Revenue Wyatt Tanaka would need to approve. Gong evaluation is ongoing but focused on conversation intelligence vs forecasting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this alongside you?",
+          "answer": "Wyatt Tanaka, our SVP of Revenue, will make the final call. I can champion this internally but need to show clear ROI."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Gong for forecasting specifically?",
+          "answer": "Gong excels at conversation analytics. AskElephant is purpose-built for forecast accuracy - we analyze deal health patterns across all touchpoints, not just call content."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full discovery call with deeper process walkthrough",
+        "Quinn to prep current forecasting pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-15",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Quinn diving into forecasting process. Current challenge: deals in late stage slip without warning, creating 20-30% forecast variance month-to-month. Quinn showed interest in multi-threading insights and champion engagement tracking. Discussed automations + consulting package for custom deal scoring.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What percentage of your late-stage deals are single-threaded vs multi-threaded?",
+          "answer": "Honestly, we don't track that well. Probably 60% are single-threaded which I know is a problem. When our champion goes quiet, deals die."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant alert us in real-time when a champion's engagement drops off?",
+          "answer": "Yes, that's a core feature - engagement velocity scoring per contact with automated alerts when response patterns change."
+        },
+        {
+          "by": "rep",
+          "question": "What would a win look like for you in 6 months?",
+          "answer": "Forecast variance under 10% and visibility into deal risks before the weekly pipeline review, not during it."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical deep dive for Quinn and sales ops",
+        "Share ROI calculator for forecasting improvement"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-11-18",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended discovery call with Quinn covering data security, privacy requirements for cybersecurity company, and integration needs. Discussed custom consulting to build MintSoftware-specific risk models based on their managed IT sales patterns. Quinn emphasized need to move quickly - Q2 planning cycle starting soon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data security certifications does AskElephant have? We're in cybersecurity so compliance is critical.",
+          "answer": "SOC 2 Type II certified, GDPR compliant, all data encrypted at rest and in transit. We can provide full security documentation."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally by end of month to align with Q2 planning. Wyatt wants forecasting tools locked in before we scale the team."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting package work for custom scoring models?",
+          "answer": "Our team works with your historical deal data to identify MintSoftware-specific patterns - industry signals, deal size thresholds, competitor dynamics - then tunes the AI scoring model accordingly."
+        },
+        {
+          "by": "rep",
+          "question": "Can you integrate with our current call recording setup?",
+          "answer": "Yes, we integrate with all major platforms - Zoom, Gong, Chorus, or native recording. Just need API access."
+        }
+      ],
+      "objections": [
+        "Need to understand how this works alongside Gong if we move forward with both tools"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Quinn and implementation leads",
+        "Quinn to introduce Wyatt for exec alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-24",
+      "type": "technical_eval",
+      "duration_minutes": 46,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Quinn and implementation leads Parker Baker and Peyton Agarwal. Walked through AskElephant platform - deal scoring dashboard, risk signal detection, integration setup. Team impressed with automation capabilities and custom model training. Peyton asked detailed questions about data pipelines and API rate limits.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much historical data do you need to train an accurate model?",
+          "answer": "Minimum 6 months of closed deals, ideally 12-18 months for robust pattern recognition. We can start with less but accuracy improves with more data."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit for syncing Salesforce data?",
+          "answer": "We batch sync every 15 minutes with rate limiting well within Salesforce API governance limits. No impact on your other integrations."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have concerns about implementation complexity?",
+          "answer": "Not major concerns. Looks straightforward but we'll need consulting support to tune the model correctly for managed IT sales cycles."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Second technical session to review custom scoring model design",
+        "Quinn to schedule exec meeting with Wyatt"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-28",
+      "type": "technical_eval",
+      "duration_minutes": 36,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation focused on custom consulting engagement. Reviewed MintSoftware's deal data structure, key risk factors in managed IT sales (long procurement cycles, security reviews, multi-location rollouts). Parker and Peyton aligned on implementation plan. Discussed change management for sales team adoption.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do we ensure the sales team actually uses this vs just another tool they ignore?",
+          "answer": "Change management is part of consulting package - we train your team, embed in existing workflows, and show quick wins with specific deal examples."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current tech stack look like for sales tools?",
+          "answer": "Salesforce, Outreach for sequencing, Zoom for calls, considering Gong. Want to avoid tool sprawl but need better forecasting."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we pilot with a subset of reps before full rollout?",
+          "answer": "Absolutely. Recommend starting with 3-5 reps, validate accuracy over 30 days, then expand to full team."
+        }
+      ],
+      "objections": [
+        "Pricing will be a consideration - need to see clear ROI to justify budget alongside potential Gong purchase"
+      ],
+      "next_steps": [
+        "Move to proposal stage",
+        "Schedule pricing and packaging discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-12-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 11.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Quinn recapping technical evaluation outcomes and confirming readiness to move to proposal. Quinn responded positively but mentioned budget constraints given Gong evaluation. Asked for pricing options and flexibility on seat count.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing if we commit to annual vs monthly?",
+          "answer": "Yes, annual commitments come with discount and we can discuss tiered pricing based on seat count and consulting scope."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal call scheduled for Friday",
+        "Prepare pricing options with discount scenarios"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-12-07",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Quinn reviewing pricing for 10 seats with automations plus consulting package. Standard pricing $11,700 ACV. Quinn expressed concern about budget - requested discount to fit within allocated Q2 budget. Discussed ROI from reducing forecast variance and avoiding missed revenue targets.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the price breakdown between platform seats and consulting?",
+          "answer": "Platform is $800/seat/year for automations tier. Consulting package for custom model is $3,700 for initial build and tuning."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you planning for forecasting tools this quarter?",
+          "answer": "Around $8,000 for the year. We're also budgeting for Gong potentially so need to make sure we're not overlapping costs."
+        }
+      ],
+      "objections": [
+        "Standard pricing is above our allocated budget - need to find a way to make this work financially"
+      ],
+      "next_steps": [
+        "Quinn to brief Wyatt on proposal before exec meeting",
+        "Explore discount options to hit $8K target"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-12-11",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Wyatt Tanaka",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Wyatt Tanaka and Quinn. Wyatt focused on forecast accuracy impact and team scalability. Discussed MintSoftware's growth plans - hiring 5 more reps in Q3, need forecasting foundation before scaling. Wyatt receptive but noted competitive pricing pressure from Gong bundled offering.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cost of forecast inaccuracy to MintSoftware right now?",
+          "answer": "Hard to quantify exactly but we've missed quarterly targets twice in past year due to late-stage slippage. Probably $200K+ in delayed revenue."
+        },
+        {
+          "by": "rep",
+          "question": "How important is forecasting accuracy vs conversation intelligence in your decision?",
+          "answer": "Forecasting is the bigger pain point. We can coach reps on calls manually for now, but we can't manually predict which deals will slip."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can hit your budget target, what's the decision timeline?",
+          "answer": "Quinn's the champion here but if pricing works I can approve this week. Need to move fast for Q2 rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Second exec meeting to finalize terms",
+        "Revise proposal with discounted pricing to $8K ACV"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Wyatt Tanaka",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Wyatt and Quinn to review revised proposal at $8,000 ACV (31.7% discount). Wyatt appreciated pricing flexibility. Discussed implementation timeline - kickoff in 2 weeks, custom model training over 30 days. Wyatt asked about contract terms and early termination clauses given this is a new vendor relationship.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the contract terms - annual lock or quarterly flexibility?",
+          "answer": "Standard is annual commitment for the discounted rate. We can include 90-day out clause if success metrics aren't met."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we decide to also move forward with Gong - is there overlap?",
+          "answer": "Minimal overlap - Gong for conversation analytics, AskElephant for deal health forecasting. Some customers use both, others choose one based on priority."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable moving forward at $8K with the consulting included?",
+          "answer": "Yes, that works within our budget. Let's get the contract over for review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Quinn and Wyatt to align with Ava Moore on procurement process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-12-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Quinn and Wyatt with contract and SOW for legal review. Quinn responded confirming handoff to Ava Moore (Sales Manager) and Parker/Peyton for procurement and technical review. Mentioned 5-7 day review cycle typical for new vendor contracts at MintSoftware.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ava to coordinate legal and procurement review",
+        "Stand by for contract questions from MintSoftware team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-12-25",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Quinn and Ava Moore to clarify contract terms. Ava asked about payment terms (quarterly vs annual upfront), data retention policies, and service level agreements. Confirmed $8,000 ACV pricing locked in, standard payment terms acceptable.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are payment terms - net 30, net 60?",
+          "answer": "Standard is net 30 with annual invoice. We can discuss quarterly invoicing if preferred."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the SLA for platform uptime and support response?",
+          "answer": "99.9% uptime SLA, support response within 4 hours for critical issues, 24 hours for standard requests. Included in contract appendix."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ava to finalize contract internally",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-12-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Quinn and Ava checking on contract status. Quinn responded that legal is finishing review, minor redlines on indemnification language. Should be ready to sign early next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Address legal redlines",
+        "Final contract review by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-01-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Suzuki",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Quinn with revised contract addressing legal redlines. Confirmed all terms agreed, waiting on final signature from Wyatt and procurement approval from Ava. Quinn indicated signature expected Monday, implementation kickoff to follow immediately.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Final signature from Wyatt and Ava",
+        "Schedule implementation kickoff with Parker and Peyton"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,882 @@
+{
+  "deal_id": "DEAL-0225",
+  "company": {
+    "name": "LunarDigital",
+    "industry": "PropTech",
+    "employee_count": 4806,
+    "annual_revenue": 517283927,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 75100.0,
+    "seats": 57,
+    "price_per_seat_monthly": 104.81,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 146,
+    "close_date": "2024-09-25",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Emily Perez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 3
+    },
+    {
+      "name": "Sarah Davis",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 50
+    },
+    {
+      "name": "Hazel Watson",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 20
+    },
+    {
+      "name": "David Bauer",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 41
+    },
+    {
+      "name": "Leila Rogers",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 6
+    },
+    {
+      "name": "Ivy Baker",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 1
+    },
+    {
+      "name": "Rowan Perez",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Emily Perez, Director of CS at LunarDigital, expressing interest in improving pipeline visibility for their CS team. Initial inquiry about capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up with discovery questions and calendar link"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Emily with discovery questions about current pipeline challenges and team structure. Proposed time for qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a pipeline visibility solution right now?",
+          "answer": "Team has grown to 57 people and current tools aren't scaling"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-09",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Emily. Discussed team size (57 seats), current pain points with visibility into CS activities, and preliminary fit for automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution handle integration with existing CRM systems?",
+          "answer": "Native integrations with major CRMs, API available for custom connections"
+        },
+        {
+          "by": "rep",
+          "question": "What tools are you currently evaluating?",
+          "answer": "Looking at Fathom and one other vendor"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to share org chart",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 13.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with recap of qualification call and requested org chart. Shared case study relevant to PropTech vertical.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for org chart",
+        "Prepare for deeper qualification discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call focused on team structure and use cases. Emily mentioned she's been in the Director role for 4 months and is looking to make an early impact with better tooling.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Will need to loop in IT and get Sarah (CEO) involved for final approval"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "6-8 weeks for full rollout with consulting package"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to identify technical evaluators from IT",
+        "Schedule next call to discuss implementation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-22",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call diving into specific pipeline visibility gaps. Discussed reporting needs and how AI-processed call summaries would help with forecasting accuracy.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How accurate is the AI summarization for technical calls?",
+          "answer": "90%+ accuracy with ability to customize for industry terminology"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send sample AI summaries from PropTech customers",
+        "Move to discovery phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email transitioning to discovery phase. Shared PropTech customer samples and proposed agenda for discovery call with broader team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Emily to invite relevant stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-01",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final qualification call before discovery. Discussed budget considerations and Emily confirmed $75-80K range is feasible for 57 seats with consulting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place within 2 months"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a phased rollout or does it need to be all 57 seats at once?",
+          "answer": "Can phase, but pricing is optimized for full team deployment"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call deck",
+        "Confirm attendees for discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-05",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Emily covering current state workflow, pain points with manual call logging, and competitive evaluation process. Emily mentioned Fathom is in the mix but concerns about their enterprise features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data security and compliance for recorded calls?",
+          "answer": "SOC2 Type II certified, regional data storage options available"
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision-making process at LunarDigital for a tool like this?",
+          "answer": "Need IT technical validation, then exec approval from Sarah"
+        }
+      ],
+      "objections": [
+        "Need to make sure integration doesn't disrupt current workflows"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with IT team",
+        "Prepare security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-12",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on desired future state. Discussed automation capabilities, reporting dashboards, and how consulting services would support change management across 57-person team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include specifically?",
+          "answer": "Dedicated CSM, custom workflow setup, training sessions, quarterly business reviews"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical eval with Leila Rogers and David Bauer from IT",
+        "Move to demo/evaluation stage"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-06-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery insights and proposing technical evaluation session. Requested IT team availability for hands-on demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate calendars for technical eval",
+        "Prepare technical deep-dive materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-06-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing additional discovery materials including ROI calculator and implementation timeline doc.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for technical eval scheduling confirmation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-28",
+      "type": "technical_eval",
+      "duration_minutes": 70,
+      "person_name": "Leila Rogers",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation scheduled with Leila Rogers was rescheduled due to conflicting IT priority. Proposed new time later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical eval",
+        "Confirm new time works for all IT stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-07-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on reschedule and offering flexible timing options for technical team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm rescheduled technical eval time"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Emily confirming rescheduled technical eval and sharing pre-read materials for IT team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval with Leila Rogers scheduled for tomorrow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-07-14",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "Leila Rogers",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Leila Rogers (IT Director). Deep dive into API capabilities, security architecture, data handling, and integration requirements. Leila is thorough but engagement is positive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Standard 7-year retention, customizable by data type with enterprise plan"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the HNSW-based retrieval work and what's the latency?",
+          "answer": "Sub-100ms query times, vector embeddings updated real-time, cosine similarity for semantic search"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the technical architecture?",
+          "answer": "Looks solid, want to see live demo with our data schema"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up technical session with sample data",
+        "Leila to review with David Bauer"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-07-19",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Leila Rogers",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Leila Rogers and Ivy Baker (Account Manager). Hands-on demo with LunarDigital's sample data schema. Discussed XGBoost scoring model for deal prioritization and custom field mapping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we white-label the interface for our CS team?",
+          "answer": "Yes, custom branding available with enterprise tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit?",
+          "answer": "10K requests/hour standard, can increase for enterprise needs"
+        },
+        {
+          "by": "rep",
+          "question": "Does this meet your technical requirements?",
+          "answer": "Yes, ready to recommend moving forward to proposal stage"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "IT to provide technical sign-off",
+        "Schedule exec meeting with Sarah Davis",
+        "Prepare proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-07-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Emily with technical eval summary and confirmed IT approval. Proposed exec meeting with Sarah Davis to discuss strategic value and business case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting",
+        "Prepare exec-level deck focused on ROI"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-07-29",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Sarah Davis",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Sarah Davis (CEO) and Emily Perez. Discussed strategic value of pipeline visibility, ROI projections showing 20% efficiency gain for CS team, and alignment with LunarDigital's growth plans.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cost structure and are there volume discounts?",
+          "answer": "Per-seat pricing with consulting package, enterprise discounts available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily and Sarah to review internally",
+        "Prepare formal proposal with pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-08-04",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Sarah Davis",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second exec meeting scheduled with Sarah Davis was rescheduled due to board meeting conflict. Proposed alternative time next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec follow-up",
+        "Keep proposal preparation on track"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-08-10",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Emily to walk through formal proposal: $75,100 ACV for 57 seats with automations_plus_consulting package. Discussed payment terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual vs quarterly payment terms?",
+          "answer": "Can offer quarterly with standard terms, annual prepay gets 5% discount"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to share with procurement (Hazel Watson, Rowan Perez)",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-08-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal document, security questionnaire responses, and customer references in PropTech vertical.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Emily to circulate internally",
+        "Wait for procurement feedback"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-08-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review and offering to address any questions from procurement team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for feedback from Hazel and Rowan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 24,
+      "date": "2024-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Emily noting Fathom proposal is also under review and offering to provide competitive comparison if helpful.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any feedback from the procurement review so far?",
+          "answer": "Team is comparing Fathom pricing, will have questions soon"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare competitive positioning materials",
+        "Stand by for pricing questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 25,
+      "date": "2024-08-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing comparison doc highlighting enterprise features and consulting value vs Fathom's self-service model.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Emily to review with Sarah",
+        "Prepare for negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 26,
+      "date": "2024-09-04",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emily. Fathom came in $12K lower for base product but without consulting. Discussion around consulting ROI and whether discount is possible to match competitive pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's pricing or offer a discount on the consulting package?",
+          "answer": "Can explore options - what's most important: lower price or full consulting support?"
+        },
+        {
+          "by": "rep",
+          "question": "If we removed consulting, would that put us in competitive range?",
+          "answer": "Yes, but Emily strongly prefers keeping consulting given team's size and her newness to role"
+        }
+      ],
+      "objections": [
+        "Fathom pricing is creating internal pressure to reduce costs"
+      ],
+      "next_steps": [
+        "Explore discount options with leadership",
+        "Schedule follow-up to discuss revised terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 27,
+      "date": "2024-09-07",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call scheduled to discuss discount options was rescheduled by Emily due to internal budget review meeting conflict.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation discussion",
+        "Prepare discount proposal options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 28,
+      "date": "2024-09-15",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss revised proposal. Offered 8% discount ($69,100 ACV) to stay competitive while maintaining consulting package value. Emily receptive but needs to confirm with Sarah and procurement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this your best and final offer?",
+          "answer": "This represents significant investment in partnership - limited room beyond this"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to present revised pricing to Sarah and procurement",
+        "Stand by for decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 29,
+      "date": "2024-09-17",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emily following internal review. Procurement pushing for 12% discount to match Fathom total cost. Discussed value gap and agreed to meet at 10% ($67,600) with commitment to annual payment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual prepay, can you get to 10% off?",
+          "answer": "Yes, 10% with annual prepay works - need commitment by end of week"
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing get us to a close?",
+          "answer": "Yes, Emily believes this will get Sarah's approval and close out Fathom"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal at $67,600 ACV",
+        "Emily to get final sign-off from Sarah",
+        "Schedule pricing call to finalize"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 30,
+      "date": "2024-09-25",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Emily Perez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to finalize terms at $67,600 ACV (10% discount) for 57 seats with automations_plus_consulting, annual prepay. Emily confirmed Sarah approved, procurement (Hazel, Rowan) ready to process paperwork. Implementation to start in 2 weeks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any remaining concerns or blockers to moving forward?",
+          "answer": "No, team is aligned and excited to get started"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Introduce implementation team",
+        "Schedule kickoff for 2 weeks out"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

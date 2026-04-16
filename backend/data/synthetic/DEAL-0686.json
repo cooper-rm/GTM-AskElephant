@@ -1,0 +1,246 @@
+{
+  "deal_id": "DEAL-0686",
+  "company": {
+    "name": "CoreRelay",
+    "industry": "Professional Services",
+    "employee_count": 42,
+    "annual_revenue": 6186384,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6000.0,
+    "seats": 7,
+    "price_per_seat_monthly": 66.8,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.9,
+    "sales_cycle_days": 15,
+    "close_date": "2024-12-31",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Santiago Chen",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 28
+    },
+    {
+      "name": "Elena Kumar",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-25",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Santiago Chen at CoreRelay. No answer, left voicemail introducing AskElephant's CRM automation capabilities for professional services teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-27",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Santiago Chen with brief message about helping professional services firms automate CRM workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-28",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message sharing case study of similar professional services firm. Santiago responded expressing interest in learning more about automation capabilities for their sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of automation do you typically help with?",
+          "answer": "We focus on automating repetitive CRM tasks like data entry, follow-up sequencing, and pipeline hygiene so your team can focus on client relationships."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-15",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent with calendar link for qualification call and preliminary discovery questions. Message marked as read but no response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-16",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute qualification call with Santiago Chen to understand CoreRelay's current CRM challenges. Team of 7 sales reps spending significant time on manual data entry. Budget discussion deferred to later stage. Santiago confirmed he owns sales operations decisions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point with your current CRM process?",
+          "answer": "Our reps spend about 30% of their time on manual data entry and updating deal stages instead of actually selling."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'd want to bring in Elena Kumar from our implementation team, but I can make the call on sales tools."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this set up?",
+          "answer": "Typically 2-3 weeks for full deployment with your team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical demo",
+        "Share pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-23",
+      "type": "technical_eval",
+      "duration_minutes": 59,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "59-minute technical evaluation with Santiago and Elena Kumar. Walked through unlimited automation tier features, CRM integration requirements, and workflow customization. Elena raised questions about data security and user adoption. Santiago seemed cost-conscious but engaged on ROI calculations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our existing Salesforce instance?",
+          "answer": "Native API integration that syncs bi-directionally. We can map your custom fields during setup."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training is required for the team?",
+          "answer": "Typically 2 hours of initial training plus ongoing support. Most users are productive within the first week."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller tier and upgrade later?",
+          "answer": "Yes, though the unlimited automation tier offers the best ROI for teams looking to automate multiple workflows like yours."
+        }
+      ],
+      "objections": [
+        "We're a lean team so budget is tight this quarter"
+      ],
+      "next_steps": [
+        "Send proposal with ROI analysis",
+        "Schedule decision meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-29",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Santiago Chen",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute negotiation meeting with Santiago to finalize terms. Discussed pricing for 7 seats on unlimited automation plan. Santiago pushed for significant discount citing budget constraints and lack of executive approval. Agreed to 25% discount to close this quarter. Santiago confirmed he can sign without additional approvals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you do better on the per-seat pricing given our size?",
+          "answer": "I can work with our team on a discount if you're ready to move forward this month."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or COO involved before finalizing?",
+          "answer": "No need, I have budget authority for sales tools under $10K."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the contract length and cancellation terms?",
+          "answer": "Standard annual agreement with 30-day notice for cancellation at renewal."
+        }
+      ],
+      "objections": [
+        "The list price is higher than we budgeted for this initiative"
+      ],
+      "next_steps": [
+        "Send final contract with discount",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

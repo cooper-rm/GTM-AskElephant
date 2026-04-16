@@ -1,0 +1,250 @@
+{
+  "deal_id": "DEAL-0666",
+  "company": {
+    "name": "PrimeSpark",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 18029953,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3700.0,
+    "seats": 6,
+    "price_per_seat_monthly": 50.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.6,
+    "sales_cycle_days": 24,
+    "close_date": "2024-03-06",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Samuel Takahashi",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Omar Schulz",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-21",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to Samuel Takahashi regarding forecasting accuracy challenges. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-23",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Samuel Takahashi. Call went to voicemail, left brief message about helping marketing agencies improve forecasting accuracy.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-25",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email received positive response from Samuel. He expressed interest in learning more about our platform's forecasting capabilities and mentioned they're currently evaluating solutions including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What differentiates your forecasting features from Fireflies?",
+          "answer": "Our platform offers dedicated forecasting models trained on SaaS sales patterns, while Fireflies focuses primarily on conversation intelligence. We can provide predictive analytics specific to your deal stages."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current forecasting process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming discovery call logistics. Samuel mentioned he recently joined as Head of Sales and is looking to establish better forecasting infrastructure for the team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How long have you been in the Head of Sales role?",
+          "answer": "About 3 months. Still getting up to speed on our current tech stack and processes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call on current forecasting challenges"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-18",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Samuel explored current forecasting challenges at PrimeSpark. He outlined pain points with manual forecast updates and lack of visibility into deal health. Discussed team size (6 sales reps) and need for unlimited automation. Samuel expressed concern about budget constraints and mentioned procurement will need to review any proposal.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for generating sales forecasts?",
+          "answer": "Mostly manual spreadsheet updates. Very time-consuming and often inaccurate because reps don't update CRM consistently."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Omar Schulz from RevOps will handle procurement side. I can make the call on functionality but he'll need to approve the investment."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of pricing are we looking at for 6 users?",
+          "answer": "List price for 6 seats with unlimited automation would be around $6,500 ACV, but we have flexibility for the right fit."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we'll need to see strong ROI justification"
+      ],
+      "next_steps": [
+        "Prepare proposal with forecasting ROI analysis",
+        "Schedule follow-up with Samuel and ideally Omar"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-27",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled exec meeting was rescheduled by Samuel due to conflicting priorities. Brief call to reschedule and check in on proposal review. Samuel mentioned he's still working through the numbers internally and hasn't been able to loop in senior leadership yet. He acknowledged the Fireflies evaluation is ongoing and they're comparing features. Proposed pricing at $3,700 ACV (43% discount) to stay competitive.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Have you had a chance to review the proposal with your team?",
+          "answer": "Partially. Still need to get buy-in from leadership, but haven't scheduled that yet."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you come down on price to match what Fireflies is offering?",
+          "answer": "We've proposed $3,700 ACV which represents significant value given our forecasting capabilities. This is already a substantial discount."
+        },
+        {
+          "by": "rep",
+          "question": "When can we schedule time with your executive team?",
+          "answer": "Let me check calendars and get back to you. Things have been hectic."
+        }
+      ],
+      "objections": [
+        "Fireflies is coming in at a lower price point",
+        "Hard to get exec time right now with end of quarter"
+      ],
+      "next_steps": [
+        "Reschedule exec meeting",
+        "Send competitive comparison vs Fireflies"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-06",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Samuel Takahashi",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Shorter follow-up meeting with Samuel to discuss final terms. No executive sponsor present despite previous requests. Samuel indicated he can move forward with the discounted $3,700 pricing but needs Omar's final sign-off on procurement. Discussed implementation timeline and contract terms. Samuel seemed hesitant about commitment timeline and mentioned still weighing Fireflies option.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation timeline look like?",
+          "answer": "Typically 2-3 weeks for initial setup, then ongoing optimization as your team adopts the platform."
+        },
+        {
+          "by": "rep",
+          "question": "Are we able to get Omar on a call to finalize procurement details?",
+          "answer": "He's reviewing the proposal now. I'll coordinate with him offline and get back to you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for Omar's procurement review",
+        "Send final contract for review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 77,
+    "churn_reason": "organizational change affected priorities"
+  }
+}

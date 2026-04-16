@@ -1,0 +1,307 @@
+{
+  "deal_id": "DEAL-0681",
+  "company": {
+    "name": "CosmicPartners",
+    "industry": "Marketing Agency",
+    "employee_count": 69,
+    "annual_revenue": 11812682,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 70.3,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.0,
+    "sales_cycle_days": 43,
+    "close_date": "2025-09-29",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Aria Anderson",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 8
+    },
+    {
+      "name": "Quinn Adams",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 30
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-15",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Aria Anderson at CosmicPartners expressing interest in call recording and coaching capabilities. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Aria"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-20",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Aria to understand initial needs. CosmicPartners is a 69-person marketing agency looking to improve their sales coaching process. Currently evaluating solutions including Gong. Aria is Head of RevOps and interested in call recording with automated coaching features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence platform right now?",
+          "answer": "Our sales team has grown quickly and we need better visibility into calls and a scalable way to coach reps without managers listening to every call."
+        },
+        {
+          "by": "prospect",
+          "question": "What differentiates your platform from Gong?",
+          "answer": "We focus on automation and ease of use for mid-market teams, with unlimited automation included rather than gated behind enterprise tiers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-24",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into CosmicPartners' sales process and evaluation criteria. Aria confirmed they're looking at 6 seats initially for their core sales team. Budget appears flexible around $5-6k annually. Discussed use cases around onboarding new reps and identifying winning talk tracks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process on your end?",
+          "answer": "I'm driving this with our sales leadership team. Quinn Adams from our finance side will be involved for procurement and contract review."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation timeline look like?",
+          "answer": "Pretty flexible - we can move quickly once we feel confident in the solution."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear win for you in 6 months?",
+          "answer": "Faster ramp time for new hires and consistent messaging across the team on our key value props."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-31",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Aria walking through the platform's coaching automation, call library, and analytics dashboard. Discussed integration with their existing CRM and meeting tools. Aria confirmed the unlimited automation tier aligns well with their needs and mentioned Gong's pricing felt steep for their stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the AI identify coachable moments in calls?",
+          "answer": "Our NLP engine detects specific patterns like objection handling, discovery questions asked, and competitor mentions, then surfaces clips automatically tagged by category."
+        },
+        {
+          "by": "rep",
+          "question": "How quickly do you need this up and running?",
+          "answer": "Ideally within the next 4-6 weeks to support our Q2 hiring plans."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching categories and triggers?",
+          "answer": "Yes, you can fully customize playbooks and set custom triggers based on keywords, talk time ratios, or specific phrases."
+        }
+      ],
+      "objections": [
+        "Need to make sure the integration with Salesforce is seamless - we've had issues with other tools syncing properly."
+      ],
+      "next_steps": [
+        "Schedule live demo for sales leadership",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-07",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo conducted with Aria. Walked through real coaching workflows, automated scorecards, and manager dashboards. Aria appeared engaged and asked detailed questions about reporting capabilities. Discussed pricing and she mentioned working within a tighter budget than initially indicated. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can managers set up custom reports for individual rep performance trends?",
+          "answer": "Yes, the dashboard supports custom views by rep, team, time period, and specific behaviors you want to track."
+        },
+        {
+          "by": "rep",
+          "question": "What's your approval process look like from here?",
+          "answer": "I'll need to loop in Quinn from finance for final sign-off, but I have budget authority for this range."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of flexibility do you have on pricing for 6 seats?",
+          "answer": "We can work with you on a multi-year commitment or if you're able to close this quarter we have some flexibility."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to get your sales leadership on a call to see the platform?",
+          "answer": "I think I have what I need to move forward - let me review internally first."
+        }
+      ],
+      "objections": [
+        "The pricing is a bit higher than we were hoping - need to see if we can make the numbers work."
+      ],
+      "next_steps": [
+        "Aria to discuss internally",
+        "Send pricing proposal",
+        "Intro to Quinn if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-12",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Aria. She requested a discount to fit within their approved budget, citing Gong's competitive pricing and the fact that they're a smaller team. Agreed to a 21% discount bringing the total to $4,800 ACV. Quinn Adams not on the call but Aria indicated he'd review the contract once finalized.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match what Gong quoted us at around $4,500 for 6 seats?",
+          "answer": "I can't quite get to that number, but I can offer $4,800 which includes the unlimited automation tier that would cost significantly more with Gong."
+        },
+        {
+          "by": "rep",
+          "question": "When would you be ready to kick off if we can finalize terms this week?",
+          "answer": "Probably early next week - I need Quinn to review the contract but that should be quick."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract at $4,800",
+        "Aria to route to Quinn for review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Aria checking on contract review status with Quinn. Offered to answer any questions from the finance team and confirmed implementation timeline once agreement is signed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has Quinn had a chance to review the contract? Happy to jump on a call if any questions come up.",
+          "answer": "Still working through it on his end - should have an update by early next week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Check back early next week",
+        "Offer to schedule call with Quinn if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Anderson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Second follow-up email to Aria asking if there are any blockers on their end and if it would be helpful to bring in our CS team to walk through onboarding logistics. Reinforced the discount expiration timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await response from Aria",
+        "Escalate to sales leadership if no movement by Friday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

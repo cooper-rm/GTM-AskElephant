@@ -1,0 +1,156 @@
+{
+  "deal_id": "DEAL-0917",
+  "company": {
+    "name": "CanyonInsights",
+    "industry": "SaaS/Tech",
+    "employee_count": 84,
+    "annual_revenue": 8556270,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 9,
+    "price_per_seat_monthly": 60.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.4,
+    "sales_cycle_days": 12,
+    "close_date": "2023-02-10",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Jordan Jackson",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-23",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jordan Jackson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Jordan Jackson from CanyonInsights submitted an inbound demo request via the website. Expressed interest in automating note-taking for their customer success team to improve rep productivity. Mentioned they're currently evaluating a few options including Fireflies. Request routed to AE for qualification.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "AE to reach out within 24 hours for qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan Jackson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Jordan confirming receipt of demo request and proposing times for initial qualification call. Jordan responded same day confirming availability and reiterating interest in seeing how the platform handles CS-specific workflows compared to general meeting tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform have specific features for customer success teams versus just sales?",
+          "answer": "Yes, we have CS-specific workflows including sentiment tracking, health score integration, and post-call task automation tailored for account management"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-03",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Jordan Jackson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "35-minute product demo with Jordan Jackson covering core automation features, CS workflow integrations, and pricing for 9 seats. Jordan engaged throughout, asked detailed questions about setup time and reporting. Mentioned Fireflies is cheaper but lacks some automation depth. No other stakeholders joined despite invitation sent to leadership. Jordan indicated budget authority up to $8K but will need to loop in VP of Ops for final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does initial setup and training typically take for a team our size?",
+          "answer": "Usually 1-2 weeks for full rollout with our CS team assisting on integration and custom workflow setup"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export analytics into our existing BI dashboard?",
+          "answer": "Yes, we offer API access and pre-built connectors for common BI tools"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this from your side?",
+          "answer": "Probably our VP of Ops, but I can drive this internally and bring them in for final sign-off"
+        }
+      ],
+      "objections": [
+        "Fireflies is significantly cheaper and the team is already somewhat familiar with it from trials"
+      ],
+      "next_steps": [
+        "Jordan to review pricing internally",
+        "Rep to send proposal and ROI breakdown",
+        "Jordan to loop in VP of Ops if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan Jackson",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal for 9 seats at $6,700 ACV (32% discount applied to meet Jordan's budget constraints). Email included ROI calculator showing productivity gains versus Fireflies. Jordan responded asking to move forward with this pricing, mentioned wanting to get started before quarter-end. Requested contract and next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a quarterly payment plan instead of annual upfront?",
+          "answer": "We can accommodate quarterly billing with a 5% increase to the annual price"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with quarterly billing option",
+        "Jordan to review legal terms and confirm start date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 62,
+    "churn_reason": "lack of executive alignment"
+  }
+}

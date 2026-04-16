@@ -1,0 +1,234 @@
+{
+  "deal_id": "DEAL-0036",
+  "company": {
+    "name": "EchoWorks",
+    "industry": "Marketing Agency",
+    "employee_count": 70,
+    "annual_revenue": 9749165,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 8,
+    "price_per_seat_monthly": 57.65,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 35.2,
+    "sales_cycle_days": 25,
+    "close_date": "2025-09-16",
+    "use_case": "Rep productivity",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Samuel Brown",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 16
+    },
+    {
+      "name": "Casey Levy",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-01",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Samuel Brown introducing AskElephant's conversation intelligence platform and its potential to improve rep productivity. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-03",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Samuel Brown following up on initial email, highlighting AskElephant's automation capabilities for RevOps teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-03",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Samuel Brown. He confirmed interest in conversation intelligence tools and mentioned they're currently evaluating options. He agreed to schedule a longer qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any conversation intelligence tools?",
+          "answer": "We've been looking at a few options, including Chorus, but haven't made a decision yet."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-22",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Samuel Brown to understand EchoWorks' needs. Discussed current challenges with rep productivity and coaching at scale. Samuel explained they have 8 reps who need better visibility into customer conversations. He mentioned Chorus is in the running but appreciated AskElephant's automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for conversation intelligence right now?",
+          "answer": "Our sales team is growing and we need better coaching and visibility. Manual call reviews aren't scalable anymore."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus?",
+          "answer": "We're competitive and can work with you on the right package. Let me put together a proposal that fits your use case."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we need to see clear ROI"
+      ],
+      "next_steps": [
+        "Send follow-up email with case study on rep productivity",
+        "Schedule demo for next week with Casey Levy from RevOps team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study showing 40% improvement in rep productivity for similar-sized marketing agencies. Also shared demo link and proposed time slots to include Casey Levy. Samuel responded positively and confirmed demo time.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can Casey join the demo to evaluate the technical setup?",
+          "answer": "Absolutely, we'll make sure to cover the integration and automation capabilities she'll need to assess."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday with Samuel and Casey"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-10",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Samuel Brown to review pricing for 8 seats with automations plus consulting package. Discussed $5,200 ACV with 35% discount to match their budget constraints. Samuel appreciated the flexibility but mentioned he needs to run numbers internally before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of quarter, but I need to validate the budget and get alignment internally."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this include the same level of support we'd get with Chorus?",
+          "answer": "Yes, the consulting package includes dedicated onboarding and quarterly strategy reviews."
+        }
+      ],
+      "objections": [
+        "The discount helps but we're still comparing total cost of ownership with Chorus"
+      ],
+      "next_steps": [
+        "Samuel to review internally with finance",
+        "Follow up early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brown",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on internal discussions and offering to answer any additional questions from finance or other stakeholders. Reiterated the discount expires end of month. Samuel acknowledged but didn't commit to timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we extend the discount deadline by a week?",
+          "answer": "Let me check with my manager and get back to you tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Samuel's confirmation on timeline",
+        "Check on discount extension approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

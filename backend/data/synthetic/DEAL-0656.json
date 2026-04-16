@@ -1,0 +1,344 @@
+{
+  "deal_id": "DEAL-0656",
+  "company": {
+    "name": "TealScope",
+    "industry": "Vertical SaaS",
+    "employee_count": 747,
+    "annual_revenue": 62378237,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21400.0,
+    "seats": 27,
+    "price_per_seat_monthly": 66.27,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.5,
+    "sales_cycle_days": 36,
+    "close_date": "2025-01-15",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Lauren Abiola",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Rosa Singh",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 12
+    },
+    {
+      "name": "Isabella Rivera",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Lauren Abiola, Director of CS at TealScope. She's interested in improving their sales-to-CS handoff process, mentioned current process is manual and error-prone. Asked for initial information about our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have automation specifically for sales-to-CS handoff workflows?",
+          "answer": "Yes, we specialize in handoff automation with unlimited workflow capabilities in our platform."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 12.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies focused on sales operations automation. Lauren responded positively, confirmed interest in scheduling a discovery call to discuss their specific handoff challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share examples of companies similar to our size using this?",
+          "answer": "Shared 3 case studies from mid-market vertical SaaS companies with 500-1000 employees."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-15",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Lauren covering current state challenges. TealScope is using spreadsheets and manual Slack messages for handoffs, leading to dropped context and CS team frustration. Lauren has budget authority for tools under $25k and is evaluating for Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process from closed deal to CS onboarding.",
+          "answer": "Sales closes in Salesforce, manually fills a Google Sheet, posts in Slack channel. CS picks it up when they see it, often missing key details from the sales cycle."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can this be implemented?",
+          "answer": "Typical implementation is 2-3 weeks including data migration and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical documentation",
+        "Intro to implementation team",
+        "Schedule follow-up to discuss team size needs"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-20",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call to discuss team structure and seat requirements. Lauren estimates needing 25-30 seats across sales and CS teams. Discussed integration requirements with their Salesforce and support ticket system. She mentioned wanting to involve leadership before moving to demo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Rosa Singh, our SVP of Revenue, will need to sign off. Isabella Rivera from sales ops might be involved in implementation planning."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your Salesforce integration look like?",
+          "answer": "Native bi-directional sync, can trigger workflows based on stage changes, custom field mapping available."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo focused on Salesforce integration",
+        "Get calendar invite for Rosa Singh"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent with demo confirmation and pre-demo questionnaire. Lauren confirmed demo time and provided additional context on their tech stack. Requested the demo focus on reporting capabilities for leadership visibility into handoff quality.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we see reporting on handoff completion rates and time-to-first-CS-touch?",
+          "answer": "Yes, we'll include those dashboards in the demo along with custom report builder."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendance",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-30",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled once due to Lauren's conflict, then conducted with focus on Salesforce integration and reporting. Walked through automated handoff workflow, showed dashboard examples, and discussed 27-seat licensing for their team size. Lauren appeared engaged but mentioned needing to discuss budget timing with Rosa.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can workflows be customized per product line? We have different handoff needs for our two main products.",
+          "answer": "Yes, unlimited workflow automation means you can create separate flows with different triggers and actions per product."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementing a solution?",
+          "answer": "Ideally by end of Q2, but it depends on budget approval cycle with Rosa."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo recording and ROI calculator",
+        "Schedule exec meeting with Rosa Singh"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-04",
+      "type": "exec_meeting",
+      "duration_minutes": 14,
+      "person_name": "Rosa Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Rosa Singh rescheduled once, then held to discuss strategic value and ROI. Rosa is focused on revenue team efficiency and reducing CS churn from poor handoffs. She asked about pricing and referenced budget constraints for mid-year purchases. Discussed business case for reducing customer time-to-value.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the business impact of your current handoff issues?",
+          "answer": "We estimate 15-20% of new customers experience delayed onboarding, which correlates with higher churn in first 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the investment range we're looking at for 27 seats?",
+          "answer": "Standard pricing for 27 seats with unlimited automation would be approximately $28-30k annually."
+        }
+      ],
+      "objections": [
+        "Budget timing is tight for Q2, may need to phase implementation"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with ROI analysis",
+        "Include implementation timeline options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-09",
+      "type": "exec_meeting",
+      "duration_minutes": 18,
+      "person_name": "Rosa Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Rosa to review formal proposal. Discussed $28,700 list price for 27 seats. Rosa expressed concern about budget and asked if we could work within a $20-22k range for this year. She's committed to the solution but needs the numbers to work for current fiscal planning. Acknowledged the value but pushed back on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual cost to get closer to our budget constraints?",
+          "answer": "Let me discuss with leadership what we can do to make this work for your timeline and budget."
+        },
+        {
+          "by": "rep",
+          "question": "If we find a way to meet your budget, can we move forward this quarter?",
+          "answer": "Yes, if we can land around $21-22k, I can get this approved within two weeks."
+        }
+      ],
+      "objections": [
+        "Pricing is above current allocated budget",
+        "Need to justify mid-year spend to finance"
+      ],
+      "next_steps": [
+        "Propose revised pricing structure",
+        "Confirm decision-maker approval process with Isabella for procurement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-14",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Lauren Abiola",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Lauren to finalize terms. Presented revised offer at $21,400 (25.5% discount) for 27 seats with unlimited automation tier. Lauren confirmed this works within Rosa's approved budget. Discussed contract terms, implementation timeline starting in May, and payment structure. Isabella Rivera will handle procurement paperwork. Lauren committed to moving forward pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can do quarterly billing at no additional cost."
+        },
+        {
+          "by": "rep",
+          "question": "What's the internal approval process from here?",
+          "answer": "Legal review typically takes 3-5 days, then Isabella processes through procurement. Rosa has already given verbal approval at this price point."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we realistically start implementation if we sign next week?",
+          "answer": "We can kick off implementation within 5 business days of signed contract, targeting early May start."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with quarterly payment terms",
+        "Loop in Isabella for procurement",
+        "Schedule implementation kickoff for early May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "deal_id": "DEAL-0092",
+  "company": {
+    "name": "RidgePortal",
+    "industry": "SaaS/Tech",
+    "employee_count": 650,
+    "annual_revenue": 73460349,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21600.0,
+    "seats": 27,
+    "price_per_seat_monthly": 68.57,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 22.9,
+    "sales_cycle_days": 25,
+    "close_date": "2024-04-28",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aisha Park",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Amara Green",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 27
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-05",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to VP of Sales introducing our automation platform for improving rep productivity. Prospect responded expressing interest in learning more about workflow automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss current challenges"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-04",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aisha to understand current sales operations. Discussed team size (27 reps), manual processes causing bottlenecks, and desire to improve rep efficiency. Aisha mentioned recent growth has strained existing workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in sales automation right now?",
+          "answer": "We've doubled headcount in the past year and our manual processes aren't scaling. Reps are spending too much time on admin work."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aisha to share current workflow documentation",
+        "Schedule discovery call to dive deeper into pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-06",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focusing on specific workflow pain points. Aisha walked through their current manual data entry process and reporting challenges. Discussed ROI expectations and initial timeline for implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest time sink for your reps currently?",
+          "answer": "Data entry and updating opportunities manually. Probably 4-5 hours per week per rep."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are other customers seeing?",
+          "answer": "Typically 30-40% reduction in admin time within the first quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share case study from similar-sized SaaS company",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-09",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to discuss technical requirements and implementation scope. Aisha mentioned she's been the primary point of contact and will need to loop in procurement later. Identified 27 seats needed across sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll handle the evaluation, but Amara Green from our team will need to be involved for procurement and final approval."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your implementation timeline typically look like?",
+          "answer": "Usually 2-3 weeks for initial setup, then we provide ongoing support and optimization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare detailed feature walkthrough"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-14",
+      "type": "technical_eval",
+      "duration_minutes": 57,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation session with Aisha and two sales managers. Deep dive into automation workflows, reporting dashboards, and integration capabilities. Discussed data migration and security requirements. Team asked detailed questions about customization options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for different sales segments?",
+          "answer": "Yes, the platform supports segment-specific automation rules and you can create custom workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of support comes with the consulting package?",
+          "answer": "You get a dedicated CSM, quarterly optimization reviews, and priority technical support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current data volume and API call frequency?",
+          "answer": "About 15,000 opportunities annually, and we sync data every 15 minutes currently."
+        }
+      ],
+      "objections": [
+        "Need to ensure this won't disrupt current operations during rollout"
+      ],
+      "next_steps": [
+        "Provide detailed implementation plan",
+        "Schedule product demo for broader team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-19",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo showcasing key automation features and reporting capabilities. Walked through specific use cases relevant to their workflow challenges. Aisha appeared engaged and asked about pricing structure and contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is pricing per seat or is there a platform fee?",
+          "answer": "Per seat annual licensing, with volume discounts available. The consulting package is an add-on."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical contract length?",
+          "answer": "We offer both annual and multi-year agreements. Annual gives you more flexibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-20",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Aisha. Presented pricing for 27 seats with automations plus consulting package. Aisha mentioned budget is tight this quarter and asked about discount options. Discussed payment terms and contract flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given our budget constraints?",
+          "answer": "Let me talk to my manager about what we can do. I want to make sure this works for both of us."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to close this by end of quarter if possible. I'll be discussing with Amara this week."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than anticipated budget allocation"
+      ],
+      "next_steps": [
+        "Revise proposal with adjusted pricing",
+        "Aisha to discuss with procurement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal including 22.9% discount to meet budget requirements. Outlined updated pricing, payment terms, and implementation timeline. Requested feedback and next steps for moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly payments with a small additional fee for the payment plan."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aisha to review with Amara and finance",
+        "Schedule follow-up early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Park",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on proposal status and contract timeline. Aisha confirmed they're reviewing internally and working through final approvals. Mentioned she's pushing to get this closed before quarter end but needs Amara's sign-off on terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await internal approval",
+        "Stand by to answer any final questions from procurement"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

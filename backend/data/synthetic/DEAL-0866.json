@@ -1,0 +1,315 @@
+{
+  "deal_id": "DEAL-0866",
+  "company": {
+    "name": "PrismAI",
+    "industry": "Professional Services",
+    "employee_count": 84,
+    "annual_revenue": 9943752,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7100.0,
+    "seats": 9,
+    "price_per_seat_monthly": 64.68,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.3,
+    "sales_cycle_days": 69,
+    "close_date": "2024-01-10",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Diego Clark",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Diego Clark asking about sales coaching and call analytics tools. Mentioned they're currently evaluating options including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call time. Diego responded confirming availability and asked for a quick overview of pricing tiers ahead of the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over a quick overview of your pricing tiers before we talk?",
+          "answer": "Rep shared high-level pricing sheet with automations_plus_consulting tier highlighted"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-12",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call covering team size (9 reps), current process (manual call reviews), and pain points around rep ramp time. Diego confirmed budget authority and expressed interest in AI coaching features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching your sales team?",
+          "answer": "Mostly manual - managers listen to a few calls per week, no systematic approach"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI coaching compare to Gong's features?",
+          "answer": "Rep explained differentiated coaching workflows and real-time nudges"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send use case examples for professional services"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-21",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on rep productivity goals and current tech stack. Diego shared that their average rep ramp is 4 months and they want to cut that in half. Discussed integration with their CRM (Salesforce). Diego mentioned Gong demo is scheduled for next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Faster ramp time for new hires, more consistent messaging across the team"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Just me and my VP of Sales, but she's traveling for the next few weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have customers in professional services seeing ROI on rep productivity?",
+          "answer": "Rep shared two case studies with similar company profiles"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow-up discovery on technical requirements",
+        "Diego to share sample call recordings for trial"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-01",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical discovery call covering API access, data security, and implementation timeline. Diego confirmed they need to be live before Q3 kickoff. He mentioned the Gong demo went well but appreciated our faster implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "2-3 weeks including training and setup"
+        },
+        {
+          "by": "rep",
+          "question": "Will your VP be available to review the proposal before you move forward?",
+          "answer": "She's back in two weeks but Diego said he can move forward with initial approval"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with automations_plus_consulting tier",
+        "Schedule demo for Diego's team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with $9,765 ACV for 9 seats. Diego responded asking if there's flexibility on pricing given their team size and budget constraints this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing? We're working with a tighter budget than I initially thought.",
+          "answer": "Rep offered to explore options and schedule a call to discuss"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing discussion call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised pricing options. Diego confirmed the $7,100 ACV option works but asked about contract terms and whether they could start with a 6-month pilot instead of annual commitment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Escalate to exec meeting for final approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-31",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting. Diego walked through business case and ROI projections. Discussed annual vs. pilot terms. Diego confirmed he has sign-off authority but mentioned his VP will want to review before final signature. No VP present on call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we get time with your VP to ensure alignment before contract signature?",
+          "answer": "Diego said she trusts his judgment and they can loop her in over email"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we lock in the $7,100 pricing with a quarterly opt-out clause?",
+          "answer": "Rep pushed back on quarterly terms, offered annual with 30-day out after 90 days"
+        }
+      ],
+      "objections": [
+        "Annual commitment is a stretch given budget approval cycle"
+      ],
+      "next_steps": [
+        "Legal review of contract terms",
+        "Final pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-10",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Diego confirmed $7,100 ACV annual contract works with the 90-day opt-out safety net. He mentioned Gong came back with a competitive offer but feels our implementation timeline and coaching features are stronger. Verbal commit to move forward pending legal review. Still no VP involvement confirmed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the timeline for legal review and when can we target signature?",
+          "answer": "Diego said 1-2 weeks, wants to close before end of month"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you confirm the implementation support includes onboarding for all 9 reps?",
+          "answer": "Yes, full onboarding and training included in consulting package"
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a final alignment call with your VP before sending contracts?",
+          "answer": "Diego said it's not necessary, she's delegated this decision to him"
+        }
+      ],
+      "objections": [
+        "Gong's pricing came in lower but Diego committed to our solution"
+      ],
+      "next_steps": [
+        "Send final contract",
+        "Diego to route through legal",
+        "Target signature by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 62,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "deal_id": "DEAL-0278",
+  "company": {
+    "name": "BirchGateway",
+    "industry": "EdTech",
+    "employee_count": 100,
+    "annual_revenue": 11790830,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7200.0,
+    "seats": 9,
+    "price_per_seat_monthly": 66.4,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.4,
+    "sales_cycle_days": 62,
+    "close_date": "2025-03-03",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Kevin Roberts",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Kevin Roberts submitted an inbound demo request via website form. Expressed interest in automating sales-to-CS handoff processes. Currently using Fireflies but looking for more robust automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Kevin"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-03",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Kevin to understand current pain points and confirm fit. Kevin confirmed BirchGateway is an EdTech company with ~100 employees looking to streamline handoffs between sales and customer success teams. Budget authority unclear but Kevin has approval to explore solutions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a new solution right now?",
+          "answer": "We're scaling fast and our current process with Fireflies is too manual. CS team is missing context from sales calls."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical timeline for your sales cycles?",
+          "answer": "Our deals close in 30-60 days typically, so we need something we can implement quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send calendar invite for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery call agenda and preliminary questions about current workflow, team size, and integration requirements. Kevin responded confirming the meeting and noting they're evaluating 2-3 solutions including Fireflies upgrades.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot?",
+          "answer": "Yes, we have native HubSpot integration for both CRM sync and call logging."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call materials",
+        "Research BirchGateway's tech stack"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-16",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current workflow gaps and automation needs. Kevin detailed their sales-to-CS handoff challenges: reps manually summarizing calls, CS missing key objections and commitments. Team of 9 would use the platform (6 sales, 3 CS). Kevin emphasized speed to value and ease of use. Competitive pressure from Fireflies mentioned as they're considering upgrading vs. switching.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process from sales to CS.",
+          "answer": "Sales reps send a summary email after close, but it's inconsistent. CS has to re-ask questions the prospect already answered."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementation?",
+          "answer": "CS team has full context from sales calls without manual work. Onboarding starts faster and customers don't feel like they're repeating themselves."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to Fireflies' enterprise plan?",
+          "answer": "Our unlimited tier includes automated workflow triggers, custom integrations, and AI-powered handoff summaries\u2014Fireflies requires custom development for most of that."
+        }
+      ],
+      "objections": [
+        "Kevin mentioned budget constraints and wants to stay under $10K annually"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation/demo",
+        "Prepare pricing proposal for 9 seats",
+        "Share case study from EdTech customer"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-27",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation call demonstrating platform capabilities. Walked through HubSpot integration, automated call summarization, and CS handoff workflows. Kevin tested the platform live with sample calls and was impressed with AI accuracy. Asked detailed questions about setup time and admin requirements. Some concern about change management with sales team. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Most teams are fully onboarded within 2 weeks. We provide dedicated support and pre-built templates for common workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI summary format for different deal types?",
+          "answer": "Yes, you can create custom templates by use case, and the AI learns from your feedback over time."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'm leading this initiative. I'll loop in our VP of Sales once we're closer to a decision, but I own the RevOps stack."
+        }
+      ],
+      "objections": [
+        "Kevin worried about getting sales reps to adopt a new tool mid-quarter"
+      ],
+      "next_steps": [
+        "Kevin to test with 2-3 recorded calls internally",
+        "Rep to send formal proposal by end of week",
+        "Schedule follow-up to review proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 9 seats on unlimited_automation tier, $9,600 annual list price. Kevin responded asking if there's flexibility on pricing given their stage and budget constraints. Mentioned Fireflies quoted lower for their enterprise upgrade.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to work with us on price? We're at $7-8K budget approval right now.",
+          "answer": "Let me discuss with leadership and see what we can do. Can we schedule a call to walk through the proposal?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call",
+        "Explore discount options internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-13",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call. Kevin reiterated budget ceiling of $7-8K and pushed for discount given early-stage implementation risk and competitive pressure from Fireflies. Rep offered $7,200 ACV (25% discount) to close by month-end. Kevin receptive but wants to confirm with VP of Sales before final commitment.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can meet at $7,200, can you commit to closing this month?",
+          "answer": "I think so, but I need to run it by my VP. He hasn't been super involved but I want to make sure he's aligned."
+        }
+      ],
+      "objections": [
+        "Kevin noted he's not the final decision-maker and needs VP sign-off on the contract"
+      ],
+      "next_steps": [
+        "Kevin to brief VP of Sales",
+        "Schedule brief exec alignment call",
+        "Send redlined proposal at $7,200"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-22",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Short meeting with Kevin and VP of Sales to align on business case. VP asked high-level questions about ROI and implementation effort but seemed somewhat disengaged. Kevin did most of the talking. VP didn't object but also didn't explicitly endorse. Kevin confirmed he has authority to proceed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline your customers see?",
+          "answer": "Most teams see measurable efficiency gains within the first month\u2014faster onboarding, fewer CS escalations from missing context."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from your side before we move forward?",
+          "answer": "No major concerns. Kevin's driving this, so I'll defer to him on the details."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to finalize internally",
+        "Prepare contract for signature",
+        "Schedule negotiation call to close"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-05",
+      "type": "negotiation_call",
+      "duration_minutes": 31,
+      "person_name": "Kevin Roberts",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize contract terms. Kevin pushed for monthly payment terms instead of annual upfront. Rep agreed to quarterly payments to accommodate cash flow. Kevin also requested 30-day cancellation window in first quarter as safety net. Some back-and-forth on contract language but ultimately reached agreement. Kevin confirmed he'll route for signature this week. Deal expected to close within 3-5 days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual?",
+          "answer": "Annual is standard, but we can do quarterly payments if that helps with budgeting."
+        },
+        {
+          "by": "prospect",
+          "question": "What if this doesn't work out in the first 60 days\u2014are we locked in for the full year?",
+          "answer": "We can add a 30-day out clause in Q1 if you're not seeing value, but we're confident you will."
+        },
+        {
+          "by": "rep",
+          "question": "Anything else blocking you from moving forward?",
+          "answer": "No, I think we're good. I'll get this to our finance team and loop you in once it's signed."
+        }
+      ],
+      "objections": [
+        "Kevin hesitant to commit to full annual payment upfront given implementation risk"
+      ],
+      "next_steps": [
+        "Send final contract with quarterly payment terms and Q1 out clause",
+        "Kevin to route for signature",
+        "Schedule kickoff call for next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 74,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

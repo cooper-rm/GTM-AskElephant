@@ -1,0 +1,656 @@
+{
+  "deal_id": "DEAL-0924",
+  "company": {
+    "name": "PulseAxis",
+    "industry": "EdTech",
+    "employee_count": 691,
+    "annual_revenue": 99718841,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13200.0,
+    "seats": 17,
+    "price_per_seat_monthly": 60.84,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.6,
+    "sales_cycle_days": 79,
+    "close_date": "2025-03-08",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aisha Becker",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 75
+    },
+    {
+      "name": "Jessica Lima",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 9
+    },
+    {
+      "name": "James Jung",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 33
+    },
+    {
+      "name": "Hazel Jung",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-29",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Aisha Becker, VP of Sales at PulseAxis. No answer, left voicemail introducing our conversation intelligence platform and mentioning sales-to-CS handoff automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-01",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Aisha introducing our platform's ability to automate sales-to-CS handoffs for EdTech teams. Aisha responded expressing interest in learning more about how we differ from their current process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle the transition from sales to customer success specifically?",
+          "answer": "Our AI extracts key deal context, customer needs, and commitments from all sales conversations and automatically packages them into structured handoff briefs for CS teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-19",
+      "type": "qualification_call",
+      "duration_minutes": 2,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Aisha. Confirmed PulseAxis has 691 employees, currently using manual handoff processes. Aisha mentioned they're evaluating Fireflies as well. Quick pain validation around lost context during sales-to-CS transitions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for handing off deals from sales to CS?",
+          "answer": "Mostly manual notes and email summaries. A lot gets lost in translation and our CS team has to re-ask customers basic questions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Sent overview deck and case study from similar EdTech company. Aisha responded asking about pricing ranges and implementation timeline, indicating she's building a business case internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a company our size?",
+          "answer": "Usually 2-3 weeks for core setup, with full rollout and training completed within 30 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to discuss use case in detail"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-27",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Aisha covering current pain points. Discussed how 17 seats across sales and RevOps would use the platform. Aisha shared frustration about CS team spending first two weeks of customer onboarding just catching up on what was promised in the sale.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many people are on your sales team who would need access?",
+          "answer": "About 12 AEs plus 5 folks in RevOps who manage the handoff process."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system integrate with Salesforce and our existing CS platform?",
+          "answer": "Yes, we have native integrations with Salesforce and support most major CS platforms through API."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aisha to loop in RevOps team",
+        "Schedule technical discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-29",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to discuss technical requirements and data security. Aisha mentioned she'll need to bring in IT Director James Jung for technical evaluation. Discussed how our automation features compare to what Fireflies offers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "We're also looking at Fireflies - what makes your platform different for our specific use case?",
+          "answer": "While Fireflies focuses on transcription and basic insights, we're purpose-built for revenue teams with structured handoff automation, deal risk detection, and CS-specific workflows. Our consulting package also includes custom playbook development."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so probably 4-6 weeks to evaluate and decide."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Include James Jung and Jessica Lima from RevOps in next meeting",
+        "Send security documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-06",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deeper qualification call with Aisha. Discussed budget parameters and ROI expectations. Aisha mentioned she's building the business case but doesn't have an executive sponsor yet - she's planning to present to leadership once she has a full proposal. Covered expected value of reducing CS ramp time.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your budget range for this type of solution?",
+          "answer": "We haven't finalized budget, but we're thinking somewhere in the $15-20K range annually for the team."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your consulting package include exactly?",
+          "answer": "Our Automations Plus Consulting tier includes custom workflow design, playbook creation, and quarterly strategy reviews with your team."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation process?",
+          "answer": "Definitely Jessica and Hazel from RevOps - they own the handoff process. And James from IT for any security or integration questions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Include RevOps and IT stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-11",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled demo was rescheduled by Aisha due to conflict with internal planning session. Brief conversation to find new time that works for full group including Jessica and James.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule demo for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-15",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Aisha, Jessica Lima, and Hazel Jung from RevOps. Walked through sales-to-CS handoff automation features, AI summary generation, and Salesforce integration. Team engaged with specific questions about customization. Jessica focused on ROI metrics and reporting capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different product lines?",
+          "answer": "Absolutely - you can create custom templates and automation rules for each product or deal type."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on handoff quality and CS onboarding time?",
+          "answer": "We track handoff completeness, time-to-first-value for CS, and correlation between handoff quality and customer outcomes. Full dashboard included."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Reducing CS onboarding time by at least 50% and eliminating the need for CS to re-interview customers about what was sold."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with James Jung",
+        "Send ROI calculator to Jessica"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-19",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with James Jung (IT Director), Aisha, and RevOps team. Covered security, data privacy, integration architecture, and SAML/SSO requirements. James asked detailed questions about data retention and compliance. Discussed API capabilities and webhook support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and what are your SOC 2 / GDPR compliance measures?",
+          "answer": "Data is stored in SOC 2 Type II compliant AWS infrastructure with GDPR-compliant data processing agreements. We can provide full compliance documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO and what identity providers do you integrate with?",
+          "answer": "Yes, we support SAML 2.0 SSO with all major providers including Okta, Azure AD, and Google Workspace."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your SLA for API uptime and support response times?",
+          "answer": "99.9% uptime SLA with 2-hour response time for critical issues, included in Enterprise tier."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers or concerns from your perspective?",
+          "answer": "No major blockers. I'll need to review the security documentation in detail, but integration approach looks solid."
+        }
+      ],
+      "objections": [
+        "Need to review detailed security documentation before final approval"
+      ],
+      "next_steps": [
+        "James to review security docs",
+        "Schedule technical deep-dive if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-24",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled technical deep-dive rescheduled by James due to internal security audit taking priority. Brief check-in confirmed he received security documentation and will review by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical session after James completes security review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-29",
+      "type": "technical_eval",
+      "duration_minutes": 45,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive with James Jung focused on integration architecture and data flows. Walked through Salesforce bi-directional sync, webhook configuration, and custom field mapping. James expressed satisfaction with technical approach. Discussed implementation support and training included in consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much internal IT resource will implementation require from our side?",
+          "answer": "Minimal - our team handles most of the integration work. We'd need about 10 hours of IT time for SSO setup, Salesforce permissions, and testing."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need custom integrations beyond what's standard?",
+          "answer": "The consulting package includes up to 20 hours of custom integration work. Additional customization available as needed."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining technical concerns we should address?",
+          "answer": "No, I'm comfortable with the technical fit. Security documentation looks good. I can recommend moving forward from IT perspective."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aisha to schedule exec presentation",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-02-03",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive meeting rescheduled by Aisha. She mentioned the exec team's calendar is tight this month and she's still working to get time with the CRO to sponsor the initiative. Suggested we proceed with proposal in the meantime.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proceed with preparing proposal",
+        "Aisha to continue working on exec sponsor engagement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-02-06",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with Aisha, Jessica, and Hazel. Reviewed pricing for 17 seats with Automations Plus Consulting package at $13,200 ACV. Jessica focused heavily on cost and asked about discount options. Aisha mentioned budget is tighter than initially discussed and asked if we could work with them on price.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're still in evaluation with Fireflies?",
+          "answer": "Let me see what we can do. Our standard pricing is $19,300 for this package, but I can discuss options with leadership given your timeline and fit."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in ongoing support after implementation?",
+          "answer": "Unlimited email support, quarterly business reviews, and access to our customer success team for optimization guidance."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision process and timeline from here?",
+          "answer": "We need to finalize budget approval - still working on getting exec buy-in. Hoping to decide within 2-3 weeks."
+        }
+      ],
+      "objections": [
+        "Price is higher than budget allocated",
+        "Still evaluating competitive option"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Aisha to continue pursuing exec sponsor"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-02-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal at $13,200 (31.6% discount) to meet budget constraints. Emphasized ROI from CS efficiency gains and included comparison against Fireflies showing our superior automation capabilities for their specific use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await response on revised pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-02-21",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Aisha and Jessica. Both appreciated the discount to meet budget. Jessica asked detailed questions about contract terms, payment schedule, and what happens if they don't hit 17 seats immediately. Discussed flexible seat ramping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and add more as we roll out?",
+          "answer": "Yes, we can structure it as 17 seats committed annually with flexible activation. You'd pay for committed seats but can phase the rollout."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the payment terms?",
+          "answer": "Standard terms are annual prepay, but we can discuss quarterly payments if that helps with budgeting."
+        },
+        {
+          "by": "rep",
+          "question": "Does the revised pricing work within your budget parameters?",
+          "answer": "Yes, this gets us much closer. We still need exec approval but the numbers work now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with flexible seat activation",
+        "Aisha to present to leadership for final approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-02-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email sent with updated contract reflecting $13,200 pricing, flexible seat activation, and quarterly payment terms. Included implementation timeline and key milestones for executive review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Aisha to review with leadership",
+        "Schedule final approval call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-02-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on contract status. Aisha responded that she's still working to get time with exec team for approval. Mentioned they're also finalizing their evaluation of Fireflies and should have decision soon.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-03-04",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms call with Aisha, Jessica, and Hazel. Team confirmed they're moving forward and just need to finalize contract details. Jessica requested one change to quarterly payment schedule. Discussed start date and implementation kickoff. Aisha mentioned she's presenting to CRO this week but expects approval given budget alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the quarterly payment dates to align with our fiscal quarters?",
+          "answer": "Yes, we can align payment dates to your fiscal calendar. I'll update the contract."
+        },
+        {
+          "by": "rep",
+          "question": "What's your preferred start date for implementation?",
+          "answer": "Ideally early next month so we can complete rollout before end of quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Any other concerns or questions before we finalize?",
+          "answer": "No, I think we're good. Just need the exec signature and we can move forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update contract with adjusted payment dates",
+        "Aisha to obtain exec approval and signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-03-09",
+      "type": "exec_meeting",
+      "duration_minutes": 11,
+      "person_name": "Aisha Becker",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Aisha confirming exec approval received and contract ready for signature. Reviewed next steps for implementation kickoff. Aisha expressed excitement about getting started and improving their handoff process. Discussed onboarding timeline and initial training sessions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who should be our main point of contact during implementation?",
+          "answer": "Jessica will be the primary contact for implementation. Hazel and I will be involved in training and playbook development."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute contract",
+        "Schedule implementation kickoff",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

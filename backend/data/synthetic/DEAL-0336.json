@@ -1,0 +1,167 @@
+{
+  "deal_id": "DEAL-0336",
+  "company": {
+    "name": "SummitEngine",
+    "industry": "eCommerce",
+    "employee_count": 52,
+    "annual_revenue": 8891234,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5100.0,
+    "seats": 8,
+    "price_per_seat_monthly": 54.8,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 38.4,
+    "sales_cycle_days": 12,
+    "close_date": "2024-12-02",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Ruby Williams",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ruby Williams",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ruby Williams, Head of Sales at SummitEngine. Expressed interest in improving pipeline visibility for their sales team. Brief initial contact to schedule a qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-23",
+      "type": "qualification_call",
+      "duration_minutes": 24,
+      "person_name": "Ruby Williams",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute qualification call with Ruby Williams. Discussed current challenges with pipeline tracking across their eCommerce business. Ruby mentioned they're using spreadsheets and struggling with visibility as the team grows. Identified need for 8 seats with automation capabilities. No other vendors currently being evaluated.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking pipeline?",
+          "answer": "We're using Google Sheets right now, but it's becoming unmanageable with the team growth"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Shopify and our existing tools?",
+          "answer": "Yes, we have native integrations with Shopify and most common sales tools"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating this solution?",
+          "answer": "I can make this decision for the sales team, though I may loop in our CFO closer to signing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with integration details",
+        "Prepare demo focused on pipeline visibility features"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Williams",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 17.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with integration documentation and demo invitation. Ruby responded positively, confirmed interest in moving forward and requested pricing information for 8 seats with unlimited automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for unlimited automation vs standard tiers?",
+          "answer": "Unlimited automation is $637.50 per seat annually, standard tier is $450 per seat"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal with pricing options",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-02",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Ruby Williams",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "36-minute meeting with Ruby Williams to discuss pricing and implementation timeline. Ruby expressed budget concerns and requested significant discount to move forward this quarter. Discussed implementation timeline and onboarding process. Ruby committed to internal approval process but mentioned she'll handle CFO sign-off independently.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get a better price if we commit to annual payment upfront?",
+          "answer": "We can offer volume discount and quarterly payment terms to help with budget"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementation?",
+          "answer": "We'd like to start onboarding next month if we can finalize terms this week"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the onboarding process look like for a team our size?",
+          "answer": "Typical onboarding is 2-3 weeks with dedicated support for setup and training"
+        }
+      ],
+      "objections": [
+        "Initial pricing is above our allocated budget for this quarter"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Ruby to review with finance team",
+        "Target close by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 91,
+    "churn_reason": "lack of executive alignment"
+  }
+}

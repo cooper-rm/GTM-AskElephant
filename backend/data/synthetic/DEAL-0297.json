@@ -1,0 +1,293 @@
+{
+  "deal_id": "DEAL-0297",
+  "company": {
+    "name": "ArcOps",
+    "industry": "PropTech",
+    "employee_count": 43,
+    "annual_revenue": 5876380,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5000.0,
+    "seats": 7,
+    "price_per_seat_monthly": 59.65,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.0,
+    "sales_cycle_days": 43,
+    "close_date": "2025-12-30",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Avery Tanaka",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 126
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Avery Tanaka introducing AskElephant's CRM automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-08",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Avery highlighting PropTech-specific automation use cases. Avery responded expressing interest in learning more about workflow automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience with PropTech companies?",
+          "answer": "Yes, we work with several property management and real estate tech companies automating their sales workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-10",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Avery Tanaka. Left voicemail referencing LinkedIn conversation. No callback received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping LinkedIn discussion and proposing discovery call times. Avery confirmed interest and selected a time slot for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share any case studies from similar-sized companies?",
+          "answer": "Attached case study from a 50-person SaaS company that reduced manual CRM tasks by 40%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-26",
+      "type": "discovery_call",
+      "duration_minutes": 37,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute discovery call with Avery. Discussed current CRM pain points at ArcOps, focusing on manual data entry and lack of automation in their sales process. Avery mentioned they're also evaluating Clari but concerned about complexity. Team of 7 sales reps currently using basic Salesforce setup. Strong alignment on use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the CRM automation initiative right now?",
+          "answer": "Our sales team is spending 30% of their time on manual data entry. We need to scale without hiring more ops people."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision?",
+          "answer": "Right now it's mainly me owning this. I'll need to loop in our CFO for budget approval eventually."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Clari?",
+          "answer": "Clari is more forecasting-focused. We're built specifically for workflow automation and are simpler to implement for teams your size."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 2-3 weeks for a team of 7. We handle most of the setup."
+        }
+      ],
+      "objections": [
+        "We're also looking at Clari - they seem more established"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Send pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-12-03",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "32-minute product demo (rescheduled from previous week). Walked through automation workflows, CRM data enrichment, and reporting features. Avery engaged and asked detailed questions about integration capabilities. Noted pricing would need to fit within limited budget. Original meeting was postponed due to Avery's conflict.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing Salesforce custom objects?",
+          "answer": "Yes, we support custom object mapping. Would need about 30 minutes with your admin to configure."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical pricing for a team our size?",
+          "answer": "For 7 seats with unlimited automation, we typically see $7,500-$8,000 ACV. Can provide detailed proposal."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally we'd like to have something in place by end of quarter. Budget is tight though."
+        }
+      ],
+      "objections": [
+        "Need to make sure this fits our budget - we're a small team"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-13",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "11-minute proposal review call (rescheduled from earlier in week). Discussed pricing proposal of $5,000 ACV (33% discount applied to fit budget). Avery appreciated the flexibility but mentioned needing to get CFO approval. Short call due to Avery's time constraint. Original meeting moved due to ArcOps internal planning session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this the best you can do on pricing?",
+          "answer": "We've already applied a significant discount to work within your budget. This is our best offer for the unlimited automation tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Avery to discuss with CFO",
+        "Follow up next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-12-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on CFO conversation and proposal status. Avery replied that CFO is generally supportive but wants to review the contract terms before final approval. Requested redline period extension from 30 to 45 days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we extend the contract review period to 45 days?",
+          "answer": "We can accommodate that. Will update the terms and resend."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract",
+        "Schedule CFO intro if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Tanaka",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with updated contract terms. Avery confirmed CFO reviewed and approved. Ready to move forward with signature. Requested DocuSign link.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send DocuSign contract",
+        "Schedule kickoff call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

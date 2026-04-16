@@ -1,0 +1,599 @@
+{
+  "deal_id": "DEAL-0636",
+  "company": {
+    "name": "NextForward",
+    "industry": "SaaS/Tech",
+    "employee_count": 499,
+    "annual_revenue": 58446818,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 22400.0,
+    "seats": 28,
+    "price_per_seat_monthly": 69.02,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 22.5,
+    "sales_cycle_days": 83,
+    "close_date": "2025-02-11",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Ravi Smith",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 18
+    },
+    {
+      "name": "Rachel Young",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Ravi Smith expressing interest in automation tools to improve rep productivity across their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-20",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Ravi to understand team size, current pain points, and timeline. Ravi confirmed they have 28 sales reps struggling with manual tasks and want to explore automation options.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many sales reps are on your team?",
+          "answer": "28 reps across our sales org"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of automation capabilities do you offer?",
+          "answer": "We provide unlimited automation for workflows, data entry, and follow-up sequencing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case studies",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with relevant case studies from similar mid-market SaaS companies and proposed times for deeper discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples from companies in our industry?",
+          "answer": "Yes, attached case studies from 3 SaaS companies with similar team sizes"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-28",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to confirm discovery logistics. Ravi mentioned they're moving quickly on this and want to have a solution in place within 60 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the timeline for this decision?",
+          "answer": "We're scaling the team next quarter and need automation in place before onboarding new reps"
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like?",
+          "answer": "Usually 2-3 weeks for setup and initial training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for deep-dive discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-05",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call covering current tech stack, workflow pain points, and success metrics. Ravi detailed how reps spend 40% of time on manual data entry and follow-up tasks. He's the primary decision-maker but mentioned Rachel Young handles procurement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for sales automation?",
+          "answer": "Basic Salesforce automation, but nothing comprehensive"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in this decision?",
+          "answer": "Rachel Young in procurement will handle contracting, but I own the technical evaluation"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with Salesforce and our existing tools?",
+          "answer": "Yes, we have native Salesforce integration and API connections"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical deep-dive",
+        "Map out use cases for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Sent detailed discovery summary and proposed demo agenda focused on workflow automation and Salesforce integration use cases.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-17",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical discovery call diving into specific automation workflows. Ravi walked through their current manual processes and identified 5 key automation opportunities. Discussion of pricing structure and seat count.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How do you envision rolling this out across the team?",
+          "answer": "All 28 reps would use it, starting with our outbound team as a pilot"
+        },
+        {
+          "by": "prospect",
+          "question": "How is pricing structured?",
+          "answer": "Per seat annually, with unlimited automation included at the mid-market tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical contract term?",
+          "answer": "Standard is 12 months, with options for multi-year agreements"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo",
+        "Draft initial proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email recapping technical requirements and confirming proposal meeting. Included draft pricing overview for 28 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send the pricing breakdown ahead of our call?",
+          "answer": "Yes, included in this email with seat-based breakdown"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review proposal together on call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-29",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ravi. Walked through pricing at list rate ($800/seat annually = $22.4k). Ravi expressed concern about budget and asked about flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing?",
+          "answer": "We can explore volume discounts for multi-year commitments"
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you expecting?",
+          "answer": "We allocated around $17-18k for this initiative"
+        }
+      ],
+      "objections": [
+        "Pricing is above allocated budget"
+      ],
+      "next_steps": [
+        "Explore discount options",
+        "Loop in sales leadership"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-03",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal discussion. Ravi reiterated budget constraints and mentioned he needs to make a case internally for the higher price point. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who would need to approve a budget increase?",
+          "answer": "That would be our VP of Sales, but I haven't brought them in yet"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the best discount you can offer?",
+          "answer": "Let me discuss with my manager and get back to you"
+        }
+      ],
+      "objections": [
+        "Need stronger business case for executive approval"
+      ],
+      "next_steps": [
+        "Get approval for discount",
+        "Request executive sponsor involvement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-08",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting requested, but only Ravi and Rachel Young attended - no VP of Sales present. Discussed ROI model and business case. Rachel focused heavily on contract terms and pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI can we expect in the first year?",
+          "answer": "Based on your metrics, 200+ hours saved per rep annually, approximately 3x ROI"
+        },
+        {
+          "by": "prospect",
+          "question": "What payment terms do you offer?",
+          "answer": "Standard is annual upfront, but we can discuss quarterly billing"
+        },
+        {
+          "by": "rep",
+          "question": "Will your VP of Sales be joining any upcoming calls?",
+          "answer": "They're busy with quarter-end, but I'll keep them updated"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize ROI model",
+        "Prepare revised proposal with discount"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-13",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended proposal discussion with Ravi and Rachel. Presented revised pricing with 22.5% discount ($17,360) to meet budget. Ravi seemed relieved and indicated this would work. Rachel asked about contract flexibility and cancellation terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a shorter initial term to test it out?",
+          "answer": "The discount is contingent on a 12-month commitment"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-contract?",
+          "answer": "We can add seats anytime at the same per-seat rate, prorated"
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "Yes, this aligns with what we have allocated"
+        }
+      ],
+      "objections": [
+        "Concerned about 12-month commitment without trial period"
+      ],
+      "next_steps": [
+        "Draft final contract",
+        "Confirm executive approval process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-01-20",
+      "type": "proposal_call",
+      "duration_minutes": 31,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed contract review call with Rachel taking the lead. Discussed implementation timeline, support SLAs, and data security requirements. Ravi mentioned their legal team would need to review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your implementation support include?",
+          "answer": "Dedicated CSM for first 90 days plus ongoing support"
+        },
+        {
+          "by": "prospect",
+          "question": "Are you SOC 2 compliant?",
+          "answer": "Yes, SOC 2 Type II certified, can provide documentation"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does legal review typically take?",
+          "answer": "Most customers complete in 5-7 business days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to legal",
+        "Schedule implementation kickoff planning"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-01-21",
+      "type": "proposal_call",
+      "duration_minutes": 4,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call. Ravi confirmed contract is with legal and Rachel is coordinating internally. Expected to have feedback by end of week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any concerns from legal so far?",
+          "answer": "Not yet, still in initial review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-01-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on legal review status and offering to address any questions or concerns that arose.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss legal feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-02-04",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms negotiation call. Legal requested minor contract amendments (standard liability caps and data processing addendum). Rachel pushed for quarterly payment terms given the discount level.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we split payments quarterly instead of annual upfront?",
+          "answer": "We can do quarterly at a 5% premium to the discounted rate"
+        },
+        {
+          "by": "rep",
+          "question": "Are the legal redlines standard for your contracts?",
+          "answer": "Yes, these are our standard amendments"
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "As soon as the contract is signed, typically within 3-5 days"
+        }
+      ],
+      "objections": [
+        "Annual payment is a cash flow concern"
+      ],
+      "next_steps": [
+        "Get approval for quarterly terms",
+        "Finalize contract redlines"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-02-11",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Ravi Smith",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive alignment call - again no VP of Sales present, just Ravi and Rachel. Agreed to annual payment at discounted rate after Ravi confirmed budget was approved. Discussed implementation timeline and success metrics. Contract ready for signature pending final procurement approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do we have final sign-off to proceed?",
+          "answer": "Yes, budget is approved and legal has cleared the contract"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the timeline from signature to go-live?",
+          "answer": "2-3 weeks for full implementation and training"
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "You'll be assigned a dedicated CSM who will reach out within 24 hours of signing"
+        },
+        {
+          "by": "rep",
+          "question": "When can we expect the signed contract back?",
+          "answer": "Rachel will route for final signatures this week, should have it back in 2-3 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rachel to route contract for signatures",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

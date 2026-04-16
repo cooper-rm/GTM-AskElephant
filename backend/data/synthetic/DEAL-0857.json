@@ -1,0 +1,363 @@
+{
+  "deal_id": "DEAL-0857",
+  "company": {
+    "name": "ClayOps",
+    "industry": "SaaS/Tech",
+    "employee_count": 42,
+    "annual_revenue": 4749502,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 58.79,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.9,
+    "sales_cycle_days": 45,
+    "close_date": "2024-12-13",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Chloe Silva",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Chloe Silva, VP of CS at ClayOps. She mentioned seeing AskElephant through a product hunt feature and is interested in improving their sales-to-CS handoff process. Currently using Clari but finding gaps in automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer a free trial or demo for teams our size?",
+          "answer": "Yes, we can set up a qualification call to understand your needs and then schedule a demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Chloe"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-31",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chloe. ClayOps has 42 employees, looking to streamline handoffs between sales and customer success. Pain point: context lost during transitions. Mentioned they currently use Clari but it doesn't automate enough of their workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest challenge you face in the sales-to-CS handoff today?",
+          "answer": "We lose critical context from sales calls and have to recreate relationship history manually."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing work for small teams?",
+          "answer": "We have flexible plans starting with seat-based pricing and unlimited automation. I'll share details in our discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery call meeting invite",
+        "Share one-pager on automation features"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-05",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current workflow. Chloe walked through their process: sales uses Clari for pipeline tracking, but CS team rebuilds customer profiles from scratch. She's championing AskElephant internally but hasn't yet involved her executive team. Discussed needing 4 seats for pilot.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should we involve from your team to evaluate this?",
+          "answer": "For now it's just me driving this. I want to validate the solution before bringing in our COO."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant integrate with our existing Salesforce setup?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so next 6-8 weeks."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't create extra work for the sales team"
+      ],
+      "next_steps": [
+        "Schedule follow-up to discuss technical requirements",
+        "Prepare integration overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-10",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up on technical requirements. Chloe confirmed current tech stack and discussed specific automation needs. She mentioned budget constraints but didn't specify numbers. Still single-threaded\u2014no other stakeholders involved yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the setup time typically look like for a team our size?",
+          "answer": "Usually 1-2 weeks for initial setup and integration, then 2 weeks for team onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "Have you evaluated other solutions besides Clari?",
+          "answer": "We looked at a couple others last year but Clari was the best fit at the time. Now we need more automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Send demo prep questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-16",
+      "type": "demo",
+      "duration_minutes": 54,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo session. Walked through automation workflows, Salesforce integration, and handoff templates. Chloe was engaged and asked detailed questions about customization. She expressed concern about getting buy-in from sales team and mentioned budget will be tight. No executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for different deal types?",
+          "answer": "Yes, fully customizable with rule-based triggers and AI-powered suggestions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Clari offers in terms of automation?",
+          "answer": "Clari focuses more on forecasting and pipeline visibility. We specialize in cross-team workflow automation and context preservation."
+        },
+        {
+          "by": "rep",
+          "question": "What did you think of the handoff template feature?",
+          "answer": "That's exactly what we need. The automatic summary generation would save hours each week."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like?",
+          "answer": "Dedicated implementation manager, weekly check-ins, and 24/7 technical support."
+        }
+      ],
+      "objections": [
+        "Will need to justify the cost\u2014budget is limited this quarter"
+      ],
+      "next_steps": [
+        "Chloe to share demo recap with team",
+        "Schedule exec meeting to discuss ROI and pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-23",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting scheduled but only Chloe attended. She explained the COO had a conflict. Discussed business case and ROI projections. Chloe is clearly championing the solution but concerned about price point. Mentioned need to move quickly to hit Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we reschedule to include your COO?",
+          "answer": "Let me try to get this approved first, then we can loop them in for final sign-off."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline your customers see?",
+          "answer": "Most see measurable efficiency gains within 30-60 days, full ROI by month 4-6."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range are you working with?",
+          "answer": "We're hoping to stay under $3K annually for the pilot."
+        }
+      ],
+      "objections": [
+        "Need to stay within a tight budget\u2014anything over $3K will be hard to get approved"
+      ],
+      "next_steps": [
+        "Prepare proposal with pricing options",
+        "Attempt to schedule follow-up with COO"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-29",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting attempt. COO again unavailable. Chloe reviewed proposal and expressed sticker shock at list pricing. Discussed value but she pushed back on needing exec sponsor involvement. Wants to move forward but only if pricing works.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing for a smaller team like ours?",
+          "answer": "Let me discuss with my manager about what we can do to make this work for your budget."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have a conversation with your COO about the strategic value?",
+          "answer": "I can present this internally. If we can get the numbers right, I can get it approved."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare revised pricing proposal",
+        "Internal approval on discount"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-06",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Presented revised proposal at $2,900 ACV with 33.9% discount to fit budget. Chloe appreciated the flexibility. Discussed contract terms and 4-seat allocation. She mentioned Clari comparison again\u2014wants to ensure they're making the right choice.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we start with 4 seats, how easy is it to expand later?",
+          "answer": "Very straightforward\u2014just a simple amendment to add seats at the same per-seat rate."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to cancel after the first year?",
+          "answer": "Annual contract with standard 30-day notice for non-renewal. No long-term commitment required."
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your budget?",
+          "answer": "Yes, $2,900 is workable. I'll need to finalize internally but this looks good."
+        }
+      ],
+      "objections": [
+        "Want to make sure we're not locked into a multi-year deal"
+      ],
+      "next_steps": [
+        "Send formal proposal with $2,900 pricing",
+        "Chloe to get internal approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-15",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Chloe Silva",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call. Chloe confirmed internal approval at $2,900 for 4 seats with unlimited automation. Discussed contract timeline and implementation kickoff. She asked about onboarding schedule. Still no executive sponsor directly involved, but Chloe has authority to proceed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "As soon as contract is signed, we can kick off within 3-5 business days."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need any additional approvals before we send the contract?",
+          "answer": "No, I have approval to move forward. Just send the paperwork."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 70,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

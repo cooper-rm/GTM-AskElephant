@@ -1,0 +1,172 @@
+{
+  "deal_id": "DEAL-0590",
+  "company": {
+    "name": "MeridianCapital",
+    "industry": "Vertical SaaS",
+    "employee_count": 22,
+    "annual_revenue": 1986619,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2600.0,
+    "seats": 3,
+    "price_per_seat_monthly": 69.69,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.7,
+    "sales_cycle_days": 16,
+    "close_date": "2025-05-15",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Priya Tran",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Sebastian Walker",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-16",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Priya Tran",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Initial outreach via LinkedIn to Priya Tran. Introduced our platform's capabilities for sales-to-CS handoff automation. Priya responded showing interest in learning more about how we compare to their current evaluation of Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current handoff process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-29",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Priya Tran",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Priya to understand MeridianCapital's sales-to-CS handoff challenges. Team of 22 currently using manual handoffs causing context loss. Priya mentioned they're also evaluating Gong. Discussed how our automations plus consulting package could address their specific workflow gaps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current sales-to-CS handoff process?",
+          "answer": "We lose critical context when deals close. CS team has to re-ask questions customers already answered in sales calls."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your consulting package work alongside the automation features?",
+          "answer": "Our team works with you for the first 60 days to customize workflows, then transitions to self-service with ongoing support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with automations_plus_consulting package for 3 seats",
+        "Schedule demo for Priya and Sebastian"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-08",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Priya Tran",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call rescheduled once, then held with Priya. Walked through pricing at $2,600 ACV for 3 seats. Priya expressed concern about budget and mentioned Gong's pricing came in lower. Discussed implementation timeline and asked about bringing in executive sponsor. Priya noted Sebastian (Implementation Lead) would be primary user but no exec yet involved.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting hours, and can we adjust if we need more implementation support?",
+          "answer": "Base package includes 20 hours over 60 days. Additional hours available at $200/hr."
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to loop in your VP or executive team given the cross-functional impact?",
+          "answer": "Not yet - I want to get Sebastian's buy-in first and validate the technical fit."
+        },
+        {
+          "by": "prospect",
+          "question": "Gong quoted us about 30% less for a similar setup. Can you match that?",
+          "answer": "Our consulting component adds significant value for implementations. Let me see what flexibility we have on pricing."
+        }
+      ],
+      "objections": [
+        "Pricing higher than Gong's competitive offer"
+      ],
+      "next_steps": [
+        "Bring back revised pricing",
+        "Schedule technical validation with Sebastian"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-15",
+      "type": "negotiation_call",
+      "duration_minutes": 13,
+      "person_name": "Priya Tran",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss revised pricing. Offered 21.7% discount to bring deal closer to Gong's pricing while emphasizing consulting value. Priya agreed to move forward pending Sebastian's final technical review. Discussed 30-day implementation timeline. Still no executive sponsor engaged, but Priya committed to internal champion role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign this week, when's the earliest we could go live?",
+          "answer": "Implementation typically takes 30 days from contract signature. We could potentially accelerate to 3 weeks if your team is available for intensive onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process from here?",
+          "answer": "I need Sebastian's thumbs up on the technical side, then I can approve up to this amount without going higher."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated agreement with discount",
+        "Coordinate technical review with Sebastian",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 92,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

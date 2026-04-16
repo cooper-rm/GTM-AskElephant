@@ -1,0 +1,530 @@
+{
+  "deal_id": "DEAL-0393",
+  "company": {
+    "name": "EchoPortal",
+    "industry": "PropTech",
+    "employee_count": 566,
+    "annual_revenue": 83428106,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15500.0,
+    "seats": 21,
+    "price_per_seat_monthly": 60.3,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 32.2,
+    "sales_cycle_days": 68,
+    "close_date": "2024-11-08",
+    "use_case": "Rep productivity",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Avery Scott",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Julian Kang",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-22",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Avery Scott, Director of Sales at EchoPortal. No answer, left voicemail introducing AskElephant's rep productivity solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-23",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Avery Scott. No answer, left brief follow-up voicemail referencing previous message.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-24",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Avery Scott highlighting rep productivity challenges in PropTech sales teams. Avery responded expressing interest in learning more about call automation and mentioned they're evaluating options including Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your solution different from Fathom?",
+          "answer": "Brief overview of advanced automation features and consulting services included in our packages."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-01",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Avery Scott. Discussed current pain points with manual note-taking across 21-person sales team. Avery recently joined as Director of Sales and is looking to implement productivity tools quickly. Confirmed budget authority sits with procurement team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call documentation and follow-up?",
+          "answer": "Mostly manual notes in Salesforce, inconsistent quality, reps spend 30-40 min daily on admin work."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "2-3 weeks for standard rollout, faster with our consulting package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send use case examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with PropTech customer case studies and discovery call calendar invite. Avery confirmed the meeting and requested pricing ballpark for 21 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share a rough price range for our team size?",
+          "answer": "Shared typical range for mid-market teams with consulting add-on."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-09",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Avery Scott exploring current workflows and desired outcomes. Discussed team structure, integration needs with existing CRM, and success metrics. Avery emphasized need to show ROI quickly given their new role. Mentioned Fathom is also in consideration but lacks consulting support.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Julian Kang in procurement will handle contracting, but Avery has approval for tools under $20K."
+        },
+        {
+          "by": "rep",
+          "question": "What are your must-have features versus nice-to-haves?",
+          "answer": "Must-have: automated summaries, CRM sync, task extraction. Nice-to-have: coaching insights."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting package work?",
+          "answer": "Dedicated success manager, quarterly training, custom workflow design."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo",
+        "Prepare customized demo environment",
+        "Introduce Julian Kang"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-16",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to confirm demo logistics and gather additional technical requirements. Avery shared concerns about getting exec buy-in without a clear executive sponsor. Discussed how to position ROI for C-suite.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples of how other customers got leadership approval?",
+          "answer": "Shared ROI calculator and executive summary templates used by similar customers."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have our VP join the demo to speak to strategic value?",
+          "answer": "Avery prefers to keep it focused on their team's needs first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo invite with agenda",
+        "Prepare ROI materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email with recorded session and ROI calculator. Avery confirmed strong interest and requested formal proposal. Mentioned timeline is tight as they want solution live before Q2.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Draft proposal for 21 seats with consulting package"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Email checking in on proposal review. Avery acknowledged receipt and mentioned discussing internally with Julian Kang. Indicated pricing feels high compared to Fathom's base offering.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package? Fathom quoted us significantly less.",
+          "answer": "Explained value difference but noted we can discuss package options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email addressing pricing questions and offering to present cost-benefit comparison between AskElephant and Fathom. Avery interested but noted need to move quickly.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare competitive comparison"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-10-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Email with competitive analysis comparing feature sets and total value. Avery appreciated the breakdown and scheduled exec meeting to discuss implementation approach.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for exec meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal with updated pricing structure. Avery confirmed reviewing with Julian Kang and will discuss in upcoming exec meeting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-15",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Avery Scott to discuss implementation plan and pricing. Avery reiterated budget constraints and concerns about getting final approval without CFO involvement. Discussed phased rollout options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot group?",
+          "answer": "Explained minimum seat requirements but offered quarterly payment terms."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to include your CFO in the next conversation?",
+          "answer": "Avery wants to present internally first before escalating."
+        }
+      ],
+      "objections": [
+        "Pricing still feels high for our current budget cycle"
+      ],
+      "next_steps": [
+        "Explore discount options",
+        "Prepare business case materials for CFO"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-23",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended exec meeting with Avery and Julian Kang to review contract terms and implementation timeline. Julian raised questions about security compliance and data handling. Discussion of discount options given multi-year commitment possibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer for annual prepayment?",
+          "answer": "Proposed 15% discount for annual commit, open to discussing further."
+        },
+        {
+          "by": "prospect",
+          "question": "What are your data retention and security certifications?",
+          "answer": "Provided SOC 2 documentation and data handling policies."
+        },
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor who should review the strategic value?",
+          "answer": "Avery mentioned their VP Sales is aware but not directly involved yet."
+        }
+      ],
+      "objections": [
+        "Need stronger discount to get this approved",
+        "Concerned about onboarding timeline with Q2 starting soon"
+      ],
+      "next_steps": [
+        "Revisit pricing with leadership",
+        "Send security documentation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-10-29",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call with Avery to discuss discount scenarios. Avery pushed for 30%+ discount to match budget and competitive offers. Acknowledged they're new to the role and want a quick win.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the absolute best pricing you can do for 21 seats all-in?",
+          "answer": "Proposed 25% discount pending leadership approval."
+        }
+      ],
+      "objections": [
+        "Fathom came in significantly lower even with fewer features"
+      ],
+      "next_steps": [
+        "Get approval for deeper discount",
+        "Avery to confirm with Julian on budget"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-11-02",
+      "type": "pricing_call",
+      "duration_minutes": 27,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended pricing negotiation call with Avery and Julian. Discussed 32% discount scenario to close before end of quarter. Julian confirmed budget available at that level. Conversation focused on contract terms, payment schedule, and implementation start date.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At this pricing, can we move forward this week?",
+          "answer": "Avery committed to final internal review and decision by end of week."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include an out-clause if adoption doesn't hit targets in first 90 days?",
+          "answer": "Discussed performance guarantees and standard contract terms."
+        },
+        {
+          "by": "prospect",
+          "question": "What does onboarding look like with the consulting package?",
+          "answer": "Outlined 3-week implementation plan with dedicated support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Avery to get final sign-off"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-11-06",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Avery Scott",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Avery to review contract and confirm terms. Discussed 32.2% discount, quarterly payment structure, and implementation kickoff timeline. Avery confirmed moving forward pending Julian's procurement review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything else needed to finalize this week?",
+          "answer": "Just final legal review from Julian's team, should have answer in 24-48 hours."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start onboarding if we sign this week?",
+          "answer": "Implementation team available to start within 5 business days of signature."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Julian to complete legal review",
+        "Prepare implementation kickoff plan",
+        "Send DocuSign contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

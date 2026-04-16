@@ -1,0 +1,197 @@
+{
+  "deal_id": "DEAL-0192",
+  "company": {
+    "name": "WestfieldLink",
+    "industry": "Professional Services",
+    "employee_count": 11,
+    "annual_revenue": 1559301,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3500.0,
+    "seats": 4,
+    "price_per_seat_monthly": 72.73,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 18.3,
+    "sales_cycle_days": 11,
+    "close_date": "2024-12-22",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Mateus Scott",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-22",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Scott",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to Mateus Scott introducing AskElephant's forecasting automation capabilities for professional services teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-28",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Scott",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent highlighting specific pain points around forecast accuracy in services businesses. Mateus responded expressing interest in learning more about automated pipeline insights.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing CRM setup?",
+          "answer": "Yes, we have native integrations with major CRMs and can sync data in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-11",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Mateus Scott",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute qualification call with Mateus to understand current forecasting challenges at WestfieldLink. Discussed team size, current tools, and pain points around visibility into deal health. Mateus confirmed budget authority for tools under $5K.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most customers are up and running within 2 weeks, including data sync and initial model training."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating new sales tools?",
+          "answer": "I typically handle this for our team since we're a smaller organization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical overview deck",
+        "Schedule product demo for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-16",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Mateus Scott",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute technical evaluation session walking through AskElephant's forecasting dashboard, deal scoring, and automation features. Mateus engaged throughout, asked detailed questions about data requirements and accuracy metrics. Discussed 4-seat deployment for sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of historical data do you need to train the model effectively?",
+          "answer": "We recommend at least 6 months of deal history, but can work with 3 months minimum. More data improves accuracy."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which signals the system tracks for our specific sales process?",
+          "answer": "Yes, we include consulting hours to configure custom risk signals based on what matters most to your business."
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to involve your leadership in a brief overview before we move to contracting?",
+          "answer": "I'll probably loop them in informally, but I can move this forward on my own."
+        }
+      ],
+      "objections": [
+        "Want to make sure we see ROI within first quarter given our tight budget cycle"
+      ],
+      "next_steps": [
+        "Send proposal for automations_plus_consulting package",
+        "Mateus to review internally this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-22",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Mateus Scott",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute meeting positioned as executive alignment but only Mateus attended. Reviewed proposal for $3,500 ACV, 4 seats with consulting package. Discussed implementation timeline and success metrics. Mateus negotiated on consulting hours included in package and requested revised terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add more consulting hours to the initial package to ensure smooth rollout?",
+          "answer": "We can include an additional 5 hours at the same rate, or bundle a consulting block at a discounted rate."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the pricing look like if we need to add seats mid-contract?",
+          "answer": "Additional seats are prorated for the remainder of the contract term, then included in renewal."
+        },
+        {
+          "by": "rep",
+          "question": "Will your CEO or VP need to sign off on this before we finalize?",
+          "answer": "No, I have approval authority for this budget level."
+        }
+      ],
+      "objections": [
+        "Consulting hours seem light for a team that hasn't used AI forecasting before"
+      ],
+      "next_steps": [
+        "Send revised proposal with additional consulting hours",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

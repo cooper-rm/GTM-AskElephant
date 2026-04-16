@@ -1,0 +1,563 @@
+{
+  "deal_id": "DEAL-0496",
+  "company": {
+    "name": "JadeEngine",
+    "industry": "SaaS/Tech",
+    "employee_count": 10000,
+    "annual_revenue": 1885271195,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 55000.0,
+    "seats": 33,
+    "price_per_seat_monthly": 141.75,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 94,
+    "close_date": "2025-11-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Quinn Wang",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 17
+    },
+    {
+      "name": "Theo Kang",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 39
+    },
+    {
+      "name": "Maria Morgan",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 1
+    },
+    {
+      "name": "Zoey Lim",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    },
+    {
+      "name": "Nathan Rivera",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Quinn Wang (Head of Sales) expressing interest in improving forecasting accuracy for their sales team. Initial inquiry about platform capabilities and pricing for their enterprise team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and provide real-time forecasting insights?",
+          "answer": "Yes, we have native Salesforce integration and real-time analytics dashboards for forecast tracking."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current forecasting challenges"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Quinn confirming meeting availability and requesting additional context on current forecasting process and team size. Quinn responded with availability and mentioned they're evaluating multiple solutions including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for enterprise customers?",
+          "answer": "Typically 2-4 weeks depending on integration complexity and team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email sent with discovery agenda and request for Quinn to invite key stakeholders. Quinn confirmed and mentioned bringing revenue leadership into later conversations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed with Quinn",
+        "Prepare materials on forecasting use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-26",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Quinn covering current forecasting challenges at JadeEngine. Team of 10,000 relies on manual Salesforce updates causing forecast accuracy issues. Quinn mentioned they're looking at Fireflies but prefers a solution with deeper analytics. Discussed pain points around deal visibility and pipeline health.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI actually improve forecast accuracy compared to just analyzing Salesforce data?",
+          "answer": "Our ML models analyze conversation patterns, sentiment trends, and engagement signals beyond CRM data to predict deal outcomes."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of accuracy improvement do your customers typically see?",
+          "answer": "Enterprise customers average 25-35% improvement in forecast accuracy within the first quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the forecasting accuracy issues right now?",
+          "answer": "Reps don't update Salesforce consistently, and leadership has no visibility into actual deal health beyond stage changes."
+        }
+      ],
+      "objections": [
+        "We're already looking at Fireflies - how are you different from their conversation intelligence platform?"
+      ],
+      "next_steps": [
+        "Send case study on forecasting accuracy improvements",
+        "Schedule product demo focused on forecast analytics"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study from similar SaaS company showing 32% forecast accuracy improvement. Quinn responded positively and requested demo for the following week, asking to include forecasting dashboard walkthrough.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled",
+        "Prepare forecasting dashboard examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent with agenda focusing on forecasting analytics and competitive differentiation vs. Fireflies. Quinn confirmed and mentioned wanting to see multi-level rollup reporting for their revenue team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show forecast rollups by region and product line during the demo?",
+          "answer": "Absolutely, we'll walk through custom rollup configurations and how to set forecast hierarchies."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for tomorrow",
+        "Customize demo with JadeEngine's org structure"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-15",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial demo with Quinn focusing on core platform capabilities. Walked through conversation intelligence, forecast analytics dashboard, and Salesforce integration. Quinn was engaged and asked detailed questions about data accuracy and AI model training. Showed competitive advantages over Fireflies including deeper analytics and predictive scoring.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you train the AI models to understand our specific sales methodology?",
+          "answer": "The platform learns from your historical deal data and can be customized with your sales stages and qualification criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the data retention policy and can we export all conversation data?",
+          "answer": "Unlimited retention on enterprise plans with full export capabilities via API or CSV."
+        },
+        {
+          "by": "rep",
+          "question": "How many seats would you need for the initial rollout?",
+          "answer": "Probably around 30-35 seats for the core revenue team to start."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo with forecast rollup deep dive",
+        "Quinn to review internally with revenue leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-22",
+      "type": "demo",
+      "duration_minutes": 53,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive demo on forecast analytics and custom reporting. Quinn brought up specific scenarios around quarterly business reviews and pipeline inspection. Discussed implementation approach and change management for their 33-person revenue team. Quinn mentioned needing to involve SVP of Revenue (Theo Kang) and procurement for next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy and compliance for recorded conversations?",
+          "answer": "SOC 2 Type II certified, GDPR compliant, with granular permission controls and automatic PII redaction options."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI insights to align with our internal terminology?",
+          "answer": "Yes, the platform supports custom taxonomies, deal stages, and terminology mapping."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like for a team our size?",
+          "answer": "Dedicated implementation manager, 2-week onboarding timeline, and ongoing CSM support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so next 4-6 weeks ideally."
+        }
+      ],
+      "objections": [
+        "We need to make sure this doesn't overlap with what Fireflies already offers since some teams are piloting it."
+      ],
+      "next_steps": [
+        "Quinn to brief Theo Kang on platform capabilities",
+        "Schedule demo with broader stakeholder group"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-01",
+      "type": "demo",
+      "duration_minutes": 53,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Stakeholder demo with Quinn, Maria Morgan (Procurement), Zoey Lim (Implementation Lead), and Nathan Rivera (Account Manager). Covered implementation timeline, security/compliance, and hands-on product walkthrough. Team asked technical questions about API access and integration complexity. Positive engagement across all attendees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What API rate limits should we plan for with 33 users?",
+          "answer": "Enterprise tier includes 10K requests/hour with burst capacity, more than sufficient for your team size."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does the initial data sync from Salesforce typically take?",
+          "answer": "Initial sync for 2-3 years of historical data usually completes within 24-48 hours."
+        },
+        {
+          "by": "prospect",
+          "question": "Can end users customize their own dashboard views?",
+          "answer": "Yes, users can create personal dashboards while admins control shared team views."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the implementation timeline we discussed?",
+          "answer": "Timeline looks good, but we'll need IT security review before final approval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Provide security documentation for IT review",
+        "Schedule executive alignment call with Theo Kang"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-10-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 12.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal sent: $55K ACV for 33 seats on automations + consulting package. Included ROI calculator and implementation timeline. Quinn acknowledged receipt and mentioned routing to Theo for budget approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Quinn reviewing proposal with Theo",
+        "Schedule exec meeting with Theo Kang"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on proposal status. Quinn responded that Theo is reviewing and they're aligning budget allocation. Mentioned that Fireflies pricing came in lower but lacks the forecasting analytics they need.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we commit to annual vs quarterly?",
+          "answer": "Yes, we can offer a discount for annual prepayment. Let me work up revised pricing options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare pricing options for annual commitment",
+        "Wait for Theo's availability for exec call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 16.0,
+      "rescheduled": false,
+      "ai_summary": "Sent revised pricing with annual commitment options and additional ROI justification comparing to Fireflies' limited analytics capabilities. Quinn confirmed this helps make the business case internally.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Quinn presenting revised pricing to Theo",
+        "Exec meeting to be scheduled this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-10-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-exec meeting email sent with executive briefing document for Theo Kang highlighting strategic value, forecasting ROI, and competitive positioning. Quinn confirmed Theo is ready to meet and is supportive of moving forward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled with Theo",
+        "Prepare executive-level presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-10-29",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Theo Kang",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Theo Kang (SVP of Revenue) and Quinn. Theo expressed strong interest in forecast accuracy improvements and competitive intelligence capabilities. Discussed strategic alignment with revenue goals and budget approval process. Theo endorsed moving forward and delegated contract negotiation to Quinn and Maria.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What differentiates your forecasting approach from traditional BI tools we already use?",
+          "answer": "We layer conversation intelligence and deal sentiment analysis on top of CRM data, providing leading indicators vs. lagging metrics."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we expect to see measurable forecast accuracy improvement?",
+          "answer": "Most customers see meaningful improvement within 30-45 days once the AI has enough conversation data to analyze patterns."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about budget or timeline from your perspective?",
+          "answer": "Budget is approved. Just need to work through contract terms with procurement and ensure we can start before end of quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to contract negotiation with Quinn and Maria",
+        "Target signature within 2 weeks"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-11-08",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Quinn and Maria Morgan (Procurement) to discuss contract terms. Covered payment terms, annual commitment discount, and data processing addendum requirements. Maria requested additional security documentation and SLA guarantees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee tied to forecast accuracy improvement?",
+          "answer": "We can include success metrics in the statement of work but can't contractually guarantee specific accuracy gains due to data quality variables."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the termination terms if we need to cancel mid-contract?",
+          "answer": "Annual contracts have a 30-day termination clause after the first 6 months with prorated refund."
+        },
+        {
+          "by": "rep",
+          "question": "Are the data security requirements we discussed acceptable?",
+          "answer": "Yes, our standard DPA covers those. We just need to add your specific data residency requirements to the order form."
+        }
+      ],
+      "objections": [
+        "The pricing is still higher than Fireflies, even with the annual discount. Can you come down further?"
+      ],
+      "next_steps": [
+        "Send updated contract with requested terms",
+        "Legal review by JadeEngine",
+        "Follow-up call to address pricing gap"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-11-15",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Quinn Wang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Quinn to address pricing concerns. Discussed value differentiation vs. Fireflies and agreed on a modest additional discount to close the gap. Quinn confirmed this gets them to approval and committed to moving forward with contracting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we expand seats in Q3, what's the additional seat pricing?",
+          "answer": "Additional seats priced at the same per-seat rate with quarterly true-up billing."
+        },
+        {
+          "by": "rep",
+          "question": "With this pricing adjustment, are we ready to move forward?",
+          "answer": "Yes, this works. I'll get Maria to push the contract through legal this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "JadeEngine legal review (3-5 days)",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

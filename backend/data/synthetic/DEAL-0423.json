@@ -1,0 +1,240 @@
+{
+  "deal_id": "DEAL-0423",
+  "company": {
+    "name": "EchoVentures",
+    "industry": "SaaS/Tech",
+    "employee_count": 36,
+    "annual_revenue": 3863183,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4100.0,
+    "seats": 8,
+    "price_per_seat_monthly": 51.26,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.4,
+    "sales_cycle_days": 43,
+    "close_date": "2024-03-09",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Sofia Reddy",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-20",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sofia Reddy at EchoVentures expressing interest in onboarding automation solutions. She mentioned currently evaluating options and looking for scalable tools to support their growing CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support automated workflows for customer onboarding at scale?",
+          "answer": "Yes, our platform offers unlimited automation workflows that can be customized for onboarding sequences, customer communications, and milestone tracking."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule initial qualification call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming Sofia's interest and scheduling discovery call. Brief exchange about timeline and key stakeholders. Sofia confirmed she's recently joined as VP of CS and is driving the evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else from your team should be involved in the evaluation process?",
+          "answer": "Right now I'm spearheading this. I'll loop in the team once I validate the fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-05",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute discovery call exploring EchoVentures' current onboarding challenges. Sofia described manual handoffs causing delays and inconsistent customer experiences. She's evaluating Chorus alongside us. Discussed pain points around lack of visibility into onboarding progress and need for automation at their growth stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've doubled our customer base in six months and our current manual process isn't scaling. I was brought in to fix this."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for this initiative?",
+          "answer": "Reducing onboarding time by 40% and ensuring every customer has a consistent experience regardless of which CSM they're assigned to."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Chorus in terms of workflow flexibility?",
+          "answer": "We offer unlimited custom workflows without tier restrictions, whereas Chorus limits automation on lower plans. You'd have full flexibility across all 8 seats."
+        }
+      ],
+      "objections": [
+        "I need to make sure this doesn't require heavy technical lift from our small team"
+      ],
+      "next_steps": [
+        "Schedule product demo focused on onboarding workflows",
+        "Share case study from similar-sized SaaS company"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-16",
+      "type": "demo",
+      "duration_minutes": 31,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute demo showcasing onboarding automation workflows, reporting dashboards, and integration capabilities. Sofia was engaged and asked detailed questions about implementation timeline and customization options. She mentioned budget constraints but sees clear value. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a company our size?",
+          "answer": "Most SMB customers are live within 2-3 weeks with core workflows configured. We provide dedicated onboarding support."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale up as we validate ROI?",
+          "answer": "Absolutely. We recommend starting with your core CS team and expanding based on results."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your engineering or ops lead involved to validate integrations?",
+          "answer": "Not necessary right now\u2014I have approval to move forward on CS tooling decisions. I'll bring them in during implementation if needed."
+        }
+      ],
+      "objections": [
+        "The list pricing is higher than I anticipated. We're a lean team and need to be thoughtful about budget."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-25",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "15-minute proposal call (originally scheduled earlier but rescheduled by Sofia). Reviewed pricing structure and discussed discount to fit within her budget. Sofia expressed concern about getting internal buy-in without executive visibility but wants to move forward. Negotiated terms to bring ACV to $4,100 with significant discount applied.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're an early-stage company?",
+          "answer": "We can work with you on a startup-friendly package. I've applied a 42% discount to get you to $4,100 annually for 8 seats with unlimited automation."
+        },
+        {
+          "by": "rep",
+          "question": "Before we finalize, would it make sense to loop in your CFO or CEO for final approval?",
+          "answer": "I have budget authority for this amount. Let's keep moving\u2014I want to get this launched before next quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sofia to review proposal internally",
+        "Schedule exec alignment meeting to discuss rollout plan"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-07",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Sofia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute meeting labeled as 'exec alignment' but only Sofia attended. Discussed contract terms, implementation timeline, and success metrics. Sofia committed to moving forward and requested contract for signature. No questions about involving leadership or expanding stakeholder group. She seemed eager to close quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the payment terms and can we do quarterly billing?",
+          "answer": "Standard terms are annual upfront, but we can accommodate quarterly billing with a small adjustment to pricing."
+        },
+        {
+          "by": "rep",
+          "question": "Who will be signing the contract on your end?",
+          "answer": "I'll be signing. I have authority up to $10K for CS tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule kickoff call with implementation team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

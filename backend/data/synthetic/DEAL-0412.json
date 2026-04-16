@@ -1,0 +1,691 @@
+{
+  "deal_id": "DEAL-0412",
+  "company": {
+    "name": "GoldenMarket",
+    "industry": "EdTech",
+    "employee_count": 953,
+    "annual_revenue": 155931343,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10700.0,
+    "seats": 14,
+    "price_per_seat_monthly": 63.49,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 28.7,
+    "sales_cycle_days": 95,
+    "close_date": "2024-11-13",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Fatima Klein",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 6
+    },
+    {
+      "name": "Ruby Singh",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 83
+    },
+    {
+      "name": "Michael Richter",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 15
+    },
+    {
+      "name": "Amanda Martinez",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Fatima Klein expressing interest in call recording and coaching capabilities for their sales team. Initial inquiry mentions they're currently evaluating options including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-10",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Fatima to understand GoldenMarket's current sales coaching process and pain points. Team of 14 reps struggling with inconsistent coaching. Fatima confirmed she's the Director of Sales and primary decision-maker for tool evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching your sales team?",
+          "answer": "Mostly manual review of select calls, very time-consuming and inconsistent"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're competitive and offer additional consulting services they don't provide"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-15",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to dive deeper into team structure and use cases. Discussed integration requirements with their current tech stack. Fatima mentioned Ruby Singh (COO) would need to approve any new tooling.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation process?",
+          "answer": "Ruby Singh our COO will need to sign off, and IT will need to review security"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Usually 2-3 weeks depending on integrations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical documentation for IT review",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with case study from similar EdTech company and technical documentation. Fatima responded confirming she shared materials with Ruby and scheduled discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share examples of ROI from similar customers?",
+          "answer": "Included case study showing 40% reduction in ramp time"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-25",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call to confirm discovery agenda and attendees. Fatima mentioned Michael Richter from IT would join the discovery call to assess security and integration requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top priorities for the discovery call?",
+          "answer": "Understanding the coaching workflows and making sure IT is comfortable with security"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare security documentation",
+        "Conduct discovery call with expanded team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-31",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Fatima covering detailed workflow requirements, coaching cadence, and success metrics. Discussed their current evaluation of Fathom and key differentiators. Fatima emphasized need for more hands-on consulting support which Fathom doesn't offer.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for a solution now?",
+          "answer": "Q2 sales performance below target, need to accelerate rep development"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of consulting support is included in your packages?",
+          "answer": "Our Automations Plus Consulting tier includes dedicated coaching sessions and best practice workshops"
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring coaching effectiveness?",
+          "answer": "Mostly anecdotal, want data-driven approach"
+        }
+      ],
+      "objections": [
+        "Fathom pricing is lower for basic recording features"
+      ],
+      "next_steps": [
+        "Send detailed feature comparison vs Fathom",
+        "Schedule demo",
+        "Loop in Amanda from RevOps for metrics discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-01",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to address questions from discovery and prepare for demo. Discussed specific coaching scenarios and custom workflow requirements. Fatima confirmed Ruby is supportive but focused on ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards?",
+          "answer": "Yes, fully customizable based on your methodology"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in the first 90 days?",
+          "answer": "All reps using it consistently, seeing measurable improvement in talk-to-listen ratios"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo",
+        "Include ROI calculator for Ruby"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-09",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief sync to confirm demo attendees and agenda. Fatima mentioned Ruby might join the demo if timing works. Confirmed focus areas for the demo session.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any specific scenarios you want to see in the demo?",
+          "answer": "Objection handling analysis and coaching workflow automation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Fatima, potentially Ruby"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-14",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo showcasing call recording, AI coaching insights, and automated workflows. Fatima engaged throughout, particularly interested in custom scorecards and consulting services. Discussed pricing tiers and fit for 14 seats. Compared automation capabilities vs Fathom's more basic offering.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much time does setup typically take for a team our size?",
+          "answer": "About 2 weeks with our consulting support included"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for the consulting tier?",
+          "answer": "Reviewed automations_plus_consulting package pricing"
+        },
+        {
+          "by": "rep",
+          "question": "How important is the consulting component vs just the software?",
+          "answer": "Very important, we need help defining our coaching methodology"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and expand?",
+          "answer": "Yes, though per-seat pricing is better at 14+ seats"
+        }
+      ],
+      "objections": [
+        "Price point higher than Fathom, need to justify to Ruby"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule exec meeting with Ruby",
+        "Provide detailed ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-09-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo with proposal for 14 seats on automations_plus_consulting tier. Included ROI calculator and implementation timeline. Fatima acknowledged receipt and said she's reviewing with Ruby.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for feedback from Ruby review",
+        "Schedule exec meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-09-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on proposal status. Fatima responded that Ruby has questions about pricing and wants to understand the value gap vs Fathom's lower-cost option.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide more detail on what the consulting includes vs Fathom?",
+          "answer": "Sent breakdown of quarterly coaching sessions, custom playbook development, and ongoing optimization"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Ruby scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-09-30",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Ruby Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ruby Singh to discuss business case and ROI. Ruby focused on cost-benefit analysis and competitive positioning vs Fathom. Positive on the coaching consulting value-add but wants to ensure pricing is defensible to finance. Asked about flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your consulting worth the premium over Fathom?",
+          "answer": "Explained proprietary coaching methodology and dedicated CSM support"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have customer references in EdTech?",
+          "answer": "Provided two EdTech references with similar team sizes"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Want to decide by end of quarter, implement in Q2"
+        }
+      ],
+      "objections": [
+        "Need to see more competitive pricing to justify vs Fathom"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Connect Ruby with EdTech reference customer",
+        "Involve Michael for security review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Email to Fatima following Ruby meeting, offering to connect on pricing discussion. Fatima confirmed Ruby is supportive of the solution but procurement (Michael and Amanda) will push on price.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for pricing negotiation",
+        "Schedule call with procurement team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing EdTech customer reference contact information and additional ROI data points. Fatima responded positively, mentioned she's building internal business case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Support Fatima's internal business case",
+        "Await procurement feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-10-13",
+      "type": "exec_meeting",
+      "duration_minutes": 14,
+      "person_name": "Ruby Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Ruby to review updated business case materials. Ruby appreciates the consulting value but confirms pricing is the main hurdle. Wants to move forward but needs to see movement on price.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for our team size?",
+          "answer": "Discussed potential discount options while maintaining deal integrity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for discount",
+        "Formal proposal revision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-10-19",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Ruby Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation-focused exec meeting with Ruby. Discussed discount scenarios and contract terms. Ruby indicated that ~25-30% discount would make the decision straightforward vs Fathom. Confirmed multi-year commitment not feasible, needs annual contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer a discount for annual prepayment?",
+          "answer": "Explored prepayment discount options"
+        },
+        {
+          "by": "rep",
+          "question": "Would a multi-year contract enable better pricing?",
+          "answer": "No, annual only due to budget cycles"
+        }
+      ],
+      "objections": [
+        "Fathom still significantly cheaper even with discount"
+      ],
+      "next_steps": [
+        "Get executive approval for 28% discount",
+        "Draft revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-10-25",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Ruby Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Ruby to present revised pricing with discount. Ruby receptive to the adjusted pricing, confirmed it makes the business case defensible. Asked about implementation support and timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "With this pricing, what does implementation support look like?",
+          "answer": "Confirmed dedicated onboarding and quarterly coaching sessions included"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get final approval from Michael (IT) and Amanda (RevOps)",
+        "Prepare contracts"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-10-28",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Fatima to walk through final proposal details with 28.7% discount. Reviewed contract terms, seat count, and billing. Fatima confirmed pricing works and she'll coordinate final reviews with Michael and Amanda.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility to add seats mid-contract?",
+          "answer": "Yes, can add seats anytime with prorated billing"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from your end on the revised terms?",
+          "answer": "No concerns, just need IT and RevOps signoff"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Security review with Michael",
+        "Contract review with Amanda",
+        "Prepare for close"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-11-04",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call originally scheduled with Fatima was rescheduled due to conflict on her end. Brief discussion confirmed no blockers, just scheduling issue. Michael's security review in progress, Amanda reviewing contract language.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any feedback from Michael or Amanda yet?",
+          "answer": "Michael has minor security questions, Amanda reviewing MSA terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule call",
+        "Address Michael's security questions",
+        "Support Amanda's contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-11-07",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Ruby Singh",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ruby to finalize deal terms. Ruby confirmed all internal stakeholders are aligned. Discussed implementation kickoff timeline and success metrics. Ready to move to contracts pending final redlines from Amanda.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after contract signature?",
+          "answer": "Kickoff within 1 week of signature"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any remaining concerns from your team?",
+          "answer": "No, everyone is aligned, just finalizing contract language"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract with Amanda",
+        "Prepare implementation plan",
+        "Schedule kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-11-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Fatima checking on contract finalization status with Amanda. Fatima confirmed Amanda has minor redlines on data retention clauses, should be resolved within days. Deal on track to close this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Address Amanda's contract redlines",
+        "Execute contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

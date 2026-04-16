@@ -1,0 +1,248 @@
+{
+  "deal_id": "DEAL-0105",
+  "company": {
+    "name": "MomentumHealth",
+    "industry": "Professional Services",
+    "employee_count": 50,
+    "annual_revenue": 10126384,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 51.98,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 41.6,
+    "sales_cycle_days": 19,
+    "close_date": "2023-06-09",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Arjun Becker",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 9
+    },
+    {
+      "name": "Willow Walker",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Arjun Becker introducing AskElephant's call recording and coaching platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-05",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 25.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email to Arjun. He responded expressing interest in learning more about how AskElephant differs from their current evaluation of Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Fireflies? We're currently evaluating them.",
+          "answer": "AskElephant offers deeper coaching analytics and unlimited automation at scale, whereas Fireflies focuses primarily on transcription. Happy to show you a comparison."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to discuss MomentumHealth's coaching workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Qualification email exchange. Arjun confirmed they have a 7-person CS team that needs better call coaching tools. He mentioned budget constraints but sees value in automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call coaching and QA?",
+          "answer": "Mostly manual. Managers listen to random calls when they have time. Very inconsistent and doesn't scale."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Arjun to loop in CRO Willow Walker"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Discovery email thread. Arjun outlined their use case in detail: onboarding 7 CS reps, need automated call scoring and coaching insights. He's championing this internally but noted pricing will be scrutinized.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of pricing flexibility do you have for a company our size?",
+          "answer": "We have programs for SMB customers. Let's get through demo first and I'll work with you on a package that fits."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Arjun and Willow",
+        "Send ROI calculator ahead of demo"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email. Arjun confirmed the demo went well and Willow is supportive. He requested formal pricing for 7 seats with unlimited automation tier. Mentioned Fireflies quoted them significantly lower.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match or get close to Fireflies' pricing? They're coming in quite a bit lower.",
+          "answer": "Let me put together a proposal that reflects your team size and use case. I'll have something to you by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with SMB discount",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-03",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "First negotiation call with Arjun, lasted 21 minutes. Arjun pushed hard on price, citing Fireflies as 40% cheaper. Rep offered 30% discount but Arjun said needs to be higher to get Willow's sign-off. Call was rescheduled due to Arjun needing to jump for an urgent customer issue.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you do better than 30%? We're a 50-person company, not enterprise.",
+          "answer": "I can probably get to 35-40% with manager approval. Let me check and get back to you."
+        },
+        {
+          "by": "rep",
+          "question": "If we meet your price point, is Willow ready to sign this month?",
+          "answer": "Yes, she's on board. It's purely a budget question at this point."
+        }
+      ],
+      "objections": [
+        "Pricing too high compared to Fireflies"
+      ],
+      "next_steps": [
+        "Rep to get approval for 40%+ discount",
+        "Reschedule to finalize terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-09",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Arjun Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Arjun, 37 minutes. Rep came back with 41.6% discount bringing ACV to $4,200 for 7 seats. Arjun accepted and confirmed Willow approved. Discussed onboarding timeline and technical setup. Arjun expressed relief about getting this done before quarter end and mentioned the coaching features will help them scale their CS team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your ideal onboarding timeline?",
+          "answer": "We'd like to start next week if possible. Our Q2 planning starts soon and we want this in place."
+        },
+        {
+          "by": "prospect",
+          "question": "Do we have dedicated support during onboarding?",
+          "answer": "Yes, you'll have a CSM assigned from day one and we include onboarding training for your team."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we hire more CS reps?",
+          "answer": "Absolutely. It's prorated and we can adjust anytime."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for Willow's signature",
+        "Schedule onboarding kickoff",
+        "Introduce CSM to Arjun's team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 74,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

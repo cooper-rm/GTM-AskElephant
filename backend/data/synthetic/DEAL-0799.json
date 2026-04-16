@@ -1,0 +1,204 @@
+{
+  "deal_id": "DEAL-0799",
+  "company": {
+    "name": "NebulaAgency",
+    "industry": "Marketing Agency",
+    "employee_count": 68,
+    "annual_revenue": 6615918,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6900.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.39,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.0,
+    "sales_cycle_days": 13,
+    "close_date": "2023-10-13",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Diego Clark",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Mateo Bauer",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 2
+    },
+    {
+      "name": "Luke Young",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Diego Clark (VP of CS) expressing interest in improving rep productivity. Discussed current workflow challenges and scheduled discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform help us track and automate follow-ups for our account managers?",
+          "answer": "Yes, our automations suite is designed specifically for that use case. Let's schedule time to explore your current process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Diego confirmed availability and mentioned involving implementation lead.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should we include our Implementation Lead in the discovery call?",
+          "answer": "Absolutely, that would be valuable to understand technical requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Diego to invite Mateo Bauer"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery follow-up. Diego confirmed interest in automations_plus_consulting package. Discussed team size (9 seats) and use case fit. Mateo raised questions about integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the consulting component work with the automations package?",
+          "answer": "You get dedicated onboarding support and monthly strategy sessions to optimize your workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What integrations are available with our current CRM?",
+          "answer": "We support all major CRMs. I'll send over our integration guide and we can review specifics on the next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send integration documentation",
+        "Prepare proposal for 9 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Proposal sent for $10,000 ACV (9 seats, automations_plus_consulting). Diego responded positively but mentioned budget constraints and requested pricing flexibility. Luke Young (Account Manager) now involved for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Our budget is tighter than expected this quarter.",
+          "answer": "Let me work with my team on what we can do. Can you share your target budget range?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review pricing options internally",
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-13",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Diego Clark",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Diego. Discussed budget constraints in detail. Agreed to revised pricing at $6,900 ACV (31% discount) to fit their Q2 budget. Diego committed to moving forward pending final internal approval from procurement (Mateo). No executive sponsor mentioned despite deal size.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign before end of quarter, can you hold this pricing for our renewal?",
+          "answer": "We can lock in the rate for year one, but renewals are typically at standard pricing. Let me check if we can extend that commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this internally?",
+          "answer": "Just Mateo from procurement to finalize paperwork. I have budget authority for this range."
+        }
+      ],
+      "objections": [
+        "Initial pricing ($10K) exceeds allocated Q2 budget"
+      ],
+      "next_steps": [
+        "Send revised proposal at $6,900",
+        "Diego to coordinate with Mateo for contract review",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

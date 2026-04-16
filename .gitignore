@@ -344,6 +344,15 @@ paket-files/
 **/__pycache__/
 *.pyc
 
+# Python virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local pipeline run artifacts (ephemeral)
+backend/data/runs/
+
 # Cake - Uncomment if you are using it
 #tools/**
 #!tools/packages.config

@@ -1,0 +1,331 @@
+{
+  "deal_id": "DEAL-0055",
+  "company": {
+    "name": "EchoCo",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 31,
+    "annual_revenue": 5177551,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 68.67,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 22.8,
+    "sales_cycle_days": 40,
+    "close_date": "2023-03-15",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lisa Kim",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-06",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Lisa Kim, Director of CS at EchoCo. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lisa Kim introducing automation solutions for customer onboarding. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-09",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Lisa Kim. Introduced onboarding automation capabilities. Lisa expressed initial interest in streamlining their CS processes and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for onboarding new customers?",
+          "answer": "We're doing a lot manually right now, and it's getting harder to scale as we grow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-03",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lisa Kim to understand EchoCo's onboarding challenges. Lisa shared frustrations with manual processes and mentioned evaluating Fireflies. Discussed team size (6 CS team members) and initial use case. Lisa interested in seeing a demo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many people would be using this solution?",
+          "answer": "Our CS team is 6 people right now."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fireflies?",
+          "answer": "We offer deeper workflow automation beyond just transcription, including custom playbooks and integration with your existing tools."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 6-8 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo invitation",
+        "Share case study from similar MSP"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-05",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study and demo scheduling link. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange with Lisa Kim. She confirmed interest in the demo and requested specific information about integration capabilities with their current CRM.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing CRM setup?",
+          "answer": "Yes, we have native integrations with all major CRMs. I'll show you this during the technical eval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-22",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Lisa Kim. Demonstrated onboarding automation workflows, CRM integrations, and unlimited automation tier features. Lisa engaged positively but mentioned she'd need to get buy-in from leadership. Discussed ROI and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your leadership team prioritize when evaluating new tools?",
+          "answer": "ROI and time-to-value are big. Our VP Operations is pretty hands-off with CS tools, so it's mostly on me to make the case."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Usually 2-3 weeks for initial setup, then we iterate based on your workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support do you offer during rollout?",
+          "answer": "Dedicated onboarding specialist plus 24/7 technical support."
+        }
+      ],
+      "objections": [
+        "I'll need to convince our VP Operations this is worth the investment"
+      ],
+      "next_steps": [
+        "Send ROI calculator",
+        "Draft proposal for Lisa to share internally",
+        "Schedule follow-up with exec team if possible"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-27",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting scheduled but only Lisa Kim attended. She explained the VP Operations couldn't join due to scheduling conflicts. Discussed business case and ROI projections. Lisa committed to championing the solution internally but requested competitive pricing to strengthen her case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there a specific budget range you're working within?",
+          "answer": "We're flexible, but I need to show clear value. Fireflies is significantly cheaper, so I need to justify the premium."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you offer any flexibility on pricing to help me make the business case?",
+          "answer": "Let me see what I can do. I'll need to understand your full requirements first."
+        }
+      ],
+      "objections": [
+        "The price point is higher than what leadership was expecting"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Attempt to schedule meeting with VP Operations"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-07",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Lisa Kim. Discussed proposal and pricing tiers. Lisa pushed for significant discount to match Fireflies pricing. Agreed to 22.8% discount to close the deal. Lisa confirmed she could get approval at this price point without exec involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fireflies' pricing to make this an easier decision?",
+          "answer": "I can't match their pricing exactly, but I can offer a substantial discount for a 12-month commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Would this pricing work for your budget?",
+          "answer": "Yes, at this price I can get approval without needing to loop in our VP."
+        },
+        {
+          "by": "rep",
+          "question": "When can we move forward with the agreement?",
+          "answer": "I can review the contract this week and get it signed by end of next week."
+        }
+      ],
+      "objections": [
+        "The original pricing is too high compared to Fireflies"
+      ],
+      "next_steps": [
+        "Send updated contract with discounted pricing",
+        "Get contract signed by end of next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Kim",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with finalized contract reflecting agreed pricing and terms. Lisa confirmed receipt and said she'd review and return signed agreement by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the implementation timeline still 2-3 weeks after contract signature?",
+          "answer": "Yes, we'll kick off onboarding immediately after signature."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Prepare onboarding materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

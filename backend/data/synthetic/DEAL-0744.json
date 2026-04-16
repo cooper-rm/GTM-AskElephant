@@ -1,0 +1,309 @@
+{
+  "deal_id": "DEAL-0744",
+  "company": {
+    "name": "ClayEdge",
+    "industry": "SaaS/Tech",
+    "employee_count": 32,
+    "annual_revenue": 1988890,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5600.0,
+    "seats": 8,
+    "price_per_seat_monthly": 59.17,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 33.5,
+    "sales_cycle_days": 44,
+    "close_date": "2023-11-08",
+    "use_case": "Rep productivity",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Omar Le",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 14
+    },
+    {
+      "name": "Nicole Cooper",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.4,
+      "rescheduled": false,
+      "ai_summary": "Omar Le submitted an inbound demo request via website form. Expressed interest in improving rep productivity and mentioned currently evaluating call intelligence tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming qualification call scheduled for Thursday 2pm. Shared brief overview of AI note-taking capabilities and asked Omar to invite any relevant stakeholders.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will anyone else from your team join the call?",
+          "answer": "Just me for now, but I'll loop in Nicole from RevOps if we move forward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Hold qualification call Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-01",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call. Omar outlined current pain points: reps spending too much time on post-call admin, inconsistent CRM hygiene, and need for better coaching visibility. Team of 8 AEs. Currently piloting Fathom but not fully satisfied with summary quality. Budget authority sits with CFO but Omar owns tool selection for sales.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI handle technical product demos versus regular sales calls?",
+          "answer": "Our model is trained on B2B SaaS conversations specifically, so it picks up product terminology and technical discussions well"
+        },
+        {
+          "by": "rep",
+          "question": "What's the main gap you're seeing with Fathom?",
+          "answer": "Summaries are too generic, doesn't surface action items reliably"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing for 8 seats",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-07",
+      "type": "follow_up_call",
+      "duration_minutes": 1,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief 1-minute call. Omar confirmed demo timing and mentioned he'd like to see the consulting package in action since their team needs help with call framework templates.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo showcasing consulting deliverables"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email recap of demo agenda. Confirmed we'll cover core note-taking, CRM sync, and consulting framework setup. Omar replied asking if Nicole Cooper (RevOps Analyst) could join to evaluate technical integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add Nicole Cooper to the demo? She'll need to vet the Salesforce integration.",
+          "answer": "Absolutely, I'll send her the calendar invite"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Add Nicole to demo invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-20",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute demo with Omar and Nicole. Walked through live call summarization, custom field mapping to Salesforce, and consulting package (templates, playbook buildout). Nicole asked detailed integration questions. Omar expressed strong interest in automations tier. No CFO or exec sponsor on the call. Discussed pricing: $8,400/year list for 8 seats plus consulting. Omar mentioned budget constraints and asked about flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can the AI auto-populate opportunity fields in Salesforce based on call content?",
+          "answer": "Yes, we support custom field mapping including opportunity stage triggers"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package actually deliver?",
+          "answer": "30-day onboarding sprint: custom call templates, playbook setup, and two live training sessions"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for a smaller team like ours?",
+          "answer": "Let me see what I can do\u2014I'll need to loop in my manager on any discount approval"
+        }
+      ],
+      "objections": [
+        "List price feels steep for an 8-person team compared to Fathom"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Omar to review with finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-26",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute pricing discussion. Omar came back requesting significant discount to $5,600 ACV (33% off list) to match budget allocated for Fathom replacement. No mention of CFO approval or involvement. Expressed urgency to close by end of quarter. Nicole not on call. Discussed contract length\u2014Omar prefers annual.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Have you discussed this with your CFO or finance team yet?",
+          "answer": "I have budget authority up to $10k, so this falls within my scope"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you match the $5,600 number? That's what we had allocated.",
+          "answer": "That's a pretty steep discount\u2014I'll need to check with leadership, but I want to make this work"
+        }
+      ],
+      "objections": [
+        "Need to stay at or below existing Fathom budget allocation"
+      ],
+      "next_steps": [
+        "Get discount approval from sales leadership",
+        "Send revised proposal by Friday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discount approved at $5,600 ACV for 8 seats, annual contract. Sent revised proposal and DocuSign contract. Omar responded positively and said he'd review over the weekend with Nicole.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Omar to review contract",
+        "Target signature by Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-07",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Omar Le",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute contract review call. Omar walked through final questions on MSA terms, data privacy, and implementation timeline. Nicole joined briefly to confirm Salesforce API access requirements. Omar verbally committed to signing and mentioned he's excited to roll this out to the team. No executive sponsor introduced or mentioned. Discussed 2-week implementation kickoff.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we're not satisfied after 6 months?",
+          "answer": "Annual contracts have a 30-day out clause with 60 days notice, but we can discuss quarterly check-ins"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation usually take?",
+          "answer": "Typically 2 weeks from contract signature to full team rollout"
+        },
+        {
+          "by": "prospect",
+          "question": "Who owns our data if we churn?",
+          "answer": "You retain all data and can export anytime\u2014we delete our copies within 30 days of cancellation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Omar to sign contract by EOD Monday",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 64,
+    "churn_reason": "lack of executive alignment"
+  }
+}

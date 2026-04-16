@@ -1,0 +1,754 @@
+{
+  "deal_id": "DEAL-0563",
+  "company": {
+    "name": "OrbitSync",
+    "industry": "Healthcare IT",
+    "employee_count": 1000,
+    "annual_revenue": 118139268,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16700.0,
+    "seats": 18,
+    "price_per_seat_monthly": 75.67,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 15.0,
+    "sales_cycle_days": 96,
+    "close_date": "2023-09-04",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Alex Diallo",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 13
+    },
+    {
+      "name": "Layla White",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 14
+    },
+    {
+      "name": "Dylan King",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 23
+    },
+    {
+      "name": "Nora Stern",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 4
+    },
+    {
+      "name": "Evelyn Ali",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Alex Diallo at OrbitSync expressing interest in improving forecasting accuracy. Initial contact established, scheduled qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current forecasting challenges"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-31",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Alex Diallo. Discussed current forecasting pain points at OrbitSync. Alex mentioned they're evaluating Gong as well. Brief overview of our platform's forecasting capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a new forecasting solution now?",
+          "answer": "Our current system has too much manual input and forecast accuracy is around 65%, causing planning issues"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your forecasting differ from Gong's approach?",
+          "answer": "We use a proprietary model that ingests both conversation data and CRM signals, while Gong focuses primarily on conversation intelligence"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-05",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Alex shared more context on team size (18 reps) and their evaluation timeline. Discussed integration requirements with their current tech stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current CRM and conversation recording setup?",
+          "answer": "Salesforce and Chorus for call recording, but limited analytics on forecasting"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for initial setup, 4-6 weeks to full adoption with training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery agenda covering technical integration",
+        "Include Layla White from sales management in next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 12.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with overview deck and case study from similar healthcare IT company. Highlighted forecasting accuracy improvements of 20-25% in comparable deployments.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Alex to review materials and confirm discovery call attendees"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call scheduled for next week. Sent prep questions to help Alex gather relevant data on current forecasting process and pain points.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Could you share your current forecast-to-actual variance over the last 3 quarters?",
+          "answer": "Will compile and bring to discovery call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Alex gathering current metrics"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-20",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First discovery call. Deep dive into OrbitSync's current forecasting process. Alex walked through their quarterly planning cycle and highlighted major gaps in visibility. Discussed how 65% accuracy is impacting resource planning and board confidence.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How does poor forecast accuracy specifically impact your business?",
+          "answer": "We've missed headcount planning twice, and the board is losing confidence in our revenue projections"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating this solution?",
+          "answer": "Layla White manages the sales managers and will need to sign off on usability, and RevOps will handle procurement"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you handle our Salesforce custom objects?",
+          "answer": "Yes, our connector supports custom objects and we can map your unique fields"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up discovery to review technical architecture",
+        "Introduce Layla White in next session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-26",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery session focused on current tech stack and data flow. Discussed integration points with Salesforce and Chorus. Alex mentioned Gong is in parallel evaluation and they're comparing approaches.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's most important in your evaluation criteria?",
+          "answer": "Forecast accuracy improvement, ease of use for reps, and implementation speed"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy for healthcare-sensitive conversations?",
+          "answer": "Full SOC 2 Type II compliance, data encryption at rest and in transit, optional on-premise deployment"
+        }
+      ],
+      "objections": [
+        "Timeline concern - needs to be live before Q3 planning in 8 weeks"
+      ],
+      "next_steps": [
+        "Provide detailed integration architecture doc",
+        "Schedule technical eval with Layla"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-01",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final discovery call covering adoption and change management. Alex shared concerns about rep adoption based on previous failed tool rollouts. Discussed training approach and success metrics.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happened with previous tool implementations?",
+          "answer": "Rolled out a complex analytics tool that reps never adopted - too much manual data entry"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your training and onboarding look like?",
+          "answer": "White-glove onboarding with dedicated CSM, weekly office hours first month, built-in rep coaching"
+        },
+        {
+          "by": "rep",
+          "question": "How will you measure success?",
+          "answer": "Forecast accuracy above 85%, rep usage above 80%, reduction in time spent on forecast calls"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on rep experience",
+        "Prepare pricing framework"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-05",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Alex showing end-to-end forecasting workflow. Highlighted ease of use and automated insights. Alex very engaged, asked detailed questions about specific use cases. Positive reaction to UI simplicity compared to current tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can reps override the AI forecast if they have information the system doesn't?",
+          "answer": "Yes, reps can adjust and the system learns from those overrides"
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Gong offers for forecasting?",
+          "answer": "Gong focuses on deal inspection, we provide both inspection and predictive modeling with CRM context"
+        },
+        {
+          "by": "rep",
+          "question": "What resonated most from the demo?",
+          "answer": "The automated deal health scoring and how little manual input reps need to provide"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Layla",
+        "Send demo recording and feature list"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-10",
+      "type": "technical_eval",
+      "duration_minutes": 46,
+      "person_name": "Layla White",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Layla White. Went deep on data model, API capabilities, and reporting flexibility. Layla tested the manager dashboard and forecast rollup features. Asked detailed questions about customization and asked to compare with Gong's manager analytics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can I customize the deal health scoring model for our specific sales process?",
+          "answer": "Yes, you can weight factors and add custom fields to the scoring algorithm"
+        },
+        {
+          "by": "prospect",
+          "question": "What reporting do I get for coaching my managers?",
+          "answer": "Manager scorecards, trend analysis, and AI-suggested coaching moments based on call analysis"
+        },
+        {
+          "by": "rep",
+          "question": "How does this fit with your current workflow?",
+          "answer": "Would replace our manual forecast spreadsheet process and integrate into our weekly pipeline reviews"
+        },
+        {
+          "by": "prospect",
+          "question": "Does this include the conversation analytics like Gong or is it forecast-only?",
+          "answer": "Includes full conversation intelligence plus forecasting, or can use your existing Chorus data"
+        }
+      ],
+      "objections": [
+        "Concerned about training time for 18 reps given aggressive timeline"
+      ],
+      "next_steps": [
+        "Layla to test with sample data",
+        "Schedule proposal call with Alex"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-07-14",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal call with Alex to align on package and pricing structure. Discussed 18-seat deployment with automations plus consulting package. Alex flagged budget approval process involves RevOps (Dylan King).",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "Allocated $15-20K for forecasting improvement this year"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include?",
+          "answer": "Custom model tuning, quarterly business reviews, and dedicated Slack channel"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with ROI model",
+        "Plan to include Dylan King from RevOps"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-07-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after technical eval. Sent Layla additional documentation on customization options and sample manager dashboards. Included comparison matrix addressing Gong evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Layla reviewing materials",
+        "Proposal call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-27",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with Alex. Walked through $16,700 ACV proposal for 18 seats with automations plus consulting. Discussed ROI based on forecast accuracy improvement. Alex mentioned need to get exec-level approval but seemed positive on fit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package versus standard?",
+          "answer": "Quarterly model optimization, custom integrations, and priority support with 4-hour SLA"
+        },
+        {
+          "by": "rep",
+          "question": "Who needs to approve at this price point?",
+          "answer": "VP Sales (me) can approve up to $20K, but RevOps needs to review contracts and CFO signs off"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a smaller pilot first?",
+          "answer": "We recommend full team deployment for accurate forecasting, but can discuss phased rollout"
+        }
+      ],
+      "objections": [
+        "Price is higher than Gong's quote, needs justification for the consulting add-on"
+      ],
+      "next_steps": [
+        "Schedule exec alignment meeting",
+        "Prepare ROI justification vs Gong"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-30",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Alex. Discussed business case and timing for Q3 planning cycle. Alex mentioned he's the decision-maker but wants to ensure smooth RevOps handoff. No other executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we include your CEO or CFO in the evaluation?",
+          "answer": "Not necessary at this stage, I own the sales tech stack decisions"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Need to decide in next 2-3 weeks to hit Q3 planning deadline"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal document",
+        "Introduce Dylan King for procurement process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-08-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Email sent with formal proposal and ROI analysis. Highlighted forecast accuracy improvement impact on headcount planning and board confidence. Included customer references from healthcare IT companies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Alex reviewing with team",
+        "Schedule negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-08-10",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up exec meeting with Alex. He's moved to negotiation stage but flagged that Gong came in lower on price. Discussed value differentiation and asked about flexibility on consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we reduce the price by dropping the consulting package?",
+          "answer": "That would bring it to $13,200, but you'd lose the custom model tuning that drives ROI"
+        },
+        {
+          "by": "rep",
+          "question": "What's Gong's pricing looking like?",
+          "answer": "They're at about $12K for conversation intelligence, but forecasting is more limited"
+        }
+      ],
+      "objections": [
+        "Pricing gap with Gong is a concern, needs to justify the premium"
+      ],
+      "next_steps": [
+        "Explore pricing options",
+        "Prepare value justification"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-08-14",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Discussed various package options and pricing flexibility. Alex pushing for discount to match Gong competitive pricing. Explored multi-year commitment for better pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer to match Gong's number?",
+          "answer": "We can offer 10% off for annual prepay, bringing it to $15,030"
+        },
+        {
+          "by": "prospect",
+          "question": "What if we commit to two years?",
+          "answer": "Two-year commit would be $14,200 annually with locked pricing"
+        },
+        {
+          "by": "rep",
+          "question": "Is Gong's solution comparable on forecasting capabilities?",
+          "answer": "Forecasting is newer for them, more focused on conversation analytics"
+        }
+      ],
+      "objections": [
+        "Still higher than competitive option, needs stronger ROI justification"
+      ],
+      "next_steps": [
+        "Alex to discuss internally",
+        "Prepare final pricing proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-08-18",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on contract terms and timeline. Alex requested implementation timeline guarantees and discussed payment terms. Also raised questions about year 2 pricing increases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the price increase in year 2?",
+          "answer": "Standard is 5% annual increase, locked at 3% with multi-year commit"
+        },
+        {
+          "by": "rep",
+          "question": "Are you close to a decision?",
+          "answer": "Yes, just need to finalize pricing and get RevOps to review the contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with annual prepay discount",
+        "Intro Dylan King for contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-08-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email with revised proposal at $15,030 with 10% discount for annual prepay. Included implementation timeline guarantee and contract draft. CC'd Dylan King from RevOps for procurement review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can RevOps complete contract review?",
+          "answer": "Dylan can turn it around in 3-5 business days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dylan reviewing contract",
+        "Alex reviewing final pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-08-29",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Alex and Dylan. Dylan raised questions about data security terms and SLA commitments. Discussed indemnification clauses and termination terms. Alex still comparing final offers from us and Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you strengthen the uptime SLA guarantee?",
+          "answer": "We can commit to 99.9% uptime with service credits for downtime"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the termination policy if we're not satisfied?",
+          "answer": "60-day notice required, prorated refund available in first 90 days"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for final decision?",
+          "answer": "This week - need to get implementation started by month-end"
+        }
+      ],
+      "objections": [
+        "Dylan flagged that data security terms need legal review, might slow close"
+      ],
+      "next_steps": [
+        "Revise contract with updated SLA terms",
+        "Alex making final vendor decision"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-09-03",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Alex Diallo",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Alex. Discussed remaining contract redlines from legal. Alex mentioned Gong has become more competitive on forecasting features and pricing is still a gap. Asked for best and final offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your absolute best price to close this week?",
+          "answer": "Can go to $14,500 annual with prepay and locked pricing for 2 years"
+        },
+        {
+          "by": "rep",
+          "question": "Where are you leaning between us and Gong?",
+          "answer": "You're stronger on forecasting, they're stronger on conversation analytics. Still evaluating."
+        }
+      ],
+      "objections": [
+        "Still concerned about price premium over Gong, especially without exec sponsor validation"
+      ],
+      "next_steps": [
+        "Alex making final decision this week",
+        "Send best and final proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

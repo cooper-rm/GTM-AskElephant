@@ -1,0 +1,197 @@
+{
+  "deal_id": "DEAL-0569",
+  "company": {
+    "name": "CosmicSpark",
+    "industry": "EdTech",
+    "employee_count": 57,
+    "annual_revenue": 4862553,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8000.0,
+    "seats": 8,
+    "price_per_seat_monthly": 81.14,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 8.8,
+    "sales_cycle_days": 14,
+    "close_date": "2023-10-17",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Aria Agarwal",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 10
+    },
+    {
+      "name": "Leo Shah",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aria Agarwal",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aria Agarwal (VP of CS) at CosmicSpark via website form. Expressed interest in improving forecasting accuracy for their CS team. Brief intro call scheduled.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in forecasting tools right now?",
+          "answer": "Our renewal predictions are off by 20-30% each quarter, causing resource planning issues across CS and product teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-03",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Aria Agarwal",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aria Agarwal. CosmicSpark is a 57-person EdTech company struggling with churn prediction and renewal forecasting. Current process is manual spreadsheets. Aria manages a 4-person CS team, needs better visibility into at-risk accounts. Looking at 8 seats initially (CS team + RevOps). Budget appears flexible, targeting Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through how you're forecasting renewals today.",
+          "answer": "Mostly gut feel and manual tracking in Google Sheets. Leo in RevOps tries to model it but data quality is poor."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this?",
+          "answer": "Leo Shah from RevOps will need to see it. He handles procurement too. My team would be the primary users."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation handle our Salesforce setup? We have some custom objects.",
+          "answer": "Our unlimited automation tier includes custom object mapping and pre-built Salesforce connectors. We can configure that during onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo calendar link",
+        "Include Leo Shah on demo invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-11",
+      "type": "demo",
+      "duration_minutes": 63,
+      "person_name": "Aria Agarwal",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo with Aria Agarwal, focusing on forecasting use case. Walked through renewal risk scoring, automated health scoring, and reporting dashboards. Aria engaged throughout, asked detailed questions about data requirements and implementation timeline. Mentioned Leo will need to review pricing and technical requirements. No other executives mentioned. Implementation timeline discussed: 2-3 weeks for standard setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data do you need from our CRM to build accurate forecasts?",
+          "answer": "Activity data, support tickets, product usage if available, and historical renewal outcomes. We can work with partial data initially."
+        },
+        {
+          "by": "rep",
+          "question": "Is there a CFO or VP of Finance who'd want to review ROI on this?",
+          "answer": "Probably not at this deal size. Leo handles most tool purchases under $15k with my approval."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with CS team only and expand to sales later?",
+          "answer": "Absolutely. The 8-seat package gives you flexibility to reassign licenses as needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical accuracy improvement customers see in first 90 days?",
+          "answer": "Most customers see 15-25% improvement in forecast accuracy within the first quarter, depending on data quality."
+        }
+      ],
+      "objections": [
+        "Want to make sure this doesn't create more work for Leo's team during integration"
+      ],
+      "next_steps": [
+        "Send proposal for 8 seats, unlimited automation tier",
+        "Schedule pricing review with Aria and Leo",
+        "Share implementation timeline doc"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-16",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Aria Agarwal",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Aria and Leo Shah (RevOps Analyst). Reviewed $8k ACV proposal for 8 seats with unlimited automation. Leo focused on contract terms, implementation support, and data security. Aria confirmed budget alignment. Leo requested minor discount (5-10%) to get through procurement faster. No executive review mentioned. Agreed to send contract pending internal review. Leo will drive internal approvals.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like? Do we get a dedicated CSM?",
+          "answer": "You'll have a technical onboarding specialist for first 30 days, then transition to our standard support. Dedicated CSM starts at our enterprise tier."
+        },
+        {
+          "by": "prospect",
+          "question": "Any flexibility on pricing for a faster close?",
+          "answer": "I can offer 7% off if we finalize by end of month, bringing it to $7,440 annually."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process from here?",
+          "answer": "Leo: I'll review the contract and security docs, run it by our finance team. Should be pretty straightforward at this price point."
+        }
+      ],
+      "objections": [
+        "Would prefer pricing closer to $7k to make procurement smoother"
+      ],
+      "next_steps": [
+        "Send revised proposal at $7,440 ACV with 7% discount",
+        "Send contract and security documentation to Leo",
+        "Leo to review internally and respond within 5 business days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "deal_id": "DEAL-0566",
+  "company": {
+    "name": "ClearMetrics",
+    "industry": "eCommerce",
+    "employee_count": 1000,
+    "annual_revenue": 177069439,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18300.0,
+    "seats": 19,
+    "price_per_seat_monthly": 78.6,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 11.7,
+    "sales_cycle_days": 48,
+    "close_date": "2025-04-17",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Leo Byrne",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 38
+    },
+    {
+      "name": "Emma Koch",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-13",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempted to Leo Byrne at ClearMetrics. No answer, left voicemail introducing our conversation intelligence platform and mentioning pipeline visibility use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-17",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Leo Byrne introducing our platform's capabilities for pipeline visibility and RevOps teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-19",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.9,
+      "rescheduled": false,
+      "ai_summary": "Second email sent with specific eCommerce use case example. Leo responded expressing interest in learning more about how we differ from their current evaluation of Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Fireflies for RevOps use cases?",
+          "answer": "Explained our advanced pipeline visibility features and native CRM integrations that go beyond basic transcription."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Email exchange confirming Leo's interest in pipeline visibility tools for their RevOps team. Discussed current pain points with manual call reviews and inconsistent data capture.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing tech stack?",
+          "answer": "Confirmed native Salesforce integration and compatibility with common RevOps tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Book discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email sent with discovery agenda. Leo confirmed attendance and mentioned bringing up the conversation with their CRO Emma Koch. Shared current team size of ~19 reps.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Tuesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-10",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Leo Byrne focused on ClearMetrics' current state. Team struggling with inconsistent pipeline data and lack of visibility into deal health. Leo mentioned they're evaluating Fireflies but concerned about limited RevOps functionality.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for conversation intelligence right now?",
+          "answer": "Leadership wants better pipeline forecasting and the sales team isn't consistently logging call details."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you help us identify at-risk deals earlier in the cycle?",
+          "answer": "Walked through our sentiment analysis and deal health scoring capabilities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule technical deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-17",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical discovery call diving into ClearMetrics' tech stack and RevOps workflows. Discussed integration requirements with Salesforce and their reporting needs. Leo expressed strong interest in our analytics capabilities vs. Fireflies' basic transcription.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we get historical data analyzed if we switch from Fireflies?",
+          "answer": "Explained migration support and typical 2-week onboarding timeline."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Leo mentioned Emma Koch (CRO) would need to sign off on any tool over $15K."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Include pipeline visibility use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-21",
+      "type": "demo",
+      "duration_minutes": 16,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Leo Byrne showcasing pipeline visibility features, deal health scoring, and RevOps analytics dashboard. Leo particularly engaged with competitive intelligence features and asked detailed questions about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Outlined 2-3 week implementation with dedicated CSM support."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 19 seats with the analytics features we need?",
+          "answer": "Mentioned we'd send formal proposal, ballpark $15-20K annually depending on package."
+        }
+      ],
+      "objections": [
+        "Need to compare features with Fireflies more thoroughly"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Arrange exec briefing with Emma Koch"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo recording and feature comparison sheet (us vs. Fireflies). Leo acknowledged receipt and mentioned discussing with Emma Koch this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await feedback from CRO discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-04-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Formal proposal sent for 19 seats on Automations Plus tier with consulting package at $18,300 ACV. Included ROI calculator and implementation timeline. Leo confirmed reviewing with finance and Emma.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours included?",
+          "answer": "Explained consulting package structure and potential to adjust scope."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Emma Koch",
+        "Internal review by 3/15"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Check-in email regarding proposal status. Leo responded that Emma wants to meet before final decision, still comparing with Fireflies on pricing. Scheduled exec meeting for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled with Emma Koch for 3/18"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-04-12",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Leo Byrne",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Leo to address pricing questions before exec meeting. Discussed contract terms, seat count flexibility, and consulting package scope. Leo pushed back slightly on price vs. Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we reduce consulting hours to bring the price closer to Fireflies?",
+          "answer": "Explored options to adjust consulting package while maintaining core analytics value."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for Emma?",
+          "answer": "Leo indicated strong ROI case on pipeline visibility is key, price is secondary but Emma is budget-conscious."
+        }
+      ],
+      "objections": [
+        "Fireflies is coming in about 20% lower on price"
+      ],
+      "next_steps": [
+        "Prepare ROI-focused exec presentation",
+        "Finalize revised proposal if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-04-18",
+      "type": "exec_meeting",
+      "duration_minutes": 48,
+      "person_name": "Emma Koch",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Emma Koch (CRO) and Leo Byrne. Presented business case focused on pipeline visibility ROI and RevOps efficiency gains. Emma engaged positively, asked detailed questions about implementation risk and team adoption. Discussed contract terms and confirmed decision timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of support do you provide during rollout to ensure rep adoption?",
+          "answer": "Detailed our change management support, training program, and dedicated CSM for first 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "How do your analytics capabilities compare to Fireflies for forecasting accuracy?",
+          "answer": "Walked through specific RevOps features and predictive analytics that Fireflies doesn't offer."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Emma indicated they need to finalize by end of month, prefer to start implementation in early April."
+        }
+      ],
+      "objections": [
+        "Want to make sure we're not overpaying vs. Fireflies for features we won't use"
+      ],
+      "next_steps": [
+        "Emma to review proposal with finance",
+        "Final decision by 3/25",
+        "Target April 1 start date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

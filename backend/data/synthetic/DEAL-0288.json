@@ -1,0 +1,328 @@
+{
+  "deal_id": "DEAL-0288",
+  "company": {
+    "name": "PivotAnalytics",
+    "industry": "Professional Services",
+    "employee_count": 99,
+    "annual_revenue": 18867370,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 8,
+    "price_per_seat_monthly": 54.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.0,
+    "sales_cycle_days": 31,
+    "close_date": "2025-06-19",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Ella Ramirez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 51
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Ella Ramirez at PivotAnalytics expressing interest in improving forecasting accuracy for their sales team. Brief form submission noting current use of Fireflies and pain points with forecast reliability.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-19",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ella covering team size (8 sales reps), current process using Fireflies, and main pain point around forecast accuracy. Ella mentioned they're in budget planning cycle and looking to make a decision soon. Single point of contact established.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking deal health and forecasting?",
+          "answer": "We use Fireflies for call recording but struggle to get actionable insights. Forecasts are still mostly gut feel."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Fireflies in terms of forecasting?",
+          "answer": "We layer predictive scoring on top of conversation intelligence to flag risk signals early."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questions",
+        "Schedule follow-up call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-24",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into PivotAnalytics' forecasting challenges. Ella shared that their VP Sales relies heavily on rep updates and they've had 2 major forecast misses this quarter. Discussed 8-seat deployment for the sales team. Ella is driving this internally but mentioned she'd need to get finance sign-off.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to loop in our CFO eventually for budget approval, but I want to see it work first."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you show me how the risk scoring actually works in practice?",
+          "answer": "Yes, let's schedule a demo where I'll walk through live examples."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of quarter."
+        }
+      ],
+      "objections": [
+        "We're already paying for Fireflies, so we'd need to justify the switch."
+      ],
+      "next_steps": [
+        "Prepare demo focused on forecasting use case",
+        "Schedule demo for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 14.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming demo scheduled and sharing a one-pager on forecasting accuracy improvements with case studies from similar professional services firms. Ella responded positively and confirmed attendance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples from other consulting or professional services companies?",
+          "answer": "Yes, attached a case study from a 120-person consulting firm that improved forecast accuracy by 34%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo",
+        "Prepare ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-01",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session walking through platform capabilities including HNSW-based deal matching, XGBoost risk scoring, and forecasting dashboard. Ella was engaged and asked detailed questions about integration with their existing Salesforce setup. Discussed 8-seat unlimited automation plan. Mentioned Fireflies comparison and how our predictive layer differentiates.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 1-2 weeks including Salesforce integration and initial model training."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure? Is it per seat?",
+          "answer": "Yes, per seat with tiered plans based on automation limits. For 8 seats I'll put together a proposal."
+        },
+        {
+          "by": "rep",
+          "question": "Would you want to run a pilot with a subset of reps first?",
+          "answer": "No, if we do this I'd want to roll it out to the whole team at once for consistency."
+        }
+      ],
+      "objections": [
+        "The price point needs to be reasonable since we're already spending on Fireflies."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule exec meeting to present to CFO"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-04",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Ella present, but CFO did not attend. Ella presented the business case internally and is advocating for the purchase. Call focused on confirming technical requirements and timeline. Ella mentioned she's still working to get the CFO on board.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is the CFO available to join this call?",
+          "answer": "She had a conflict come up, but I've briefed her and she's supportive in principle."
+        },
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing?",
+          "answer": "Let me see what I can do. What's your target budget?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ella to get CFO feedback on proposal",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-08",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Ella. She requested significant discount citing budget constraints and existing Fireflies contract. Discussed value proposition and ROI but Ella pushed back on list price. She mentioned needing to stay under $5k ACV to avoid additional approvals. Proposed 39% discount to meet budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you come down to around $4,800 annually? That's our approved budget threshold.",
+          "answer": "That's a significant discount from list price. Let me discuss with leadership."
+        },
+        {
+          "by": "rep",
+          "question": "If we can accommodate that pricing, can you commit to moving forward this month?",
+          "answer": "Yes, if the CFO signs off I can get paperwork done within a week."
+        }
+      ],
+      "objections": [
+        "The list price is too high for our budget this quarter.",
+        "We need to justify moving off Fireflies which we've already paid for."
+      ],
+      "next_steps": [
+        "Get approval for discounted pricing",
+        "Prepare final contract",
+        "Schedule follow-up call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-14",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled pricing call was rescheduled by Ella due to internal budget meeting conflict. Brief email exchange confirming new time for later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call",
+        "Confirm discount approval internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-18",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Ella Ramirez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call confirming $4,800 ACV for 8 seats with unlimited automation plan. Ella confirmed CFO verbal approval and requested contract. Still single-threaded through Ella with no direct exec engagement. Discussed implementation timeline and onboarding process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do you have the CFO's formal sign-off on this pricing?",
+          "answer": "She's given me verbal approval. I'll get her signature on the contract."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once the contract is signed?",
+          "answer": "We can kick off within 3-5 business days of executed contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Await signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

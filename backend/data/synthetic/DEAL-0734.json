@@ -1,0 +1,479 @@
+{
+  "deal_id": "DEAL-0734",
+  "company": {
+    "name": "BirchSync",
+    "industry": "SaaS/Tech",
+    "employee_count": 538,
+    "annual_revenue": 53998853,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24600.0,
+    "seats": 26,
+    "price_per_seat_monthly": 70.7,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.6,
+    "sales_cycle_days": 41,
+    "close_date": "2023-08-14",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Samuel Brooks",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 26
+    },
+    {
+      "name": "Mateo Garcia",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 32
+    },
+    {
+      "name": "Michael Davis",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-14",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Samuel Brooks at BirchSync. Rep introduced AskElephant's conversation intelligence platform, positioned as helping CS teams improve rep productivity and coaching workflows. Samuel expressed initial interest in learning more about AI-powered call analysis and how it differs from their current processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI analysis compare to basic call recording?",
+          "answer": "Our platform uses advanced NLP to automatically surface deal risks, coaching opportunities, and customer sentiment patterns that would take hours to identify manually. It's designed specifically for teams scaling their CS operations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Samuel with case study showing 40% improvement in rep ramp time for similar-sized SaaS company. Included link to calendar for qualification call. Samuel responded positively and booked time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-07",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Samuel Brooks to understand BirchSync's current process and pain points. Samuel shared they have 26 customer-facing reps struggling with inconsistent messaging and limited coaching capacity. Currently using basic call recording but no analysis. Budget authority sits with CEO Mateo Garcia.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need to look at conversation intelligence now?",
+          "answer": "We've doubled our CS team in 6 months and our managers are drowning trying to review calls manually. We need scalable coaching."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of integrations do you have with our CRM and support tools?",
+          "answer": "We have native integrations with all major CRMs including Salesforce and HubSpot, plus support platforms like Zendesk and Intercom."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map detailed requirements",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-11",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into BirchSync's rep productivity challenges and use case requirements. Samuel walked through their current coaching workflow, onboarding timeline (currently 8 weeks), and key metrics they want to improve. Discussed need for automated deal risk detection and competitive intelligence from calls. Samuel mentioned they're also evaluating Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Cutting our rep ramp time by at least 30% and giving managers real-time visibility into deal health without listening to every call."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle our specific use case around customer success versus sales?",
+          "answer": "We have CS-specific playbooks and scorecards that track renewal risk, expansion signals, and customer health indicators - not just sales metrics."
+        },
+        {
+          "by": "prospect",
+          "question": "What are you seeing as the main differentiator versus Gong?",
+          "answer": "Gong is excellent but built primarily for sales teams. Our AI models are trained specifically on CS and support conversations, with better detection of churn signals and customer sentiment nuances."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo focused on CS use case",
+        "Send Gong competitive comparison doc",
+        "Loop in Mateo Garcia for executive alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with competitive analysis comparing AskElephant vs Gong for CS teams, highlighting differentiated AI models for customer health detection. Included custom demo agenda tailored to BirchSync's rep productivity goals. Samuel confirmed demo attendees and requested pricing preview.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share a ballpark on pricing before the demo?",
+          "answer": "For 26 seats with unlimited automation tier you'd be looking at approximately $1,200-1,500 per seat annually depending on contract length and integrations needed. I'll have exact pricing ready after the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next Tuesday",
+        "Prepare ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo details and sharing pre-demo questionnaire to understand specific workflows Samuel wants to see. Included links to CS-focused case studies and ROI calculator template.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for Tuesday 3pm",
+        "Samuel to complete questionnaire by Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.1,
+      "rescheduled": false,
+      "ai_summary": "Reminder email with demo link and agenda. Samuel confirmed attendance and mentioned bringing two of his senior CS managers to the call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo in 2 hours"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-24",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Samuel and two CS managers showing automated call analysis, deal risk detection, and coaching workflows. Team was impressed with sentiment analysis accuracy and custom scorecards. Questions focused on implementation timeline and change management for the team. Samuel mentioned needing to move quickly due to Q2 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation and onboarding process look like?",
+          "answer": "Typical implementation is 2-3 weeks including integration setup, custom playbook configuration, and team training. We provide dedicated onboarding support."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy and security for recorded calls?",
+          "answer": "We're SOC 2 Type II certified with end-to-end encryption. All data is stored in your region and you maintain full control over retention policies and access permissions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule exec meeting with Mateo Garcia",
+        "Provide implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal for 26 seats at unlimited_automation tier, $31,000 ACV ($1,192/seat). Included implementation timeline, ROI projections, and case study from similar company. Requested meeting with CEO Mateo Garcia for executive alignment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Samuel to review proposal internally",
+        "Schedule exec meeting with Mateo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-30",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Samuel to walk through pricing, contract terms, and ROI model. Samuel expressed concern about budget approval and mentioned needing stronger business case for Mateo. Discussed payment terms and asked about flexibility on pricing given their current Gong evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the per-seat pricing given our volume?",
+          "answer": "Let me discuss with my manager. For a multi-year commitment we might be able to offer better pricing. What budget range were you targeting?"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need to have something in place by end of Q2, so ideally we'd close this in the next 3-4 weeks."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than anticipated budget allocation for this quarter"
+      ],
+      "next_steps": [
+        "Schedule exec meeting with Mateo Garcia",
+        "Explore pricing flexibility internally",
+        "Provide stronger ROI documentation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-08-01",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Mateo Garcia",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with CEO Mateo Garcia (originally scheduled earlier but rescheduled due to conflict). Presented strategic value of conversation intelligence for scaling CS organization. Mateo focused on ROI, competitive positioning versus Gong, and integration with existing tech stack. Expressed interest but concerned about price point relative to Gong's offer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the tangible ROI we should expect in year one?",
+          "answer": "Based on similar deployments, you'd see 30-40% reduction in rep ramp time and 20%+ improvement in renewal rates through earlier risk detection. That translates to roughly $180K in retained revenue and reduced hiring costs."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our use case?",
+          "answer": "Gong's enterprise pricing is typically similar or higher, but their platform isn't optimized for CS workflows. Our unlimited automation tier includes features they charge extra for."
+        },
+        {
+          "by": "prospect",
+          "question": "What would a multi-year commitment look like from a pricing perspective?",
+          "answer": "For a 2-year deal we could offer meaningful discounts. Let me work up revised pricing options for you."
+        }
+      ],
+      "objections": [
+        "Need to see clearer differentiation from Gong to justify pricing premium"
+      ],
+      "next_steps": [
+        "Provide revised pricing for multi-year deal",
+        "Schedule negotiation call with Samuel",
+        "Send detailed Gong competitive analysis"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-08-05",
+      "type": "negotiation_call",
+      "duration_minutes": 42,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Samuel to discuss pricing options and contract terms. Presented revised offer at $24,600 ACV (20.6% discount) for 2-year commitment with unlimited automation. Samuel appreciated the flexibility and indicated this gets them much closer to budget approval. Discussed implementation timeline, payment terms, and success metrics. Some concern raised about internal adoption and change management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual?",
+          "answer": "We typically do annual billing but I can check if quarterly is possible for a 2-year deal. It may affect the discount slightly."
+        },
+        {
+          "by": "rep",
+          "question": "What would help you get this across the finish line internally?",
+          "answer": "This pricing works much better. I need to get procurement involved and finalize terms, but Mateo is on board with the revised numbers."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support do we get during rollout to ensure adoption?",
+          "answer": "You'll have a dedicated customer success manager for the first 90 days, weekly check-ins, and we'll run live training sessions for your team. We also provide ongoing optimization reviews."
+        }
+      ],
+      "objections": [
+        "Need to ensure team adoption and change management support"
+      ],
+      "next_steps": [
+        "Confirm payment terms flexibility",
+        "Loop in Michael Davis from procurement",
+        "Send final contract draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-08-10",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Samuel and Michael Davis (Account Manager, procurement) to finalize contract terms. Confirmed $24,600 ACV with annual payments, 2-year term. Michael reviewed security requirements, data processing terms, and renewal conditions. Discussed auto-renewal clause and termination terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the terms if we want to add more seats mid-contract?",
+          "answer": "Additional seats are pro-rated at the same per-seat rate for the remainder of the term. No penalties or renegotiation needed for expansion."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have standard MSA terms or do we need custom contracting?",
+          "answer": "We have a standard MSA that covers most requirements. Happy to review any specific terms you need added for security or compliance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed terms",
+        "Michael to review legal requirements",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-08-14",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Samuel Brooks",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Samuel to address remaining legal redlines from BirchSync's procurement team. Resolved questions about data retention policies, liability caps, and implementation SLAs. Samuel confirmed all stakeholders are aligned and ready to move forward with signature. Contract sent for signature with 2-year term, $24,600 ACV, 26 seats, unlimited_automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get a committed go-live date in the contract?",
+          "answer": "Yes, we can commit to full implementation within 3 weeks of contract signature, with that date specified in the SOW."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract sent for signature",
+        "Implementation kickoff scheduled for next Monday",
+        "Samuel to coordinate with team on onboarding prep"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

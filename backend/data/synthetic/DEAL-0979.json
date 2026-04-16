@@ -1,0 +1,312 @@
+{
+  "deal_id": "DEAL-0979",
+  "company": {
+    "name": "BayGateway",
+    "industry": "SaaS/Tech",
+    "employee_count": 63,
+    "annual_revenue": 10077480,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 8,
+    "price_per_seat_monthly": 55.37,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 37.8,
+    "sales_cycle_days": 44,
+    "close_date": "2023-03-28",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Hannah Goldberg",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Brandon Lewis",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-07",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Hannah Goldberg at BayGateway inquiring about forecasting automation capabilities. She expressed interest in improving sales forecast accuracy and mentioned currently evaluating alternatives including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview and case studies"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, forecasting use case materials, and customer success stories. Hannah responded positively, confirmed budget availability, and requested a discovery call to discuss their specific forecasting challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and HubSpot for forecast data?",
+          "answer": "Yes, we have native integrations with both platforms and can pull historical opportunity data automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-19",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Hannah to understand BayGateway's current forecasting process. She described manual spreadsheet-based forecasting taking 3-4 hours weekly with ~40% accuracy variance. Team of 8 AEs needs better pipeline visibility. Hannah is the primary decision-maker for sales tools but mentioned needing IT approval for integrations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current forecasting process and where does it break down?",
+          "answer": "We're using Excel with rep input. Accuracy is inconsistent and it takes our sales ops person half a day each week to compile."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your forecasting compare to what Fathom offers?",
+          "answer": "Our AI models are trained on B2B SaaS data specifically and provide deal-level risk scoring, not just aggregate forecasts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Include IT director Brandon Lewis in technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-25",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo for Hannah covering forecasting dashboard, pipeline intelligence, and automation features. She was engaged and particularly interested in the deal risk scoring. Asked about implementation timeline and mentioned wanting to launch before Q3. Expressed concern about getting team adoption but seemed confident in the value proposition.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 8 seats with Salesforce integration, typically 2-3 weeks including data sync and team training."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and onboarding is included?",
+          "answer": "We provide live onboarding sessions, recorded training materials, and 30 days of dedicated implementation support."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Getting our forecast accuracy above 70% and reducing the time our sales ops spends on this from 4 hours to under 1 hour weekly."
+        }
+      ],
+      "objections": [
+        "Need to make sure the sales team actually uses it and doesn't see it as extra work"
+      ],
+      "next_steps": [
+        "Schedule technical demo for Brandon Lewis",
+        "Send proposal with pricing options"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-06",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Brandon Lewis",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical demo with Brandon Lewis covering data security, integrations, and system architecture. Brandon asked detailed questions about API access, data residency, and SSO requirements. He seemed satisfied with the technical capabilities but was focused on integration complexity and data governance. Neutral tone throughout - performing due diligence rather than advocating.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where is customer data stored?",
+          "answer": "Data is stored in SOC2-compliant AWS infrastructure in US-East region. Retention is configurable, default 24 months with ability to export anytime."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO and what authentication methods are available?",
+          "answer": "Yes, we support SAML 2.0 SSO with major providers including Okta, Azure AD, and Google Workspace."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any integration constraints or IT requirements we should plan for?",
+          "answer": "We'll need API access enabled in Salesforce and approval to install the managed package. No server-side requirements since it's fully cloud-based."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your integration architecture differ from Fathom's approach?",
+          "answer": "We use a managed package model with real-time sync versus webhook-based updates. Generally more reliable for forecast data freshness."
+        }
+      ],
+      "objections": [
+        "Want to ensure we're not creating another data silo that doesn't integrate with our broader analytics stack"
+      ],
+      "next_steps": [
+        "Brandon to review security documentation",
+        "Hannah to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-03-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal email with pricing for 8 seats at $5,200 annually (unlimited automation tier). Included ROI calculator showing potential time savings and forecast accuracy improvements. Hannah responded asking about discount options given budget constraints and mentioned Fathom's pricing came in lower. Requested call to discuss pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing for a smaller team like ours?",
+          "answer": "Let's schedule a call to discuss your budget and see what options we have available."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-21",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Hannah to discuss executive approval process and timeline. She mentioned the VP of Sales is traveling and hasn't been directly involved yet, but Hannah has budget authority up to $7K. Timing pressure to close before end of month. She requested pricing flexibility to stay within her approval threshold without escalating to VP.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a brief alignment call with your VP of Sales to ensure we're addressing their priorities?",
+          "answer": "He's pretty hands-off on tool selection - trusts me to evaluate and make the call. I'd rather just get this closed quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can do to keep this within my approval range?",
+          "answer": "Let me discuss discount options with my manager and get back to you with our best offer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for discount",
+        "Send revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-28",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Hannah Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Hannah. Discussed discount to bring annual cost to $5,200 (37.8% off list) to stay within her approval authority. She appreciated the flexibility and confirmed this works with budget. Brandon signed off on technical requirements. Hannah wants to move forward pending contract review. Asked about payment terms and discussed quarterly vs annual payment options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of paying annually upfront?",
+          "answer": "Annual payment is standard for this discount level, but we can discuss a payment plan if that's a blocker."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders who need to review the contract before you can sign?",
+          "answer": "Just our finance team for contract review - usually takes 3-5 days. Should be straightforward."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats in 6 months?",
+          "answer": "You can add seats anytime at prorated pricing for the remainder of the annual term."
+        }
+      ],
+      "objections": [
+        "The upfront annual payment is steep for our cash flow right now"
+      ],
+      "next_steps": [
+        "Send contract for legal review",
+        "Confirm payment terms",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 92,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

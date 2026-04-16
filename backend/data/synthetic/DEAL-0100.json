@@ -1,0 +1,310 @@
+{
+  "deal_id": "DEAL-0100",
+  "company": {
+    "name": "QuasarPrism",
+    "industry": "SaaS/Tech",
+    "employee_count": 48,
+    "annual_revenue": 9214810,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2300.0,
+    "seats": 3,
+    "price_per_seat_monthly": 63.31,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.9,
+    "sales_cycle_days": 79,
+    "close_date": "2023-10-18",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Rachel Schmidt",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 20
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Rachel Schmidt at QuasarPrism expressing interest in CRM automation solutions. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-31",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Rachel Schmidt to understand QuasarPrism's CRM automation needs. Rachel mentioned they're currently evaluating Fathom as well. Company has 48 employees, looking for solution to automate sales workflows. Rachel is Head of Sales and main point of contact.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "Our sales team is spending too much time on manual data entry and follow-ups. We need to scale our processes as we grow."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating solutions?",
+          "answer": "I'm leading the evaluation for the sales team. I'll bring in leadership once we narrow down options."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're competitive and offer more comprehensive automation features. Let's dive deeper into your specific needs first."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery meeting invite",
+        "Share initial product overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery call agenda and preliminary questions about current CRM setup and pain points. Rachel confirmed meeting time.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will you need access to our current CRM to prepare?",
+          "answer": "Not necessary at this stage, but we can discuss integration requirements during the call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-22",
+      "type": "discovery_call",
+      "duration_minutes": 8,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call to map out QuasarPrism's current workflow and identify automation opportunities. Rachel described their manual processes around lead follow-up and deal tracking. Confirmed interest in unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for sales?",
+          "answer": "We use Salesforce as our CRM, but most automation is manual or through basic workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system handle our Salesforce integration?",
+          "answer": "Yes, we have native Salesforce integration with real-time sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full product demo",
+        "Prepare custom demo focused on CRM automation workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-30",
+      "type": "demo",
+      "duration_minutes": 49,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo showcasing CRM automation workflows, Salesforce integration, and unlimited automation capabilities. Rachel was engaged and asked detailed questions about implementation. Noted that Fathom demo is scheduled for next week. Discussed potential fit for 3 seats covering sales leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "For a team your size, usually 2-3 weeks from contract to full deployment."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support is included?",
+          "answer": "Dedicated CSM, onboarding support, and 24/7 technical support for unlimited tier."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next month. Comparing a few options first."
+        }
+      ],
+      "objections": [
+        "Need to see how this compares to Fathom before committing"
+      ],
+      "next_steps": [
+        "Send demo recording and feature comparison",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, feature documentation, and competitive comparison vs Fathom. Rachel responded positively about the demo but mentioned they're still in evaluation phase.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for feedback post-Fathom demo",
+        "Prepare proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 19.1,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 3 seats on unlimited automation plan. Rachel acknowledged receipt and mentioned she's working on getting budget approval. Proposal included custom pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing for a first-year commitment?",
+          "answer": "Let me see what we can do. What budget range were you working with?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss pricing adjustments",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email offering revised pricing with 28.9% discount to match budget constraints Rachel mentioned. Emphasized value of unlimited automation tier and superior integration capabilities vs Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call",
+        "Address final questions"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-17",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Rachel Schmidt",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call to finalize terms at $2,300 ACV with discount applied. Rachel committed to moving forward but mentioned she needs to run it by leadership before final signature. Discussion focused on contract terms, implementation timeline, and discount justification. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we get leadership involved to finalize?",
+          "answer": "I'll present it to them this week. Should be able to get back to you by Friday."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year deal?",
+          "answer": "The discount is contingent on annual commitment, but we can discuss multi-year options."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else blocking this from moving forward?",
+          "answer": "Just need the executive sign-off. The team is aligned on moving forward with your solution."
+        }
+      ],
+      "objections": [
+        "Need executive approval before final commitment"
+      ],
+      "next_steps": [
+        "Rachel to present to leadership",
+        "Follow up end of week for decision"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

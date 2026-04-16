@@ -1,0 +1,399 @@
+{
+  "deal_id": "DEAL-0941",
+  "company": {
+    "name": "LatticeExchange",
+    "industry": "eCommerce",
+    "employee_count": 56,
+    "annual_revenue": 10156188,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8100.0,
+    "seats": 9,
+    "price_per_seat_monthly": 74.32,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 16.5,
+    "sales_cycle_days": 50,
+    "close_date": "2023-06-22",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Grace Johnson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 67
+    },
+    {
+      "name": "Savannah Sun",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 24
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-24",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Grace Johnson. No answer, left voicemail introducing AskElephant's forecasting automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-25",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Grace introducing AskElephant's deal intelligence platform and referencing forecasting accuracy pain points common in eCommerce.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-26",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief connection call with Grace. She confirmed interest in improving forecast accuracy for her CS team's renewals pipeline. Scheduled qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently tracking forecast accuracy for your renewal pipeline?",
+          "answer": "We use spreadsheets mostly, it's pretty manual and often off by 20-30%"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30min qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-03",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call focused on understanding LatticeExchange's current forecasting process. Grace shared pain around manual data entry and lack of real-time intelligence. Team of ~9 CS managers would use the platform.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through how your team builds the weekly forecast today",
+          "answer": "Each CS manager updates a shared sheet with their gut feel on renewals, we roll it up manually"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM setup?",
+          "answer": "Yes, we integrate natively with Salesforce, HubSpot, and most major CRMs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Grace to confirm team size and share current tools",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-10",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call dove into team structure and tooling. Grace confirmed 9 CS managers, using Salesforce. Discussed integration requirements and data security. She mentioned looking at other solutions including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What other solutions are you evaluating for this use case?",
+          "answer": "We've looked at Fireflies briefly, but it seems more focused on note-taking than forecasting intelligence"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform ensure data privacy for customer calls?",
+          "answer": "All data is encrypted at rest and in transit, with role-based access controls and SOC 2 Type II compliance"
+        }
+      ],
+      "objections": [
+        "Need to understand how this differs from what Fireflies offers"
+      ],
+      "next_steps": [
+        "Rep to send security documentation",
+        "Schedule discovery call with broader use case discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-19",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call explored forecasting accuracy goals and timeline. Grace shared that leadership wants to reduce forecast error from 25% to under 10% by Q3. Discussed automation tier and unlimited call processing needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the timeline for implementing a solution?",
+          "answer": "Our CEO wants better visibility into renewals before our board meeting in August"
+        },
+        {
+          "by": "rep",
+          "question": "How many customer calls does your team handle monthly?",
+          "answer": "Probably 200-300 calls across the team, plus emails"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we pilot this with a smaller team first?",
+          "answer": "Absolutely, many customers start with a subset of users and expand"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo focused on forecasting workflows",
+        "Grace to identify key stakeholders for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-23",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo showcasing deal intelligence and forecasting features. Grace engaged strongly with automated sentiment analysis and risk scoring. Walked through unlimited automation tier benefits for their call volume. She mentioned needing to involve IT for procurement approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How accurate is the sentiment analysis in practice?",
+          "answer": "Our models achieve 87% accuracy on B2B calls, and improve with your team's feedback"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks including integrations"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision process?",
+          "answer": "I'll need sign-off from Savannah in IT for the vendor approval and security review"
+        }
+      ],
+      "objections": [
+        "Will need IT to review this before we can move forward with procurement"
+      ],
+      "next_steps": [
+        "Grace to introduce Savannah Sun from IT",
+        "Rep to prepare proposal for 9 seats, unlimited automation tier",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-31",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Grace. Presented $8,100 ACV for 9 seats on unlimited automation tier. Grace generally supportive but mentioned budget is tight and asked about flexibility. Discussed ROI based on forecast accuracy improvements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given our company size?",
+          "answer": "Let me discuss with my manager what we can do for a multi-year commitment"
+        },
+        {
+          "by": "rep",
+          "question": "What does the approval process look like on your end?",
+          "answer": "I need to get Savannah's approval on the vendor, then it goes to our VP of Operations for budget sign-off"
+        }
+      ],
+      "objections": [
+        "The pricing feels a bit high for an SMB our size"
+      ],
+      "next_steps": [
+        "Rep to explore pricing flexibility",
+        "Grace to loop in Savannah and VP of Operations",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-06",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting included Grace but VP of Operations did not attend - only Savannah from IT joined. Discussed security, compliance, and integration requirements. Savannah asked detailed technical questions but seemed generally satisfied. Grace pushed for decision timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Standard is 2 years, but we can accommodate custom retention policies in the contract"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the Salesforce integration handle custom fields?",
+          "answer": "We map to custom fields during implementation and can sync bidirectionally"
+        },
+        {
+          "by": "rep",
+          "question": "Is the VP of Operations able to join us to discuss the business case?",
+          "answer": "She's traveling this week, but I can brief her. I have the authority to move forward on the CS tooling budget"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we exceed the call volume we estimated?",
+          "answer": "The unlimited automation tier covers you regardless of volume, that's the main benefit"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Savannah to complete security review within 1 week",
+        "Grace to discuss pricing with VP and get final approval",
+        "Schedule negotiation call to finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-15",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Grace to finalize terms. She requested 15% discount to fit budget, citing comparison with Fireflies pricing. Discussed contract length and payment terms. Grace confirmed Savannah's security review cleared but still needs executive budget approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a 10% discount if we sign a 2-year agreement?",
+          "answer": "Let me get approval for 10% on a 2-year commit - that would bring it to $7,290 annually"
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for getting executive sign-off on the revised pricing?",
+          "answer": "I should be able to get an answer by end of next week once I present the updated proposal"
+        }
+      ],
+      "objections": [
+        "Fireflies quoted us significantly less, though I know it's not the same feature set"
+      ],
+      "next_steps": [
+        "Rep to get approval for 10% discount on 2-year term",
+        "Grace to present revised proposal to VP of Operations",
+        "Follow up next week on decision status"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grace Johnson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 12.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Grace confirming revised proposal at $7,290/year for 2-year term. Reiterated ROI on forecast accuracy improvements and implementation timeline. Requested update on executive approval status.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Were you able to connect with your VP on the revised pricing?",
+          "answer": "Not yet - she's still reviewing the budget for Q2 tools. Should have an answer in the next few days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Grace to provide decision update by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

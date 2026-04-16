@@ -1,0 +1,174 @@
+{
+  "deal_id": "DEAL-0019",
+  "company": {
+    "name": "DeltaDynamics",
+    "industry": "Healthcare IT",
+    "employee_count": 76,
+    "annual_revenue": 10513736,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2000,
+    "seats": 3,
+    "price_per_seat_monthly": 47.96,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 46.1,
+    "sales_cycle_days": 15,
+    "close_date": "2023-05-29",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Santiago Jones",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Santiago Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Santiago Jones reached out via website form expressing interest in automating their customer onboarding process. Currently handling onboarding manually across their 76-person team, leading to inconsistencies. Looking to explore solutions that could streamline this for their growing customer base.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in onboarding automation right now?",
+          "answer": "We've grown from 40 to 76 employees in the last year and our manual onboarding process is creating bottlenecks. Each new customer takes our CS team about 8-10 hours of manual work."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with healthcare IT systems like Epic or Cerner?",
+          "answer": "Yes, we have pre-built connectors for major healthcare platforms and can support custom integrations as needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send over product overview and pricing tiers",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Santiago Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, case study from similar healthcare IT company, and proposed times for qualification call. Santiago confirmed interest and selected a time slot. Brief exchange clarifying their current tech stack and integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks, though we can accelerate if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm",
+        "Santiago to review case study before call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-21",
+      "type": "technical_eval",
+      "duration_minutes": 57,
+      "person_name": "Santiago Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "57-minute technical evaluation call covering workflow automation capabilities, integration requirements, and team setup. Santiago walked through their current onboarding pain points in detail. Discussed starting with 3 CS team members initially. Some concern raised about getting executive sign-off for budget, as this would be a new category of spend for their department. Santiago enthusiastic about the product fit but noted he'll need to build internal business case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Honestly, I have budget authority up to a certain point, but I should probably loop in our COO for visibility. I haven't done that yet though."
+        },
+        {
+          "by": "prospect",
+          "question": "Can the automation handle conditional logic based on customer segments?",
+          "answer": "Yes, you can build decision trees and segment-specific workflows. Let me show you an example."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on onboarding metrics?",
+          "answer": "You get dashboards for completion rates, time-to-value, bottleneck identification, and custom metrics you define."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to get this moving within the next 2-3 weeks. Our Q2 onboarding volume is picking up and I need a solution in place."
+        }
+      ],
+      "objections": [
+        "I need to think about how to position this internally without executive sponsorship lined up yet"
+      ],
+      "next_steps": [
+        "Send proposal with 3-seat configuration",
+        "Provide ROI calculator for internal business case",
+        "Santiago to review pricing and get back within a week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Santiago Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after pricing proposal sent. Santiago responded asking about discount options given their team size and budget constraints. Mentioned he's still working on getting executive visibility but wants to move forward if pricing works. Rep offered 46% discount to close within the quarter. Santiago verbally agreed to terms pending final internal approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing given we're a smaller team?",
+          "answer": "Let me check with leadership. Given your timeline and fit, I can offer 46% off to get this done this quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Santiago to confirm final approval by end of week",
+        "Contracts team to prepare agreement at discounted rate"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

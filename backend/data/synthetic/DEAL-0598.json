@@ -1,0 +1,326 @@
+{
+  "deal_id": "DEAL-0598",
+  "company": {
+    "name": "SummitForm",
+    "industry": "SaaS/Tech",
+    "employee_count": 40,
+    "annual_revenue": 6481331,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6100.0,
+    "seats": 7,
+    "price_per_seat_monthly": 71.5,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.7,
+    "sales_cycle_days": 51,
+    "close_date": "2025-05-21",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Riley Ito",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 6
+    },
+    {
+      "name": "Harper Levy",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 10.8,
+      "rescheduled": false,
+      "ai_summary": "Riley Ito submitted an inbound demo request via website form. Expressed interest in automating their sales-to-CS handoff process. Currently using Fireflies but looking for better workflow automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming receipt of demo request and proposing times for qualification call. Riley responded quickly agreeing to Wednesday 2pm slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the call cover integrations with Salesforce and Slack?",
+          "answer": "Yes, we'll walk through our native integrations and how they support handoff workflows"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Wednesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-07",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Riley. Confirmed they're a 40-person SaaS company with RevOps team of 2. Main pain point is manual sales-to-CS handoff causing information loss. Currently using Fireflies for call recording but need better automation and workflow triggers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest gap you're experiencing with your current setup?",
+          "answer": "Fireflies captures calls but we have to manually extract action items and push them to our CS team"
+        },
+        {
+          "by": "prospect",
+          "question": "How many seats would we need for the RevOps team?",
+          "answer": "We can start with your core team and scale based on usage"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-14",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Riley covering current workflow in detail. They have 12 AEs and handoff context getting lost in transition to 8-person CS team. Riley sees clear value in unlimited automation tier to build custom triggers. Discussed timeline - looking to implement before end of quarter. Riley mentioned Harper Levy (RevOps Analyst) would be primary user.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process step by step",
+          "answer": "AE closes deal, manually fills handoff form, CS gets notified but often missing call context and key requirements discussed verbally"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementing a solution?",
+          "answer": "CS team has full context from sales conversations automatically, zero manual data entry, faster onboarding starts"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your automations trigger different CS playbooks based on deal size or use case mentioned in calls?",
+          "answer": "Yes, we can route based on any extracted data point from calls or deal metadata"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on automation workflows",
+        "Riley to loop in Harper for technical validation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with custom demo recording showing SummitForm's specific use case. Included pricing estimate for 7 seats (RevOps + key AE licenses) on unlimited automation plan at $6,100 ACV. Riley responded positively, requested executive alignment meeting to discuss budget and timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would we need to involve our VP of Sales in the decision, or can RevOps approve this level of spend?",
+          "answer": "Given the budget range, it would be helpful to align with your VP of Sales - happy to include them in next meeting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec alignment meeting",
+        "Send formal proposal deck"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-01",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting scheduled with Riley present, but VP of Sales did not attend. Riley explained budget authority sits with RevOps for tools under $10k. Walked through proposal in detail - pricing, implementation timeline, unlimited automation tier benefits. Riley showed strong interest but mentioned need to compare final pricing with Fireflies expansion costs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation and how long does it typically take?",
+          "answer": "Two-week implementation with dedicated CSM, includes custom workflow setup and team training"
+        },
+        {
+          "by": "rep",
+          "question": "Is Fireflies the only alternative you're evaluating or are there others?",
+          "answer": "Mainly Fireflies since we're already using them, but their automation is limited and we'd need to add Zapier which adds cost and complexity"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and add more later?",
+          "answer": "Yes, licenses are flexible and can be added anytime"
+        }
+      ],
+      "objections": [
+        "Need to justify the switch cost from Fireflies given we're already paying them through end of year"
+      ],
+      "next_steps": [
+        "Riley to review proposal internally",
+        "Follow up early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-06",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec meeting rescheduled from original time (Riley had conflict). When rescheduled call occurred, Riley joined with Harper to discuss technical implementation details. Harper asked detailed questions about Salesforce API limits and Slack notification customization. No executive sponsor joined this call either. Riley mentioned need to finalize decision by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do API rate limits work with Salesforce - will we hit issues with our call volume?",
+          "answer": "We use efficient batching and typically customers your size use 5-10% of Salesforce API limits"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which Slack channels get notifications based on deal segment?",
+          "answer": "Yes, fully customizable routing rules based on any deal or call attributes"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to get final sign-off internally",
+        "Send MSA and order form"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal order form and MSA. Riley responded asking about discount options since they're comparing against renewing Fireflies at lower cost plus basic Zapier integration. Mentioned budget is tight this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $6,100 price given we're already committed to Fireflies through December?",
+          "answer": "Let's discuss on a quick call - we may be able to structure the start date or explore options"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-23",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Riley Ito",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Riley to discuss pricing flexibility. Riley shared that Fireflies renewal would be $3,200 and adding Zapier brings total to ~$4,800, so the delta is meaningful for their budget. Discussed value gap - unlimited automation vs limited triggers, native integrations vs middleware. Agreed on 10% discount bringing ACV to $5,490 with start date pushed to align with Fireflies contract end. Riley committed to final approval by Friday.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond pricing, is there anything else needed to move forward?",
+          "answer": "No, if we can land on pricing that works, I'm ready to move forward. Harper is aligned on the technical side."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year deal?",
+          "answer": "We can offer this rate for annual commitment with option to extend at same rate if renewed before expiration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised order form at $5,490 ACV",
+        "Riley to provide final signature by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

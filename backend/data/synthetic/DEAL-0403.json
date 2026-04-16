@@ -1,0 +1,371 @@
+{
+  "deal_id": "DEAL-0403",
+  "company": {
+    "name": "OrbitalCo",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 16449929,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3200.0,
+    "seats": 4,
+    "price_per_seat_monthly": 67.44,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.2,
+    "sales_cycle_days": 42,
+    "close_date": "2024-07-27",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Chloe Becker",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 10
+    },
+    {
+      "name": "Willow Lewis",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-19",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Chloe Becker introducing our conversation intelligence platform and its sales-to-CS handoff capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-21",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Chloe with case study showing 40% reduction in handoff errors for similar-sized marketing agencies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-21",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Chloe. She acknowledged seeing the emails and expressed mild interest in improving their current handoff process. Mentioned they're currently using Fireflies but finding gaps in automation. Agreed to a longer qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with sales-to-CS handoffs right now?",
+          "answer": "We're losing context when deals move from sales to customer success, and our reps are spending too much time on manual summaries."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-06-15",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chloe. Discussed OrbitalCo's current process using Fireflies and gaps in automation for handoffs. Chloe confirmed they have 4 account executives who would use the platform. She's interested in unlimited automation tier to support their growing team. Budget appears flexible but will need exec approval for final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many seats would you need initially?",
+          "answer": "We have 4 AEs right now, so 4 seats to start."
+        },
+        {
+          "by": "rep",
+          "question": "What's drawing you away from Fireflies?",
+          "answer": "Fireflies is fine for basic transcription, but we need smarter automation for handoffs and better CRM integration."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform automatically generate handoff documents with action items and risk flags?",
+          "answer": "Yes, our AI extracts key commitments, timelines, and red flags automatically and formats them for your CS team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing for unlimited automation tier",
+        "Schedule technical evaluation",
+        "Loop in CS leader to validate use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 15.6,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with pricing breakdown for 4 seats on unlimited automation plan ($3,200 ACV). Included implementation timeline and sample handoff report. Chloe responded positively and requested technical evaluation with her team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are fully onboarded within 2 weeks, including CRM integration and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical eval for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Brief email confirming technical evaluation scheduled with Chloe and her CS counterpart. Chloe mentioned she'll need to bring in Willow Lewis (SVP Revenue) for final approval on contract terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical demo focused on handoff automation",
+        "Plan for exec meeting with Willow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-07-03",
+      "type": "technical_eval",
+      "duration_minutes": 51,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive technical evaluation with Chloe and CS team. Walked through live demo of call analysis, automated handoff document generation, and CRM sync. Team tested the platform with sample calls and was impressed with accuracy. Some concerns raised about switching costs from Fireflies and whether pricing includes all automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our Salesforce instance?",
+          "answer": "We have native Salesforce integration that syncs call summaries, next steps, and deal signals in real-time."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier versus lower tiers?",
+          "answer": "Unlimited tier includes custom workflow automation, advanced CRM fields, and priority support\u2014no limits on automated handoff documents or AI analysis."
+        },
+        {
+          "by": "rep",
+          "question": "How quickly do you need this implemented?",
+          "answer": "Ideally within the next quarter. We're scaling the sales team and need this before we add more headcount."
+        }
+      ],
+      "objections": [
+        "Switching from Fireflies will require migrating historical data and retraining the team"
+      ],
+      "next_steps": [
+        "Send technical documentation and migration plan",
+        "Schedule exec meeting with Willow Lewis",
+        "Provide ROI analysis comparing current Fireflies cost + manual effort"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-07-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with migration plan from Fireflies, ROI calculator, and executive summary for Willow. Chloe confirmed exec meeting scheduled but mentioned budget conversations are happening internally\u2014hinted at needing flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing given we're moving from an existing tool?",
+          "answer": "Let me discuss with leadership and come prepared to the exec meeting with options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare pricing options for exec meeting",
+        "Confirm Willow's priorities ahead of meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-07-16",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Willow Lewis",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial exec meeting with Willow Lewis and Chloe. Willow is supportive of the business case and sees value in reducing handoff friction as they scale. However, she's concerned about the price point compared to Fireflies and asked for a discount to make the business case stronger internally. Discussed strategic value and agreed to explore pricing adjustments.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of efficiency gains are other marketing agencies seeing with your platform?",
+          "answer": "Similar-sized agencies report 30-40% reduction in time spent on handoff prep and 25% faster customer onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing to help make this an easier decision?",
+          "answer": "I'd like to find a way to make this work. Let me take this back to my team and we can discuss options in our next meeting."
+        },
+        {
+          "by": "rep",
+          "question": "If we can find the right pricing, are you ready to move forward this quarter?",
+          "answer": "Yes, if the numbers work and we have a clear implementation plan, I'd like to get this in place before Q3."
+        }
+      ],
+      "objections": [
+        "Price is higher than current Fireflies spend and needs internal justification"
+      ],
+      "next_steps": [
+        "Prepare revised pricing proposal",
+        "Schedule follow-up negotiation meeting",
+        "Align on implementation timeline and success metrics"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-07-21",
+      "type": "exec_meeting",
+      "duration_minutes": 45,
+      "person_name": "Willow Lewis",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Willow and Chloe. Presented revised pricing with 24% discount to ease migration from Fireflies and align with their budget cycle. Willow appreciated the flexibility and agreed the adjusted pricing makes the business case viable. Discussed contract terms, implementation timeline, and success metrics. Willow requested final proposal in writing for legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does support look like during the first 90 days?",
+          "answer": "You'll have a dedicated CSM for onboarding, weekly check-ins for the first month, and priority support through the first quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we scale the team faster than expected?",
+          "answer": "Absolutely. You can add seats anytime at prorated pricing based on the remaining contract term."
+        },
+        {
+          "by": "rep",
+          "question": "With this pricing, do we have a deal?",
+          "answer": "Pending legal review of the contract, yes. Send over the final proposal and MSA and we'll get this moving."
+        }
+      ],
+      "objections": [
+        "Need to confirm contract terms align with company procurement policies"
+      ],
+      "next_steps": [
+        "Send final proposal with 24% discount and MSA",
+        "Introduce legal contacts for contract review",
+        "Plan implementation kickoff for early next month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-07-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Sent final proposal and MSA to Chloe for circulation to legal and procurement. Chloe confirmed internal alignment and expects contract signature within the week. Discussed implementation kickoff timeline and key stakeholders to involve.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await contract signature",
+        "Prepare implementation plan",
+        "Schedule kickoff call with CS and sales teams"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

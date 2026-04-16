@@ -1,0 +1,352 @@
+{
+  "deal_id": "DEAL-0574",
+  "company": {
+    "name": "VertexGear",
+    "industry": "Healthcare IT",
+    "employee_count": 534,
+    "annual_revenue": 84927165,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12600.0,
+    "seats": 16,
+    "price_per_seat_monthly": 66.78,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.0,
+    "sales_cycle_days": 47,
+    "close_date": "2024-06-23",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Ethan Lima",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 33
+    },
+    {
+      "name": "Jessica Jung",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ethan Lima expressing interest in call recording and coaching solutions for their CS team. Brief inquiry about product capabilities and pricing tiers.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-07",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ethan Lima to understand VertexGear's needs. Discussed current call recording gaps, team size of 16 seats, and interest in coaching features. Ethan mentioned evaluating Clari as well. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in call recording and coaching right now?",
+          "answer": "Our CS team lacks visibility into customer conversations and we need better onboarding for new hires"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching functionality compare to Clari's conversation intelligence?",
+          "answer": "We offer automated coaching scorecards and personalized feedback loops, while Clari focuses more on pipeline visibility"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery agenda",
+        "Loop in IT contact for technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email thanking Ethan for the qualification call and confirming discovery meeting scheduled for next week. Attached case study from similar healthcare IT company.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share integration requirements doc ahead of discovery?",
+          "answer": "Yes, will send our standard integration checklist and API documentation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call",
+        "Review integration requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Email checking in before discovery call and requesting Jessica Jung from IT be included for technical discussion. Confirmed agenda covering use cases, integrations, and implementation timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm Jessica's attendance",
+        "Discovery call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-24",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ethan covering detailed use cases: new hire coaching, QA workflow automation, and compliance recording. Discussed 16-seat deployment across CS team. Ethan noted timeline pressure to implement before Q3 and mentioned Clari demo scheduled.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching and QA?",
+          "answer": "Mostly manual spot-checking by managers, no systematic approach"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation timeline for a team our size?",
+          "answer": "Typically 2-3 weeks for 16 seats with standard integrations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Jessica present",
+        "Prepare custom demo focusing on coaching workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-30",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo for Ethan showing call recording, automated transcription, coaching scorecards, and analytics dashboard. Walked through automation features for QA workflows. Ethan engaged positively but noted need to compare with Clari before moving forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Which features are most critical for your Q3 rollout?",
+          "answer": "Call recording and coaching scorecards are must-haves, analytics are nice-to-have"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize coaching scorecards by team role?",
+          "answer": "Yes, fully customizable templates per team or individual"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the automations_plus_consulting tier include?",
+          "answer": "Advanced workflow automation, dedicated CSM, and 10 hours monthly consulting for optimization"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with pricing",
+        "Schedule technical deep-dive with Jessica"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with pricing for 16 seats on automations_plus_consulting tier at $12,600 ACV. Included ROI calculator and implementation plan. Requested feedback and next step discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing given our team size?",
+          "answer": "Let's schedule a call to discuss pricing and structure"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review proposal internally",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-11",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Ethan to discuss proposal and address questions. Conversation focused on ROI justification, implementation timeline, and contract terms. Ethan expressed concern about budget approval and mentioned need for discount to match Clari's offer. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to approve this purchase?",
+          "answer": "Finance and likely VP of Customer Success, though they haven't been involved yet"
+        },
+        {
+          "by": "prospect",
+          "question": "Clari came in at a lower price point - can you match or get closer?",
+          "answer": "Let me see what we can do on pricing given your timeline and strategic fit"
+        },
+        {
+          "by": "rep",
+          "question": "When do you need this implemented by?",
+          "answer": "Ideally mid-Q3, we have new CS hires starting in July"
+        }
+      ],
+      "objections": [
+        "Pricing higher than competitive offer"
+      ],
+      "next_steps": [
+        "Explore discount options",
+        "Request executive sponsor involvement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-17",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Ethan. Discussed 25% discount to match budget constraints and competitive pressure from Clari. Ethan committed to bringing in VP of CS for final approval. Reviewed contract terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At this revised pricing, do you have budget approval to move forward?",
+          "answer": "I believe so, but need to confirm with finance and get VP sign-off"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year agreement?",
+          "answer": "Yes, we can offer this rate for a 2-year commitment with 5% annual increase"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get VP of CS involved",
+        "Finalize contract terms",
+        "Schedule closing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-24",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Ethan Lima",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled pricing call to finalize contract details. Ethan confirmed discount approval and discussed final terms including payment schedule and implementation kickoff date. Still awaiting VP of CS formal sign-off but Ethan optimistic about closing this week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the timeline for getting VP signature?",
+          "answer": "Should have it by end of week, she's reviewing the contract now"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await VP approval",
+        "Prepare contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "deal_id": "DEAL-0382",
+  "company": {
+    "name": "GalacticLabs",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 1000,
+    "annual_revenue": 85743865,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8000,
+    "seats": 10,
+    "price_per_seat_monthly": 61.05,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.4,
+    "sales_cycle_days": 44,
+    "close_date": "2025-04-19",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Lucas Sharma",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Lucas Sharma at GalacticLabs requesting information about CRM automation capabilities. Initial interest expressed in streamlining sales processes for their managed IT services team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-06",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lucas to understand GalacticLabs' current CRM setup and pain points. They're using a legacy system with manual data entry causing inefficiencies. Lucas mentioned they have about 10 sales reps who would benefit from automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current CRM setup and what are the main pain points?",
+          "answer": "We're on an older CRM with lots of manual data entry. Our sales team wastes hours each week on admin tasks instead of selling."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can your solution typically be deployed?",
+          "answer": "For a team your size, we typically complete implementation within 2-3 weeks including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to share current process documentation",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-11",
+      "type": "qualification_call",
+      "duration_minutes": 5,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to clarify scope and timing. Lucas confirmed budget availability this quarter and expressed urgency to improve team productivity before Q2 planning.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the timeline for this decision?",
+          "answer": "We need to show productivity improvements before our Q2 planning cycle starts. Leadership is focused on sales efficiency metrics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-20",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into specific automation workflows needed. Lucas walked through their sales process from lead capture through close. Key needs: automated lead routing, email sequencing, and activity logging. Discussed integration with their existing tech stack.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current lead-to-close process and where automation would have the most impact.",
+          "answer": "Right now leads come in through various channels and get manually assigned. Follow-ups are inconsistent. We need automated routing and sequencing to ensure nothing falls through the cracks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing tools like our ticketing system and marketing automation?",
+          "answer": "Yes, we have pre-built integrations with most major platforms and can build custom connections if needed."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can drive this decision from the sales side. Our CTO might want to review integrations, but I can handle that internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo focusing on lead routing and sequencing",
+        "Lucas to provide list of integration requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-25",
+      "type": "demo",
+      "duration_minutes": 49,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Comprehensive product demo showcasing automation workflows tailored to GalacticLabs' use case. Walked through lead routing, email sequences, and reporting dashboards. Lucas was engaged and asked detailed questions about customization capabilities. Meeting was rescheduled once due to Lucas's conflict.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows? Can we build our own rules?",
+          "answer": "Fully customizable. You can create custom triggers, conditions, and actions using our visual workflow builder."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting can we get on automation performance?",
+          "answer": "Comprehensive dashboards showing conversion rates, response times, and ROI metrics for each automated workflow."
+        },
+        {
+          "by": "rep",
+          "question": "What questions or concerns do you have at this point?",
+          "answer": "This looks solid. I need to understand pricing and see if we can move forward quickly."
+        }
+      ],
+      "objections": [
+        "Need to move fast - concerned about lengthy implementation timelines"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 10 seats",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Sent detailed proposal email with pricing for automations_plus_consulting package for 10 seats. Included implementation timeline, support details, and ROI projections based on their team size. Lucas responded quickly requesting a call to discuss.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we discuss the pricing? Want to make sure this fits our budget.",
+          "answer": "Absolutely, let's schedule a call to walk through the proposal and address any questions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-06",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Lucas. Discussed pricing and package details. Lucas mentioned budget constraints and requested a discount to get this approved quickly without escalating to finance leadership. Negotiated terms and agreed on adjusted pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? We're at $5,500 budget for this initiative.",
+          "answer": "Let me see what I can do. Given the urgency and commitment to move forward this quarter, I can work with my manager on a discount."
+        },
+        {
+          "by": "rep",
+          "question": "If we can meet your budget, can you commit to getting contracts signed this month?",
+          "answer": "Yes, if we can land around that number, I can get this approved and signed within a week."
+        }
+      ],
+      "objections": [
+        "Pricing above allocated budget - needs discount to avoid additional approval layers"
+      ],
+      "next_steps": [
+        "Confirm discounted pricing with management",
+        "Prepare revised proposal",
+        "Lucas to prepare internal stakeholder briefing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-12",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call to finalize terms and walk through contract details. Lucas confirmed he has internal approval at the discounted price point. Reviewed implementation timeline and support package. Lucas ready to move forward pending final paperwork.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do you have everything you need to move forward with signatures?",
+          "answer": "Yes, I've got approval on my end. Just need the final contract with the agreed pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Sharma",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with final contract and implementation kickoff scheduling link. Lucas acknowledged receipt and confirmed he'll review and return signed documents by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Prepare for implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "deal_id": "DEAL-0670",
+  "company": {
+    "name": "SilverChannel",
+    "industry": "PropTech",
+    "employee_count": 69,
+    "annual_revenue": 11523696,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5100.0,
+    "seats": 7,
+    "price_per_seat_monthly": 58.03,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.8,
+    "sales_cycle_days": 14,
+    "close_date": "2023-02-06",
+    "use_case": "Pipeline visibility",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Elena Costa",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Elena Costa submitted inbound demo request form mentioning need for better pipeline visibility across sales team. Indicated current process involves manual spreadsheet tracking and quarterly check-ins.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-23",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute qualification call with Elena Costa. She's been Director of CS for 3 months at SilverChannel, a PropTech company with 69 employees. Primary pain point is lack of real-time visibility into sales pipeline. Currently evaluating Chorus as well. Team size would be 7 seats focused on unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for pipeline visibility right now?",
+          "answer": "We're scaling fast and leadership needs real-time insights. Manual tracking isn't cutting it anymore."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus?",
+          "answer": "We're competitive on value. Let me walk you through our automation capabilities in a deeper discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with pricing overview",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing breakdown for 7-seat unlimited automation plan and comparison of automation features vs Chorus. Elena responded positively, expressed interest in technical evaluation to see automation workflows in action.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we see how the automation handles our specific use case with property management deals?",
+          "answer": "Absolutely, let's schedule a technical eval where we can customize a demo to your PropTech workflow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-29",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "50-minute technical evaluation (rescheduled once from original date). Elena walked through current PropTech sales process. Demo showed automation workflows, pipeline tracking dashboards, and integration capabilities. She was engaged but noted she'd need to get buy-in from leadership. No VP or C-level attendees on call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How difficult is the implementation timeline for a team our size?",
+          "answer": "Typically 2-3 weeks for setup and onboarding with our CSM support."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve in the evaluation process?",
+          "answer": "I'll need to loop in our VP of Sales eventually, but I want to build the business case first."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer for a 7-seat deal?",
+          "answer": "Let me put together a proposal with our best pricing for your use case."
+        }
+      ],
+      "objections": [
+        "Budget will be tight this quarter - we'll need competitive pricing to move forward"
+      ],
+      "next_steps": [
+        "Prepare proposal with pricing options",
+        "Elena to socialize internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-03",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute proposal review call. Presented $5,100 ACV for 7 seats with 34.8% discount to meet budget constraints. Elena appreciated the pricing flexibility but expressed concern about getting final approval without broader stakeholder involvement. She'll present to VP of Sales next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can this pricing hold for 2-3 weeks while I get internal approval?",
+          "answer": "Yes, we can honor this through end of month."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have our team join the conversation with your VP?",
+          "answer": "Let me present it first, then we can set up a follow-up if needed."
+        }
+      ],
+      "objections": [
+        "I need to make sure this fits our Q2 budget allocations"
+      ],
+      "next_steps": [
+        "Elena to present proposal to VP of Sales",
+        "Follow up next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-04",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Elena Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute call with Elena to discuss VP feedback. VP is concerned about ROI timeline and asked about contract flexibility. Elena is championing the deal but noted VP wants to see Chorus comparison again. Discussion focused on negotiating payment terms and start date to align with Q2 planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can structure quarterly billing at the discounted rate if it helps close this month."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get the VP comfortable moving forward this week?",
+          "answer": "Honestly, he's still comparing against Chorus. I'm pushing hard but it's not just my call."
+        },
+        {
+          "by": "prospect",
+          "question": "How firm is the end-of-month deadline on this pricing?",
+          "answer": "We have some flexibility but need commitment soon to lock this in."
+        }
+      ],
+      "objections": [
+        "VP is leaning toward Chorus based on brand recognition in our space"
+      ],
+      "next_steps": [
+        "Send detailed ROI analysis and Chorus comparison",
+        "Elena to schedule final decision meeting with VP"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "deal_id": "DEAL-0107",
+  "company": {
+    "name": "IronWorks",
+    "industry": "Marketing Agency",
+    "employee_count": 29,
+    "annual_revenue": 5071342,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.91,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.4,
+    "sales_cycle_days": 48,
+    "close_date": "2023-06-29",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Michael Levy",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Benjamin Huang",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-07",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Michael Levy at IronWorks expressing interest in forecasting tools. Rep acknowledged and scheduled discovery.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule initial discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call time and requesting Michael share current forecasting challenges ahead of meeting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest pain points with forecasting accuracy today?",
+          "answer": "We're using spreadsheets and gut feel - no visibility into pipeline health"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-19",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Michael covering current state at IronWorks. Team of 29 using manual processes, looking to improve forecast accuracy. Michael recently promoted to VP Sales role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "We focus on pipeline intelligence and forecasting, while Gong is more conversation intelligence focused"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the search for a solution now?",
+          "answer": "CEO wants better predictability - we've missed forecast 3 quarters running"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Michael to share org chart",
+        "Schedule deeper discovery with RevOps"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-25",
+      "type": "discovery_call",
+      "duration_minutes": 14,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call focused on technical requirements and team structure. Michael mentioned they're evaluating Gong as well. Discussed 9-seat deployment for sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our current HubSpot setup?",
+          "answer": "Yes, native integration available with bi-directional sync"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation?",
+          "answer": "Benjamin Huang from RevOps will be technical evaluator, but I'll drive the decision"
+        }
+      ],
+      "objections": [
+        "Concerned about implementation timeline"
+      ],
+      "next_steps": [
+        "Schedule demo",
+        "Include Benjamin in next meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-02",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Michael walking through forecasting workflows, pipeline analytics, and automation capabilities. Michael engaged, asked detailed questions about unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it typically take to see ROI?",
+          "answer": "Most customers see improved forecast accuracy within 30-60 days"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training is required for the team?",
+          "answer": "2-3 onboarding sessions plus self-service resources"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to have something in place by end of quarter"
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Gong's offering"
+      ],
+      "next_steps": [
+        "Send pricing proposal",
+        "Schedule technical review with Benjamin"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Sent pricing proposal for 9 seats on unlimited automation tier at $6,400 ACV (30% discount applied). Outlined implementation timeline and ROI projections.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in unlimited automation?",
+          "answer": "All workflow automations, unlimited data enrichment, and advanced forecasting models"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Michael to review with Benjamin",
+        "Schedule follow-up"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal. Michael responded that Benjamin is reviewing technical details and they're comparing against Gong's proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec alignment meeting",
+        "Address technical questions from Benjamin"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-21",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled exec meeting was rescheduled by Michael - cited conflicting priority with CEO. Rebooked for following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting rescheduled"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-01",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Michael Levy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec alignment meeting with Michael to finalize terms. Discussed implementation plan, contract terms, and discount justification. Michael confirmed budget approved but wants to start small with 9 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do we have on payment terms?",
+          "answer": "Can offer quarterly payments with small upfront fee"
+        },
+        {
+          "by": "prospect",
+          "question": "How do we expand seats if we need to scale?",
+          "answer": "Can add seats mid-contract at prorated rate"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anyone else who needs to sign off on this?",
+          "answer": "I have approval authority up to this amount"
+        }
+      ],
+      "objections": [
+        "Still comparing feature set with Gong"
+      ],
+      "next_steps": [
+        "Send contract for signature",
+        "Schedule kickoff call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

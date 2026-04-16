@@ -1,0 +1,165 @@
+{
+  "deal_id": "DEAL-0637",
+  "company": {
+    "name": "VectorMarket",
+    "industry": "Professional Services",
+    "employee_count": 100,
+    "annual_revenue": 17330847,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2400.0,
+    "seats": 4,
+    "price_per_seat_monthly": 50.89,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 42.8,
+    "sales_cycle_days": 17,
+    "close_date": "2024-11-28",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Sebastian Martinez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sebastian Martinez, Director of CS at VectorMarket. Expressed interest in improving forecasting accuracy for their professional services team. Initial discovery call scheduled.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand forecasting challenges",
+        "Send overview deck before call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with overview deck and meeting confirmation. Sebastian confirmed availability and shared that their current forecasting process is manual and error-prone, leading to resource planning issues.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing CRM?",
+          "answer": "Yes, we have native integrations with major CRM platforms and can sync forecasting data bidirectionally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week",
+        "Sebastian to prepare current forecasting workflow examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-17",
+      "type": "proposal_call",
+      "duration_minutes": 10,
+      "person_name": "Sebastian Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "10-minute proposal call with Sebastian. Discussed VectorMarket's forecasting challenges and presented automations_plus_consulting package. Sebastian is enthusiastic but mentioned budget constraints and that he's handling this evaluation independently. Positioned 4-seat deployment for CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks with our consulting package, including workflow setup and team training."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Sebastian indicated he has authority to move forward for his team and will handle internal approvals."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to see competitive pricing"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing discussion for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-27",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Sebastian Martinez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute pricing call with Sebastian. Discussed proposal and addressed budget concerns. Sebastian requested significant discount to fit Q2 budget. Agreed to 42.8% discount to close deal this quarter. Sebastian committed to moving forward pending internal finance approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with annual billing to reduce upfront cost?",
+          "answer": "Yes, we can structure as annual payment, which also qualifies you for our multi-year discount."
+        },
+        {
+          "by": "rep",
+          "question": "When do you need this implemented by?",
+          "answer": "Ideally within 6 weeks to support Q3 planning cycle."
+        },
+        {
+          "by": "prospect",
+          "question": "Is training included in the consulting package?",
+          "answer": "Yes, up to 8 hours of training and workflow configuration is included."
+        }
+      ],
+      "objections": [
+        "List price is above our allocated budget for this initiative"
+      ],
+      "next_steps": [
+        "Send revised proposal with approved discount",
+        "Sebastian to route through finance for final approval",
+        "Target contract signature within 2 weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 101,
+    "churn_reason": "lost internal champion"
+  }
+}

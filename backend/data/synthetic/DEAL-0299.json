@@ -1,0 +1,335 @@
+{
+  "deal_id": "DEAL-0299",
+  "company": {
+    "name": "QuasarMint",
+    "industry": "Healthcare IT",
+    "employee_count": 70,
+    "annual_revenue": 10383209,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 49.76,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 44.1,
+    "sales_cycle_days": 33,
+    "close_date": "2025-07-23",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Aisha White",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 33
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Aisha White at QuasarMint regarding automation for sales-to-CS handoff workflows. She mentioned currently evaluating several solutions including Gong. Expressed interest in scheduling a discovery call to explore capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform support automated handoff workflows between sales and customer success teams?",
+          "answer": "Yes, our unlimited automation tier is designed specifically for complex handoff scenarios like sales-to-CS transitions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Sent overview deck highlighting automation capabilities and sales-to-CS handoff use cases. Aisha confirmed receipt and expressed interest in seeing demo during the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the discovery call include a live demo of the handoff automation features?",
+          "answer": "We'll do a brief walkthrough during discovery and can schedule a full demo afterward if it's a good fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Review QuasarMint's current tech stack"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-24",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Aisha White covering current sales-to-CS handoff pain points at QuasarMint. Team of 70 using manual processes, looking to scale. Discussed 7-seat deployment for sales team. Aisha mentioned they're also talking to Gong but likes our automation focus. No other stakeholders mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll be driving this evaluation. I can bring in others if needed later."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to what Gong offers for handoff workflows?",
+          "answer": "Gong is primarily conversation intelligence. Our platform is built specifically for end-to-end workflow automation, which is more comprehensive for handoffs."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "For 7 seats with standard handoff workflows, usually 2-3 weeks from contract to go-live."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full product demo",
+        "Send case study on sales-to-CS automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-27",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo of automation platform focusing on sales-to-CS handoff workflows. Aisha was engaged and asked detailed questions about customization and integration with their current CRM. Showed strong interest in unlimited automation tier. She requested a technical evaluation to test integrations before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff triggers and what data gets passed to CS?",
+          "answer": "Yes, completely customizable. You can define triggers, data mapping, and notification rules."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this integrate with Salesforce?",
+          "answer": "Native Salesforce integration via API. We can sync deal data, contact info, and trigger workflows based on stage changes."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to set up a technical evaluation in your environment?",
+          "answer": "Yes, I'd like to test the CRM integration before we commit to anything."
+        },
+        {
+          "by": "prospect",
+          "question": "What are you seeing for pricing on the unlimited automation tier?",
+          "answer": "I'll put together a formal proposal, but for 7 seats on unlimited automation we're typically in the $7-8K ACV range."
+        }
+      ],
+      "objections": [
+        "Need to validate integrations work smoothly with our current tech stack before proceeding"
+      ],
+      "next_steps": [
+        "Set up technical evaluation environment",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with technical evaluation access credentials and setup guide. Included integration documentation for Salesforce and instructions for testing handoff workflows. Aisha confirmed she received access and will test over the next few days.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in on technical evaluation progress in 3 days",
+        "Stand by for technical questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-08",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Aisha testing Salesforce integration and workflow automation. Successfully configured test handoff workflow. She raised some questions about data sync latency but overall satisfied with functionality. Asked about pricing again and whether there's flexibility on the proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical sync latency between Salesforce and your platform?",
+          "answer": "Real-time for most operations, typically under 30 seconds for data propagation."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there room for negotiation on the pricing you mentioned during the demo?",
+          "answer": "Let me put together a formal proposal and we can discuss what makes sense for your budget."
+        },
+        {
+          "by": "rep",
+          "question": "Is there a specific budget range you're working within?",
+          "answer": "We're trying to keep this under $5K annually if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal pricing proposal",
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal with 7 seats on unlimited automation tier at $4,200 ACV (discounted from $7,500 list to meet budget constraints). Included implementation timeline and support terms. Aisha responded asking to schedule a call to discuss contract terms and finalize details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This pricing is significantly lower than what you initially mentioned - is this the final number?",
+          "answer": "Yes, we worked to get within your budget. This is our best offer for the 7-seat unlimited automation package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call to review proposal",
+        "Prepare contract and MSA"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-18",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to review $4,200 ACV proposal. Aisha confirmed the budget works and discussed contract terms including annual commitment and payment terms. She asked about expanding seats in the future and what that would look like. Mentioned she needs to review internally before signing but expects to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we want to add more seats mid-year, how does pricing work?",
+          "answer": "Pro-rated for the remainder of the contract term, then full annual price at renewal."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need to involve anyone else in final approval, like your VP or finance?",
+          "answer": "I have approval authority for this amount, just need to review the contract details on my end."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in terms of support and onboarding?",
+          "answer": "Dedicated onboarding specialist, email support, and access to our knowledge base. Premium support with SLAs is available as an add-on."
+        }
+      ],
+      "objections": [
+        "Want to make sure the contract terms allow for easy expansion if we need more seats"
+      ],
+      "next_steps": [
+        "Send contract and MSA for review",
+        "Follow up in 48 hours"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-23",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Aisha White",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up pricing call. Aisha had a few minor questions about contract language around auto-renewal and cancellation terms. Requested revision to include 30-day cancellation notice instead of 60-day. Confirmed she'll have final approval by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust the cancellation notice period from 60 to 30 days?",
+          "answer": "Let me check with legal, but that should be fine for a deal this size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise contract with 30-day cancellation terms",
+        "Send updated MSA",
+        "Target signature by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

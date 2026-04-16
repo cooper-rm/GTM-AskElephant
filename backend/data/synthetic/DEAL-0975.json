@@ -1,0 +1,303 @@
+{
+  "deal_id": "DEAL-0975",
+  "company": {
+    "name": "RidgeCo",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 10234369,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 8,
+    "price_per_seat_monthly": 55.11,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 38.1,
+    "sales_cycle_days": 41,
+    "close_date": "2025-10-16",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Amara Smith",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 53
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Amara Smith from RidgeCo submitted an inbound demo request via the website. Indicated interest in improving their sales-to-CS handoff process and mentioned they're currently evaluating multiple platforms including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Amara confirming receipt of demo request and proposing times for an initial discovery call. Brief intro to AskElephant's handoff automation capabilities included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing call recording stack?",
+          "answer": "Yes, we have native Salesforce integration and can ingest recordings from most major platforms including Gong, Chorus, and others."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-10",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Amara exploring RidgeCo's current sales-to-CS handoff pain points. She described manual handoff docs taking 2-3 hours per deal and CS frequently surprised by customer expectations. Team of 8 AEs feeding into 4 CSMs. Currently trialing Gong but finding it conversation-intelligence focused rather than handoff-specific.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for sales-to-CS handoff?",
+          "answer": "AEs manually create handoff docs in Google Docs - very time-consuming and inconsistent quality. CS team often has to dig through call recordings themselves."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant differ from Gong for handoffs specifically?",
+          "answer": "Gong is built for coaching and deal insights. We're purpose-built for handoff automation - extracting commitments, risks, and CS-relevant context automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on similar SaaS handoff use case",
+        "Schedule technical demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with case study from similar B2B SaaS company showing 85% reduction in handoff doc creation time. Included personalized demo agenda focused on RidgeCo's Salesforce setup and handoff workflow.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 17.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent with environment prep instructions and questions about their Salesforce fields for custom handoff template configuration. Confirmed 8 AE seats needed for the evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trial this with just our team before rolling out wider?",
+          "answer": "Absolutely - we'll set up your 8 seats for a 14-day trial with full handoff automation enabled."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval session scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-29",
+      "type": "technical_eval",
+      "duration_minutes": 67,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation session with Amara - originally scheduled for 45min, rescheduled once due to conflict. Walked through live handoff automation from Salesforce opportunity, showed custom template builder, and discussed unlimited automation tier. Amara tested with 2 real deals and was impressed by accuracy of extracted commitments. Asked about pricing but didn't include VP Sales in the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automation tiers?",
+          "answer": "Standard tier includes 50 automated handoffs/month. Unlimited removes that cap - given your volume, unlimited makes sense for your 8 AEs."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to include your VP Sales or CS leader in next conversation?",
+          "answer": "Probably eventually, but I want to validate the ROI internally first. I can champion this."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing compare to Gong?",
+          "answer": "We're typically positioned as complementary - purpose-built handoff automation vs. general conversation intelligence. Happy to discuss pricing structure next call."
+        }
+      ],
+      "objections": [
+        "Need to validate ROI before bringing in broader team"
+      ],
+      "next_steps": [
+        "Send trial recap with ROI calculator",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with trial performance metrics: 6 handoffs generated, avg 87% time savings vs. manual docs. Included ROI calculator showing $23k annual savings for their team. Proposed pricing discussion and included preliminary quote for 8 seats at unlimited tier.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-10",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Amara (no VP Sales joined despite invitation). Reviewed trial results and business case. Amara expressed budget concerns and mentioned Gong is already contracted. Discussed whether AskElephant could replace or complement their Gong investment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work as an add-on to Gong or would we need to choose one?",
+          "answer": "We can absolutely layer on top - ingest Gong recordings and add handoff automation. Some customers do choose us instead to consolidate tools."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget allocated for this initiative?",
+          "answer": "We have about $5k approved for this year. Already paying for Gong but not getting handoff value from it."
+        }
+      ],
+      "objections": [
+        "Budget constraints with existing Gong contract"
+      ],
+      "next_steps": [
+        "Explore pricing options within budget",
+        "Follow-up pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-19",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Amara Smith",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Amara. Discussed 8-seat unlimited automation package. Standard pricing at $7,750 ACV was above budget. Explored discount options given single-year commit and competitive situation with Gong. Agreed to $4,800 ACV (38% discount) to fit approved budget and close by month-end. Amara will handle internal approvals and contract review on her end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to our $5k budget? That's what we have approved.",
+          "answer": "Let me see what we can do for a founding customer in your segment. We could do $4,800 for first year with 8 seats, unlimited automation."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have exec sponsorship from your VP Sales for a larger deal?",
+          "answer": "Honestly, I can get this approved at this price point. Let's keep it simple and move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the contract process look like from here?",
+          "answer": "I'll send over the agreement today - standard terms, annual commit. Once you review and sign, we'll kick off onboarding within 48 hours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract at $4,800 ACV",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

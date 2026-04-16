@@ -1,0 +1,273 @@
+{
+  "deal_id": "DEAL-0138",
+  "company": {
+    "name": "ArcCloud",
+    "industry": "EdTech",
+    "employee_count": 81,
+    "annual_revenue": 13160385,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 49.89,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.9,
+    "sales_cycle_days": 41,
+    "close_date": "2023-09-26",
+    "use_case": "Pipeline visibility",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Mia Davis",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Tyler Patel",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Mia Davis expressing interest in improving pipeline visibility for their sales team. She mentioned they're currently evaluating solutions and looking for better analytics capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-17",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mia Davis to understand ArcCloud's current sales process and pain points. She's new to the Head of Sales role and wants to establish better forecasting accuracy. Team of 9 AEs struggling with visibility into deal health. Currently using basic CRM reporting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with pipeline visibility right now?",
+          "answer": "We can't easily see which deals are actually going to close. Reps give us their gut feel but there's no data backing it up."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI scoring work compared to Chorus?",
+          "answer": "Our system analyzes all customer interactions\u2014calls, emails, meetings\u2014and uses ML to predict deal outcomes. Chorus focuses mainly on conversation intelligence, while we provide end-to-end deal scoring."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery materials",
+        "Mia to share current process docs"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery questions and case study from similar EdTech customer. Mia responded confirming she reviewed materials and is interested in moving forward with a technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our current tech stack\u2014Salesforce and Gong?",
+          "answer": "Yes, we have native integrations with both. The setup typically takes less than a day."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 10.9,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical evaluation scheduled and providing prep materials. Mia confirmed attendance and mentioned she'd like to bring in Tyler Patel, their CRO, for the exec alignment discussion afterward.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval on calendar",
+        "Plan exec meeting with Tyler"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-06",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed technical evaluation with Mia walking through the platform's automation capabilities and AI scoring models. She expressed concerns about implementation timeline and whether the team would adopt a new tool. Showed strong interest in the pipeline visibility dashboards but questioned the ROI given her limited budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it typically take for the AI models to become accurate for our specific deals?",
+          "answer": "Usually 2-3 weeks with historical data import, or 4-6 weeks learning from new interactions if starting fresh."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "End of quarter ideally. I need to show Tyler we can improve forecast accuracy before our board meeting in May."
+        },
+        {
+          "by": "prospect",
+          "question": "We're also looking at Chorus\u2014what makes your approach different for our use case?",
+          "answer": "Chorus is excellent for call coaching, but for pipeline visibility specifically, our deal-level scoring and forecasting tools are purpose-built for that problem."
+        }
+      ],
+      "objections": [
+        "Concerned about getting team buy-in for another new tool"
+      ],
+      "next_steps": [
+        "Set up exec meeting with Tyler Patel",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-12",
+      "type": "exec_meeting",
+      "duration_minutes": 10,
+      "person_name": "Tyler Patel",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec alignment call with Tyler Patel. He's supportive of Mia's initiative but made it clear budget is tight this quarter. Asked about pricing early in the conversation and seemed focused on getting a discounted rate given their SMB size.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the investment level we're looking at for 9 seats?",
+          "answer": "Standard pricing for 9 seats with unlimited automation would be around $9,600 annually, but we have flexibility for the right partner."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule pricing discussion with Mia"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-17",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Mia. She pushed hard on price, citing budget constraints and mentioned Chorus offered them a more competitive rate. Discussed reducing scope or seats but she insisted on the full 9-seat unlimited package. Eventually aligned on a discounted rate to close before quarter-end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the Chorus pricing? They came in significantly lower.",
+          "answer": "I can't match Chorus exactly since we're solving different problems, but I can work with my team on a special rate for early-stage companies like ArcCloud."
+        },
+        {
+          "by": "rep",
+          "question": "If we can get to a number that works, are you ready to move forward this week?",
+          "answer": "Yes, if the price is right. I need to get this implemented before our next QBR."
+        }
+      ],
+      "objections": [
+        "Pricing too high compared to competitive offer from Chorus"
+      ],
+      "next_steps": [
+        "Send revised proposal at $5,400 ACV",
+        "Get Tyler's final approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Davis",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at discounted rate ($5,400 ACV, 43.9% discount). Mia confirmed it looks good and she'll circulate to Tyler for final sign-off. Indicated they're ready to proceed pending exec approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await Tyler's approval",
+        "Prepare contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "deal_id": "DEAL-0450",
+  "company": {
+    "name": "ClayLogic",
+    "industry": "Professional Services",
+    "employee_count": 88,
+    "annual_revenue": 10005335,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8900.0,
+    "seats": 10,
+    "price_per_seat_monthly": 76.5,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 14.0,
+    "sales_cycle_days": 42,
+    "close_date": "2023-07-27",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Sophia Desai",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 116
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-12",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Sophia Desai expressing interest in call recording and coaching tools for their sales team. Brief form submission indicating urgency around improving rep performance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 15.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming receipt of inbound request and proposing times for qualification call. Sophia responded quickly with preferred time slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support integrations with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration for automatic activity logging"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-22",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute qualification call with Sophia covering current challenges with sales coaching and team size. She manages a team of 8 SDRs and 2 AEs and struggles with consistent coaching due to time constraints. Expressed interest in AI-powered call analysis.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call coaching?",
+          "answer": "Manual review of random calls when I have time, maybe 2-3 per week per rep"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your AI identify specific moments where reps miss opportunities?",
+          "answer": "Yes, our AI flags missed objection handling, weak discovery, and closing gaps with timestamps"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Send product deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-27",
+      "type": "technical_eval",
+      "duration_minutes": 52,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "52-minute technical evaluation walking through platform features, AI coaching insights, and integration setup. Sophia tested call recording, AI analysis, and reporting dashboards. Discussed implementation timeline and onboarding process for 10 users.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it take for the AI to analyze a typical 30-minute call?",
+          "answer": "Usually under 2 minutes, and insights are available in the dashboard immediately"
+        },
+        {
+          "by": "prospect",
+          "question": "Can I customize which metrics the AI tracks for my team?",
+          "answer": "Yes, you can configure custom scorecards based on your sales methodology"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to have something in place within 4-6 weeks"
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "I'll need to run this by our VP of Sales before we can move forward with pricing discussions"
+        }
+      ],
+      "next_steps": [
+        "Schedule demo for broader team review",
+        "Prepare custom proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-06",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "33-minute demo session with Sophia showcasing live call analysis and coaching workflows. Originally scheduled for earlier date but rescheduled due to Sophia's conflict. Walked through specific use cases for their SDR team including cold call coaching and objection handling analysis.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the unlimited automation tier differ from your other plans?",
+          "answer": "Unlimited automation includes custom workflow automations, advanced API access, and priority support"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting can I share with leadership?",
+          "answer": "Executive dashboards with team performance trends, coaching ROI metrics, and skill gap analysis"
+        },
+        {
+          "by": "rep",
+          "question": "Would you like me to include implementation and training in the proposal?",
+          "answer": "Yes, that would be helpful to see the full scope"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule follow-up to review pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email delivering formal proposal for 10 seats at $8,900 ACV with unlimited automation tier. Included implementation timeline, training schedule, and ROI projections based on team size. Sophia confirmed receipt and said she's reviewing internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the contract length?",
+          "answer": "Standard is annual, but we can discuss quarterly billing if that helps with budgeting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss terms",
+        "Answer any questions on proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-21",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute negotiation call discussing pricing, contract terms, and internal approval process. Sophia mentioned budget constraints and asked about payment flexibility. She's still working to get VP buy-in but expressed personal conviction in the solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer quarterly payment terms instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly billing at the same annual rate"
+        },
+        {
+          "by": "rep",
+          "question": "When do you expect to have final approval from your VP?",
+          "answer": "Hopefully by end of next week, but his schedule has been unpredictable"
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The pricing is a bit higher than I initially budgeted for this initiative"
+        }
+      ],
+      "next_steps": [
+        "Revise proposal with quarterly payment terms",
+        "Sophia to brief VP and schedule intro call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sophia Desai",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sending revised proposal with quarterly payment structure and clarifying implementation support included at no additional cost. Sophia acknowledged and said she's waiting for VP calendar availability for introduction.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for VP meeting confirmation",
+        "Check in early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

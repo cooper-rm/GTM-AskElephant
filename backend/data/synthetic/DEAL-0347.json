@@ -1,0 +1,316 @@
+{
+  "deal_id": "DEAL-0347",
+  "company": {
+    "name": "MatrixLens",
+    "industry": "Healthcare IT",
+    "employee_count": 60,
+    "annual_revenue": 10786006,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4700.0,
+    "seats": 5,
+    "price_per_seat_monthly": 83.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 6.6,
+    "sales_cycle_days": 69,
+    "close_date": "2024-07-22",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Finn Ito",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Finn Ito submitted an inbound demo request via the website. Expressed interest in conversation intelligence tools to help their sales team be more productive. Mentioned currently evaluating options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-14",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Finn. Confirmed MatrixLens has 5-person sales team struggling with manual note-taking and follow-ups. Budget range discussed (~$5K). Finn is Head of Sales, driving the evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's prompting you to look at conversation intelligence now?",
+          "answer": "Our reps are spending too much time on admin work after calls instead of selling. We need better automation."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot?",
+          "answer": "Yes, we have native integration with HubSpot CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.7,
+      "rescheduled": false,
+      "ai_summary": "Sent calendar invite for discovery call and shared one-pager on AskElephant's automation capabilities. Finn confirmed the meeting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-06-02",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Finn. Discussed current workflow pain points, team structure, and success metrics. Finn mentioned they're also looking at Fireflies but likes our unlimited automation tier. No other stakeholders mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in this decision besides yourself?",
+          "answer": "Right now it's just me driving it. I'll need to get approval on the contract, but I own the evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What makes your unlimited automation different from Fireflies?",
+          "answer": "We don't throttle API calls or automation workflows. Fireflies caps you at a certain number of automated actions per month."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the insights your AI generates?",
+          "answer": "Yes, you can train custom properties and configure which insights get surfaced in your CRM."
+        }
+      ],
+      "objections": [
+        "We need to see this working with our actual calls before committing"
+      ],
+      "next_steps": [
+        "Schedule full product demo",
+        "Share case study from healthcare tech company"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-09",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "46-minute product demo with Finn. Walked through live call recording, AI summarization, CRM auto-sync, and custom automation workflows. Finn was engaged and asked detailed technical questions. Still no mention of exec involvement or procurement process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly does the AI summary appear after a call ends?",
+          "answer": "Typically within 60-90 seconds. You can also access real-time transcription during the call."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set up automatic task creation for action items mentioned on calls?",
+          "answer": "Absolutely. You can configure rules to auto-create tasks in HubSpot based on keywords or AI-detected commitments."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Reps spending at least 30% less time on post-call admin, and better visibility into deal risk across my pipeline."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies for our team size?",
+          "answer": "Fireflies would be around $3,600 for 5 seats with limited automation. Our unlimited tier is $4,700 but no usage caps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finn to share internally and get budget approval",
+        "Follow up early next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Finn to discuss pricing and rollout plan. Finn confirmed budget is available but needs to finalize internally. Conversation focused on implementation timeline and support. Still single-threaded with no exec introduced.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does onboarding look like for a 5-person team?",
+          "answer": "Typically a 2-week rollout: first week technical setup and integrations, second week team training and workflow customization."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your VP or finance involved to expedite the contract process?",
+          "answer": "I can handle that on my end. Just need a few more days to review everything."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finn to review proposal with his team",
+        "Check back Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-07-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal with $4,700 ACV pricing for 5 seats, unlimited automation tier. Included ROI calculator and implementation timeline. Finn acknowledged receipt and said he's working through internal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 1-year contract instead of multi-year?",
+          "answer": "Yes, the $4,700 pricing is for annual. We can discuss multi-year discounts if you'd like."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finn to provide feedback by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-07-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Check-in email sent. Finn responded that they're still comparing with Fireflies and need a bit more time. Asked if there's any flexibility on pricing. Tone suggests some internal hesitation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss pricing and address concerns"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-07-22",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Finn Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Finn. He pushed for a discount to match Fireflies' pricing (~$3,600). We held firm on value differentiation but offered 10% off first year. Finn non-committal, said he needs to think about it. No clear close timeline or exec sponsor engaged.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we go with Fireflies, what are we really missing?",
+          "answer": "The main differentiator is unlimited automation and more sophisticated AI models for risk detection and deal insights."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get this finalized this quarter?",
+          "answer": "I need to make sure we're making the right call. The price difference is still a factor."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you do $4,000 flat?",
+          "answer": "I can offer $4,230 for the first year, which is about 10% off. That's the best I can do given the value we're providing."
+        }
+      ],
+      "objections": [
+        "Fireflies is significantly cheaper and might be good enough for our needs"
+      ],
+      "next_steps": [
+        "Finn to discuss internally and get back by early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 72,
+    "churn_reason": "lack of executive alignment"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "deal_id": "DEAL-0837",
+  "company": {
+    "name": "IronMarket",
+    "industry": "Fintech",
+    "employee_count": 84,
+    "annual_revenue": 16645092,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4500.0,
+    "seats": 5,
+    "price_per_seat_monthly": 70.13,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.2,
+    "sales_cycle_days": 37,
+    "close_date": "2025-08-24",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Harper Kelly",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 74
+    },
+    {
+      "name": "Santiago Williams",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-13",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Harper Kelly at IronMarket requesting information about CRM automation capabilities. Brief submission via website form expressing interest in streamlining their customer success workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Harper"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-18",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Harper Kelly. Discussed IronMarket's current CRM pain points and manual processes in customer success. Harper confirmed budget authority lies with RevOps team. Brief overview of use case and team size.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for CRM automation right now?",
+          "answer": "Our CS team is spending 10+ hours weekly on manual data entry and follow-ups. We need to scale without adding headcount."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing fintech compliance tools?",
+          "answer": "Yes, we have pre-built integrations with major compliance platforms and a flexible API for custom connections."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery agenda",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Harper with discovery call agenda and preliminary questions about current tech stack, team workflows, and success metrics. Harper responded confirming availability and providing brief answers to tech stack questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will we need to involve our RevOps analyst Santiago in the discovery call?",
+          "answer": "That would be helpful for understanding your data architecture, but we can start with you and loop him in for technical evaluation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time",
+        "Prepare workflow mapping"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-28",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on mapping IronMarket's current CS workflows and automation gaps. Harper walked through their manual processes and success metrics. Discussed team of 5 CS reps and need for unlimited automation workflows to support growth plans.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this initiative in 6 months?",
+          "answer": "Reduce manual CS tasks by 60% and improve response time to customer inquiries by at least 30%."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup and workflow configuration, with ongoing optimization support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Santiago",
+        "Prepare custom demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-02",
+      "type": "technical_eval",
+      "duration_minutes": 51,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Harper and Santiago Williams (RevOps Analyst). Deep dive into platform capabilities, API integrations, and workflow automation builder. Santiago asked detailed questions about data security and compliance. Demonstrated unlimited automation tier features and custom workflow examples relevant to fintech CS operations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle PII data in automated workflows?",
+          "answer": "We have SOC 2 Type II compliance, field-level encryption, and granular access controls. All automation logs are auditable."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we build conditional workflows based on customer account values and risk scores?",
+          "answer": "Absolutely. Our workflow builder supports complex conditional logic, custom fields, and external data enrichment."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for handling high-value account escalations?",
+          "answer": "Mostly manual Slack alerts and email chains. We'd like to automate the routing and task creation based on account tier."
+        }
+      ],
+      "objections": [
+        "Need to confirm this fits within our Q2 software budget allocation"
+      ],
+      "next_steps": [
+        "Santiago to review technical documentation",
+        "Prepare pricing proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-05",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial proposal review call with Harper. Presented pricing for 5-seat unlimited automation plan at $4,500 ACV. Harper expressed concern about budget approval and mentioned needing to justify ROI to leadership. Discussed implementation timeline and support options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing given our company size?",
+          "answer": "Let me discuss with my manager about SMB pricing options. What budget range were you expecting?"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this purchase?",
+          "answer": "Santiago handles procurement, but our VP of Operations will need to approve anything over $3K."
+        }
+      ],
+      "objections": [
+        "Initial pricing is higher than anticipated budget for this quarter"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Schedule follow-up to discuss revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-13",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Harper. Presented revised pricing with 21% discount to bring ACV to $4,500, aligning closer to their budget constraints. Harper seemed more positive but mentioned needing to get VP of Operations engaged for final approval. Discussed ROI projections based on time savings.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you put together a one-page ROI summary I can share with our VP?",
+          "answer": "Absolutely. I'll include time savings, cost avoidance from not hiring additional CS headcount, and efficiency metrics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI summary document",
+        "Coordinate meeting with VP of Operations"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-18",
+      "type": "exec_meeting",
+      "duration_minutes": 44,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Harper to finalize contract terms and discuss implementation kickoff. Harper mentioned VP of Operations is traveling and hasn't been able to review yet, but she's confident in moving forward. Reviewed MSA terms, payment schedule, and implementation timeline. Santiago joined briefly to confirm technical requirements are met.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When does your VP return and can we get time on their calendar to introduce the project?",
+          "answer": "They're back next week but pretty slammed. I can brief them and get approval\u2014I have sign-off authority up to this amount with their pre-approval."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a 30-day pilot period clause in case we need to adjust the scope?",
+          "answer": "We typically offer a 14-day satisfaction guarantee. Let me check if we can extend that to 30 days for your situation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your escalation process if we run into issues during implementation?",
+          "answer": "You'll have a dedicated implementation manager and direct access to our solutions engineering team with SLA-backed response times."
+        }
+      ],
+      "objections": [
+        "Want to ensure we have executive air cover before committing to annual contract"
+      ],
+      "next_steps": [
+        "Confirm 30-day pilot extension",
+        "Send final MSA with terms",
+        "Attempt to schedule brief VP intro call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-22",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Harper Kelly",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Harper and Santiago. Walked through revised MSA with extended pilot terms. Harper confirmed internal approval process is moving forward and Santiago verified technical requirements. Discussed implementation kickoff date and assigned customer success manager. Harper committed to getting signatures by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we expand to more seats in Q3, how does pricing work?",
+          "answer": "We'll prorate the additional seats based on your remaining contract term and lock in your current per-seat rate."
+        },
+        {
+          "by": "rep",
+          "question": "Has the VP had a chance to review the ROI summary?",
+          "answer": "They glanced at it and gave verbal approval. Harper has delegated authority on CS tooling decisions within budget."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get the first workflow templates loaded before our official kickoff?",
+          "answer": "Yes, we can provision your instance and load standard CS workflow templates as soon as the contract is signed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Harper to route contract for signatures",
+        "Schedule implementation kickoff for following Monday",
+        "Provision platform instance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

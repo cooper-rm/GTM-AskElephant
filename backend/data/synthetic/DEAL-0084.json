@@ -1,0 +1,384 @@
+{
+  "deal_id": "DEAL-0084",
+  "company": {
+    "name": "NebulaSoftware",
+    "industry": "Healthcare IT",
+    "employee_count": 134,
+    "annual_revenue": 19818393,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12300.0,
+    "seats": 16,
+    "price_per_seat_monthly": 67.41,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 24.3,
+    "sales_cycle_days": 54,
+    "close_date": "2023-07-09",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jordan King",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 15
+    },
+    {
+      "name": "Noah Jung",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 42
+    },
+    {
+      "name": "Ade Schneider",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 17
+    },
+    {
+      "name": "Madison Ahmed",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 11
+    },
+    {
+      "name": "Emily Weiss",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Layla Adams",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-04",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Jordan King at NebulaSoftware regarding pipeline visibility challenges. Email highlighted common pain points in healthcare IT sales teams and positioned our solution as alternative to existing tools. Jordan responded positively, expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-16",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Jordan King to understand current state and pain points. Jordan confirmed they're evaluating solutions for better pipeline visibility across their sales team. Currently using Fireflies but finding gaps in reporting capabilities. Quick discovery of basic fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at new solutions right now?",
+          "answer": "Our revenue team is growing and we need better visibility into deal progression. Current tools aren't giving us the insights we need."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Fireflies?",
+          "answer": "We focus on actionable pipeline intelligence and cross-functional visibility, while Fireflies is primarily transcription-focused."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper qualification call",
+        "Send overview deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-22",
+      "type": "qualification_call",
+      "duration_minutes": 22,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed qualification call with Jordan King covering team structure, current tooling, and key requirements. NebulaSoftware has 6 people who would use the platform (16 seats requested for growth). Jordan emphasized need for automations and consulting support given limited ops resources. Discussed budget parameters and timing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales process and where visibility breaks down.",
+          "answer": "We have deal data scattered across Fireflies transcripts, Salesforce, and Slack. No unified view of deal health or risk signals."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Noah Jung, our SVP of Revenue, will need to sign off. Also want our implementation and account management teams to test it."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and do you provide consulting support?",
+          "answer": "Typically 2-3 weeks for core setup. We offer consulting packages for custom automations and workflow design."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "question": "We're already paying for Fireflies. What's the ROI on switching?",
+          "answer": "Rep positioned this as complementary initially, focused on pipeline intelligence vs. transcription, but noted many customers consolidate over time."
+        }
+      ],
+      "next_steps": [
+        "Schedule demo for Jordan and technical evaluators",
+        "Send case study from healthcare IT vertical"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-31",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to align on demo agenda and confirm attendees. Jordan confirmed Ade Schneider and Madison Ahmed from technical side will join. Discussed specific use cases to cover: deal health scoring, competitive intelligence extraction, and automated reporting. Brief check-in on budget and timing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this demo a clear win for your team?",
+          "answer": "Show us how it surfaces deal risks automatically and how the consulting engagement would work for our custom workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo",
+        "Prepare custom workflow examples"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-09",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo with Jordan King, Ade Schneider, and Madison Ahmed. Walked through platform core features: AI deal summaries, risk signal detection, competitive mention tracking, and automated pipeline reports. Demonstrated custom automation capabilities and discussed consulting package options. Team engaged positively, asked detailed technical questions about integrations and data security. Ade and Madison expressed interest but noted need for executive review before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the HNSW retrieval work and what data do you store?",
+          "answer": "Rep explained vector-based semantic search for call/email content, SOC 2 compliance, and data retention policies."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the risk signals for our specific sales process?",
+          "answer": "Yes, consulting package includes custom signal configuration and ongoing tuning based on your win/loss patterns."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently tracking competitive threats in deals?",
+          "answer": "Manually through Salesforce fields. Reps forget to update and we miss patterns. Would love automated competitive intelligence."
+        },
+        {
+          "by": "prospect",
+          "question": "What's pricing look like for 16 seats plus consulting?",
+          "answer": "Rep indicated would send formal proposal, ballparked range based on automations_plus_consulting tier."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "question": "This feels like overlap with Fireflies. Do we need both?",
+          "answer": "Rep repositioned focus on pipeline intelligence vs transcription, noted most customers find complementary value."
+        }
+      ],
+      "next_steps": [
+        "Send formal proposal with consulting package details",
+        "Schedule exec meeting with Noah Jung",
+        "Provide security documentation for Ade"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Jordan with formal proposal: $12,300 ACV for 16 seats on automations_plus_consulting tier (24.3% discount applied to hit budget). Included SOC 2 documentation and healthcare IT case study. Jordan acknowledged receipt and confirmed sharing with Noah Jung for executive review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the consulting hours?",
+          "answer": "Rep detailed 20 hours for initial custom automation setup, quarterly optimization sessions, and dedicated Slack support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jordan to review with Noah",
+        "Schedule exec alignment call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.1,
+      "rescheduled": false,
+      "ai_summary": "Check-in email from rep following up on proposal review. Jordan responded that Noah has reviewed and wants to meet, but expressed concern about discount depth and whether pricing might increase at renewal. Noted procurement is asking about Fireflies overlap.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount sustainable or will we see a big jump at renewal?",
+          "answer": "Rep clarified discount reflects multi-year commitment intent and market rate for their segment, renewal increases tied to usage growth only."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Noah",
+        "Prepare renewal pricing framework"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-01",
+      "type": "negotiation_call",
+      "duration_minutes": 7,
+      "person_name": "Jordan King",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Jordan to address pricing and Fireflies overlap concerns before exec meeting. Jordan pushed for additional discount or reduced seat count. Rep held on price but offered extended payment terms. Discussed positioning for Noah meeting: focus on pipeline intelligence ROI, not transcription replacement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with 12 seats and expand later?",
+          "answer": "Rep explained pricing already reflects growth seats, reducing count would increase per-seat cost and complicate expansion."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "question": "Procurement is asking why we need this if we have Fireflies.",
+          "answer": "Rep provided one-pager differentiating pipeline intelligence from transcription, suggested framing as complementary analytics layer."
+        }
+      ],
+      "next_steps": [
+        "Exec meeting with Noah Jung",
+        "Send procurement one-pager"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-09",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Noah Jung",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Noah Jung, joined by Jordan King. Reviewed business case, ROI projections, and strategic fit with NebulaSoftware's growth plans. Noah asked detailed questions about competitive intelligence capabilities and consulting engagement scope. Expressed concern about vendor consolidation strategy and Fireflies overlap, but acknowledged gap in current pipeline visibility. Noah indicated positive intent but wants to validate with broader revenue team before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do other healthcare IT companies use this to improve win rates?",
+          "answer": "Rep shared case study showing 15% win rate improvement through early risk detection and competitive positioning insights."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if the consulting hours aren't enough for our custom workflows?",
+          "answer": "Rep explained flex hour packages available, most customers find initial allocation sufficient for first year."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you confident this is the right investment for your team right now?",
+          "answer": "Noah wants to see buy-in from Emily and Layla (end users) and clear delineation from Fireflies to avoid duplicate spend perception."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a pilot first or is this full commitment?",
+          "answer": "Rep explained pricing already reflects commitment discount, but offered 30-day satisfaction guarantee as risk mitigation."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "question": "I'm concerned about tool sprawl. Why not enhance what we have with Fireflies?",
+          "answer": "Rep acknowledged concern, positioned solution as pipeline intelligence layer vs transcription tool, noted different use cases and users."
+        }
+      ],
+      "next_steps": [
+        "Noah to validate with Emily Weiss and Layla Adams",
+        "Rep to send vendor comparison doc",
+        "Decision expected within 1 week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 63,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

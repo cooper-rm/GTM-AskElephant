@@ -1,0 +1,232 @@
+{
+  "deal_id": "DEAL-0685",
+  "company": {
+    "name": "BayLabs",
+    "industry": "Healthcare IT",
+    "employee_count": 60,
+    "annual_revenue": 7363514,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4000.0,
+    "seats": 6,
+    "price_per_seat_monthly": 56.12,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.9,
+    "sales_cycle_days": 23,
+    "close_date": "2024-04-16",
+    "use_case": "Call recording + coaching",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Avery Turner",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 35
+    },
+    {
+      "name": "Sage Klein",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-04",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Avery Turner introducing call coaching capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-07",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Avery Turner. Rep introduced value proposition around call recording and coaching. Avery expressed initial interest and agreed to a longer qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently recording and analyzing sales calls?",
+          "answer": "We use Chorus but haven't fully rolled it out yet"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-25",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Avery Turner. Discussed current state with Chorus, team size, and coaching challenges. Avery mentioned budget constraints and need to involve RevOps. Rep positioned unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at alternatives to Chorus?",
+          "answer": "Pricing is steep and we're not using most features. Need something focused on coaching."
+        },
+        {
+          "by": "rep",
+          "question": "How many reps would use this?",
+          "answer": "6 AEs on the sales team"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing tech stack?",
+          "answer": "Yes, we have native integrations with most CRMs and communication tools"
+        }
+      ],
+      "objections": [
+        "Need to stay within a tight budget this quarter"
+      ],
+      "next_steps": [
+        "Avery to loop in Sage Klein from RevOps",
+        "Schedule discovery call to review technical requirements"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-31",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Avery Turner. Deep dive into use cases, current Chorus pain points, and technical requirements. Avery emphasized budget sensitivity and mentioned CFO hasn't approved new tools yet. Rep focused on ROI and coaching workflow automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific coaching workflows would you want to automate?",
+          "answer": "Flagging objections, tracking talk time, identifying missing discovery questions"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for 6 seats?",
+          "answer": "Our unlimited automation tier is designed to be more accessible for teams your size"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this decision?",
+          "answer": "Sage will handle the technical review, but ultimately it's my call. CFO oversees budget."
+        }
+      ],
+      "objections": [
+        "We're mid-contract with Chorus, need to justify the switch",
+        "Haven't gotten CFO buy-in for new software yet"
+      ],
+      "next_steps": [
+        "Rep to send ROI calculator and case studies",
+        "Avery to discuss with Sage Klein on technical fit"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-08",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Avery Turner. Presented pricing for 6 seats at $4,000 ACV with 36.9% discount to meet budget constraints. Avery appreciated the flexibility but noted they still need to finalize internally before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Chorus pricing or go lower?",
+          "answer": "We've applied a significant discount to get to $4,000 ACV, which is our floor for this package"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally end of quarter, but need to sync with finance first"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Avery to review proposal with Sage and finance",
+        "Follow up early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Turner",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Avery Turner checking in on proposal review and offering to address any final questions. Avery responded confirming they're still reviewing internally and will circle back with next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust payment terms to net-60 instead of net-30?",
+          "answer": "Let me check with finance and get back to you"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to confirm payment terms flexibility",
+        "Avery to provide update by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

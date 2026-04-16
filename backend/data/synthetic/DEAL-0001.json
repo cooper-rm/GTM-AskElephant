@@ -1,0 +1,385 @@
+{
+  "deal_id": "DEAL-0001",
+  "company": {
+    "name": "NovaAnalytics",
+    "industry": "eCommerce",
+    "employee_count": 44,
+    "annual_revenue": 8382636,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3100.0,
+    "seats": 4,
+    "price_per_seat_monthly": 58.51,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.3,
+    "sales_cycle_days": 44,
+    "close_date": "2023-09-21",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "David Anderson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Alex Chen",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 38
+    },
+    {
+      "name": "Megan Wilson",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 8
+    },
+    {
+      "name": "Brandon Moore",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-28",
+      "type": "cold_call",
+      "duration_minutes": 7,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to David Anderson, Director of CS at NovaAnalytics. David expressed initial interest in improving rep productivity and efficiency. Mentioned current challenges with tracking customer interactions and coaching visibility. Agreed to follow-up conversation next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently tracking customer success interactions and coaching your team?",
+          "answer": "We're using a combination of spreadsheets and basic CRM notes. It's pretty manual and hard to get visibility into what's actually happening on calls."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong? We've looked at them before.",
+          "answer": "Great question - we focus specifically on CS use cases with automation built for your workflow. Would love to show you the differences in a deeper conversation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and case study",
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 20.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with overview materials and CS-specific ROI calculator. David confirmed availability for qualification call and mentioned he'd like to bring in Alex Chen from his implementation team. Also asked about pricing ballpark.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical price range for a team our size?",
+          "answer": "For SMB teams like yours, we typically see $4-6K ACV depending on seat count and automation tier. Happy to discuss specifics on our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday 2pm",
+        "David to invite Alex Chen to join"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-14",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with David Anderson. Discussed current state: 4-person CS team struggling with manual note-taking and lack of coaching insights. Budget identified around $5K annually. David is new to the Director role (3 months) and looking to make early impact. Competitor eval with Gong happened 6 months ago but didn't move forward due to enterprise pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What happened with the Gong evaluation - why didn't it move forward?",
+          "answer": "Honestly, the pricing was way too high for our team size. They seemed more focused on sales orgs at enterprise scale. We're a small CS team that needs something practical."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this - any procurement or RevOps stakeholders?",
+          "answer": "Good question. Brandon Moore in RevOps usually reviews new tools, but for something at this price point I have discretion. I'd probably loop him in before final signature."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your unlimited automation tier handle our workflow volume - we do about 200 customer calls per month?",
+          "answer": "Absolutely, that's well within the limits. The unlimited tier is designed for exactly that use case."
+        }
+      ],
+      "objections": [
+        "Need to stay well under the Gong pricing we saw previously"
+      ],
+      "next_steps": [
+        "Schedule discovery call with David and Alex Chen",
+        "Send technical requirements questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-20",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with David Anderson and Alex Chen. Deep dive into current workflow: using Zoom for calls, manual upload to Salesforce, no automated insights. Alex highlighted pain points around onboarding new CS reps and identifying customer risk signals. Discussed integration requirements (Salesforce, Zoom, Slack). David emphasized need for fast implementation given his goal to show impact in first 6 months as Director.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current process from customer call to actionable insight - where are the biggest bottlenecks?",
+          "answer": "Alex typically joins calls, takes notes in a doc, then manually updates Salesforce. We review snippets in our weekly 1:1s, but there's no systematic way to identify trends or coaching moments. It's very reactive."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days after implementing a solution?",
+          "answer": "I need the team saving at least 5 hours per week on administrative work, and I want visibility into call quality metrics for my quarterly review with leadership. Also want new reps ramping 30% faster."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks from kickoff to full team adoption, including integrations and training."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have customers in eCommerce who use this for CS use cases specifically?",
+          "answer": "Yes, we have several - happy to connect you with a reference customer in a similar vertical."
+        }
+      ],
+      "objections": [
+        "Concerned about change management - team is already stretched thin and worried about learning curve"
+      ],
+      "next_steps": [
+        "Schedule demo focused on CS coaching workflows",
+        "Share eCommerce CS customer case study",
+        "Send integration architecture doc for Alex to review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-25",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with David and Alex. Walked through live demo of call recording, automated summary generation, coaching insights dashboard, and Salesforce integration. Alex was particularly engaged with the automation capabilities and asked detailed technical questions. David focused on reporting features for leadership visibility. Some hesitation when discussing rollout timeline and team adoption.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automated summary fields to match our internal customer health scoring model?",
+          "answer": "Yes, the unlimited automation tier includes custom field mapping. We can work with you during implementation to configure that."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve like for the CS reps who'll be using this daily?",
+          "answer": "Most users are fully comfortable within the first week. The interface is intuitive, and since it auto-captures calls, there's actually less manual work than their current process."
+        },
+        {
+          "by": "rep",
+          "question": "Based on what you've seen, does this address the core pain points we discussed in discovery?",
+          "answer": "Yes, the automation piece is exactly what we need. I'm a bit concerned about getting buy-in from the full team since they're used to their current workflow, but the features are solid."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "David to discuss internally with CS team",
+        "Send pricing proposal for 4 seats, unlimited automation tier",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 12.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal: 4 seats, unlimited automation tier, $4,800 ACV. David responded asking if there's flexibility on pricing given their budget constraints and the fact that Gong's pricing was prohibitive. Mentioned he needs to loop in Brandon Moore from RevOps before moving forward, which he hadn't mentioned as a hard requirement previously.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $4,800 pricing? Our budget is closer to $3,000-3,500 for this.",
+          "answer": "Let me discuss with our team. I understand budget is a key factor for you - can we schedule a call to talk through the business case and see if we can find a solution that works?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal pricing discussion",
+        "Schedule call with David and Brandon Moore to discuss budget and business case"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-08",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call with David Anderson and Brandon Moore. Brandon asked detailed questions about ROI, contract terms, and vendor risk. David made the business case around time savings and improved onboarding. Brandon noted they need to ensure this doesn't overlap with existing tools and that pricing is justified given company size. No executive sponsor from NovaAnalytics on the call. Discussed potential discount to meet budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical contract length and are there penalties for early termination?",
+          "answer": "Standard is 12-month annual contract. No early termination fees, but pricing is based on annual commitment."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this integrate with our existing tech stack - we already have Salesforce and Zoom. Are there hidden integration costs?",
+          "answer": "Native integrations with both platforms are included at no additional cost. Implementation and integration setup is also included in your annual fee."
+        },
+        {
+          "by": "rep",
+          "question": "Brandon, from a RevOps perspective, what's your biggest concern about adding this tool?",
+          "answer": "Mainly making sure we're not paying for overlapping functionality and that the ROI is clear. We're a small team and need to be strategic about tools. Also want to make sure this actually gets adopted and doesn't become shelfware."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you get closer to the $3,200 range? That's where our budget sits for this fiscal year.",
+          "answer": "Let me take that back to leadership. I think we can work something out given your use case and the potential for expansion as your CS team grows."
+        }
+      ],
+      "objections": [
+        "Price point still above comfortable budget range",
+        "Need to ensure strong adoption to justify investment"
+      ],
+      "next_steps": [
+        "Revised proposal with discount to meet budget",
+        "David to get provisional approval from finance",
+        "Schedule closing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-17",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with David. Presented revised offer: $3,100 ACV (34.3% discount) to meet their budget. David appreciative of the flexibility and confirmed this works within his discretionary spending authority. Discussed implementation timeline - wants to start within 2 weeks to show progress this quarter. David mentioned he'll need to get Brandon's sign-off on the contract terms but expects that to be straightforward now that pricing is aligned.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "At this pricing, are we ready to move forward? What's left to finalize on your end?",
+          "answer": "I think we're in good shape. I need to get Brandon's final sign-off on the contract language and then we can move to signature. Shouldn't take more than a few days."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the implementation kickoff look like - will we have dedicated support?",
+          "answer": "Yes, you'll have a dedicated implementation manager for the first 30 days, plus ongoing customer success support. We'll start with a kickoff call, then integration setup, team training, and we'll be with you through the first few weeks of usage."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with $3,100 ACV pricing",
+        "David to route contract to Brandon for review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-20",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "David Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final call with David to review contract before signature. Walked through terms, data security provisions, and implementation timeline. David confirmed Brandon reviewed and approved. Discussed success metrics for first 90 days and scheduled implementation kickoff for following Monday. David expressed enthusiasm about getting the team onboarded quickly and showing early wins in his new role as Director.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Just to confirm - the 4 seats can be reassigned if we have team changes, right?",
+          "answer": "Correct, seats are flexible. You can reassign users at any time through the admin panel."
+        },
+        {
+          "by": "rep",
+          "question": "Any final questions or concerns before we move to signature?",
+          "answer": "No, I think we're good. Excited to get this rolled out and start seeing the impact on team productivity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "David to sign contract today",
+        "Implementation kickoff scheduled for Monday 10am",
+        "Send welcome email and onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

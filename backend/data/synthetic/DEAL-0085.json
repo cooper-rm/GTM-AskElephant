@@ -1,0 +1,309 @@
+{
+  "deal_id": "DEAL-0085",
+  "company": {
+    "name": "CoreWorks",
+    "industry": "SaaS/Tech",
+    "employee_count": 580,
+    "annual_revenue": 73677926,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12700.0,
+    "seats": 18,
+    "price_per_seat_monthly": 58.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.5,
+    "sales_cycle_days": 44,
+    "close_date": "2023-10-26",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Diego Becker",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    },
+    {
+      "name": "Parker Thomas",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 62
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Diego Becker at CoreWorks expressing interest in automating their sales-to-CS handoff process. Currently evaluating multiple solutions including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with calendar link",
+        "Share initial product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and calendar availability. Diego confirmed interest and scheduled qualification call for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing CS platform?",
+          "answer": "Yes, we have native integrations with Salesforce and most major CS platforms including Gainsight, ChurnZero, and Vitally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-16",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call with Diego. CoreWorks has 580 employees, looking to streamline handoffs for their growing sales team (18 AEs). Currently using Fathom for meeting notes but need better CS integration and automation. Diego is VP of CS and sees this as critical for scaling.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving this initiative now?",
+          "answer": "We've doubled our sales team in 6 months and handoffs are breaking down. We're losing context between sales and CS, leading to poor onboarding experiences."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's current offering?",
+          "answer": "Fathom focuses on note-taking, while we automate the entire handoff workflow including action items, deal health scoring, and bi-directional sync with your CS platform."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Diego and potentially COO Parker Thomas",
+        "Send use case examples for SaaS companies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-23",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute discovery call with Diego diving deep into CoreWorks' current handoff process, pain points, and success metrics. Diego confirmed Parker Thomas (COO) is the executive sponsor and will need to be involved in final approval. Discussed technical requirements and integration complexity.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current handoff process from closed-won to CS kickoff.",
+          "answer": "AEs manually fill out a handoff form in Salesforce, then schedule a sync with the CSM. About 40% of the time critical context is missing, and we've had instances where deals closed but CS didn't know for days."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for this project in 6 months?",
+          "answer": "100% of deals have complete handoff documentation within 24 hours of close, and our CS team reports feeling fully prepared for kickoff calls. We'd also like to reduce time-to-value by 2 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and what resources do we need from our side?",
+          "answer": "Typically 3-4 weeks for full rollout. You'll need a technical point person for integration setup (5-10 hours) and we recommend a change management owner to drive adoption."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We're already paying for Fathom and hesitant to add another tool cost.",
+          "response": "Understood. Many customers find the efficiency gains and reduced churn offset the cost within the first quarter. We can model the ROI based on your specific metrics."
+        }
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 18 seats",
+        "Schedule demo with Diego and technical lead",
+        "Loop in Parker Thomas for executive alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with tailored proposal for 18 seats with unlimited automation tier. Included ROI calculator and case study from similar mid-market SaaS company. Diego acknowledged receipt and said he's reviewing with Parker.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Diego's feedback on proposal",
+        "Prepare for potential demo next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Check-in email sent after 5 days of silence. Diego responded that Parker has concerns about the pricing relative to Fathom's offering. Mentioned they're in active discussions with Fathom about expanding their contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom is offering us a pretty aggressive expansion deal - can you help me understand the value gap?",
+          "answer": "Happy to walk through a side-by-side comparison. The key differentiator is our CS-specific automation and deal health intelligence, which Fathom doesn't offer. Would a comparison call with you and Parker be helpful?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing/value discussion with Diego and Parker",
+        "Prepare competitive analysis vs Fathom"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent with detailed competitive comparison and offer to discuss pricing flexibility given their multi-year commitment potential. Also offered to include premium support at no additional cost.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await response on pricing call availability"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Diego responded positively to the premium support add-on. Parker is available for a pricing call Thursday. Diego mentioned they need to make a decision by end of quarter and are weighing the Fathom expansion heavily due to existing relationship and lower cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual, what kind of discount can you offer to get closer to Fathom's pricing?",
+          "answer": "Let me discuss options with my leadership. I want to make sure we can be competitive while still delivering the full value you need. Let's talk specifics on Thursday's call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled with Diego and Parker for Thursday 3pm",
+        "Prepare discount approval for up to 35%"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-26",
+      "type": "pricing_call",
+      "duration_minutes": 13,
+      "person_name": "Diego Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute pricing call with Diego and Parker. Parker expressed clear interest in the CS automation capabilities but pushed hard on price given Fathom relationship. Negotiated 34.5% discount to close the gap, bringing ACV to $12,700 for 18 seats with unlimited automation. Parker agreed to terms contingent on legal review. Deal expected to close within 2 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's per-seat pricing if we commit to 2 years?",
+          "answer": "We can't quite match their per-seat rate given our different value proposition, but I can offer 34.5% off with an annual commit, which gets you the CS automation capabilities Fathom doesn't provide."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and who else needs to approve?",
+          "answer": "Just legal review on our end. If terms work, we can close within 2 weeks. This is a priority for Q2 planning."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "The discount helps but we're still paying 40% more than Fathom's expansion offer.",
+          "response": "True, but you're also getting functionality that would require building custom workflows or adding another point solution. When we factor in the CS efficiency gains and faster time-to-value, the total cost of ownership is actually favorable."
+        }
+      ],
+      "next_steps": [
+        "Send updated contract with 34.5% discount",
+        "Coordinate with legal for contract review",
+        "Schedule implementation kickoff pending signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

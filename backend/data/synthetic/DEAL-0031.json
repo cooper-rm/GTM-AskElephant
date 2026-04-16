@@ -1,0 +1,634 @@
+{
+  "deal_id": "DEAL-0031",
+  "company": {
+    "name": "PearlStack",
+    "industry": "Healthcare IT",
+    "employee_count": 539,
+    "annual_revenue": 59715601,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19100.0,
+    "seats": 25,
+    "price_per_seat_monthly": 65.02,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.9,
+    "sales_cycle_days": 63,
+    "close_date": "2025-08-08",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ryan Green",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 6
+    },
+    {
+      "name": "Mateo Carter",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 27
+    },
+    {
+      "name": "Nicole Kim",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 43
+    },
+    {
+      "name": "Leila Williams",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 1
+    },
+    {
+      "name": "Nora Okafor",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-19",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial cold call to Ryan Green (VP of CS). Rep introduced AskElephant's forecasting platform. Ryan expressed interest in improving current forecasting accuracy, mentioned frustration with manual processes. Agreed to qualification call next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently handling revenue forecasting at PearlStack?",
+          "answer": "We're using spreadsheets and some manual rollups. It's time-consuming and not always accurate."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with real-time sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-06",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ryan Green. Discussed current forecasting challenges at PearlStack - 25 team members across CS need better visibility. Ryan mentioned they're evaluating Clari as well. Confirmed budget authority lies with CEO Mateo Carter. Ryan is champion, sees value in automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for a forecasting solution right now?",
+          "answer": "We're scaling fast and our current manual process doesn't scale. Leadership needs better predictability."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Mateo Carter, our CEO, will make the final call. Also Nicole Kim from IT for integration questions."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for initial setup, depending on your data complexity."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you compare to Clari?",
+          "answer": "We focus on ease of use and faster time-to-value, especially for mid-market teams. Happy to do a detailed comparison."
+        }
+      ],
+      "objections": [
+        "Already evaluating Clari - need to understand differentiation"
+      ],
+      "next_steps": [
+        "Send case study on healthcare IT customer",
+        "Schedule discovery call with extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ryan with healthcare IT case study (similar 500-employee company) showing 40% improvement in forecast accuracy. Included comparison doc addressing AskElephant vs Clari. Ryan responded positively, confirmed discovery call for Thursday.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark before the discovery call?",
+          "answer": "Sent indicative pricing for 25 users - typically $18-24K ACV depending on package and services."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-15",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ryan to map current workflow. Discussed pain points: forecast submission takes 8+ hours per week, limited visibility into pipeline health, difficulty tracking deal progression. Ryan confirmed 25 users (Account Managers + CS leadership). Noted integration requirements with Salesforce and their BI tool.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current weekly forecasting process.",
+          "answer": "Each AM updates a Google Sheet, I consolidate and review, then present to Mateo. Lots of back-and-forth to validate numbers."
+        },
+        {
+          "by": "rep",
+          "question": "What metrics matter most to your CEO?",
+          "answer": "Forecast accuracy, pipeline coverage, and early warning on at-risk deals."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform flag deals that might slip before they do?",
+          "answer": "Yes, we use activity signals and historical patterns to surface risk early."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare technical integration overview",
+        "Schedule follow-up to discuss automation capabilities"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-06-18",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Ryan focused on automation and consulting services. Ryan interested in the automations_plus_consulting package - wants hands-on support during rollout. Discussed change management considerations for the team. Ryan confirmed budget range is appropriate but will need CEO buy-in on final number.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting piece include?",
+          "answer": "We provide a dedicated CSM for the first 90 days - weekly check-ins, custom workflow setup, and team training."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about team adoption?",
+          "answer": "A little - some of the team is comfortable with the current process. But if it saves them time, they'll come around."
+        },
+        {
+          "by": "prospect",
+          "question": "How long until we see ROI?",
+          "answer": "Most customers see time savings within the first month, forecast accuracy improvements by month two."
+        }
+      ],
+      "objections": [
+        "Team adoption risk - some users resistant to change"
+      ],
+      "next_steps": [
+        "Schedule full discovery call with Nicole Kim (IT) to discuss integration",
+        "Prepare ROI model"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-06-24",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full discovery call with Ryan and Nicole Kim (IT Director). Nicole asked detailed questions about Salesforce API usage, security, and data storage. Ryan walked through specific use cases: weekly forecast rollups, deal health scoring, and executive dashboards. Nicole confirmed integration requirements are feasible. Agreed to move to demo phase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is our data stored and what's your SOC 2 status?",
+          "answer": "AWS us-east-1, SOC 2 Type II certified. We can provide the report."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SSO?",
+          "answer": "Yes, SAML-based SSO with Okta, Azure AD, and Google Workspace."
+        },
+        {
+          "by": "rep",
+          "question": "Nicole, any integration concerns we should address now?",
+          "answer": "Just need to validate API rate limits with Salesforce. Otherwise looks good."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the deal health scoring algorithm?",
+          "answer": "Yes, you can adjust signal weights and add custom fields."
+        }
+      ],
+      "objections": [
+        "Need to verify Salesforce API rate limits won't be exceeded"
+      ],
+      "next_steps": [
+        "Rep to send SOC 2 report and API documentation",
+        "Schedule demo for next week with Ryan and key AMs"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Email to Ryan with demo confirmation, agenda, and requested materials (SOC 2 report, API docs). Invited Ryan to bring 2-3 Account Managers to the demo. Ryan confirmed Leila Williams and Nora Okafor will join. Shared specific demo requests: show forecast rollup automation and deal risk alerts.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Wednesday with Ryan, Leila, and Nora"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-03",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo with Ryan, Leila Williams, and Nora Okafor. Showed forecast automation workflow, deal health scoring, and executive dashboard. Leila and Nora engaged positively - asked about mobile access and Slack notifications. Ryan focused on executive reporting. Addressed Clari comparison - highlighted faster setup and mid-market focus. Team impressed with UI simplicity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get forecast alerts in Slack?",
+          "answer": "Yes, configurable Slack alerts for forecast changes, at-risk deals, and milestones."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there a mobile app?",
+          "answer": "Yes, iOS and Android apps with full forecast review and approval capabilities."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Clari?",
+          "answer": "Clari felt more complex - built for enterprise. This feels more appropriate for our stage."
+        },
+        {
+          "by": "prospect",
+          "question": "Can Mateo access this without logging in daily?",
+          "answer": "Yes, we can set up weekly email digests with key metrics and executive summaries."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ryan to brief Mateo on demo takeaways",
+        "Schedule technical eval with Nicole to validate integration"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-07-10",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Nicole Kim and Ryan. Nicole tested Salesforce sandbox integration, reviewed security documentation, and validated data mapping. Discussed implementation plan - 2 week timeline. Nicole approved from IT perspective. Ryan raised question about pricing for 25 seats with consulting - requested formal proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's involved in the implementation?",
+          "answer": "Salesforce OAuth setup, field mapping workshop, initial data sync, then user training sessions."
+        },
+        {
+          "by": "prospect",
+          "question": "Do we need dedicated IT resources during setup?",
+          "answer": "Minimal - maybe 4-6 hours total from Nicole for the integration workshop and validation."
+        },
+        {
+          "by": "rep",
+          "question": "Nicole, any technical blockers we should address?",
+          "answer": "No blockers. This is straightforward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing for 25 seats with the consulting package?",
+          "answer": "I'll prepare a formal proposal - targeting around $20K ACV with the 90-day consulting engagement."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare formal proposal for Ryan to present to Mateo",
+        "Schedule exec meeting with Mateo Carter"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-07-14",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Mateo Carter",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mateo Carter (CEO) and Ryan Green. Rep presented business case: forecast accuracy improvement, time savings (8hrs/week to <1hr), and deal risk visibility. Mateo focused on ROI and competitive landscape. Asked about Clari evaluation status. Ryan advocated strongly for AskElephant. Mateo requested pricing proposal and wants to move quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate?",
+          "answer": "97% net revenue retention over the past 12 months."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're typically 20-30% lower for similar seat counts, and faster to value for mid-market."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have this in place by end of quarter - so next 3-4 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide customer references in healthcare IT?",
+          "answer": "Yes, I'll include two references in the proposal - both mid-market healthcare companies."
+        }
+      ],
+      "objections": [
+        "Mateo wants to ensure pricing is competitive with Clari"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing, ROI model, and references",
+        "Ryan to coordinate internal decision timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email to Ryan with formal proposal: $19,100 ACV for 25 seats, automations_plus_consulting package, including 90-day dedicated CSM. Included ROI model showing 200+ hours saved annually and 15% forecast accuracy improvement. Attached two healthcare IT references. Ryan acknowledged receipt, said he's presenting to Mateo this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ryan to present proposal to Mateo by Friday",
+        "Follow up early next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-07-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ryan checking on proposal review. Ryan responded that Mateo is supportive but asked about discount options - they received a more aggressive offer from Clari. Ryan asked if there's flexibility on the $19,100 figure. Rep acknowledged and offered to schedule pricing discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing? Clari came in lower than expected.",
+          "answer": "Let's schedule a call to discuss - I may have some options depending on contract terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call with Ryan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-07-25",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ryan. Discussed Clari's offer - they're pricing aggressively. Ryan confirmed PearlStack is serious about AskElephant if pricing can work. Rep offered $14,000 ACV (26.9% discount) for annual prepay and case study participation. Ryan needs to confirm with Mateo but feels this could work.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's Clari's current offer?",
+          "answer": "They're around $13K but Ryan prefers AskElephant's simplicity and fit."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you get to $14K if we prepay annually and do a case study?",
+          "answer": "Yes, I can do $14K with annual prepay, case study, and logo usage rights."
+        },
+        {
+          "by": "rep",
+          "question": "When do you need to make a final decision?",
+          "answer": "End of next week - Mateo wants this resolved."
+        }
+      ],
+      "objections": [
+        "Clari pricing pressure - aggressive competitive offer"
+      ],
+      "next_steps": [
+        "Rep to send updated proposal at $14K ACV",
+        "Ryan to get Mateo's approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-07-31",
+      "type": "proposal_call",
+      "duration_minutes": 30,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ryan. Walked through updated proposal at $14,000 ACV with annual prepay, case study commitment, and logo rights. Ryan comfortable with terms. Discussed implementation timeline - target go-live in 3 weeks. Ryan committed to getting Mateo's final signature this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's involved in the case study?",
+          "answer": "2-3 interviews over 90 days, focus on forecast accuracy gains and time savings. Minimal time commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Any final concerns before we move to contracting?",
+          "answer": "No, this looks good. Just need Mateo's final approval on the discount."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "As soon as contracts are signed - we can kick off within 48 hours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract documents",
+        "Ryan to obtain Mateo's signature by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-08-03",
+      "type": "pricing_call",
+      "duration_minutes": 9,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing confirmation call scheduled with Ryan - he had to reschedule due to conflicting exec meeting. Brief call to confirm final terms. Ryan confirmed Mateo verbally approved $14K. Discussed contract logistics and payment terms. Ryan requested minor adjustment to case study timing (push to Q3 due to bandwidth).",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we push the case study to Q3? We're slammed in Q2.",
+          "answer": "Yes, that's fine - we can schedule for July/August timeframe."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update contract with Q3 case study timing",
+        "Send final signature-ready documents"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-08-08",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Ryan Green",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Ryan. Reviewed contract terms, payment schedule (annual prepay), and implementation plan. Ryan confirmed all stakeholders aligned - Mateo, Nicole, and the AM team all on board. Discussed onboarding kickoff scheduled for next Monday. Contract sent for signature. Ryan committed to returning signed docs within 24 hours.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any last-minute concerns from Mateo or the team?",
+          "answer": "No, everyone's excited to get started. Mateo appreciates the competitive pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "Sarah Chen will be your dedicated CSM for the first 90 days, then ongoing support from our CS team."
+        },
+        {
+          "by": "rep",
+          "question": "Anything else we need to finalize today?",
+          "answer": "No, just get us the final docs and we'll turn them around quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ryan to return signed contract by tomorrow",
+        "Implementation kickoff scheduled for Monday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

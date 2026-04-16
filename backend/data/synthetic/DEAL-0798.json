@@ -1,0 +1,405 @@
+{
+  "deal_id": "DEAL-0798",
+  "company": {
+    "name": "SolarFoundry",
+    "industry": "PropTech",
+    "employee_count": 974,
+    "annual_revenue": 179855176,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20300.0,
+    "seats": 26,
+    "price_per_seat_monthly": 66.38,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.4,
+    "sales_cycle_days": 24,
+    "close_date": "2025-12-19",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sofia Liu",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 3
+    },
+    {
+      "name": "Jordan Suzuki",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 13
+    },
+    {
+      "name": "Leila Sun",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 16
+    },
+    {
+      "name": "Ryan OConnor",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-10-29",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Sofia Liu, Director of CS at SolarFoundry. No answer, left voicemail introducing AskElephant's call recording and coaching capabilities for customer success teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Sofia Liu with personalized message mentioning SolarFoundry's recent CS expansion and how AskElephant helps PropTech teams scale coaching. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Sofia Liu highlighting case study of similar mid-market PropTech company improving CS team performance with call recording. Sofia responded expressing interest in learning more about coaching automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing support stack?",
+          "answer": "Yes, we have native integrations with Salesforce, Zendesk, Intercom, and most major CRM/support platforms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 20.7,
+      "rescheduled": false,
+      "ai_summary": "Email exchange confirming discovery call details. Sofia mentioned she recently joined SolarFoundry as Director of CS and is evaluating tools to standardize coaching across her team of 26 customer-facing reps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks, including integration setup and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Send calendar invite with prep materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-30",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Sofia Liu. Discussed SolarFoundry's current CS challenges: inconsistent call quality across remote team, manual QA process taking 10+ hours/week, and difficulty identifying coaching opportunities at scale. Sofia is 3 months into role and looking to implement scalable coaching infrastructure.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call review and coaching?",
+          "answer": "We manually sample about 5% of calls per rep per month. Our three managers listen and provide feedback in 1-on-1s, but it's very time-intensive and inconsistent."
+        },
+        {
+          "by": "rep",
+          "question": "What outcomes are you hoping to achieve?",
+          "answer": "Primarily faster onboarding for new CS hires and more consistent customer experience. We've grown from 12 to 26 reps in the last year and quality has become inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your AI identify specific coaching moments like objection handling or feature positioning?",
+          "answer": "Yes, our models can detect conversation patterns, objections, competitive mentions, and custom coaching scenarios you define."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sofia to share org chart and involve Sales Manager Leila Sun",
+        "Schedule technical deep-dive on AI coaching features",
+        "Send ROI calculator based on current manual QA time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-30",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call with Sofia Liu and Leila Sun (Sales Manager). Leila manages front-line CS reps and expressed interest in real-time coaching capabilities. Discussion focused on specific use cases: new hire ramp time (currently 8 weeks), pricing objection handling, and product adoption conversations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the coaching automation actually work day-to-day for managers?",
+          "answer": "Managers receive a digest of flagged calls with AI-identified coaching opportunities, plus trend analysis across their team. They can also set up custom alerts for specific scenarios."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "Jordan Suzuki, our SVP of Revenue, will need to sign off on any new revenue tools. Also want to loop in Ryan from RevOps to think through data integration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with full team",
+        "Provide sandbox environment access",
+        "Prepare business case for Jordan Suzuki"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-04",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Sofia Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Sofia Liu, Leila Sun, and Ryan OConnor (RevOps Analyst). Deep dive into platform capabilities, data security, integration architecture, and reporting. Ryan asked detailed questions about Salesforce data flow and analytics customization. Team tested call recording, AI summarization, and coaching workflow features live.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How is the AI trained and how do we ensure it understands PropTech-specific terminology?",
+          "answer": "Our base models are trained on millions of B2B conversations, and we offer custom vocabulary training for your specific domain. We'd ingest sample calls during onboarding to tune for PropTech context."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we control where recordings are stored?",
+          "answer": "Standard retention is 2 years with configurable policies. Enterprise customers can opt for specific regional data storage. All data is encrypted at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we build custom reports that tie coaching metrics to revenue outcomes in Salesforce?",
+          "answer": "Yes, our analytics API allows you to push coaching data back to Salesforce and build custom dashboards. Many customers correlate coaching activity with renewal rates and expansion."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers or concerns from the RevOps perspective?",
+          "answer": "No major blockers. Ryan noted they'd want to run a data privacy review through legal given the call recording aspect, but technical integration looks straightforward."
+        }
+      ],
+      "objections": [
+        "Need to run contract language by legal team for compliance review"
+      ],
+      "next_steps": [
+        "Sofia to schedule exec review with Jordan Suzuki",
+        "Send formal proposal with pricing",
+        "Provide security documentation for legal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-12-08",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Jordan Suzuki",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Jordan Suzuki (SVP of Revenue) and Sofia Liu. Jordan focused on ROI, implementation timeline, and strategic fit with broader revenue operations initiatives. Discussed business case: reducing QA time by 80%, decreasing new hire ramp by 2 weeks, and improving customer retention through consistent service quality.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the total cost for 26 seats with the consulting package?",
+          "answer": "Standard pricing would be $27,200 annually for 26 seats on the Automations Plus tier with implementation consulting included."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this fit with our Q2 budget cycle and what flexibility do you have on pricing?",
+          "answer": "We can work with your budget cycle. For annual commitments, we typically have some flexibility on pricing, especially for strong strategic fit customers like SolarFoundry."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a must-have versus a nice-to-have for Q2?",
+          "answer": "We're scaling CS headcount another 30% in Q3 to support growth targets. If we don't solve the coaching consistency problem now, quality will degrade further and we risk churn in our expansion cohorts."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - Jordan mentioned they're balancing multiple tool investments"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI analysis",
+        "Jordan to review with finance team",
+        "Target decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-14",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Jordan Suzuki",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Meeting rescheduled by Jordan Suzuki - original negotiation call moved back 3 days due to budget planning meeting conflict.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for later in week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Jordan Suzuki",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Rescheduled negotiation meeting with Jordan Suzuki and Sofia Liu. Jordan presented budget constraints and requested pricing concession to fit within approved Q2 spend. Discussed discount options and value justification. Team agreed on $20,300 ACV (25.4% discount) to close in current quarter, with commitment to expand to sales team in Q3.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get to $18,000 for year one with standard ramp pricing in year two?",
+          "answer": "We can't go that low, but we can offer $20,300 for year one with automations plus consulting included. That's our best pricing for the value you're getting."
+        },
+        {
+          "by": "rep",
+          "question": "If we can make this work at $20,300, can you commit to expanding to the sales team in Q3 if the CS rollout is successful?",
+          "answer": "Yes, that's the plan. If we see the ROI we're expecting with CS, we'd absolutely expand to sales. That's another 40+ seats potentially."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation consulting at this price point?",
+          "answer": "Full package: integration setup, custom AI training on your vocabulary, manager training sessions, and 30 days of post-launch support."
+        }
+      ],
+      "objections": [
+        "Initial price too high for current quarter budget - pushed for deeper discount"
+      ],
+      "next_steps": [
+        "Draft contract at $20,300 ACV",
+        "Include expansion language for Q3 sales team rollout",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-12-20",
+      "type": "exec_meeting",
+      "duration_minutes": 14,
+      "person_name": "Jordan Suzuki",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final contract review call with Jordan Suzuki and Sofia Liu. Reviewed terms, implementation timeline, and success metrics. Jordan confirmed budget approval at negotiated price. Discussed kickoff timeline and assigned implementation contacts on both sides. Legal review completed with minor redlines on data processing addendum.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we realistically start the implementation?",
+          "answer": "We can kick off within 5 business days of signed contract. Full implementation typically takes 2-3 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "Who should be our primary point of contact from your team during onboarding?",
+          "answer": "Sofia will be primary stakeholder, with Leila and Ryan supporting on their respective areas. Sofia will own overall success metrics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jordan to route final contract for signature",
+        "Schedule implementation kickoff call",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

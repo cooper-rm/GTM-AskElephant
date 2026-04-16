@@ -1,0 +1,344 @@
+{
+  "deal_id": "DEAL-0201",
+  "company": {
+    "name": "BayForward",
+    "industry": "PropTech",
+    "employee_count": 18,
+    "annual_revenue": 2694782,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3000.0,
+    "seats": 4,
+    "price_per_seat_monthly": 66.41,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.4,
+    "sales_cycle_days": 46,
+    "close_date": "2023-04-27",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Sarah Zhou",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 21
+    },
+    {
+      "name": "Penelope Rodriguez",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sarah Zhou at BayForward expressing interest in CRM automation tools. Brief form submission indicating they're currently evaluating alternatives to their existing setup.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Sarah"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-12",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Sarah Zhou. Discussed BayForward's current CRM workflow and pain points with manual data entry. Sarah mentioned they're a small PropTech team looking to automate call logging and follow-ups. Brief overview of our automation capabilities provided.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for small teams?",
+          "answer": "Seat-based with unlimited automation, starting around $750/seat annually for our standard tier"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving this evaluation now?",
+          "answer": "We're scaling our sales team and can't keep up with manual CRM updates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-18",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call with Sarah. Walked through BayForward's current tech stack and integration needs. Sarah confirmed they're evaluating Fireflies as well. Discussed timeline - hoping to make a decision within 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your integration with Salesforce compare to Fireflies?",
+          "answer": "We offer bi-directional sync and custom field mapping, plus automated workflow triggers that Fireflies doesn't support"
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "Penelope Rodriguez from IT will need to sign off on technical requirements, but I own the budget"
+        }
+      ],
+      "objections": [
+        "Concerned about setup time and technical complexity"
+      ],
+      "next_steps": [
+        "Loop in Penelope for technical discussion",
+        "Schedule demo focused on automation workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-03-25",
+      "type": "follow_up_call",
+      "duration_minutes": 22,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into specific use cases. Sarah walked through their sales process and identified key automation opportunities: call transcription, automatic contact creation, and deal stage progression. Discussed current manual workflows taking 2-3 hours daily across the team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current sales cycle length?",
+          "answer": "Typically 30-45 days for our PropTech customers"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot before committing to the full team?",
+          "answer": "We recommend starting with 4 seats to get meaningful ROI data, but we can discuss phased rollout"
+        }
+      ],
+      "objections": [
+        "Wondering if 4 seats is necessary or if we could start with 2"
+      ],
+      "next_steps": [
+        "Prepare custom demo showing PropTech-specific workflows",
+        "Include Penelope in technical eval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-31",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Sarah and Penelope Rodriguez. Demonstrated live automation workflows, Salesforce integration, and security features. Penelope asked detailed questions about data handling and API reliability. Sarah showed strong interest in email automation capabilities. Walked through implementation timeline and support model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA and how do you handle API rate limits?",
+          "answer": "99.9% uptime SLA with intelligent rate limit management and automatic retry logic"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "2-3 weeks for core setup, 4-6 weeks to full optimization with your workflows"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any specific compliance requirements we should address?",
+          "answer": "Standard SOC 2 compliance is sufficient for our needs"
+        }
+      ],
+      "objections": [
+        "Penelope expressed concern about maintaining another integration if we switch CRMs in the future"
+      ],
+      "next_steps": [
+        "Send technical documentation to Penelope",
+        "Schedule meeting with executive sponsor to discuss budget",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-07",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive alignment meeting was rescheduled by Sarah. She mentioned wanting to include a senior stakeholder but indicated there were competing priorities this week. Proposed new time for the following week to discuss budget and business case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we adjust the agenda to focus on specific executive concerns?",
+          "answer": "Yes, let's focus on ROI projections and integration timeline - I'll confirm who can join"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting",
+        "Send ROI analysis ahead of rescheduled call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-13",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Sarah. Walked through $3,000 annual proposal for 4 seats with unlimited automation tier. Sarah pushed back on price, mentioning Fireflies quote came in lower. Discussed value differentiation around advanced automation and Salesforce integration depth. Sarah requested discount consideration given their company size and budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fireflies' pricing or get closer to their range?",
+          "answer": "Our automation capabilities are more comprehensive, but let me see what flexibility we have for a growing team like yours"
+        },
+        {
+          "by": "rep",
+          "question": "What's your target budget range?",
+          "answer": "Ideally under $2,500 annually, though I understand that may be challenging"
+        }
+      ],
+      "objections": [
+        "Price is higher than Fireflies alternative",
+        "CFO may push back on per-seat cost"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Schedule follow-up to present revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-20",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call presenting revised proposal at $2,238 ACV (25.4% discount) for 4 seats. Sarah appreciated the movement and said this fits within her approved budget range. Discussed contract terms, implementation kickoff timeline, and success metrics. Sarah mentioned she still needs to do a final sync with Penelope and get formal approval, but expressed strong intent to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in for a multi-year commitment or just year one?",
+          "answer": "This is for an annual contract with standard 5% increase cap on renewal"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the onboarding support look like at this tier?",
+          "answer": "Dedicated implementation manager for first 30 days plus ongoing email/chat support"
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal start date?",
+          "answer": "We'd like to kick off within 2 weeks if possible"
+        }
+      ],
+      "objections": [
+        "Concerned about single-year pricing lock versus multi-year discount"
+      ],
+      "next_steps": [
+        "Send formal agreement for review",
+        "Confirm final technical requirements with Penelope",
+        "Schedule contract review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-26",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Sarah Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call addressing contract details and payment terms. Sarah confirmed internal alignment on the $2,238 pricing and 4-seat deployment. Discussed quarterly payment option versus annual upfront. Reviewed implementation timeline and success criteria. Sarah committed to circulating the agreement internally for final signatures.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can accommodate quarterly billing at the same annual rate"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sarah to review contract with legal/finance",
+        "Target signature by end of week",
+        "Plan implementation kickoff call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

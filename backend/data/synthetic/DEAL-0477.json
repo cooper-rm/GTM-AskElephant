@@ -1,0 +1,170 @@
+{
+  "deal_id": "DEAL-0477",
+  "company": {
+    "name": "MomentumRelay",
+    "industry": "SaaS/Tech",
+    "employee_count": 68,
+    "annual_revenue": 11896737,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5500.0,
+    "seats": 9,
+    "price_per_seat_monthly": 53.13,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.3,
+    "sales_cycle_days": 17,
+    "close_date": "2024-03-28",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Luna Anderson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Luna Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Luna Anderson submitted an inbound demo request form expressing interest in call recording and coaching tools for their CS team. Brief form completion, no direct conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Luna"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-11",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Luna Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Luna Anderson to understand MomentumRelay's needs. Luna explained they're a 68-person SaaS company looking to improve CS team coaching and call quality. Currently evaluating Fathom as well. Luna is enthusiastic about features but mentioned limited budget this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording now?",
+          "answer": "We've scaled CS from 3 to 9 reps in 6 months and quality is inconsistent. Need better coaching visibility."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom for 9 seats?",
+          "answer": "Our unlimited automation tier provides more value for teams doing high-volume coaching workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send tailored proposal for 9 seats",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-20",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Luna Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call, originally scheduled earlier but rescheduled by Luna. Discussed pricing for 9-seat unlimited automation plan. Luna expressed strong interest in features but raised budget concerns and mentioned Fathom's lower pricing. Requested significant discount to move forward. No VP or exec involvement mentioned.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's pricing? They're coming in about 40% lower for similar features.",
+          "answer": "We can work on pricing if there's commitment to close this quarter. Let me discuss discount options with my manager."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the final decision?",
+          "answer": "I have budget authority for tools under $10k, so it's really just my call."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom's competitive offer"
+      ],
+      "next_steps": [
+        "Get approval for 40% discount",
+        "Schedule exec alignment meeting if possible",
+        "Send revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-28",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Luna Anderson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended call with Luna to present discounted pricing (40% off to match competitive pressure from Fathom). Luna appreciated the discount and expressed intent to move forward. Discussed implementation timeline and coaching workflows in detail. Still no executive sponsor engaged, but Luna confirmed she has sign-off authority. Some enthusiasm tempered by ongoing Fathom comparison.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline? We need this running before end of quarter.",
+          "answer": "Standard onboarding is 2 weeks. We can prioritize your team for faster deployment if you sign this week."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anyone from your exec team who'd want visibility into this investment before we finalize?",
+          "answer": "Our VP of Customer Success is aware, but trusts my judgment on tooling decisions."
+        },
+        {
+          "by": "prospect",
+          "question": "If we need to add seats mid-contract, how does that work?",
+          "answer": "You can add seats anytime at prorated cost. The unlimited automation tier scales with you."
+        }
+      ],
+      "objections": [
+        "Still comparing final terms with Fathom proposal"
+      ],
+      "next_steps": [
+        "Send contract with approved discount",
+        "Luna to review and confirm by Friday",
+        "Schedule kickoff call pending signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

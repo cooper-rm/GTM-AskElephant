@@ -1,0 +1,320 @@
+{
+  "deal_id": "DEAL-0470",
+  "company": {
+    "name": "SummitRelay",
+    "industry": "SaaS/Tech",
+    "employee_count": 40,
+    "annual_revenue": 6943587,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5900.0,
+    "seats": 7,
+    "price_per_seat_monthly": 68.43,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 23.1,
+    "sales_cycle_days": 45,
+    "close_date": "2023-02-24",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Javier Desai",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 81
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Javier Desai at SummitRelay requesting information about our platform. Expressed interest in improving pipeline visibility for their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-11",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Javier to understand current pain points. SummitRelay is a 40-person SaaS company struggling with forecast accuracy and visibility into deal progression. Javier owns sales ops and is looking for a solution quickly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a new solution right now?",
+          "answer": "Our current spreadsheet-based process is breaking down as we scale. Sales leadership can't get real-time visibility into the pipeline."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration and can sync data bidirectionally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with pricing overview",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with pricing tiers and case study from similar-sized SaaS company. Javier responded asking about implementation timeline and user limits for the unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are live within 2 weeks with our guided onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map out specific workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-22",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on SummitRelay's current workflow and automation needs. Javier walked through their manual pipeline review process and explained they need 7 seats for the sales and RevOps team. Discussed specific automation use cases around deal stage progression and activity tracking.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll be the main point of contact. I can loop in our VP Sales if needed later, but I'm driving this decision."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for our specific sales stages?",
+          "answer": "Yes, the unlimited automation tier gives you full flexibility to create custom rules and workflows."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of quarter, so next 4-6 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare demo environment with SummitRelay data"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-01-29",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session where Javier and two sales reps tested the platform hands-on. Walked through pipeline visibility dashboards, automation builder, and Salesforce integration. Team engaged well with the product and asked detailed questions about specific features. Javier seemed pleased with the flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we set up different automation rules for different deal sizes?",
+          "answer": "Absolutely, you can segment by deal value, stage, or any custom field and apply different rules."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the forecasting feature work?",
+          "answer": "It uses historical close rates by stage and rep to generate weighted forecasts, fully customizable to your methodology."
+        },
+        {
+          "by": "rep",
+          "question": "What do you think? Does this address what you're looking for?",
+          "answer": "Yes, this looks really solid. The automation capabilities are exactly what we need. I want to understand pricing next."
+        }
+      ],
+      "objections": [
+        "One rep noted the UI felt less polished than some other tools they'd seen"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-04",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call to walk through pricing for 7 seats on unlimited automation tier. List price would be $7,680 ACV. Javier expressed concern about budget constraints and asked about flexibility on pricing. Discussed ROI and value drivers, but he remained focused on getting the price down.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on this pricing? Our budget is tighter than I'd like.",
+          "answer": "Let me see what I can do. If you can commit to annual payment upfront, I might be able to offer a discount."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your VP Sales involved to discuss budget and alignment?",
+          "answer": "I can handle the budget conversation. I'd like to see what discount you can offer first."
+        }
+      ],
+      "objections": [
+        "Pricing is above their planned budget allocation for this type of tool"
+      ],
+      "next_steps": [
+        "Loop in leadership to explore pricing options",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-11",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Javier and our VP Sales to discuss strategic value and pricing. Javier walked through SummitRelay's growth goals and how pipeline visibility ties to their revenue targets. Discussion remained centered on Javier's perspective; VP Sales from SummitRelay was not present. Agreed to explore a 23% discount to hit $5,900 ACV to close before quarter end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet us at $5,900 for the first year?",
+          "answer": "That's a significant discount, but given your growth trajectory and the timing, we can make that work for year one."
+        },
+        {
+          "by": "rep",
+          "question": "Will your VP Sales need to sign off on this?",
+          "answer": "I have approval authority up to this amount. I'll handle the internal sign-off."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable moving forward at this price?",
+          "answer": "Yes, I think we can make this work. Let me review the updated proposal and discuss internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal at $5,900",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Sent updated proposal reflecting $5,900 ACV pricing with annual payment terms. Javier acknowledged receipt and said he's working through internal approvals but expects to have answer within a few days.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up mid-week on approval status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-02-24",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Javier Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing finalization call where Javier requested one small adjustment to payment terms (split into two installments instead of full upfront). Agreed to the modification. He confirmed he's ready to move forward and will send signed contract by end of day. No other stakeholders mentioned in final approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we split the annual payment into two installments instead of one upfront?",
+          "answer": "We can do 50% upfront and 50% at the six-month mark. I'll update the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with split payment terms",
+        "Await signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

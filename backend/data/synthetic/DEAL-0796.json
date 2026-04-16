@@ -1,0 +1,186 @@
+{
+  "deal_id": "DEAL-0796",
+  "company": {
+    "name": "HarborVault",
+    "industry": "Healthcare IT",
+    "employee_count": 100,
+    "annual_revenue": 12564328,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5600.0,
+    "seats": 8,
+    "price_per_seat_monthly": 59.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.5,
+    "sales_cycle_days": 17,
+    "close_date": "2023-02-07",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Dylan Watanabe",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 3
+    },
+    {
+      "name": "Elijah Scott",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 35
+    },
+    {
+      "name": "Mia Chen",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Dylan Watanabe",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Dylan Watanabe expressing interest in improving forecasting accuracy for their CS team. Dylan mentioned they're exploring tools to help predict customer churn and resource allocation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-22",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Dylan Watanabe",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Dylan covering current forecasting challenges at HarborVault. Dylan explained they're manually tracking customer health indicators in spreadsheets. Discussed team size (8 CS reps) and budget constraints. Dylan is new to the Director role (3 months) and eager to make an early impact.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for forecasting customer renewals and expansion?",
+          "answer": "We're using a mix of Excel and gut feel. Each CS rep tracks their own accounts differently, so there's no consistency."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration that syncs bidirectionally."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'd like to bring in Elijah from IT to review technical requirements, and Mia from our implementation team to assess rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Dylan and invite Elijah and Mia",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-31",
+      "type": "demo",
+      "duration_minutes": 28,
+      "person_name": "Dylan Watanabe",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo session with Dylan (rescheduled once from previous week). Walked through forecasting dashboard and automation features. Dylan expressed enthusiasm about the unlimited automation tier. Elijah and Mia were not able to attend. Dylan mentioned budget approval would need to happen quickly this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for 8 seats, including data migration and training."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally within the next two weeks. I want to get this in place before end of quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer given we're a smaller healthcare company?",
+          "answer": "Let me discuss with my manager and come back with options on our next call."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to our current budget allocation for CS tools"
+      ],
+      "next_steps": [
+        "Prepare pricing proposal with discount options",
+        "Schedule follow-up with Elijah and Mia included"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-07",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Dylan Watanabe",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing and contract terms. Dylan pushed for 33.5% discount citing budget constraints and SMB status. Discussed implementation timeline and training requirements. Dylan confirmed he can move forward with the deal but noted he'll need to route final approval through Mia for procurement. No executive sponsor mentioned.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match this discount in future renewals if we expand?",
+          "answer": "Renewal pricing is typically based on list price, but we can discuss expansion discounts when the time comes."
+        },
+        {
+          "by": "rep",
+          "question": "Will we be able to get final sign-off from your CFO or VP level before we proceed?",
+          "answer": "I have approval authority for this amount. Mia will just need to process the paperwork on her end."
+        }
+      ],
+      "objections": [
+        "The discount needs to be locked in for this to work within our budget"
+      ],
+      "next_steps": [
+        "Send contract with 33.5% discount for unlimited automation tier",
+        "Dylan to route to Mia for procurement processing",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

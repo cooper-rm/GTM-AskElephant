@@ -1,0 +1,186 @@
+{
+  "deal_id": "DEAL-0345",
+  "company": {
+    "name": "PineMetrics",
+    "industry": "SaaS/Tech",
+    "employee_count": 50,
+    "annual_revenue": 8671209,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6800.0,
+    "seats": 9,
+    "price_per_seat_monthly": 64.89,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.1,
+    "sales_cycle_days": 13,
+    "close_date": "2023-08-26",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Scarlett Santos",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-25",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Scarlett Santos",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Scarlett Santos introducing AskElephant's call recording and coaching platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-27",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Scarlett Santos",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 11.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message sent referencing CS team challenges with coaching at scale. Scarlett responded expressing interest in learning more about automated call analysis capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with existing call systems or require a separate dialer?",
+          "answer": "We integrate with most major telephony and conferencing platforms including Zoom, RingCentral, and Salesforce voice. No need to change your current setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-13",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Scarlett Santos",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute qualification call with Scarlett Santos to discuss PineMetrics' CS coaching needs. Scarlett is new to the Director role (3 months) and looking to standardize coaching across 9 CS reps. Current process is manual review of random calls. Interested in call recording plus AI-generated coaching insights. Budget discussion deferred to later conversation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for a coaching solution right now?",
+          "answer": "I inherited a team with inconsistent customer interactions. We're losing renewal opportunities because reps aren't following best practices. I need visibility and a scalable way to coach."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this rolled out? I have a board review in 6 weeks.",
+          "answer": "Implementation typically takes 1-2 weeks depending on integration complexity. We can prioritize your timeline."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-20",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Scarlett Santos",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "50-minute product demo covering call recording, AI transcription, automated coaching scorecards, and conversation intelligence features. Scarlett engaged throughout, particularly interested in the unlimited automation tier for real-time coaching alerts. Discussed use case of flagging at-risk customer calls. No other stakeholders joined the demo despite invitation sent to VP of Customer Success.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching rubrics or are they fixed templates?",
+          "answer": "Fully customizable. You can build scorecards based on your methodology and success criteria."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Honestly, I have budget authority for tools under $10k. My VP trusts me to make the right call here since I'm closest to the team's needs."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for 9 users?",
+          "answer": "I'll prepare a detailed proposal with a few tier options for our next call."
+        }
+      ],
+      "objections": [
+        "Scarlett mentioned budget is tight this quarter and asked about discount flexibility"
+      ],
+      "next_steps": [
+        "Send pricing proposal",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-26",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Scarlett Santos",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute pricing discussion. Presented $6,800 ACV for 9 seats on unlimited automation plan (27% discount from list to fit budget). Scarlett confirmed this works within her Q2 allocated budget. Discussed implementation timeline to hit her board review deadline. Verbal commitment to move forward, contract to be sent today.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the discount locked in if we want to add seats in Q3?",
+          "answer": "The per-seat rate on this contract will apply to expansion seats added within the first 12 months."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract",
+        "Introduce implementation team",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0430",
+  "company": {
+    "name": "ZenNetworks",
+    "industry": "Vertical SaaS",
+    "employee_count": 42,
+    "annual_revenue": 5441253,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3100.0,
+    "seats": 5,
+    "price_per_seat_monthly": 54.21,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.1,
+    "sales_cycle_days": 39,
+    "close_date": "2023-10-11",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Chloe Costa",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 185
+    },
+    {
+      "name": "Sage Lim",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-16",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Chloe Costa introducing our CRM automation platform and its benefits for sales teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-19",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Chloe Costa. Introduced our CRM automation solution and how it helps sales teams streamline workflows. Chloe expressed initial interest and agreed to continue the conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your solution different from Fireflies?",
+          "answer": "While Fireflies focuses primarily on call transcription, we provide end-to-end CRM automation including automated data entry, workflow triggers, and deep integrations with your existing sales stack."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case studies",
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case studies from similar-sized SaaS companies and proposed times for a qualification call. Chloe responded positively and confirmed a time slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples from companies in our employee range?",
+          "answer": "Yes, attached are two case studies from companies with 40-50 employees who saw 30%+ time savings in CRM admin work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-08",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Chloe Costa to understand current CRM workflows and pain points. Discussed team size (5 sales reps), current manual data entry burden, and use case for automation. Chloe mentioned they're currently evaluating Fireflies but open to alternatives.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with your current CRM process?",
+          "answer": "Our reps spend 2-3 hours per day on manual data entry and updating deal stages. It's killing productivity."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 6 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing tools like Slack and Calendly?",
+          "answer": "Yes, we have native integrations with both platforms, plus we offer unlimited automation workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with IT team",
+        "Send discovery summary and demo agenda"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery call summary and proposed technical evaluation agenda. Requested introduction to IT stakeholder for technical review. Chloe responded and introduced Sage Lim from IT.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Sage Lim"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-18",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Sage Lim",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Sage Lim covering security, integrations, API capabilities, and data handling. Sage thoroughly reviewed our technical architecture and asked detailed questions about data residency and compliance. Demonstrated platform capabilities and unlimited automation tier features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support data residency requirements?",
+          "answer": "Data is stored in AWS US-East region with SOC 2 Type II compliance. We can accommodate EU data residency for enterprise plans."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit on the unlimited automation plan?",
+          "answer": "The unlimited plan has no rate limits on API calls for automation workflows, only a fair use policy for bulk data exports."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare technically to Fireflies in terms of integration depth?",
+          "answer": "Fireflies primarily pushes call transcripts to CRM. We bi-directionally sync data, trigger workflows, and automate field updates based on configurable rules."
+        }
+      ],
+      "objections": [
+        "Need to verify that unlimited automation tier doesn't throttle during peak usage"
+      ],
+      "next_steps": [
+        "Share technical documentation and API specs",
+        "Provide reference customer for technical validation",
+        "Move to proposal stage"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Chloe with proposal for 5 seats on unlimited automation plan at $3,100 ACV. Outlined pricing, implementation timeline, and included technical documentation requested by Sage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing for a longer commitment?",
+          "answer": "Let's discuss on our next call - we can explore options for annual vs. multi-year commitments."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-01",
+      "type": "pricing_call",
+      "duration_minutes": 9,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Chloe to discuss proposal. Chloe mentioned budget constraints and requested a discount to fit within approved budget. Discussed contract terms and implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer for an annual commitment?",
+          "answer": "I can work with our sales leadership to see what we can do. What's your approved budget range?"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to approve this purchase on your end?",
+          "answer": "Just me and Sage from IT. We have budget authority for tools under $5K annually."
+        }
+      ],
+      "objections": [
+        "Initial pricing is above approved budget, need ~40% discount to move forward"
+      ],
+      "next_steps": [
+        "Get discount approval internally",
+        "Send revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal reflecting 39% discount to meet budget requirements. Outlined revised terms and requested confirmation to proceed to contract.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await approval from Chloe and Sage"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-10-10",
+      "type": "negotiation_call",
+      "duration_minutes": 32,
+      "person_name": "Chloe Costa",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Chloe to finalize terms. Discussed revised pricing, implementation timeline, and support SLAs. Chloe confirmed budget approval and technical sign-off from Sage, but mentioned wanting to do a final comparison with Fireflies pricing before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a final decision?",
+          "answer": "We should have a decision by end of next week after we review the Fireflies proposal."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else blocking this from moving forward on your end?",
+          "answer": "No blockers, just want to make sure we're making the right choice. The pricing is now within budget."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you confirm the implementation timeline is still 2 weeks?",
+          "answer": "Yes, we can have you fully onboarded within 2 weeks of contract signature, including team training."
+        }
+      ],
+      "objections": [
+        "Want to compare final pricing and features against Fireflies before signing"
+      ],
+      "next_steps": [
+        "Send competitive comparison document",
+        "Follow up in 3 days",
+        "Prepare contract for signature"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

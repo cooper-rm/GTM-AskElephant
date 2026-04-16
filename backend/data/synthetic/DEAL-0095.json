@@ -1,0 +1,507 @@
+{
+  "deal_id": "DEAL-0095",
+  "company": {
+    "name": "IronDynamics",
+    "industry": "Fintech",
+    "employee_count": 900,
+    "annual_revenue": 154838347,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18500.0,
+    "seats": 22,
+    "price_per_seat_monthly": 71.53,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 19.6,
+    "sales_cycle_days": 56,
+    "close_date": "2024-12-24",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Ivy Friedman",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 42
+    },
+    {
+      "name": "Abigail Cohen",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 49
+    },
+    {
+      "name": "Samuel Evans",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    },
+    {
+      "name": "Sarah Williams",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 14
+    },
+    {
+      "name": "Avery Byrne",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 10
+    },
+    {
+      "name": "Rosa Torres",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Ivy Friedman submitted an inbound request expressing interest in CRM automation solutions for IronDynamics' growing RevOps team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up to schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email acknowledging Ivy's request and proposing times for an initial qualification call to discuss CRM automation needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we schedule for early next week?",
+          "answer": "Absolutely, I have availability Monday or Tuesday morning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-02",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief 9-minute qualification call with Ivy. Discussed IronDynamics' need to automate CRM workflows for their RevOps and CS teams. Ivy mentioned they have 22 potential users and are evaluating automation solutions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your primary pain points with your current CRM setup?",
+          "answer": "Manual data entry is consuming too much time for our RevOps analysts, and we're struggling to maintain data quality as we scale."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting services alongside the automation platform?",
+          "answer": "Yes, we have an automations plus consulting package that includes implementation support and best practices guidance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send overview materials",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email with product overview, case studies from similar fintech companies, and proposed agenda for discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent reminder email with discovery call agenda and requested Ivy invite relevant stakeholders to ensure all use cases are covered.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should I bring our Implementation Lead to the discovery call?",
+          "answer": "That would be great\u2014having technical stakeholders early helps us tailor the solution to your architecture."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed with expanded attendee list"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-15",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "33-minute discovery call with Ivy covering IronDynamics' CRM automation needs in depth. Discussed specific workflows for RevOps analysts, data quality requirements, and integration with existing fintech compliance systems. Ivy confirmed budget authority and mentioned Abigail Cohen (SVP Revenue) would need to approve final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your decision-making process look like for a solution like this?",
+          "answer": "I'll drive the evaluation with our RevOps team and Implementation Lead, but final approval needs to come from Abigail Cohen, our SVP of Revenue."
+        },
+        {
+          "by": "rep",
+          "question": "Are you currently evaluating other automation platforms?",
+          "answer": "Not actively\u2014we received your solution through a referral and wanted to explore it first before looking elsewhere."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For 22 users with consulting, typically 4-6 weeks from kickoff to full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Samuel Evans",
+        "Rep to prepare customized demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email with discovery recap, technical evaluation scheduling links, and customized demo environment credentials for Samuel Evans to review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled with Samuel Evans"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-23",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Samuel Evans",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "41-minute technical evaluation with Samuel Evans (rescheduled from original time). Samuel tested integration capabilities, API documentation, and security compliance features. Discussed data migration approach and ongoing maintenance requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle PII data in compliance with financial regulations?",
+          "answer": "We're SOC 2 Type II certified and offer field-level encryption with configurable retention policies that align with fintech compliance standards."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical API rate limit, and can it scale with our data volume?",
+          "answer": "Standard tier is 10,000 requests per hour, but we can configure enterprise limits based on your projected usage\u2014typically not an issue for 22-seat deployments."
+        },
+        {
+          "by": "rep",
+          "question": "Do you foresee any technical blockers for integration with your current stack?",
+          "answer": "Nothing major\u2014our Salesforce instance is fairly standard. I'd want to review the data migration plan in detail before final sign-off."
+        }
+      ],
+      "objections": [
+        "Need more detailed documentation on data migration process"
+      ],
+      "next_steps": [
+        "Rep to provide detailed migration documentation",
+        "Samuel to share technical assessment with Ivy"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email with comprehensive data migration guide, security documentation, and answers to Samuel's technical questions from the evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Abigail Cohen",
+        "Prepare proposal based on 22 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-02",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Abigail Cohen",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute executive meeting with Abigail Cohen (SVP Revenue) to discuss strategic value and ROI. Abigail confirmed IronDynamics' growth trajectory and need for scalable automation. Discussed how solution aligns with revenue operations efficiency goals.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics are most important for you in evaluating this investment?",
+          "answer": "Time savings for our RevOps team and improved data accuracy\u2014we're losing deals because of sloppy CRM hygiene right now."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI timeline should we expect?",
+          "answer": "Most customers see measurable efficiency gains within 60 days of full deployment, with typical ROI breakeven around 6-8 months."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your consulting engagement work\u2014is it ongoing or just during implementation?",
+          "answer": "Implementation consulting is included in the package, with optional ongoing advisory available quarterly if you need it."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare formal proposal with ROI analysis",
+        "Schedule proposal review with Ivy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-12-03",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "24-minute proposal review call with Ivy (rescheduled from earlier slot). Walked through pricing for 22 seats at $18,500 ACV including automations plus consulting package. Ivy expressed general alignment but indicated need to review budget timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the start date? Our Q2 budget is tight.",
+          "answer": "We can structure the contract to start in Q3 if that helps with budget timing, though we'd want to lock in pricing soon."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any concerns from your team I should address before moving forward?",
+          "answer": "Samuel is comfortable technically. I just need to confirm final budget allocation with Abigail before we proceed."
+        }
+      ],
+      "objections": [
+        "Q2 budget constraints may require delayed start date"
+      ],
+      "next_steps": [
+        "Ivy to confirm budget timing with Abigail",
+        "Schedule negotiation call to finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-12-09",
+      "type": "negotiation_call",
+      "duration_minutes": 38,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "38-minute negotiation call with Ivy to address contract terms and start date flexibility. Discussed payment terms and confirmed Q3 start date works within IronDynamics' budget cycle. Ivy requested minor adjustments to consulting hour allocation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we shift some consulting hours from implementation to post-go-live support?",
+          "answer": "Yes, we can restructure the consulting allocation\u2014say 60% implementation, 40% post-launch support over the first 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "Is the 22-seat count firm, or should we plan for growth?",
+          "answer": "22 is what we need now. We might expand to the full CS team later, but let's start there."
+        },
+        {
+          "by": "prospect",
+          "question": "What are payment terms\u2014net 30?",
+          "answer": "Standard is net 30, though we can accommodate net 45 if that aligns better with your AP cycle."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to revise proposal with adjusted consulting split",
+        "Schedule pricing finalization call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-12-13",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute pricing call with Ivy to finalize contract details. Confirmed $18,500 ACV for 22 seats with restructured consulting hours. Discussed annual vs quarterly billing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer any discount for annual prepayment?",
+          "answer": "We can offer 5% discount for annual prepayment, bringing the total to $17,575."
+        },
+        {
+          "by": "rep",
+          "question": "Would quarterly billing work better for your finance team?",
+          "answer": "Actually, annual prepayment works for us if we can get that discount locked in."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send final contract with annual prepayment discount",
+        "Ivy to route for internal approvals"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-12-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.1,
+      "rescheduled": false,
+      "ai_summary": "Rep sent final contract reflecting $17,575 annual prepayment with Q3 start date, restructured consulting hours (60/40 split), and net 30 payment terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ivy to complete internal approval process",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-12-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ivy Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email checking on approval status and offering to answer any final questions from finance or legal teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await final signature",
+        "Prepare implementation kickoff once contract is signed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

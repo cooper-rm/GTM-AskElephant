@@ -1,0 +1,357 @@
+{
+  "deal_id": "DEAL-0983",
+  "company": {
+    "name": "SolarSoftware",
+    "industry": "SaaS/Tech",
+    "employee_count": 28,
+    "annual_revenue": 4478206,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 11200.0,
+    "seats": 11,
+    "price_per_seat_monthly": 83.12,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 6.6,
+    "sales_cycle_days": 39,
+    "close_date": "2025-01-02",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Ade Schulz",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 21
+    },
+    {
+      "name": "Derek Schneider",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-23",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Ade Schulz at SolarSoftware requesting information about conversation intelligence tools for their sales team. Mentioned they're currently evaluating options to improve pipeline visibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-24",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ade Schulz to understand SolarSoftware's current state and needs. Team of 28 with 11 sales/CS seats needing better pipeline visibility. Currently using basic note-taking, exploring Fathom as alternative. Ade is VP of CS, championing the initiative. Budget appears flexible for the right solution.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for conversation intelligence right now?",
+          "answer": "We're struggling to get consistent visibility into deal health across our pipeline. Sales managers are spending hours in 1-on-1s just to understand where deals actually stand."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating this purchase?",
+          "answer": "Derek Schneider, our Sales Manager, will be the primary user. I'm driving the evaluation from the CS side since we need visibility into handoffs."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's?",
+          "answer": "We offer unlimited automation across all plans, including custom workflows and integrations. Fathom typically limits automation on lower tiers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with pricing overview",
+        "Schedule discovery call with Derek included"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing overview for 11 seats on unlimited automation tier. Included ROI calculator and case study from similar-sized SaaS company. Ade responded confirming interest and availability for next call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the unlimited automation applies to all integrations, including Salesforce?",
+          "answer": "Yes, unlimited automation includes all native integrations including Salesforce, HubSpot, and custom API connections."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-06",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ade to dive deeper into workflow and pain points. Discussed current process for tracking deal health, challenges with manual note-taking, and specific use cases around pipeline reviews. Ade mentioned Derek will join the demo. Some questions about how our automation features compare to Fathom's offering.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current pipeline review process.",
+          "answer": "Derek meets with each rep weekly, manually reviews notes from calls, then updates our forecast spreadsheet. It's incredibly time-consuming and often misses context."
+        },
+        {
+          "by": "prospect",
+          "question": "How accurate is the AI transcription with technical product conversations?",
+          "answer": "Our model is trained on B2B SaaS conversations and maintains 95%+ accuracy even with technical terminology. You can also add custom vocabulary."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most teams are fully onboarded within 2 weeks, with initial recordings available same-day after setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Ade and Derek",
+        "Send technical documentation on automation capabilities"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-09",
+      "type": "demo",
+      "duration_minutes": 25,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ade Schulz. Walked through core features including call recording, AI summarization, automated pipeline updates, and custom workflow automation. Ade engaged throughout, particularly interested in the automated deal health scoring. Asked several detailed questions about Salesforce integration and reporting dashboards. Noted Derek wasn't able to join this session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the fields that get auto-populated in Salesforce?",
+          "answer": "Yes, you can map any AI-extracted data points to custom Salesforce fields through our integration builder."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the deal health scoring actually work?",
+          "answer": "It analyzes sentiment, engagement patterns, competitor mentions, pricing discussions, and stakeholder involvement to generate a real-time risk score."
+        },
+        {
+          "by": "rep",
+          "question": "Would Derek be able to join a follow-up session to see this in action?",
+          "answer": "He's been swamped, but I can walk him through it. Let me loop back on whether he needs a separate session."
+        }
+      ],
+      "objections": [
+        "I want to make sure Derek gets proper exposure to the platform before we move forward"
+      ],
+      "next_steps": [
+        "Send demo recording and feature summary",
+        "Prepare proposal for 11 seats",
+        "Confirm if Derek needs separate session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-20",
+      "type": "proposal_call",
+      "duration_minutes": 10,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ade. Presented $11,200 ACV for 11 seats with unlimited automation tier. Ade receptive to pricing but mentioned need to get final sign-off from leadership. Discussed contract terms and implementation timeline. Ade confirmed Derek reviewed the demo recording and is supportive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical contract length for this pricing?",
+          "answer": "This is based on an annual commitment. We offer quarterly billing if that helps with cash flow."
+        },
+        {
+          "by": "rep",
+          "question": "Who on the leadership team needs to approve this?",
+          "answer": "Our COO typically signs off on tools in this range. I'll need to set up time with her."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment meeting",
+        "Send formal proposal document"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-21",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ade present, but COO did not attend. Ade mentioned the COO had a conflict and asked Ade to evaluate thoroughly. Spent time re-walking through ROI justification and competitive differentiation versus Fathom. Ade asked detailed questions about security and compliance. Discussion felt more cautious than previous calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SOC 2 status and data retention policy?",
+          "answer": "We're SOC 2 Type II certified and offer configurable retention from 30 days to unlimited, with encryption at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "If we went with Fathom instead, what would we actually be missing?",
+          "answer": "Fathom caps automation on their standard tier and charges extra for advanced Salesforce sync. Our unlimited tier includes everything at this price point."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to reschedule with your COO directly?",
+          "answer": "Let me regroup with her and see. She's trusting me to vet this properly."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like?",
+          "answer": "Dedicated onboarding specialist, weekly check-ins for the first month, and ongoing CSM support included in the annual plan."
+        }
+      ],
+      "objections": [
+        "I need to make sure we're getting clear ROI compared to the Fathom option, which is a bit cheaper on the surface"
+      ],
+      "next_steps": [
+        "Send detailed ROI comparison with Fathom",
+        "Attempt to schedule COO directly for brief alignment call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-27",
+      "type": "pricing_call",
+      "duration_minutes": 31,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Ade. Ade pushed back on $11,200 ACV, mentioned Fathom quoted them lower and asked if we could match or get closer. Discussed potential discount scenarios and what value differences justify the price gap. Ade emphasized budget constraints and need to show clear differentiation to justify the investment to leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $11,200 given we're a smaller team?",
+          "answer": "We have some room to work with for annual commitments. What price point would make this an easy yes for your team?"
+        },
+        {
+          "by": "prospect",
+          "question": "If we started with fewer seats, what would the pricing look like?",
+          "answer": "We could do 8 seats at $8,800 annually, but you mentioned needing coverage for the full team."
+        },
+        {
+          "by": "rep",
+          "question": "What did Fathom quote you specifically?",
+          "answer": "Around $8,500 for similar seat count, but their automation features are more limited. I'm trying to get clarity on whether the delta is worth it for us."
+        },
+        {
+          "by": "prospect",
+          "question": "Would a multi-year deal get us better pricing?",
+          "answer": "A two-year commitment could bring it down to $10,200 annually with locked-in pricing and feature upgrades included."
+        }
+      ],
+      "objections": [
+        "The price gap with Fathom is significant and I'm having trouble justifying it internally without executive buy-in",
+        "We're not sure we need all the advanced automation features right out of the gate"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount options",
+        "Provide feature comparison chart versus Fathom",
+        "Attempt one more time to connect with COO or other exec sponsor"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Schulz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal offering $10,200 ACV on two-year commitment, along with detailed Fathom feature comparison showing automation limitations. Also included request to connect with COO or another executive sponsor for final alignment. Ade responded acknowledging receipt and said she'd discuss internally this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal decision",
+        "Follow up end of week if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

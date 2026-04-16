@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0824",
+  "company": {
+    "name": "PrimeNetworks",
+    "industry": "SaaS/Tech",
+    "employee_count": 52,
+    "annual_revenue": 4577741,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5500.0,
+    "seats": 7,
+    "price_per_seat_monthly": 61.64,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.7,
+    "sales_cycle_days": 46,
+    "close_date": "2024-10-09",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Madison Lopez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 14
+    },
+    {
+      "name": "Mason Diallo",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 1
+    },
+    {
+      "name": "Nathan Santos",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Madison Lopez from PrimeNetworks submitted an inbound request expressing interest in CRM automation tools. Initial contact established, moving to qualification.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview and calendar link"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Madison with product overview and case studies focused on CRM automation. Madison responded positively, confirmed pain points around manual data entry, and booked discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call to understand current workflow and pain points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-28",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Madison covering current CRM workflow at PrimeNetworks. Team of ~7 sales reps manually logging activities. Madison mentioned they're also evaluating Fireflies. Discussed use cases for call transcription and automated CRM updates. Madison is VP of Sales and sees strong value but will need IT and procurement involved for evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for logging customer interactions?",
+          "answer": "Mostly manual - reps take notes during calls and update Salesforce afterward, very time-consuming"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies for CRM automation specifically?",
+          "answer": "While Fireflies focuses on transcription, we provide deeper CRM automation including automated field updates, deal intelligence, and custom workflows"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to loop in Mason and Nathan from IT since they handle procurement for SaaS tools"
+        }
+      ],
+      "objections": [
+        "Need to understand pricing - we're a small company so budget is tight"
+      ],
+      "next_steps": [
+        "Send discovery recap and product demo video",
+        "Schedule technical evaluation with Madison and IT team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-06",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to confirm technical evaluation logistics. Madison mentioned Mason and Nathan are available next week. Discussed agenda for technical deep-dive focusing on Salesforce integration and security requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any specific technical requirements or security concerns we should prepare for?",
+          "answer": "Nathan will want to review data security and SOC 2 compliance given we handle customer data"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you send over security documentation ahead of the technical call?",
+          "answer": "Absolutely, I'll send our security whitepaper and SOC 2 report today"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "Confirm technical evaluation meeting with full team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-12",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation rescheduled once due to Nathan's availability. Call covered integration architecture, data security, and live demo of unlimited automation tier. Madison engaged, Mason asked detailed questions about API limits and uptime. Nathan focused on compliance and data residency. Team seemed positive overall but didn't commit to timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits for the unlimited automation plan?",
+          "answer": "No hard limits on the unlimited plan - we dynamically scale based on usage with 99.9% uptime SLA"
+        },
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support data residency requirements?",
+          "answer": "Primary infrastructure is US-based AWS with optional EU data residency available"
+        },
+        {
+          "by": "rep",
+          "question": "Does this solution address your main pain points around manual CRM entry?",
+          "answer": "Yes, the automation capabilities look strong - this would save our team significant time"
+        }
+      ],
+      "objections": [
+        "We're still comparing a few options including Fireflies which has a lower price point"
+      ],
+      "next_steps": [
+        "Send technical evaluation recap",
+        "Prepare pricing proposal for 7 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 9.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with technical evaluation recap, ROI calculator, and request to discuss proposal. Madison responded asking for formal pricing for 7 seats on unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include pricing comparison showing ROI vs. manual entry costs?",
+          "answer": "Yes, I'll include a detailed ROI analysis based on time savings for your 7-person team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal call to review pricing and terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-25",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Madison to review pricing for 7 seats at $5,500 ACV (30.7% discount from list to meet budget constraints). Madison appreciated the flexibility on pricing but mentioned she needs to get final approval from leadership. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your typical approval process for software purchases in this range?",
+          "answer": "Normally I'd have autonomy but with the team size I'll need to run it by our CEO for final sign-off"
+        },
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in if we move forward in the next few weeks?",
+          "answer": "Yes, this proposal is valid for 30 days from today"
+        }
+      ],
+      "objections": [
+        "The discount helps but we need to make sure this is the right investment vs. cheaper alternatives"
+      ],
+      "next_steps": [
+        "Madison to socialize proposal internally",
+        "Schedule executive meeting with CEO if needed"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-10-01",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting scheduled but CEO did not attend - Madison represented leadership. She confirmed team consensus on moving forward but raised concerns about contract terms and annual commitment. Discussed payment terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can accommodate quarterly payments with a small adjustment to the discount structure"
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally want to go live with the platform?",
+          "answer": "Ideally within 2-3 weeks if we can finalize terms"
+        }
+      ],
+      "objections": [
+        "Annual commitment is a concern given we haven't used this type of tool before"
+      ],
+      "next_steps": [
+        "Revise contract with quarterly payment terms",
+        "Schedule final pricing call to close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-08",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Madison Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call to review adjusted terms with quarterly payments. Madison confirmed the pricing works and IT approvals are complete. Discussed implementation kickoff timeline. Madison indicated she'll get final internal sign-off this week but still waiting on CEO to review the contract.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any remaining blockers to moving forward?",
+          "answer": "Just need CEO to review the final contract - should have that done in the next few days"
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like in the first 30 days?",
+          "answer": "You'll have a dedicated onboarding specialist plus our support team available via Slack and email"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for CEO review",
+        "Follow up mid-week on contract status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

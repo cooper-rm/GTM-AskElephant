@@ -1,0 +1,567 @@
+{
+  "deal_id": "DEAL-0438",
+  "company": {
+    "name": "BeaconEngine",
+    "industry": "Healthcare IT",
+    "employee_count": 522,
+    "annual_revenue": 72759987,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13700.0,
+    "seats": 15,
+    "price_per_seat_monthly": 78.18,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 12.2,
+    "sales_cycle_days": 80,
+    "close_date": "2023-06-04",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Ava Sanchez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Liam Diaz",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 33
+    },
+    {
+      "name": "Sage Jones",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Ava Sanchez from BeaconEngine submitted an inbound inquiry about CRM automation capabilities for their healthcare IT operations. Initial interest expressed in streamlining sales processes across their growing team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-16",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ava Sanchez covered current CRM pain points at BeaconEngine. Ava manages a sales team dealing with manual data entry and fragmented communication tracking. Discussed team size (15 users) and automation needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle integration with existing healthcare compliance systems?",
+          "answer": "Our platform supports HIPAA-compliant data handling with SOC 2 certification and flexible API integrations for healthcare-specific systems."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current CRM setup and what's driving the automation need now?",
+          "answer": "We're using a basic CRM but our team spends 10+ hours weekly on manual follow-ups and data entry. We need to scale without adding headcount."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview",
+        "Schedule follow-up to discuss technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-23",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call dove deeper into BeaconEngine's workflow. Ava outlined their sales cycle complexity with multiple stakeholders in healthcare deals. Discussed unlimited automation tier to support their anticipated growth from 522 to 700+ employees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can the automation handle multi-touch sequences with conditional logic based on prospect responses?",
+          "answer": "Yes, our workflow builder supports branching logic, A/B testing, and dynamic content personalization based on engagement signals."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond Ava's team, who else would need to evaluate or approve this?",
+          "answer": "Our CEO Liam Diaz has final approval on software purchases. Sage Jones in IT will need to review security and integration requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Prepare technical documentation for IT review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-03-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Ava summarizing qualification discussions and confirming discovery call agenda. Attached technical integration guide and compliance documentation for Sage's review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have case studies from other mid-market healthcare IT companies?",
+          "answer": "Shared three case studies including a 400-employee health tech company that reduced sales cycle time by 30% with our automation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-03",
+      "type": "discovery_call",
+      "duration_minutes": 28,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call mapped BeaconEngine's complete sales workflow. Ava detailed their challenge with long sales cycles (90-120 days) and difficulty maintaining consistent follow-up across 15 reps. Identified CRM automation as strategic priority for Q2. Discussed reporting needs for forecasting accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics would define success for this automation project?",
+          "answer": "Reducing manual admin time by 50%, improving response rates by 20%, and better visibility into pipeline health for Liam's quarterly reviews."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get the system configured and team trained?",
+          "answer": "Typical implementation is 2-3 weeks with our onboarding team, including custom workflow setup and two training sessions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're targeting implementation by end of Q2, so we'd need to finalize by mid-May to stay on track."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Prepare custom workflow examples for healthcare sales"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery insights and confirming demo scheduled. Shared preliminary workflow mockups tailored to BeaconEngine's healthcare sales process with compliance checkpoints built in.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for following week",
+        "Ava to invite Sage to technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.7,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent with agenda and demo environment login. Included specific use cases based on Ava's discovery input: automated follow-up sequences, compliance tracking, and executive reporting dashboards.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Product demo confirmed for tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-16",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo showcased automation workflows customized for BeaconEngine's use case. Walked through email sequencing, task automation, and analytics dashboard. Ava engaged actively, asking detailed questions about customization and scalability. Positive reaction to UI and ease of configuration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the email templates to match our brand guidelines and compliance language?",
+          "answer": "Yes, full template customization with your branding, and we can lock certain compliance disclaimers to ensure they're always included."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the system handle duplicate detection and data cleanup?",
+          "answer": "Built-in deduplication engine with configurable matching rules, plus automated data enrichment to fill gaps."
+        },
+        {
+          "by": "rep",
+          "question": "What questions do you anticipate from Sage during the technical review?",
+          "answer": "Primarily data security, SSO integration with our existing Okta setup, and API rate limits for our high-volume workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Sage",
+        "Provide API documentation and security certifications"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-22",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ava and Sage Jones. Sage reviewed security architecture, API capabilities, and integration requirements. Discussed SSO setup, data residency options, and HIPAA compliance features. Sage requested additional documentation on disaster recovery and uptime SLAs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your average uptime and do you have a published SLA?",
+          "answer": "99.9% uptime over the past 12 months with a formal SLA guaranteeing 99.5% availability and credits for any downtime."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we test the API integration in a sandbox environment before committing?",
+          "answer": "Absolutely, we provide a full sandbox environment with test data and API access during the evaluation period."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the process for data export if we ever need to migrate away?",
+          "answer": "Full data export in standard formats (CSV, JSON) available anytime through the UI or API, with no lock-in restrictions."
+        }
+      ],
+      "objections": [
+        "Sage noted concern about the learning curve for the team given their current basic CRM usage"
+      ],
+      "next_steps": [
+        "Provide disaster recovery documentation",
+        "Address training approach in proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-04-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ava and Sage with requested technical documentation including DR plan, uptime reports, and training program overview. Addressed Sage's concern about team adoption with phased rollout recommendation and extended training support.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule executive meeting with Liam"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-03",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Liam Diaz",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial executive meeting with Liam Diaz and Ava. Presented business case for CRM automation including ROI projections based on BeaconEngine's current team productivity metrics. Liam focused on strategic value and competitive positioning in their market. Positive engagement on growth enablement themes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this investment compare to hiring another sales ops person?",
+          "answer": "At $13,700 annually versus $80K+ for a full-time hire, the platform delivers 24/7 automation that scales instantly as you add reps."
+        },
+        {
+          "by": "rep",
+          "question": "What's your growth plan for the sales team over the next year?",
+          "answer": "We're planning to add 5-7 reps in the next 12 months as we expand into two new regional markets."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Second exec meeting to review formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-11",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Liam Diaz",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Liam and Ava to review detailed proposal. Discussed unlimited automation tier rationale, seat count for growth, and implementation timeline. Liam asked about contract flexibility and expansion options as team grows. Covered success metrics and quarterly business reviews.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we hire ahead of schedule?",
+          "answer": "Yes, seats can be added anytime with prorated billing for the remainder of the contract term."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ongoing support and optimization do you provide post-implementation?",
+          "answer": "Dedicated CSM for accounts your size, quarterly strategy reviews, and unlimited technical support with 4-hour response time."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything blocking us from moving forward to contracting?",
+          "answer": "Liam wants to review the proposal with our CFO and discuss budget allocation, should have feedback by end of week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await internal budget review",
+        "Schedule follow-up meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-05-13",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Liam Diaz",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Third executive meeting (rescheduled from earlier in week). Liam confirmed budget approval but requested walkthrough of contract terms and implementation milestones. Discussed onboarding timeline coordination with their Q2 planning. Ava and Liam aligned on moving to negotiation phase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the contract annual with auto-renewal or do we renegotiate each year?",
+          "answer": "Standard 12-month term with 30-day opt-out notice before renewal. Pricing typically increases 5-7% annually for inflation."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to reduce seats during the contract?",
+          "answer": "Seats can be reduced at renewal. Mid-contract reductions require 60-day notice and may incur early termination fees for those seats."
+        }
+      ],
+      "objections": [
+        "Liam questioned the annual price increase policy and whether it could be capped"
+      ],
+      "next_steps": [
+        "Schedule pricing call with Ava",
+        "Review contract terms in detail"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-05-20",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Ava to discuss contract structure and address Liam's renewal pricing concern. Explored multi-year options for price stability. Ava indicated preference for annual contract with first-year renewal pricing guarantee to mitigate budget uncertainty.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we lock in pricing for two years instead of facing a potential increase at year one?",
+          "answer": "We can offer a two-year agreement with locked pricing, or guarantee year-two pricing at 5% max increase on an annual contract."
+        },
+        {
+          "by": "rep",
+          "question": "Would a multi-year commitment work better for your planning cycles?",
+          "answer": "Ava prefers annual given their fiscal planning process, but wants the year-two pricing guarantee in writing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise proposal with pricing guarantee",
+        "Schedule final negotiation call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-05-23",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call reviewed revised contract terms including year-two pricing cap at 5%. Discussed payment terms, implementation timeline, and success criteria. Ava requested minor adjustments to onboarding schedule to align with their Q2 kickoff. Both parties aligned on path to signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we split the payment into quarterly installments instead of annual upfront?",
+          "answer": "We can accommodate quarterly payments with a 3% financing fee, or offer a 5% discount for annual prepayment."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns from Liam or Sage we should address before finalizing?",
+          "answer": "Sage is satisfied with technical review. Liam just needs final contract for legal review, should take 3-5 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract with pricing guarantee and quarterly payment option",
+        "Send to BeaconEngine legal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-05-29",
+      "type": "negotiation_call",
+      "duration_minutes": 9,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief negotiation call to confirm final contract details. Ava confirmed legal review complete with minor redline comments on data processing addendum. Addressed quickly, no material changes. Both parties agreed to proceed to signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a 30-day pilot exit clause in case adoption is lower than expected?",
+          "answer": "Given the unlimited tier pricing and onboarding investment, we can offer a 60-day satisfaction guarantee with prorated refund instead of exit clause."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Incorporate 60-day guarantee",
+        "Route for executive signatures"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-06-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ava Sanchez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email sent to Ava with executed contract ready for signature. Included implementation kickoff schedule and CSM introduction. Confirmed all terms including 15 seats, unlimited automation tier, quarterly payments, year-two 5% pricing cap, and 60-day satisfaction guarantee.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await counter-signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

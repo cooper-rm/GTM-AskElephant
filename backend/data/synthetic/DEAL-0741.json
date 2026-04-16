@@ -1,0 +1,310 @@
+{
+  "deal_id": "DEAL-0741",
+  "company": {
+    "name": "OrbitalIntelligence",
+    "industry": "SaaS/Tech",
+    "employee_count": 82,
+    "annual_revenue": 5402748,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 64.67,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.3,
+    "sales_cycle_days": 20,
+    "close_date": "2024-09-30",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ezra Liu",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 33
+    },
+    {
+      "name": "Ryan Torres",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-25",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Ezra Liu at OrbitalIntelligence. No answer, left voicemail introducing our CRM automation platform and mentioning pain points around CS team efficiency.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-28",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ezra introducing our CRM automation solution for CS teams. Highlighted integration capabilities and time-saving benefits. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Second email with case study of similar-sized SaaS company reducing manual CRM work by 40%. Ezra responded expressing interest in learning more about automation capabilities for his CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and support automated follow-up sequences?",
+          "answer": "Yes, we have native Salesforce integration and robust automation workflow builder for follow-ups, task creation, and data enrichment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-06",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Sent calendar invite and prep materials for qualification call. Included overview deck and integration documentation. No confirmation response from Ezra.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-10",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Ezra. Confirmed OrbitalIntelligence CS team manually updates CRM after customer calls, taking 5-8 hours/week. Team of 6 would benefit from automation. Budget conversation deferred to later stage.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for capturing customer interaction data?",
+          "answer": "Manual entry after calls and emails, very time-consuming for the CS team."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system auto-log calls and emails without manual intervention?",
+          "answer": "Yes, automatic activity capture for calls, emails, and meetings with AI-powered summarization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ezra to identify technical stakeholder for deeper eval",
+        "Schedule discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-14",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ezra diving into current workflow pain points. Discussed their CS team's challenges with data consistency and reporting. Ezra mentioned they're also looking at Fireflies but concerned about limited CRM-native features. Reviewed team size (6 CS seats needed) and integration requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What other tools are you currently evaluating?",
+          "answer": "We've been testing Fireflies for call recording, but it doesn't handle the full CRM automation piece we need."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fireflies in terms of CRM integration depth?",
+          "answer": "We're built specifically for CRM automation - native field updates, custom object support, and workflow triggers that Fireflies doesn't offer."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks including Salesforce setup, user training, and custom automation configuration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for full team",
+        "Ezra to loop in Ryan Torres from RevOps for technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-20",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ezra and Ryan Torres (RevOps Analyst). Walked through automation workflows, Salesforce integration, and AI summarization features. Ryan asked detailed technical questions about data model and API capabilities. Ezra enthusiastic about time savings. Ryan noted need to validate security compliance and compare feature parity with Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific automation workflows would deliver the most value for your CS team?",
+          "answer": "Auto-logging customer sentiment, flagging at-risk accounts, and updating health scores after calls."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and do you support SSO?",
+          "answer": "90-day standard retention, customizable up to 2 years. Full SSO support via SAML and Okta integration."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export historical data if we need to migrate in the future?",
+          "answer": "Yes, full data export via API or bulk CSV download at any time."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats later?",
+          "answer": "Flexible per-seat model, you can add seats monthly with prorated billing."
+        }
+      ],
+      "objections": [
+        "Ryan mentioned Fireflies is significantly cheaper and they need to justify the cost difference internally"
+      ],
+      "next_steps": [
+        "Send pricing proposal for 6 seats",
+        "Ryan to complete technical security review",
+        "Ezra to build internal business case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-26",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ezra. Presented initial pricing at $5,775 ACV for 6 seats (automations plus consulting package). Ezra pushed back on price vs. Fireflies, mentioned tight budget constraints. Discussed value of consulting hours and advanced automation features. Agreed to revise proposal with discount to $4,200 ACV to match budget approval threshold.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the consulting package vs. base tier?",
+          "answer": "Consulting includes 10 hours of custom workflow setup, quarterly optimization reviews, and dedicated CSM support."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range has been approved internally?",
+          "answer": "We have approval up to about $4,200 annually. Anything higher needs exec sign-off which could delay."
+        }
+      ],
+      "objections": [
+        "Pricing is 60% higher than Fireflies, difficult to justify without seeing clear ROI"
+      ],
+      "next_steps": [
+        "Send revised proposal at $4,200 ACV",
+        "Ezra to review with finance",
+        "Target close by end of month"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-30",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Ezra Liu",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call with Ezra to finalize terms at discounted $4,200 ACV. Ezra confirmed budget approval and expressed readiness to move forward. However, no executive sponsor joined the call as planned. Ezra mentioned he has verbal approval but formal sign-off is pending. Discussed implementation timeline and onboarding. Agreement to send contract for Ezra's review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will we have exec leadership involved in final approval?",
+          "answer": "I have buy-in from my director, but formal approval process is pretty streamlined here. Should be fine to proceed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract and SOW",
+        "Ezra to route through internal approval",
+        "Target signature within 1 week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

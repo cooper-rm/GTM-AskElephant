@@ -1,0 +1,627 @@
+{
+  "deal_id": "DEAL-0712",
+  "company": {
+    "name": "OrbitChannel",
+    "industry": "Professional Services",
+    "employee_count": 1000,
+    "annual_revenue": 66295891,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18100.0,
+    "seats": 22,
+    "price_per_seat_monthly": 65.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.7,
+    "sales_cycle_days": 101,
+    "close_date": "2025-02-28",
+    "use_case": "CRM automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Mia Lim",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 9
+    },
+    {
+      "name": "Kevin Rodriguez",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound form submission from Mia Lim at OrbitChannel requesting demo. Interested in CRM automation, currently evaluating Chorus. Professional services firm, 1000 employees, looking to automate rep workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-19",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mia (Head of RevOps). OrbitChannel has 22 reps managing enterprise professional services accounts. Looking to automate CRM data entry and call logging. Mia is champion, has budget authority for tools under $25k. Currently trialing Chorus alongside us.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving this evaluation right now?",
+          "answer": "Rep team is spending 2+ hours daily on manual CRM updates, missing follow-ups"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for our team size?",
+          "answer": "We're competitive at this scale, I'll send detailed pricing after discovery"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Attached case study on professional services automation and high-level pricing guide for 20-30 seat deployments.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-28",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current workflow pain points. Mia walked through their rep onboarding process and CRM hygiene issues. Discussed integration requirements with Salesforce and their existing tech stack. No other stakeholders on the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Kevin Rodriguez handles vendor procurement, I'll loop him in before contracting"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our custom Salesforce fields?",
+          "answer": "Yes, our API supports custom field mapping"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 2-3 weeks for your use case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical deep-dive",
+        "Share integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-05",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery session diving into automation workflows. Mia shared specific rep behaviors they want to capture automatically. Discussed unlimited automation tier benefits. Still no exec or end-user participation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a rep join our next call to see the interface?",
+          "answer": "Good idea, but let me see the demo first to make sure it's worth their time"
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation triggers?",
+          "answer": "Fully customizable via our workflow builder"
+        }
+      ],
+      "objections": [
+        "We need to make sure this is intuitive enough that reps will actually use it without constant training"
+      ],
+      "next_steps": [
+        "Schedule demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Email recap of discovery findings and confirmation of demo scheduled. Attached workflow automation examples specific to their use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Reminder email for upcoming demo with agenda. Asked if any other stakeholders should join. Mia confirmed she'll attend solo to evaluate first.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we invite any of your reps or leadership to the demo?",
+          "answer": "Not yet, I want to vet it first"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo tomorrow at 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-20",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled by Mia due to conflict. Moved to later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo rescheduled to Thursday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-27",
+      "type": "technical_eval",
+      "duration_minutes": 51,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Mia. Walked through CRM automation workflows, call transcription, and analytics dashboard. Mia engaged, asked detailed questions about Salesforce sync and data accuracy. Compared features directly to Chorus. Still evaluating both platforms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your call transcription accuracy compare to Chorus?",
+          "answer": "We use the same underlying models, accuracy is comparable at 95%+"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set automation rules by team vs company-wide?",
+          "answer": "Yes, full role-based controls"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA?",
+          "answer": "99.9% guaranteed in our enterprise agreement"
+        }
+      ],
+      "objections": [
+        "The UI feels a bit more complex than Chorus, need to make sure reps won't resist adoption"
+      ],
+      "next_steps": [
+        "Schedule technical eval with sandbox access",
+        "Share technical documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, sandbox credentials, and technical setup guide. Asked about timeline and next steps for technical evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Mia to test sandbox environment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-05",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session. Mia tested sandbox with real Salesforce data. Walked through automation setup and reporting features. Discussed implementation plan and training approach. Mia mentioned Chorus pricing came in lower than expected.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like?",
+          "answer": "Dedicated CSM for first 90 days plus weekly onboarding calls"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline looking like?",
+          "answer": "Need to finalize by end of quarter, comparing final pricing from both vendors"
+        }
+      ],
+      "objections": [
+        "Chorus quoted us about 20% less for similar seat count, need to understand the value difference"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 13.2,
+      "rescheduled": false,
+      "ai_summary": "Email with formal proposal for 22 seats, unlimited automation tier. Standard pricing at $24,700 ACV. Highlighted ROI calculator and implementation timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-01-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 14.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up on proposal. Mia acknowledged receipt but mentioned still reviewing Chorus final offer. Asked about flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to move on pricing to be competitive?",
+          "answer": "Let's schedule a call to discuss, I can work with my manager on this"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proposal call scheduled"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-01-21",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled by Mia, waiting on internal alignment before pricing discussion.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rescheduled to next Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-01-27",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call. Discussed ROI and pricing. Mia transparent about Chorus being $5k less annually. Asked about discount options. Introduced Kevin Rodriguez (procurement contact) who will handle contracting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Chorus pricing?",
+          "answer": "I can bring this to leadership, let me see what's possible"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear win for you over Chorus?",
+          "answer": "Your analytics are stronger, but price matters given our budget constraints"
+        }
+      ],
+      "objections": [
+        "Need to justify the price premium to leadership"
+      ],
+      "next_steps": [
+        "Rep to request discount approval",
+        "Include Kevin on contract discussions"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-02-01",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Mia to align on business value and competitive positioning. Walked through ROI analysis comparing productivity gains. Discussed discount structure to close gap with Chorus. No exec sponsor from OrbitChannel side present, still just Mia.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who on your leadership team should approve this investment?",
+          "answer": "I have approval authority up to $25k, this falls within my budget"
+        },
+        {
+          "by": "prospect",
+          "question": "If you can get closer on price, what's the decision timeline?",
+          "answer": "Could sign within two weeks if we land on terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present revised pricing",
+        "Loop in Kevin for contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-02-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Email with revised proposal at $18,100 ACV (26.7% discount) to align competitively. Highlighted expanded implementation support to justify value. Asked for commitment to close by month-end if terms acceptable.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Mia to review with Kevin"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-02-13",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mia and Kevin. Reviewed revised pricing and contract terms. Kevin raised questions about annual vs multi-year commitment and payment terms. Mia supportive, wants to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment terms instead of annual upfront?",
+          "answer": "We typically require annual, but I can check on quarterly for this deal size"
+        },
+        {
+          "by": "rep",
+          "question": "Are you aligned internally to move forward at this price?",
+          "answer": "Yes, this works for our budget"
+        }
+      ],
+      "objections": [
+        "Annual upfront payment is challenging for our cash flow this quarter"
+      ],
+      "next_steps": [
+        "Confirm payment terms options",
+        "Schedule final pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-02-20",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing and terms call rescheduled by Kevin, finance review taking longer than expected.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rescheduled to later this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-02-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Email confirming quarterly payment terms approved and updated contract sent. Asked for confirmation on timeline to execute.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Kevin to review contract",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2025-02-28",
+      "type": "pricing_call",
+      "duration_minutes": 37,
+      "person_name": "Mia Lim",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing and contracting call with Mia and Kevin. Reviewed all terms, confirmed quarterly payment structure, and implementation timeline. Kevin walked through procurement process and signature authority. Both aligned to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after signature?",
+          "answer": "We can kick off within 3 business days"
+        },
+        {
+          "by": "rep",
+          "question": "Any other internal approvals needed before you can sign?",
+          "answer": "No, we're good to execute once legal reviews the contract"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kevin to route for legal review",
+        "Target signature next week",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "deal_id": "DEAL-0749",
+  "company": {
+    "name": "VortexMetrics",
+    "industry": "Healthcare IT",
+    "employee_count": 41,
+    "annual_revenue": 7031303,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 69.53,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.9,
+    "sales_cycle_days": 55,
+    "close_date": "2024-09-03",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Mateo Jones",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Mateo Jones expressing interest in onboarding automation solutions. Director of Sales at VortexMetrics, a 41-person healthcare IT company. Looking to streamline new hire workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 12.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study from similar healthcare IT company. Mateo responded positively, confirmed availability for qualification call later this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with existing HRIS systems like BambooHR?",
+          "answer": "Yes, we have native integrations with BambooHR, Workday, and other major HRIS platforms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-07-17",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "11-minute qualification call with Mateo. Discussed current manual onboarding process taking 3-4 days per new hire. Team of 8 people involved in onboarding across sales and ops. Timeline to implement is 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're planning to grow headcount by 30% this year and current process won't scale."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model\u2014per user or flat fee?",
+          "answer": "We offer both options. Typically for your size, per-seat pricing with unlimited automation runs works best."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-07-25",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute discovery call diving into specific onboarding workflows. Mateo shared current pain points: inconsistent new hire experience, delayed access provisioning, manual checklist tracking. Confirmed 8 seats needed for sales ops, IT, and HR team members.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can bring in our VP of Ops if needed, but I own the decision for sales tools and automation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fathom? We've been looking at them too.",
+          "answer": "Fathom focuses more on meeting recording and transcription. Our platform is purpose-built for workflow automation, especially onboarding sequences."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally in the next 3-4 weeks so we can implement before Q3 hiring ramp."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare custom demo with VortexMetrics workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-02",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute technical evaluation session. Walked through platform setup, automation builder, and template library. Mateo built a sample onboarding workflow during the call. Discussed integration requirements with BambooHR and Slack. Strong engagement and positive feedback on ease of use.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation templates or are they fixed?",
+          "answer": "Fully customizable. You can start with templates and modify any step, timing, or condition."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "For 8 seats with standard integrations, usually 2-3 weeks from contract signing to full deployment."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "If the pricing works and we can get started by early May, I'm ready to move forward."
+        }
+      ],
+      "objections": [
+        "Need to make sure this fits within our Q2 software budget"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule executive alignment call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal: $6,500 ACV for 8 seats with unlimited automation tier. Mateo acknowledged receipt and mentioned he's reviewing internally, asked about potential flexibility on pricing given budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual price if we commit to a longer term?",
+          "answer": "Let me connect with leadership and see what we can do. Can we schedule a call to discuss?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting to discuss pricing and terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-17",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute executive meeting to discuss business case and ROI. Mateo walked through projected time savings (estimated 15 hours/week across team) and improved new hire satisfaction. Confirmed strong interest but flagged that original pricing is above allocated budget.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is the VP of Ops or anyone from executive team able to join future calls to discuss strategic value?",
+          "answer": "I've briefed them but they're comfortable with me driving this. It's really a sales ops tool decision."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $5,000 annually?",
+          "answer": "That's a significant discount. Let me take this back to my team and see what's possible."
+        }
+      ],
+      "objections": [
+        "Budget approved is closer to $5K, need to make the numbers work"
+      ],
+      "next_steps": [
+        "Review pricing options internally",
+        "Follow up with revised proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-26",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "24-minute negotiation call. Presented revised pricing at $6,500 with 21.9% discount from list ($8,325). Mateo appreciative of the flexibility. Discussed contract terms, implementation support, and onboarding timeline. Agreement to move forward pending final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is implementation support included or is that an additional cost?",
+          "answer": "Included for unlimited tier. You'll have a dedicated implementation specialist for the first 30 days."
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process on your end to finalize?",
+          "answer": "Just need to get final sign-off from finance, should be quick."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we realistically go live if we sign this week?",
+          "answer": "If contracts are signed by end of week, we can target early May go-live as discussed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Schedule pricing alignment call for any remaining questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-02",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Mateo Jones",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "12-minute pricing alignment call (rescheduled from earlier in week). Mateo confirmed finance gave approval for $6,500 pricing. Reviewed contract terms one final time. Discussed payment schedule and renewal terms. Mateo committed to reviewing contract over weekend and returning signed by Monday.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is payment due upfront or can we do quarterly installments?",
+          "answer": "We can accommodate quarterly payments for your contract size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send e-signature contract",
+        "Await signed contract by Monday",
+        "Schedule kickoff call with implementation team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

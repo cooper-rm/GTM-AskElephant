@@ -1,0 +1,206 @@
+{
+  "deal_id": "DEAL-0704",
+  "company": {
+    "name": "CedarPathway",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 14493293,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 5,
+    "price_per_seat_monthly": 56.85,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.1,
+    "sales_cycle_days": 20,
+    "close_date": "2024-12-15",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Luke Khan",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 17
+    },
+    {
+      "name": "Santiago Lopez",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-28",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Luke Khan",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Luke Khan introducing our platform's automation capabilities for revenue operations teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-30",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Luke Khan",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Luke Khan. He expressed interest in learning more about how we help RevOps teams improve rep productivity. Agreed to continue the conversation via email.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest challenges with sales rep productivity right now?",
+          "answer": "We're growing fast and our reps are spending too much time on manual data entry and follow-ups instead of selling."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform specifically help with automation?",
+          "answer": "We automate repetitive tasks like data enrichment, activity logging, and follow-up sequencing so reps can focus on high-value conversations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed product overview via email",
+        "Luke to review with team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luke Khan",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with product overview and case study. Luke responded positively, asking about implementation timeline and requesting a technical evaluation session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 5 seats with unlimited automation, we typically complete onboarding in 2-3 weeks including training and custom workflow setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Share integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-07",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Luke Khan",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed technical evaluation with Luke covering automation workflows, CRM integration, and rep adoption strategies. He was thorough in understanding capabilities and asked about pricing structure. Mentioned they're evaluating budget allocation and may need to discuss with CEO Santiago Lopez.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your automation handle our custom Salesforce fields and workflows?",
+          "answer": "Yes, our platform supports custom field mapping and we can build workflows around your existing Salesforce configuration."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI have similar-sized companies seen?",
+          "answer": "SMB customers typically see 15-20 hours saved per rep per month, which translates to roughly 25-30% more time for active selling."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to move quickly - ideally have something in place within the next month. I'll need to loop in our CEO Santiago for final approval."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 5 seats with unlimited automation?",
+          "answer": "Standard pricing is $5,300 annually, but let me see what we can do given your timeline and growth potential."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - we're a small team and need to be careful with new tool spend"
+      ],
+      "next_steps": [
+        "Prepare custom proposal with pricing options",
+        "Schedule exec meeting with Santiago Lopez",
+        "Share customer references in similar industry"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Santiago Lopez",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with CEO Santiago Lopez and Luke Khan to discuss business impact and finalize terms. Santiago was focused on cost-benefit analysis and negotiated heavily on pricing. Agreed to move forward at $3,400 ACV (36% discount) to close within their budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can we see measurable impact on rep productivity?",
+          "answer": "Most customers see initial time savings within the first two weeks as reps adopt core automation features. Full ROI typically materializes within 60-90 days."
+        },
+        {
+          "by": "rep",
+          "question": "Is the $3,400 pricing workable for your team?",
+          "answer": "Yes, that fits within our Q2 budget. We can commit to that if we can start onboarding next week."
+        }
+      ],
+      "objections": [
+        "The standard pricing is significantly higher than our allocated budget for new tools this quarter"
+      ],
+      "next_steps": [
+        "Send contract for $3,400 ACV, 5 seats, unlimited automation",
+        "Schedule kickoff call for next week",
+        "Luke to coordinate with team on CRM access"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

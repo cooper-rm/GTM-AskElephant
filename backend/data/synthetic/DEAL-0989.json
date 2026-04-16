@@ -1,0 +1,754 @@
+{
+  "deal_id": "DEAL-0989",
+  "company": {
+    "name": "QuantumSolutions",
+    "industry": "Vertical SaaS",
+    "employee_count": 278,
+    "annual_revenue": 56982854,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 28800.0,
+    "seats": 32,
+    "price_per_seat_monthly": 72.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.7,
+    "sales_cycle_days": 85,
+    "close_date": "2025-10-18",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Ruby Tanaka",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 31
+    },
+    {
+      "name": "Ivy Almeida",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 11
+    },
+    {
+      "name": "Nathan Schulz",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-23",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ruby Tanaka (Head of RevOps) expressing interest in onboarding automation. Ruby mentioned current manual processes are slowing down their sales team's ramp time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current state and requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-25",
+      "type": "qualification_call",
+      "duration_minutes": 27,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ruby. Discussed QuantumSolutions' current onboarding challenges\u201432 reps manually creating materials, inconsistent messaging. Ruby confirmed 278 employees, mid-market segment, looking at automation tier. Strong engagement, clear pain points around rep productivity.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current onboarding process for new sales reps?",
+          "answer": "Mostly manual\u2014managers create decks and documents, takes 2-3 weeks before reps are productive"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of timeline are you working with for a solution?",
+          "answer": "Ideally something in place by end of Q2, our hiring ramp starts Q3"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to gather current onboarding materials",
+        "Schedule follow-up to discuss automation scope"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-28",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Ruby shared examples of current onboarding decks and training docs. Discussed scope: 32 seats for sales team, unlimited automation tier to handle multiple playbooks. Ruby mentioned Nathan Schulz (Sales Manager) would be key end user.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Nathan runs the sales team day-to-day, and Ivy Almeida our SVP of Revenue will need to sign off"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform handle different playbooks for different product lines?",
+          "answer": "Yes, unlimited automation tier supports multiple workflows and custom templates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call to map out automation workflows",
+        "Ruby to brief Nathan on the solution"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-31",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ruby. Detailed walkthrough of QuantumSolutions' three product lines and corresponding onboarding needs. Ruby emphasized need for flexibility\u2014each product has different sales motion. Discussed integration requirements with their Salesforce instance and LMS. Strong business case emerging around time-to-productivity.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this project?",
+          "answer": "Cut onboarding time from 3 weeks to under 1 week, consistent messaging across all reps"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the solution integrate with Salesforce and our existing LMS?",
+          "answer": "Native Salesforce integration, LMS connection via API or embed"
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "We're flexible for the right solution, probably in the $25-35K range annually"
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add complexity for managers who already have limited time"
+      ],
+      "next_steps": [
+        "Ruby to audit all current onboarding assets",
+        "Schedule technical discovery for integrations",
+        "Prepare demo focused on multi-playbook automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-08",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick qualification check-in. Ruby confirmed she's compiled the onboarding asset inventory\u2014over 40 different documents and decks currently in use. Reinforced urgency due to Q3 hiring plans (12 new reps). Confirmed Nathan and Ivy are aligned on exploring this solution.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Have you looked at other solutions for this?",
+          "answer": "Not actively\u2014this came through our network and the timing is right"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Usually 2-4 weeks depending on complexity and customization needs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for the following week",
+        "Send over security and compliance documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-11",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call. Ruby asked clarifying questions about user permissions and admin controls. Wanted to understand how managers like Nathan would oversee automation without bottlenecking the team. Positive tone, detail-oriented questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can managers approve or review automated content before it goes out?",
+          "answer": "Yes, configurable approval workflows and audit logs available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Include permissions demo in upcoming presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-18",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to discuss technical integration details. Ruby connected with their IT team\u2014confirmed Salesforce API access available, discussed SSO requirements. Ruby mentioned Ivy is getting more involved and will want to see ROI projections before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have case studies showing time-to-productivity improvements?",
+          "answer": "Yes, several customers have seen 40-60% reduction in onboarding time"
+        },
+        {
+          "by": "rep",
+          "question": "What's Ivy's main concern likely to be?",
+          "answer": "ROI and adoption\u2014she'll want to see this actually gets used and delivers results"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare ROI model based on 32 seats and onboarding time savings",
+        "Schedule demo with focus on metrics and reporting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-19",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick call to finalize demo agenda. Ruby confirmed Nathan will join the demo along with two other sales managers. She's particularly interested in seeing the template builder and analytics dashboard. Mentioned they need to move quickly to hit Q3 timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the demo to show our specific use case?",
+          "answer": "Absolutely, we'll build it around your onboarding scenarios"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week with Ruby and sales manager team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-25",
+      "type": "demo",
+      "duration_minutes": 36,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo with Ruby and Nathan. Walked through multi-playbook automation, template builder, and analytics. Nathan engaged heavily\u2014asked detailed questions about rep experience and mobile access. Ruby focused on admin controls and reporting. Demo ran long due to detailed Q&A. Meeting rescheduled once due to Ruby's conflict.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do reps access this in the field\u2014is there a mobile app?",
+          "answer": "Yes, full mobile app with offline access to key materials"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we A/B test different onboarding approaches?",
+          "answer": "Yes, cohort tracking and comparison built into analytics"
+        },
+        {
+          "by": "rep",
+          "question": "What would be your biggest concern about rolling this out?",
+          "answer": "Adoption\u2014we need the managers to actually use it and not fall back to old habits"
+        }
+      ],
+      "objections": [
+        "Need to make sure the learning curve isn't steep for managers"
+      ],
+      "next_steps": [
+        "Ruby to share demo with Ivy",
+        "Schedule follow-up to discuss pricing and implementation",
+        "Send over customer references in similar verticals"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, ROI calculator, and case studies. Ruby responded positively\u2014said Ivy watched the recording and wants to meet. Nathan also very interested. Ruby asked about pricing structure and contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the pricing look like for 32 seats with unlimited automation?",
+          "answer": "Sent detailed pricing breakdown: $28,800 annually with quarterly payment option"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive meeting with Ivy",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email exchange about contract structure and implementation timeline. Ruby asked about month-to-month vs annual, support SLAs, and training included. Clarified that annual contract includes dedicated CSM and implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a month-to-month option or does it have to be annual?",
+          "answer": "Annual contract preferred for this tier, but can discuss quarterly payments"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to propose meeting times for Ivy"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-09-08",
+      "type": "demo",
+      "duration_minutes": 30,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second demo focused on advanced features and ROI. Ruby brought two additional stakeholders from enablement team. Deep dive into analytics, custom reporting, and integration with their existing tools. Meeting rescheduled once due to scheduling conflicts. Strong engagement, detailed technical questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export data to our BI tool for custom dashboards?",
+          "answer": "Yes, full API access and pre-built connectors for major BI platforms"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and change management support do you provide?",
+          "answer": "Dedicated onboarding, train-the-trainer sessions, and ongoing CSM support"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other solutions you're considering?",
+          "answer": "Not actively evaluating others\u2014focused on making this work if terms are right"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize exec meeting with Ivy for following week",
+        "Prepare formal proposal with implementation timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-09-11",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Ivy Almeida",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Ivy Almeida (SVP of Revenue). Ivy focused heavily on business case\u2014ROI, adoption metrics from other customers, risk mitigation. Discussed strategic importance of faster rep ramp for their growth plans. Meeting rescheduled once. Ivy asked tough questions about implementation disruption and asked to see proposal before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the realistic adoption rate we should expect in the first 90 days?",
+          "answer": "Typically 80-90% for solutions with exec sponsorship and clear change management"
+        },
+        {
+          "by": "prospect",
+          "question": "How do we ensure this doesn't disrupt current onboarding while we transition?",
+          "answer": "Phased rollout approach\u2014pilot with one team, then scale"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you?",
+          "answer": "Clear ROI, minimal disruption, and confidence in the vendor relationship"
+        }
+      ],
+      "objections": [
+        "Concerned about change management and getting managers to adopt new workflows"
+      ],
+      "next_steps": [
+        "Send formal proposal with detailed implementation plan",
+        "Include customer references at similar stage/size"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-09-16",
+      "type": "demo",
+      "duration_minutes": 46,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended demo and working session with Ruby and Nathan. Built out sample automation workflows using their actual onboarding content. Ruby and Nathan very engaged\u2014this hands-on session helped them visualize implementation. Nathan confirmed he's fully on board and will champion internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a pilot for Nathan's team before rolling out company-wide?",
+          "answer": "Absolutely, pilot approach reduces risk and builds internal case studies"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to make changes mid-contract?",
+          "answer": "Unlimited automation tier allows workflow changes anytime, seat adjustments at renewal"
+        },
+        {
+          "by": "rep",
+          "question": "What's the internal approval process from here?",
+          "answer": "Ivy needs to review proposal, then finance sign-off, probably 2-3 weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to circulate proposal to Ivy and finance",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-09-21",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Ivy Almeida",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second executive meeting with Ivy. Reviewed formal proposal and implementation plan. Ivy pushed on pricing\u2014asked about discount for annual prepay and what flexibility exists. Meeting rescheduled once. Discussion became more focused on contract terms and budget approval process. Ivy mentioned competitive budget pressures.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room on pricing if we commit to annual prepayment?",
+          "answer": "Some flexibility possible for annual prepay\u2014can discuss specific terms"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard payment structure?",
+          "answer": "Quarterly payments standard, discount available for annual prepay"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the budget pressure?",
+          "answer": "Multiple initiatives competing for funds this quarter, need to justify each investment"
+        }
+      ],
+      "objections": [
+        "Pricing is at the high end of what was budgeted, need to see if there's flexibility"
+      ],
+      "next_steps": [
+        "Propose pricing options including annual prepay discount",
+        "Ruby to get budget confirmation from finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Email exchange about pricing flexibility. Ruby confirmed budget is approved at $28,800 but Ivy wants to explore if there's room for discount given annual prepay. Sent revised proposal with 8% discount for full annual prepay, bringing total to $26,496.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you get closer to $25K with annual prepay?",
+          "answer": "Proposed $26,496 with annual prepay\u2014this is our best offer for this tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ruby to review discount proposal with Ivy and finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-09-30",
+      "type": "proposal_call",
+      "duration_minutes": 7,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal review call with Ruby. She confirmed the $26,496 pricing works but Ivy wants to stick closer to original $28,800 with quarterly payments for cash flow reasons. Ruby suggested revisiting the discount\u2014they're comfortable at $28,800 with quarterly terms. Quick alignment call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do $28,800 with quarterly payments and lock that in?",
+          "answer": "Yes, that's our standard offering\u2014works for us"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract at $28,800 with quarterly payments",
+        "Schedule exec sign-off meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-10-04",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Ivy Almeida",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ivy to finalize terms. Reviewed contract details, implementation timeline, success metrics. Ivy confirmed budget approval at $28,800 with quarterly payments. Discussed kickoff timeline\u2014target early May to be ready for Q3 hiring. Ivy committed to being exec sponsor and ensuring adoption.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the first 30 days of implementation look like?",
+          "answer": "Discovery and setup week 1, configuration week 2-3, pilot launch week 4"
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact post-sale?",
+          "answer": "Dedicated CSM assigned at contract signature, will join kickoff"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we finalize?",
+          "answer": "Just want to make sure implementation timeline is realistic\u2014can't afford delays"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal review of contract",
+        "Schedule kickoff meeting for first week of May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-10-09",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ruby to work through contract details. Discussed data security terms, SLA commitments, and termination clauses. Ruby's legal team had questions about data retention and export. Worked through redlines collaboratively. Ruby confirmed they're close to signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy after contract termination?",
+          "answer": "90-day retention with full export capability before deletion"
+        },
+        {
+          "by": "prospect",
+          "question": "What are the SLA commitments and remedies?",
+          "answer": "99.5% uptime SLA with service credits for breaches"
+        },
+        {
+          "by": "rep",
+          "question": "Are these the last items before you can sign?",
+          "answer": "Yes, legal is almost done\u2014just need these clarifications"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update contract with agreed terms",
+        "Ruby to do final legal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-10-13",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Ruby Tanaka",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and payment terms finalization call. Ruby confirmed finance approved quarterly payment schedule. Discussed invoice timing, payment methods, and PO process. Aligned on Q1 payment due at signature (May 1), subsequent quarters net-30. Ruby confirmed they're ready to proceed.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust quarterly payment dates to align with our fiscal quarter?",
+          "answer": "Yes, we can align payment schedule with your fiscal calendar"
+        },
+        {
+          "by": "rep",
+          "question": "What's the PO process and timeline?",
+          "answer": "PO generated within 48 hours of signature, finance processes net-30"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final contract sent for signature",
+        "PO to be issued upon signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2025-10-18",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Ivy Almeida",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Final executive alignment meeting with Ivy before signature. Reviewed complete contract, implementation plan, success metrics, and stakeholder commitments. Meeting rescheduled once due to Ivy's conflict. Ivy confirmed full support and commitment to ensuring adoption. Discussed quarterly business reviews and expansion potential if pilot succeeds.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If this goes well with the sales team, could we expand to other departments?",
+          "answer": "Absolutely\u2014many customers start with sales and expand to CS, marketing, etc."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Nathan's team fully adopted, measurable reduction in onboarding time, positive rep feedback"
+        },
+        {
+          "by": "prospect",
+          "question": "When can we get the contract finalized?",
+          "answer": "Sending final version today, can execute by end of week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract signature targeted for Friday",
+        "Kickoff meeting scheduled for May 3",
+        "CSM introduction call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "prospect asked to push by a week"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "deal_id": "DEAL-0017",
+  "company": {
+    "name": "QuartzCloud",
+    "industry": "Professional Services",
+    "employee_count": 30,
+    "annual_revenue": 2853213,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4900.0,
+    "seats": 7,
+    "price_per_seat_monthly": 63.43,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.7,
+    "sales_cycle_days": 24,
+    "close_date": "2024-09-25",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Maria Smith",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 35
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Maria Smith, VP of Customer Success at QuartzCloud. She expressed interest in exploring automation tools to improve rep productivity across her CS team. Requested more information and a call to discuss use cases.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Maria"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-01",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Maria Smith. Discussed QuartzCloud's current CS operations and pain points around manual follow-ups and ticket routing. Maria confirmed budget authority for her team and mentioned they have ~30 employees total with 7 CS team members who would use the platform. Expressed urgency to implement before Q2 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest productivity bottlenecks your CS team faces today?",
+          "answer": "Manual follow-up emails and ticket routing consume about 10-15 hours per rep per week"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementing a solution?",
+          "answer": "Ideally before our Q2 planning in 6 weeks"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Zendesk and Slack?",
+          "answer": "Yes, we have native integrations with both"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule discovery call to map specific workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-08",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute discovery call with Maria to map specific automation workflows. Walked through ticket routing, follow-up cadences, and reporting needs. Maria mentioned she'll need to get approval from leadership but feels confident about the ROI. Discussed pricing tiers briefly - she noted budget is tight this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Just need to run final numbers by our COO, but I own this decision for my team"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the unlimited automation tier include vs professional?",
+          "answer": "Unlimited includes advanced workflow builder, API access, and priority support - recommended for your use case"
+        }
+      ],
+      "objections": [
+        "Budget is constrained this quarter - may need to start with fewer seats or negotiate pricing"
+      ],
+      "next_steps": [
+        "Prepare demo showcasing ticket routing automation",
+        "Share case study from similar-sized professional services company"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo showcasing ticket routing and automation workflows. Maria responded positively, confirming the demo addressed her team's needs. She asked for a formal proposal including pricing for 7 seats on unlimited_automation tier. Mentioned she's ready to move forward pending pricing alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over a formal proposal with annual pricing for 7 seats?",
+          "answer": "Absolutely, I'll have that to you by end of day with implementation timeline"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Provide implementation timeline and onboarding plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on the proposal sent 3 days prior. Maria replied that the list price is higher than expected given budget constraints. She requested best pricing to move forward within the next week. Mentioned this is a priority but needs to make the numbers work.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing to help us get this over the line?",
+          "answer": "Let me discuss with my manager and see what we can do - can we schedule a call to work through this?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule negotiation call",
+        "Prepare discounted pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-25",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Maria Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute negotiation call with Maria to finalize pricing and terms. Discussed her budget constraints and business case for ROI. Agreed to 28% discount bringing ACV to $4,900 to meet her budget approval threshold. Maria committed to moving forward with 7 seats on annual contract, though noted she couldn't loop in executive sponsor at this stage given the smaller deal size. Confirmed she has authority to sign.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to bring in your COO to discuss the strategic value and get their buy-in?",
+          "answer": "Not necessary for this budget level - I have approval authority up to $10K for team tools"
+        },
+        {
+          "by": "prospect",
+          "question": "If we commit to annual upfront, can you get closer to $5K total?",
+          "answer": "Yes, I can do $4,900 annually for 7 seats on unlimited_automation with annual prepay"
+        },
+        {
+          "by": "rep",
+          "question": "What does your procurement process look like from here?",
+          "answer": "Simple - I'll review the contract, get finance to process, should close within a week"
+        }
+      ],
+      "objections": [
+        "Standard pricing is outside our budget comfort zone for a new tool category"
+      ],
+      "next_steps": [
+        "Send updated contract at $4,900 ACV",
+        "Coordinate with Maria on contract review and signatures",
+        "Schedule kickoff call for implementation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

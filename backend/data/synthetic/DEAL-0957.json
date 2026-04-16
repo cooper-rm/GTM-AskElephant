@@ -1,0 +1,367 @@
+{
+  "deal_id": "DEAL-0957",
+  "company": {
+    "name": "TealCloud",
+    "industry": "Professional Services",
+    "employee_count": 397,
+    "annual_revenue": 78706489,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12400.0,
+    "seats": 17,
+    "price_per_seat_monthly": 60.44,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 32.1,
+    "sales_cycle_days": 30,
+    "close_date": "2025-11-20",
+    "use_case": "Pipeline visibility",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lauren Hoffmann",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 25
+    },
+    {
+      "name": "Rosa Huang",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 6
+    },
+    {
+      "name": "Amelia Taylor",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 5
+    },
+    {
+      "name": "Jordan Gonzalez",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 17
+    },
+    {
+      "name": "Elijah Williams",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-25",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call with Lauren Hoffmann, Head of RevOps. She acknowledged current challenges with pipeline visibility and forecasting accuracy. Expressed interest in exploring solutions after mentioning they're currently evaluating a few options. Brief discussion of team size and current tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently managing your revenue forecasting and pipeline visibility?",
+          "answer": "We're using spreadsheets and some basic Salesforce reports, but it's manual and not giving us the real-time insights we need."
+        },
+        {
+          "by": "prospect",
+          "question": "What size companies do you typically work with?",
+          "answer": "We work with companies from 50 to 5,000 employees, with sweet spot in the 200-500 range like yours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 15-minute qualification call for next week",
+        "Lauren to review high-level overview deck sent via email"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-21",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lauren. Discussed team structure (17 revenue team members), current pain points with forecast accuracy, and timeline for implementation (targeting Q2). Lauren mentioned they're looking at Clari as well. Qualified budget authority and decision-making process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Our CEO is frustrated with forecast misses. We missed our Q4 number by 23% and need better visibility before our Series B raise."
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation?",
+          "answer": "I'll be driving it, but our CEO Rosa and IT Director Amelia will need to weigh in, plus getting input from the team members who'll use it daily."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with extended time to dive deeper",
+        "Lauren to share current reporting samples and pain points doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email thanking Lauren for the qualification call. Confirmed discovery call scheduled for next Tuesday. Attached customer case study featuring similar professional services company that improved forecast accuracy by 34%.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the ROI calculator you mentioned?",
+          "answer": "Attached along with the case study. Happy to walk through it on our discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Tuesday 2pm ET",
+        "Lauren reviewing case study and ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-29",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Lauren. Walked through current tech stack (Salesforce, Outreach, Gong), specific forecasting challenges, and data quality issues. Discussed integration requirements with their existing systems. Lauren shared that Clari demo is scheduled for next week. Identified pipeline visibility for professional services projects as unique use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics matter most to Rosa when evaluating forecast accuracy?",
+          "answer": "Commit vs. actual variance, early warning on at-risk deals, and visibility into coverage ratios by segment."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution handle our project-based revenue alongside subscription revenue?",
+          "answer": "Our automations can track both deal types separately and provide unified forecasting. This is actually a differentiator versus Clari for services companies."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 90 days after implementation?",
+          "answer": "Forecast variance under 10%, automated weekly reports to leadership, and reps spending 50% less time on pipeline reviews."
+        }
+      ],
+      "objections": [
+        "Concerned about implementation timeline - can't afford lengthy onboarding with Series B prep underway"
+      ],
+      "next_steps": [
+        "Schedule demo for next Thursday with Lauren and technical team",
+        "Prepare demo focused on professional services use case",
+        "Send implementation timeline comparison"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-03",
+      "type": "demo",
+      "duration_minutes": 59,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Lauren, Amelia (IT Director), and Jordan (Account Manager). Showed core forecasting features, Salesforce integration, and custom dashboards for professional services. Amelia asked detailed questions about data security and API rate limits. Jordan engaged positively on UI and mobile access. Ran through professional services-specific automation workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SOC 2 compliance status and data residency options?",
+          "answer": "SOC 2 Type II certified, data hosted in US with EU options available. Full security documentation can be shared under NDA."
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the dashboard views for different roles?",
+          "answer": "Fully customizable by role with template library. Showed exec view versus rep view examples during demo."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Clari?",
+          "answer": "Clari felt more enterprise-focused and complex. Your UI seems cleaner and the services revenue handling is better for our use case."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we trial this with a subset of our team first?",
+          "answer": "Yes, we can start with 5-10 users as a pilot phase before full rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation to Amelia",
+        "Schedule executive overview with CEO Rosa",
+        "Prepare proposal with pilot and full rollout options"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo. Sent security docs to Amelia, demo recording to full team, and ROI analysis showing $47K first-year value from time savings and forecast improvement. Confirmed executive meeting with Rosa for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Executive meeting with Rosa scheduled for Monday 10am ET",
+        "Lauren preparing internal business case with our ROI numbers",
+        "Amelia reviewing security documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-11-11",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Rosa Huang",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive overview with Rosa (CEO) and Lauren. Presented strategic value proposition focused on Series B readiness and investor confidence in forecast accuracy. Rosa engaged on competitive differentiation and asked pointed questions about professional services revenue tracking. Discussed business impact and timeline to value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What percentage of your customers in professional services see ROI in first 6 months?",
+          "answer": "83% of services customers hit positive ROI within 6 months, primarily through forecast accuracy improvement and reduced revenue leakage."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you differentiate from Clari beyond the services use case?",
+          "answer": "Faster implementation, lower total cost of ownership, and consulting services included in the package versus paid add-on."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need something in place before our June board meeting. Ideally signed by end of month to allow implementation time."
+        }
+      ],
+      "objections": [
+        "Rosa noted the list price seems high compared to Clari's quoted price for similar seat count"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule follow-up to discuss pricing and contract terms",
+        "Lauren to coordinate internal alignment with Amelia and team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-16",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Rosa Huang",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation meeting with Rosa and Lauren. Discussed proposal options and contract terms. Rosa requested discount to match Clari's pricing plus additional consulting hours included. Negotiated on annual vs multi-year commitment and implementation timeline guarantees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include 40 additional consulting hours at this price point?",
+          "answer": "We can include 20 additional hours with a 3-year commitment, or 15 hours with annual."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard payment terms?",
+          "answer": "Annual upfront is standard, but we can accommodate quarterly with 5% higher ACV."
+        },
+        {
+          "by": "rep",
+          "question": "If we meet on pricing, can you move forward this week?",
+          "answer": "Yes, if we're within 10% of Clari's offer and include the consulting hours, we can get it through legal by Friday."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare revised proposal with 32% discount and 20 consulting hours included",
+        "Rosa to confirm budget approval with revised numbers",
+        "Target contract send by Wednesday for Friday signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-11-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lauren Hoffmann",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Lauren with revised proposal reflecting agreed pricing (32% discount, 20 consulting hours included, annual payment terms). Confirmed implementation timeline with go-live target of 6 weeks. Contract and MSA attached for legal review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Lauren routing contract through legal review",
+        "Target signature by end of week",
+        "Implementation kickoff scheduled tentatively for following Monday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

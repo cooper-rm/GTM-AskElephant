@@ -1,0 +1,208 @@
+{
+  "deal_id": "DEAL-0763",
+  "company": {
+    "name": "DeltaVentures",
+    "industry": "Professional Services",
+    "employee_count": 38,
+    "annual_revenue": 7370164,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 63.03,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 29.2,
+    "sales_cycle_days": 16,
+    "close_date": "2025-10-13",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Ravi Wolf",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 19
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ravi Wolf",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ravi Wolf at DeltaVentures expressing interest in improving pipeline visibility. Brief initial touchpoint to schedule discovery call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What prompted you to reach out to us today?",
+          "answer": "We're struggling with pipeline visibility across our sales team and heard good things about your platform."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Wolf",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled. Ravi shared preliminary context about their current stack and mentioned they're also evaluating Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot? That's our CRM.",
+          "answer": "Yes, we have native HubSpot integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ravi to share current pipeline reporting challenges",
+        "Rep to send pre-call questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Wolf",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up after demo. Ravi confirmed interest in unlimited automation tier for 7 seats. Noted budget constraints and timeline to decide by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's forecasting features?",
+          "answer": "Our automation focuses on pipeline health scoring and deal risk signals, while Gong emphasizes conversation intelligence. Many customers use both."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare proposal for 7 seats, unlimited automation",
+        "Ravi to review internally before proposal call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-07",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Ravi Wolf",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled once, then held. Discussed pricing for 7 seats at $5,200 ACV with 29% discount to match budget. Ravi focused on ROI justification and implementation timeline. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you walk me through the onboarding process and timeline?",
+          "answer": "Onboarding typically takes 2-3 weeks with our CSM team handling setup, integrations, and initial training for your team."
+        },
+        {
+          "by": "rep",
+          "question": "Will we have a chance to present to your leadership team before final decision?",
+          "answer": "I have budget approval for this range, so I can move forward once I validate the business case internally."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your standard support package?",
+          "answer": "Email and chat support with 24-hour SLA, plus quarterly business reviews with your dedicated CSM."
+        }
+      ],
+      "objections": [
+        "The list price is higher than expected - we need to stay within our $5K budget for this tool category"
+      ],
+      "next_steps": [
+        "Rep to formalize proposal with discounted pricing",
+        "Ravi to review with finance and confirm by Friday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-13",
+      "type": "exec_meeting",
+      "duration_minutes": 58,
+      "person_name": "Ravi Wolf",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Ravi. Discussed contract terms, payment schedule, and implementation kickoff date. Ravi confirmed internal alignment and intent to move forward pending legal review. Still no executive involvement mentioned.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We typically require annual payment, but can offer semi-annual terms at a 5% increase to the total contract value."
+        },
+        {
+          "by": "rep",
+          "question": "Should we plan to include your VP of Sales in the contract review or kickoff?",
+          "answer": "I'll loop them in once we're ready to kick off - they've delegated this decision to me given the deal size."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the renewal process look like and are there price increases?",
+          "answer": "Renewals are managed by your CSM 60 days before expiration. Pricing typically increases 5-7% annually based on usage and product enhancements."
+        },
+        {
+          "by": "prospect",
+          "question": "If we want to add more seats mid-contract, how does that work?",
+          "answer": "We prorate additional seats based on remaining contract term and they're billed immediately."
+        }
+      ],
+      "objections": [
+        "We need to stick with annual payment terms - semi-annual pricing doesn't work for our budget"
+      ],
+      "next_steps": [
+        "Rep to send final contract with annual payment terms",
+        "Ravi to route through legal (1-2 week review expected)",
+        "Target signature by end of next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

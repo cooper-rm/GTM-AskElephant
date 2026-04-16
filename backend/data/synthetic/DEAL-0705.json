@@ -1,0 +1,339 @@
+{
+  "deal_id": "DEAL-0705",
+  "company": {
+    "name": "GoldenStack",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 78,
+    "annual_revenue": 11744894,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6500.0,
+    "seats": 9,
+    "price_per_seat_monthly": 58.28,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.5,
+    "sales_cycle_days": 31,
+    "close_date": "2025-03-10",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Leila Kapoor",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 6
+    },
+    {
+      "name": "Riley Nguyen",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 34
+    },
+    {
+      "name": "Isabella Silva",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-12",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call with Leila Kapoor (Head of RevOps). Brief intro to AI-powered conversation intelligence. Leila expressed interest in better pipeline visibility for their sales team. Scheduled follow-up for next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently tracking pipeline health and deal progress?",
+          "answer": "We're using basic CRM reporting but lack real visibility into conversation quality and deal risks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview email with product materials",
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, case studies from similar-sized MSPs, and calendar link. Leila responded confirming Tuesday qualification call and asked about integration with their existing stack.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce and our dialer?",
+          "answer": "Yes, native Salesforce integration and works with all major dialers"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday 2pm ET"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-10",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Leila. Discussed current process using Fathom for recording but lack of analytics/insights. Team of 9 AEs/SDRs struggling with pipeline forecasting accuracy. Leila owns RevOps, reports to CRO. Budget approved for conversation intelligence tool this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working and not working with Fathom currently?",
+          "answer": "Recording works fine but we get no actionable insights - just transcripts we don't have time to read"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 90 days?",
+          "answer": "Better forecast accuracy and visibility into which deals are actually progressing vs stalled"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "2-3 weeks for full rollout with 9 seats"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Leila to introduce Riley (IT Director) for technical evaluation",
+        "Schedule demo/eval session for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email recap of qualification call sent with ROI calculator, technical requirements doc, and security questionnaire. Leila confirmed Riley's availability and forwarded materials to him. Technical eval scheduled for Thursday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation with Riley on Thursday",
+        "Leila will join for first 15 minutes"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-02-20",
+      "type": "technical_eval",
+      "duration_minutes": 64,
+      "person_name": "Riley Nguyen",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep technical evaluation with Riley Nguyen (IT Director). Reviewed data security, compliance (SOC2, GDPR), API capabilities, Salesforce sync architecture, and SSO setup. Riley tested recording quality and transcript accuracy. Discussed data retention policies and admin controls for their cybersecurity requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is call data stored and can we control retention policies?",
+          "answer": "AWS US region, configurable retention from 30 days to indefinite, full admin control"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI scoring work and can we customize the criteria?",
+          "answer": "XGBoost model trained on deal outcomes, customizable to your sales methodology and key behaviors"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about migrating from Fathom?",
+          "answer": "Not really, we can run both in parallel during transition if needed"
+        }
+      ],
+      "objections": [
+        "Need to review data processing agreement with our legal team before final approval"
+      ],
+      "next_steps": [
+        "Riley to share DPA with legal",
+        "Schedule executive alignment meeting with CRO",
+        "Provide pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-25",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Leila to discuss pricing and business case. Presented $9,900 ACV proposal for 9 seats. Leila indicated budget constraints and asked about discount options. Discussed ROI based on forecast accuracy improvements. No CRO attendance despite being listed on invite.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing given we're moving from a cheaper tool?",
+          "answer": "Let me see what flexibility we have - what budget range were you targeting?"
+        },
+        {
+          "by": "rep",
+          "question": "When does the CRO typically join deal reviews?",
+          "answer": "He's been slammed, I can drive this through - I have budget authority up to $10k"
+        }
+      ],
+      "objections": [
+        "Price is higher than current Fathom spend, need to justify the delta"
+      ],
+      "next_steps": [
+        "Rep to come back with revised pricing",
+        "Leila to build internal business case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-02",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled exec meeting (Leila had conflict). Brief check-in call instead. Leila mentioned legal is still reviewing DPA and she's working on the business case. Asked for more competitive differentiation vs Fathom to help with internal discussions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the clearest way to explain the value difference between you and Fathom?",
+          "answer": "Fathom is transcription, we're intelligence - predictive deal scoring, automated risk flags, pipeline analytics"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule full exec meeting for next week",
+        "Send competitive comparison doc"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-04",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second rescheduled exec meeting (legal review taking longer). Leila apologized for delays. Discussed quarter-end timing pressure. Rep offered 34.5% discount to $6,500 ACV to close this month. Leila seemed relieved by pricing but mentioned need to finalize DPA first.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can get legal cleared this week, can you commit to closing by month-end?",
+          "answer": "Yes, if the DPA is approved and this pricing holds, I can get it through"
+        },
+        {
+          "by": "prospect",
+          "question": "Does this discount lock us into annual only or can we do monthly?",
+          "answer": "Annual commitment required for this pricing"
+        }
+      ],
+      "objections": [
+        "Still waiting on legal approval for data processing terms"
+      ],
+      "next_steps": [
+        "Rep to follow up with legal review",
+        "Leila to get final approval assuming DPA clears",
+        "Target contract signature by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-10",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Leila Kapoor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Leila. Legal approved DPA with minor redline. Finalized contract terms at $6,500 ACV, 9 seats, annual commitment. Discussed implementation timeline and onboarding plan with Isabella Silva (Implementation Lead) joining Q2. Leila signed verbal commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-year if the team grows?",
+          "answer": "Yes, prorated to your renewal date at the same per-seat rate"
+        },
+        {
+          "by": "rep",
+          "question": "Who should we work with on implementation kickoff?",
+          "answer": "Isabella Silva will be your main point of contact, she runs implementations for all our tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with legal redlines incorporated",
+        "Leila to sign by EOD Wednesday",
+        "Schedule implementation kickoff with Isabella for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 73,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "deal_id": "DEAL-0591",
+  "company": {
+    "name": "CoreEdge",
+    "industry": "Vertical SaaS",
+    "employee_count": 304,
+    "annual_revenue": 21644928,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20400.0,
+    "seats": 25,
+    "price_per_seat_monthly": 66.52,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.3,
+    "sales_cycle_days": 29,
+    "close_date": "2025-08-03",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Sebastian Agarwal",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 44
+    },
+    {
+      "name": "Luke Osei",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 18
+    },
+    {
+      "name": "Ivy Tran",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Sebastian Agarwal expressing interest in CRM automation for their sales team. Brief intake form submitted via website.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-05",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Sebastian to understand CoreEdge's current CRM workflow and automation needs. Sebastian described manual data entry pain points across their 25-person sales team and interest in workflow automation. Discussed basic fit and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "Our sales team is spending 4-5 hours per week on manual data entry and follow-ups. We need to scale without adding headcount."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing vertical SaaS stack?",
+          "answer": "Yes, we have native integrations with most major platforms and a flexible API for custom connections."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send integration overview doc",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with integration documentation and use case examples for vertical SaaS companies. Sebastian responded confirming receipt and availability for discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have case studies from similar-sized vertical SaaS companies?",
+          "answer": "Attached three case studies including a 300-person company in the healthcare vertical."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-15",
+      "type": "discovery_call",
+      "duration_minutes": 2,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call to confirm meeting details and share agenda. Sebastian mentioned he'd like to loop in IT and procurement stakeholders after initial demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proceed with demo as scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-18",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on unlimited automation tier features. Sebastian was engaged, asked detailed questions about workflow builders and reporting. Expressed strong interest in moving forward but noted budget approval would require IT Director and Account Manager sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation workflows for our specific sales process?",
+          "answer": "Fully customizable via drag-and-drop builder, plus pre-built templates for common B2B scenarios."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of training and onboarding is included?",
+          "answer": "Unlimited tier includes dedicated onboarding, live training sessions, and ongoing support."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "I'll need buy-in from Ivy Tran in IT and Luke Osei who handles vendor contracts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo recording and feature breakdown",
+        "Introduce Ivy and Luke to evaluation process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-21",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Sebastian to align on business case and ROI. Discussed implementation timeline and success metrics. Sebastian confirmed strong internal support from sales team but mentioned executive sponsorship would be light due to other Q2 priorities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this implementation in the first 90 days?",
+          "answer": "Reduce manual CRM tasks by 50% and improve lead response time to under 2 hours."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 3-4 weeks from contract signature to full team rollout."
+        },
+        {
+          "by": "rep",
+          "question": "Will you have executive sponsorship for this initiative?",
+          "answer": "The VP of Sales is aware and supportive, but won't be directly involved day-to-day. This is my initiative to drive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with ROI breakdown",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-25",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Sebastian. Walked through pricing for 25 seats on unlimited automation tier. Sebastian expressed concern about budget constraints and asked about flexible pricing options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing if we commit to annual?",
+          "answer": "We can offer volume discounting for annual commitments. Let me work up some options."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier versus lower tiers?",
+          "answer": "Unlimited workflows, advanced analytics, API access, and priority support versus caps on the starter/pro tiers."
+        }
+      ],
+      "objections": [
+        "The list price is above our allocated budget for this quarter"
+      ],
+      "next_steps": [
+        "Prepare revised pricing scenarios",
+        "Loop in Luke from procurement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-29",
+      "type": "pricing_call",
+      "duration_minutes": 3,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pricing discussion with Sebastian. Confirmed budget constraints and competitive pressure to close before quarter-end. Sebastian requested formal discount to make internal numbers work.",
+      "questions_asked": [],
+      "objections": [
+        "Need to see meaningful discount to get this approved by finance"
+      ],
+      "next_steps": [
+        "Escalate pricing discussion internally",
+        "Schedule negotiation call with procurement team"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-04",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Sebastian Agarwal",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Sebastian and Luke from procurement. Agreed to 25% discount to close deal before quarter-end. Discussed contract terms, payment schedule, and implementation kickoff timeline. Luke raised questions about SLA guarantees and data security compliance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your uptime SLA guarantees and remediation if you miss them?",
+          "answer": "99.9% uptime SLA with service credits for any downtime exceeding threshold."
+        },
+        {
+          "by": "prospect",
+          "question": "Are you SOC 2 Type II certified?",
+          "answer": "Yes, current certification available upon request along with our security documentation."
+        },
+        {
+          "by": "rep",
+          "question": "Can you commit to contract signature by end of week to hit implementation timeline?",
+          "answer": "Yes, pending final legal review, we can turn this around in 2-3 business days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with discount applied",
+        "Coordinate legal review with both teams"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

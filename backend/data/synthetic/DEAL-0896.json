@@ -1,0 +1,294 @@
+{
+  "deal_id": "DEAL-0896",
+  "company": {
+    "name": "BirchChannel",
+    "industry": "Fintech",
+    "employee_count": 45,
+    "annual_revenue": 7237490,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3500.0,
+    "seats": 6,
+    "price_per_seat_monthly": 51.86,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 41.7,
+    "sales_cycle_days": 30,
+    "close_date": "2024-11-19",
+    "use_case": "Rep productivity",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Avery Klein",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 22
+    },
+    {
+      "name": "Reese Abiola",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 40
+    },
+    {
+      "name": "Sage Watson",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 23
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-05",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Avery Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.6,
+      "rescheduled": false,
+      "ai_summary": "Avery responded positively to LinkedIn outreach about improving rep productivity. Expressed interest in learning how AskElephant differs from their current Chorus setup.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-20",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Avery Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Avery. BirchChannel has 6 sales reps struggling with manual CRM updates and inconsistent follow-up tracking. Currently using Chorus but finding it limited for workflow automation. Avery sees value in unified conversation intelligence + automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant's automation differ from Chorus?",
+          "answer": "Chorus focuses primarily on conversation intelligence, while AskElephant combines that with unlimited workflow automation to eliminate manual CRM work entirely."
+        },
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with your current setup?",
+          "answer": "Reps spend 2-3 hours daily on manual data entry and our Chorus insights don't actually drive action in the CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule discovery call with broader context"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-26",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Avery Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call explored BirchChannel's sales process in depth. Avery walked through their current tech stack (Salesforce, Chorus, Outreach) and identified gaps in automation. Team of 6 reps closing $2M ARR annually. Strong interest in unlimited automation tier to handle complex fintech compliance workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your ideal post-call workflow look like?",
+          "answer": "Call ends, CRM updates automatically, follow-up email drafted with compliance-approved language, next task queued for the rep\u2014zero manual work."
+        },
+        {
+          "by": "prospect",
+          "question": "Can AskElephant handle compliance-sensitive language in our fintech vertical?",
+          "answer": "Yes, we support custom glossaries and approval workflows to ensure all auto-generated content meets regulatory requirements."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For a 6-seat deployment, typically 2-3 weeks including integration testing and rep training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Sage from RevOps for technical evaluation",
+        "Prepare custom demo with Salesforce integration"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-01",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Sage Watson",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Sage Watson. Deep dive into Salesforce API integration, data security protocols, and automation builder UI. Sage tested custom workflow creation for their compliance use case. Expressed concern about learning curve for non-technical reps but impressed with template library.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data does AskElephant store and where is it hosted?",
+          "answer": "Call transcripts and metadata are encrypted at rest in SOC 2 compliant AWS infrastructure. Data residency options available for enterprise plans."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we build conditional workflows based on deal stage?",
+          "answer": "Yes, the automation builder supports conditional logic, stage-based triggers, and custom field mappings."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're evaluating two solutions and want to decide by end of month to start Q2 with the new tool in place."
+        }
+      ],
+      "objections": [
+        "Concerned about rep adoption if the UI is too complex"
+      ],
+      "next_steps": [
+        "Send security documentation",
+        "Schedule follow-up session to test rep-facing UI"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-07",
+      "type": "technical_eval",
+      "duration_minutes": 59,
+      "person_name": "Sage Watson",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical session with Sage focused on user experience and change management. Walked through rep-facing mobile app, Slack integration, and pre-built templates. Sage tested scenario where rep joins call late\u2014system still captured context accurately. Requested pricing to compare against Chorus renewal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we migrate from Chorus, can we import historical call data?",
+          "answer": "Yes, we support bulk import from Chorus and can preserve metadata like tags and playlists."
+        },
+        {
+          "by": "prospect",
+          "question": "What does ongoing support look like for the unlimited automation tier?",
+          "answer": "Dedicated Slack channel, quarterly business reviews, and priority support with 4-hour SLA."
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating other tools besides Chorus?",
+          "answer": "We looked at Gong briefly but Chorus is the incumbent. Honestly, we're frustrated with their lack of automation features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Receive formal proposal with pricing",
+        "Loop in Reese (CRO) for executive alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-13",
+      "type": "negotiation_call",
+      "duration_minutes": 39,
+      "person_name": "Avery Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call with Avery, rescheduled from previous week. Discussed pricing\u2014initial proposal at $6,000 ACV felt high compared to Chorus renewal quote. Avery advocating internally but needs discount to get deal approved. Mentioned budget constraints and asked about multi-year discount options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 3-month pilot before committing to annual?",
+          "answer": "Our standard contract is annual, but we can explore a pilot structure with conversion terms if that helps move this forward."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your CRO?",
+          "answer": "Honestly, price. Reese is asking why we'd pay nearly double Chorus if the core call intelligence is comparable."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the $6K price for our team size?",
+          "answer": "Let me discuss with leadership. For a multi-year commitment, we may be able to offer a discount."
+        }
+      ],
+      "objections": [
+        "Price is significantly higher than Chorus renewal"
+      ],
+      "next_steps": [
+        "Propose discounted pricing at $3,500 ACV",
+        "Schedule final call with Reese to close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-19",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Avery Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Avery. Presented revised pricing at $3,500 ACV (41.7% discount) to match budget constraints. Avery confirmed Reese verbally approved at this price point. Discussed contract terms, implementation kickoff timeline, and success metrics. Avery committed to sending signed contract within 48 hours.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if the pilot goes well with the initial 6 reps?",
+          "answer": "Absolutely, seat expansion is prorated and can be added anytime during the contract term."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this implementation successful in your eyes?",
+          "answer": "If reps save 10+ hours per week on admin work and our CRM data quality improves measurably in the first 60 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Introduce implementation team",
+        "Schedule kickoff for week of May 1st"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

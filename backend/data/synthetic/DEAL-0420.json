@@ -1,0 +1,274 @@
+{
+  "deal_id": "DEAL-0420",
+  "company": {
+    "name": "KineticAnalytics",
+    "industry": "Vertical SaaS",
+    "employee_count": 41,
+    "annual_revenue": 5223731,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 9700.0,
+    "seats": 11,
+    "price_per_seat_monthly": 69.88,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 21.5,
+    "sales_cycle_days": 26,
+    "close_date": "2025-04-02",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "David Huang",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Savannah Diaz",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 22
+    },
+    {
+      "name": "Sebastian Anderson",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-12",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to David Huang introducing AskElephant's call recording and coaching capabilities for sales teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-13",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Attempted cold call to David Huang. No answer, left voicemail highlighting call intelligence platform for revenue teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email referencing previous outreach. David responded expressing interest in learning more about automating call coaching for his team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share more about how the coaching automation works?",
+          "answer": "Scheduled qualification call to discuss"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-07",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with David Huang. Discussed current coaching challenges with 11-person sales team. David mentioned they lack systematic call review process and it's consuming manager time. Confirmed budget authority sits with VP Sales but IT will need to review security.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call coaching?",
+          "answer": "Manual, managers listen to calls when they have time, very inconsistent"
+        },
+        {
+          "by": "rep",
+          "question": "How many reps would use this?",
+          "answer": "11 seats for the full sales team"
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing CRM and call systems?",
+          "answer": "Yes, we have native integrations with major platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call to review use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-16",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on technical requirements and workflow. David walked through their sales process and pain points around coaching consistency. He's enthusiastic about automation features but mentioned Savannah from IT will need to review security docs before moving forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics matter most for your coaching program?",
+          "answer": "Talk-listen ratio, objection handling, discovery question quality"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Usually 2-3 weeks for initial setup, 4-6 weeks to full adoption"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation to IT",
+        "Prepare proposal with unlimited automation tier",
+        "Schedule proposal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-25",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with David. Walked through pricing for 11 seats on unlimited automation plan. David expressed concern about budget - mentioned he has approval for coaching tools but this is higher than expected. Asked about discount options. Also noted he hasn't looped in executive leadership yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing?",
+          "answer": "We can explore volume discounting and discuss payment terms"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the final decision?",
+          "answer": "Just me and IT for approval, I own the budget for sales tools"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier vs basic?",
+          "answer": "Unlimited custom scorecards, automated coaching alerts, and advanced analytics"
+        }
+      ],
+      "objections": [
+        "Pricing is above the allocated budget for coaching tools"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with discount options",
+        "Get security sign-off from Savannah",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-30",
+      "type": "negotiation_call",
+      "duration_minutes": 42,
+      "person_name": "David Huang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation call with David and Savannah from IT joining for security questions. Savannah asked detailed questions about data retention and SOC 2 compliance. David pushed for deeper discount citing budget constraints. Discussed moving from $12,400 list to $9,700 final price (21.5% discount). David committed to moving forward at that price point. Sebastian from RevOps briefly joined to understand reporting capabilities but didn't have strong opinions. Deal terms finalized pending contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where is data stored?",
+          "answer": "30-day retention standard, 90-day available, AWS US-East, SOC 2 Type II certified"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get to $9,500 for 11 seats?",
+          "answer": "We can do $9,700 as final price, that's our floor for unlimited automation"
+        },
+        {
+          "by": "prospect",
+          "question": "What reports can we export to our data warehouse?",
+          "answer": "All call transcripts, scores, and metadata via API or scheduled exports"
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to start onboarding?",
+          "answer": "Ideally within 2 weeks of contract signature"
+        }
+      ],
+      "objections": [
+        "Need lower pricing to fit within approved budget"
+      ],
+      "next_steps": [
+        "Send final contract at $9,700 ACV",
+        "Coordinate security review completion",
+        "Schedule kickoff call pending signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 98,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

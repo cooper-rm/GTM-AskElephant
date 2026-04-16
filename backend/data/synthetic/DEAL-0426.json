@@ -1,0 +1,508 @@
+{
+  "deal_id": "DEAL-0426",
+  "company": {
+    "name": "SolarVision",
+    "industry": "SaaS/Tech",
+    "employee_count": 3644,
+    "annual_revenue": 329648141,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 80800.0,
+    "seats": 62,
+    "price_per_seat_monthly": 107.42,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 87,
+    "close_date": "2025-09-16",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Alex Morgan",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Morgan Okafor",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 20
+    },
+    {
+      "name": "Hazel Lima",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-14",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email to Alex Morgan introducing our revenue intelligence platform. Highlighted pain points around pipeline visibility and forecasting accuracy. Alex responded positively, expressing interest in learning more about how we differentiate from their current evaluation of Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-21",
+      "type": "qualification_call",
+      "duration_minutes": 27,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Alex Morgan (VP of CS). Discussed SolarVision's current challenges with pipeline visibility across their 3600+ employee organization. Alex mentioned they're evaluating Gong but concerned about implementation complexity. Confirmed budget authority sits with Morgan Okafor (COO). Alex is motivated to find a solution before Q3.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle multi-product pipeline tracking across different sales teams?",
+          "answer": "Our unlimited automation tier allows you to create custom pipeline views for each product line and sales segment, with automated roll-ups to leadership dashboards."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're missing forecast by 15-20% each quarter because we can't see deal progression in real-time across our distributed teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Alex to brief Morgan Okafor on initial conversation",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Alex with qualification call recap and one-pager on pipeline visibility use cases. Attached case study from similar enterprise SaaS company. Alex confirmed discovery call timing and mentioned bringing Hazel Lima (RevOps Analyst) into future conversations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-03",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Alex Morgan diving into current tech stack and workflow. SolarVision uses Salesforce but lacks automated conversation intelligence. Alex walked through their quarterly forecasting process and pain points. Discussed integration requirements and mentioned Gong demo scheduled for following week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current process for identifying at-risk deals.",
+          "answer": "Mostly manual - sales managers review calls and emails, but there's no systematic analysis. We're reactive rather than proactive."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can you typically get integrated with Salesforce and operational?",
+          "answer": "Standard implementation is 2-3 weeks for enterprise customers, with most integrations live within 48 hours of kickoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical integration documentation",
+        "Schedule demo for post-Gong evaluation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 21.6,
+      "rescheduled": false,
+      "ai_summary": "Sent discovery recap with detailed notes on SolarVision's pipeline visibility gaps and proposed demo agenda. Included technical documentation for Salesforce integration as requested. Alex acknowledged and confirmed demo timing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled in two weeks"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with agenda and logistics. Included personalized demo environment using SolarVision's deal structure and team setup. Alex confirmed attendees would include herself and potentially Hazel Lima from RevOps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show specific examples of how your automation handles deal health scoring?",
+          "answer": "Absolutely - we'll walk through our automated risk detection and how it flags specific patterns in conversation data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for Tuesday 2pm ET"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-22",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial product demo with Alex Morgan focused on pipeline visibility features. Walked through automated conversation analysis, deal health scoring, and forecasting accuracy improvements. Alex particularly engaged on multi-threading visibility and asked detailed questions about how we compare to Gong's approach. Positive reception overall.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your deal health scoring differ from Gong's methodology?",
+          "answer": "We focus more on stakeholder engagement patterns and multi-threading depth, while Gong emphasizes talk-time ratios and keyword tracking. Our customers find the stakeholder mapping more actionable for enterprise deals."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you customize the automation rules for our specific sales process?",
+          "answer": "Yes - the unlimited automation tier includes custom playbook creation and rule configuration based on your methodology."
+        },
+        {
+          "by": "rep",
+          "question": "What stood out most from what you saw today?",
+          "answer": "The stakeholder mapping is really compelling. We have complex deals with 8-10 people involved and Gong doesn't visualize that multi-threading as clearly."
+        }
+      ],
+      "objections": [
+        "Want to see more on reporting customization before moving forward"
+      ],
+      "next_steps": [
+        "Schedule follow-up demo focused on reporting and dashboards",
+        "Alex to share feedback with Morgan Okafor"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-07-28",
+      "type": "demo",
+      "duration_minutes": 19,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo session focusing on custom reporting and executive dashboards. Alex brought Hazel Lima (RevOps Analyst) to evaluate technical requirements. Hazel asked detailed questions about data exports and API capabilities. Discussion touched on Gong comparison again - team noted our reporting flexibility as a differentiator.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What format are the data exports and can we push this into our existing BI tools?",
+          "answer": "We support CSV, JSON, and direct API access. Many customers integrate with Tableau or Looker for custom analysis."
+        },
+        {
+          "by": "prospect",
+          "question": "How granular can we get with the automation rules per team?",
+          "answer": "You can configure different playbooks, scoring criteria, and alerts for each sales segment, product line, or region."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Hazel to review technical documentation",
+        "Schedule final demo with expanded team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-03",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo with expanded team including Alex, Hazel, and two sales directors. Deep dive on implementation timeline, change management, and ROI projections. Team engaged positively and asked strategic questions about scaling across 60+ seat deployment. Discussed pricing structure and mentioned readiness to move to proposal stage pending executive alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the rollout typically look like for a deployment of our size?",
+          "answer": "We recommend a phased approach - start with 10-15 power users for two weeks, gather feedback, then expand to full team. Total timeline is typically 4-6 weeks to full adoption."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle ongoing training and support for new team members?",
+          "answer": "Unlimited tier includes on-demand training portal, monthly office hours, and dedicated CSM. We also provide train-the-trainer sessions for your internal champions."
+        },
+        {
+          "by": "rep",
+          "question": "What would you need to see to move forward with a proposal?",
+          "answer": "We need Morgan's sign-off on budget and timing. I'll brief him this week - if he's aligned, we can move to proposal next week."
+        }
+      ],
+      "objections": [
+        "Need executive buy-in on budget before proceeding"
+      ],
+      "next_steps": [
+        "Alex to schedule internal alignment meeting with Morgan Okafor",
+        "Prepare formal proposal with pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-08-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email with ROI calculator, implementation timeline, and case study from similar enterprise customer. Recapped key differentiators vs. Gong based on their evaluation criteria. Alex responded that Morgan Okafor meeting went well and they're ready for proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for 62 seats"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-08-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hazel Lima",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 12.1,
+      "rescheduled": false,
+      "ai_summary": "Email to Hazel Lima with technical onboarding documentation and API specifications as requested. Hazel confirmed no technical blockers from RevOps perspective and expressed support for moving forward. Mentioned she's also evaluating Gong's technical capabilities but finds our integration flexibility stronger.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any rate limiting on the API we should plan for?",
+          "answer": "Enterprise tier has no rate limits for standard usage. We can discuss specific high-volume use cases if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation complete - green light from RevOps"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-08-23",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Alex Morgan. Walked through pricing at $80,800 ACV for 62 seats on unlimited automation tier. Alex comfortable with pricing and scope. Discussed contract terms and confirmed Morgan Okafor executive meeting needed for final approval. Alex mentioned Gong came in slightly lower but team prefers our solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the per-seat pricing if we commit to annual?",
+          "answer": "The proposal reflects annual commitment pricing. We have some flexibility on multi-year deals if that's of interest."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive meeting with Morgan Okafor",
+        "Send formal proposal document"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-08-27",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Morgan Okafor",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Morgan Okafor (COO) and Alex Morgan. Morgan focused on strategic value, ROI timeline, and competitive positioning vs. Gong. Discussed forecast accuracy improvement targets and how this supports their Q3 scaling plans. Morgan expressed concern about implementation risk but Alex vouched for our approach. Morgan approved budget pending final contract terms review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline for a company our size?",
+          "answer": "Most enterprise customers see measurable forecast accuracy improvement within 60 days, with full ROI realized in 6-9 months through better deal execution and pipeline management."
+        },
+        {
+          "by": "prospect",
+          "question": "How do we mitigate implementation risk given our tight Q3 timeline?",
+          "answer": "We'll assign a dedicated implementation manager and can accelerate the rollout with additional training resources. Our phased approach also reduces risk."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you choose us over Gong at this stage?",
+          "answer": "Your stakeholder mapping and reporting flexibility are stronger. Gong is cheaper but if you can get closer on price, you're our preferred choice."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Gong's offer - need to see if there's room for negotiation"
+      ],
+      "next_steps": [
+        "Review pricing flexibility internally",
+        "Prepare revised proposal if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-09-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after exec meeting acknowledging pricing feedback. Proposed pricing call to discuss contract structure and find alignment. Alex confirmed Morgan is supportive but needs to see competitive pricing to get final approval. Mentioned Gong is offering 15% discount.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-09-09",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing negotiation call with Alex Morgan - originally scheduled, then rescheduled due to Alex's conflict. Discussed competitive dynamics with Gong and pricing flexibility. Offered 8% discount ($74,336 ACV) to close gap while maintaining value positioning. Alex appreciated movement but wants to review with Morgan before committing. Call rescheduled for two days out.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's 15% discount to make this an easier decision?",
+          "answer": "We can't match 15% but I can offer 8% discount which brings us to $74,336 annually. This reflects the additional value in our unlimited automation and superior reporting."
+        }
+      ],
+      "objections": [
+        "Still a gap vs. Gong pricing - Alex needs to validate with Morgan if the premium is justified"
+      ],
+      "next_steps": [
+        "Alex to discuss revised pricing with Morgan Okafor",
+        "Reconvene in 48 hours"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-09-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after rescheduled pricing call. Recapped 8% discount offer and reinforced value differentiation vs. Gong. Included updated proposal at $74,336 ACV. Alex confirmed she's presenting to Morgan this week and expects decision by end of week. Tone remains positive but cautious given competitive pressure.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await decision from Morgan Okafor",
+        "Be ready to process contract if approved"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

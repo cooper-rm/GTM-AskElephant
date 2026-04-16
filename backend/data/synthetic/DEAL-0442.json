@@ -1,0 +1,176 @@
+{
+  "deal_id": "DEAL-0442",
+  "company": {
+    "name": "NebulaApps",
+    "industry": "PropTech",
+    "employee_count": 91,
+    "annual_revenue": 9187134,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5900.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.2,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.2,
+    "sales_cycle_days": 45,
+    "close_date": "2023-11-23",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Nicole Costa",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ade Rodriguez",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 34
+    },
+    {
+      "name": "Leila Klein",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nicole Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Nicole Costa from NebulaApps submitted an inbound demo request through the website. She expressed interest in improving rep productivity for their CS team. Brief automated confirmation email sent.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nicole Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Nicole confirming demo scheduled for next week. Included brief overview of how our platform helps CS teams improve productivity. Nicole responded confirming the time and mentioned they're currently evaluating a few solutions including Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your main goals for improving rep productivity?",
+          "answer": "We need better visibility into customer conversations and want to reduce time spent on manual follow-up tasks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on CS use case",
+        "Research NebulaApps workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-30",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Ade Rodriguez",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ade Rodriguez, one of the Account Managers who would be an end user. Walked through automation capabilities, integrations with their current tech stack, and compared features with Gong. Ade was engaged and asked detailed questions about workflow customization. Nicole joined for the last 15 minutes. No executive sponsor mentioned or invited.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to what Gong offers for post-call workflows?",
+          "answer": "Our unlimited automation tier includes custom workflow builders and bi-directional CRM sync, whereas Gong's automation is more template-based in their standard tier."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI insights for our specific PropTech terminology?",
+          "answer": "Yes, you can train custom models on your domain-specific language and create custom tracking categories."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 4-6 weeks. Budget is approved for this quarter."
+        }
+      ],
+      "objections": [
+        "We're also looking at Gong and their brand recognition is a factor for our leadership team."
+      ],
+      "next_steps": [
+        "Send pricing proposal for 9 seats",
+        "Schedule follow-up with Nicole to discuss next steps",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-21",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Nicole Costa",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Nicole to discuss pricing. She requested a significant discount citing budget constraints and comparing to a Gong quote. Agreed to 31% discount to match their budget and close this quarter. Nicole seemed satisfied with the compromise but mentioned she still needs to run it by the team. No mention of executive approval process or who final decision-maker is.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the per-seat pricing Gong offered us?",
+          "answer": "We can't match exactly, but I can offer a 31% discount which brings us very close and includes unlimited automation which would be an add-on cost with Gong."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to sign off on this before we can move forward?",
+          "answer": "Just need to sync with Ade and Leila since they'll be the primary users. Should be straightforward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with discounted pricing",
+        "Nicole to review with team by end of week",
+        "Schedule signing call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "deal_id": "DEAL-0212",
+  "company": {
+    "name": "HorizonPathway",
+    "industry": "Marketing Agency",
+    "employee_count": 36,
+    "annual_revenue": 6015020,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5700.0,
+    "seats": 6,
+    "price_per_seat_monthly": 68.84,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 22.6,
+    "sales_cycle_days": 35,
+    "close_date": "2023-06-16",
+    "use_case": "Rep productivity",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Sage Koch",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 22
+    },
+    {
+      "name": "Diego Mehta",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Sage Koch at HorizonPathway expressing interest in conversation intelligence tools to improve rep productivity. Brief form submission with context on current use of Chorus and desire to explore alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-12",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Sage Koch. Discussed current state with Chorus and HorizonPathway's growth from 28 to 36 employees over past year. Sage mentioned friction with Chorus pricing model and interested in exploring more flexible options for their sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at alternatives to Chorus right now?",
+          "answer": "Pricing has become an issue as we've grown, and we're not getting the ROI we expected. Looking for better automation capabilities."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus for our team size?",
+          "answer": "We offer flexible seat-based pricing with unlimited automation included. For 6 seats you'd be looking at around $7,300 annually, but we can discuss options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call focused on understanding HorizonPathway's sales process and pain points. Sage shared that their Account Managers, including Diego Mehta, struggle with consistent follow-up and deal pipeline visibility. Discussed automation needs and integration requirements with their current CRM.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Probably just me and Diego for now. Our VP of Sales trusts us to handle vendor selection for tools under 10K."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our CRM and existing tools without requiring dev resources?",
+          "answer": "Yes, we have native integrations with major CRMs and can typically complete setup in under a week without technical resources."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Diego Mehta",
+        "Prepare demo focused on automation workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-22",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into specific automation use cases. Sage walked through their current manual processes for call logging, follow-up reminders, and deal updates. Expressed strong interest in unlimited automation tier. Discussed implementation timeline and mentioned desire to move quickly before Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like, and how much time commitment from our team?",
+          "answer": "Typical implementation is 2-3 weeks with about 5-10 hours total from your team for setup, training, and initial configuration."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision? Any budget cycles or approval processes to consider?",
+          "answer": "Would like to have something in place by end of April. Budget is approved for tools in this range, just need to justify the switch from Chorus."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data migration from Chorus if we decide to switch?",
+          "answer": "We can export historical data from Chorus and import into our system. Most clients keep Chorus data archived and start fresh with us."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Send ROI calculator",
+        "Prepare comparison doc vs Chorus"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo with Diego and Sage. Recapped key automation features demonstrated, shared recording link, and outlined pricing proposal at $7,300 for 6 seats with unlimited automation tier. Sage responded positively but mentioned need to review with broader team before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over a detailed comparison of your automation features vs what we currently have with Chorus?",
+          "answer": "Attached detailed feature comparison matrix highlighting automation capabilities, integration options, and pricing differences."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal review at HorizonPathway",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-04",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled exec meeting was rescheduled by Sage. Original intent was to present business case to leadership team, but Sage mentioned scheduling conflicts on their end. Rescheduled for following week. Brief conversation confirmed continued interest but noted that they're still evaluating budget allocation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking progress on your end that I can help address?",
+          "answer": "No major blockers, just aligning calendars with our team. Still working through internal priorities and want to make sure everyone's aligned."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the absolute lowest you can go on pricing for 6 seats? Chorus is offering us a renewal discount.",
+          "answer": "Let me discuss with my manager. I may have some flexibility depending on contract length and payment terms."
+        }
+      ],
+      "objections": [
+        "Chorus offering competitive renewal pricing"
+      ],
+      "next_steps": [
+        "Confirm rescheduled meeting time",
+        "Prepare revised pricing options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Email following up on rescheduled meeting and addressing pricing concerns. Shared revised proposal at $5,700 annually (22.6% discount) for 6 seats to remain competitive with Chorus renewal offer. Emphasized unlimited automation value and offered quarterly payment terms to ease budget concerns. Sage acknowledged receipt and said they're close to decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Final pricing review call scheduled",
+        "Prepare contract for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-16",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Sage Koch",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing review call originally scheduled but rescheduled by Sage due to conflicting priorities. When call occurred, discussed final contract terms at $5,700 with quarterly payment option. Sage expressed appreciation for flexibility on pricing but mentioned still finalizing internal alignment. No VP or executive sponsor joined the call despite being in proposal stage. Discussed contract start date and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a 30-day out clause in case this doesn't work out as planned?",
+          "answer": "Our standard contract is annual commitment, but I can discuss adding a satisfaction guarantee with my leadership."
+        },
+        {
+          "by": "rep",
+          "question": "Should we plan to include anyone else from leadership in final contract review?",
+          "answer": "I think we're good. I have approval authority for this budget range. Just want to make sure Diego is fully on board."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-contract?",
+          "answer": "You can add seats anytime at prorated pricing for the remainder of your contract term."
+        }
+      ],
+      "objections": [
+        "Concern about annual commitment without exit clause"
+      ],
+      "next_steps": [
+        "Check on satisfaction guarantee policy",
+        "Send final contract for review",
+        "Confirm Diego's buy-in"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "deal_id": "DEAL-0632",
+  "company": {
+    "name": "CompassCloud",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 15702555,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4300.0,
+    "seats": 6,
+    "price_per_seat_monthly": 57.99,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.8,
+    "sales_cycle_days": 38,
+    "close_date": "2025-04-04",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Ella White",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ella White at CompassCloud expressing interest in automating their sales-to-CS handoff process. She mentioned challenges with dropped context during customer transitions and asked for initial information.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions for improving handoffs between sales and customer success teams?",
+          "answer": "Yes, our unlimited automation tier is specifically designed for cross-functional workflow automation including sales-to-CS handoffs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-25",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute qualification call with Ella White. She's been Head of Sales for 3 months and identified handoff automation as a priority. CompassCloud has ~100 employees, uses Salesforce and Zendesk, currently does handoffs manually via Slack and email. Discussed team size (6 sales reps) and confirmed budget range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for transitioning customers from sales to CS?",
+          "answer": "Mostly manual - sales reps send Slack messages and emails to CS with deal notes. Lots of context gets lost and customers have to repeat themselves."
+        },
+        {
+          "by": "rep",
+          "question": "How many sales reps would need access to the platform?",
+          "answer": "Six reps on the sales team, so six seats would work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ella will audit their current handoff failures",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with qualification call recap and resources on sales-to-CS automation best practices. Ella responded confirming she completed the handoff audit and found 23 customer complaints in the past quarter related to poor onboarding transitions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with both Salesforce and Zendesk simultaneously?",
+          "answer": "Yes, we have native integrations with both and can create automated workflows that sync data between them."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-07",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute discovery call diving into CompassCloud's specific handoff challenges. Ella shared that 23 customers complained about poor transitions last quarter, costing them 2 renewals. Discussed their tech stack, ideal state workflow, and timeline (hoping to implement before Q2 ends). She's driving this initiative but mentioned she's relatively new to the role.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in evaluating automation tools at CompassCloud?",
+          "answer": "Right now it's mostly me driving this. Our CRO is supportive but pretty hands-off on tooling decisions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to have something in place before end of Q2, so within the next 6-8 weeks ideally."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of data can be automatically passed from Salesforce to Zendesk during handoff?",
+          "answer": "Deal notes, customer context, product tier, custom fields, conversation history - essentially any structured data from the opportunity record."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical architecture overview",
+        "Schedule technical evaluation with Ella and one CS team member"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-13",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "33-minute technical evaluation session with Ella and CS team member Sarah. Walked through platform capabilities, API integrations, and automation builder. Sarah asked detailed questions about data mapping and workflow triggers. Ella confirmed the unlimited automation tier fits their needs but asked about typical implementation timelines.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 6 seats with Salesforce and Zendesk integration, typical implementation is 2-3 weeks with our onboarding team."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields trigger the handoff automation?",
+          "answer": "Yes, the automation builder lets you set custom triggers based on any field changes, stage movements, or time-based rules."
+        },
+        {
+          "by": "rep",
+          "question": "Would you need approval from finance or executive team for this purchase?",
+          "answer": "I have budget authority up to a certain threshold. For something in this range I can likely approve it myself."
+        }
+      ],
+      "objections": [
+        "Want to make sure implementation doesn't disrupt our current quarter-end push"
+      ],
+      "next_steps": [
+        "Ella will discuss with Sarah and one other CS lead",
+        "Schedule demo focused on their specific use case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-17",
+      "type": "demo",
+      "duration_minutes": 20,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute custom demo showing CompassCloud's exact handoff workflow automated in the platform. Used their Salesforce fields and Zendesk ticket structure to build a live example. Ella was engaged and asked about reporting capabilities. Seemed pleased with the demo but mentioned budget is a consideration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do we get on handoff performance and automation usage?",
+          "answer": "The platform includes dashboards for handoff completion rates, time-to-first-CS-touch, automation trigger history, and custom reports."
+        },
+        {
+          "by": "rep",
+          "question": "What does your budget look like for this type of solution?",
+          "answer": "I have budget allocated but it's tight. We're probably looking at something in the $3-4K range annually if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with pricing for 6 seats unlimited automation tier"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal with standard pricing at $6,600 ACV for 6 seats on unlimited automation tier. Ella responded asking if there's flexibility on pricing given their budget constraints and the fact that they're a smaller company. She reiterated strong interest in the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing to get closer to our budget?",
+          "answer": "Let me discuss with my manager about what we can do for a growing company like CompassCloud."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Prepare revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at $4,300 ACV (34.8% discount) to align with CompassCloud's budget. Ella confirmed the pricing works and said she's ready to move forward. Asked about contract terms and start date options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule final alignment call to review contract and implementation plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-04",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Ella White",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute meeting with Ella to finalize contract details and implementation timeline. Reviewed payment terms, annual contract structure, and planned go-live date for mid-May. Ella confirmed she's authorized to sign and will route to procurement this week. She seems confident in the decision but mentioned she's presenting this to her CRO informally next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will your CRO need to review or approve the contract before signature?",
+          "answer": "No formal approval needed, but I'll brief him next week. He trusts my judgment on sales tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the onboarding process look like after we sign?",
+          "answer": "You'll be assigned an implementation specialist who will schedule kickoff within 3 business days, then work through integration setup, workflow configuration, and team training over 2-3 weeks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ella to route contract to procurement by Friday",
+        "Implementation kickoff scheduled tentatively for first week of May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

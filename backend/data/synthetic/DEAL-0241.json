@@ -1,0 +1,370 @@
+{
+  "deal_id": "DEAL-0241",
+  "company": {
+    "name": "IonDigital",
+    "industry": "SaaS/Tech",
+    "employee_count": 340,
+    "annual_revenue": 64942517,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18500.0,
+    "seats": 24,
+    "price_per_seat_monthly": 62.12,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.2,
+    "sales_cycle_days": 60,
+    "close_date": "2023-03-29",
+    "use_case": "Rep productivity",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Arjun Sato",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 38
+    },
+    {
+      "name": "Elena Lim",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Arjun Sato at IonDigital expressing interest in improving rep productivity. Initial inquiry mentions current challenges with manual processes and looking for automation solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-28",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Arjun to understand current state and pain points. Discussed team size (24 reps), productivity bottlenecks, and evaluation timeline. Arjun mentioned they're also looking at Clari but interested in our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Q2 revenue targets at risk due to rep inefficiency"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to Clari's offering?",
+          "answer": "Our automation includes workflow builders and custom integrations that Clari charges extra for"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Connect with technical team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with pricing overview and case study relevant to SaaS companies. Arjun responded positively and requested to move forward with technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get Elena from our implementation team involved for technical review?",
+          "answer": "Absolutely, I'll coordinate a technical eval session"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Elena"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Email checking in on technical eval scheduling. Arjun confirmed Elena's availability and shared initial questions about API integrations and data security.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Finalize technical eval date",
+        "Prepare integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Brief email confirming technical eval scheduled for next week and sharing pre-read materials on our security certifications and API capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete technical eval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-24",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Elena Lim",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Elena Lim covering API integration, data model, security compliance, and implementation timeline. Elena raised concerns about migration complexity from existing systems and asked detailed questions about SSO configuration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical migration timeline from a system like Salesforce?",
+          "answer": "Usually 2-3 weeks with our implementation team support"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support SAML 2.0 for SSO?",
+          "answer": "Yes, fully supported with Okta, Azure AD, and other providers"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current data volume and integration requirements?",
+          "answer": "About 50k records, need Salesforce, Outreach, and Slack integrations"
+        }
+      ],
+      "objections": [
+        "Migration timeline feels tight given our Q2 deadline"
+      ],
+      "next_steps": [
+        "Provide detailed implementation plan",
+        "Share migration checklist"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-02",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Arjun focusing on rep productivity workflows, automation builders, and reporting dashboards. Demonstrated specific use cases relevant to their team structure. Arjun expressed enthusiasm but noted need to discuss pricing with leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboard views per team?",
+          "answer": "Yes, fully customizable with role-based permissions"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the automation handle exception cases?",
+          "answer": "Built-in error handling with notifications and manual override options"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the decision process?",
+          "answer": "Just need to run final numbers by our CFO, but CS leadership has budget authority"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal",
+        "Schedule follow-up for questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal for $18,500 ACV with 24 seats and unlimited automation tier. Included ROI calculator and implementation timeline. Arjun acknowledged receipt and said he's reviewing internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing given our volume?",
+          "answer": "Let me discuss with leadership and get back to you"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal review",
+        "Pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-03-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Email from Arjun requesting pricing concession, mentioning Clari came in lower. Expressed strong interest in our product but need to justify the premium to leadership.",
+      "questions_asked": [],
+      "objections": [
+        "Clari's pricing is about 30% lower for comparable features"
+      ],
+      "next_steps": [
+        "Schedule negotiation discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-03-23",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting to discuss business value and pricing. Arjun brought business case but noted the CFO wasn't available. Discussed discount options and contract terms. Agreed to 30% discount to match competitive pressure and close in current quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a shorter initial term to prove value first?",
+          "answer": "We can do annual with quarterly check-ins"
+        },
+        {
+          "by": "rep",
+          "question": "What would get this over the line this month?",
+          "answer": "Matching the Clari pricing would make this an easy yes"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-year?",
+          "answer": "Pro-rated at the same per-seat rate, no penalty"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Get CFO sign-off"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-03-24",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Arjun Sato",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms with revised pricing at 30% discount. Arjun confirmed the numbers work and he'll push for internal approval. Discussed contract start date and implementation kickoff timing. No executive sponsor confirmed yet but Arjun confident he can get it approved.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start implementation before the contract is fully executed?",
+          "answer": "We can do pre-implementation planning once we have a signed MSA"
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process timeline on your end?",
+          "answer": "Should have sign-off within a week, CFO reviews Fridays"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Await internal approval",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

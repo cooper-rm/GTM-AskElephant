@@ -1,0 +1,249 @@
+{
+  "deal_id": "DEAL-0096",
+  "company": {
+    "name": "EchoVision",
+    "industry": "PropTech",
+    "employee_count": 43,
+    "annual_revenue": 5046880,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6800.0,
+    "seats": 9,
+    "price_per_seat_monthly": 61.79,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.6,
+    "sales_cycle_days": 23,
+    "close_date": "2025-10-20",
+    "use_case": "Call recording + coaching",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Emma Lim",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Ella Ali",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Emma Lim at EchoVision requesting information about call recording and coaching tools. Briefly mentioned they're currently evaluating alternatives to their existing solution.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-27",
+      "type": "qualification_call",
+      "duration_minutes": 26,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Emma Lim. EchoVision is a 43-person PropTech company looking to improve their sales coaching capabilities. Emma recently joined as VP of CS and wants to standardize call analysis. Currently using Chorus but exploring alternatives. Budget appears flexible for the right solution.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation right now?",
+          "answer": "I just started in this role and want to implement better coaching workflows. Our current tool isn't being adopted well."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing CRM and dialer setup?",
+          "answer": "Yes, we have native integrations with all major CRMs and most common dialers."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this?",
+          "answer": "Probably Ella from our sales team. She's been asking for better call analytics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with deeper technical walkthrough",
+        "Send integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-04",
+      "type": "discovery_call",
+      "duration_minutes": 35,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Emma diving into specific use cases. Discussed their 9-person sales and CS team structure, need for automated call scoring, and coaching workflows. Emma emphasized ease of use and quick time-to-value. Explored automation tier to reduce manual work. No other stakeholders joined this call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much manual tagging or setup does your system require compared to Chorus?",
+          "answer": "Our automation tier handles most categorization automatically. You can customize later, but it works out of the box."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally we'd like to have something in place within the next month."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for a team our size?",
+          "answer": "For 9 seats with unlimited automation, we typically land around $9,000-$10,000 annually depending on contract terms."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to get Ella or anyone from leadership on the next call?",
+          "answer": "Let me connect with Ella first. Leadership usually trusts us on tooling decisions at our stage."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't add more work for the reps"
+      ],
+      "next_steps": [
+        "Send detailed pricing proposal",
+        "Schedule demo for Ella if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent after discovery call. Included detailed proposal for 9 seats at unlimited automation tier, case studies from similar PropTech companies, and implementation timeline. Emma responded asking about discount options given their company size and budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing given we're still a small team?",
+          "answer": "Let's discuss on our next call. We can potentially work something out for an annual commitment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-15",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Emma. Walked through pricing structure and discussed her budget concerns. Emma mentioned Chorus has offered them a competitive rate. Proposed a discounted rate of $6,800 for annual commitment to stay competitive. Emma seemed receptive but wants to review with Ella before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of support and onboarding is included at this price point?",
+          "answer": "Full onboarding, dedicated CSM for first 90 days, and ongoing email/chat support."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "Honestly the pricing needs to work, and Ella needs to be comfortable with the technical side."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emma to review with Ella",
+        "Follow up early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-10-21",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Emma Lim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emma to finalize terms. Confirmed $6,800 annual pricing for 9 seats with unlimited automation. Emma got buy-in from Ella on the technical capabilities. Discussed contract terms and implementation kickoff. Emma ready to move forward pending legal review of standard agreement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can do that, though it would adjust the discount slightly. Let me check on exact terms."
+        },
+        {
+          "by": "rep",
+          "question": "Any other concerns before we send over the contract?",
+          "answer": "No, I think we're good. Just need to run it by our finance person for the payment structure."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if it doesn't work out?",
+          "answer": "30-day notice required, but you're locked in for the first year on an annual contract."
+        }
+      ],
+      "objections": [
+        "Prefer quarterly payments over annual upfront"
+      ],
+      "next_steps": [
+        "Send contract with payment terms options",
+        "Schedule implementation kickoff for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "deal_id": "DEAL-0147",
+  "company": {
+    "name": "RidgeGrid",
+    "industry": "SaaS/Tech",
+    "employee_count": 68,
+    "annual_revenue": 11903628,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4300.0,
+    "seats": 6,
+    "price_per_seat_monthly": 66.54,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.2,
+    "sales_cycle_days": 52,
+    "close_date": "2023-05-08",
+    "use_case": "Rep productivity",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Sarah Collins",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 14
+    },
+    {
+      "name": "Emily Yoon",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-20",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to Sarah Collins introducing our platform as a solution for rep productivity. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-22",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Sarah Collins highlighting case study with similar-sized sales team. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-23",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message mentioning mutual connection. Sarah responded expressing interest in learning more about automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-24",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Called Sarah's direct line to schedule qualification call. Left voicemail with calendar link.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-17",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute qualification call with Sarah to understand current sales process and pain points. Sarah mentioned they're currently evaluating solutions including Clari. Team of 6 reps struggling with manual data entry and forecast accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with your current sales process?",
+          "answer": "Our reps spend too much time on manual data entry instead of selling. Forecast accuracy is also a problem."
+        },
+        {
+          "by": "rep",
+          "question": "Are you evaluating other solutions?",
+          "answer": "Yes, we've had a demo with Clari, but we're still early in the process."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's?",
+          "answer": "Our unlimited automation tier eliminates manual work entirely, whereas Clari has usage limits on their automation features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-03-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up email with overview deck and use case examples for sales teams of similar size. Sarah confirmed demo time and asked to include Emily Yoon from RevOps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our RevOps analyst Emily in the demo?",
+          "answer": "Absolutely, I'll send her a calendar invite as well."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendance for Sarah and Emily"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email sent with agenda and discovery questions. Sarah responded confirming both she and Emily will attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete demo as scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-08",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "39-minute product demo with Sarah and Emily. Walked through automation workflows and forecasting features. Emily asked detailed questions about data integration and reporting. Sarah focused on rep adoption and time savings. Both seemed engaged but Emily noted they need to complete Clari evaluation before deciding.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What systems would we need to integrate with?",
+          "answer": "Salesforce is our CRM, and we use Outreach for sequences. We'd need both connected."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks for full deployment with your integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier?",
+          "answer": "All workflow automation, data enrichment, and activity logging with no usage caps."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 6 weeks, but we need to finish evaluating Clari first."
+        }
+      ],
+      "objections": [
+        "We need to complete our evaluation of Clari before we can move forward with anyone."
+      ],
+      "next_steps": [
+        "Send proposal for 6 seats",
+        "Follow up after Clari demo next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-15",
+      "type": "proposal_call",
+      "duration_minutes": 29,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "29-minute proposal review call with Sarah (rescheduled from earlier in week). Walked through pricing at $4,300 ACV for 6 seats with unlimited automation. Sarah expressed concern about budget and mentioned Clari came in lower. Discussed value differentiation but Sarah needs to review with finance before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Clari's proposal came in lower for similar features.",
+          "answer": "Let me see what I can do. What's driving the budget constraint?"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for you?",
+          "answer": "Honestly, we need to be closer to Clari's pricing, and I need to get buy-in from our CFO."
+        }
+      ],
+      "objections": [
+        "The price is higher than we expected based on Clari's proposal."
+      ],
+      "next_steps": [
+        "Explore discount options",
+        "Request intro to CFO or finance stakeholder"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-04-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal including 25% discount to match competitive pressure. Sarah acknowledged receipt and said she's working on getting time with CFO but it's been difficult to schedule.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for CFO meeting confirmation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-04-30",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute negotiation call with Sarah to discuss revised pricing. Sarah appreciates the discount but still hasn't been able to get CFO involvement. She's trying to move forward with her own budget authority but wants to confirm contract terms first.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the payment structure - annual upfront or quarterly?",
+          "answer": "We can do either. What works better for your budgeting?"
+        },
+        {
+          "by": "prospect",
+          "question": "Is the unlimited automation guaranteed for the contract term?",
+          "answer": "Yes, it's locked in for the full 12 months with no usage throttling."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Sarah to confirm she can sign without CFO"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-09",
+      "type": "negotiation_call",
+      "duration_minutes": 41,
+      "person_name": "Sarah Collins",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "41-minute contract review call with Sarah and Emily. Walked through MSA, payment terms, and implementation timeline. Emily raised questions about data security and SLA commitments. Sarah confirmed she has approval to proceed without CFO sign-off given the discount. Both seem ready to move forward pending minor redlines from their side.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your uptime SLA guarantees?",
+          "answer": "99.9% uptime with credits for any downtime beyond that threshold."
+        },
+        {
+          "by": "prospect",
+          "question": "How is our data handled and where is it stored?",
+          "answer": "All data is encrypted at rest and in transit, stored in SOC 2 compliant AWS infrastructure in US-East region."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other internal approvals you need before we can finalize?",
+          "answer": "No, I have the authority to sign. Emily just needs to review the technical terms one more time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to review data security addendum",
+        "Sarah to return signed contract within 3 business days"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

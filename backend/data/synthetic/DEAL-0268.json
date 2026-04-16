@@ -1,0 +1,422 @@
+{
+  "deal_id": "DEAL-0268",
+  "company": {
+    "name": "OrbitalData",
+    "industry": "SaaS/Tech",
+    "employee_count": 924,
+    "annual_revenue": 108329120,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19000.0,
+    "seats": 20,
+    "price_per_seat_monthly": 79.87,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 10.3,
+    "sales_cycle_days": 53,
+    "close_date": "2023-12-07",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Peyton Turner",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Jackson Young",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 36
+    },
+    {
+      "name": "Peyton Khan",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 44
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-12",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Peyton Turner expressing interest in automating their onboarding process. Currently evaluating solutions including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call scheduled. Peyton confirmed availability and shared initial context about their onboarding challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What integrations do you support with Salesforce?",
+          "answer": "Full bi-directional sync with Salesforce, including custom objects and fields"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Attend qualification call on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-20",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Peyton Turner. Discussed current manual onboarding process taking 2-3 weeks per new customer. Team of 20 sales reps struggling with inconsistent documentation. Peyton mentioned evaluating Fathom but concerned about implementation complexity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "4-6 weeks with our onboarding team support"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current timeline for making a decision?",
+          "answer": "Looking to have something in place within 60 days"
+        }
+      ],
+      "objections": [
+        "Concerned about disruption during implementation"
+      ],
+      "next_steps": [
+        "Schedule discovery call with broader context",
+        "Send case study on similar implementation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-25",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into OrbitalData's onboarding workflow. Peyton walked through their current process, pain points with manual data entry, and challenges tracking customer success metrics. Identified automations_plus_consulting as ideal fit. Peyton mentioned Jackson Young (SVP Revenue) would need to approve final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Jackson Young will need to sign off, and Peyton Khan from RevOps handles procurement"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your consulting team help us customize workflows for our specific use case?",
+          "answer": "Yes, that's included in the automations_plus_consulting package"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focused on onboarding automation",
+        "Include Jackson Young in next meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-30",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to address Peyton's questions about reporting capabilities and comparing our approach vs Fathom's AI features. Clarified how our automation engine differs and advantages of our consulting support model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI analysis compare to Fathom's conversation intelligence?",
+          "answer": "We focus on workflow automation and action tracking, while Fathom specializes in call recording analysis"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 13.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo scheduled. Peyton requested focus on specific automation workflows and asked for pricing ballpark ahead of demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share rough pricing before the demo?",
+          "answer": "For 20 seats with consulting, typically $15-25K annually depending on configuration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo environment with OrbitalData branding"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-11-10",
+      "type": "demo",
+      "duration_minutes": 31,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo session with Peyton Turner. Walked through automation builder, integration setup, and consulting engagement model. Peyton particularly interested in Salesforce sync and custom workflow triggers. Discussed 20-seat deployment. Positive reaction overall but noted need to compare final pricing with Fathom quote.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with 10 seats and expand later?",
+          "answer": "Yes, we can structure it that way though per-seat pricing is better at 20+"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of consulting hours are included?",
+          "answer": "40 hours included in first year, additional available at $200/hour"
+        },
+        {
+          "by": "rep",
+          "question": "What's your evaluation timeline with Fathom?",
+          "answer": "Their demo is next week, planning to decide by end of month"
+        }
+      ],
+      "objections": [
+        "Need to see how pricing compares to Fathom before moving forward"
+      ],
+      "next_steps": [
+        "Send formal proposal for 20 seats",
+        "Schedule exec meeting with Jackson Young"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Email with formal proposal sent. Outlined $19K ACV for 20 seats with automations_plus_consulting package. Peyton acknowledged receipt and confirmed Jackson Young meeting scheduled for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for exec meeting with Jackson Young"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-21",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Jackson Young",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Jackson Young and Peyton Turner. Discussed strategic value of onboarding automation for revenue team efficiency. Jackson focused on ROI and implementation risk. Expressed concern about committing before Fathom evaluation complete. Strong alignment on use case but cautious on timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline for onboarding automation?",
+          "answer": "Most customers see productivity gains within 90 days, full ROI in 6-9 months"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to adjust scope mid-implementation?",
+          "answer": "Consulting hours provide flexibility to adapt as needs evolve"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you?",
+          "answer": "Competitive pricing and confidence in implementation success"
+        }
+      ],
+      "objections": [
+        "Want to complete Fathom evaluation before committing"
+      ],
+      "next_steps": [
+        "Follow up after Fathom demo",
+        "Provide reference customer contact"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-11-25",
+      "type": "exec_meeting",
+      "duration_minutes": 48,
+      "person_name": "Jackson Young",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Jackson Young. Fathom demo completed - OrbitalData leaning toward our solution due to consulting support and workflow automation depth. Discussed pricing structure and contract terms. Jackson asked about discount options. Peyton Khan from RevOps joined to discuss procurement process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the $19K price point?",
+          "answer": "Some flexibility depending on contract length and payment terms"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in year 2 support?",
+          "answer": "Ongoing platform access, standard support, consulting hours separate"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments?",
+          "answer": "Yes, though annual prepay qualifies for modest discount"
+        },
+        {
+          "by": "rep",
+          "question": "What's your preferred contract start date?",
+          "answer": "Ideally beginning of next quarter for budget alignment"
+        }
+      ],
+      "objections": [
+        "Pricing higher than Fathom's quote"
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Send revised proposal with payment terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-11-30",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Peyton Turner. Discussed revised proposal with 8% discount for annual prepay. Peyton comfortable with updated pricing and will recommend to Jackson. Addressed final questions about implementation timeline and consulting team assignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Who specifically would be our implementation consultant?",
+          "answer": "Sarah Chen from our onboarding team, 5+ years experience with similar deployments"
+        },
+        {
+          "by": "rep",
+          "question": "Is Jackson comfortable with the revised pricing?",
+          "answer": "Yes, he pre-approved up to 10% discount"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Peyton Khan for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-12-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Turner",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Email confirming contract sent to Peyton Khan for procurement review. Peyton Turner confirmed internal alignment and expects signature within 3-5 business days pending legal review. Deal forecast to close this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Monitor contract status",
+        "Prepare onboarding kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

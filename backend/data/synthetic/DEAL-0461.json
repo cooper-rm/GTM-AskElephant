@@ -1,0 +1,258 @@
+{
+  "deal_id": "DEAL-0461",
+  "company": {
+    "name": "AtlasHealth",
+    "industry": "Fintech",
+    "employee_count": 86,
+    "annual_revenue": 17914082,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 7,
+    "price_per_seat_monthly": 55.65,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 37.5,
+    "sales_cycle_days": 46,
+    "close_date": "2025-09-21",
+    "use_case": "CRM automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Javier Okafor",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 6
+    },
+    {
+      "name": "David Brown",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Javier Okafor at AtlasHealth. Interested in CRM automation to streamline RevOps workflows. Currently evaluating Gong but wants to see our approach.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call scheduled for Tuesday. Sent initial discovery questions and resource link on CRM automation use cases.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your current pain points with manual CRM tasks?",
+          "answer": "Spending too much time on data entry and lead routing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-15",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Javier. AtlasHealth has 7 users in RevOps/Sales needing automation. Currently piloting Gong but finding it more focused on conversation intelligence than workflow automation. Budget approved for ~$8K.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's features?",
+          "answer": "We focus specifically on CRM workflow automation while Gong is primarily call analytics. Our unlimited automation tier would handle all your use cases without per-action pricing."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in the decision?",
+          "answer": "Mainly me and David Brown who handles implementation. Our VP Sales trusts my recommendation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Include David Brown on invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-23",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Javier covering core automation workflows: lead routing, data enrichment, and task automation. Showed integration with their existing Salesforce instance. Javier engaged and asking detailed technical questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we automate lead scoring based on engagement data?",
+          "answer": "Yes, demonstrated the scoring automation builder with custom triggers and multi-touch attribution."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the setup timeline for someone like David to implement?",
+          "answer": "Typically 2-3 weeks for initial workflows, faster if you're just migrating existing automation logic."
+        }
+      ],
+      "objections": [
+        "Concerned about migration effort from current manual processes"
+      ],
+      "next_steps": [
+        "Schedule technical deep-dive with David",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-03",
+      "type": "demo",
+      "duration_minutes": 24,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical demo with Javier and David focused on implementation specifics. Walked through API integrations, workflow templates, and migration tools. David satisfied with technical capabilities but noted they're still comparing with Gong's newer automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How complex is the API setup for custom integrations?",
+          "answer": "Showed RESTful API docs and pre-built connectors. Most customers set up in under a week."
+        },
+        {
+          "by": "prospect",
+          "question": "What does support look like during implementation?",
+          "answer": "Dedicated CSM for first 90 days, plus Slack channel access to support engineering."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing proposal",
+        "Schedule exec alignment meeting if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: $4,800 ACV for 7 seats on unlimited automation tier (discounted from $7,680 list). Javier responded asking about payment terms and whether we can accommodate their Q2 budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly billing instead of annual upfront?",
+          "answer": "We can offer quarterly at a slightly higher rate, or keep the discount with annual prepay."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss payment terms",
+        "Confirm executive approval process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-21",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Javier Okafor",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec alignment meeting rescheduled from original time. Discussed contract terms and annual prepay discount with Javier. He's comfortable with pricing but mentioned needing to loop in VP Sales briefly before final signature. No major blockers identified.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we get time with your VP Sales to confirm alignment?",
+          "answer": "He's traveling next week but I can get async approval. He trusts my call on this."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we decide to expand to Gong later?",
+          "answer": "30-day notice after initial term. But we're confident you'll see ROI within the first quarter."
+        }
+      ],
+      "objections": [
+        "Wants flexibility in case they decide to consolidate with Gong's platform"
+      ],
+      "next_steps": [
+        "Send contract for legal review",
+        "Async exec approval confirmation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

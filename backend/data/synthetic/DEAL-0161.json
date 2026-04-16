@@ -1,0 +1,340 @@
+{
+  "deal_id": "DEAL-0161",
+  "company": {
+    "name": "BlueSolutions",
+    "industry": "Professional Services",
+    "employee_count": 603,
+    "annual_revenue": 113655262,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 9600.0,
+    "seats": 11,
+    "price_per_seat_monthly": 70.0,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 21.3,
+    "sales_cycle_days": 69,
+    "close_date": "2023-12-05",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Amelia Sanchez",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 20
+    },
+    {
+      "name": "Leila Flores",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Amelia Sanchez at BlueSolutions regarding onboarding automation needs. Expressed interest in streamlining their current manual processes for new client onboarding.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-27",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amelia Sanchez covering current onboarding pain points and team size. BlueSolutions handles 40+ new clients quarterly with significant manual effort. Discussed budget range and decision timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current onboarding process look like?",
+          "answer": "Mostly manual workflows across spreadsheets and email templates. Takes our team 3-4 hours per new client."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus? We've been evaluating them as well.",
+          "answer": "Our automation-focused approach typically delivers faster ROI for onboarding use cases. Happy to show you a comparison in our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send onboarding automation case study"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-03",
+      "type": "discovery_call",
+      "duration_minutes": 18,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into BlueSolutions' tech stack and integration requirements. Amelia confirmed need for 11 seats across RevOps and CS teams. Discussed workflow automation capabilities and timeline expectations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What systems would need to integrate with our platform?",
+          "answer": "Primarily Salesforce and our internal client portal. We also use Slack for notifications."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you customize the automation templates for our specific onboarding steps?",
+          "answer": "Yes, our templates are fully customizable and we include consulting hours to help build them out."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating the technical requirements?",
+          "answer": "I'll need to loop in Leila Flores from IT to review integrations and security."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical call with Leila Flores",
+        "Prepare integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-14",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Leila Flores",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Leila Flores covering security, API capabilities, and IT requirements. Reviewed SSO setup and data handling protocols. Leila requested additional documentation on compliance certifications.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What compliance certifications do you hold?",
+          "answer": "We're SOC 2 Type II and GDPR compliant. I'll send over our security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the API rate limiting work for high-volume automation?",
+          "answer": "Our enterprise tier includes higher limits, but for 11 seats you'll be well within standard thresholds."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send compliance documentation",
+        "Schedule demo with both Amelia and Leila"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Amelia after demo session. Recapped key features demonstrated and addressed questions about reporting capabilities. Confirmed interest in moving forward to proposal stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get custom reporting on onboarding completion metrics?",
+          "answer": "Yes, our analytics dashboard supports custom reports and you'll have consulting hours to set those up."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal with pricing for 11 seats on automations_plus_consulting tier. Outlined implementation timeline and included discount to match budget constraints. Amelia acknowledged receipt and mentioned need to review with leadership.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive review meeting",
+        "Await internal review feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-11-09",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting rescheduled by Amelia. No executive sponsor from BlueSolutions joined initially. When call occurred, discussed proposal terms with Amelia only. She expressed concern about getting VP approval without stronger ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any case studies showing time savings specifically for professional services firms?",
+          "answer": "Yes, I'll send over three relevant case studies including one from a similar-sized consulting firm."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have our VP join a call with your leadership to discuss strategic value?",
+          "answer": "Possibly. Let me see if I can get our VP of Operations involved, but schedules are tight this month."
+        }
+      ],
+      "objections": [
+        "Concern about executive buy-in without clear ROI metrics"
+      ],
+      "next_steps": [
+        "Send ROI case studies",
+        "Attempt to schedule call with BlueSolutions VP"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-11-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with ROI case studies and updated proposal including implementation timeline. Referenced Chorus comparison and highlighted differentiated consulting support. Amelia confirmed review in progress.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in on VP availability",
+        "Prepare for negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-23",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Amelia (no VP joined). Discussed implementation approach and contract terms. Amelia indicated pricing is slightly above approved budget and asked about flexibility on discount or payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual pricing given our budget constraints?",
+          "answer": "We've already included a substantial discount. Let me discuss options with my leadership and get back to you."
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for getting this implemented?",
+          "answer": "We'd want to start within 30 days to impact Q2 onboarding cycles."
+        }
+      ],
+      "objections": [
+        "Pricing above approved budget threshold"
+      ],
+      "next_steps": [
+        "Review discount approval with sales leadership",
+        "Prepare final pricing options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-12-05",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Amelia Sanchez",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call finalizing contract terms. Agreed to 21.3% discount to meet BlueSolutions budget. Discussed start date and implementation kickoff plan. Amelia committed to moving forward pending final legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include an additional 5 consulting hours in the package at this price?",
+          "answer": "Given the discount we've already applied, we can include 2 additional hours as a one-time add-on."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff for early next month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

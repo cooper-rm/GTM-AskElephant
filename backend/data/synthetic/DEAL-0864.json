@@ -1,0 +1,266 @@
+{
+  "deal_id": "DEAL-0864",
+  "company": {
+    "name": "ApexFlow",
+    "industry": "Vertical SaaS",
+    "employee_count": 64,
+    "annual_revenue": 6946412,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 67.99,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 23.6,
+    "sales_cycle_days": 41,
+    "close_date": "2025-05-26",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Carter Wolf",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 43
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Carter Wolf submitted an inbound demo request via website form. Expressed interest in automating sales-to-CS handoff workflows. Request routed to AE for follow-up scheduling.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Carter"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-15",
+      "type": "qualification_call",
+      "duration_minutes": 25,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "25-minute qualification call with Carter Wolf, VP of Customer Success. Discussed current manual handoff process causing delays and data loss between sales and CS teams. Carter manages a team of 8 and reports pain around inconsistent account info. ApexFlow has 64 employees, looking for 6 seats initially. Budget appears flexible, timeline is Q2 implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We just lost a key account due to poor onboarding experience. The sales team marked them as low-touch but CS had no visibility into implementation needs."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and Zendesk?",
+          "answer": "Yes, we have native integrations for both with bi-directional sync capabilities."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "I'll need to loop in our CFO for final approval, but I own the CS tooling budget and can make the call on fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Carter to audit current handoff workflows",
+        "AE to send discovery summary and demo agenda",
+        "Schedule product demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery recap, ROI calculator based on 8 CS reps saving 4 hours/week on manual handoffs, and proposed demo agenda. Carter responded within 2 hours confirming demo time and sharing sample workflow doc.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules by deal size?",
+          "answer": "Absolutely - you can set conditional logic based on ACV, seat count, industry, or any custom field in your CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday 2pm ET"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-01",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "35-minute product demo focused on automation builder and handoff playbooks. Carter engaged throughout, asked detailed questions about Salesforce field mapping and CS team notifications. Walked through 3 specific use cases from their workflow doc. Carter mentioned they're not evaluating other vendors currently. Expressed strong interest but noted he'll need to get CFO comfortable with investment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a company our size?",
+          "answer": "Usually 2-3 weeks from contract signature to first automation live. We provide a dedicated onboarding specialist."
+        },
+        {
+          "by": "rep",
+          "question": "What does your decision timeline look like?",
+          "answer": "Ideally we'd be live by end of Q2. I'd like to move quickly but need to build the business case for our CFO first."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier versus standard?",
+          "answer": "Unlimited gives you infinite active automations, advanced conditional logic, and priority support. Standard caps at 20 automations."
+        }
+      ],
+      "objections": [
+        "Need to justify ROI to CFO who's cautious about new software spend"
+      ],
+      "next_steps": [
+        "AE to send custom ROI analysis and case study",
+        "Carter to draft internal business case",
+        "Schedule exec alignment call with CFO"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-09",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute call with Carter only - CFO did not attend. Carter explained CFO got pulled into board prep but gave Carter authority to proceed if pricing is reasonable. Discussed implementation timeline and success metrics. Carter confirmed 6 seats (himself + 5 CS reps) and unlimited automation tier. Asked about pricing options and expressed need to stay under $6K annually.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard pricing for 6 seats on unlimited?",
+          "answer": "List price would be $6,300 annually, but I can work with you on a custom package given your timeline and use case fit."
+        },
+        {
+          "by": "rep",
+          "question": "Should we reschedule to include your CFO?",
+          "answer": "No need - he trusts my judgment on CS tools. Just need the numbers to make sense."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "AE to prepare pricing proposal under $6K",
+        "Carter to review with finance",
+        "Follow-up pricing call in 2 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-17",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute pricing discussion. Presented proposal at $4,800 ACV (23.6% discount) for 6 seats, unlimited automation, annual contract. Carter asked for breakdown and requested option to add seats mid-contract. Expressed concern about upfront annual payment vs quarterly. Asked to review with 'his team' before confirming.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as quarterly payments instead of annual upfront?",
+          "answer": "Annual is standard for this discount level, but I can check with finance on a quarterly option at slightly adjusted pricing."
+        }
+      ],
+      "objections": [
+        "Preference for quarterly payment terms to preserve cash flow"
+      ],
+      "next_steps": [
+        "AE to confirm payment term flexibility with finance",
+        "Carter to 'discuss with team'",
+        "Reconvene in 48 hours"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-27",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Carter Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute follow-up call. Carter confirmed annual payment works if we hold the $4,800 pricing. Verbally committed to moving forward. Asked about next steps for contract and implementation kickoff. Confirmed he has verbal buy-in from CFO on the number. Did not mention involving other stakeholders in contract review or implementation planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we realistically go live if we sign this week?",
+          "answer": "Implementation typically starts within 5 business days of signature. You'd be live mid-May."
+        },
+        {
+          "by": "rep",
+          "question": "Who from your team should we include in the kickoff?",
+          "answer": "Just me for now - I'll bring in my reps once the automations are configured."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "AE to send contract for Carter's review",
+        "Target signature by end of week",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

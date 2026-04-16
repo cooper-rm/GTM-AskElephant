@@ -1,0 +1,346 @@
+{
+  "deal_id": "DEAL-0245",
+  "company": {
+    "name": "GalacticTech",
+    "industry": "Marketing Agency",
+    "employee_count": 70,
+    "annual_revenue": 10748880,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4000.0,
+    "seats": 6,
+    "price_per_seat_monthly": 62.26,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.0,
+    "sales_cycle_days": 47,
+    "close_date": "2025-05-06",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Zara Lopez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 28
+    },
+    {
+      "name": "Ivy Wolf",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Zara Lopez at GalacticTech expressing interest in our platform for improving forecasting accuracy. She mentioned they're currently evaluating Gong but want to compare options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Zara"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-20",
+      "type": "qualification_call",
+      "duration_minutes": 3,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Zara to understand GalacticTech's current state and needs. Marketing agency with 70 employees looking to improve pipeline visibility and forecasting for their sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in a conversation intelligence platform right now?",
+          "answer": "Our forecasting has been off by 30-40% consistently, and leadership needs better visibility into what's actually happening in deals."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "We focus heavily on automation and workflow integration, with unlimited automation included even on our base plans, whereas Gong charges separately for many advanced features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call scheduled",
+        "Send preliminary pricing framework"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-26",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Zara covering current tech stack, team structure, and specific forecasting challenges. She has budget authority for tools under $5K annually and is the main decision-maker for sales tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current forecasting process and where it breaks down.",
+          "answer": "We rely heavily on rep updates in Salesforce, but there's no consistent methodology. Deals slip without warning because we can't see the actual conversation quality."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll need Ivy Wolf from IT to review the technical integration, but I'm driving this decision. Our VP of Marketing would use it too, but she's delegated the evaluation to me."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation timeline typically look like?",
+          "answer": "Most customers are up and running within 2 weeks with full team adoption in 30 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Zara",
+        "Loop in Ivy Wolf for technical review",
+        "Prepare custom demo focused on forecasting use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-01",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to address questions from demo and discuss technical requirements. Zara confirmed 6 seats needed (sales team of 5 plus herself) and mentioned budget is tight but approved for the right solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce setup and Slack workflows?",
+          "answer": "Yes, we have native integrations for both. Ivy can review our technical documentation, and we can do a technical validation call."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need something in place before end of Q2, so ideally within the next 3-4 weeks."
+        }
+      ],
+      "objections": [
+        "Zara mentioned the list price seems higher than Gong's quoted price for similar seats"
+      ],
+      "next_steps": [
+        "Technical review call with Ivy Wolf",
+        "Prepare proposal with pricing options",
+        "Share customer case study from similar-sized agency"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Zara with technical documentation for Ivy's review and a case study from a comparable marketing agency that improved forecast accuracy by 45% using our platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customers in the marketing agency space we could talk to?",
+          "answer": "Yes, happy to connect you with two reference customers - will make the introduction this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await Ivy's technical review",
+        "Arrange reference calls",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with three pricing tiers. Recommended 6-seat annual plan at $5,600 ACV (list price) with unlimited automation. Zara responded asking if there's flexibility on pricing given their budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the annual price? Our approved budget is closer to $4K.",
+          "answer": "Let me discuss with my manager. Can we schedule a call to review the overall value and see where we can land?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion",
+        "Explore potential discount within approved limits",
+        "Confirm Ivy's technical sign-off"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-24",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and value discussion with Zara. Walked through ROI on improved forecasting and time savings from automation. She's committed to moving forward if we can meet the $4K budget. Ivy has approved technically. Zara mentioned she hasn't looped in her VP yet but feels confident proceeding.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Before we finalize pricing, should we get your VP of Marketing involved to ensure full alignment?",
+          "answer": "She trusts my judgment on sales tools and I have the authority to sign contracts in this range. I'll brief her once we're ready to move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "If we can agree on $4K, how quickly can we get started?",
+          "answer": "We can kick off implementation within 3 business days of signed contract."
+        },
+        {
+          "by": "rep",
+          "question": "Walk me through your internal approval process once we agree on terms.",
+          "answer": "I'll need to get Ivy's final signature and run it by finance, but that's typically a 2-day turnaround."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Submit 30% discount request for approval",
+        "Prepare final contract at $4K ACV",
+        "Confirm timeline with implementation team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-28",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract review call with Zara. Discount approved at $4K ACV. Reviewed MSA terms and data security provisions. She'll circulate to Ivy and finance for final review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "The data retention clause mentions 2 years - can we reduce that to 1 year to align with our data policies?",
+          "answer": "That's a standard security requirement for the platform functionality, but I can escalate to legal to see if there's flexibility."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to review before you can sign?",
+          "answer": "Just Ivy for technical terms and our finance person for payment terms. Should be straightforward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal review of data retention clause",
+        "Ivy and finance final review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-06",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Zara Lopez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call covering contract amendments. Legal approved the 1-year data retention modification. Zara confirmed Ivy signed off and finance approved. She's planning to sign this week and mentioned Gong came back with a lower counter-offer but she prefers our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Gong just offered us a 35% discount to match timelines - can you help me justify why we should still go with you?",
+          "answer": "The core difference is that our unlimited automation is included at the $4K price point, whereas Gong charges additional fees for their automation features. For your forecasting use case, that automation is critical and would cost you significantly more with Gong even at their discounted rate."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you feel confident moving forward this week?",
+          "answer": "Honestly, I'm comfortable with the decision. I just need to finalize the business case documentation for our records, but I'm planning to sign by Friday."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anyone else we should connect with before you sign to ensure smooth implementation?",
+          "answer": "No, I think we're good. Ivy's on board, finance approved, and I'll brief the team once it's official."
+        }
+      ],
+      "objections": [
+        "Gong competitive pressure with deeper discount offer"
+      ],
+      "next_steps": [
+        "Send final contract with amended data retention terms",
+        "Await signature by end of week",
+        "Prepare implementation kickoff"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

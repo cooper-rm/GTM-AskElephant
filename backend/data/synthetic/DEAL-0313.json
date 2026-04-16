@@ -1,0 +1,272 @@
+{
+  "deal_id": "DEAL-0313",
+  "company": {
+    "name": "BoldHub",
+    "industry": "EdTech",
+    "employee_count": 67,
+    "annual_revenue": 8346487,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2100.0,
+    "seats": 3,
+    "price_per_seat_monthly": 56.49,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.5,
+    "sales_cycle_days": 47,
+    "close_date": "2024-12-06",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Julian Liu",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Grace Mitchell",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Julian Liu, Head of Sales at BoldHub. Expressed interest in improving forecasting accuracy for their sales team. Mentioned currently evaluating multiple solutions including Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM stack?",
+          "answer": "Yes, we have native integrations with all major CRMs and can discuss your specific setup on our qualification call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite for later this week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-20",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute qualification call with Julian. Discussed BoldHub's current forecasting challenges - missing quota by 20%+ due to poor pipeline visibility. Julian mentioned he's new to the Head of Sales role (3 months in) and wants to make an immediate impact. Team of 8 AEs, looking for solution to help with deal scoring and risk identification.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Our board wants better forecast accuracy by Q3. I need to show quick wins in my new role."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're typically in the same range, but offer more automation capabilities. Let's discuss your specific needs first to ensure we're the right fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Julian to identify technical stakeholder for demo",
+        "Rep to send discovery questionnaire",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery questions and case study from similar EdTech customer. Julian responded same day confirming Grace Mitchell from implementation team will join the demo. Also mentioned they're in active discussions with Fathom but appreciate our automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share more details on the automation capabilities?",
+          "answer": "Sent detailed feature breakdown and offered to customize demo around their specific workflow needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Prepare customized demo for EdTech use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Brief email exchange confirming demo agenda and attendees. Julian confirmed Grace Mitchell will attend as technical evaluator. Mentioned wanting to move quickly to have solution in place before end of quarter. No mention of executive involvement.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send pre-demo prep materials to Grace",
+        "Prepare demo environment with BoldHub branding"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-10",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "50-minute demo with Julian and Grace. Strong engagement from both on forecasting features and automation capabilities. Grace asked detailed technical questions about data security and integration architecture. Julian focused on ROI and implementation timeline. When asked about decision process, Julian mentioned he has budget authority up to $5K and wants to move forward. No executive sponsor mentioned. Grace seemed cautious about implementation bandwidth given their small team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 2-3 weeks for initial setup, then ongoing optimization. We provide dedicated support during onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your data security model work, especially for call recordings?",
+          "answer": "Enterprise-grade encryption, SOC 2 Type II certified. All data stored in US-based servers with option for data residency controls."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond you and Grace, who else should be involved in evaluating this decision?",
+          "answer": "Julian indicated he's the primary decision maker, will loop in CFO for contract signature only. No VP or C-level sponsor identified."
+        }
+      ],
+      "objections": [
+        "Grace raised concern about implementation requiring too much internal resources given small team size"
+      ],
+      "next_steps": [
+        "Send proposal with 3-seat unlimited automation tier",
+        "Provide implementation plan addressing Grace's resource concerns",
+        "Schedule follow-up for early next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal for $3,300 ACV (3 seats, unlimited automation tier). Julian responded within hours asking if there's flexibility on pricing given they're a smaller EdTech company. Mentioned Fathom came in lower but prefers our feature set. Requested best and final pricing to make decision this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room for movement on pricing for a startup in the education space?",
+          "answer": "Let me discuss with leadership and get back to you with our best offer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount approval internally",
+        "Respond with revised pricing by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal at $2,100 ACV (36.5% discount) to match competitive pressure. Julian appreciated the flexibility and said this works within his budget. Mentioned wanting to get contract signed before month end. Asked for standard payment terms and MSA. Still no mention of executive review or broader stakeholder buy-in.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send MSA and order form",
+        "Request Grace's sign-off on technical requirements",
+        "Target signature by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Liu",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Final contract coordination email. Julian confirmed he's ready to move forward pending legal review of MSA (1-2 days). Grace separately confirmed technical requirements look good. Julian reiterated excitement about getting forecasting improvements in place quickly. Payment terms: annual prepay, standard net-30 for invoicing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await legal review completion",
+        "Prepare onboarding kickoff materials",
+        "Schedule implementation kickoff call post-signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 66,
+    "churn_reason": "organizational change affected priorities"
+  }
+}

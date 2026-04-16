@@ -1,0 +1,328 @@
+{
+  "deal_id": "DEAL-0925",
+  "company": {
+    "name": "BayStack",
+    "industry": "Marketing Agency",
+    "employee_count": 69,
+    "annual_revenue": 12095031,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 53.94,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.4,
+    "sales_cycle_days": 48,
+    "close_date": "2025-04-30",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Emily Jones",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Rachel Pereira",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 15
+    },
+    {
+      "name": "Aaliyah Murphy",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-03",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "AE sent LinkedIn connection request to Emily Jones (VP of CS) with brief intro about helping CS teams improve forecasting accuracy. Emily accepted and replied expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Emily agreed to schedule a brief call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-13",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Emily to understand BayStack's current forecasting challenges. Emily mentioned she's new to the VP of CS role (3 months in) and inherited a manual forecasting process that's causing issues with capacity planning. Currently using Fireflies for call recording but not leveraging the data effectively. Team of 69 mostly remote, 6 CS reps would be initial users.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with forecasting today?",
+          "answer": "We're flying blind on renewal risk - everything is in spreadsheets and gut feel. I need to get ahead of churn before it happens."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to Fireflies? We already pay for that.",
+          "answer": "Fireflies focuses on transcription, we specialize in predictive CS analytics and risk scoring. We'd integrate with your Fireflies data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Emily to review demo video",
+        "Schedule deeper discovery call with use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-19",
+      "type": "qualification_call",
+      "duration_minutes": 3,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call where Emily confirmed she watched the demo video and wants to move forward. She asked for a technical evaluation involving her RevOps analyst Aaliyah to validate data integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get Aaliyah from RevOps involved to check our data infrastructure?",
+          "answer": "Absolutely, we'll need her for the technical eval anyway. Let's get a session scheduled with both of you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Emily and Aaliyah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-26",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into BayStack's tech stack and specific forecasting workflows. Emily outlined their current quarterly business reviews where forecasting data is manually compiled. Discussed integration with their CRM (HubSpot) and existing Fireflies implementation. Emily mentioned budget constraints for Q2 but expressed urgency to solve before next QBR.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current QBR prep process for forecasting.",
+          "answer": "It takes 3-4 days of manual work pulling data from HubSpot, Fireflies transcripts, and gut checks with reps. Then I present to Rachel (our CEO) and it's still mostly guesswork."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical budget approval process for a tool like this?",
+          "answer": "Under $5K I can approve with Rachel's sign-off. Anything more needs formal procurement review with Aaliyah."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation with Aaliyah",
+        "Emily to introduce Rachel for executive alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-02",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Emily and Aaliyah reviewing data integration requirements, API capabilities, and implementation timeline. Aaliyah validated HubSpot and Fireflies integration feasibility. Discussed the unlimited_automation tier for their use case. Emily enthusiastic about predictive risk scoring; Aaliyah focused on data security and SOC2 compliance. Walked through sample dashboards using anonymized similar customer data.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and do you require dedicated eng resources from our side?",
+          "answer": "Typically 2-3 weeks, mostly configuration. No eng resources needed - we handle the integrations and your CSM does the workflow setup."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more CS reps beyond the initial 6?",
+          "answer": "Unlimited_automation tier is per-seat monthly. You'd add seats as needed, billed monthly in arrears."
+        },
+        {
+          "by": "rep",
+          "question": "Aaliyah, any concerns about data governance or compliance?",
+          "answer": "We're SOC2 compliant and need to ensure CRM data stays in our security boundary. I'll need to review your DPA."
+        }
+      ],
+      "objections": [
+        "Aaliyah expressed concern about duplicate functionality with existing Fireflies investment"
+      ],
+      "next_steps": [
+        "Send DPA and SOC2 documentation to Aaliyah",
+        "Emily to brief Rachel before proposal stage"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-09",
+      "type": "technical_eval",
+      "duration_minutes": 22,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up technical session focused on Aaliyah's security review and addressing the Fireflies overlap concern. Clarified positioning: complementary to Fireflies (leverages their transcripts as input data), not replacement. Aaliyah satisfied with DPA terms. Emily mentioned Rachel is supportive but will want to see ROI justification given budget pressures this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we're already paying for Fireflies, what's the incremental value here?",
+          "answer": "Think of Fireflies as data capture, we're the intelligence layer. We turn those transcripts into predictive insights and automate your forecasting workflows. Most customers keep both."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for Rachel?",
+          "answer": "Show her time savings and early churn detection. If we can prevent even one $10K account from churning, this pays for itself."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare ROI-focused proposal for Rachel review",
+        "Emily to schedule proposal call with Rachel if possible"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-15",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Emily reviewing pricing and ROI model. Presented $6,250 ACV for 6 seats on unlimited_automation tier. Emily reacted to price, mentioned Rachel will push back given Q2 budget constraints. Emily asked about discount options and quarterly payment terms. Discussed value drivers: estimated 15 hours/month time savings for Emily, potential churn prevention worth $40K+ annually. Rachel not on call but Emily committed to presenting internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on price? We're a small agency and budget is tight this quarter.",
+          "answer": "Let me talk to my manager about what we can do for an early-stage customer. What number would make this work for Q2?"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "We typically do annual contracts but can discuss payment terms if it helps close in Q2."
+        }
+      ],
+      "objections": [
+        "Price is higher than Emily's expected budget (<$5K threshold mentioned earlier)"
+      ],
+      "next_steps": [
+        "AE to review discount options with leadership",
+        "Emily to present ROI case to Rachel"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-23",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emily after she discussed with Rachel. Emily has approval to move forward but needs to hit $4K or below to avoid formal procurement. Offered $3,800 ACV (39% discount) with annual payment to close this week. Emily agreed in principle pending final review with Aaliyah on contract terms. Discussed success metrics for first 90 days. Emily committed to getting signatures by Friday if paperwork is clean.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get this to $3,800 and I can close this week without involving procurement?",
+          "answer": "Yes, I got approval for $3,800 annual. Let's get the paperwork over today."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "I need dashboards ready for our Q3 QBR in July and at least one example of early churn risk detection that we can act on."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract at $3,800 ACV",
+        "Emily to review with Aaliyah and return signatures by Friday",
+        "Schedule kickoff call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Emily Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email from AE with contract documents and order form for $3,800 ACV, 6 seats, annual payment. Included implementation timeline and kickoff scheduling link. Emily responded confirming she and Aaliyah are reviewing and will have signatures back by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await signed contract",
+        "Schedule kickoff call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 75,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

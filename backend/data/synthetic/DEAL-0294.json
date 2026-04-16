@@ -1,0 +1,344 @@
+{
+  "deal_id": "DEAL-0294",
+  "company": {
+    "name": "ApexMarket",
+    "industry": "Professional Services",
+    "employee_count": 659,
+    "annual_revenue": 64595540,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20000.0,
+    "seats": 26,
+    "price_per_seat_monthly": 65.2,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.7,
+    "sales_cycle_days": 46,
+    "close_date": "2024-02-17",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Nathan Williams",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 30
+    },
+    {
+      "name": "Ella Jackson",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 10
+    },
+    {
+      "name": "Riley Mensah",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 18
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Nathan Williams, VP of CS at ApexMarket. Expressed interest in onboarding automation solutions. Mentioned currently evaluating multiple vendors including Gong. Request logged and follow-up scheduled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer onboarding automation specifically for professional services teams?",
+          "answer": "Yes, we have dedicated workflows for professional services onboarding with customizable automation templates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and relevant case studies",
+        "Schedule qualification call within 48 hours"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, professional services case studies, and calendly link. Nathan responded same day confirming interest and requesting pricing ballpark for 25-30 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical pricing range for 25-30 seats with automation features?",
+          "answer": "Pricing varies based on tier and services, but typically $600-$900 per seat annually for automations package. Happy to discuss specifics on a call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Prepare onboarding automation demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email for scheduled discovery call. Nathan confirmed timing and mentioned Ella Jackson from procurement would likely need to be involved for contracting. Also noted Riley Mensah may join for technical evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week",
+        "Prepare multi-stakeholder engagement strategy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-14",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Nathan Williams. ApexMarket currently experiencing 40% customer churn during first 90 days due to manual onboarding bottlenecks. Team of 8 CS managers handling 200+ annual onboardings manually. Nathan sees automation as critical but mentioned leadership is cost-sensitive this quarter. Currently in active evaluation with Gong. Discussed use case fit and technical requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline? Is there a specific event or deadline?",
+          "answer": "We're presenting Q3 CS strategy to leadership in 6 weeks. Want a solution in place before our busy season in Q4."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision beyond yourself?",
+          "answer": "Ella Jackson handles procurement and contracting. Riley Mensah will need to vet the technical integration. Our CFO will need to approve anything over $15k."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's onboarding features?",
+          "answer": "Our platform is purpose-built for onboarding workflows with deeper customization, while Gong focuses more on conversation intelligence. We can show a side-by-side comparison."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, so we'll need to see strong ROI justification"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Riley Mensah",
+        "Prepare ROI calculator based on churn reduction",
+        "Send Gong comparison sheet"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-01-22",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Riley Mensah",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Riley Mensah. Reviewed integration requirements with their Salesforce and Zendesk stack. Riley walked through their current onboarding workflow and identified 12 automation points. Discussed API capabilities, data security, and implementation timeline. Riley seemed satisfied with technical fit but noted they're running parallel evaluations and will need 2 weeks to complete testing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a mid-market company our size?",
+          "answer": "For 26 seats with standard integrations, typically 3-4 weeks from contract signature to full deployment. We provide dedicated implementation support."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have SOC 2 Type II certification?",
+          "answer": "Yes, we're SOC 2 Type II certified and can provide the report under NDA."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers or concerns that would prevent moving forward?",
+          "answer": "No major blockers. The API documentation looks solid. Just need time to test the Salesforce connector with our custom objects."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide sandbox access for Riley's testing",
+        "Send SOC 2 report and security documentation",
+        "Follow up in 2 weeks on technical findings"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Nathan checking on Riley's technical evaluation progress. Nathan responded that technical review is going well, but mentioned their CFO is pushing back on budget. Asked if there's flexibility on pricing for faster close. Also noted Gong has offered a competitive discount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there room to negotiate on pricing if we can close before end of month?",
+          "answer": "Let me connect with my manager on what we can do. Can you share more about budget constraints and what Gong has proposed?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call",
+        "Prepare discount approval request internally",
+        "Get competitive intelligence on Gong offer"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-02",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Nathan. Discussed budget constraints in detail. Nathan confirmed max budget is $15k but sees value at $20k with 26 seats. Requested formal proposal with discount options. Mentioned Gong is at $17k for similar package. Rep proposed $20k with extended payment terms and additional consulting hours to justify higher price point.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can get approval for $15k, would you be able to commit this week?",
+          "answer": "I'd need to get Ella and the CFO aligned, but yes, if we can land at $15k I think we can move quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you include implementation consulting in the package rather than charging separately?",
+          "answer": "Let me see what we can bundle. Our standard consulting is $5k, but for a deal this size we might be able to include 20 hours."
+        }
+      ],
+      "objections": [
+        "The $20k price point is above our approved budget, and Gong is coming in lower"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with tiered pricing options",
+        "Get manager approval for discount to $15k",
+        "Schedule follow-up to present proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-07",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Nathan to present revised proposal. Offered $14.7k for 26 seats (automations_plus_consulting tier) with bundled implementation support. Nathan appreciative of movement but mentioned CFO still wants executive sponsor alignment before final approval. Rep asked about engaging a VP or C-level stakeholder. Nathan seemed hesitant, said he'd 'try to get someone on a call' but didn't commit to specific exec.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to have our VP join a call with your CFO to discuss strategic value and ROI?",
+          "answer": "Maybe. Let me check with the CFO's calendar. Things are pretty busy on their end right now."
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign by Friday, can you hold this pricing for Q3 renewal as well?",
+          "answer": "The current discount is for initial term only, but we can discuss renewal pricing as part of the contract terms."
+        }
+      ],
+      "objections": [
+        "CFO wants to see executive-level endorsement before committing to any new tools this quarter"
+      ],
+      "next_steps": [
+        "Send final proposal with $14.7k pricing",
+        "Attempt to schedule exec-to-exec call",
+        "Set internal deadline for Friday close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-02-18",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Nathan Williams",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Nathan. Confirmed $14.7k pricing and 26 seats. Nathan committed to pushing internally for Friday signature. Discussed contract terms and implementation kickoff timing. Rep confirmed consulting hours and extended payment terms included. Nathan said he'd loop in Ella Jackson to start paperwork but still hasn't confirmed CFO or exec sponsor involvement. Rep asked for introduction to decision-maker; Nathan deflected, said he'll 'handle it internally.'",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we get Ella and the CFO on a brief call this week to finalize terms and answer any last questions?",
+          "answer": "I'll send the proposal to Ella and we'll handle the CFO approval on our side. Should be fine."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the 20 hours of consulting - is that onboarding only or can we use it for ongoing optimization?",
+          "answer": "It's flexible - can be used for implementation, training, or first 90 days of optimization support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Nathan and Ella Jackson",
+        "Follow up Thursday if no signature by then",
+        "Prepare implementation kickoff plan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

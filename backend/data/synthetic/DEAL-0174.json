@@ -1,0 +1,259 @@
+{
+  "deal_id": "DEAL-0174",
+  "company": {
+    "name": "SolarDynamics",
+    "industry": "eCommerce",
+    "employee_count": 42,
+    "annual_revenue": 7667487,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4600.0,
+    "seats": 5,
+    "price_per_seat_monthly": 74.21,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 16.6,
+    "sales_cycle_days": 49,
+    "close_date": "2023-12-22",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Amelia Murphy",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Amelia Murphy from SolarDynamics submitted an inbound request expressing interest in CRM automation tools to reduce manual data entry across their sales team. She mentioned they're currently evaluating a few options including Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer automation for CRM contact updates from sales calls?",
+          "answer": "Yes, our unlimited automation tier handles automatic CRM sync from calls, emails, and meetings with full field mapping."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and pricing tiers. Amelia responded confirming interest and availability for a qualification call next week. She noted that CRM automation is a priority for Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are live within 1-2 weeks with our unlimited automation plan."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email confirming qualification call scheduled. Amelia shared that she's the main point of contact for this evaluation and will be assessing fit for their 5-person sales team. She asked for demo materials in advance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send demo prep materials",
+        "Conduct qualification call on Tuesday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-21",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Amelia walking through CRM automation workflow, Salesforce integration, and call transcription accuracy. She compared features with Fireflies, particularly around CRM field mapping. Amelia confirmed she owns the RevOps budget but didn't mention involving leadership. Discussion focused on technical capabilities for her team's use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your CRM field mapping compare to Fireflies?",
+          "answer": "We offer custom field mapping with AI-suggested mappings based on call context, plus automatic opportunity stage updates."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we test this with our Salesforce instance before committing?",
+          "answer": "Yes, we can set up a 14-day trial with your Salesforce sandbox or production instance."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve in the evaluation from your side?",
+          "answer": "I'll be the main decision-maker here - I handle all our RevOps tooling decisions."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "Fireflies is cheaper for our team size.",
+          "response": "Our unlimited automation tier includes features like automatic opportunity updates and custom workflows that typically require add-ons elsewhere. Happy to show the ROI comparison."
+        }
+      ],
+      "next_steps": [
+        "Set up trial environment with Salesforce integration",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-02",
+      "type": "technical_eval",
+      "duration_minutes": 27,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation reviewing trial results. Amelia tested the CRM automation with 3 recent calls and was pleased with transcription quality and field mapping accuracy. She asked about pricing for 5 seats and mentioned she needs to move quickly to deploy before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your pricing for 5 seats on the unlimited automation plan?",
+          "answer": "Standard pricing is $1,200 per seat annually, so $6,000 for 5 seats. We can discuss options."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to have this implemented by end of April if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal pricing proposal",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-11",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss pricing and contract terms. Amelia expressed concern about the $6K list price versus Fireflies' offering and requested a discount to fit her Q2 budget. She reiterated she can sign quickly if pricing works. No mention of needing additional approvals or stakeholder input.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing to match our budget constraints?",
+          "answer": "Let me see what we can do for a multi-year commitment or expanded seat count."
+        },
+        {
+          "by": "rep",
+          "question": "Is there opportunity to expand seats if the team grows this year?",
+          "answer": "Possibly - we're planning to hire 2-3 more sales reps in Q3."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The pricing is 25% higher than Fireflies for comparable features.",
+          "response": "Our unlimited automation includes advanced CRM workflows and AI-driven opportunity insights that aren't in Fireflies' standard tier. But I can explore options to get closer to your budget."
+        }
+      ],
+      "next_steps": [
+        "Propose discounted pricing for 5 seats",
+        "Schedule final pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-22",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Amelia Murphy",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call finalizing terms at $4,600 ACV for 5 seats (23% discount). Amelia agreed to the pricing and confirmed she can sign the contract this week. She'll handle procurement paperwork internally. Rep asked again about involving her VP or executive team for alignment; Amelia said it's not necessary as she owns the RevOps budget line.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we include your VP of Sales or another exec in the final approval?",
+          "answer": "No need - I have full authority on RevOps tools up to this budget level."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Begin implementation planning with CS team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 84,
+    "churn_reason": "lost internal champion"
+  }
+}

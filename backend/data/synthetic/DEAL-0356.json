@@ -1,0 +1,555 @@
+{
+  "deal_id": "DEAL-0356",
+  "company": {
+    "name": "CompassCo",
+    "industry": "Marketing Agency",
+    "employee_count": 10000,
+    "annual_revenue": 1562511550,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 64900.0,
+    "seats": 43,
+    "price_per_seat_monthly": 123.31,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 68,
+    "close_date": "2024-05-01",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Fatima Jackson",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Caleb Watson",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 7
+    },
+    {
+      "name": "Daniel Goldberg",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 23
+    },
+    {
+      "name": "Owen White",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 32
+    },
+    {
+      "name": "Finn Kang",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-28",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to Fatima Jackson introducing AskElephant's call recording and coaching platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-03",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request with brief message about improving sales coaching at CompassCo. Fatima accepted and replied expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-04",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message proposing times for qualification call. No response yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-02-23",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Fatima. She's new VP of Sales (3 months) looking to standardize coaching across 43 reps. Currently evaluating Fireflies. Expressed interest in automation features and consulting support.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at conversation intelligence now?",
+          "answer": "I'm new to the role and want to build a consistent coaching framework. Our managers are doing it ad-hoc."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, native integration with real-time sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck",
+        "Fatima to identify key stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-02-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Sent overview deck and case study from similar marketing agency. Fatima replied asking about implementation timeline and whether consulting is included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline for our size?",
+          "answer": "4-6 weeks including training. Consulting package includes dedicated success manager for first 90 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Fatima confirmed Daniel Goldberg (Account Manager) and Owen White (Sales Manager) should be involved in evaluation. She'll check calendars and loop in COO Caleb Watson if this progresses.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be part of the evaluation process?",
+          "answer": "Daniel for technical fit, Owen for manager adoption, and Caleb our COO for final budget approval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for discovery with Fatima, Daniel, Owen"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email with agenda and questions about current coaching workflow, tech stack, and success metrics. Fatima confirmed agenda looks good.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-13",
+      "type": "follow_up_call",
+      "duration_minutes": 22,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Fatima and Owen. Discussed pain points: inconsistent coaching quality, no visibility into rep performance trends, manual call review taking 5+ hours/week per manager. Owen mentioned they tested Fireflies but found it lacking in coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What didn't work with Fireflies?",
+          "answer": "Transcription is fine but there's no actionable coaching layer. We need scorecards, trends, and manager workflows built in."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize coaching scorecards by role?",
+          "answer": "Absolutely\u2014you can build different scorecards for SDRs, AEs, managers, and track competencies over time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical validation call with Daniel",
+        "Prepare custom demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-03-17",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical discovery with Daniel Goldberg. Walked through integration requirements (Salesforce, Zoom, Slack). Daniel confirmed IT director Finn Kang will need to review security/compliance before purchase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention and security model?",
+          "answer": "SOC 2 Type II certified, data encrypted at rest and in transit, configurable retention policies by region."
+        },
+        {
+          "by": "rep",
+          "question": "Any current tools we need to integrate with besides Salesforce?",
+          "answer": "Zoom for calls, Slack for notifications, potentially HubSpot for marketing handoff tracking."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo",
+        "Send security documentation to Finn"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-23",
+      "type": "demo",
+      "duration_minutes": 55,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full demo with Fatima, Owen, and Daniel. Showcased call recording, AI coaching insights, manager dashboard, and automated scorecards. Team engaged, asked detailed questions about customization and reporting. Owen particularly interested in rep benchmarking features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can managers listen to calls directly in the platform?",
+          "answer": "Yes, with playback controls, highlights, and ability to clip moments for coaching sessions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting package work?",
+          "answer": "Dedicated coach for 90 days\u2014helps build scorecards, trains managers, runs workshops, and optimizes workflows."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Consistent coaching across all managers, reps getting feedback within 24hrs of calls, measurable improvement in win rates and talk-time ratios."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't feel like micromanagement to reps\u2014change management will be important."
+      ],
+      "next_steps": [
+        "Fatima to brief Caleb Watson (COO)",
+        "Send proposal draft",
+        "Schedule exec alignment call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal: $64,900 ACV for 43 seats with automations plus consulting package. Fatima acknowledged receipt and scheduled exec meeting with Caleb for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-04-02",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Caleb Watson",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec alignment call with Caleb Watson (COO). Fatima presented business case. Caleb supportive but focused on ROI and asked about pricing flexibility. Wants to see revised proposal with tiered options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the ROI timeline on this investment?",
+          "answer": "Most customers see 20-30% improvement in coaching efficiency within 90 days, measurable lift in win rates by month 6."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale?",
+          "answer": "Yes, we can structure a pilot with 20 seats and expand based on results."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter\u2014need to see if we can phase this or find cost savings."
+      ],
+      "next_steps": [
+        "Revise proposal with tiered options",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-04-05",
+      "type": "proposal_call",
+      "duration_minutes": 18,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Fatima. Discussed phased approach vs full rollout. Fatima prefers full rollout to avoid fragmented adoption but needs to make the numbers work for Caleb. Exploring annual prepay discount.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount is available for annual prepayment?",
+          "answer": "We can offer 10% off for annual commit, bringing it to $58,410."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Fatima to present updated numbers to Caleb",
+        "Loop in procurement (Owen)"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal with annual prepay option and ROI model showing projected $180K impact from improved win rates. Fatima replied positively, scheduling follow-up with Caleb.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-04-18",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Caleb Watson",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Caleb. Reviewed updated proposal and ROI projections. Caleb aligned on value but Owen (Sales Manager) raised procurement process questions. Finn Kang (IT Director) flagged need for security review before contracting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the contract term flexibility?",
+          "answer": "Standard is 12-month minimum, but we can discuss quarterly payment terms if that helps cash flow."
+        },
+        {
+          "by": "rep",
+          "question": "What's your typical procurement timeline?",
+          "answer": "Usually 2-3 weeks once we have exec and IT sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Security review with Finn",
+        "Formal vendor intake with Owen",
+        "Target close by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-04-21",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Fatima Jackson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing alignment call with Fatima. Discussed final terms: annual prepay at $58,410 for 43 seats plus consulting. Fatima confirmed budget approved pending security and legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is implementation included or additional cost?",
+          "answer": "Included in the consulting package\u2014no additional fees."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Security docs to Finn by EOD",
+        "Contract to legal",
+        "Plan kickoff for May 1"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-04-26",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Caleb Watson",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec checkpoint with Caleb. Security review in progress, legal reviewing terms. Caleb asked about payment terms\u2014exploring quarterly vs annual prepay to manage cash flow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of full prepay?",
+          "answer": "Yes, we can structure quarterly at $16,225 per quarter, same 12-month commit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize payment terms",
+        "Address any legal redlines"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-05-01",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Caleb Watson",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final exec alignment with Caleb. Agreed on quarterly payment terms. Legal cleared contract with minor redlines (data retention language). Security approved. Caleb confirmed green light to proceed, targeting signature this week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any remaining blockers on your end?",
+          "answer": "No, we're good to go. I'll have Owen coordinate contract signing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Plan implementation kickoff",
+        "Introduce customer success team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

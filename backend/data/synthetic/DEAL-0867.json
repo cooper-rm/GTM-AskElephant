@@ -1,0 +1,196 @@
+{
+  "deal_id": "DEAL-0867",
+  "company": {
+    "name": "SolarConsulting",
+    "industry": "EdTech",
+    "employee_count": 28,
+    "annual_revenue": 3972612,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3600.0,
+    "seats": 6,
+    "price_per_seat_monthly": 50.7,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.0,
+    "sales_cycle_days": 21,
+    "close_date": "2023-06-02",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Jack Goldberg",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 20
+    },
+    {
+      "name": "Aiden Hall",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jack Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Jack Goldberg from SolarConsulting submitted an inbound demo request through the website. Indicated interest in improving handoff between sales and customer success teams. Requested a call to discuss pricing and features.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jack Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Jack confirming demo interest and proposing three time slots for discovery call. Jack responded within 2 hours accepting the Wednesday 2pm slot and mentioned they're also evaluating Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot and our LMS platform?",
+          "answer": "Yes, we have native HubSpot integration and can connect to most LMS platforms via API or Zapier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm Wednesday 2pm discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-20",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Jack Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Jack Goldberg. He oversees a team handling onboarding for educational institutions. Main pain point is losing context when deals move from sales to CS - currently using manual Slack messages and spreadsheets. Mentioned Fathom as alternative but likes our automation features. Team of 6 would use it. No executive sponsor mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the automated handoff actually work between sales and CS?",
+          "answer": "AI extracts key details from calls and emails, then populates custom handoff templates that route to your CS team in real-time"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize what information gets passed over?",
+          "answer": "Absolutely - you define the fields and triggers, and can create different templates for different deal types"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating this decision?",
+          "answer": "Mostly my call - I own this process. Might loop in Aiden from implementations to test it out"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal for 6 seats unlimited plan",
+        "Schedule follow-up for Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-26",
+      "type": "proposal_call",
+      "duration_minutes": 7,
+      "person_name": "Jack Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal review call with Jack. He reviewed the $6,300 annual quote and pushed back on pricing, noting Fathom is significantly cheaper. Asked about discount options for early-stage companies. Call was short - he had another meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing for a smaller team like ours?",
+          "answer": "Let me discuss with leadership and see what we can do - I know budget is important for growing teams"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom and stretches our budget"
+      ],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Reconnect early next week with revised pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-03",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Jack Goldberg",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Jack. Presented revised offer at $3,600 annually (43% discount) to match budget constraints. Jack appreciated the flexibility and confirmed this works for their Q2 budget. He'll run the contract by Aiden to ensure technical fit, then move forward with procurement. Targeting close by end of month.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign annual, can we add more seats mid-year as we scale the CS team?",
+          "answer": "Yes, you can add seats anytime - we'll prorate the additional cost for the remainder of the term"
+        },
+        {
+          "by": "rep",
+          "question": "Will you need final sign-off from your VP or finance team before we send contracts?",
+          "answer": "No, I have approval authority up to $5k - just want Aiden to validate the technical setup"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract at $3,600 ACV",
+        "Jack to loop in Aiden for technical validation",
+        "Target signature by end of month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

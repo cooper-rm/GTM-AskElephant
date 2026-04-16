@@ -1,0 +1,257 @@
+{
+  "deal_id": "DEAL-0911",
+  "company": {
+    "name": "ApexCapital",
+    "industry": "Fintech",
+    "employee_count": 100,
+    "annual_revenue": 13215562,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3200.0,
+    "seats": 5,
+    "price_per_seat_monthly": 53.0,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.4,
+    "sales_cycle_days": 28,
+    "close_date": "2023-07-27",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lisa Cooper",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-08",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Lisa Cooper introducing our CRM automation platform and its ability to streamline customer success workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-09",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Lisa Cooper. She expressed interest in exploring CRM automation solutions for her CS team but was pressed for time. Agreed to a follow-up conversation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools to help automate your customer success workflows?",
+          "answer": "We're using some basic automation in our current CRM, but it's pretty limited. We've been looking at options to do more."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lisa to review email with more details",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with product overview and case studies relevant to fintech companies. Lisa responded confirming interest and availability for a discovery call to discuss ApexCapital's specific needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience working with other fintech companies in our size range?",
+          "answer": "Yes, we work with several fintech companies in the 50-150 employee range, including two case studies I included in my email."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-06",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Lisa Cooper covering ApexCapital's current CRM challenges and automation needs. Lisa described pain points with manual data entry and follow-up tracking for her 5-person CS team. Discussed current tech stack and integration requirements. Lisa mentioned they're also evaluating Fathom.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest pain points your CS team faces with your current CRM setup?",
+          "answer": "Manual data entry is killing us. After every customer call, my team spends 10-15 minutes logging notes and updating records. It's time we could be spending with customers."
+        },
+        {
+          "by": "rep",
+          "question": "How many seats would you need, and who else should be involved in evaluating this?",
+          "answer": "Just my CS team, so 5 seats. I own the tools budget for my department, so I can move forward once I find the right solution."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of integrations do you support with our existing CRM?",
+          "answer": "We have native integrations with all major CRMs including yours. The sync is bi-directional and happens in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send demo invitation with agenda",
+        "Lisa to identify key workflows to showcase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-13",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo focused on CRM automation features for customer success teams. Walked through automatic call transcription, note generation, and task creation. Lisa was engaged and asked detailed questions about implementation. She compared features to Fathom and expressed interest in our unlimited automation tier. Did not mention involving executives or other stakeholders.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your transcription accuracy compare to Fathom?",
+          "answer": "Our accuracy rates are comparable, both using advanced speech-to-text models. The main differentiator is our unlimited automation tier versus their per-seat limits."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond your CS team, are there other departments that might benefit from this?",
+          "answer": "Maybe eventually, but right now I'm focused on solving the problem for my team. We have budget allocated for CS tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Most customers are fully onboarded within 2 weeks. We provide white-glove setup and training for your team."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you walk through the pricing for 5 seats on the unlimited plan?",
+          "answer": "Standard pricing for 5 seats on unlimited automation is $5,400 annually. Let me put together a formal proposal for you."
+        }
+      ],
+      "objections": [
+        "The list price seems higher than what we've budgeted. Is there flexibility on pricing?"
+      ],
+      "next_steps": [
+        "Rep to send formal proposal with pricing options",
+        "Lisa to discuss internally with her team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-19",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Lisa Cooper to review proposal and discuss pricing. Lisa confirmed strong interest but pushed back on list price, citing budget constraints and competitive pricing from Fathom. Rep offered discounted pricing at $3,200 ACV to match budget and close faster. Lisa appreciated the flexibility and committed to moving forward with contracting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom came in at around $3,000 for our use case. Can you match that range?",
+          "answer": "I can work with my manager to get approval for $3,200 to stay competitive and get this closed this quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What does your approval process look like from here?",
+          "answer": "I have the authority to approve this for my team. I'll just need to run the contract through our legal team, but that's usually quick."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send updated proposal at $3,200",
+        "Lisa to route contract through legal review",
+        "Target close date: end of month"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lisa Cooper",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised contract at $3,200 ACV for 5 seats with unlimited automation. Lisa confirmed receipt and mentioned the contract is with legal. She expects to have signatures by end of week barring any unexpected issues from legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If legal requests any standard changes to terms, what's the process for amendments?",
+          "answer": "We're flexible on standard terms. Just flag anything they need adjusted and we can turn around redlines quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lisa to complete legal review",
+        "Signatures expected by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 95,
+    "churn_reason": "lost internal champion"
+  }
+}

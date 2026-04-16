@@ -1,0 +1,498 @@
+{
+  "deal_id": "DEAL-0640",
+  "company": {
+    "name": "BayCapital",
+    "industry": "Marketing Agency",
+    "employee_count": 920,
+    "annual_revenue": 124649093,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18200.0,
+    "seats": 19,
+    "price_per_seat_monthly": 78.97,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 11.3,
+    "sales_cycle_days": 52,
+    "close_date": "2024-01-30",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Morgan Walker",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 34
+    },
+    {
+      "name": "Rowan Perez",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-20",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Morgan Walker introducing AskElephant's onboarding automation capabilities for mid-market CS teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-22",
+      "type": "cold_call",
+      "duration_minutes": 9,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Connected with Morgan on cold call. Brief conversation about current onboarding challenges at BayCapital. Morgan mentioned they're evaluating solutions and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools to automate your customer onboarding process?",
+          "answer": "We have some basic workflows but nothing comprehensive. It's mostly manual right now."
+        },
+        {
+          "by": "prospect",
+          "question": "What makes AskElephant different from other platforms?",
+          "answer": "Our unlimited automation tier is designed specifically for CS teams scaling onboarding, and we integrate directly with your existing stack."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-27",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent sharing case study on onboarding automation for marketing agencies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-09",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Morgan to discuss BayCapital's onboarding pain points. Team of 920 is struggling with manual onboarding workflows. Morgan is champion but mentioned they're also looking at Gong. Confirmed budget authority and timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest bottleneck in your current onboarding process?",
+          "answer": "We're onboarding about 15-20 new clients per month and each one requires 10-15 hours of manual CS touch. It's not scalable."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in this decision?",
+          "answer": "I'm driving this, but Rowan Perez from RevOps will be using it day-to-day. I'll need to bring in exec approval for final sign-off."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing work for teams our size?",
+          "answer": "We have flexible seat-based pricing with unlimited automation. For ~20 seats we'd be looking at around $18-20k annually."
+        }
+      ],
+      "objections": [
+        "We're also evaluating Gong - how do you compare?"
+      ],
+      "next_steps": [
+        "Send follow-up email with Gong comparison",
+        "Schedule discovery call to review current workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with AskElephant vs Gong feature comparison and ROI calculator. Morgan responded positively, confirmed discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include use cases specific to onboarding automation in the comparison?",
+          "answer": "Absolutely, I'll send over three case studies from similar-sized agencies tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with discovery call as scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-18",
+      "type": "discovery_call",
+      "duration_minutes": 10,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on mapping BayCapital's current onboarding workflow. Morgan walked through their manual process and identified key automation opportunities. Discussed integration requirements with their CRM.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your ideal onboarding workflow look like?",
+          "answer": "Automated kickoff emails, templated task sequences, and alerts when clients are stuck. We need visibility across all onboards."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce?",
+          "answer": "Yes, native Salesforce integration is included in all plans."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare demo customized to BayCapital workflows",
+        "Include Rowan Perez on demo invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-24",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to finalize demo prep. Morgan confirmed Rowan will join. Discussed specific features to focus on during demo. Morgan mentioned timeline is somewhat flexible but wants to move quickly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this demo most valuable for you and Rowan?",
+          "answer": "Show us the automation builder and how we'd customize it for our client types. Also want to see reporting dashboards."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 8-10 weeks, but we're not locked in."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for next week with Morgan and Rowan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-27",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First demo with Morgan and Rowan. Walked through automation builder, workflow templates, and analytics dashboard. Both engaged throughout. Rowan asked detailed technical questions about integration. Morgan focused on ROI and scalability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build conditional workflows based on client segment?",
+          "answer": "Yes, the automation builder supports conditional logic and segmentation rules."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For your use case, 3-4 weeks including training and workflow setup."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of support is included?",
+          "answer": "Dedicated CSM, 24/7 support, and quarterly business reviews are all included."
+        }
+      ],
+      "objections": [
+        "The unlimited automation tier pricing seems high compared to Gong's conversation intelligence focus."
+      ],
+      "next_steps": [
+        "Send recording and follow-up resources",
+        "Schedule technical deep-dive demo for Rowan",
+        "Prepare ROI analysis specific to BayCapital"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-01",
+      "type": "demo",
+      "duration_minutes": 19,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focused on technical deep-dive for Rowan. Covered API access, data security, user permissions, and advanced automation scenarios. Rowan comfortable with technical capabilities. Morgan joined halfway through.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy?",
+          "answer": "We retain all data for the duration of your contract plus 90 days. Enterprise plans can customize retention."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export data if we need to switch platforms?",
+          "answer": "Yes, full data export capabilities via API or CSV at any time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to discuss internally and identify exec sponsor",
+        "Rep to send proposal draft"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo recordings, ROI calculator, and implementation timeline. Morgan responded confirming internal discussions are underway and she's working on exec alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you clarify the seat count - does it include view-only users?",
+          "answer": "View-only users are free. Seats are for users building/managing automations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to schedule exec review meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-01-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 19 seats, unlimited automation tier, $18,200 ACV with 3-4 week implementation. Included success metrics and first-year ROI projection. Morgan acknowledged receipt and is working on exec meeting scheduling.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting exec meeting confirmation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-01-17",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec meeting rescheduled - Morgan noted that exec sponsor is traveling. Meeting pushed by one week. Morgan remains engaged but timeline slipping is noted.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who from the exec team will be joining?",
+          "answer": "Still working on that - our VP of Ops should be there but confirming."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you send the deck ahead of time?",
+          "answer": "Yes, I'll send the exec summary and proposal 48 hours in advance."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything blocking progress on your end?",
+          "answer": "No blockers, just coordinating calendars. We're still moving forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting",
+        "Send exec summary deck"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-01-20",
+      "type": "pricing_call",
+      "duration_minutes": 6,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call rescheduled due to Morgan's conflict. Brief conversation about budget parameters. Morgan mentioned finance is reviewing the proposal and asked about payment terms flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment terms?",
+          "answer": "Annual upfront is standard, but we can discuss quarterly with a small premium."
+        }
+      ],
+      "objections": [
+        "Finance is pushing back on annual commitment for a new vendor."
+      ],
+      "next_steps": [
+        "Rep to prepare payment term options",
+        "Reschedule pricing discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-01-25",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting held with Morgan and VP of Ops. Reviewed business case, ROI, and implementation plan. VP of Ops engaged but non-committal. Discussed competitive landscape including Gong evaluation. Morgan advocating strongly for AskElephant's onboarding focus.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What differentiates you from Gong in the onboarding automation space?",
+          "answer": "Gong focuses on conversation intelligence and sales coaching. We're purpose-built for CS onboarding automation with workflow orchestration as the core."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the risk if implementation takes longer than 4 weeks?",
+          "answer": "Implementation timeline is guaranteed. If we exceed 4 weeks, we'll credit your first month."
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision timeline from here?",
+          "answer": "We need another week to finalize budget and compare final proposals. Should have decision by end of month."
+        }
+      ],
+      "objections": [
+        "VP of Ops wants to see Gong's final proposal before committing."
+      ],
+      "next_steps": [
+        "Morgan to schedule final internal review",
+        "Rep to follow up on payment terms and any final questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-01-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Walker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with payment term options (annual vs quarterly) and implementation guarantee. Morgan responded that they're in final review stage and will have decision within 5 business days. Tone remains positive but cautious given competitive evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await final decision",
+        "Rep on standby for any last questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

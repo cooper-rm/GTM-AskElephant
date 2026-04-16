@@ -1,0 +1,331 @@
+{
+  "deal_id": "DEAL-0230",
+  "company": {
+    "name": "RidgeLens",
+    "industry": "SaaS/Tech",
+    "employee_count": 51,
+    "annual_revenue": 4643451,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3500.0,
+    "seats": 5,
+    "price_per_seat_monthly": 56.24,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 36.8,
+    "sales_cycle_days": 45,
+    "close_date": "2024-01-26",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Julian Iyer",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Julian Iyer, Director of CS at RidgeLens, inquiring about automating their sales-to-CS handoff process. Brief form submission expressing interest in workflow automation tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send follow-up email with calendar link"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent introducing AskElephant's CS automation capabilities. Julian responded positively, mentioned current handoff issues causing customer confusion. Scheduled qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and Intercom?",
+          "answer": "Yes, native integrations with both platforms available out of the box"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-18",
+      "type": "qualification_call",
+      "duration_minutes": 6,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Julian. Confirmed RidgeLens has 5-person CS team struggling with manual handoffs from sales. Julian mentioned he's been in role for 3 months, inherited fragmented process. Quick timeline discussed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had three customers escalate confusion about who owns their account post-sale in the last month"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to map current workflow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-26",
+      "type": "discovery_call",
+      "duration_minutes": 9,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on mapping RidgeLens's current sales-to-CS handoff. Julian walked through pain points: lost context, delayed onboarding, no visibility into deal notes. Mentioned budget limitations as new hire building process from scratch.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Honestly, I have autonomy here. Our VP of Sales trusts me to fix this on the CS side"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system pull historical deal data or only work going forward?",
+          "answer": "We can backfill up to 12 months of historical data from your CRM"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo focused on handoff automation workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-31",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo of AskElephant's automation platform. Julian highly engaged, asked detailed questions about workflow triggers and customization. Expressed excitement about templated handoff playbooks. Did not mention involving leadership or other stakeholders in next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff checklist per product tier?",
+          "answer": "Yes, fully configurable by deal size, product, or any CRM field"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "For your use case, 2-3 weeks including data migration and team training"
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Zero customer escalations about handoff confusion, and my team spending 50% less time hunting for deal context"
+        }
+      ],
+      "objections": [
+        "Concerned about change management with the sales team who may resist new process"
+      ],
+      "next_steps": [
+        "Technical evaluation with Julian's team",
+        "Share pricing framework"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-07",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session where Julian and two CS team members tested the platform. Walked through Salesforce integration setup, tested automation rules, reviewed reporting dashboard. Team receptive but Julian noted budget constraints multiple times.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of Salesforce permissions do we need for the integration?",
+          "answer": "Admin access required for initial setup, then can downgrade to standard integration user"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there a contract minimum or can we start with just our CS team?",
+          "answer": "We offer flexible seat-based pricing, minimum 5 seats which aligns with your team size"
+        },
+        {
+          "by": "rep",
+          "question": "Any technical concerns or blockers from your side?",
+          "answer": "No blockers, our Salesforce instance is pretty standard"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send formal proposal",
+        "Julian to review with finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-01-13",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call to review pricing for 5 seats with automations plus consulting package. Julian reacted strongly to $5,500 list price, emphasized limited budget as new director. Rep explored value drivers and Julian committed to making it work if pricing could flex.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What budget range were you expecting?",
+          "answer": "I was hoping to stay under $4,000 annually. I'm working with what was allocated to me"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include exactly?",
+          "answer": "Custom workflow design, 1:1 implementation support, and quarterly strategy sessions"
+        }
+      ],
+      "objections": [
+        "Pricing is above allocated budget for this initiative",
+        "Need to justify ROI without executive sponsorship to help sell it internally"
+      ],
+      "next_steps": [
+        "Rep to check on pricing flexibility",
+        "Julian to outline internal approval process"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-01-18",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call where rep presented revised proposal at $3,500 ACV (36.8% discount). Julian appreciative of the flexibility, confirmed this fits his budget. Discussion focused on contract terms and implementation timeline. Julian mentioned wanting to move fast to show quick win in new role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payment terms instead of annual upfront?",
+          "answer": "We can offer quarterly payments at this price point"
+        },
+        {
+          "by": "rep",
+          "question": "Do you need to run this by anyone else before signing?",
+          "answer": "No, I have authority to approve software under $5K for my department"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send updated contract with quarterly terms",
+        "Julian to review and return signed by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-26",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Julian Iyer",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to address Julian's questions on contract language and implementation kickoff timing. Confirmed quarterly payment schedule, 12-month term, and implementation start date. Julian committed to signature within 48 hours and expressed enthusiasm about getting started.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-contract?",
+          "answer": "You can add seats anytime, prorated to your renewal date at the same per-seat rate"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there an auto-renewal clause?",
+          "answer": "Yes, auto-renews annually unless you provide 30 days notice before term end"
+        },
+        {
+          "by": "rep",
+          "question": "Any other questions before we finalize?",
+          "answer": "No, I think we're good. I'll get this signed and returned by Thursday"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Julian to return signed contract by Thursday",
+        "Implementation team to schedule kickoff call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

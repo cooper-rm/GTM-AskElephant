@@ -182,11 +182,20 @@ class ArchitectureDiagram(Flowable):
             c.setFont("Helvetica", 7)
             c.drawCentredString(dx + 25, docs_y - 10, f"Deal {i+1}")
 
-        # ── Convergence: both sides merge into ML Context Package ──
-        merge_y = docs_y - gap + 10
+        # ── Risk Calibration node (between XGBoost and merge) ──
+        calib_y = xgb_y - 60
+        calib_w = 180
+        # Arrow XGBoost → Risk Calibration
+        arrow_down(left_x, xgb_y, calib_y + bh)
+        box(left_x - calib_w/2, calib_y, calib_w, bh,
+            "Risk Calibration",
+            "prob \u2192 multiplier + tier")
 
-        # Arrow from XGBoost down to merge
-        arrow_down(left_x, xgb_y, merge_y + bh)
+        # ── Convergence: both sides merge into ML Context Package ──
+        merge_y = min(calib_y, docs_y - 15) - 55
+
+        # Arrow from Risk Calibration down to merge
+        arrow_down(left_x, calib_y, merge_y + bh)
 
         # Arrow from docs area down to merge
         arrow_down(right_x, docs_y - 15, merge_y + bh)
@@ -195,7 +204,7 @@ class ArchitectureDiagram(Flowable):
         ctx_w = 320
         box((W - ctx_w)/2, merge_y, ctx_w, bh,
             "ML Context Package",
-            "risk score + SHAP + k neighbors + urgency", fill=accent)
+            "risk multiplier + tier + SHAP + k neighbors", fill=accent)
 
         # Arrow down to orchestrator box
         orch_y = merge_y - gap
@@ -848,6 +857,123 @@ def build_content(styles):
     # Combined agent layer — one continuous block
     story.append(PageBreak())
     story.append(CombinedAgentDiagram())
+
+    # ── Design Note — Written Sections ──
+    story.append(PageBreak())
+    story.append(Paragraph(
+        "Design Note \u2014 Architecture & Judgment Calls", s["DocTitle"]
+    ))
+    story.append(Spacer(1, 12))
+
+    story.append(Paragraph("Data Sources", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 Where does the system get its data? "
+        "CRM deal records, AskElephant AI-processed call data, public company enrichment, "
+        "historical outcomes for model training.]",
+        s["Placeholder"]))
+
+    story.append(Paragraph("Judgment Calls", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 Why XGBoost + HNSW instead of a single "
+        "model? Why one-shot LLM per deal vs. per-touch? Why synthetic outcomes for "
+        "training vs. real CRM history? Why did we split analysis and output agents?]",
+        s["Placeholder"]))
+
+    story.append(Paragraph("What Fails at Scale", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 JSON files hit a wall around 10K deals. "
+        "HNSW index rebuild becomes expensive at volume. LLM rate limits on parallel "
+        "agents. What specifically breaks and at what point.]",
+        s["Placeholder"]))
+
+    story.append(Paragraph("What We'd Harden in v2", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 Move state to Postgres. Switch delivery "
+        "to real Gmail/Slack/HubSpot with retries. Add drift monitoring. Active learning "
+        "from CSM feedback on flagged artifacts. Per-industry model variants.]",
+        s["Placeholder"]))
+
+    story.append(Paragraph("Unsupervised vs. Human-in-the-Loop", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 Which agent outputs can auto-send? "
+        "Which require CSM review? CRM updates and Slack announcements: safe to auto. "
+        "Welcome email to customer: held when high-risk flagged. CSM brief: always "
+        "reviewed before kickoff. Confidence manifest drives the gates.]",
+        s["Placeholder"]))
+
+    # ── Part 4: First 90 Days ──
+    story.append(PageBreak())
+    story.append(Paragraph(
+        "Part 4 \u2014 First 90 Days", s["DocTitle"]
+    ))
+    story.append(Spacer(1, 8))
+    story.append(Paragraph(
+        "The next three AI employees I'd build in my first 90 days, "
+        "and which gets priority week one.",
+        s["Body"],
+    ))
+    story.append(Spacer(1, 12))
+
+    # AI Employee #1 (already built)
+    story.append(Paragraph(
+        "AI Employee #1 \u2014 Closed-Won Activation (Shipped)",
+        s["SectionHeader"]
+    ))
+    story.append(Paragraph("[To be completed \u2014 Owns: the deal just closed, run the handoff. "
+        "Triggers on closed-won webhook. Consumes deal record + call data. Produces 6 "
+        "handoff artifacts. Makes decisions on risk escalation, artifact blocking, "
+        "human review routing. 30/60/90 success: % of handoffs that go out without "
+        "CSM edits; time-to-kickoff; day-90 retention lift vs. control. Hands off to "
+        "CSM when: high risk, compound risk, or low model confidence.]",
+        s["Placeholder"]))
+    story.append(Spacer(1, 10))
+
+    # AI Employee #2
+    story.append(Paragraph(
+        "AI Employee #2 \u2014 Stale Deal Re-Engagement",
+        s["SectionHeader"]
+    ))
+    story.append(Paragraph("[To be completed \u2014 Owns: 'This deal went dark. Get it moving "
+        "or kill it honestly.' Triggers on no-activity thresholds. Consumes deal history. "
+        "Produces re-engagement play OR close-lost recommendation with reasoning. "
+        "30/60/90 success: % of stale deals moved; % correctly killed; revenue recovered. "
+        "Hands off when: deal has legal/procurement blocker, or when AE overrides.]",
+        s["Placeholder"]))
+    story.append(Spacer(1, 10))
+
+    # AI Employee #3
+    story.append(Paragraph(
+        "AI Employee #3 \u2014 Expansion Opportunity Detection",
+        s["SectionHeader"]
+    ))
+    story.append(Paragraph("[To be completed \u2014 Owns: surfaces upsell/cross-sell signals "
+        "from customer call data. Triggers on usage patterns + conversation signals. "
+        "Consumes CS call transcripts, product usage, account health. Produces prioritized "
+        "expansion opportunities with talking points. 30/60/90: expansion ARR sourced; "
+        "win rate on AI-flagged opportunities vs. baseline. Hands off to CSM/AM for the "
+        "actual conversation \u2014 AI identifies, human closes.]",
+        s["Placeholder"]))
+    story.append(Spacer(1, 10))
+
+    story.append(Paragraph("Which Gets Priority Week One", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 Stale Deal Re-Engagement. Why: it's the "
+        "highest-leverage use case, directly recovers revenue, and has the clearest "
+        "feedback loop. Every sales org has a graveyard of dark deals that are worth "
+        "money if correctly re-engaged \u2014 or worth closing out if not.]",
+        s["Placeholder"]))
+
+    # ── Part 5: Your One Question ──
+    story.append(PageBreak())
+    story.append(Paragraph(
+        "Part 5 \u2014 Your One Question", s["DocTitle"]
+    ))
+    story.append(Spacer(1, 12))
+
+    story.append(Paragraph("The Question", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 One question for Woody, Sam, or Ben "
+        "before deciding to take this role.]",
+        s["Placeholder"]))
+    story.append(Spacer(1, 10))
+
+    story.append(Paragraph("What the Answer Would Change", s["SectionHeader"]))
+    story.append(Paragraph("[To be completed \u2014 1-2 sentences on how the answer "
+        "shapes the work I'd do here.]",
+        s["Placeholder"]))
 
     # ── References page ──
     story.append(PageBreak())

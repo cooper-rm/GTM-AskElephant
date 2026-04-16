@@ -1,0 +1,332 @@
+{
+  "deal_id": "DEAL-0467",
+  "company": {
+    "name": "PhotonCollective",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 11138576,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 61.83,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.5,
+    "sales_cycle_days": 47,
+    "close_date": "2023-06-01",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Nora Becker",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Nora Becker (VP of CS) at PhotonCollective expressing interest in improving sales-to-CS handoff process. Brief initial contact to schedule discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have a solution that helps automate handoffs between sales and customer success teams?",
+          "answer": "Yes, our platform specializes in sales-to-CS handoff automation with unlimited automation capabilities"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current handoff challenges"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call details. Shared agenda focused on understanding PhotonCollective's current sales-to-CS transition pain points and process gaps.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call",
+        "Review current handoff documentation if available"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-22",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Nora revealed significant handoff friction causing customer confusion and CS team inefficiency. Currently using basic Salesforce workflows. Team of 100, looking to support 7 CS managers. Mentioned evaluating Gong as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the biggest pain point in your current sales-to-CS handoff?",
+          "answer": "Account context gets lost in transition - CS has to re-ask questions customers already answered in sales calls"
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently managing handoffs?",
+          "answer": "Mostly manual Salesforce notes and occasional Slack messages, very inconsistent"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce and Slack setup?",
+          "answer": "Yes, we have native integrations with both and can pull conversation context automatically"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo focused on handoff automation",
+        "Prepare custom demo using PhotonCollective's workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery follow-up email summarizing key challenges discussed and confirming demo agenda. Highlighted unlimited automation tier as good fit for their workflow complexity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will the demo show how conversation intelligence from sales calls carries over to CS?",
+          "answer": "Absolutely - we'll demonstrate live how call summaries and key topics flow into CS playbooks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Attend demo session",
+        "Prepare questions about technical integration"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-06",
+      "type": "demo",
+      "duration_minutes": 41,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed product demo showcasing handoff automation, conversation intelligence, and workflow triggers. Nora engaged positively with unlimited automation features. Discussed 7-seat deployment for CS leadership team. She mentioned Gong is also in consideration but focused more on call recording than handoff.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from Gong's approach to sales-CS alignment?",
+          "answer": "Gong excels at call recording and analytics, but our platform is purpose-built for handoff orchestration with automated playbook triggers"
+        },
+        {
+          "by": "rep",
+          "question": "Beyond the 7 CS managers, are there other stakeholders who should see this?",
+          "answer": "The CS team will be primary users, though I'll need to loop in our COO eventually for budget approval"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for technical setup, then 1-2 weeks for team onboarding"
+        }
+      ],
+      "objections": [
+        "Need to ensure this doesn't create duplicate work with our existing Salesforce workflows"
+      ],
+      "next_steps": [
+        "Prepare pricing proposal for 7 seats with unlimited automation",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-12",
+      "type": "proposal_call",
+      "duration_minutes": 31,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call reviewing $7,500 list price for 7 seats on unlimited automation tier. Nora expressed budget constraints and requested discount. Discussed ROI from reducing CS onboarding time and customer confusion. She indicated decision timeline is tight.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Our budget was closer to $5,000 annually.",
+          "answer": "Let me see what we can do - given you're coming in through inbound and clear use case fit, I can work with leadership on adjusted pricing"
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule time with your COO to review business case and get buy-in?",
+          "answer": "I'd like to get pricing finalized first, then I can present internally"
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like?",
+          "answer": "Dedicated CSM for onboarding, technical setup assistance, and 30-day check-ins"
+        }
+      ],
+      "objections": [
+        "Price is above allocated budget",
+        "Need to move quickly but cautious about adding another tool"
+      ],
+      "next_steps": [
+        "Get approval for discounted pricing at $5,200 ACV",
+        "Follow up on executive sponsorship"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-17",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief executive alignment call with Nora to discuss business case. COO was invited but did not attend - Nora indicated she has discretionary approval up to $10K. Reviewed revised pricing at $5,200 (30% discount). Discussed contract terms and start date preferences.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will the COO need to review the agreement before signature?",
+          "answer": "No, this falls within my approval authority, I can sign directly"
+        },
+        {
+          "by": "prospect",
+          "question": "Is the $5,200 pricing locked for multi-year or just year one?",
+          "answer": "That rate holds for the initial contract term with standard annual escalation afterward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract terms",
+        "Schedule negotiation call to review MSA"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-25",
+      "type": "negotiation_call",
+      "duration_minutes": 32,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract negotiation call to review MSA and finalize terms. Discussed payment terms, annual vs quarterly billing, renewal clauses, and data security requirements. Nora confirmed $5,200 ACV pricing acceptable and requested net-30 payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do net-30 payment terms instead of upfront annual?",
+          "answer": "Yes, we can accommodate net-30 for the discounted annual amount"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and privacy policy for call recordings?",
+          "answer": "All data encrypted at rest and in transit, retained per your specification, SOC 2 Type II compliant"
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders who need to review the contract?",
+          "answer": "I'll have our legal do a quick pass but no major concerns anticipated"
+        }
+      ],
+      "objections": [
+        "Standard payment terms don't align with our AP process"
+      ],
+      "next_steps": [
+        "Send final MSA with net-30 terms",
+        "Legal review at PhotonCollective",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nora Becker",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with finalized contract incorporating net-30 payment terms and requested MSA edits. Confirmed $5,200 ACV for 7 seats on unlimited automation tier. Awaiting legal review and signature from Nora.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Legal review at PhotonCollective",
+        "Contract signature",
+        "Kickoff implementation planning"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 87,
+    "churn_reason": "lack of executive alignment"
+  }
+}

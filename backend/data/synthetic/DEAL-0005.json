@@ -1,0 +1,243 @@
+{
+  "deal_id": "DEAL-0005",
+  "company": {
+    "name": "HelixData",
+    "industry": "PropTech",
+    "employee_count": 100,
+    "annual_revenue": 12821398,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4100.0,
+    "seats": 6,
+    "price_per_seat_monthly": 60.58,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.9,
+    "sales_cycle_days": 30,
+    "close_date": "2023-08-28",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Carter Miller",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Carter Miller from HelixData submitted an inbound request expressing interest in improving pipeline visibility for their CS team. Brief form fill, no direct conversation yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Carter"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-29",
+      "type": "qualification_call",
+      "duration_minutes": 3,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick qualification call with Carter Miller (VP of CS). Discussed current pain points around pipeline visibility and lack of structured call data. Carter mentioned they're currently evaluating Fireflies but are open to alternatives. Confirmed basic fit and scheduled technical eval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a solution right now?",
+          "answer": "Our CS team is flying blind on deal health - we need better visibility into what's actually happening on calls"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "We're competitive and offer more automation capabilities - let's dig into your specific needs on the technical eval"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for technical evaluation",
+        "Prepare demo focused on pipeline visibility use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Carter confirming technical eval scheduled for next week. Included preliminary discovery questions about team size, current tools, and specific visibility gaps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many people would need access initially?",
+          "answer": "Probably 6 seats for our core CS team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-10",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth technical evaluation with Carter Miller. Walked through live demo of call analytics, pipeline dashboards, and automation workflows. Carter was engaged and asked detailed questions about integration with their CRM. Discussed unlimited automation tier for their use case. Carter is the sole point of contact - no other stakeholders joined despite being a company-wide tool.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing HubSpot instance?",
+          "answer": "Yes, we have native HubSpot integration that syncs call data and insights automatically"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve from your team - maybe your CRO or operations lead?",
+          "answer": "I can handle the evaluation and decision on this. I'll loop them in when needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference between your automation capabilities and Fireflies?",
+          "answer": "We offer unlimited custom workflows and deeper CRM integration - Fireflies is more limited on automation triggers"
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't overlap too much with what Fireflies already does"
+      ],
+      "next_steps": [
+        "Send pricing options for 6 seats with unlimited automation",
+        "Carter to review internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with pricing options sent to Carter. Outlined three tiers with recommendation for unlimited automation plan based on their pipeline visibility needs. Reiterated ROI on automation capabilities versus Fireflies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Pricing call scheduled to discuss options and finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-22",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Carter. Walked through the $6,000 ACV unlimited automation package. Carter pushed back on price, citing budget constraints and Fireflies' lower cost. Negotiated down to $4,100 ACV with 31.9% discount to close before end of quarter. Still no executive sponsor involvement despite multiple prompts. Carter confirmed he can sign but mentioned informal approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you do better on price? Fireflies is coming in quite a bit lower.",
+          "answer": "Let me see what I can do. Given it's end of quarter, I can bring it down to $4,100 if we can close this week."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or VP of Ops on a quick call to align on budget and business case?",
+          "answer": "Not necessary - I have approval authority for tools in this range. Let's just move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the contract terms - any flexibility on annual commitment?",
+          "answer": "Standard annual contract with quarterly payment options available if that helps with cash flow"
+        }
+      ],
+      "objections": [
+        "Price is higher than Fireflies and we're budget-conscious right now"
+      ],
+      "next_steps": [
+        "Send revised proposal at $4,100 ACV for 6 seats",
+        "Carter to review and sign by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Carter Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email with revised proposal at $4,100 ACV sent to Carter. Included contract, onboarding timeline, and implementation plan. Emphasized timeline to close before quarter end.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Awaiting signature from Carter",
+        "Prep onboarding kickoff for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

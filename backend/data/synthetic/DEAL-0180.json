@@ -1,0 +1,296 @@
+{
+  "deal_id": "DEAL-0180",
+  "company": {
+    "name": "IndigoLogic",
+    "industry": "Marketing Agency",
+    "employee_count": 78,
+    "annual_revenue": 9295283,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8800.0,
+    "seats": 10,
+    "price_per_seat_monthly": 75.73,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 14.9,
+    "sales_cycle_days": 33,
+    "close_date": "2023-03-08",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Ade Osei",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Ade Osei, VP of CS at IndigoLogic. Expressed interest in improving pipeline visibility for their marketing agency operations. Brief form submission with request for follow-up call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Ade"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-03",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ade Osei to understand IndigoLogic's needs. Agency is struggling with visibility across client deliverables and internal pipeline tracking. Currently evaluating Fathom as well. Team of 78, looking for 10 seats initially with automation tier. Use case centers on CS and delivery team coordination.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a new solution right now?",
+          "answer": "We've scaled to 78 people and our current spreadsheet tracking is breaking down. Client handoffs between sales and delivery are getting messy."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's?",
+          "answer": "Our unlimited automation tier includes workflow triggers, custom fields, and API access\u2014Fathom charges per automation block."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with pricing comparison",
+        "Schedule product demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing breakdown for 10-seat unlimited automation package at $8,800 ACV. Included comparison sheet highlighting automation advantages over Fathom. Ade responded confirming demo time and asking about onboarding timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, what's the typical onboarding timeline?",
+          "answer": "Standard onboarding is 2-3 weeks with dedicated CSM support and data migration assistance included."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo focusing on pipeline visibility and automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-14",
+      "type": "demo",
+      "duration_minutes": 23,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo conducted with Ade walking through pipeline visibility dashboards, automation workflows, and client tracking features. Ade engaged positively, particularly interested in custom fields and reporting. Mentioned that leadership would need to see ROI before final approval. No other stakeholders on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the pipeline stages to match our client delivery phases?",
+          "answer": "Yes, fully customizable stages with drag-and-drop configuration and custom field mapping per stage."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll need to bring our COO in eventually, but I want to vet the technical side first."
+        }
+      ],
+      "objections": [
+        "Need to prove ROI to leadership before committing"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation deep-dive",
+        "Prepare ROI calculator for leadership review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-19",
+      "type": "technical_eval",
+      "duration_minutes": 32,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Ade covering API integration with their existing tools, data import process, and automation rule configuration. Tested live integration with their email and calendar systems. Ade confirmed technical fit but mentioned Fathom's pricing came in lower. Still single-threaded\u2014no exec involvement yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How difficult is the API integration with our current Slack and Google Workspace setup?",
+          "answer": "Both are pre-built native integrations\u2014typically configured in under an hour with webhook setup."
+        },
+        {
+          "by": "rep",
+          "question": "How are you feeling about the solution so far compared to Fathom?",
+          "answer": "Functionality-wise you're stronger, but their pricing is more aggressive. I need to build the business case internally."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support is included at this tier?",
+          "answer": "Dedicated CSM, priority email/chat support, and monthly optimization check-ins included in unlimited automation."
+        }
+      ],
+      "objections": [
+        "Fathom's pricing is lower\u2014need to justify the delta internally"
+      ],
+      "next_steps": [
+        "Schedule executive alignment meeting with COO",
+        "Send ROI framework and case study"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-25",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Ade present, though COO did not attend\u2014Ade mentioned scheduling conflict at last minute. Walked through ROI framework showing projected time savings and revenue impact from better pipeline visibility. Ade took detailed notes and committed to presenting internally. Pricing discussion surfaced again relative to Fathom.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is the COO able to join us today or should we reschedule?",
+          "answer": "She had a client fire drill come up. I'll present your materials to her this week and loop back."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $8,800 annual price given we're comparing with a lower offer?",
+          "answer": "Let me discuss with my team. The value gap is significant with unlimited automation, but I can explore options."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like in month one?",
+          "answer": "Weekly check-ins with your CSM, live training sessions, and on-demand migration support for your existing pipeline data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ade to present to COO internally",
+        "Follow up on pricing flexibility discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-01",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ade after internal COO discussion. COO is supportive but pushing for discount to match Fathom's pricing tier. Ade advocating internally but noted budget constraints. Discussed potential 10% discount with quarterly payment terms. Still no direct COO engagement on our calls.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet Fathom's pricing or at least get closer?",
+          "answer": "I can offer 10% off bringing it to $7,920 annually, with quarterly billing available. That reflects the automation value delta."
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have a direct conversation with your COO to address any remaining concerns?",
+          "answer": "Let me get her feedback on this pricing first. If she's comfortable, we can move to contract."
+        }
+      ],
+      "objections": [
+        "Budget still tight\u2014COO wants closer to Fathom's number"
+      ],
+      "next_steps": [
+        "Send revised proposal at $7,920 with quarterly terms",
+        "Await COO feedback via Ade"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ade Osei",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal at $7,920 ACV (10% discount) and quarterly payment option. Included executive summary highlighting differentiation from Fathom and ROI projections. Ade confirmed receipt and said she'd review with COO by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign, can we start onboarding before the new quarter?",
+          "answer": "Yes, we can kick off onboarding within 48 hours of contract signature regardless of billing start date."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await COO decision",
+        "Prepare contract paperwork for potential close"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

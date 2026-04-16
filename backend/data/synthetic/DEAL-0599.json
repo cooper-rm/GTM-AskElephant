@@ -1,0 +1,593 @@
+{
+  "deal_id": "DEAL-0599",
+  "company": {
+    "name": "PioneerLabs",
+    "industry": "Healthcare IT",
+    "employee_count": 770,
+    "annual_revenue": 125528851,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14200.0,
+    "seats": 16,
+    "price_per_seat_monthly": 77.45,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 13.0,
+    "sales_cycle_days": 77,
+    "close_date": "2023-09-16",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Camila Cohen",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 39
+    },
+    {
+      "name": "Chloe Adeyemi",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-05",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Camila Cohen introducing AskElephant's Sales-to-CS handoff solution. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-07",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 11.2,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Camila mentioning pain points in sales handoffs for healthcare IT teams. Camila responded expressing interest in learning more.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-11",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study on Sales-to-CS automation. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-01",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Camila. Discussed current handoff process at PioneerLabs and team size. Camila mentioned they're evaluating Fireflies as well. Qualified as mid-market opportunity.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for handing off deals from sales to customer success?",
+          "answer": "We use a mix of Slack messages and manual notes in Salesforce. It's pretty fragmented and CS often misses context."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Fireflies?",
+          "answer": "Fireflies focuses primarily on call recording and transcription, while we specialize in the handoff workflow with intelligent context extraction and routing to CS teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery agenda",
+        "Schedule discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Sent discovery call agenda and background questions. Camila confirmed the meeting and shared that 16 team members would need access.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this work with our existing Salesforce setup?",
+          "answer": "Yes, we have native Salesforce integration that syncs bidirectionally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email with ROI calculator and prep materials. Camila acknowledged receipt and mentioned involving Chloe from the account management team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-14",
+      "type": "discovery_call",
+      "duration_minutes": 34,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Camila covering current pain points in handoff process. Discussed volume of deals, missed context leading to churn, and onboarding delays. Camila expressed strong interest but mentioned budget approval process requires multiple stakeholders.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the impact when context gets lost in the handoff?",
+          "answer": "We've had customers churn in the first 90 days because CS didn't know about specific promises or use cases discussed during sales. Probably 5-7% of our early churn is handoff-related."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "I can champion this, but we'll need buy-in from our VP of Customer Success and CFO for budget approval."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you pull in specific deal details automatically from calls?",
+          "answer": "Yes, our AI extracts key commitments, use cases, technical requirements, and stakeholder information from call transcripts and emails."
+        }
+      ],
+      "objections": [
+        "Need to involve multiple stakeholders for approval"
+      ],
+      "next_steps": [
+        "Schedule demo",
+        "Send use case documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-23",
+      "type": "discovery_call",
+      "duration_minutes": 14,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call with Camila and Chloe (Account Manager). Chloe shared specific examples of handoff failures and asked about implementation timeline. Both expressed enthusiasm about the automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For a team your size, usually 2-3 weeks including Salesforce integration and team training."
+        },
+        {
+          "by": "rep",
+          "question": "Chloe, from the CS side, what information do you wish you had earlier in customer onboarding?",
+          "answer": "Honestly, the specific pain points and promised outcomes. We often find out weeks later that sales promised something specific we didn't deliver on."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo",
+        "Prepare custom demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-28",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Camila and Chloe. Walked through Sales-to-CS handoff automation, AI call summarization, and Salesforce integration. Compared features to Fireflies, emphasizing handoff workflow vs. basic transcription. Team was impressed with the automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How accurate is the AI extraction of deal commitments?",
+          "answer": "We maintain 94% accuracy on key deal terms and commitments, and everything is reviewable before handoff."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this work with email threads as well as calls?",
+          "answer": "Yes, we process both call transcripts and email threads to build a complete context picture."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fireflies?",
+          "answer": "Fireflies is great for transcription, but they don't have the handoff workflow or CS routing features. We'd still need to manually transfer information."
+        }
+      ],
+      "objections": [
+        "Concerned about overlapping with Fireflies functionality"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-08-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up with ROI breakdown and comparison chart vs. Fireflies. Camila acknowledged and mentioned she's working on getting exec sponsor involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the automations_plus_consulting package?",
+          "answer": "You get the full platform, custom workflow automation setup, quarterly strategy sessions, and dedicated support. It's designed for teams that want hands-on partnership."
+        }
+      ],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-08-11",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Camila to discuss business case and timeline. No VP of Customer Success or CFO present as originally planned. Camila mentioned they're still evaluating options and timeline has shifted.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would help move this forward with the executive team?",
+          "answer": "I think we need a clearer cost-benefit analysis specific to our churn numbers. Let me get our CFO the numbers."
+        },
+        {
+          "by": "rep",
+          "question": "Is there a specific decision timeline we should be working toward?",
+          "answer": "We're hoping to decide by end of quarter, but it depends on budget availability and executive priorities."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot group?",
+          "answer": "We recommend starting with your full sales and CS teams to see the complete handoff impact, but we can discuss phased rollout."
+        }
+      ],
+      "objections": [
+        "Executive sponsor not yet engaged",
+        "Budget approval unclear"
+      ],
+      "next_steps": [
+        "Prepare detailed ROI analysis",
+        "Attempt to schedule meeting with VP CS"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-08-14",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second demo focused on Chloe's CS team use cases. Showed handoff dashboard, automated context delivery, and customer onboarding acceleration features. Chloe was enthusiastic and committed to advocating internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize what fields get extracted and passed to CS?",
+          "answer": "Absolutely. We'll configure the extraction schema during implementation based on your specific handoff requirements."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you choose AskElephant over continuing with your current process?",
+          "answer": "The time savings and churn reduction. If we can even prevent 3-4 early churns per year, this pays for itself."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Chloe to present to VP CS",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-08-19",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Camila. Presented $14,200 ACV for 16 seats with automations_plus_consulting tier. Camila expressed concern about pricing and asked about alternatives to consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What would the price be for just the standard automation tier?",
+          "answer": "For 16 seats, standard automation would be $9,800 annually, but you'd lose the custom workflow setup and quarterly strategy sessions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this type of solution?",
+          "answer": "We're targeting around $10-12K annually. The consulting add-on is pushing us over."
+        }
+      ],
+      "objections": [
+        "Price higher than budget expectations",
+        "Consulting package may not be necessary"
+      ],
+      "next_steps": [
+        "Explore pricing options",
+        "Schedule follow-up on proposal terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-08-26",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal discussion continued. Adjusted to show value breakdown of consulting package. Camila mentioned Fireflies came in at significantly lower price point but acknowledged feature gaps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Help me understand the Fireflies proposal - what's the price difference and what features are they offering?",
+          "answer": "They're at about $6K annually, but it's really just transcription and basic CRM sync. We'd still have the handoff problem."
+        },
+        {
+          "by": "prospect",
+          "question": "If we moved forward, could we add consulting services later?",
+          "answer": "You could, but the custom workflow setup is most effective when done during implementation. Adding it later often means re-training teams."
+        }
+      ],
+      "objections": [
+        "Fireflies is significantly cheaper",
+        "Questioning need for consulting tier"
+      ],
+      "next_steps": [
+        "Consider pricing adjustments",
+        "Get executive sponsor engaged"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-08-31",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Camila to discuss final decision timeline and pricing. Still no VP CS or CFO present. Camila mentioned they're under pressure to reduce vendor spend but sees value in AskElephant.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would it take to get this over the line?",
+          "answer": "Honestly, if we could get closer to $12K, I think I can get approval. But I need to present a strong case against just going with Fireflies."
+        },
+        {
+          "by": "rep",
+          "question": "Can we get 30 minutes with your CFO or VP CS to walk through the churn impact?",
+          "answer": "Let me try to set that up. They're both really busy this month."
+        },
+        {
+          "by": "prospect",
+          "question": "If we meet at $12K, what's the decision timeline?",
+          "answer": "I could probably get approval within two weeks if the executive team signs off."
+        }
+      ],
+      "objections": [
+        "Price needs to come down to $12K range",
+        "Executive sponsor still not engaged"
+      ],
+      "next_steps": [
+        "Prepare revised proposal at $12K",
+        "Attempt executive sponsor outreach"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-09-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal at $12,500 with modified consulting package (reduced from quarterly to bi-annual strategy sessions). Camila acknowledged and said she's presenting to leadership next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-09-10",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call scheduled to finalize terms, but was rescheduled by Camila due to conflicting leadership meeting. Brief conversation confirmed continued interest but slower decision timeline than expected.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there anything blocking this from moving forward?",
+          "answer": "No blockers, just timing. We've got budget planning happening and I need to get this in front of the right people."
+        },
+        {
+          "by": "prospect",
+          "question": "Are you still evaluating Fireflies in parallel?",
+          "answer": "We are. They've been responsive on pricing but the feature set just doesn't solve our core handoff problem."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation call",
+        "Follow up on executive sponsor meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-09-16",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Camila Cohen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled executive meeting with Camila. Discussed final terms at $12,500 with modified consulting package. Camila mentioned she still hasn't been able to get dedicated time with VP CS or CFO but is pushing internally. Expressed concern about timeline slipping into next quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the risk of this pushing to next quarter?",
+          "answer": "Budget resets and priorities shift. I want to get this done now but I can't guarantee executive approval without their direct involvement."
+        },
+        {
+          "by": "prospect",
+          "question": "Would a pilot program or phased approach help get approval?",
+          "answer": "Maybe. Let me think about that. It might be an easier sell if we can show results before full rollout."
+        }
+      ],
+      "objections": [
+        "Timeline uncertainty",
+        "Executive sponsor engagement still missing"
+      ],
+      "next_steps": [
+        "Explore pilot program option",
+        "Direct outreach to VP CS"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

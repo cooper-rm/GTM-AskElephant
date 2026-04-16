@@ -1,0 +1,343 @@
+{
+  "deal_id": "DEAL-0969",
+  "company": {
+    "name": "MeridianBridge",
+    "industry": "SaaS/Tech",
+    "employee_count": 1000,
+    "annual_revenue": 135288446,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 23700.0,
+    "seats": 34,
+    "price_per_seat_monthly": 61.31,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.1,
+    "sales_cycle_days": 75,
+    "close_date": "2024-07-16",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Amelia Reddy",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Aria Schneider",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 9
+    },
+    {
+      "name": "Nicole Kelly",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 17
+    },
+    {
+      "name": "Hannah Kelly",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound lead from Amelia Reddy at MeridianBridge expressing interest in improving forecasting accuracy for their sales team. Initial outreach captured through web form submission.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Amelia"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-02",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amelia Reddy (VP of Sales). Discussed current forecasting challenges and pain points with existing process. Amelia mentioned evaluating Gong as well. She's been in role for 3 months and looking to make quick impact.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with Salesforce and our existing tech stack?",
+          "answer": "Native Salesforce integration with bi-directional sync, plus pre-built connectors for major tools"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Board pressure on forecast accuracy - we've missed by 20%+ last two quarters"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule follow-up to discuss use case in detail"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-12",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call with Amelia. Went deeper on forecasting use case and team size. Discussed 34-seat deployment across sales and revenue operations. Amelia wants to involve technical and exec stakeholders.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "4-6 weeks for full deployment with automations and consulting package"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation?",
+          "answer": "Hannah Kelly from my team for technical validation, and Aria Schneider (SVP Revenue) for final approval"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with Hannah",
+        "Prepare executive summary for Aria"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-23",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Amelia to confirm technical eval logistics and address initial questions about the automations plus consulting package. Discussed ROI framework.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you price consulting hours in the package?",
+          "answer": "Bundled into the package - up to 40 hours of implementation support included"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm Hannah's availability for technical deep dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-06-03",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Hannah Kelly",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth technical evaluation with Hannah Kelly (Account Manager/Technical Evaluator). Covered platform architecture, data model, automation capabilities, and API integrations. Hannah compared features against Gong's offering and asked detailed questions about reporting flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the forecasting models - can we tune them to our sales cycle?",
+          "answer": "Fully customizable with your historical data, plus ML models that adapt over time"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of API access do we get for custom integrations?",
+          "answer": "Full REST API access with comprehensive documentation and webhook support"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation engine compare to Gong's revenue intelligence features?",
+          "answer": "We focus on workflow automation and predictive analytics, while Gong emphasizes conversation intelligence"
+        }
+      ],
+      "objections": [
+        "Some concern about migration effort from current homegrown system"
+      ],
+      "next_steps": [
+        "Hannah to share findings with Amelia",
+        "Schedule exec meeting with Aria"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-06-13",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Aria Schneider",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Aria Schneider (SVP of Revenue). Presented business case, ROI projections, and strategic value. Aria focused on speed to value and risk mitigation. Mentioned board visibility into this decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do you offer on forecast accuracy improvement?",
+          "answer": "Success metrics defined collaboratively - typical clients see 30-40% improvement in 90 days"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Need to make decision by end of quarter - budget is approved but needs to be deployed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Include customer references in similar verticals"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 57,
+      "person_name": "Aria Schneider",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended executive meeting with Aria to review detailed proposal. Long discussion about pricing, contract terms, and success metrics. Aria expressed concern about upfront investment and asked about flexible payment terms. Nicole Kelly (RevOps Analyst) joined to discuss procurement requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down the pricing structure and what's included at each tier?",
+          "answer": "Presented three tiers - recommended automations_plus_consulting for their use case at $23.7K ACV"
+        },
+        {
+          "by": "prospect",
+          "question": "What does Gong offer at a comparable price point?",
+          "answer": "Gong's core platform is similar pricing but consulting/implementation is separate and typically adds 30-40%"
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any flexibility on payment terms or annual commitment?",
+          "answer": "Standard is annual prepay, but can discuss quarterly billing with modest uplift"
+        }
+      ],
+      "objections": [
+        "Pricing feels high compared to initial budget expectations",
+        "Concern about locking into annual contract given Amelia is new to role"
+      ],
+      "next_steps": [
+        "Explore pricing flexibility",
+        "Nicole to review contract terms and security requirements"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-07-05",
+      "type": "negotiation_call",
+      "duration_minutes": 21,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Amelia. Discussed discount options to close before quarter end. Amelia advocating internally but facing budget pressure. Agreed to 31% discount to secure commitment and align with their fiscal deadline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on price to get this done this quarter?",
+          "answer": "Can offer 31% discount if we close by end of week - brings ACV to $16,350"
+        }
+      ],
+      "objections": [
+        "Need discount to get CFO approval given budget constraints"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Amelia to get final sign-off from Aria and finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-07-18",
+      "type": "pricing_call",
+      "duration_minutes": 13,
+      "person_name": "Amelia Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Amelia to confirm discount approval and contract details. Reviewed implementation timeline and success criteria. Amelia confirmed internal approval secured and ready to move forward with revised terms.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Do we have verbal commitment to move forward at this price?",
+          "answer": "Yes - Aria and finance approved, Nicole finalizing contract review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal review and contract signature",
+        "Kick off implementation planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

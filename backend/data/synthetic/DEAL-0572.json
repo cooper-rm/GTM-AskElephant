@@ -1,0 +1,329 @@
+{
+  "deal_id": "DEAL-0572",
+  "company": {
+    "name": "CrimsonCapital",
+    "industry": "EdTech",
+    "employee_count": 100,
+    "annual_revenue": 20499359,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5700.0,
+    "seats": 7,
+    "price_per_seat_monthly": 63.75,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.4,
+    "sales_cycle_days": 44,
+    "close_date": "2025-06-02",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Brandon Jones",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 16
+    },
+    {
+      "name": "Mason Choi",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 47
+    },
+    {
+      "name": "Noah Ito",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-21",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Initial outbound email to Brandon Jones introducing AskElephant's revenue intelligence platform. Highlighted forecasting accuracy capabilities and requested a brief intro call. Brandon responded expressing interest in learning more about improving their current forecast process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to confirm discovery call timing and share brief case study on forecasting accuracy improvements. Brandon confirmed availability and mentioned they're currently evaluating solutions including Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant compare to Gong for forecasting?",
+          "answer": "Explained AskElephant's ML-based approach to forecast accuracy vs. Gong's conversation intelligence focus, positioning as complementary tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-25",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Brandon Jones (21 min). Discussed CrimsonCapital's current forecasting challenges, pipeline visibility gaps, and manual reporting overhead. Brandon shared they're a 100-person EdTech company evaluating both Gong and AskElephant. Identified need for 7 seats across RevOps and sales leadership. Brandon is leading evaluation but mentioned no exec sponsor formally assigned yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your implementation timeline typically?",
+          "answer": "Explained standard 2-3 week implementation with dedicated CSM support"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Brandon mentioned Mason Choi (Account Manager) for technical evaluation and Noah Ito (Implementation Lead) as end user, but no exec involvement planned yet"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing framework",
+        "Schedule technical demo with Mason"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 10.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery recap, pricing framework for 7 seats, and proposed demo agenda. Included ROI calculator showing forecasting accuracy improvements. Brandon acknowledged and requested demo focus on automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show unlimited automation tier capabilities in the demo?",
+          "answer": "Confirmed demo will cover automated reporting, pipeline alerts, and forecast rollups"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Brandon and Mason"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-07",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Brandon Jones and Mason Choi (44 min). Walked through forecasting dashboard, pipeline analytics, and unlimited automation features. Mason asked detailed technical questions about CRM integration and data refresh rates. Brandon engaged positively on ROI scenarios. Team compared favorably to Gong's feature set for forecasting use case specifically.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does data sync from Salesforce - real-time or batched?",
+          "answer": "Explained near real-time sync (5-min intervals) with webhook support for critical updates"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in unlimited automation vs. standard tier?",
+          "answer": "Detailed unlimited custom reports, automated alerts, scheduled exports, and API access"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in the first 90 days?",
+          "answer": "Brandon cited improving forecast accuracy from current 60% to 80%+ and eliminating manual weekly reporting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical documentation with Mason",
+        "Schedule follow-up demo with Noah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-16",
+      "type": "demo",
+      "duration_minutes": 23,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up demo focused on end-user experience with Noah Ito joining (23 min). Demonstrated daily workflows, report building, and automation setup. Noah expressed concern about learning curve for their team. Brandon asked about competitive pricing relative to Gong's proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Gong quoted us lower - can you match their pricing?",
+          "answer": "Acknowledged competitive landscape, offered to work on custom package but emphasized differentiated forecasting capabilities"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical user onboarding take?",
+          "answer": "Explained 1-2 week onboarding with training sessions and documentation, Noah seemed uncertain"
+        }
+      ],
+      "objections": [
+        "Pricing concern - Gong proposal is lower"
+      ],
+      "next_steps": [
+        "Send formal proposal",
+        "Include training plan for Noah's team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-21",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Brandon (21 min). Presented $5,700 ACV for 7 seats with unlimited automation tier. Brandon requested discount to match Gong's pricing. Discussed contract terms, implementation timeline, and success metrics. Brandon noted he'll need to build internal business case without exec sponsor currently engaged.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and approval process?",
+          "answer": "Brandon indicated 2-3 weeks, needs to convince leadership without formal exec sponsor, budget is available but competitive"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you offer 25-30% discount to compete with Gong?",
+          "answer": "Offered to explore 15-20% discount with multi-year commitment"
+        }
+      ],
+      "objections": [
+        "Requested significant discount to match competitor"
+      ],
+      "next_steps": [
+        "Revise proposal with discount options",
+        "Brandon to socialize internally"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-26",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Brandon (37 min). Discussed revised pricing with 28.4% discount to close gap with Gong. Brandon appreciated the movement but expressed concern about getting buy-in without exec involvement. Reviewed contract terms, payment schedule, and implementation support. Brandon committed to pushing decision forward but timeline uncertain.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Agreed to quarterly payments to ease budget approval process"
+        },
+        {
+          "by": "rep",
+          "question": "Should we set up a call with your CFO or VP Sales to help with business case?",
+          "answer": "Brandon said he'd prefer to present internally first, will loop in exec later if needed"
+        },
+        {
+          "by": "prospect",
+          "question": "What if we don't hit the forecasting accuracy targets?",
+          "answer": "Outlined success metrics, CSM support, and quarterly reviews but no formal SLA guarantee"
+        }
+      ],
+      "objections": [
+        "Payment terms - requested quarterly vs annual",
+        "Uncertain exec support for approval"
+      ],
+      "next_steps": [
+        "Send final contract with discount and quarterly terms",
+        "Brandon to present to leadership by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Brandon Jones",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with final contract reflecting 28.4% discount and quarterly payment terms. Included implementation timeline, success plan, and reference customer contacts. Brandon acknowledged receipt and said he's working through internal approvals but no firm timeline yet. Mentioned Gong is still in consideration.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Brandon to provide update after internal review",
+        "Standing weekly check-in scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

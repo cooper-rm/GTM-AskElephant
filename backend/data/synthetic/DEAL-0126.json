@@ -1,0 +1,464 @@
+{
+  "deal_id": "DEAL-0126",
+  "company": {
+    "name": "PixelHub",
+    "industry": "Healthcare IT",
+    "employee_count": 892,
+    "annual_revenue": 176982491,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15900.0,
+    "seats": 22,
+    "price_per_seat_monthly": 61.02,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.4,
+    "sales_cycle_days": 61,
+    "close_date": "2023-10-21",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Morgan Rogers",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 31
+    },
+    {
+      "name": "Luna Martinez",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Morgan Rogers at PixelHub expressing interest in call recording and coaching tools. Currently evaluating alternatives including Fireflies. Requested initial conversation to discuss use case and capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Morgan"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-22",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Morgan Rogers. PixelHub is a healthcare IT company with ~900 employees looking to implement call recording and coaching for their CS team. Morgan is Director of CS, mentioned they're also evaluating Fireflies. Discussed team size (22 seats), primary use case, and timeline. Morgan confirmed budget authority and 60-day decision timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording and coaching right now?",
+          "answer": "Our CS team has grown quickly and we're seeing inconsistent customer interactions. Need better visibility and coaching capability."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "We're typically in a similar range but offer more robust coaching features and healthcare-specific compliance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case studies",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with healthcare IT case studies and overview of coaching features that differentiate from Fireflies. Morgan responded positively, confirmed interest in deeper discovery call, and mentioned bringing Luna Martinez (Implementation Lead) into future conversations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share ROI data from similar healthcare companies?",
+          "answer": "Included two case studies showing 25-30% improvement in CSAT and 40% reduction in onboarding time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for following Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-29",
+      "type": "follow_up_call",
+      "duration_minutes": 20,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Morgan Rogers covering current tech stack, integration requirements, and coaching workflow needs. PixelHub uses Salesforce and Zendesk. Morgan outlined specific pain points: lack of visibility into customer calls, manual coaching process, no standardized QA. Discussed implementation timeline and team structure. Morgan mentioned pricing is a factor given budget constraints this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching and QA?",
+          "answer": "Mostly ad-hoc. Managers manually review calls when they have time, no systematic approach."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "I have budget authority for this range, but want Luna involved for implementation and our VP of Ops aware of the decision."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of implementation timeline are we looking at?",
+          "answer": "Typically 2-3 weeks for integrations and setup, then rolling training over 4 weeks."
+        }
+      ],
+      "objections": [
+        "Need to stay within budget constraints this quarter"
+      ],
+      "next_steps": [
+        "Send technical documentation for Salesforce/Zendesk integrations",
+        "Schedule technical evaluation with Morgan and Luna"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Sent technical integration documentation and implementation plan. Morgan confirmed receipt and asked clarifying questions about data security and HIPAA compliance given healthcare context. Provided detailed compliance documentation and security whitepaper.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle HIPAA compliance for recorded calls?",
+          "answer": "Provided detailed documentation on encryption, data residency options, and BAA process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Morgan and Luna for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in email sent confirming technical evaluation scheduled for tomorrow. Morgan responded confirming attendance and noting that Luna will join to evaluate implementation complexity and integration requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation tomorrow at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-16",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Morgan Rogers and Luna Martinez. Walked through platform demo focusing on Salesforce/Zendesk integrations, call recording capabilities, AI-powered coaching insights, and QA workflows. Luna asked detailed questions about API capabilities and data flows. Morgan focused on coaching features and manager dashboards. Team seemed impressed with automation capabilities compared to Fireflies. Discussed 22-seat deployment and automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our specific use cases?",
+          "answer": "Yes, fully customizable scorecards and you can create multiple templates for different team roles."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI handle healthcare terminology and context?",
+          "answer": "Our NLP models are trained on healthcare conversations and we can fine-tune for your specific terminology."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include?",
+          "answer": "Initial setup, custom playbook development, manager training, and 30 days of optimization support."
+        }
+      ],
+      "objections": [
+        "Luna raised concerns about integration complexity with their legacy Zendesk setup"
+      ],
+      "next_steps": [
+        "Send proposal with 22-seat pricing and consulting package",
+        "Address Luna's integration concerns with technical solutions doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email addressing Luna's integration concerns with detailed technical solutions for legacy Zendesk compatibility. Morgan responded appreciatively and requested formal proposal to review internally. Confirmed automations_plus_consulting package for 22 seats.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for review",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-09-25",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Morgan Rogers. Walked through pricing for 22 seats with automations_plus_consulting package. Initial quote at $23,150 ACV. Morgan expressed concern about budget constraints and mentioned Fireflies came in lower. Discussed value differentiation but Morgan requested pricing flexibility to move forward. Agreed to explore discount options and schedule exec alignment meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we phase the rollout to reduce upfront cost?",
+          "answer": "We can discuss phased deployment but the consulting package works best with full team rollout for consistency."
+        },
+        {
+          "by": "rep",
+          "question": "What's the budget range you're working within?",
+          "answer": "We're trying to stay around $15-16k annually. Fireflies quoted us $12k but we see more value in your platform."
+        }
+      ],
+      "objections": [
+        "Pricing higher than budget allocated",
+        "Fireflies came in significantly lower"
+      ],
+      "next_steps": [
+        "Explore discount options internally",
+        "Schedule exec meeting to align on value and investment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Email confirming revised proposal at $15,900 ACV (31.4% discount) to align with budget constraints while maintaining full 22-seat deployment and consulting package. Morgan responded positively and confirmed meeting with VP of Ops scheduled for next week to get final alignment.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled with Morgan and VP of Ops"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-10-07",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Morgan Rogers and VP of Ops. Reviewed business case, ROI projections, and implementation plan. VP of Ops engaged but focused heavily on cost justification and asked about contract flexibility. Morgan advocated for the solution. VP did not commit but agreed to internal review of revised pricing. No clear exec sponsorship established.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the contract term and can we do annual payments?",
+          "answer": "Standard is annual contract with annual payment, we can discuss quarterly if needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the ROI in year one?",
+          "answer": "We have a 90-day success guarantee and will work closely through consulting package to ensure adoption."
+        }
+      ],
+      "objections": [
+        "VP concerned about ROI timeline and contract commitment"
+      ],
+      "next_steps": [
+        "VP to review internally with finance",
+        "Follow up next week on decision timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-10-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Morgan checking on internal review status. Morgan responded that finance is reviewing the proposal and they're working through final approval. Mentioned they need to finalize decision by end of month. No movement on exec sponsorship.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to address any final concerns"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-10-15",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Morgan Rogers and VP of Ops to address final concerns. VP pushed on contract terms and asked about further pricing flexibility. Discussed payment terms and potential for quarterly billing. Morgan remained supportive but deferred to VP on final approval. VP requested one more internal review before committing. Still no strong exec champion emerging.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we reduce the contract to 6 months initially?",
+          "answer": "Our minimum is annual but we can include a 90-day opt-out with prorated refund."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any additional flexibility on the $15,900?",
+          "answer": "We're already at a significant discount to make this work within your budget. This is our best pricing."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you fully confident in moving forward?",
+          "answer": "We need to finalize budget allocation and get CFO sign-off on the investment."
+        }
+      ],
+      "objections": [
+        "VP wants shorter contract term",
+        "Seeking additional pricing concessions"
+      ],
+      "next_steps": [
+        "VP to get CFO approval",
+        "Schedule final pricing discussion"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-10-20",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Morgan Rogers",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Morgan Rogers to finalize terms. Confirmed $15,900 ACV, annual contract with quarterly payment option, 22 seats, automations_plus_consulting package. Morgan committed to getting final signatures by end of week. Discussed implementation kickoff timeline. Morgan seemed confident but mentioned CFO approval still pending.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the quarterly payment schedule?",
+          "answer": "Yes, $3,975 per quarter, first payment due upon contract signature."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for CFO approval?",
+          "answer": "Should have it within 48 hours, then we can execute."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to obtain CFO signature",
+        "Prepare contract for execution",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 93,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

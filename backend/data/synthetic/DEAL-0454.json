@@ -1,0 +1,257 @@
+{
+  "deal_id": "DEAL-0454",
+  "company": {
+    "name": "AtomGear",
+    "industry": "Fintech",
+    "employee_count": 100,
+    "annual_revenue": 17462643,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3600.0,
+    "seats": 4,
+    "price_per_seat_monthly": 78.44,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 11.9,
+    "sales_cycle_days": 28,
+    "close_date": "2025-12-05",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Luke Reddy",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 23
+    },
+    {
+      "name": "Luna Hernandez",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Luke Reddy at AtomGear requesting information about onboarding automation capabilities. Rep acknowledged request and scheduled discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support automated workflows for customer onboarding?",
+          "answer": "Yes, our unlimited automation tier is designed specifically for end-to-end onboarding processes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current onboarding process"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming scheduled qualification call. Luke confirmed availability and shared high-level context about current manual onboarding challenges at AtomGear.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typically involved in the qualification call?",
+          "answer": "We'll walk through your current process, pain points, team structure, and success criteria to ensure alignment before the technical demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct qualification call on scheduled date",
+        "Prepare technical demo based on use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-13",
+      "type": "technical_eval",
+      "duration_minutes": 24,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Luke Reddy covering AtomGear's current manual onboarding workflow. Discussed pain points around document collection, approval routing, and handoff delays. Demo showed automation builder with template library. Luke mentioned bringing in CEO Luna Hernandez for next conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For 4 seats with standard onboarding flows, implementation is typically 2-3 weeks including training and first workflow builds."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the workflow logic or are we limited to templates?",
+          "answer": "Fully customizable \u2014 templates are starting points. You have complete control over triggers, conditions, and actions."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current onboarding timeline look like from contract signature to first value?",
+          "answer": "Currently 3-4 weeks with lots of manual follow-up. We want to cut that in half."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo with CEO Luna Hernandez",
+        "Send ROI calculator and case study from similar fintech company"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-22",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Luke and CEO Luna Hernandez. Walked through specific onboarding scenarios for AtomGear's fintech customers. Luna engaged heavily on ROI and timeline to value. Discussion of 4-seat rollout for CS team with unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do we get on onboarding cycle time and bottlenecks?",
+          "answer": "Real-time dashboards show stage duration, completion rates, and identify where customers are getting stuck. Exportable to your BI tools."
+        },
+        {
+          "by": "prospect",
+          "question": "Do other fintech customers use this for compliance-heavy onboarding?",
+          "answer": "Yes, several fintech clients use our automation for KYC document collection and approval workflows with audit trails built in."
+        },
+        {
+          "by": "rep",
+          "question": "Is Luna the final decision maker on budget and contract terms?",
+          "answer": "Yes, I own budget for CS tooling. Luke will drive implementation but I'll be involved in final approvals."
+        }
+      ],
+      "objections": [
+        "Need to ensure we can integrate with our existing CRM and ticketing system before committing"
+      ],
+      "next_steps": [
+        "Send API documentation and integration guide",
+        "Provide pricing proposal for 4 seats, unlimited automation tier",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-28",
+      "type": "pricing_call",
+      "duration_minutes": 33,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Luke Reddy. Presented $3,600 ACV for 4 seats on unlimited automation tier. Luke reviewed internally and confirmed budget alignment. Discussed contract terms, implementation timeline, and onboarding support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the pricing annual commit or can we do monthly?",
+          "answer": "Annual commit for this tier, but we can discuss quarterly payment terms if that helps with cash flow."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of support is included during implementation?",
+          "answer": "Dedicated CSM for first 90 days, weekly check-ins, and priority support queue for your team."
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline to get this live?",
+          "answer": "We'd like to start implementation early next month if we can finalize terms this week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with annual pricing and quarterly payment option",
+        "Loop in Luna for final contract review",
+        "Schedule negotiation call if needed"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-12-05",
+      "type": "negotiation_call",
+      "duration_minutes": 30,
+      "person_name": "Luke Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Luke and Luna. Reviewed contract terms, payment schedule, and implementation kickoff plan. Luna confirmed quarterly payment structure works. Agreed on contract start date and implementation timeline. Luke to route to legal for standard review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if the pilot goes well with the CS team?",
+          "answer": "Absolutely \u2014 seats can be added anytime with prorated pricing for the remainder of the contract term."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't meet our onboarding goals?",
+          "answer": "30-day notice required, but we also offer a 90-day success guarantee with CSM support to ensure you hit your goals."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from your side before we move to contracting?",
+          "answer": "No concerns \u2014 this aligns well with our Q2 CS efficiency initiative. Just need standard legal review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Schedule implementation kickoff for early next month",
+        "Introduce technical onboarding team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

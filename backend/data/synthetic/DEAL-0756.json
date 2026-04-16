@@ -1,0 +1,389 @@
+{
+  "deal_id": "DEAL-0756",
+  "company": {
+    "name": "GraniteGrid",
+    "industry": "PropTech",
+    "employee_count": 55,
+    "annual_revenue": 6171183,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5800.0,
+    "seats": 8,
+    "price_per_seat_monthly": 66.45,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.3,
+    "sales_cycle_days": 57,
+    "close_date": "2025-01-03",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Amanda Morgan",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 35
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-09",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Amanda Morgan introducing AskElephant's AI note-taking capabilities for CS teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-13",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Amanda Morgan. Left voicemail introducing AskElephant and mentioning pipeline visibility challenges in PropTech. No callback received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-15",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study on CS team adoption in similar-sized PropTech companies. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-27",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Fourth outreach email focused on pipeline visibility pain points. Amanda responded expressing interest in learning more about automated call summaries.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing CRM?",
+          "answer": "Yes, we have native integrations with all major CRMs including Salesforce and HubSpot."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call scheduled for next week. Amanda mentioned they're currently evaluating Fireflies as well and want to compare features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your key differentiator vs Fireflies?",
+          "answer": "Our unlimited automation tier and CS-specific workflows, plus deeper analytics on customer health signals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Tuesday 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-15",
+      "type": "discovery_call",
+      "duration_minutes": 26,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "26-minute discovery call with Amanda. Discussed current pain points around manual note-taking for CS calls and lack of visibility into customer sentiment trends. Amanda mentioned team of 8 CS reps drowning in admin work. Interested in automation features but concerned about budget approval process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently handling call notes and follow-ups?",
+          "answer": "Manually in Google Docs, then copying key points to our CRM. Takes 15-20 minutes per call."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Just me for now. I'll bring in our Head of Sales if we move forward, but I own the CS tools budget."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system track sentiment over time across our customer base?",
+          "answer": "Yes, we aggregate sentiment across all calls and can show trending by account, CSM, or product area."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we'd need to see strong ROI"
+      ],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule product demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery recap and preliminary pricing for 8 seats. Amanda confirmed demo timing and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Most teams are up and running within 48 hours. Just calendar integration and CRM connection."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo confirmed for Thursday 11am"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-01",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "50-minute product demo with Amanda. Walked through automated transcription, AI summaries, CRM sync, and analytics dashboard. Amanda engaged positively, asked detailed questions about workflow customization. Expressed concern about getting approval without executive sponsor but wants to move forward. Mentioned Fireflies quote came in lower.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI summary templates for CS-specific fields?",
+          "answer": "Yes, fully customizable. We can set up templates for renewal risk, expansion opportunity, support issues, etc."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Would like to have something in place by end of quarter. Need to present business case to our CFO."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies for our use case?",
+          "answer": "We're positioned at premium tier given unlimited automation. Can discuss pricing flexibility based on commitment."
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your CFO or Head of Sales in next conversation?",
+          "answer": "Let me see pricing proposal first, then I'll know who to loop in."
+        }
+      ],
+      "objections": [
+        "Fireflies pricing came in lower, need to justify the premium"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-09",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute proposal review call. Presented pricing at $7,800 ACV for 8 seats unlimited tier. Amanda pushed back hard on price, mentioned Fireflies at $4,500. Discussed value differentiation but she needs significant discount to get internal approval without exec involvement. Agreed to explore pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fireflies pricing or get close to it?",
+          "answer": "Let me talk to my manager about what we can do. Our automation features justify premium but I understand budget constraints."
+        },
+        {
+          "by": "rep",
+          "question": "If we can find middle ground on pricing, can you close this quarter?",
+          "answer": "Yes, if the number works I can get approval from my VP and CFO without a formal eval committee."
+        }
+      ],
+      "objections": [
+        "Price is 70% higher than Fireflies, hard to justify without exec champion"
+      ],
+      "next_steps": [
+        "Revised pricing proposal within 48 hours",
+        "Executive alignment meeting if needed"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-18",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute executive meeting attempt - only Amanda joined, her VP dropped at last minute due to conflict. Amanda apologized but emphasized she can still approve deal if pricing works. Reinforced value proposition and ROI on CS time savings. She's motivated to close but constrained by budget.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is there a better time to connect with your VP to ensure alignment?",
+          "answer": "Honestly, if we get to the right price point, I can get this approved with just her email sign-off. She trusts my judgment on CS tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for an annual commit?",
+          "answer": "Working on revised proposal now. Will have it to you by tomorrow with our best offer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final pricing proposal",
+        "Pricing call scheduled for Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-12-25",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call rescheduled by Amanda due to internal budget meeting conflict. Brief email exchange confirming new time for Monday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rescheduled pricing call for Monday 3pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-02",
+      "type": "pricing_call",
+      "duration_minutes": 33,
+      "person_name": "Amanda Morgan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "33-minute pricing negotiation call. Presented revised offer at $5,800 ACV (25% discount) for annual commit with 8 seats unlimited tier. Amanda receptive, says this number works for her approval threshold. Discussed implementation timeline and onboarding. She'll send to CFO for final sign-off but expects smooth approval. Requested contract by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for renewal or will it jump next year?",
+          "answer": "Locked for first year, renewal pricing subject to standard increase but we'll work with you on multi-year if you want price protection."
+        },
+        {
+          "by": "rep",
+          "question": "When can we target contract signature?",
+          "answer": "I'll have CFO approval by Wednesday, can sign by Friday if contract is ready."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if our CS team grows?",
+          "answer": "Yes, pro-rated seat additions anytime. Just let your CSM know."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract by Wednesday",
+        "CFO review expected Wed-Thu",
+        "Target signature Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

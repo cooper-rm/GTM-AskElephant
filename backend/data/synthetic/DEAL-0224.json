@@ -1,0 +1,327 @@
+{
+  "deal_id": "DEAL-0224",
+  "company": {
+    "name": "CloudWorks",
+    "industry": "PropTech",
+    "employee_count": 55,
+    "annual_revenue": 3346589,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 8800.0,
+    "seats": 10,
+    "price_per_seat_monthly": 72.95,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.0,
+    "sales_cycle_days": 89,
+    "close_date": "2025-11-24",
+    "use_case": "CRM automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Dakota Zhou",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 24
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Dakota Zhou submitted an inbound demo request through the website. Expressed interest in CRM automation to reduce manual work for their sales team. Mentioned they're currently evaluating a few options including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-27",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Dakota to understand CloudWorks' current CRM process and pain points. Dakota confirmed they're a 55-person PropTech company looking to automate their sales workflow. Currently using basic Salesforce with heavy manual data entry.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look for automation now?",
+          "answer": "Our sales team spends 30% of their time on data entry instead of selling"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration with real-time sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-08",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on CloudWorks' sales process and automation needs. Dakota walked through their current workflow challenges and expressed frustration with manual call logging. Discussed team size (10 sales reps) and their need for call recording and auto-logging. Dakota mentioned Gong as an alternative they're considering.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "I'm leading the evaluation. I'll need to get sign-off from finance for the contract, but I own the decision"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong?",
+          "answer": "We're generally more cost-effective for teams your size, and include automation features Gong charges extra for"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next 6 weeks"
+        }
+      ],
+      "objections": [
+        "Concerned about team adoption and training time"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Send case study from similar PropTech company"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 8.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with PropTech case study showing 40% reduction in CRM admin time. Confirmed demo scheduled for next week and shared agenda focusing on automation workflows and Salesforce integration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you also show call analytics during the demo?",
+          "answer": "Absolutely, we'll walk through our conversation intelligence features"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare demo environment with CloudWorks' use case",
+        "Confirm demo attendees"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-10-06",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo with Dakota covering automation workflows, call recording, auto-logging, and Salesforce sync. Dakota was engaged and asked detailed questions about specific features. Expressed strong interest in the unlimited automation tier. Only Dakota attended - mentioned it was easier to evaluate solo first before bringing in the team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for our specific sales stages?",
+          "answer": "Yes, full customization available with workflow builder shown in demo"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For a team your size, usually 1-2 weeks including training"
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to include your sales ops lead or a few reps in the next conversation?",
+          "answer": "Let me get through the pricing first, then I can loop in others if needed"
+        }
+      ],
+      "objections": [
+        "Wants to see pricing before involving others on the team"
+      ],
+      "next_steps": [
+        "Send proposal for 10 seats with unlimited automation",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-10-16",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call to walk through pricing for 10 seats at $8,800 ACV with unlimited automation tier. Dakota seemed positive about the features but expressed some sticker shock compared to initial expectations. Discussed ROI based on time savings. Dakota mentioned Gong's pricing came in lower but with fewer features included.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing?",
+          "answer": "Let me see what I can do - what budget range were you expecting?"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation vs standard tier?",
+          "answer": "Unlimited includes advanced workflows, custom integrations, and priority support"
+        }
+      ],
+      "objections": [
+        "Price is higher than budgeted",
+        "Gong offered lower pricing"
+      ],
+      "next_steps": [
+        "Dakota to review internally and discuss budget",
+        "Follow up early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-29",
+      "type": "proposal_call",
+      "duration_minutes": 16,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call after Dakota reviewed with finance. Dakota confirmed budget approval at current pricing but requested some adjustments to payment terms. Discussed quarterly vs annual payment options. Still no other stakeholders involved in discussions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has your team had a chance to see the demo recording or try the trial?",
+          "answer": "Not yet, I wanted to nail down the commercial terms first"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can offer quarterly at a slight premium - let me get you revised terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with quarterly payment option",
+        "Request meeting with CFO for contract approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-11",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call focused on finalizing payment terms and contract structure. Dakota pushed for a small discount to match Gong's latest offer. Discussed quarterly payments and committed to annual contract with quarterly billing option at $8,800 total ACV.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual, can you match the quarterly pricing to the annual rate?",
+          "answer": "We can keep the annual rate with quarterly billing if you can sign this week"
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a call with your CFO to finalize and address any questions?",
+          "answer": "I'll handle it with her offline - just send me the final paperwork"
+        }
+      ],
+      "objections": [
+        "Needs final pricing to be competitive with Gong"
+      ],
+      "next_steps": [
+        "Send final contract with quarterly billing terms",
+        "Dakota to route to finance for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-11-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dakota Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email sent with contract and quarterly billing terms at $8,800 ACV for 10 seats. Included implementation timeline and onboarding plan. Requested signature by end of week to hit Dakota's go-live target.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Dakota to review and sign contract",
+        "Schedule kickoff call upon signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 67,
+    "churn_reason": "lost internal champion"
+  }
+}

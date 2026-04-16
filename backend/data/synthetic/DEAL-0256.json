@@ -1,0 +1,704 @@
+{
+  "deal_id": "DEAL-0256",
+  "company": {
+    "name": "SolarExchange",
+    "industry": "SaaS/Tech",
+    "employee_count": 434,
+    "annual_revenue": 49852414,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16400.0,
+    "seats": 20,
+    "price_per_seat_monthly": 71.94,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.2,
+    "sales_cycle_days": 96,
+    "close_date": "2024-12-09",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Aria Hall",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 21
+    },
+    {
+      "name": "Mateo Brooks",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 39
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Aria Hall introducing our platform's pipeline visibility capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-08",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Aria Hall. Rep introduced the value proposition around pipeline visibility for CS teams. Aria expressed interest in learning more and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from what Gong offers?",
+          "answer": "We focus specifically on pipeline visibility and automation for CS teams, while Gong is primarily built for sales. Our CS workflows are more tailored to your team's needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-04",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aria Hall. Discussed current challenges with pipeline visibility across the CS team. Aria mentioned they're evaluating Gong but haven't made a decision. Rep qualified the opportunity and scheduled discovery.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking customer health and pipeline?",
+          "answer": "We're using spreadsheets and Salesforce, but there's no unified view. The team is frustrated with manual updates."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model look like?",
+          "answer": "We typically price per seat with tiered automation levels. For a team your size, we'd be looking at the unlimited automation tier to maximize value."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-09-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study relevant to CS pipeline visibility. Aria responded confirming the discovery call time.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-13",
+      "type": "follow_up_call",
+      "duration_minutes": 18,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Aria Hall. Deep dive into current state challenges, team structure (20 CS team members), and desired outcomes. Aria shared that Gong is being evaluated but concerns exist about its sales-first approach. Discussed use cases around pipeline visibility and automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current quarterly business review process and where visibility breaks down.",
+          "answer": "We struggle to aggregate data from calls, emails, and Salesforce. QBRs take days to prepare because we're manually pulling everything together."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the Gong evaluation, and what concerns do you have?",
+          "answer": "Our CRO, Mateo Brooks, saw a demo and liked it. But honestly, it feels too sales-heavy for our CS team's needs. We need something more tailored."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing tech stack - Salesforce, Slack, and our support ticketing system?",
+          "answer": "Yes, we have native integrations with all three. We can demo the Salesforce integration live in our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Introduce multi-threading with executive sponsor"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with discovery call summary and proposed next steps. Included timeline for evaluation and technical deep dive scheduling options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm technical eval date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with technical documentation and integration guides for Salesforce, Slack, and support systems. Aria confirmed interest in proceeding with technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customer references in the SaaS space with similar team sizes?",
+          "answer": "Absolutely - I'll connect you with two CS leaders at similar mid-market SaaS companies who can speak to their experience."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send customer references",
+        "Finalize technical eval agenda"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-26",
+      "type": "follow_up_call",
+      "duration_minutes": 5,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Aria to finalize technical evaluation agenda and confirm attendees. Aria mentioned Mateo Brooks may want to sit in on the demo phase.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Should we include our IT lead in the technical eval?",
+          "answer": "Yes, that would be valuable - especially for discussing security and data governance requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invites for technical eval and demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-04",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call with Aria to discuss evaluation criteria and decision-making process. Aria shared that Gong is still in consideration but budget concerns are emerging. Discussed timeline and stakeholders involved in final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision, and who else needs to be involved?",
+          "answer": "We're hoping to decide by end of quarter. Mateo needs to approve, and finance will review any contract over $15K. I'm driving the evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's Gong's pricing looking like for your team?",
+          "answer": "They quoted significantly higher than we budgeted - nearly double. That's become a real issue for us."
+        },
+        {
+          "by": "rep",
+          "question": "What's your approved budget range for this initiative?",
+          "answer": "We have about $18K allocated for the annual spend, but I'd need to justify anything over $20K to finance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare value-based proposal",
+        "Coordinate executive intro with Mateo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical evaluation and demo logistics. Shared pre-meeting materials and data requirements for the technical eval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Complete technical eval preparation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-10-14",
+      "type": "technical_eval",
+      "duration_minutes": 46,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Aria and IT lead. Walked through integrations, data security, and automation capabilities. Addressed questions about data retention, GDPR compliance, and API limits. Team expressed satisfaction with technical capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Standard is 24 months with options to extend. Yes, retention periods are fully customizable based on your compliance requirements."
+        },
+        {
+          "by": "prospect",
+          "question": "How do API rate limits work if we're processing high volumes of calls and emails?",
+          "answer": "Unlimited automation tier includes unlimited API calls. We've built the infrastructure to handle enterprise-scale volumes without throttling."
+        },
+        {
+          "by": "prospect",
+          "question": "Walk us through your security certifications and compliance framework.",
+          "answer": "We're SOC 2 Type II certified, GDPR compliant, and support SSO. I'll send over our full security documentation after this call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation",
+        "Schedule product demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-10-19",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Aria and CS team members. Demonstrated pipeline visibility dashboards, automated workflow triggers, and reporting capabilities. Team engaged positively with the demo, particularly impressed by automation features that could replace manual processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboards for different team member roles?",
+          "answer": "Yes, role-based dashboards are fully customizable. Each team member can have personalized views based on their accounts and responsibilities."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "Usually 2-3 weeks for full rollout with 20 seats. First week is integration setup, second week is team training and configuration."
+        },
+        {
+          "by": "rep",
+          "question": "Which specific workflows would deliver the most immediate value for your team?",
+          "answer": "Automating our renewal risk alerts and QBR prep would be huge. Those are our biggest time sinks right now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-10-24",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Aria. Presented pricing at $16,400 ACV for 20 seats with unlimited automation. Discussed ROI based on time savings and improved visibility. Aria expressed comfort with pricing and committed to reviewing with Mateo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on payment terms - can we do quarterly instead of annual upfront?",
+          "answer": "We can structure quarterly payments with a 5% increase to the annual price. Most customers prefer annual for the cost savings."
+        },
+        {
+          "by": "rep",
+          "question": "What questions do you anticipate Mateo will have?",
+          "answer": "He'll want to see the business case clearly - ROI, comparison to Gong, and why this is the right investment now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive meeting with Mateo",
+        "Send detailed ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-10-29",
+      "type": "exec_meeting",
+      "duration_minutes": 9,
+      "person_name": "Mateo Brooks",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Mateo Brooks and Aria Hall. Rep presented business case and competitive positioning against Gong. Mateo asked pointed questions about ROI and implementation risk. Meeting ended with Mateo requesting time to discuss internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why shouldn't we just go with Gong given their market presence?",
+          "answer": "Gong is excellent for sales teams, but you're solving for CS-specific workflows. Our platform is purpose-built for your use case at a better price point. You'd be paying for features you won't use with Gong."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the risk if this doesn't work out - are we locked into a year?",
+          "answer": "We offer a 90-day satisfaction guarantee. If it's not delivering value, we'll work with you to make it right or offer an exit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal review with Aria and Mateo",
+        "Follow up in 3 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-11-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with executive meeting summary, ROI calculator, and customer case studies relevant to CS pipeline visibility. Reinforced key differentiators vs Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal decision feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-11-09",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Aria following internal review. Aria shared that Mateo is supportive but finance is pushing back on budget timing. Discussed potential Q2 vs Q3 start dates and impact on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we push to Q3, would pricing change?",
+          "answer": "Our pricing holds through end of Q2. After that, we'll be implementing a price increase across the board, so moving forward now locks in current rates."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get finance comfortable with Q2 timing?",
+          "answer": "If we could show faster ROI realization - maybe accelerated implementation - that would help. Finance wants to see value this fiscal year."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you commit to a 2-week implementation instead of 3?",
+          "answer": "Yes, if we prioritize the highest-impact workflows first, we can get you live in 2 weeks. I'll adjust the implementation plan."
+        }
+      ],
+      "objections": [
+        "Budget timing concerns from finance"
+      ],
+      "next_steps": [
+        "Revise proposal with accelerated implementation",
+        "Schedule follow-up with updated terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-11-12",
+      "type": "proposal_call",
+      "duration_minutes": 27,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Aria to review updated implementation timeline and ROI projections. Aria confirmed the revised approach addresses finance concerns. Discussed next steps for contract review and redlining process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard contract structure - any terms we should flag for legal now?",
+          "answer": "Standard 12-month term, auto-renewal with 60-day notice, standard SaaS liability caps. I'll send the template so legal can review in parallel."
+        },
+        {
+          "by": "rep",
+          "question": "What's your procurement process timeline once we agree on terms?",
+          "answer": "Legal review takes about a week, then finance approval is 3-5 days. We could have this signed within two weeks if there are no major redlines."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract template to legal",
+        "Schedule executive alignment call with Mateo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-11-21",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Mateo Brooks",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Mateo Brooks and Aria Hall. Rep confirmed accelerated implementation plan and addressed Mateo's remaining concerns about change management and team adoption. Mateo approved moving forward pending final contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do we ensure the team actually adopts this and it doesn't become shelfware?",
+          "answer": "We include dedicated onboarding and weekly check-ins for the first month. Our customer success team stays engaged until we see consistent usage across your team."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add more seats mid-year?",
+          "answer": "You can add seats anytime, prorated for the remainder of the term. Most customers start with core team and expand once they see the value."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders we need to loop in before legal review?",
+          "answer": "No, Aria and I are aligned. Let's get the contract to legal and keep this moving."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to legal",
+        "Begin legal review process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-11-22",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Aria following legal review. Legal flagged standard liability cap and data processing addendum requirements. Discussed amendments and path to mutual agreement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you accommodate a higher liability cap - our legal is asking for 2x annual fees instead of 1x?",
+          "answer": "We can go to 1.5x annual fees, which is our standard accommodation for enterprise customers. 2x would require executive approval on our side."
+        },
+        {
+          "by": "prospect",
+          "question": "We need a data processing addendum that's GDPR-specific - do you have a standard DPA?",
+          "answer": "Yes, we have a standard DPA that covers GDPR requirements. I'll send it over today for legal to review."
+        }
+      ],
+      "objections": [
+        "Liability cap terms",
+        "Data processing addendum needed"
+      ],
+      "next_steps": [
+        "Send standard DPA",
+        "Propose 1.5x liability cap compromise",
+        "Legal to review amendments"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-11-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with standard DPA and revised contract reflecting 1.5x liability cap. Requested legal feedback on remaining redlines.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await legal feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-12-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on legal review status. Aria responded that legal is nearly complete and expects to have final redlines by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Final legal review completion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-12-09",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Aria Hall",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Aria to review final legal redlines. Minor language adjustments to termination clauses and data retention policies. Both parties agreed to final terms. Aria committed to routing for signatures pending finance final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get the implementation start date locked in before we sign so we can plan team availability?",
+          "answer": "Absolutely - let's target kick-off one week after signature. I'll block our implementation team's calendar now."
+        },
+        {
+          "by": "rep",
+          "question": "What's the signature routing process and timeline?",
+          "answer": "Aria signs first, then it goes to Mateo, then finance for countersignature. Should be complete within 3 business days once legal approves the final version."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract with legal amendments",
+        "Route for signatures",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

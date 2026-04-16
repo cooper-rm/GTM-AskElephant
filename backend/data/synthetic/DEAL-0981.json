@@ -1,0 +1,608 @@
+{
+  "deal_id": "DEAL-0981",
+  "company": {
+    "name": "ValleyGear",
+    "industry": "PropTech",
+    "employee_count": 686,
+    "annual_revenue": 116147880,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15900.0,
+    "seats": 21,
+    "price_per_seat_monthly": 61.61,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 30.8,
+    "sales_cycle_days": 64,
+    "close_date": "2025-04-25",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Javier Byrne",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Carter Weiss",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 26
+    },
+    {
+      "name": "Dakota Rogers",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 3
+    },
+    {
+      "name": "Riley Liu",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 64
+    },
+    {
+      "name": "Mason Carter",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 13
+    },
+    {
+      "name": "Ella Silva",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-02-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Javier Byrne at ValleyGear. Interested in improving sales-to-CS handoff process. Currently evaluating conversation intelligence tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for qualification call",
+        "Share overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming receipt of demo request. Proposed times for initial qualification call and asked about current pain points with handoffs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing tech stack?",
+          "answer": "Yes, we have native Salesforce integration and connect with 50+ tools including Slack, HubSpot, and common CS platforms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Sent pre-call prep email with agenda and discovery questions. Javier confirmed attendance and mentioned they're also looking at Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call tomorrow at 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-02-28",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call with Javier. ValleyGear has 21 AEs and CSMs struggling with context loss during handoffs. 686-employee PropTech company, mid-market segment. Mentioned Gong as alternative but concerned about price.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's currently happening with handoffs that's causing issues?",
+          "answer": "Sales closes deals but CS gets incomplete notes. Leads to awkward onboarding calls where we re-ask questions customers already answered."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical price range for this type of solution?",
+          "answer": "Depends on seats and features, but for 21 users we're typically in the $12-18K range annually."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper discovery call with Javier and key stakeholders",
+        "Send case study on sales-CS handoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 15.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping qualification call. Shared PropTech customer case study showing 40% reduction in onboarding time. Confirmed discovery call for next week with expanded attendee list.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with Javier and Riley Liu (Implementation Lead)"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-08",
+      "type": "discovery_call",
+      "duration_minutes": 43,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "43-minute discovery call with Javier and Riley. Deep dive into current workflow: sales uses Salesforce, CS uses Gainsight, no automated call summaries. Losing 3-5 hours per week per CSM reconstructing context. Riley emphasized need for clean API access for their internal dashboards. Budget authority sits with Carter Weiss (COO). Timeline: want to pilot by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this?",
+          "answer": "Carter Weiss is our COO and will need to sign off. Also Dakota Rogers and Ella Silva from IT for security review, and Mason Carter from RevOps for data validation."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI handle PropTech-specific terminology and context?",
+          "answer": "Our models are fine-tuned on industry verticals. We can also customize glossaries during implementation to capture your specific terms like 'lease-up velocity' or 'NOI projections'."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for evaluating new tools?",
+          "answer": "Usually a technical eval with IT, then exec presentation to Carter, then pilot with 3-5 users before full rollout."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We're concerned about data security since we handle sensitive property and tenant information.",
+          "response": "We're SOC 2 Type II certified and offer on-premise deployment options for enterprise customers. Happy to have IT review our security docs."
+        }
+      ],
+      "next_steps": [
+        "Send technical documentation to Dakota and Ella",
+        "Schedule technical evaluation session",
+        "Prepare ROI calculator based on 3-5 hours saved per CSM weekly"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-03-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Post-discovery follow-up. Sent technical security documentation, API specs, and ROI calculator showing $47K annual savings in CSM productivity. Proposed technical eval with Dakota Rogers.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Dakota for next week",
+        "Send calendar invite for exec intro with Carter"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-03-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-technical eval email to Dakota with sandbox access, API documentation, and evaluation checklist. Confirmed data residency and compliance requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we test this with our own call recordings before committing?",
+          "answer": "Absolutely. The sandbox is ready with sample data, and you can upload 5-10 of your own recordings to test accuracy."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation tomorrow with Dakota and Ella"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-03-20",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "Dakota Rogers",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "62-minute technical evaluation with Dakota and Ella. Walked through sandbox, tested API endpoints, reviewed data retention policies. Dakota uploaded 3 actual sales calls to test transcription accuracy. Positive feedback on UI and Salesforce sync. Ella raised questions about SSO implementation timeline and audit logging capabilities. Both approved from technical perspective with minor SSO configuration requests.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline for SSO with Okta?",
+          "answer": "Typically 1-2 weeks after contract signature. We'll need a kickoff call with your IT team to configure SAML settings."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers we should address before moving forward?",
+          "answer": "No blockers. We'd like documentation on audit log retention policies for our compliance team, but that's not a dealbreaker."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle call recordings that mention proprietary financial models?",
+          "answer": "We support keyword-based redaction and can exclude specific topics from summaries. You maintain full control over what gets processed."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We need more granular user permissions than what we saw in the demo.",
+          "response": "Our Enterprise tier includes role-based access control with custom permission sets. Can configure view/edit/delete permissions by team and call type."
+        }
+      ],
+      "next_steps": [
+        "Send audit log documentation to Ella",
+        "Schedule exec meeting with Carter Weiss to present findings",
+        "Prepare proposal with automations_plus_consulting package"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-03-22",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Carter Weiss",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute exec intro call with Carter Weiss. High-level overview of solution and business case. Carter focused on ROI and asked about implementation support. Mentioned budget is tight this quarter but sees value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of consulting support is included?",
+          "answer": "Our automations_plus_consulting package includes 20 hours of implementation consulting: workflow design, custom integrations, and team training."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're closing Q2 budget in 3 weeks. Need proposal and business case by end of next week to get this approved."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full exec presentation next week with technical findings and business case",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-03-28",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Carter Weiss",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute exec presentation with Carter, Javier, and Dakota. Walked through ROI calculator, technical evaluation results, and implementation plan. Carter positive on value but pushed back on pricing. Asked for comparison with Gong since they're in final talks there. Dakota confirmed technical approval. Carter requested best pricing for 21 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our use case?",
+          "answer": "Gong is typically 20-30% higher for conversation intelligence alone. We're including implementation consulting and custom automations in this package, which Gong charges separately for."
+        },
+        {
+          "by": "rep",
+          "question": "If we move quickly, could you sign by end of quarter?",
+          "answer": "Possibly, but I need to see your best pricing first. We're budget-conscious and Gong has been aggressive on discounting."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting hours?",
+          "answer": "20 hours covers implementation kickoff, Salesforce/Gainsight integration setup, custom workflow configuration for your handoff process, and training for sales and CS teams."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "Your list price is higher than we budgeted. Gong is coming in lower and has more market presence.",
+          "response": "Understood. We have flexibility on pricing for the right partner. Let me work up a proposal that reflects both the value and your budget constraints. Our focus on sales-CS handoff is more aligned to your use case than Gong's broad sales enablement positioning."
+        }
+      ],
+      "next_steps": [
+        "Send formal proposal with competitive pricing by end of week",
+        "Schedule follow-up to review proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-03-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 21 seats, automations_plus_consulting package, $15,900 ACV (30.8% discount from list). Highlighted consulting value and faster implementation vs Gong. Requested feedback by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up midweek if no response",
+        "Prepare to address pricing questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-04-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal. Javier responded that Carter is reviewing with finance and comparing final Gong offer. Asked for patience, decision expected early next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Carter's review",
+        "Prepare for potential pricing negotiation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-04-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Second follow-up email to Javier. Offered to answer any questions Carter has and emphasized implementation timeline if they want to go live by end of quarter. Javier confirmed meeting with Carter scheduled for tomorrow.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Executive negotiation call scheduled with Carter for Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-04-14",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Carter Weiss",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute exec negotiation call with Carter. Appreciated the discount but pushing for more given Gong's competing offer. Discussed contract terms: annual vs quarterly payment, implementation timeline, and success metrics. Carter wants to move forward but needs final price concession.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer annual payment terms instead of quarterly?",
+          "answer": "We typically do quarterly for mid-market, but I can check with leadership on annual terms if it helps close the budget gap."
+        },
+        {
+          "by": "rep",
+          "question": "What would it take to get this signed this week?",
+          "answer": "Honestly, if you can match Gong's pricing we're ready to move. They're at about 10% below your proposal."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation success rate for companies our size?",
+          "answer": "98% of mid-market customers go live within 30 days and hit ROI targets within 90 days. We'll assign a dedicated implementation consultant from day one."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "We're still torn between you and Gong. Your solution is more focused on our use case, but their brand recognition gives our exec team more confidence.",
+          "response": "That's fair. Our handoff-specific features and included consulting are built for exactly what you described in discovery. Happy to connect you with a PropTech customer doing similar work if a reference would help."
+        }
+      ],
+      "next_steps": [
+        "Internal discussion on additional pricing flexibility",
+        "Schedule final negotiation call with Javier"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-04-19",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "28-minute negotiation call with Javier (rescheduled from earlier in week). Discussed Carter's feedback and pricing pressure. Javier personally advocates for our solution based on technical fit but needs to bring Carter a compelling close rationale. Agreed to hold current pricing but emphasized consulting value and faster implementation. Javier will present to Carter and push for approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign by Friday, can you guarantee go-live in 3 weeks?",
+          "answer": "Yes. With 3-week notice we can prioritize your implementation and have you live before end of quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What's the internal sentiment on moving forward?",
+          "answer": "I'm sold, Dakota and Ella are sold, Riley's team is excited. Carter is the holdout because of budget and Gong's brand. I'm meeting with him tomorrow to make the final push."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Javier to meet with Carter tomorrow with final recommendation",
+        "Stand by for Carter's decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Javier after his meeting with Carter. Reiterated key differentiators: handoff-focused features, included consulting, and faster implementation. Offered to jump on a call with Carter if helpful.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await Carter's final decision",
+        "Prepare contract documents"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-04-25",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Javier Byrne",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute final negotiation call with Javier and Carter. Carter confirmed approval at $15,900 with quarterly payment terms. Discussed contract details, implementation kickoff timeline, and success criteria. Carter wants weekly check-ins during implementation. Both excited to move forward. Contract to be sent today for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a 90-day performance review checkpoint to the contract?",
+          "answer": "Absolutely. We'll include a formal QBR at 90 days to review adoption metrics and ROI against your baseline."
+        },
+        {
+          "by": "rep",
+          "question": "When can you sign and kick off implementation?",
+          "answer": "I'll review the contract tonight and sign tomorrow. Let's plan implementation kickoff for next Monday."
+        },
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "You'll have a dedicated implementation consultant assigned within 24 hours of signature, plus your ongoing CSM. Both will be on the kickoff call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for signature",
+        "Assign implementation consultant",
+        "Schedule kickoff call for next Monday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

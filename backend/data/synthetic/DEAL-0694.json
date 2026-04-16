@@ -1,0 +1,567 @@
+{
+  "deal_id": "DEAL-0694",
+  "company": {
+    "name": "CrimsonData",
+    "industry": "SaaS/Tech",
+    "employee_count": 5510,
+    "annual_revenue": 743527817,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 73700.0,
+    "seats": 46,
+    "price_per_seat_monthly": 136.08,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 72,
+    "close_date": "2024-06-21",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Anika Mitchell",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Megan Weber",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 75
+    },
+    {
+      "name": "Lisa Nkrumah",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 24
+    },
+    {
+      "name": "Amanda Carter",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 10
+    },
+    {
+      "name": "David Lim",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Anika Mitchell expressing interest in CRM automation solutions for CrimsonData's sales operations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-12",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Anika to understand current CRM challenges and automation needs. She mentioned CrimsonData is experiencing workflow inefficiencies with their current manual processes.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your current pain points with CRM workflows?",
+          "answer": "Manual data entry is consuming 30% of our sales team's time, and we're seeing inconsistent follow-up tracking."
+        },
+        {
+          "by": "rep",
+          "question": "How many sales team members would be using the platform?",
+          "answer": "We'd be looking at around 46 seats across our sales organization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule follow-up"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies relevant to SaaS companies. Highlighted automation capabilities and ROI metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have examples of companies our size who've implemented this?",
+          "answer": "Shared three case studies from enterprise SaaS companies with similar team sizes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review materials",
+        "Reconvene next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in email. Anika confirmed she reviewed the materials and is ready to move forward with deeper discovery. Mentioned she'll need to involve procurement and IT eventually.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-26",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to set agenda for upcoming discovery session. Anika outlined key stakeholders and mentioned this is her first major platform evaluation since joining as Director of Sales three months ago.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical timeline from discovery to implementation?",
+          "answer": "Usually 60-90 days depending on technical requirements and stakeholder alignment."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should we involve in the discovery process?",
+          "answer": "I'll need to bring in Megan Weber, our COO, at some point, plus IT and procurement down the line."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct full discovery call",
+        "Prepare technical requirements doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-30",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on workflow mapping and integration requirements. Anika walked through current state processes and desired automation scenarios. Strong alignment on use case.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What CRM platform are you currently using?",
+          "answer": "Salesforce, but we're underutilizing most of the automation features."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for this initiative?",
+          "answer": "Reducing manual data entry by at least 50% and improving our pipeline visibility significantly."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform handle custom workflow triggers based on deal stage changes?",
+          "answer": "Yes, our unlimited automation tier supports custom triggers, rules, and multi-step workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare sandbox environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-07",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session covering platform capabilities, workflow builder demo, and Salesforce integration setup. Anika tested several automation scenarios and seemed impressed with ease of configuration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the Salesforce sync handle custom fields?",
+          "answer": "Bi-directional sync with full custom field mapping support, updated in real-time."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting comes with the unlimited automation tier?",
+          "answer": "Full analytics dashboard with automation performance metrics, workflow efficiency tracking, and custom report builder."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any specific automation workflows you'd like to see configured?",
+          "answer": "Lead routing based on territory and automatic task creation for follow-ups would be our top two."
+        }
+      ],
+      "objections": [
+        "I'll need to validate this with our IT team to ensure it meets our security requirements."
+      ],
+      "next_steps": [
+        "Schedule second technical session",
+        "Provide security documentation to IT"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-10",
+      "type": "technical_eval",
+      "duration_minutes": 41,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation focusing on advanced features and security review. Anika brought specific questions from internal stakeholders. Discussed implementation timeline and training approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the onboarding and training package?",
+          "answer": "Dedicated implementation manager, custom workflow configuration, and unlimited user training sessions for first 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle SOC 2 compliance and data residency requirements?",
+          "answer": "We're SOC 2 Type II certified with data residency options in US, EU, and APAC regions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal go-live timeline?",
+          "answer": "We'd like to have this operational by end of Q2 if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment meeting",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-15",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Megan Weber",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Megan Weber (COO) to discuss strategic fit and business case. Covered ROI projections, team productivity gains, and alignment with CrimsonData's growth plans. Megan expressed strong support for the initiative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are similar companies seeing in year one?",
+          "answer": "Typically 200-300% ROI through time savings and improved conversion rates."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this platform scale as we add more users?",
+          "answer": "Pricing is per seat, and you can add users anytime with no platform limitations on the unlimited tier."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other initiatives this needs to align with?",
+          "answer": "We're focused on sales efficiency this year, so this fits perfectly with our strategic priorities."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present formal proposal to Anika",
+        "Begin procurement process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-21",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Anika to review pricing for 46 seats on unlimited automation tier. Walked through $73,700 ACV proposal and contract terms. Anika needs to socialize with procurement team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual commitment?",
+          "answer": "We offer 1-year and 3-year terms, with discounting available on multi-year commitments."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget approval process?",
+          "answer": "I'll need to run this through Lisa in procurement, plus get IT sign-off from Amanda."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share proposal with procurement",
+        "Schedule follow-up call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-26",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled proposal review call was rescheduled due to Anika's conflict. Brief call to confirm she's shared the proposal internally and is gathering feedback from Lisa and Amanda.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any initial feedback from the procurement or IT teams?",
+          "answer": "Lisa is reviewing the contract terms, and Amanda had a few security questions I forwarded to you."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Address IT security questions",
+        "Reschedule full review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email addressing Amanda's security questions regarding data encryption, access controls, and compliance certifications. Also provided references from similar enterprise customers.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for IT review",
+        "Schedule negotiation discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-05",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Anika following internal review. She mentioned that the pricing came in higher than initially expected and procurement is asking about volume discounts or multi-year options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer on a 3-year commitment?",
+          "answer": "We can offer 12% off annual pricing on a 3-year deal, bringing it to approximately $65,000 per year."
+        },
+        {
+          "by": "rep",
+          "question": "Is budget the primary blocker at this point?",
+          "answer": "It's not a blocker, but procurement wants to ensure we're getting the best value. I still have strong support from Megan."
+        }
+      ],
+      "objections": [
+        "The pricing is above our initial budget estimate, and procurement is pushing back on the per-seat cost."
+      ],
+      "next_steps": [
+        "Prepare revised proposal with multi-year options",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-11",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed pricing discussion covering 1-year vs 3-year scenarios, payment terms, and discount structure. Anika mentioned she's advocating internally but needs to balance Lisa's cost concerns with the strategic value Megan sees.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this with quarterly payments instead of annual?",
+          "answer": "Yes, we can accommodate quarterly billing with a small administrative fee."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to reduce seats mid-contract?",
+          "answer": "Seats can be reduced at renewal, but not mid-term on annual contracts."
+        }
+      ],
+      "objections": [
+        "Procurement is concerned about committing to 46 seats for three years without a reduction clause."
+      ],
+      "next_steps": [
+        "Explore 1-year option with performance review clause",
+        "Loop in executive sponsor"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-14",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Megan Weber",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive check-in with Megan Weber to reaffirm strategic value and address procurement concerns. Megan confirmed budget is approved and encouraged moving forward with 1-year term to start.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does the 1-year term at $73,700 work within your approved budget?",
+          "answer": "Yes, that works. I'd rather start with a year and expand based on results than get locked into a longer term right now."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include an option to expand seats or upgrade terms after six months?",
+          "answer": "Absolutely, we can include a mid-term expansion clause in the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize 1-year agreement",
+        "Coordinate with Anika on contract review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-18",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Anika Mitchell",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Anika to confirm contract terms: 46 seats, $73,700 ACV, 1-year term with quarterly payments and mid-term expansion option. All stakeholders aligned. Moving to legal review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any final concerns before we send to legal?",
+          "answer": "No, I think we're in good shape. Lisa and Amanda are both on board, and Megan is supportive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to legal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "deal_id": "DEAL-0432",
+  "company": {
+    "name": "CloudGroup",
+    "industry": "Fintech",
+    "employee_count": 73,
+    "annual_revenue": 4924346,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5800.0,
+    "seats": 8,
+    "price_per_seat_monthly": 60.66,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.8,
+    "sales_cycle_days": 40,
+    "close_date": "2025-12-25",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Riley Hassan",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Scarlett Agarwal",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 16
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Riley Hassan expressing interest in automating their sales-to-CS handoff process. Initial inquiry mentioned current manual handoffs causing delays and customer confusion.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-16",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Riley Hassan to understand current handoff process. Riley described pain points around lost context between sales and CS teams, leading to customer frustration. CloudGroup currently uses spreadsheets and manual Slack messages. Riley confirmed decision timeline of 4-6 weeks.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had two customers escalate complaints about inconsistent onboarding in the past month"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with our existing CRM?",
+          "answer": "We have native integrations with all major CRMs including Salesforce and HubSpot, with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to audit current handoff touchpoints",
+        "Follow-up call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-19",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Riley shared audit findings showing 8-12 hour average delay in handoffs and inconsistent information transfer. Discussed team size (need 8 seats for sales and CS leads). Riley mentioned budget constraints but confirmed strong business case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Most customers are fully up and running within 2-3 weeks"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation?",
+          "answer": "Scarlett Agarwal from RevOps will handle technical evaluation, and we'll need to loop in finance for final approval"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, we'll need to see strong ROI justification"
+      ],
+      "next_steps": [
+        "Send ROI calculator",
+        "Introduce Scarlett for technical evaluation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with ROI calculator showing estimated 15-hour weekly time savings and reduction in customer churn from improved handoffs. Also included case study from similar fintech company. Riley responded positively and confirmed Scarlett's availability for technical deep dive.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Scarlett"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-12-01",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Scarlett Agarwal",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation with Scarlett Agarwal (originally scheduled for 30min, rescheduled once, ran 42min). Scarlett asked detailed questions about API capabilities, data security, and workflow customization. Walked through their specific handoff requirements and tested platform in sandbox environment. Scarlett expressed concerns about setup complexity but was impressed with automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for different product lines?",
+          "answer": "Yes, you can create unlimited custom workflows with conditional logic based on any CRM field"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of technical expertise is needed to maintain this?",
+          "answer": "The UI is no-code for most common workflows, but you have API access for advanced customization if needed"
+        },
+        {
+          "by": "prospect",
+          "question": "How does data sync handle conflicts between systems?",
+          "answer": "You can set conflict resolution rules, with options for CRM-as-source, timestamp-based, or manual review"
+        }
+      ],
+      "objections": [
+        "Initial setup looks more involved than expected",
+        "We'll need to ensure our CS team gets proper training"
+      ],
+      "next_steps": [
+        "Scarlett to share feedback with Riley",
+        "Request formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-12-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Email sent with formal proposal for 8 seats at $5,800 ACV (31.8% discount applied to address budget concerns). Proposal included implementation support package and 90-day onboarding assistance. Riley acknowledged receipt and said they're reviewing internally with finance.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the implementation support included in this price?",
+          "answer": "Yes, the package includes dedicated onboarding specialist and up to 20 hours of setup assistance"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to review with finance",
+        "Follow up in 3 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 10.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Riley responded that finance has questions about contract terms and payment structure. Asked if quarterly payment option is available instead of annual upfront.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discuss payment terms on call",
+        "Schedule negotiation conversation"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-12-19",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Riley to discuss contract terms. Riley pushed for quarterly payments and month-to-month commitment due to Q2 cash flow concerns. Agreed to quarterly billing with annual commitment. Riley mentioned they still need final sign-off but feels confident given the discount and business case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit annually, can we add seats mid-contract without renegotiating?",
+          "answer": "Yes, you can add seats anytime at the same per-seat rate, billed for the remaining contract period"
+        }
+      ],
+      "objections": [
+        "Annual upfront payment doesn't work for our cash flow",
+        "We need flexibility in case business conditions change"
+      ],
+      "next_steps": [
+        "Send updated contract with quarterly billing terms",
+        "Riley to present to finance and CEO for final approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-12-26",
+      "type": "exec_meeting",
+      "duration_minutes": 12,
+      "person_name": "Riley Hassan",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief meeting with Riley to confirm final details before exec sign-off. Riley shared that Scarlett gave positive technical feedback. Walked through contract terms one final time. Riley mentioned CEO hasn't been directly involved but trusts Riley's judgment. Confirmed next steps for contract routing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When do you expect to have final approval?",
+          "answer": "Should have CEO signature by end of week, finance already approved the terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send DocuSign contract",
+        "Riley to route for CEO signature",
+        "Tentative kickoff call scheduled for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

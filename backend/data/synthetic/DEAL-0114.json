@@ -1,0 +1,351 @@
+{
+  "deal_id": "DEAL-0114",
+  "company": {
+    "name": "ValleyCollective",
+    "industry": "Professional Services",
+    "employee_count": 533,
+    "annual_revenue": 57323254,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8000,
+    "seats": 10,
+    "price_per_seat_monthly": 60.01,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 32.6,
+    "sales_cycle_days": 28,
+    "close_date": "2023-07-22",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Taylor Jung",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 3
+    },
+    {
+      "name": "Lily Suzuki",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-19",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Taylor Jung submitted an inbound demo request via website form. Expressed interest in call recording and sales coaching capabilities. No conversation occurred.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "AE to reach out within 24 hours",
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-24",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Taylor Jung, newly appointed Head of RevOps. Discussed current pain points around lack of visibility into sales conversations and need for structured coaching. Taylor mentioned evaluating Fathom but concerned about feature gaps. Brief overview of AskElephant's capabilities provided.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence platform right now?",
+          "answer": "We've scaled to 533 employees and our RevOps visibility is minimal. New leadership wants data-driven coaching but we have no systematic way to review calls."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing Salesforce instance?",
+          "answer": "Yes, native Salesforce integration with automated activity logging and custom field mapping."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator and case study",
+        "Schedule deeper discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-28",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Taylor shared organizational structure\u201410-person sales team needing licenses. Discussed budget parameters and timeline (targeting Q2 rollout). Taylor confirmed they're also talking to Fathom and mentioned price sensitivity given recent headcount investments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your evaluation process and decision timeline.",
+          "answer": "Need to move quickly\u2014Q2 starts in three weeks. I'm driving this with IT approval from Lily Suzuki. Probably won't involve exec team until we're close to a decision."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing look like for 10 seats?",
+          "answer": "Standard pricing starts at $1,200 per seat annually, though we have flexibility based on use case and commitment term."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter\u2014we've already invested heavily in headcount growth"
+      ],
+      "next_steps": [
+        "Schedule technical discovery with Taylor",
+        "Prepare custom pricing scenario"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-03",
+      "type": "discovery_call",
+      "duration_minutes": 14,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on specific use cases. Taylor emphasized call recording, transcript search, and coaching workflows. Discussed integration requirements with existing tech stack (Salesforce, Zoom, Slack). Taylor mentioned Fathom's simpler interface but acknowledged AskElephant's superior analytics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the coaching workflow actually work day-to-day for managers?",
+          "answer": "Managers receive automated highlight reels of coachable moments, can leave timestamped feedback, and track improvement metrics over time through the coaching dashboard."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you?",
+          "answer": "Honestly, price. Fathom is significantly cheaper and does 80% of what we need. I need to justify the premium to IT and prove ROI quickly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare competitive comparison doc vs Fathom"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-07",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Taylor and solutions engineer. Deep dive into automations, custom reporting, and Salesforce sync capabilities. Taylor tested live call recording, transcript quality, and coaching features. Spent significant time on analytics dashboard. Lily Suzuki briefly joined to discuss security and compliance requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automated follow-up email templates that get generated from calls?",
+          "answer": "Yes, fully customizable templates with dynamic field insertion from CRM data and conversation context."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline from contract signature to full team rollout?",
+          "answer": "Typically 2-3 weeks\u2014one week for technical setup and integration testing, then phased user onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fathom in your evaluation?",
+          "answer": "Fathom is easier to set up but lacks the automation layer and advanced analytics we'd need for real coaching impact."
+        }
+      ],
+      "objections": [
+        "The learning curve looks steeper than Fathom\u2014worried about adoption with the sales team"
+      ],
+      "next_steps": [
+        "Schedule full product demo for next week",
+        "Send security documentation to Lily",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-11",
+      "type": "demo",
+      "duration_minutes": 55,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive product demo with Taylor. Showcased end-to-end workflow from call recording through coaching insights and pipeline analytics. Taylor engaged heavily with the custom automation features and reporting capabilities. Discussed implementation plan and change management. Positive reaction to product but clear concern about budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot\u2014maybe 5 seats\u2014and expand if it works?",
+          "answer": "We can structure it that way, though the per-seat economics improve significantly at 10+ seats with our automations tier."
+        },
+        {
+          "by": "rep",
+          "question": "If we could get creative on pricing, what would seal the deal this quarter?",
+          "answer": "I'd need to come in under $10K total to make this work without escalating to the CFO. That's my approval threshold."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include for onboarding?",
+          "answer": "Four weeks of dedicated consulting\u2014custom playbook development, manager training, and optimization of your coaching workflows based on your sales methodology."
+        }
+      ],
+      "objections": [
+        "Fathom quoted us $4K for 10 seats\u2014I need to justify why we're paying double"
+      ],
+      "next_steps": [
+        "Prepare custom proposal with consulting bundle at $8K",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-12",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec alignment meeting\u2014though no actual exec sponsor present, just Taylor and Lily from IT reviewing the proposal. Discussed $8K pricing (32.6% discount) for 10 seats plus consulting. Taylor advocated for the deal; Lily raised questions about contract terms and data retention policies. Tone was cautious but not dismissive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't drive the ROI we're expecting?",
+          "answer": "Standard annual contract with quarterly business reviews. We don't typically offer early termination, but can discuss performance guarantees."
+        },
+        {
+          "by": "prospect",
+          "question": "Is this your final pricing or is there more flexibility?",
+          "answer": "This is a significant discount from our standard $12K for this package\u2014reflects our commitment to partnering with high-growth professional services firms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to review contract terms",
+        "Taylor to build internal business case",
+        "Reconvene next week for decision"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-18",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation meeting with Taylor and Lily. Contract redlines discussed\u2014Lily pushed for data residency clarifications and shorter initial term. Taylor reiterated budget constraints and asked about payment terms. No exec sponsor still engaged. Discussion focused on risk mitigation rather than value creation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "We can split into two payments\u201450% at signature, 50% at 6 months\u2014but can't accommodate quarterly for this deal size."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for final decision? Do we need to involve anyone else from leadership?",
+          "answer": "Taylor has approval authority under $10K. Decision by end of week\u2014no other stakeholders needed."
+        }
+      ],
+      "objections": [
+        "The contract term is longer than we typically commit to for new vendors",
+        "Still not clear this is enough of a step up from Fathom to justify the premium"
+      ],
+      "next_steps": [
+        "Legal review of revised terms",
+        "Final decision by Friday",
+        "Implementation kickoff following week if approved"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-24",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Taylor Jung",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call. Taylor confirmed budget approval at $8K but requested one additional contract modification around auto-renewal terms. Lily signed off on security requirements. Taylor mentioned Fathom as ongoing competitive pressure but acknowledged AskElephant's superior feature set. Tone remained cautious\u2014focus on minimizing risk rather than enthusiasm about upside.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a 60-day opt-out window before auto-renewal?",
+          "answer": "We can include a 90-day renewal notice requirement\u2014standard for enterprise agreements."
+        }
+      ],
+      "objections": [
+        "I'm taking a risk championing this without exec buy-in\u2014need to make sure we have flexibility if priorities shift"
+      ],
+      "next_steps": [
+        "Send final contract with renewal terms update",
+        "Taylor to route for signature",
+        "Target close by EOW"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

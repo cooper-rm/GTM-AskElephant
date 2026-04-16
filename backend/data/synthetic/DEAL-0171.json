@@ -1,0 +1,302 @@
+{
+  "deal_id": "DEAL-0171",
+  "company": {
+    "name": "ZenFoundry",
+    "industry": "Marketing Agency",
+    "employee_count": 46,
+    "annual_revenue": 5317253,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5100.0,
+    "seats": 7,
+    "price_per_seat_monthly": 60.07,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.5,
+    "sales_cycle_days": 58,
+    "close_date": "2024-05-20",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Blake Becker",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-27",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Initial outreach via LinkedIn to Blake Becker. Introduced AskElephant as a solution for improving forecasting accuracy. Blake responded positively, mentioned they're currently evaluating alternatives to their existing process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Blake agreed to a brief email exchange to learn more"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with overview of AskElephant's forecasting capabilities. Blake replied asking about implementation timeline and whether it integrates with their current stack. Confirmed interest in scheduling a discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks for full onboarding with a 46-person org, including data integration and team training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-31",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Blake. Discussed ZenFoundry's current forecasting challenges and manual processes. Blake mentioned he recently stepped into the Head of Sales role and wants to improve predictability. Asked about reporting capabilities and how AskElephant compares to Gong, which they're also evaluating.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "We're looking at Gong as well - what makes AskElephant different for forecasting specifically?",
+          "answer": "AskElephant focuses on deal-level risk signals and predictive scoring, while Gong is broader conversation intelligence. Our forecasting accuracy clients see is typically 15-20% higher"
+        },
+        {
+          "by": "rep",
+          "question": "Who else on the team would be involved in evaluating this decision?",
+          "answer": "Right now it's mainly me driving this. I'll need to get budget approval eventually, but I'm empowered to run the evaluation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Blake to share current forecast data",
+        "Schedule technical evaluation demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Sent calendar invite for technical evaluation and prep email with agenda. Blake confirmed attendance and mentioned he's excited to see the platform in action. Asked if we could focus demo time on the automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we spend extra time on the automation capabilities during the demo?",
+          "answer": "Absolutely - we'll walk through unlimited automation tier and show how it reduces manual forecast updates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-17",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation demo (rescheduled from previous week). Walked through forecasting dashboard, risk signal detection, and automation workflows. Blake was engaged and asked detailed questions about data integration and user permissions. Mentioned timeline is flexible but wants to make a decision within the quarter. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How granular can we get with user permissions across the 7 seats?",
+          "answer": "Fully customizable - you can set view/edit permissions by role, team, or individual deal access"
+        },
+        {
+          "by": "prospect",
+          "question": "Does the automation tier include all the Salesforce sync features?",
+          "answer": "Yes, unlimited automation includes bi-directional Salesforce sync, automated enrichment, and custom workflow triggers"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your finance or ops lead to review implementation logistics?",
+          "answer": "I don't think that's necessary yet - I can handle the evaluation on our end and loop them in when we're ready to finalize"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - we'll need to be mindful of pricing"
+      ],
+      "next_steps": [
+        "Blake to discuss internally",
+        "Rep to send proposal draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal draft for 7 seats at unlimited automation tier. Blake responded quickly, said pricing is higher than expected and asked if there's flexibility. Mentioned Gong came in lower for their conversation intelligence package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing? Gong's quote was quite a bit lower.",
+          "answer": "Let me connect with our team on what we can do - I'll set up a call to discuss options"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-03",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Blake. Walked through ROI and value justification. Blake pushed on pricing, mentioned budget constraints as a new Head of Sales. Offered a 32.5% discount to get within his range. Blake seemed receptive but wanted to think it over before committing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign before end of quarter, is there any additional discount available?",
+          "answer": "We can offer 32.5% off to close this quarter, bringing it to $5,100 ACV for 7 seats"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anyone else we should involve at this stage - CFO, VP of Ops, or exec team?",
+          "answer": "I have the authority to approve this spend level. I'll finalize my decision and get back to you early next week"
+        }
+      ],
+      "objections": [
+        "Original pricing was above our allocated budget for this initiative"
+      ],
+      "next_steps": [
+        "Blake to review discounted proposal internally",
+        "Target decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after proposal call. Sent formal proposal at $5,100 ACV with discount applied and contract draft. Blake acknowledged receipt and said he's reviewing final details and will have feedback by Friday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Blake to provide feedback on contract by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-20",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Blake Becker",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms finalization call with Blake. Discussed contract details, implementation timeline, and payment terms. Blake confirmed the discounted pricing works and he's ready to move forward pending final internal sign-off. Asked about onboarding timeline to ensure it doesn't disrupt their current quarter-end close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we push implementation start to next month so it doesn't interfere with our Q1 close?",
+          "answer": "Absolutely - we can sign now and schedule kickoff for the first week of next quarter"
+        },
+        {
+          "by": "rep",
+          "question": "Just to confirm - will you need any additional stakeholder approval, or can you sign off this week?",
+          "answer": "I can sign off. I'll get the contract back to you in the next few days once I finish my internal review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Blake to complete internal review and return signed contract",
+        "Rep to prepare onboarding schedule for next month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 77,
+    "churn_reason": "lost internal champion"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "deal_id": "DEAL-0141",
+  "company": {
+    "name": "PeakIO",
+    "industry": "eCommerce",
+    "employee_count": 315,
+    "annual_revenue": 43199509,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 11800.0,
+    "seats": 15,
+    "price_per_seat_monthly": 64.28,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.8,
+    "sales_cycle_days": 109,
+    "close_date": "2025-07-05",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Kevin Phillips",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 40
+    },
+    {
+      "name": "James Brown",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 25
+    },
+    {
+      "name": "Priya Gonzalez",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    },
+    {
+      "name": "James Clark",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Omar Wilson",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Kevin Phillips submitted an inbound demo request via website form, indicating interest in onboarding automation for their eCommerce sales team. Initial inquiry mentioned they're currently evaluating alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-18",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Kevin to understand current state and pain points. Kevin described manual onboarding processes causing delays in new sales rep productivity. Confirmed budget authority lies with CRO James Brown.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in onboarding automation right now?",
+          "answer": "We're scaling the sales team and our current manual process can't keep up. New reps take 6-8 weeks to ramp."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Gong?",
+          "answer": "We focus specifically on automation workflows while Gong is primarily conversation intelligence. Many customers use both together."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up with discovery questions",
+        "Send preliminary materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-24",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into PeakIO's team structure and current tooling. Kevin shared they have 15 sales reps and are looking to standardize onboarding across product lines. Mentioned they're also talking to Gong for conversation intelligence.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current onboarding process for new sales hires.",
+          "answer": "It's mostly manual - managers handle it ad hoc with shared docs. No consistent timeline or playbook."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "James Brown our CRO will need to sign off, and Priya Gonzalez from operations will handle implementation."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in James Brown and Priya Gonzalez",
+        "Schedule technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery conversation and sharing case study from similar eCommerce company. Confirmed next step to schedule broader team meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have references from companies in our industry?",
+          "answer": "Yes, shared case study from ShopCore (eCommerce, 400 employees) who reduced ramp time by 40%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Email sharing product overview deck and scheduling link for demo. Kevin confirmed James Brown and Priya Gonzalez's availability for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Check-in email confirming demo time and asking Kevin to share specific workflows they'd like to see demonstrated.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific onboarding workflows should we focus on in the demo?",
+          "answer": "Focus on automated task sequencing and manager oversight dashboards."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Customize demo based on requested workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Email introducing additional resources on unlimited automation tier benefits and ROI calculator to help build internal business case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review ROI calculator before demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo reminder email with agenda and Zoom link. Kevin acknowledged and confirmed James and Priya will attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo call scheduled for tomorrow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical evaluation session to review API capabilities and integration requirements with Priya.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval with Priya scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-05-01",
+      "type": "technical_eval",
+      "duration_minutes": 32,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Kevin and Priya reviewing integration architecture and data security. Priya asked detailed questions about API rate limits and data residency. Confirmed Salesforce integration would meet their requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your API rate limits for the unlimited automation tier?",
+          "answer": "10,000 requests per hour with burst capacity up to 15,000. We can discuss custom limits if needed."
+        },
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support EU data residency?",
+          "answer": "Primary hosting in US with EU region available. All data encrypted at rest and in transit."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this implemented?",
+          "answer": "We'd like to have it running by end of Q2 if possible."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full product demo",
+        "Provide technical documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-05-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing technical documentation and security whitepaper requested by Priya. Confirmed demo scheduled for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo with full team next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-05-15",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled by Kevin due to James Brown conflict. Moved to following week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo rescheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-05-23",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Kevin, James Brown, and Priya. Walked through automated workflow builder, manager dashboards, and reporting. James asked about pricing and contract terms. Team appeared engaged and Kevin noted this would solve their key pain points.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the workflows without engineering resources?",
+          "answer": "Yes, our no-code workflow builder allows sales ops to configure everything."
+        },
+        {
+          "by": "prospect",
+          "question": "What does pricing look like for 15 seats?",
+          "answer": "For unlimited automation tier, we're at $1,100 per seat annually, so about $16,500 for 15 seats. Volume discounts available."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you're seeing from Gong?",
+          "answer": "Gong is focused on call recording and coaching. This is more complementary - different use case."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than initial budget expectations"
+      ],
+      "next_steps": [
+        "Provide formal proposal",
+        "Schedule technical deep dive on custom workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-05-27",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep dive with Priya and Kevin on custom workflow requirements. Reviewed specific automation sequences for onboarding, territory assignment, and training module tracking. Priya confirmed technical requirements are met.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can workflows trigger based on Salesforce field updates?",
+          "answer": "Yes, we support real-time triggers from any Salesforce object or field change."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline typically look like?",
+          "answer": "Standard implementation is 3-4 weeks, including configuration, testing, and training."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers we should address before moving forward?",
+          "answer": "No blockers. We'll need API credentials and sandbox access during implementation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare pricing proposal",
+        "Schedule executive alignment call with James"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-05-29",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "James Brown",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with James Brown to discuss business case and ROI. James focused on budget cycle and comparing total cost of ownership versus alternatives. Discussed strategic value of automation at scale. James mentioned they're evaluating Gong concurrently and need to finalize both decisions by month end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are your customers typically seeing?",
+          "answer": "Average customers reduce onboarding time by 35-40% and see productivity gains within first quarter."
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision process and timeline on your end?",
+          "answer": "Need to finalize by end of month. I'll review with finance and procurement next week."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're also investing in Gong?",
+          "answer": "Let me discuss with leadership and come back with our best pricing for your situation."
+        }
+      ],
+      "objections": [
+        "Budget is tight due to concurrent Gong evaluation"
+      ],
+      "next_steps": [
+        "Provide formal proposal with pricing options",
+        "Loop in procurement contacts"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-06-04",
+      "type": "proposal_call",
+      "duration_minutes": 7,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call rescheduled by Kevin due to procurement team availability. James Clark and Omar Wilson from procurement team added to next meeting.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proposal call rescheduled with procurement team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-06-12",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "James Brown",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with James Brown and procurement team (James Clark, Omar Wilson) to present formal proposal. Initial proposal at $16,500 for 15 seats unlimited tier. James Clark pushed back on pricing and asked for discount given multi-year commitment possibility. Discussed payment terms and contract structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer for a multi-year commitment?",
+          "answer": "For a 2-year commitment we can offer 15% discount. For 3-year we can go to 20%."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment terms instead of annual upfront?",
+          "answer": "We can accommodate quarterly payments with a 5% adjustment to account for payment structure."
+        },
+        {
+          "by": "rep",
+          "question": "What's your preference on contract length?",
+          "answer": "We'd prefer to start with 1-year given budget constraints, but want the best pricing possible."
+        }
+      ],
+      "objections": [
+        "Pricing needs to come down significantly to fit approved budget",
+        "Preference for annual payments rather than quarterly upcharge"
+      ],
+      "next_steps": [
+        "Revise proposal with discount options",
+        "Schedule pricing negotiation call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-06-17",
+      "type": "negotiation_call",
+      "duration_minutes": 17,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Kevin and James Clark to discuss revised pricing. Presented discounted 1-year option at $11,800 (27.8% discount from list) to meet their budget constraints while maintaining deal. Kevin appreciated the flexibility and confirmed this works within approved budget.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does $11,800 for 1-year unlimited automation work within your budget?",
+          "answer": "Yes, that's within our approved range. We'd need annual payment terms to make it work."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included for implementation and training at this price?",
+          "answer": "Full implementation, configuration, and training for up to 20 users is included in unlimited tier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize contract terms",
+        "Schedule pricing confirmation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-06-22",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing finalization call with Kevin to lock in final numbers and contract details. Reviewed $11,800 ACV, 15 seats, unlimited automation tier, annual payment, 1-year term. Kevin confirmed all terms acceptable pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the process for adding seats mid-contract if we hire more reps?",
+          "answer": "Pro-rated pricing for additional seats, added as amendment. No penalties for scaling up."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for legal review on your end?",
+          "answer": "Should be 3-5 business days. Omar will coordinate with our legal team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-06-26",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract review call with procurement team to address legal questions. Minor redline requests on data processing terms and auto-renewal clause. All requests were standard and acceptable.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we modify the auto-renewal clause to require 60-day notice instead of 30?",
+          "answer": "Yes, we can accommodate 60-day notice period."
+        },
+        {
+          "by": "rep",
+          "question": "Any other contract terms we need to address before signature?",
+          "answer": "Just the data processing addendum language, Omar will send specific redlines."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Incorporate legal redlines",
+        "Send final contract for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2025-07-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Phillips",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Final email sending executed contract with all agreed terms: $11,800 ACV, 15 seats, unlimited automation, 1-year term, annual payment. Confirmed implementation kickoff scheduled for following week with Priya.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Contract signature",
+        "Implementation kickoff scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

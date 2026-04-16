@@ -1,0 +1,295 @@
+{
+  "deal_id": "DEAL-0463",
+  "company": {
+    "name": "ZenBridge",
+    "industry": "Professional Services",
+    "employee_count": 46,
+    "annual_revenue": 7172027,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 9,
+    "price_per_seat_monthly": 60.74,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 31.8,
+    "sales_cycle_days": 40,
+    "close_date": "2025-05-18",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Julian Hill",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 10
+    },
+    {
+      "name": "Henry Thomas",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 61
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-22",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Julian Hill introducing AskElephant's sales-to-CS handoff automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-23",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 18.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up LinkedIn message referencing common challenges in RevOps handoffs. Julian responded expressing interest in learning more about automation solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-08",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute qualification call with Julian Hill. Discussed current state of sales-to-CS handoff at ZenBridge, pain points around manual data entry and context loss. Julian confirmed they're evaluating solutions including Fathom. Qualified for 9 seats across revenue team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence solution right now?",
+          "answer": "We're losing critical context when deals move from sales to CS. Manual handoffs are taking 2-3 hours per week per rep."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant handle integrations with our existing CRM stack?",
+          "answer": "We have native integrations with all major CRMs and can sync call data, summaries, and action items automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-13",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute follow-up call to review discovery questionnaire responses. Julian clarified specific automation needs and mentioned they're also looking at Fathom. Discussed timeline and decision process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else from ZenBridge should be involved in evaluating this solution?",
+          "answer": "Henry Thomas, our SVP of Revenue, will need to sign off. He's particularly focused on ROI and team adoption."
+        }
+      ],
+      "objections": [
+        "We're concerned about another tool adding complexity to our stack"
+      ],
+      "next_steps": [
+        "Schedule demo with Julian and Henry",
+        "Send case study on Professional Services implementations"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent with Professional Services case study and proposed demo agenda. Julian confirmed demo time and asked to focus on automation workflows specifically.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show how the automation works for our specific sales-to-CS handoff process?",
+          "answer": "Absolutely, we'll customize the demo to show your exact workflow and how it maps to our automation templates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo for ZenBridge workflow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo. Julian expressed strong interest in automation capabilities but mentioned Fathom is significantly cheaper. Asked about pricing flexibility for 9 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of pricing flexibility do you have for a team our size?",
+          "answer": "For teams committed to the automations_plus_consulting package, we can work within your budget while ensuring you get implementation support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal with consulting package",
+        "Schedule call with Henry to discuss ROI"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-05-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Proposal sent for $6,700 ACV (31.8% discount from list) including automations package and implementation consulting. Julian acknowledged receipt and said he needs to review with Henry before scheduling next call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review",
+        "Follow up in 3 days if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-05-12",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "29-minute negotiation call (originally scheduled earlier but rescheduled by Julian). Julian and Henry joined. Henry pushed back on pricing vs. Fathom's lower-cost offering. Discussed ROI of consulting package and long-term value of automation. Julian emphasized budget constraints for Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down exactly what we're getting with the consulting package that justifies the premium over Fathom?",
+          "answer": "The consulting includes custom workflow mapping, 8 hours of implementation support, and ongoing optimization sessions to ensure your automations actually save your team those 2-3 hours per week."
+        },
+        {
+          "by": "rep",
+          "question": "If we can hit this price point, what's your timeline to move forward?",
+          "answer": "We'd want to start implementation within 2 weeks to see impact this quarter."
+        }
+      ],
+      "objections": [
+        "Fathom is offering a similar solution at about half the cost",
+        "We're tight on budget this quarter and need to justify every dollar"
+      ],
+      "next_steps": [
+        "Revise proposal if possible",
+        "Schedule final pricing call",
+        "Provide ROI calculator"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-05-18",
+      "type": "pricing_call",
+      "duration_minutes": 27,
+      "person_name": "Julian Hill",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute pricing call with Julian. Confirmed final pricing at $6,700 ACV with 9 seats and consulting package. Julian indicated this is their maximum budget and asked about contract terms. Discussed implementation timeline and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the implementation timeline look like with the consulting package?",
+          "answer": "Typically 2-3 weeks from contract signature to full team rollout, with your dedicated consultant guiding the automation setup."
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable with a 12-month commitment at this price point?",
+          "answer": "Yes, as long as we can see the time savings within the first 60 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for review",
+        "Introduce implementation team",
+        "Schedule kickoff pending signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

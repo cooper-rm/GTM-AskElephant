@@ -1,0 +1,365 @@
+{
+  "deal_id": "DEAL-0645",
+  "company": {
+    "name": "CompassPlatform",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 702,
+    "annual_revenue": 69270310,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13900.0,
+    "seats": 18,
+    "price_per_seat_monthly": 62.55,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 29.7,
+    "sales_cycle_days": 29,
+    "close_date": "2024-12-13",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rowan Johnson",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 4
+    },
+    {
+      "name": "Lucas Patel",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Chloe Yang",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 4
+    },
+    {
+      "name": "Alex Costa",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-07",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial cold call to Rowan Johnson, VP of Sales at CompassPlatform. Rowan expressed interest in exploring automation tools to improve sales team productivity. Brief intro call, agreed to follow-up email with more details.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any automation tools for your sales team?",
+          "answer": "We have some basic CRM workflows, but nothing comprehensive for rep productivity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview and case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Rowan with product overview, relevant case studies for managed IT companies, and link to schedule discovery call. Rowan responded positively and scheduled time for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience with companies in our industry?",
+          "answer": "Yes, we work with several managed IT and cybersecurity providers in your size range."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-17",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Rowan to understand CompassPlatform's sales process and pain points. Rowan mentioned new to VP role (3 months), team struggling with manual follow-ups and proposal generation. Discussed current tech stack and integration needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest time sinks for your reps right now?",
+          "answer": "Manual data entry and follow-up sequencing. We're losing deals because reps can't stay on top of everything."
+        },
+        {
+          "by": "rep",
+          "question": "What does your current tech stack look like?",
+          "answer": "Salesforce CRM, some email tools, but nothing that really automates the workflow end-to-end."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this up and running?",
+          "answer": "Typically 2-3 weeks for initial setup and training, faster if you have technical resources available."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up to discuss specific use cases",
+        "Rowan to identify key stakeholders for evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-21",
+      "type": "follow_up_call",
+      "duration_minutes": 8,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to dive deeper into specific automation workflows. Rowan shared that team needs help with 18 reps. Discussed unlimited automation tier. Rowan mentioned wanting to move quickly but needs to loop in IT and procurement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many seats are we looking at?",
+          "answer": "18 reps on the sales team currently."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure for unlimited automation?",
+          "answer": "For 18 seats, we're looking at $19,800 ACV for unlimited automation tier."
+        }
+      ],
+      "objections": [
+        "That's higher than I was expecting, we'll need to see if budget allows"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with IT Director Alex Costa",
+        "Send pricing breakdown and ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-27",
+      "type": "technical_eval",
+      "duration_minutes": 24,
+      "person_name": "Alex Costa",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Alex Costa, IT Director. Walked through security requirements, API integrations with Salesforce, and implementation timeline. Alex asked detailed questions about data handling and compliance. Generally satisfied with technical capabilities but noted procurement process will be involved.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SOC 2 compliance status?",
+          "answer": "We're SOC 2 Type II certified, can share audit reports under NDA."
+        },
+        {
+          "by": "prospect",
+          "question": "How does data sync work with Salesforce?",
+          "answer": "Real-time bidirectional sync via API, you maintain full control over data permissions."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have any specific integration requirements beyond Salesforce?",
+          "answer": "Just Salesforce for now, maybe email tools later."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Alex to review security documentation",
+        "Loop in Lucas Patel from procurement for contract review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-30",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended call with Rowan to discuss business case and ROI. Rowan shared that exec team is focused on other priorities this quarter, so this decision sits with sales leadership. Discussed pricing flexibility given budget constraints. Rowan pushing for discount to make numbers work.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with us on pricing? Our budget for this is tighter than your initial quote.",
+          "answer": "Let me see what we can do. What's your target budget range?"
+        },
+        {
+          "by": "rep",
+          "question": "Is executive leadership involved in this decision?",
+          "answer": "Not directly, this is my call as VP of Sales. CFO will sign off on the contract but trusts my judgment."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of support and training is included?",
+          "answer": "Full onboarding package, dedicated CSM for first 90 days, ongoing training resources."
+        }
+      ],
+      "objections": [
+        "We need to be closer to $14-15K to make this work within my budget"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-04",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Rowan. Presented revised pricing at $13,900 ACV (29.7% discount from list). Rowan appreciative of the flexibility and feels this is workable. Brief discussion of contract terms and timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this price locked in for renewal or will it increase?",
+          "answer": "Locked in for first year, standard 5% increase at renewal based on list price."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rowan to review proposal with Lucas Patel from procurement",
+        "Target to have contract signed within 2 weeks"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-08",
+      "type": "negotiation_call",
+      "duration_minutes": 20,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Rowan to finalize contract terms. Discussed payment terms, implementation timeline, and SLA commitments. Rowan requested net-45 payment terms and quarterly invoicing. Also wants to ensure team is trained before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly invoicing instead of annual?",
+          "answer": "We can do quarterly at this price point, yes."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the end-of-quarter timeline?",
+          "answer": "Want the team trained and productive before Q3 starts. Also easier to get budget approved before quarter close."
+        }
+      ],
+      "objections": [
+        "Net-30 payment terms are tight for us, we typically work on net-45"
+      ],
+      "next_steps": [
+        "Update contract with net-45 terms and quarterly invoicing",
+        "Schedule final review call with Rowan and Lucas"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-13",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Rowan Johnson",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Final negotiation call with Rowan was rescheduled. When reconnected, Rowan mentioned procurement (Lucas) and end-user rep (Chloe) need to review the updated contract. Some back-and-forth on liability caps and data processing addendum. Rowan still committed but timeline slipping slightly due to internal review process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we cap liability at 1x annual contract value?",
+          "answer": "Standard cap is 2x, but we can discuss 1x with legal approval."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other concerns from Lucas or Chloe we should address?",
+          "answer": "Just standard procurement review, they want to make sure all terms are clear before signing."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data processing addendum look like?",
+          "answer": "Standard DPA based on GDPR requirements, can send over the template."
+        }
+      ],
+      "objections": [
+        "Procurement wants liability cap lower than standard terms"
+      ],
+      "next_steps": [
+        "Legal to review liability cap request",
+        "Send DPA template to Lucas",
+        "Schedule final sign-off call early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "deal_id": "DEAL-0223",
+  "company": {
+    "name": "ClayConsulting",
+    "industry": "PropTech",
+    "employee_count": 1000,
+    "annual_revenue": 110752927,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 29400.0,
+    "seats": 34,
+    "price_per_seat_monthly": 65.09,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.9,
+    "sales_cycle_days": 49,
+    "close_date": "2024-04-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ethan Lopez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 24
+    },
+    {
+      "name": "Harper Perez",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 9
+    },
+    {
+      "name": "Cameron Shah",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 28
+    },
+    {
+      "name": "Isabella Hernandez",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 16
+    },
+    {
+      "name": "Priya Pereira",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 20
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-01",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Ethan Lopez at ClayConsulting. No answer, left voicemail introducing AskElephant's AI-powered sales automation platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up with second call attempt"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-03",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief connection with Ethan Lopez. Introduced AskElephant's capabilities for automating sales workflows. Ethan expressed initial interest in tools that could help with sales-to-CS handoff processes. Agreed to follow-up email with more details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specifically does your platform do for sales teams?",
+          "answer": "We automate repetitive sales tasks and improve handoffs between sales and customer success teams using AI"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed email about sales-to-CS handoff capabilities"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-02-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent outlining AskElephant's sales-to-CS handoff automation features. Ethan responded positively, mentioning they're currently evaluating solutions and have looked at Fathom. Requested a discovery call to discuss their specific pain points with handoff processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your approach differ from Fathom?",
+          "answer": "We focus on end-to-end workflow automation beyond just call recording, with deep CRM integration for handoff orchestration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-01",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ethan Lopez. Discussed ClayConsulting's current sales-to-CS handoff challenges\u2014manual note-taking, incomplete context transfer, delays in onboarding. Ethan manages a team that would benefit from automation. Identified need for approximately 34 seats across sales and account management teams.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing CRM and communication tools?",
+          "answer": "Yes, we have native integrations with major CRMs including Salesforce and HubSpot, plus Slack, email, and calendar systems"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We're scaling rapidly and our current manual process is breaking down\u2014CS team is getting frustrated with incomplete handoffs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper dive call to map current workflow",
+        "Share case study from similar PropTech company"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-06",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second discovery call focused on mapping ClayConsulting's current workflow. Ethan walked through their sales process from initial contact through CS handoff. Identified key pain points around information loss and delays. Discussed involving Harper Perez (CRO) and other stakeholders in evaluation process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Harper Perez our CRO will need to sign off, plus Cameron and Isabella from account management, and Priya who handles procurement"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are your customers typically seeing?",
+          "answer": "Customers typically see 40-60% reduction in handoff time and significantly improved CS team satisfaction within first quarter"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Standard implementation is 2-4 weeks depending on customization needs and integration complexity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for next week",
+        "Include account management team members"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-15",
+      "type": "demo",
+      "duration_minutes": 64,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ethan Lopez and account management team (Cameron Shah, Isabella Hernandez). Walked through complete sales-to-CS handoff workflow automation, AI-powered call summarization, automated CRM updates, and handoff templates. Team engaged positively with questions about customization and integration specifics. Mentioned they're also evaluating Fathom but like AskElephant's broader automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates for different deal types?",
+          "answer": "Yes, templates are fully customizable and can be configured by deal size, product type, or any CRM field"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI handle technical conversations in PropTech?",
+          "answer": "The AI model is trained on industry-specific terminology and can be fine-tuned with your own vocabulary and common topics"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for our team?",
+          "answer": "Most users are productive within first week, and we provide hands-on training and ongoing support during onboarding"
+        }
+      ],
+      "objections": [
+        "We're also looking at Fathom which has strong call recording features\u2014what's your advantage there?"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare pricing proposal for 34 seats",
+        "Arrange exec meeting with Harper"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-22",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Ethan and IT stakeholders. Reviewed security, data privacy, API capabilities, and integration architecture. Tested live integration with ClayConsulting's Salesforce instance. Team validated technical fit but raised questions about total cost versus Fathom's pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and what are your SOC 2 compliance details?",
+          "answer": "Data is encrypted at rest and in transit, stored in US-based AWS servers, and we maintain SOC 2 Type II certification"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a pilot with a smaller group first?",
+          "answer": "Yes, we can structure a phased rollout starting with a core team of 10-15 users"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in ongoing support and training?",
+          "answer": "All plans include dedicated CSM, unlimited training sessions, and 24/7 technical support"
+        }
+      ],
+      "objections": [
+        "The price point seems higher than Fathom\u2014we need to understand the value justification"
+      ],
+      "next_steps": [
+        "Present pricing options and ROI analysis",
+        "Schedule meeting with CRO Harper Perez"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-29",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Harper Perez",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Harper Perez (CRO) and Ethan Lopez. Presented business case focused on revenue impact of faster, more accurate handoffs. Harper engaged positively on strategic value but noted budget constraints and need to be price-competitive. Discussed timeline for Q2 rollout aligned with ClayConsulting's scaling plans.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your premium tier include that justifies the investment over basic automation tools?",
+          "answer": "Premium tier includes consulting hours for workflow optimization, advanced analytics, and custom integrations\u2014essential for complex handoff scenarios"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline and budget approval process?",
+          "answer": "Need to finalize by end of quarter. Priya from procurement will need to review final terms and pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing discussion with procurement and Ethan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-04",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Cameron Shah",
+      "person_role": "end_user",
+      "person_title": "Account Manager",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Cameron Shah and procurement team. Discussed proposal for 34 seats on automations_plus_consulting tier. Cameron raised concerns about upfront cost versus phased approach. Requested pricing flexibility to stay competitive with Fathom alternative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this with a smaller upfront commitment and scale up quarterly?",
+          "answer": "We can explore a ramp structure, though per-seat pricing is more favorable at the 34-seat level"
+        },
+        {
+          "by": "prospect",
+          "question": "What discount can you offer to close this quarter?",
+          "answer": "We have some flexibility for deals closing this quarter\u2014let me work with leadership on what we can offer"
+        }
+      ],
+      "objections": [
+        "Fathom came in significantly lower on their quote\u2014we need you to be more competitive"
+      ],
+      "next_steps": [
+        "Prepare revised pricing with discount options",
+        "Follow up with Ethan on final decision-maker alignment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-10",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Ethan Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing negotiation with Ethan Lopez. Presented revised proposal with 26.9% discount to match budget constraints and close the deal this quarter. Ethan confirmed this pricing works and will recommend approval to Harper and Priya. Discussed implementation timeline starting early next quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm this pricing locks in for our first year?",
+          "answer": "Yes, this is a 12-month commitment with locked pricing, and we can discuss renewal terms at month 10"
+        },
+        {
+          "by": "rep",
+          "question": "What do you need from us to move to signatures this week?",
+          "answer": "I'll route the updated proposal to Harper and Priya today. Assuming no issues, we should have signatures by Friday"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Begin onboarding preparation",
+        "Schedule kickoff call for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

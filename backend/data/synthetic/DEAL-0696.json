@@ -1,0 +1,667 @@
+{
+  "deal_id": "DEAL-0696",
+  "company": {
+    "name": "BoldIO",
+    "industry": "Marketing Agency",
+    "employee_count": 542,
+    "annual_revenue": 105268715,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12700.0,
+    "seats": 16,
+    "price_per_seat_monthly": 67.02,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.7,
+    "sales_cycle_days": 87,
+    "close_date": "2024-06-28",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Peyton Schulz",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Jessica Friedman",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 7
+    },
+    {
+      "name": "Liam Garcia",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 9
+    },
+    {
+      "name": "Benjamin Katz",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 23
+    },
+    {
+      "name": "Tyler Ito",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 2
+    },
+    {
+      "name": "Liam Kapoor",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 12
+    },
+    {
+      "name": "Peyton Hassan",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Director of CS at BoldIO regarding sales-to-CS handoff automation. Email highlighted pain points around deal context loss during handoffs and mentioned competitive advantages over Gong's approach.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Peyton expressed interest in learning more",
+        "Scheduled qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-02",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Peyton to understand current handoff process. Discussed current manual workflows and challenges with incomplete deal context reaching CS team. Peyton mentioned recently joining as Director of CS and inheriting fragmented processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong for handoff workflows specifically?",
+          "answer": "Focused on purpose-built handoff automation vs general call intelligence"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for transferring deal context to CS?",
+          "answer": "Mostly manual notes in Salesforce, often incomplete"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with handoff workflow examples",
+        "Schedule deeper dive call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study showing 60% reduction in handoff time for similar mid-market companies. Included comparison sheet highlighting differences from Gong's general recording approach vs purpose-built handoff automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline?",
+          "answer": "4-6 weeks for full deployment with training"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Peyton to review materials with team",
+        "Schedule follow-up call to discuss fit"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-13",
+      "type": "qualification_call",
+      "duration_minutes": 26,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended qualification call diving into BoldIO's tech stack and pain points. Peyton shared frustration with current Salesforce-only approach and mentioned evaluating Gong but concerned it's overkill for their specific handoff needs. Discussed team size (16 seats needed) and unlimited automation tier requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you integrate with our existing Salesforce instance and Slack?",
+          "answer": "Yes, native integrations available for both"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "New CS leadership mandate to reduce customer onboarding friction"
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing compare to Gong for our use case?",
+          "answer": "Typically 40-50% lower for handoff-focused deployment"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Peyton to map out current workflow for discovery session",
+        "Introduce technical evaluator Benjamin Katz"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Discovery prep email sent with workflow mapping template and questions about current handoff bottlenecks. Referenced Peyton's mention of Gong evaluation and positioned discovery as opportunity to compare approaches side-by-side.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Peyton to complete workflow template",
+        "Schedule discovery call with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-21",
+      "type": "follow_up_call",
+      "duration_minutes": 29,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review Peyton's completed workflow map. Identified 4 major handoff failure points causing customer confusion. Peyton mentioned CEO Jessica Friedman is personally invested in fixing handoff experience after recent customer escalations. Discussed bringing in Sales Manager Benjamin and IT Director Liam Garcia.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the impact of poor handoffs on customer retention?",
+          "answer": "Estimated 15-20% of churn tied to rocky onboarding experience"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we pilot with subset of team before full rollout?",
+          "answer": "Yes, recommend starting with 5-6 users for 30-day pilot"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule formal discovery with Benjamin and broader stakeholders",
+        "Prepare technical architecture overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-27",
+      "type": "discovery_call",
+      "duration_minutes": 35,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full discovery call with Peyton and Tyler (Implementation Lead). Deep dive into technical requirements, data security concerns, and integration points. Tyler asked detailed questions about API limitations and data residency. Discussed competitive evaluation with Gong and why handoff-specific solution might be better fit than general revenue intelligence platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and can we customize it?",
+          "answer": "Standard 2-year retention, can extend to 5 years on enterprise tier"
+        },
+        {
+          "by": "rep",
+          "question": "Who owns the handoff process today - sales or CS?",
+          "answer": "Split ownership causing accountability gaps"
+        },
+        {
+          "by": "prospect",
+          "question": "How does reporting compare to what Gong offers?",
+          "answer": "More focused on handoff metrics vs broad revenue analytics"
+        }
+      ],
+      "objections": [
+        "Concern about adding another tool vs leveraging Gong for everything"
+      ],
+      "next_steps": [
+        "Schedule technical eval with Benjamin Katz",
+        "Prepare ROI model for CS efficiency gains"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-01",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Benjamin Katz",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Benjamin Katz (Sales Manager). Walked through automation workflows, integration architecture, and API capabilities. Benjamin tested sandbox environment and raised questions about Salesforce field mapping and custom object support. Compared automation capabilities to Gong's workflow features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger custom workflows based on deal stage changes?",
+          "answer": "Yes, fully customizable trigger logic available"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for our sales team?",
+          "answer": "Minimal - mostly automated in background, 1-hour training sufficient"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for sales enablement?",
+          "answer": "Salesforce, Outreach, considering Gong or similar"
+        }
+      ],
+      "objections": [
+        "Wants to understand overlap with potential Gong implementation"
+      ],
+      "next_steps": [
+        "Benjamin to test more complex workflows in sandbox",
+        "Schedule second eval session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-07",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Benjamin Katz",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical eval with Benjamin focused on security, compliance, and IT requirements. Liam Garcia (IT Director) joined to assess infrastructure needs. Discussed SOC2 compliance, SSO setup, and data governance. Benjamin confirmed technical fit but flagged need for procurement team involvement (Liam Kapoor, Peyton Hassan) due to budget approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support SAML SSO with our Okta instance?",
+          "answer": "Yes, SSO included in unlimited automation tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the vendor security review process look like?",
+          "answer": "Can provide SOC2 Type II, penetration test results, security questionnaire"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to decide by end of quarter for budget allocation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Submit security documentation to IT",
+        "Prepare formal demo for decision-making team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Peyton with technical eval summary and security documentation for Liam Garcia's review. Included competitive comparison document highlighting handoff-specific capabilities vs Gong's broader platform approach and associated cost differences.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "IT security review in progress",
+        "Schedule demo for executive stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Proposal prep email confirming demo attendees and agenda. Peyton confirmed CEO Jessica Friedman will join along with procurement team members. Requested preliminary pricing for 16 seats on unlimited automation tier to review before demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send ballpark pricing before the demo?",
+          "answer": "Will send pricing framework based on 16 seats, unlimited tier"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send preliminary pricing",
+        "Prepare executive-level demo focused on business outcomes"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-24",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full demo with Peyton, Jessica Friedman (CEO), Benjamin, Tyler, and Liam Kapoor (RevOps). Showcased handoff automation workflows, CS team efficiency gains, and customer experience improvements. Jessica engaged heavily, sharing specific customer escalation examples that platform could prevent. Discussed ROI model showing 200+ hours saved quarterly. Peyton mentioned Gong is still in consideration but seems less focused on their core handoff pain.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical ROI timeline for customers your size?",
+          "answer": "Most see positive ROI within 90 days of full deployment"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle custom fields and workflows unique to our business?",
+          "answer": "Fully configurable via UI, no-code workflow builder included"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like 6 months after implementation?",
+          "answer": "Zero handoff-related customer escalations, 50% faster CS onboarding"
+        }
+      ],
+      "objections": [
+        "Jessica concerned about budget vs Gong enterprise deal under consideration"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule pricing discussion with Peyton and procurement"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Formal proposal sent with pricing for 16 seats, unlimited automation tier. Initial quote at $16,900 ACV. Included ROI calculator, implementation timeline, and competitive positioning vs Gong focused on cost-efficiency for handoff-specific use case.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Peyton to review with procurement team",
+        "Schedule pricing call to discuss"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal review. Peyton responded that pricing is higher than expected given budget constraints and ongoing Gong evaluation. Requested flexibility on pricing to make business case work.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call to discuss pricing flexibility",
+        "Prepare discount scenario analysis"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-07",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Peyton. Discussed budget constraints and competitive pressure from Gong's enterprise pricing. Peyton transparent about needing to show value vs broader platform. Explored discount options - offered 15% discount to $14,365 ACV. Peyton pushed for more, mentioned Gong offering aggressive first-year pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for multi-year commitment?",
+          "answer": "Can offer additional 5% for 2-year agreement"
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision timeline and who else needs to approve?",
+          "answer": "Need CEO and procurement sign-off, decision by end of month"
+        }
+      ],
+      "objections": [
+        "Price still too high compared to Gong's promotional offer",
+        "Budget approval requires stronger business case at this price point"
+      ],
+      "next_steps": [
+        "Rep to review additional discount approval",
+        "Peyton to align with Jessica on budget"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 15.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at 25% discount ($12,700 ACV) to match budget constraints and competitive position. Noted this is best-and-final pricing requiring VP approval. Emphasized handoff-specific ROI vs broader platform costs.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Peyton to review with Jessica and procurement team",
+        "Schedule call to discuss final terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-06-17",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Peyton to review revised pricing. Peyton appreciative of discount and believes $12,700 will work with budget. Discussed contract terms, implementation timeline, and success metrics. Peyton flagged need for final exec alignment with Jessica before procurement can process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include additional seats at same per-seat rate if we expand?",
+          "answer": "Yes, locked rate for first year with expansion"
+        },
+        {
+          "by": "rep",
+          "question": "What could derail this at the finish line?",
+          "answer": "Only risk is if Jessica decides to go with Gong enterprise bundle instead"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec alignment meeting with Jessica",
+        "Prepare executive summary for final approval"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Jessica Friedman",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Jessica Friedman and Peyton. Discussed strategic fit, implementation approach, and business case for handoff-focused solution vs broader revenue intelligence platform. Jessica asked pointed questions about ROI, vendor stability, and why not just use Gong for everything. Addressed concerns about focused solution being better fit for immediate pain vs enterprise suite complexity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we want to expand beyond handoff automation later?",
+          "answer": "Platform supports broader workflows, can expand use cases over time"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you compare to Gong on company stability and roadmap?",
+          "answer": "Addressed market position, customer base, and product roadmap focus"
+        },
+        {
+          "by": "rep",
+          "question": "What would make you confident moving forward vs Gong?",
+          "answer": "Faster time-to-value and lower cost for core handoff problem"
+        }
+      ],
+      "objections": [
+        "Concern about choosing point solution vs platform play like Gong"
+      ],
+      "next_steps": [
+        "Jessica to make final decision with Peyton",
+        "Procurement to prepare contract if approved"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-06-29",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Peyton Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing alignment call with Peyton. Jessica approved moving forward at $12,700 ACV for 16 seats. Discussed contract terms, payment schedule, and implementation kickoff timeline. Peyton acknowledged her newness to role was factor in getting CEO closely involved but feels confident in solution fit. Procurement team (Liam Kapoor, Peyton Hassan) ready to process paperwork.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "Kickoff within 5 business days of contract signature"
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we finalize?",
+          "answer": "No blockers, ready to move forward pending legal review"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to procurement",
+        "Legal review expected within 3-5 days",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

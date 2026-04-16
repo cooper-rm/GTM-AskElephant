@@ -1,0 +1,564 @@
+{
+  "deal_id": "DEAL-0627",
+  "company": {
+    "name": "GoldenPortal",
+    "industry": "PropTech",
+    "employee_count": 306,
+    "annual_revenue": 69069648,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 9100.0,
+    "seats": 12,
+    "price_per_seat_monthly": 60.13,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 32.4,
+    "sales_cycle_days": 67,
+    "close_date": "2023-08-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Mateus Mensah",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 47
+    },
+    {
+      "name": "Scarlett Koch",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 58
+    },
+    {
+      "name": "Jack Campbell",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Mateus Mensah expressing interest in improving forecasting accuracy for their sales team. Brief form submission indicating frustration with current manual processes.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 15.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Mateus confirming receipt of inquiry and proposing times for initial qualification call. Mateus responded positively with availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, native integration with real-time sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirmed call for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-12",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Mateus. Discussed current forecasting challenges and pain points with manual reporting. Mateus mentioned they're also evaluating Gong but likes our forecasting-specific approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your forecasting model differ from Gong's conversation intelligence?",
+          "answer": "We focus specifically on pipeline health signals and predictive accuracy rather than just call analytics"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecasting accuracy rate?",
+          "answer": "Around 60-65%, which is causing planning issues"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case study on forecasting improvements",
+        "Schedule deeper dive call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Sent forecasting case study and ROI calculator. Mateus responded asking about team size requirements and expressed interest in involving his sales ops lead in next conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "4-6 weeks for full deployment with your team size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call with sales ops included"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-20",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call focused on technical requirements and current tech stack. Mateus walked through their Salesforce setup and reporting workflows. Discussed team size of approximately 12 account managers who would use the platform.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation process?",
+          "answer": "Our CEO Scarlett will need to sign off, and Jack Campbell handles procurement"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecasting categories to match our existing stages?",
+          "answer": "Yes, fully customizable to your pipeline structure"
+        },
+        {
+          "by": "prospect",
+          "question": "Does the consulting package include custom model training?",
+          "answer": "Yes, we'll train models on your historical deal data"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Prepare demo environment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-25",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into specific use cases and success metrics. Mateus shared that their board is pushing for better revenue predictability. Identified key persona needs for account managers versus leadership reporting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Forecasting accuracy above 85% and cutting weekly reporting time in half"
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats later?",
+          "answer": "Per-seat pricing with volume discounts at 25+ seats"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare customized demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical evaluation scheduled and sharing demo environment credentials. Mateus confirmed receipt and mentioned he's coordinating calendars for the session.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval Tuesday 10am"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-07-02",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation rescheduled - Mateus had a customer escalation come up last minute. Brief call to reschedule and confirm continued interest.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for Thursday same time"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-07-08",
+      "type": "technical_eval",
+      "duration_minutes": 53,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed technical evaluation walking through forecasting dashboard, pipeline health scoring, and reporting features. Mateus tested integration with their Salesforce sandbox. Positive feedback on UI and ease of use compared to Gong's complexity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export the forecast data to our existing BI tools?",
+          "answer": "Yes, API access and scheduled exports to any destination"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the consulting engagement work for model optimization?",
+          "answer": "Quarterly model reviews with dedicated data scientist for 12 months"
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring deal health?",
+          "answer": "Mostly manual rep judgment and activity counts - very inconsistent"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical documentation",
+        "Schedule follow-up eval session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-11",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second technical evaluation rescheduled due to Mateus being out sick. Confirmed interest via email but needed to push back a few days.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in after technical evaluations and asking about timeline to move forward. Mateus responded that he needs to discuss budget with Scarlett before proceeding to proposal stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you give me a ballpark on pricing for 12 seats with consulting?",
+          "answer": "Typically $12-15K ACV range depending on contract length and services"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for budget discussion with CEO",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-07-20",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation call with Mateus. Walked through pricing at $13,500 ACV for 12 seats plus automations and quarterly consulting. Mateus expressed concern about budget and mentioned Gong came in lower on their conversation intelligence package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting component if we just do annual check-ins?",
+          "answer": "We can adjust to semi-annual reviews which would reduce cost"
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget approval process?",
+          "answer": "Need CEO approval for anything over $10K, Jack handles contracting"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than expected given Gong's quote"
+      ],
+      "next_steps": [
+        "Revise proposal with adjusted consulting cadence",
+        "Schedule exec meeting with Scarlett"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-25",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Scarlett Koch",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting rescheduled - Scarlett had a board meeting conflict. Mateus apologized for the delay and confirmed she's still engaged in the decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-07-31",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal discussion with Mateus after revising consulting terms. Reviewed adjusted pricing and ROI model showing forecasting accuracy improvements. Mateus appreciates the flexibility but mentioned internal pressure to keep costs under $10K.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale up?",
+          "answer": "Minimum is 10 seats, but we can structure growth pricing"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in your standard support versus the consulting package?",
+          "answer": "Standard includes setup and helpdesk; consulting adds custom model optimization and training"
+        }
+      ],
+      "objections": [
+        "Budget constraints - need to stay closer to $9K to get CEO approval"
+      ],
+      "next_steps": [
+        "Prepare final pricing options",
+        "Confirm exec meeting with Scarlett"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-08-04",
+      "type": "negotiation_call",
+      "duration_minutes": 5,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief negotiation call discussing final pricing options. Presented three tiers, including a $9,100 option with reduced consulting hours. Mateus interested in the middle tier to stay within budget constraints.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal at $9,100",
+        "Get Scarlett on calendar this week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-08-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised proposal at $9,100 for 12 seats with streamlined consulting package. Mateus confirmed receipt and said he'd review with Scarlett before their scheduled call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting confirmed for Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-08-09",
+      "type": "negotiation_call",
+      "duration_minutes": 11,
+      "person_name": "Mateus Mensah",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Mateus to finalize terms before exec presentation. Discussed contract length, payment terms, and implementation timeline. Mateus confirmed Scarlett is supportive pending final review of ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure quarterly billing at the same ACV"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns we should address before meeting with Scarlett?",
+          "answer": "She'll want to understand why we're choosing you over Gong - focus on forecasting specificity"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare exec-level ROI deck",
+        "Final meeting with Scarlett Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-08-14",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Scarlett Koch",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Scarlett and Mateus to review business case and ROI projections. Scarlett asked detailed questions about forecasting methodology and competitive positioning versus Gong. Positive discussion about impact on board reporting credibility. Scarlett approved moving forward pending legal review of contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of accuracy improvement have similar-sized companies seen?",
+          "answer": "Mid-market PropTech customers typically see 15-25 point improvement within first quarter"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your model handle seasonality in our market?",
+          "answer": "We train on your historical patterns and adjust forecasting weights by quarter"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementation?",
+          "answer": "Would like to go live before Q3 planning cycle starts in 6 weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Jack Campbell for legal review",
+        "Target signature within 2 weeks"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

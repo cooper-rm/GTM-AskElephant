@@ -1,0 +1,329 @@
+{
+  "deal_id": "DEAL-0043",
+  "company": {
+    "name": "LunarLogic",
+    "industry": "Fintech",
+    "employee_count": 22,
+    "annual_revenue": 3801911,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2500.0,
+    "seats": 4,
+    "price_per_seat_monthly": 49.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 44.8,
+    "sales_cycle_days": 33,
+    "close_date": "2025-09-14",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Lucas Suzuki",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 7
+    },
+    {
+      "name": "Levi Bennett",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Lucas Suzuki submitted an inbound demo request via website form expressing interest in improving forecasting accuracy for their finance operations. Form indicated they're currently using spreadsheets and looking for automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to respond within 24 hours",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Rep sent personalized follow-up email acknowledging LunarLogic's fintech focus and proposing initial call to discuss forecasting challenges. Lucas responded positively and shared availability for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience with other fintech companies our size?",
+          "answer": "Yes, we work with several SMB fintech clients including two that moved from manual spreadsheet forecasting to automated workflows"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-16",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with Lucas covered current forecasting process (manual Excel models updated weekly), pain points around accuracy during market volatility, and team size. Lucas confirmed 4-person finance team would be primary users. Timeline is flexible but would like solution in place before Q2 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a company our size?",
+          "answer": "Usually 2-3 weeks for core setup, then ongoing refinement. We can prioritize forecasting module to get you running faster"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency around forecasting accuracy right now?",
+          "answer": "Board wants better visibility into cash flow projections, especially with market uncertainty. Current models are off by 15-20% some months"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Lucas to map out current forecasting workflow",
+        "Rep to send discovery agenda",
+        "Discovery call scheduled for next Thursday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-22",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute discovery call dove deep into LunarLogic's forecasting methodology, data sources (Stripe, bank feeds, AR/AP systems), and decision criteria. Lucas walked through specific scenarios where manual forecasts failed. Discussed integration requirements and data refresh frequency needs. Lucas mentioned CEO Levi will need to sign off on any purchase.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond forecasting, are there other automation opportunities you're exploring?",
+          "answer": "Yes, we're also looking at automating monthly reporting and potentially some compliance workflows"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform handle real-time data feeds or is it batch-based?",
+          "answer": "Both - you can configure real-time connections for critical data sources and batch updates for others"
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for this project in 6 months?",
+          "answer": "Forecast variance under 5%, automated weekly updates, and Finance team spending 50% less time on manual model building"
+        }
+      ],
+      "objections": [
+        "Need to understand total cost - we're a small team with limited budget"
+      ],
+      "next_steps": [
+        "Rep to prepare demo focused on forecasting use case",
+        "Lucas to gather sample data for demo",
+        "Lucas to check Levi's calendar for demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email recapping discovery discussion and sharing demo agenda. Included links to two fintech customer case studies focused on forecasting accuracy improvements. Lucas confirmed demo scheduled for following week and shared that Levi would join for the first 15 minutes.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo call scheduled for Tuesday 3pm with Lucas and Levi"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Rep sent brief check-in email two days before scheduled demo to confirm attendance and ask if Lucas had any specific scenarios to prioritize. Lucas confirmed attendance but mentioned Levi had a conflict and would join a future call instead. Requested focus on integration capabilities during demo.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show how the Stripe integration works specifically?",
+          "answer": "Absolutely, will make that a key part of the demo"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo call proceeding with Lucas only",
+        "Will reschedule Levi for proposal stage"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-09-04",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Lucas Suzuki",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute proposal call where rep presented pricing for 4-seat unlimited automation plan at $4,500 annually. Lucas expressed sticker shock and noted this was significantly higher than budgeted. Rep offered to explore scaled implementation or adjusted to $2,500 with extended contract. Lucas appreciated flexibility and said he'd discuss with Levi before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a tier between basic and unlimited that might fit our needs?",
+          "answer": "The unlimited plan is the best fit for your forecasting requirements, but I can work with you on pricing given your stage"
+        }
+      ],
+      "objections": [
+        "Budget was around $2,000-2,500 for this type of tool - need to justify the ROI to CEO"
+      ],
+      "next_steps": [
+        "Rep to send revised proposal at $2,500 ACV",
+        "Lucas to review with Levi",
+        "Schedule exec alignment call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-08",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Levi Bennett",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute exec meeting with Levi Bennett (CEO) joining to understand strategic value and pricing rationale. Levi asked direct questions about ROI, implementation risk, and why the significant discount from original pricing. Rep positioned the discount as early-stage customer investment. Levi expressed concern about committing to annual contract without proof of value but acknowledged forecasting pain is real.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the forecasting improvement we need in first 90 days?",
+          "answer": "We include a success milestone in the contract - if core forecasting metrics aren't met by day 90, you have an out clause"
+        },
+        {
+          "by": "prospect",
+          "question": "Why the 44% discount from your standard pricing - is this product unproven at our scale?",
+          "answer": "Not at all - this is an early customer rate to build fintech references. Standard pricing reflects enterprise deals with different requirements"
+        },
+        {
+          "by": "rep",
+          "question": "Beyond forecasting, would automating compliance reporting deliver additional value?",
+          "answer": "Potentially, but let's prove value on forecasting first before expanding scope"
+        }
+      ],
+      "objections": [
+        "Annual commitment feels risky without track record - prefer quarterly initially"
+      ],
+      "next_steps": [
+        "Rep to add 90-day success clause to contract",
+        "Levi to discuss internally with Lucas and finance",
+        "Follow-up call in 3 days"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-15",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Levi Bennett",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "30-minute final exec meeting to finalize terms. Levi and Lucas confirmed they want to move forward at $2,500 ACV with the 90-day success clause. Discussed implementation timeline (targeting 3-week launch), training requirements (2 sessions for finance team), and ongoing support model. Levi requested quarterly business reviews to track ROI. Rep agreed to all terms. Verbal commitment to proceed, contracts to be sent for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the support model look like - do we have a dedicated contact?",
+          "answer": "Yes, you'll have a named CSM for implementation and ongoing support, plus access to technical support team"
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally want to launch to hit your Q2 planning cycle?",
+          "answer": "We need to be operational by May 1st to inform Q2 forecast updates"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we expand the use case to other teams?",
+          "answer": "Absolutely - seats can be added anytime with pro-rated pricing for remainder of term"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send contract with agreed terms by EOD",
+        "Lucas to coordinate signature from Levi",
+        "Implementation kickoff call to be scheduled upon signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

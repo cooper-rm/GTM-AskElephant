@@ -1,0 +1,271 @@
+{
+  "deal_id": "DEAL-0246",
+  "company": {
+    "name": "RubyChannel",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 87,
+    "annual_revenue": 10948311,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 5,
+    "price_per_seat_monthly": 65.12,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 26.8,
+    "sales_cycle_days": 33,
+    "close_date": "2024-01-13",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Sofia Jones",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 11
+    },
+    {
+      "name": "Kwame Walker",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sofia Jones (VP of CS) at RubyChannel requesting information about rep productivity tools. Brief form submission expressing interest in improving CS team efficiency.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview and scheduling link"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case study for managed services companies. Sofia responded positively, mentioned currently evaluating Fireflies but interested in comparison. Expressed timeline of 2-3 weeks for decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from Fireflies?",
+          "answer": "Rep outlined automation capabilities, CRM integrations, and consulting support that differentiate our platform"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-17",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Sofia to understand current CS workflows and pain points. She described manual note-taking burden on 5-person CS team and need for better visibility into customer health signals. Mentioned Fireflies demo scheduled for later this week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "CS team spending 2-3 hours daily on call notes, leadership wants better customer insights"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing stack (HubSpot, Slack)?",
+          "answer": "Yes, native integrations available for both"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical evaluation invite for Sofia's team",
+        "Include ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-24",
+      "type": "technical_eval",
+      "duration_minutes": 39,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Sofia and two CS team members. Walked through live demo of call transcription, automation workflows, and analytics dashboard. Team engaged with hands-on testing. Sofia noted pricing will need to go through Kwame in RevOps for budget approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "2-3 weeks for full rollout with consulting package"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of accuracy can we expect on technical support calls?",
+          "answer": "92-95% accuracy on domain-specific terminology with initial training"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "RevOps for budget approval, but Sofia has final say on tooling"
+        }
+      ],
+      "objections": [
+        "Team member raised concern about learning curve for new system"
+      ],
+      "next_steps": [
+        "Sofia to loop in Kwame for budget discussion",
+        "Schedule exec alignment meeting",
+        "Send proposal draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-30",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Sofia. Discussed pricing for 5 seats with automations plus consulting package. Sofia expressed concern about budget constraints and asked about discounting options. No executive sponsor present despite being positioned as 'exec meeting'. Conversation focused heavily on price rather than strategic value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package pricing?",
+          "answer": "Rep offered to explore discount options and will follow up"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the ongoing support?",
+          "answer": "Monthly strategy sessions, custom workflow builds, and priority support"
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "Need to finalize by end of month, still reviewing Fireflies proposal"
+        }
+      ],
+      "objections": [
+        "Initial pricing above budget expectations",
+        "Fireflies came in lower on base package"
+      ],
+      "next_steps": [
+        "Rep to prepare revised pricing with discount",
+        "Sofia to discuss with Kwame",
+        "Reconvene early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-06",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Sofia to review revised proposal at $3,800 ACV (26.8% discount from list). Sofia appreciated the flexibility. Brief discussion of contract terms and implementation timeline. Kwame not on the call but Sofia confirmed budget approval in progress.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month commitment instead of annual?",
+          "answer": "Annual commitment required for this pricing tier, but includes quarterly business reviews"
+        },
+        {
+          "by": "rep",
+          "question": "Where are you with the Fireflies evaluation?",
+          "answer": "Still in consideration but your consulting package is a differentiator"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sofia to get final sign-off from Kwame",
+        "Rep to send contract",
+        "Target close by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-01-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sofia Jones",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 17.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with contract and implementation timeline. Sofia responded confirming she's working through final approvals with Kwame and expects to have answer within 48 hours. Positive tone but no confirmation of close timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm the onboarding start date if we sign this week?",
+          "answer": "Rep confirmed team availability for kickoff following Monday"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await final decision",
+        "Rep to check in Thursday if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

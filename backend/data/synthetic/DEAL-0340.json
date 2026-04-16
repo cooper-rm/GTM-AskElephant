@@ -1,0 +1,494 @@
+{
+  "deal_id": "DEAL-0340",
+  "company": {
+    "name": "ScaleLink",
+    "industry": "SaaS/Tech",
+    "employee_count": 1000,
+    "annual_revenue": 204254097,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21400.0,
+    "seats": 22,
+    "price_per_seat_monthly": 76.53,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 14.0,
+    "sales_cycle_days": 96,
+    "close_date": "2025-04-08",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Grayson Adams",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 10
+    },
+    {
+      "name": "Olivia Wolf",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-12",
+      "type": "cold_call",
+      "duration_minutes": 3,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Grayson Adams at ScaleLink. Rep introduced AskElephant's AI platform for sales-to-CS handoff automation. Grayson expressed interest in solving current handoff friction and agreed to follow-up.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently experiencing challenges with your sales-to-CS transition process?",
+          "answer": "Yes, we're losing context during handoffs and CS is getting frustrated with incomplete information from deals."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send email with overview materials",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, case study on sales-to-CS handoff automation, and ROI calculator. Grayson responded confirming interest and availability for qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing call recording tools?",
+          "answer": "Yes, we have native Salesforce integration and connect with all major call platforms including Zoom, Gong, and Chorus."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-10",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Grayson. Discussed ScaleLink's current process: sales team uses Fathom for recording but CS team still gets inadequate context. 1000 employees, looking to streamline handoffs for 22-seat sales team. Budget authority with COO Olivia Wolf. Timeline: Q2 implementation preferred.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for call recording and CRM?",
+          "answer": "We use Fathom for recordings and Salesforce as our CRM, but they don't talk to each other well."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Olivia Wolf, our COO, will need to sign off. She owns the CS org and cares deeply about this problem."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution differ from just using Fathom's notes?",
+          "answer": "We extract structured data points specific to CS needs\u2014implementation requirements, promised features, escalation history\u2014not just general meeting summaries."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call on current handoff workflow",
+        "Send technical integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-18",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focusing on ScaleLink's specific handoff pain points. Grayson walked through their current 7-step manual process. CS team receives deals with missing context 60% of the time. Exploring automations + consulting package to customize data extraction for their workflow.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What percentage of deals have handoff issues currently?",
+          "answer": "Roughly 60% require CS to circle back to sales for missing information, which delays onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system extract custom fields we define, not just standard CRM fields?",
+          "answer": "Yes, the consulting package includes building custom extraction rules for your specific handoff requirements."
+        }
+      ],
+      "objections": [
+        "We've already invested in Fathom this year\u2014need to justify why we'd add another tool."
+      ],
+      "next_steps": [
+        "Follow-up on integration architecture",
+        "Prepare ROI model showing time saved vs Fathom-only approach"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-26",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued discovery on technical requirements. Discussed Salesforce field mapping, security/compliance needs (SOC2 required), and data retention policies. Grayson confirmed team size of 22 seats. Reviewed competitive positioning against Fathom's limitations in structured data extraction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What certifications do you have for data security?",
+          "answer": "We're SOC2 Type II certified and GDPR compliant. All data encrypted at rest and in transit."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring CS onboarding time and handoff quality?",
+          "answer": "We track time-to-first-value and CS satisfaction scores. Both have declined 15% this quarter due to poor handoffs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo with live ScaleLink data examples",
+        "Share security documentation and compliance certificates"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-03",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Grayson showing AI-powered call/email analysis, automated field extraction, and CS handoff workflow. Used anonymized ScaleLink-style examples. Grayson particularly engaged with automated implementation requirement detection and risk flagging features. Requested technical evaluation access.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which risk signals get flagged for CS?",
+          "answer": "Yes, you define the risk taxonomy. Common ones are competitor mentions, pricing objections, custom feature requests."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does the consulting engagement typically take to configure custom rules?",
+          "answer": "Usually 2-3 weeks for initial setup, then ongoing refinement based on your feedback."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a home run for your CS team?",
+          "answer": "If we could cut the back-and-forth with sales by 80% and surface red flags before they become churn risks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provision technical evaluation environment",
+        "Grayson to test with 5 recent deals"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-13",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation kickoff. Walked through sandbox environment setup, Salesforce API connection, and test data upload. Grayson uploaded 5 recent closed deals for AI processing. Reviewed output quality and discussed customization needs for ScaleLink's specific use case categories.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a custom field for 'integration complexity' that CS really cares about?",
+          "answer": "Absolutely\u2014we can train the model to score integration complexity based on keywords and technical requirements mentioned in calls."
+        },
+        {
+          "by": "rep",
+          "question": "How's the output quality compared to what you get from Fathom today?",
+          "answer": "Fathom gives us transcripts and summaries, but this pulls out structured action items and risk signals automatically. Much more useful."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Grayson to review AI-processed test deals with CS team",
+        "Schedule follow-up eval session mid-week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-19",
+      "type": "technical_eval",
+      "duration_minutes": 71,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation review with Grayson and two CS team members. Reviewed AI output accuracy on test deals. CS team validated that extracted implementation requirements matched reality. Discussed edge cases and requested additional custom fields. Competitive comparison to Fathom surfaced\u2014team acknowledged Fathom lacks structured CS-specific extraction. Pricing question raised.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the pricing model\u2014per seat or per deal processed?",
+          "answer": "Per seat annually. For 22 seats with consulting, we're in the $20-25K ACV range depending on support level."
+        },
+        {
+          "by": "prospect",
+          "question": "If we keep Fathom for general recordings, can AskElephant layer on top for CS handoff extraction?",
+          "answer": "Yes, we can ingest Fathom recordings or work alongside it. Many customers use both\u2014Fathom for breadth, us for depth."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision-making process and timeline from here?",
+          "answer": "I need to bring this to Olivia with a business case. If she approves, we'd want to launch by end of Q2."
+        }
+      ],
+      "objections": [
+        "We're already paying for Fathom, so this feels like overlap even though the functionality is different."
+      ],
+      "next_steps": [
+        "Prepare formal proposal and ROI analysis",
+        "Schedule exec meeting with Olivia Wolf"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping technical evaluation results, attaching ROI calculator showing projected time savings and CS efficiency gains. Included comparison matrix: AskElephant vs Fathom-only approach. Confirmed exec meeting scheduled with Olivia Wolf for Friday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Olivia Wolf on Friday",
+        "Grayson to pre-brief Olivia on evaluation results"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-03-07",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Olivia Wolf",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Olivia Wolf (COO) and Grayson Adams. Presented business case for automations + consulting package: $21.4K ACV for 22 seats. Olivia focused on CS efficiency metrics and churn risk reduction. Discussed Fathom overlap\u2014positioned as complementary, not replacement. Olivia conditionally approved pending final pricing negotiation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the expected ROI in year one?",
+          "answer": "Based on your handoff volume and CS time savings, we project 3.5x ROI in year one, primarily from reducing onboarding delays and preventing early churn."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a pilot before committing to all 22 seats?",
+          "answer": "We can structure a 90-day pilot with 10 seats, then expand if metrics hit targets."
+        },
+        {
+          "by": "rep",
+          "question": "What would prevent you from moving forward?",
+          "answer": "Price needs to be under $22K all-in, and I need flexibility to cancel if adoption doesn't stick after six months."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Formal proposal with pilot option and pricing scenarios",
+        "Legal to review MSA terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-03-14",
+      "type": "proposal_call",
+      "duration_minutes": 11,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Grayson. Presented two options: full 22-seat commitment at $21.4K or 10-seat pilot at $12K. Grayson leaning toward full commitment if pricing holds and contract includes 6-month out clause. Discussed implementation timeline and consulting engagement scope.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the 6-month out clause standard or will that increase pricing?",
+          "answer": "We can include it at the proposed price given the commitment to consulting engagement and fast implementation."
+        },
+        {
+          "by": "rep",
+          "question": "Which option is Olivia leaning toward?",
+          "answer": "She's comfortable with the full 22-seat deal if we hit the $21.4K number and include the exit clause."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated MSA with 6-month clause",
+        "Await legal review from ScaleLink"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-03-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking status of legal review. Grayson confirmed legal has MSA, requested minor data retention policy clarification. Rep provided addendum addressing retention requirements per ScaleLink's compliance team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you confirm data is deleted within 30 days of contract termination?",
+          "answer": "Yes, standard practice is full data purge within 30 days. We'll add explicit language to the DPA."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to finalize DPA language",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-04-01",
+      "type": "negotiation_call",
+      "duration_minutes": 3,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call. Grayson confirmed legal approved DPA edits. Olivia requested one final discount push\u2014asked for $20K flat instead of $21.4K. Rep explained pricing is already discounted 8% from list and offered to hold price flat for year two renewal as alternative.",
+      "questions_asked": [],
+      "objections": [
+        "Olivia wants to see if you can come down to $20K to make budget allocation easier."
+      ],
+      "next_steps": [
+        "Rep to consult leadership on final pricing",
+        "Follow-up call scheduled for tomorrow"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-04-09",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Grayson Adams",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Grayson. Rep held firm at $21.4K but offered two sweeteners: price lock for 24 months (no increase at renewal) and priority support tier at no additional cost. Grayson accepted terms and confirmed Olivia's sign-off. Contract to be executed this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you formalize the priority support tier in the MSA?",
+          "answer": "Yes, we'll add an addendum specifying priority support SLAs and dedicated CSM assignment."
+        },
+        {
+          "by": "rep",
+          "question": "Are we clear to send final paperwork for signature?",
+          "answer": "Yes, send it over. Olivia and I will sign by Thursday."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final MSA + SOW for execution",
+        "Kickoff call scheduled post-signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

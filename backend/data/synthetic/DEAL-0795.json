@@ -1,0 +1,189 @@
+{
+  "deal_id": "DEAL-0795",
+  "company": {
+    "name": "GalacticLink",
+    "industry": "PropTech",
+    "employee_count": 71,
+    "annual_revenue": 5979487,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6600.0,
+    "seats": 8,
+    "price_per_seat_monthly": 71.17,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.0,
+    "sales_cycle_days": 19,
+    "close_date": "2025-12-13",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Dakota Friedman",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-22",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Dakota Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Dakota Friedman submitted an inbound request through the website expressing interest in call recording and coaching tools for their CS team. Brief form fill indicated they're looking to improve team performance and coaching consistency.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Dakota"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-24",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Dakota Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Dakota to understand current coaching process and pain points. Dakota manages a team of 8 CS reps at GalacticLink and currently uses manual call reviews which are time-consuming and inconsistent. They're looking for automated call recording with AI-powered insights to scale coaching efforts. Dakota has budget authority for tools under $10K and is eager to move quickly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching your CS team?",
+          "answer": "We do manual call reviews once a week, but it's inconsistent. I can only review 2-3 calls per rep per month, and there's no standardized scoring."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We just expanded the team from 5 to 8 reps and our CSAT scores have dipped. I need a way to maintain quality without spending all my time listening to calls."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing systems like Salesforce and Intercom?",
+          "answer": "Yes, we have native integrations with both platforms. Calls and emails sync automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo focused on coaching workflows and AI insights",
+        "Send integration documentation for Salesforce and Intercom"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-12-04",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Dakota Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Dakota covering call recording, AI-powered coaching scorecards, and automated feedback workflows. Dakota was engaged throughout and particularly excited about the custom scorecard builder and trend analysis features. Discussed unlimited_automation tier for 8 seats. Dakota mentioned wanting to get buy-in from leadership but didn't specify who or commit to timeline for involving them.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards to match our internal rubric?",
+          "answer": "Absolutely. You can create custom scorecards with your own criteria, weighting, and scoring thresholds. I can show you the scorecard builder."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this rolled out to the team?",
+          "answer": "Implementation typically takes 1-2 weeks. We'll set up integrations, configure your scorecards, and train your team."
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned getting leadership buy-in. Who else should we involve in the evaluation?",
+          "answer": "Probably our VP of Ops, but I want to make sure I have all the details ironed out first before bringing them in."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing look like for 8 seats with the unlimited automation tier?",
+          "answer": "For 8 seats on unlimited_automation, we're looking at $6,600 annually, which breaks down to about $69 per user per month."
+        }
+      ],
+      "objections": [
+        {
+          "objection": "I need to make sure this doesn't disrupt our current workflows or require too much admin time from me.",
+          "response": "The setup is straightforward and our team handles the heavy lifting during implementation. Once configured, the system runs automatically in the background."
+        }
+      ],
+      "next_steps": [
+        "Dakota to review pricing internally",
+        "Schedule follow-up to discuss next steps and involve leadership"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-12-12",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Dakota Friedman",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Dakota to discuss commercial terms and implementation timeline. Dakota confirmed budget approval and is ready to move forward with 8 seats at the quoted $6,600 ACV. Discussed contract structure and implementation kickoff timeline. Dakota plans to handle rollout internally with CS team and will coordinate with IT on integrations. No executive sponsor was brought into the conversation despite earlier mention.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Were you able to connect with your VP of Ops about the evaluation?",
+          "answer": "I touched base with them briefly. They're supportive as long as it stays within my budget, which it does. I have the authority to move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the contract term look like? Are we locked into annual?",
+          "answer": "We typically do annual contracts, but you have flexibility to scale seats up or down with 30 days notice."
+        },
+        {
+          "by": "rep",
+          "question": "Who from your team should we involve in the implementation kickoff?",
+          "answer": "Just me and maybe one of our senior CS reps to help with testing. I'll coordinate with IT separately on the Salesforce integration."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing if we commit to a longer term or add more seats?",
+          "answer": "For 8 seats we're pretty firm at this price point, but if you scale to 12+ seats within the first year we can discuss volume pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for Dakota's review",
+        "Schedule implementation kickoff for following week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

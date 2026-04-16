@@ -1,0 +1,299 @@
+{
+  "deal_id": "DEAL-0605",
+  "company": {
+    "name": "LatticeSpark",
+    "industry": "EdTech",
+    "employee_count": 29,
+    "annual_revenue": 3698829,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 58.92,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.8,
+    "sales_cycle_days": 34,
+    "close_date": "2024-04-30",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Rachel Nkrumah",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-14",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call to Rachel Nkrumah (VP of CS) at LatticeSpark. Rachel expressed frustration with current manual handoff process between sales and CS teams, leading to information loss and customer confusion. She was receptive to exploring automation solutions and agreed to follow-up.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point in the sales-to-CS handoff process right now?",
+          "answer": "We're losing critical context when deals close. Sales reps document things in one system, but CS has to re-ask customers basic questions. It's embarrassing and slows onboarding."
+        },
+        {
+          "by": "prospect",
+          "question": "How many customers are you onboarding per month typically?",
+          "answer": "We're doing about 8-12 new accounts monthly, growing fast. The manual handoff is becoming unsustainable."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview email with case study",
+        "Schedule 15min follow-up call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and relevant EdTech case study. Rachel responded confirming interest and availability for discovery call. Brief exchange clarifying her team size and current tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and Zendesk? Those are our core systems.",
+          "answer": "Yes, we have native integrations with both. We can demo the specific sync workflows on our call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-02",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Rachel diving into LatticeSpark's current workflow. She described a 5-step manual process involving spreadsheets, Slack messages, and duplicated data entry. Rachel is the primary decision-maker for CS tools but mentioned needing to 'run it by leadership' for budget approval. Identified 4 seats needed (Rachel + 3 CS team members).",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through what happens today when a deal closes in Salesforce.",
+          "answer": "Sales marks it closed-won, then manually fills out a Google Sheet with account details. Someone on my team gets a Slack ping, pulls info from the sheet and Salesforce, then creates the Zendesk account and emails the customer. Takes 2-3 hours per account."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Honestly, it's mostly my call for CS tooling. I'll need to get budget sign-off from our COO eventually, but I can handle the evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical timeline for something like this?",
+          "answer": "If it's the right fit, we could move quickly. Budget cycle isn't an issue for tools under $5K annually."
+        }
+      ],
+      "objections": [
+        "I want to make sure this doesn't create more work for the sales team. They already complain about too many tools."
+      ],
+      "next_steps": [
+        "Schedule technical walkthrough with screen share",
+        "Send Rachel read-only demo environment access"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-09",
+      "type": "technical_eval",
+      "duration_minutes": 17,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Rachel screen-sharing her current setup. Walked through automated handoff workflows, Salesforce-to-Zendesk sync, and custom field mapping. Rachel tested the unlimited automation tier features and was enthusiastic about the email template automation. No other stakeholders joined despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which Salesforce fields sync over to Zendesk?",
+          "answer": "Yes, fully customizable field mapping. You can set conditional rules too\u2014like only sync certain fields if the deal type matches specific criteria."
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to have your COO or someone from sales join a session to see how this works from their side?",
+          "answer": "I can show them later. Let me validate this works for CS first, then I'll bring them in if needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in the implementation? Do we need engineering support?",
+          "answer": "Setup is typically 1-2 weeks, no engineering needed. We handle the integration configuration, you just map your fields and test workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rachel to test demo environment with her team",
+        "Schedule exec presentation for decision-makers",
+        "Discuss pricing and timeline"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-15",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting scheduled but only Rachel attended. She explained that COO had a conflict and she was authorized to move forward with evaluation. Presented full product capabilities and ROI calculator showing 18 hours/month saved. Rachel confirmed strong interest and asked about pricing, but wanted to see a formal proposal before involving finance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is your COO able to join today, or should we reschedule?",
+          "answer": "She had something come up, but I have authority to evaluate this. If the numbers make sense, I'll brief her offline and we can move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard pricing for 4 users with unlimited automations?",
+          "answer": "List pricing for that configuration is $4,400 annually. We have some flexibility depending on contract length and timing."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for your COO?",
+          "answer": "Honestly, if it's under $3K and we can start in May, I think we're good. Budget is tight this quarter but we have room."
+        }
+      ],
+      "objections": [
+        "The list price is higher than I expected. We're a small team and that's a stretch for us right now."
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-23",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Rachel. Discussed budget constraints and presented tiered options. Rachel pushed back on list pricing, citing limited budget and requesting to match her $3K target. Agreed to 34% discount to $2,900 ACV to close by end of quarter. Rachel verbally committed pending final exec approval, though no exec has been directly involved yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any way to get closer to $3K? That's really the number I have budgeted.",
+          "answer": "Let me see what I can do. If you can commit to closing this week and starting implementation in May, I can get you to $2,900 for the first year."
+        },
+        {
+          "by": "rep",
+          "question": "At $2,900, do you have the authority to sign, or do we need your COO to review?",
+          "answer": "I'll need her to sign off on the contract, but at this price I'm confident she'll approve. Let me just brief her first."
+        }
+      ],
+      "objections": [
+        "I need to make sure we're not overpaying. Can you share what other EdTech companies in our size range are paying?"
+      ],
+      "next_steps": [
+        "Rachel to brief COO on solution and pricing",
+        "Schedule final decision call with executive sponsor",
+        "Send contract for review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-28",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Rachel Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended exec meeting, but again only Rachel attended. She explained COO is traveling and delegated final decision to her. Rachel requested minor contract modifications (quarterly payments instead of annual upfront, 30-day cancellation clause). Discussed implementation timeline and success metrics. Rachel verbally committed to signing by end of week, though concern remains about lack of direct executive engagement throughout sales cycle.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Can we get 15 minutes with your COO just to confirm alignment before contracts go out?",
+          "answer": "She's in back-to-back meetings this week and trusts me to handle this. She's seen the ROI deck I put together and is supportive."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of paying the full $2,900 upfront?",
+          "answer": "We typically do annual, but given the discount, I can check if we can accommodate quarterly billing at a small premium."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "If we can automate at least 80% of our handoffs and cut onboarding time in half, this will be a huge win. I'm confident we can get there."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't work out?",
+          "answer": "Standard is 30-day notice after the first 90 days. We're confident in the product but want you to have an exit if needed."
+        }
+      ],
+      "objections": [
+        "I want to make sure we have flexibility to cancel if our business priorities shift. We're a startup and things change fast."
+      ],
+      "next_steps": [
+        "Revise contract with quarterly payment option and cancellation terms",
+        "Rachel to finalize internally and return signed agreement",
+        "Schedule implementation kickoff for early May"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 77,
+    "churn_reason": "lost internal champion"
+  }
+}

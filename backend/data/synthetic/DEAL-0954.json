@@ -1,0 +1,240 @@
+{
+  "deal_id": "DEAL-0954",
+  "company": {
+    "name": "PineSphere",
+    "industry": "Vertical SaaS",
+    "employee_count": 22,
+    "annual_revenue": 1499206,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2900.0,
+    "seats": 4,
+    "price_per_seat_monthly": 60.77,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.7,
+    "sales_cycle_days": 21,
+    "close_date": "2025-01-27",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Mateo Kim",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 53
+    },
+    {
+      "name": "Blake Hernandez",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-24",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Mateo Kim (VP of CS) at PineSphere. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-27",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Mateo Kim highlighting sales-to-CS handoff automation. Mateo responded expressing interest in learning more about how we compare to their current evaluation of Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong for post-sale handoffs?",
+          "answer": "Explained our unlimited automation tier and native CS workflow integration vs. Gong's sales-focused approach."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-07",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mateo Kim (21min). Discussed PineSphere's current manual handoff process from sales to CS. Mateo confirmed they're evaluating Gong but concerned it's too sales-centric. Team of 22, looking to automate handoffs for 4 CS reps initially. Budget authority unclear - Mateo mentioned needing IT involvement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for sales-to-CS handoffs?",
+          "answer": "Completely manual - reps fill out a Google form, CS team gets email notifications. Takes 2-3 days and details often missing."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in this decision?",
+          "answer": "Blake Hernandez from IT will need to review integration and security. I can drive the business case."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and does it require dev resources?",
+          "answer": "Explained 2-week implementation, no-code setup, API integration with their existing stack."
+        }
+      ],
+      "objections": [
+        "Concerned about integration complexity with existing CRM"
+      ],
+      "next_steps": [
+        "Send demo video",
+        "Schedule discovery call with use case deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-12",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Mateo (12min) to dive deeper into use case requirements. Mateo confirmed 4-seat deployment for CS team. Still evaluating Gong in parallel. Asked about pricing - provided ballpark range. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get a custom integration with our ticketing system?",
+          "answer": "Yes, unlimited automation tier includes custom workflows and API access."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the timeline on this decision?",
+          "answer": "Q2 planning cycle - want to have solution in place by end of next month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send proposal with 4-seat pricing",
+        "Loop in Blake from IT"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-22",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Mateo (13min). Presented $2,900 ACV pricing for 4 seats with unlimited automation - discounted from list to match budget constraints. Mateo seemed price-sensitive, mentioned Gong quoted lower. Requested additional discount to get deal approved without executive review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Gong came in lower and I need to justify the premium.",
+          "answer": "Explained value differentiation for CS workflows. Offered current pricing as best discount available."
+        }
+      ],
+      "objections": [
+        "Price higher than expected compared to Gong's quote"
+      ],
+      "next_steps": [
+        "Mateo to review with Blake",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-27",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Mateo Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec meeting rescheduled once, then held with Mateo (37min). No executive sponsor joined - only Mateo and Blake attended. Blake had technical questions about security and integration. Mateo pushed for further discount to close without escalating to leadership. Deal positioning focused on speed to value vs. Gong's sales-centric roadmap. Blake neutral but concerned about dual-platform management if sales team picks Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your SOC2 status and data residency options?",
+          "answer": "SOC2 Type II certified, US data residency standard with EU option available."
+        },
+        {
+          "by": "prospect",
+          "question": "If sales picks Gong, can we integrate between the two platforms?",
+          "answer": "Yes, we have bi-directional integration capabilities via API."
+        },
+        {
+          "by": "rep",
+          "question": "Who ultimately approves budget for CS tools at PineSphere?",
+          "answer": "Mateo confirmed he has approval up to a threshold but was vague on exact amount. Suggested pricing needs to stay 'reasonable' to avoid CFO review."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get a free pilot or POC before committing?",
+          "answer": "Explained our 14-day trial period and onboarding support, but annual contract required for unlimited automation tier."
+        }
+      ],
+      "objections": [
+        "Concern about fragmented tooling if sales and CS use different platforms",
+        "Requested further discount or pilot program to reduce risk"
+      ],
+      "next_steps": [
+        "Mateo to confirm budget approval path",
+        "Blake to complete security review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

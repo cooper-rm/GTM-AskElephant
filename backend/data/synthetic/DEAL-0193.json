@@ -1,0 +1,255 @@
+{
+  "deal_id": "DEAL-0193",
+  "company": {
+    "name": "CentralGateway",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 26,
+    "annual_revenue": 3468373,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 53.96,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.4,
+    "sales_cycle_days": 18,
+    "close_date": "2024-09-02",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Chris Yang",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 4
+    },
+    {
+      "name": "Olivia Mehta",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-08-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Chris Yang at CentralGateway requesting information about call recording and coaching solutions. Rep acknowledged request and scheduled follow-up.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, pricing tiers, and calendar link. Chris responded confirming interest and availability for discovery call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our current CRM (HubSpot)?",
+          "answer": "Yes, we have native HubSpot integration with bi-directional sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-18",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Chris Yang to understand CentralGateway's needs. Chris explained they're scaling their sales team and need better visibility into calls for coaching. Currently using manual note-taking. Mentioned evaluating Fathom as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording now?",
+          "answer": "We're hiring 3 new sales reps and need consistent coaching methodology"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching feature compare to Fathom?",
+          "answer": "We offer automated coaching scorecards and team benchmarking, which Fathom doesn't provide out of the box"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Chris and IT Director Olivia",
+        "Send competitive comparison vs Fathom"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-22",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Chris Yang covering call recording, AI summaries, and coaching workflows. Chris was engaged and asked detailed questions about automation capabilities. Mentioned budget is approved for Q2 but needs IT Director sign-off on security.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we set up custom coaching templates by role?",
+          "answer": "Yes, unlimited custom templates included in the unlimited_automation tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 1-2 weeks from contract signature to full rollout"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Olivia Mehta from IT needs to review security and integrations, but I own the budget"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Olivia for technical review",
+        "Send security documentation",
+        "Schedule exec alignment meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-26",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Chris to align on implementation plan and timeline. Chris shared that he's new to VP role (4 months) and wants to show quick wins. Discussed success metrics and rollout phases. No executive sponsor from CentralGateway leadership joined the call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like in the first 90 days?",
+          "answer": "Reps using it consistently and me having visibility into deal conversations without sitting in on every call"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with 5 seats and add more later?",
+          "answer": "Yes, we can structure it as 7 seats with flexibility to add more within 30 days"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your CEO or COO in the final decision?",
+          "answer": "Not necessary\u2014I have budget authority for sales tools under $10K"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 7 seats",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-29",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call rescheduled by Chris 2 hours before start time due to customer escalation. Brief exchange confirming new time for later in the week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call for Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-03",
+      "type": "pricing_call",
+      "duration_minutes": 15,
+      "person_name": "Chris Yang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing discussion with Chris. Expressed concern about list price vs. Fathom's offering. Requested significant discount to stay within Q2 budget. Rep offered 39% discount to close by end of quarter. Chris cautious but interested, mentioned needing to confirm with Olivia on technical fit before final commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Fathom quoted us $2,800 for similar seats\u2014can you match that?",
+          "answer": "Our platform offers more coaching automation, but I can work with you on pricing to be competitive"
+        }
+      ],
+      "objections": [
+        "Price is higher than Fathom for similar baseline features"
+      ],
+      "next_steps": [
+        "Send revised proposal with 39% discount",
+        "Confirm technical approval from Olivia",
+        "Target close by end of quarter"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "deal_id": "DEAL-0242",
+  "company": {
+    "name": "PulseGrid",
+    "industry": "Fintech",
+    "employee_count": 38,
+    "annual_revenue": 3456958,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 10100.0,
+    "seats": 11,
+    "price_per_seat_monthly": 78.35,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 12.0,
+    "sales_cycle_days": 27,
+    "close_date": "2023-10-23",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Megan Young",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Liam Harris",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Megan Young at PulseGrid expressing interest in automating their onboarding workflows. Brief form submission noted need to reduce manual handoffs in customer onboarding process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Megan"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-28",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Megan Young (Head of Sales). Discussed current onboarding pain points - manual data entry across 3 systems causing 2-day delays. PulseGrid is growing quickly (38 employees, recently expanded sales team) and needs scalable automation. Megan is new to Head of Sales role (3 months) and driving this initiative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the interest in onboarding automation right now?",
+          "answer": "We've doubled our customer base in 6 months and our manual onboarding process is breaking down. Takes 2 days minimum to get new customers live."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing fintech compliance systems?",
+          "answer": "Yes, we have native integrations with major fintech tools and a flexible API for custom connections."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Megan to map current onboarding workflow",
+        "Schedule discovery call to review technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-02",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into PulseGrid's onboarding workflow. Megan shared detailed process map - currently involves manual steps in Salesforce, compliance tool, and internal database. Discussed unlimited automation tier to support their growth trajectory. Megan mentioned she'll need to involve Liam Harris (COO) for final approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many onboarding workflows do you anticipate automating in the first 6 months?",
+          "answer": "We'd start with customer onboarding, but want room to add employee onboarding and vendor setup - probably 3-4 workflows total."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation typically look like? I want to make sure we can move quickly.",
+          "answer": "Standard implementation is 2-3 weeks with our CS team. We'll provide templates for common fintech workflows to accelerate setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 11 seats with unlimited automation tier",
+        "Megan to brief Liam Harris (COO) on the initiative"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-10",
+      "type": "proposal_call",
+      "duration_minutes": 12,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Megan. Walked through $10,100 ACV proposal covering 11 seats and unlimited automation tier. Megan expressed comfort with pricing and saw clear ROI given current onboarding bottlenecks. Discussed timeline - they want to be live before Q3. Megan confirmed Liam Harris is supportive and will join next call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "The unlimited automation tier - are there any hidden caps or throttling we should know about?",
+          "answer": "No caps on workflow executions. Only fair-use policy is around API rate limits to protect system performance, but we've never had a customer hit those in normal usage."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the proposal as structured?",
+          "answer": "No, pricing is fair. My main focus is making sure implementation timeline works - we need to be live by early Q3."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule call with Liam Harris to align on business case",
+        "Send implementation timeline and success metrics"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-14",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Megan Young and Liam Harris (COO). Liam asked detailed questions about ROI, security, and scalability. Discussion around contract terms - Liam wanted annual contract with quarterly business reviews. Megan advocated strongly for the solution. Addressed Liam's questions about her tenure in role and change management. Extended conversation covered implementation support and success metrics. Verbal agreement reached pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Megan's been in the Head of Sales role for 3 months - how do we ensure this doesn't become shelfware if priorities shift?",
+          "answer": "Our CS team provides dedicated onboarding and quarterly business reviews. We'll establish success metrics upfront and track adoption weekly. 94% of customers reach full deployment within 90 days."
+        },
+        {
+          "by": "prospect",
+          "question": "What security certifications do you hold? We're in fintech so compliance is critical.",
+          "answer": "We're SOC 2 Type II certified, GDPR compliant, and have fintech-specific security features like audit logging and role-based access control."
+        },
+        {
+          "by": "rep",
+          "question": "Liam, what does success look like for you in the first 6 months?",
+          "answer": "Reduce onboarding time from 2 days to same-day, eliminate manual data entry errors, and free up 20 hours per week across the ops team."
+        }
+      ],
+      "objections": [
+        "Want to ensure this doesn't become shelfware given leadership transition"
+      ],
+      "next_steps": [
+        "Send contract for legal review",
+        "Schedule implementation kickoff for early May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Young",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Megan confirming verbal agreement from negotiation call. Attached contract, implementation timeline, and security documentation for legal review. Reiterated Q3 go-live target and outlined next steps for kickoff planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over customer references in the fintech space?",
+          "answer": "Absolutely - I'll include 3 fintech customer case studies with the contract package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Megan to route contract to legal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "deal_id": "DEAL-0589",
+  "company": {
+    "name": "MintCore",
+    "industry": "Fintech",
+    "employee_count": 36,
+    "annual_revenue": 6501083,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3600.0,
+    "seats": 5,
+    "price_per_seat_monthly": 59.19,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 33.5,
+    "sales_cycle_days": 26,
+    "close_date": "2025-02-06",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Luna Rodriguez",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 19
+    },
+    {
+      "name": "Jordan Pereira",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-19",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Luna Rodriguez at MintCore. Discussed challenges with manual onboarding workflows in their fintech product. Luna expressed interest in automation tools and agreed to a qualification call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently using any tools to automate your customer onboarding process?",
+          "answer": "We're mostly manual right now, some basic email sequences but nothing sophisticated"
+        },
+        {
+          "by": "prospect",
+          "question": "What makes your solution different from other conversation intelligence tools?",
+          "answer": "Our unlimited automation tier is designed specifically for high-touch onboarding workflows, with native integrations for fintech compliance requirements"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-minute qualification call for next week",
+        "Luna to review current onboarding process metrics"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-11",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Luna. Reviewed MintCore's current onboarding workflow, discussed pain points around manual touchpoints and lack of visibility into customer conversations. Luna confirmed budget authority sits with RevOps but she can champion internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your typical onboarding timeline and how many customers are you onboarding per month?",
+          "answer": "Usually 2-3 weeks, handling about 15-20 new customers monthly. The bottleneck is always coordinating between CS and product teams"
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating a solution like this?",
+          "answer": "Jordan in RevOps handles procurement, but I can drive the decision if it solves our CS team's needs"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have recordings and analytics or just transcription?",
+          "answer": "Full conversation intelligence suite - recordings, transcripts, sentiment analysis, and automated action item tracking"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Luna to share sample onboarding call recordings",
+        "Schedule deeper discovery call to map current process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-13",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call. Luna shared examples of current onboarding calls. Discussed specific use cases around tracking customer questions and automating follow-up tasks. Mentioned they've also been looking at Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom? We've been testing their free tier",
+          "answer": "Fathom is great for basic recording but our unlimited automation tier gives you workflow triggers and integrations that would require custom development elsewhere"
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Reducing our onboarding timeline by at least 20% and having better visibility into common customer questions so we can improve our product docs"
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - we'd need to see clear ROI to justify the investment over free alternatives"
+      ],
+      "next_steps": [
+        "Schedule full discovery call to build ROI model",
+        "Prepare demo focused on automation workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-19",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on MintCore's onboarding workflow. Mapped current process, identified 8-10 hours per week spent on manual follow-up tasks. Luna enthusiastic about automation potential but noted she'll need to loop in Jordan from RevOps for budget approval. No executive sponsor mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through what happens after a customer signs - who touches them and when?",
+          "answer": "CS team does kickoff call, then 3-4 check-ins over two weeks. Lots of back-and-forth on Slack and email capturing requirements. It's chaotic honestly"
+        },
+        {
+          "by": "rep",
+          "question": "If you could automate one part of this process, what would have the biggest impact?",
+          "answer": "Automatically capturing and routing technical questions to our product team. Right now I'm manually tagging people in Slack after every call"
+        },
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing CRM and project management tools?",
+          "answer": "Yes, we have native integrations with all major CRMs and can push action items directly to tools like Asana or Linear"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision on this?",
+          "answer": "Ideally before end of quarter so we can hit the ground running in Q2. Need to coordinate with Jordan on budget though"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation/demo with CS team",
+        "Build ROI analysis based on time savings",
+        "Luna to brief Jordan on the opportunity"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-23",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed technical evaluation and demo session with Luna and two CS team members. Walked through automation workflows, integration setup, and compliance features relevant to fintech. Team engaged and excited about capabilities. Luna asked about pricing tiers but deferred detailed discussion until Jordan can join. Still no executive sponsor engaged in the process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data retention and compliance for financial services customers?",
+          "answer": "We're SOC 2 Type II certified with configurable retention policies and can meet fintech-specific requirements around PII handling"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we test this with our actual customer calls before committing?",
+          "answer": "Absolutely - we can set up a 14-day pilot with your team using real calls to validate the ROI we discussed"
+        },
+        {
+          "by": "rep",
+          "question": "What's the lift on your team to get this implemented?",
+          "answer": "Minimal - mostly connecting your calendar and CRM. Our team handles the integration setup, you'd be live within a week"
+        },
+        {
+          "by": "prospect",
+          "question": "How many seats would we need and what's the pricing structure?",
+          "answer": "Based on your team size, I'd recommend 5 seats on our unlimited automation tier. Let me prepare a formal proposal we can review with Jordan"
+        }
+      ],
+      "objections": [
+        "We need to make sure this doesn't overlap with tools we're already paying for - want to avoid redundancy"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing for 5 seats",
+        "Set up pilot period if needed",
+        "Schedule call with Jordan to discuss budget and procurement"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-28",
+      "type": "exec_meeting",
+      "duration_minutes": 10,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Luna. She reviewed the proposal internally but noted that Jordan has concerns about the price point compared to Fathom. No C-level executive has been involved in discussions. Luna still championing but recognizes she needs stronger internal buy-in to move forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Have you had a chance to review the proposal with Jordan and your leadership team?",
+          "answer": "Jordan saw it - he's asking about discounts and wants to understand why we'd pay this vs just using Fathom's paid tier"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the pricing? We're a small team and this is a significant investment",
+          "answer": "Let me see what I can do. Would it help to have a conversation with Jordan directly to walk through the ROI and differentiation?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion with Luna and Jordan",
+        "Explore discount options to close before end of quarter"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Luna providing competitive analysis vs Fathom and proposing a discounted pricing option to help accelerate the decision. Emphasized Q2 timeline and offered to schedule a call with Jordan to address procurement questions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over a comparison doc showing the automation features we'd lose if we went with Fathom?",
+          "answer": "Attached detailed feature matrix. The key differentiator is our workflow automation engine - Fathom focuses on recording and basic transcription, we automate the entire follow-up process"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Luna to review comparison with Jordan",
+        "Schedule pricing call if discount is competitive"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-06",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Luna Rodriguez",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Luna and Jordan. Discussed discount options to meet their budget constraints. Offered 33.5% discount to close before quarter end. Jordan concerned about committing without exec-level approval but Luna pushing to move forward. Agreed on 5 seats at $3,600 ACV with unlimited automation tier. Contract sent for review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for a 12-month commitment?",
+          "answer": "I can bring this down to $3,600 annually for 5 seats if we can close this week - that's about 33% off our standard rate"
+        },
+        {
+          "by": "prospect",
+          "question": "Do we need to involve our VP of Operations in this decision or can Luna and I move forward?",
+          "answer": "That's really up to your internal approval process - typically for deals of this size we'd want exec sign-off, but I'll defer to your team"
+        },
+        {
+          "by": "rep",
+          "question": "Jordan, what's your comfort level moving forward at this price point?",
+          "answer": "Price works for our budget. I'd feel better with exec approval but if Luna's confident this solves the problem, I can process it"
+        }
+      ],
+      "objections": [
+        "Still feels like a lot compared to free alternatives - want to make sure we're not over-buying on features we won't use"
+      ],
+      "next_steps": [
+        "Luna and Jordan to review contract internally",
+        "Targeting signature by end of week",
+        "Implementation kickoff scheduled pending close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 67,
+    "churn_reason": "lack of executive alignment"
+  }
+}

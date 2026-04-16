@@ -1,0 +1,289 @@
+{
+  "deal_id": "DEAL-0970",
+  "company": {
+    "name": "WestfieldApps",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 6000000,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 4,
+    "price_per_seat_monthly": 80.11,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 10.0,
+    "sales_cycle_days": 28,
+    "close_date": "2023-12-08",
+    "use_case": "Rep productivity",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Levi Mensah",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-11-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.0,
+      "rescheduled": false,
+      "ai_summary": "Levi Mensah from WestfieldApps submitted an inbound demo request via the website. Interested in automating rep workflows and improving CS team productivity. Mentioned they're currently evaluating Fathom as well.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send calendar link for discovery call",
+        "Rep to share product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-11-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email thanking Levi for the inquiry and proposing times for a discovery call. Shared a brief case study on CS team automation. Levi confirmed his availability for Thursday 2pm.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and Intercom?",
+          "answer": "Yes, we have native integrations with both and can sync call summaries directly to your CRM records."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-11-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent calendar confirmation and pre-call questionnaire to help tailor the discovery session. Levi responded with context on their CS team structure (4 reps handling 100+ accounts) and pain points around manual note-taking.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call confirmed",
+        "Rep to review questionnaire responses before call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-11-19",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Levi covering WestfieldApps' CS workflows. Team of 4 handling renewal conversations and upsells. Currently using Fathom for recording but want better automation and CRM integration. Pain points: reps spending 30+ min/day on admin work, inconsistent follow-up. Levi has budget authority for tools under $5k but would need exec sign-off above that.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in tool decisions for the CS team?",
+          "answer": "I usually handle tools for my team directly, but our VP of Revenue reviews anything over $5k annually."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom's? They seem pretty similar.",
+          "answer": "We focus more on post-call workflows\u2014auto-generating follow-up tasks, updating deal stages, and triggering sequences based on call content, not just transcription."
+        }
+      ],
+      "objections": [
+        "Need to understand differentiation from Fathom since we're already testing them"
+      ],
+      "next_steps": [
+        "Rep to schedule technical demo focused on automation workflows",
+        "Rep to send competitive comparison doc (vs Fathom)",
+        "Levi to share example calls for demo prep"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-23",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Levi. Rep demonstrated live call recording, AI summarization, and automated CRM updates. Walked through workflow automation builder and showed how triggers can create tasks, update fields, and send sequences. Levi tested the platform with a sample call and was impressed with Salesforce sync speed. Asked detailed questions about customization and data security.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the summary format to match our internal CS call notes template?",
+          "answer": "Yes, you can create custom summary templates with specific fields and sections. I'll send you the template builder docs."
+        },
+        {
+          "by": "prospect",
+          "question": "Where is call data stored and do you have SOC 2 certification?",
+          "answer": "Data is encrypted at rest in AWS US-East, and yes we're SOC 2 Type II certified. I'll send our security documentation."
+        },
+        {
+          "by": "rep",
+          "question": "How many seats would you need to start with?",
+          "answer": "Just our 4 CS reps for now. We'd probably expand to sales later if it works well."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send security docs and template builder guide",
+        "Levi to test platform with his team for 3-5 days",
+        "Schedule follow-up to review trial experience"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-28",
+      "type": "technical_eval",
+      "duration_minutes": 36,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up eval session after Levi's team tested the platform. Team gave positive feedback on automation features and CRM sync. Levi noted that Fathom is cheaper but lacks the workflow automation they need. Discussed implementation timeline and onboarding process. Levi wants to move forward but needs to finalize budget and confirm pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in onboarding? Will you help us set up the automation workflows?",
+          "answer": "Yes, all plans include a dedicated onboarding session where we'll configure your workflows, integrations, and templates with you."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical pricing for 4 seats with the unlimited automation tier?",
+          "answer": "For 4 seats on unlimited automation, we're typically around $4k-$4.5k annually depending on contract length and payment terms."
+        },
+        {
+          "by": "rep",
+          "question": "When are you looking to have a solution in place?",
+          "answer": "Ideally within the next 3-4 weeks. Q2 just started and we want this running for the quarter."
+        }
+      ],
+      "objections": [
+        "Price is higher than Fathom\u2014need to justify the difference internally"
+      ],
+      "next_steps": [
+        "Rep to send formal pricing proposal for 4 seats",
+        "Levi to review with VP of Revenue",
+        "Schedule pricing discussion for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-04",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Levi to review the proposal. Rep presented $3,800 annual pricing for 4 seats on unlimited automation (annual prepay discount applied). Levi comfortable with the price and thinks it's justified given automation capabilities. Discussed contract terms and confirmed monthly payment option available. Levi mentioned he'll brief his VP but expects quick approval since it's under threshold.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual upfront?",
+          "answer": "Yes, we can structure it as monthly\u2014it would be $350/month for the same package."
+        },
+        {
+          "by": "rep",
+          "question": "Do you anticipate any concerns from your VP on this?",
+          "answer": "No major concerns\u2014it's within my budget range. I just need to loop him in as a formality for any new vendor."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send contract with monthly payment terms",
+        "Levi to brief VP of Revenue this week",
+        "Target signature by end of next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-08",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Levi Mensah",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec alignment call with Levi. Levi confirmed he briefed his VP who is supportive. Discussed implementation kickoff timeline and confirmed Levi will be the primary point of contact for onboarding. Levi asked about expansion pricing if they want to add sales team later. Rep walked through legal review process and next steps for contract execution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we want to add 5 sales reps in a few months, how does pricing work for expansion?",
+          "answer": "We'd prorate the expansion seats for the remainder of your contract term, then adjust the renewal rate. I'll include expansion pricing in the order form."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send final contract for signature",
+        "Levi to route through legal (2-3 day review expected)",
+        "Schedule onboarding kickoff for week after signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

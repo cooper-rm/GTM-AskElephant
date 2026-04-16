@@ -1,0 +1,1034 @@
+{
+  "deal_id": "DEAL-0690",
+  "company": {
+    "name": "LatticeStack",
+    "industry": "Professional Services",
+    "employee_count": 3395,
+    "annual_revenue": 472423786,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 76600.0,
+    "seats": 53,
+    "price_per_seat_monthly": 109.17,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 127,
+    "close_date": "2024-09-14",
+    "use_case": "Call recording + coaching",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Ryan Huang",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Chloe Yoon",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 26
+    },
+    {
+      "name": "Fatima Ryan",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 15
+    },
+    {
+      "name": "Scarlett Clark",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 2
+    },
+    {
+      "name": "Blake Scott",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    },
+    {
+      "name": "Santiago Ryan",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 14
+    },
+    {
+      "name": "Abigail Desai",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 4
+    },
+    {
+      "name": "Aria Green",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 46
+    },
+    {
+      "name": "Lily Young",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-14",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Ryan Huang at LatticeStack. No answer, left voicemail introducing our call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-25",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Ryan Huang highlighting ROI from call recording and coaching insights. Ryan responded showing initial interest in learning more about automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What automation features do you offer beyond basic call recording?",
+          "answer": "Our platform includes AI-powered coaching recommendations, automated deal risk scoring, and integration with your existing CRM workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ryan sharing case study from similar professional services company. Ryan asked about implementation timeline and team size requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For enterprise teams, implementation typically takes 3-4 weeks including integrations and user onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send implementation guide"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with implementation guide and proposed call times. Ryan confirmed interest and mentioned they're currently evaluating multiple vendors including Chorus.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Green",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Introduction email to Aria Green, Implementation Lead, to understand technical requirements. Aria responded asking about API capabilities and data security protocols.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What API endpoints do you expose for custom integrations?",
+          "answer": "We provide RESTful APIs for call data, transcripts, analytics, and webhooks for real-time events."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share API documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-22",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ryan Huang covering current pain points with manual call review processes. Ryan explained they need better coaching scalability across 50+ reps and mentioned Chorus is in the mix.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for coaching and call reviews?",
+          "answer": "Managers manually review 2-3 calls per rep weekly, very time-consuming and inconsistent."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving this evaluation now?",
+          "answer": "We're scaling the team rapidly and our current approach doesn't scale. Need automation and AI insights."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Loop in technical team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-25",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Ryan diving into success metrics and ROI expectations. Discussed reducing coaching time by 60% while improving rep performance.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics would define success for this initiative?",
+          "answer": "Reducing manager coaching prep time, increasing rep quota attainment, and faster ramp time for new hires."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-29",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ryan to map out buying committee and decision timeline. Ryan confirmed Chloe Yoon (CRO) is the executive sponsor and mentioned they want to decide by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation?",
+          "answer": "Chloe our CRO will need to sign off, plus our technical team including Fatima, Santiago from IT, and the RevOps and Sales Manager teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce to Chloe and technical stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-01",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ryan discussing integration requirements with existing Salesforce setup and data security needs. Ryan asked about comparative advantages versus Chorus.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do your AI coaching features compare to what Chorus offers?",
+          "answer": "Our platform provides more customizable coaching frameworks and deeper CRM integration for automated follow-up workflows, plus consulting support for implementation."
+        }
+      ],
+      "objections": [
+        "Need to understand price difference with Chorus"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare competitive comparison"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing competitive comparison doc and technical requirements questionnaire for upcoming technical evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical team to complete requirements form"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-06-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with calendar invite for technical deep-dive with Fatima and Santiago. Confirmed agenda covering security, integrations, and scalability.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-06-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing customer references from professional services companies using our platform at similar scale.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ryan to share references with Chloe"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming technical evaluation agenda and attendees. Ryan confirmed Fatima, Santiago, Scarlett from RevOps, and Blake from Sales Management will attend.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-22",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Fatima Ryan",
+      "person_role": "technical_evaluator",
+      "person_title": "Implementation Lead",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Fatima Ryan covering security protocols, SSO integration, API architecture, and data governance. Fatima asked detailed questions about data retention and compliance certifications.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What compliance certifications do you maintain?",
+          "answer": "SOC 2 Type II, GDPR compliant, and HIPAA available for healthcare customers."
+        },
+        {
+          "by": "prospect",
+          "question": "How long is call data retained and can we customize retention policies?",
+          "answer": "Default 2-year retention with full customization available per your data governance requirements."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the process for SSO integration with our existing Okta setup?",
+          "answer": "We support SAML 2.0, integration typically takes 1-2 days with our implementation team."
+        }
+      ],
+      "objections": [
+        "Need to verify with IT security team on data residency requirements"
+      ],
+      "next_steps": [
+        "Provide data residency documentation",
+        "Security questionnaire to follow"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-26",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Ryan and broader sales team showcasing call recording, AI-powered coaching insights, and automated deal risk scoring. Team engaged positively with automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific coaching metrics matter most to your team?",
+          "answer": "Talk-listen ratio, discovery question quality, and objection handling effectiveness."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our methodology?",
+          "answer": "Yes, fully customizable scorecards with our consulting package to match your sales framework."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo focused on manager workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-30",
+      "type": "demo",
+      "duration_minutes": 51,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive demo on manager and leadership dashboards with Ryan, Blake, and Scarlett. Showed team performance analytics, trend identification, and automated coaching recommendations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the platform identify which calls managers should review?",
+          "answer": "AI flags calls with specific coaching opportunities based on sentiment shifts, key moments, and performance patterns."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export analytics data to our existing BI tools?",
+          "answer": "Yes, API access and pre-built connectors for Tableau, Looker, and PowerBI."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include for setup?",
+          "answer": "Dedicated implementation team, custom scorecard design, manager training, and 90-day optimization support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal with consulting package"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-07-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and answers to technical questions raised during sessions. Ryan confirmed strong interest from the team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Chloe"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-07-07",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled due to conflict on Ryan's side. Originally planned to show integration workflows with Salesforce.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-07-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming new demo time and sharing integration documentation ahead of rescheduled session.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo rescheduled for Thursday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-07-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing preliminary proposal outline for 53 seats with automations plus consulting package. Ryan asked for detailed pricing breakdown.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down pricing by component?",
+          "answer": "Will send detailed pricing with platform licenses, consulting services itemized separately."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-07-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with formal proposal for $76,600 ACV covering 53 seats, premium features, and consulting package. Ryan acknowledged receipt and mentioned need to compare with Chorus final pricing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-07-24",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ryan walking through pricing, implementation timeline, and ROI projections. Ryan mentioned Chorus came in lower on price but lacking consulting support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What flexibility do you have on pricing given competitive pressure?",
+          "answer": "We can work with you on payment terms and potentially adjust consulting scope, but our value is in the full implementation support."
+        }
+      ],
+      "objections": [
+        "Chorus pricing is lower",
+        "Need to justify premium to Chloe"
+      ],
+      "next_steps": [
+        "Prepare ROI analysis for exec meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2024-07-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with detailed ROI analysis comparing total cost of ownership including implementation success rates and time-to-value.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Ryan to review with Chloe before exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 24,
+      "date": "2024-07-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 9.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing additional customer case studies showing faster time-to-value with consulting package versus self-implementation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled for Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 25,
+      "date": "2024-08-04",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Chloe Yoon",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Chloe Yoon and Ryan discussing strategic value, competitive positioning, and implementation approach. Chloe focused on risk mitigation and ensuring successful rollout.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do we have on the implementation timeline?",
+          "answer": "Dedicated implementation manager, milestone-based plan with SLAs, and success metrics defined upfront."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you ensure adoption across the sales team?",
+          "answer": "Change management is part of consulting package - manager training, rep onboarding, and ongoing optimization support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to finalize by end of month to hit Q2 rollout targets."
+        }
+      ],
+      "objections": [
+        "Price premium needs clear justification"
+      ],
+      "next_steps": [
+        "Follow-up meeting to address pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 26,
+      "date": "2024-08-09",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Chloe Yoon",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Chloe diving deeper into implementation risk mitigation and success planning. Chloe mentioned Chorus proposal lacks implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if we don't hit adoption targets in first 90 days?",
+          "answer": "Our consulting team stays engaged until success metrics are met - it's outcome-based, not time-based."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you provide references from similar professional services implementations?",
+          "answer": "Yes, we'll connect you with two customers who went through similar enterprise rollouts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Arrange customer reference calls",
+        "Revisit pricing options"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 27,
+      "date": "2024-08-13",
+      "type": "exec_meeting",
+      "duration_minutes": 40,
+      "person_name": "Chloe Yoon",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Chloe during negotiation stage discussing contract terms, success metrics, and pricing flexibility. Chloe requested options to bring price closer to Chorus while maintaining implementation support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the minimum viable consulting package to ensure success?",
+          "answer": "We can streamline to core implementation, scorecard design, and 60-day support rather than 90-day."
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any early-adopter or multi-year incentives available?",
+          "answer": "We can offer 10% discount for 2-year commitment and case study participation."
+        }
+      ],
+      "objections": [
+        "Still need to close price gap with Chorus"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 28,
+      "date": "2024-08-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Ryan with revised proposal options balancing price competitiveness with implementation support. Ryan appreciated the flexibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review options with Chloe and finance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 29,
+      "date": "2024-08-21",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Ryan reviewing three proposal options with different consulting scope and pricing levels. Discussed trade-offs between cost and implementation support.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Which option resonates most with your team's needs?",
+          "answer": "The mid-tier option with core consulting seems like the sweet spot - we need implementation help but can be flexible on ongoing support length."
+        },
+        {
+          "by": "prospect",
+          "question": "If we go mid-tier, can we add additional consulting later if needed?",
+          "answer": "Yes, consulting hours can be added anytime at our standard rates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ryan to present options to Chloe"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 30,
+      "date": "2024-08-26",
+      "type": "pricing_call",
+      "duration_minutes": 32,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Ryan discussing payment terms and contract start date. Ryan mentioned procurement (Lily Young) needs to be involved for final contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What payment terms are standard?",
+          "answer": "Annual upfront is standard, but we can accommodate quarterly for enterprise customers."
+        },
+        {
+          "by": "rep",
+          "question": "What's your preferred contract start date?",
+          "answer": "Ideally May 1st to align with our Q2 planning."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Loop in Lily from procurement",
+        "Send contract template"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 31,
+      "date": "2024-08-29",
+      "type": "pricing_call",
+      "duration_minutes": 31,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Ryan and Lily Young from procurement discussing contract terms, payment structure, and renewal conditions. Lily asked about auto-renewal clauses and termination terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the termination provisions?",
+          "answer": "30-day notice for month-to-month, standard for annual is auto-renewal with 60-day opt-out window."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we negotiate the auto-renewal clause?",
+          "answer": "We can do mutual opt-in renewal rather than auto-renewal if that's preferred."
+        }
+      ],
+      "objections": [
+        "Procurement prefers opt-in renewals"
+      ],
+      "next_steps": [
+        "Revise contract terms for procurement review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 32,
+      "date": "2024-09-02",
+      "type": "negotiation_call",
+      "duration_minutes": 32,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Ryan covering final pricing adjustments and implementation timeline. Ryan confirmed Chloe is on board with mid-tier option if we can accommodate quarterly payments.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is quarterly payment the final piece to close this deal?",
+          "answer": "Yes, if we can get quarterly payments approved, we're ready to move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "Can implementation start before full contract signature?",
+          "answer": "We typically need signed MSA, but can begin discovery work with signed SOW."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get quarterly payment terms approved internally",
+        "Prepare final contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 33,
+      "date": "2024-09-05",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Chloe Yoon",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Chloe rescheduled due to urgent business conflict on her side.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 34,
+      "date": "2024-09-11",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Chloe Yoon",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Chloe to finalize decision. Chloe confirmed approval for mid-tier package with quarterly payments and asked about kickoff timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after contract signature?",
+          "answer": "Implementation kickoff within 5 business days of signed contract."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining concerns before we move to contracting?",
+          "answer": "No concerns - team is aligned, just need to get through legal review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to procurement",
+        "Schedule kickoff planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 35,
+      "date": "2024-09-16",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Ryan Huang",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled due to conflict on Ryan's end. Was planned to finalize contract details and signature timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule to finalize contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

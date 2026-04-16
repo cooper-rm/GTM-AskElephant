@@ -1,0 +1,187 @@
+{
+  "deal_id": "DEAL-0335",
+  "company": {
+    "name": "AmberPathway",
+    "industry": "SaaS/Tech",
+    "employee_count": 44,
+    "annual_revenue": 4064928,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 6,
+    "price_per_seat_monthly": 49.47,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 44.4,
+    "sales_cycle_days": 31,
+    "close_date": "2024-08-19",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Mia Wolf",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Liam OConnor",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 19
+    },
+    {
+      "name": "Emily Carter",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mia Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Mia Wolf at AmberPathway regarding pipeline visibility challenges. She mentioned their CS team is struggling to track customer health across multiple tools and wants a centralized solution. Brief initial conversation to capture basic needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What prompted you to reach out today?",
+          "answer": "Our CS team is drowning in spreadsheets trying to track pipeline across Salesforce, Intercom, and our homegrown tool. We need something that pulls it all together."
+        },
+        {
+          "by": "rep",
+          "question": "How many people would need access initially?",
+          "answer": "Probably 5-6 on the CS team to start."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week",
+        "Send calendar invite and prep materials"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-19",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Mia Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Mia Wolf to deep-dive on AmberPathway's pipeline visibility needs. She confirmed they're currently using manual processes across disconnected systems. Budget authority sits with finance, but Mia has approval for tools under $5K annually. Timeline is flexible but would like something in place before Q3.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current pipeline tracking process.",
+          "answer": "Right now each CSM exports data weekly from Salesforce, manually categorizes accounts in Google Sheets, then we review in Monday standups. It's really error-prone."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would need to be involved in evaluating a solution?",
+          "answer": "Liam in implementation would handle the setup, and Emily in IT needs to sign off on new tools. But I can drive the decision from the CS side."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance without a lot of custom work?",
+          "answer": "Yes, we have a native Salesforce connector that typically takes under an hour to configure."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Mia to introduce Liam and Emily via email",
+        "Schedule demo for the three of them next week",
+        "Send integration overview doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo to address Liam's implementation questions and Emily's security concerns. Mia responded positively, confirmed the team liked the demo, and asked for pricing options for 6 seats with the unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over pricing for 6 seats with the automation features we discussed?",
+          "answer": "Absolutely, I'll put together a proposal with a few options and send it over by end of day."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing proposal with 3 tiers",
+        "Schedule call to review pricing and answer questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-19",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Mia Wolf",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Mia. She expressed concern about budget constraints and mentioned she's working with a tight CS budget this quarter. Negotiated down from $6,100 list to $3,400 ACV to fit her approved range. Mia confirmed she can move forward at that price point but needs to loop in finance for contract review. No other executives have been involved in the evaluation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing? Our approved CS tooling budget for the year is pretty locked at this point.",
+          "answer": "Let me see what I can do. What range were you hoping to land in?"
+        },
+        {
+          "by": "rep",
+          "question": "Would it make sense to bring in your CFO or another exec to discuss budget allocation given the ROI here?",
+          "answer": "Honestly, I'd rather keep this within my scope of approval. I have sign-off up to $5K and want to move quickly without escalating."
+        }
+      ],
+      "objections": [
+        "Pricing is above current allocated CS budget"
+      ],
+      "next_steps": [
+        "Send revised proposal at $3,400 ACV",
+        "Mia to review with finance and Liam",
+        "Target contract signature by end of month"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

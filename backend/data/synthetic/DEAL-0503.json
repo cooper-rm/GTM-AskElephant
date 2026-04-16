@@ -1,0 +1,691 @@
+{
+  "deal_id": "DEAL-0503",
+  "company": {
+    "name": "NimbusSoftware",
+    "industry": "Marketing Agency",
+    "employee_count": 770,
+    "annual_revenue": 91802069,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20800.0,
+    "seats": 25,
+    "price_per_seat_monthly": 73.38,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 17.5,
+    "sales_cycle_days": 91,
+    "close_date": "2024-06-30",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Kevin Gonzalez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 27
+    },
+    {
+      "name": "Tyler Costa",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Tyler Iyer",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 9
+    },
+    {
+      "name": "Tariq Friedman",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 43
+    },
+    {
+      "name": "Elijah Davis",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 22
+    },
+    {
+      "name": "Avery Yoon",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Kevin Gonzalez submitted an inbound inquiry through the website expressing interest in improving forecast accuracy for their sales team. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-31",
+      "type": "qualification_call",
+      "duration_minutes": 7,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Kevin to confirm basic fit. Discussed company size (770 employees), current pain points around forecast visibility, and ideal timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better forecasting right now?",
+          "answer": "Our forecast accuracy has been under 70% for the past two quarters, causing planning issues across the business."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Continue qualification discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-06",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to understand team structure and current process. Kevin mentioned they're evaluating a couple of options including Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many seats are you thinking about for the initial rollout?",
+          "answer": "Probably around 25 for the sales and RevOps teams to start."
+        },
+        {
+          "by": "prospect",
+          "question": "What differentiates your platform from Gong's forecasting capabilities?",
+          "answer": "Our AI focuses specifically on deal health signals and risk factors, with deeper RevOps integration and custom automation workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule extended qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-09",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended qualification call covering budget range ($20-25K ACV fits their planning), decision process, and key stakeholders. Kevin is Head of Sales and will champion internally. Also need to involve RevOps and IT.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Our RevOps team, definitely Tariq and Elijah, plus Tyler Iyer from IT for security and integration questions."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting services to help with implementation?",
+          "answer": "Yes, our automations_plus_consulting package includes implementation support and ongoing optimization help."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery stage",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Kevin recapping qualification discussion, confirming budget alignment, and proposing discovery call agenda to dive into specific use cases and technical requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-22",
+      "type": "discovery_call",
+      "duration_minutes": 15,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Kevin focused on current forecasting process and pain points. Discussed data sources (Salesforce, email, calendar) and specific use cases around pipeline visibility.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What data sources are you currently using for forecasting?",
+          "answer": "Mainly Salesforce, but we're not capturing conversation intelligence or deal momentum signals."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync and custom field mapping."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deep-dive discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-22",
+      "type": "discovery_call",
+      "duration_minutes": 39,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call covering detailed use cases, current tech stack, and success metrics. Kevin shared specific examples of deals they failed to forecast accurately. Discussed automation workflows for risk alerts and deal health scoring. Confirmed Gong is also in evaluation but they prefer our RevOps focus.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would success look like 6 months after implementation?",
+          "answer": "Forecast accuracy above 85%, automated risk flagging for at-risk deals, and better visibility for our CFO."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get up and running?",
+          "answer": "Typical implementation is 2-3 weeks for data integration, then 1-2 weeks of team training."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of ongoing support do you provide?",
+          "answer": "The consulting package includes dedicated CSM, quarterly business reviews, and workflow optimization sessions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with Tariq and RevOps team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Kevin summarizing discovery insights and proposing technical evaluation session with Tariq Friedman and RevOps team to review platform capabilities, integrations, and security requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include Tyler Iyer from IT in the technical eval?",
+          "answer": "Absolutely, we'll make sure to cover security, data handling, and integration architecture."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical eval with Tariq, Elijah, Avery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-03",
+      "type": "technical_eval",
+      "duration_minutes": 48,
+      "person_name": "Tariq Friedman",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Tariq Friedman covering platform architecture, data security, API capabilities, and integration requirements. Reviewed AI model training process and data handling. Tariq asked detailed questions about GDPR compliance and data retention policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your AI model handle our proprietary sales data?",
+          "answer": "All data is encrypted at rest and in transit, stored in your dedicated instance, and never used to train shared models."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit for our integration volume?",
+          "answer": "Standard tier is 10K requests/hour, which should handle your 770-employee org comfortably."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current data pipeline architecture?",
+          "answer": "We run ETL jobs nightly from Salesforce to our data warehouse, then feed BI tools."
+        }
+      ],
+      "objections": [
+        "Need to verify data residency requirements with our compliance team"
+      ],
+      "next_steps": [
+        "Provide security documentation",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-05-09",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Tariq Friedman",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Tariq focusing on workflow automation, custom scoring models, and reporting capabilities. Demonstrated live platform with sample data. Discussed integration timeline and resource requirements from their IT team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the deal health scoring algorithm for our specific sales process?",
+          "answer": "Yes, you can adjust weights, add custom signals, and define your own risk thresholds."
+        },
+        {
+          "by": "prospect",
+          "question": "How much IT involvement is needed for the implementation?",
+          "answer": "Typically 10-15 hours total for OAuth setup, field mapping review, and integration testing."
+        },
+        {
+          "by": "rep",
+          "question": "Do you support our use case for multi-currency deals?",
+          "answer": "Yes, full multi-currency support with automatic conversion based on close date."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share technical documentation",
+        "Schedule final eval session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-05-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Kevin updating on positive technical eval progress with Tariq. Shared security documentation and proposed timeline for moving to proposal stage. Mentioned that Tariq requested one more session to review custom automation workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule final technical eval",
+        "Begin proposal preparation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-17",
+      "type": "technical_eval",
+      "duration_minutes": 29,
+      "person_name": "Tariq Friedman",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final technical evaluation session with Tariq focused on custom automation workflows and change management. Reviewed user adoption best practices and training approach. Tariq confirmed technical fit and will recommend moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical user adoption curve?",
+          "answer": "With proper training, most teams reach 80%+ daily active usage within 4-6 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any deal-breaker technical gaps from your perspective?",
+          "answer": "No major concerns. The platform meets our requirements. We'll need to loop in Tyler Iyer for final security sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval complete",
+        "Move to proposal stage"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-21",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive meeting to review business case and ROI was rescheduled by Kevin. He mentioned needing to align calendars with finance stakeholders but confirmed continued interest.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-05-27",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Kevin reviewing pricing for 25 seats with automations_plus_consulting package at $20,800 ACV. Discussed contract terms, implementation timeline, and ROI projections based on improved forecast accuracy.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual commitment vs quarterly?",
+          "answer": "Our standard terms are annual, but we can discuss quarterly payment scheduling."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget approval process look like?",
+          "answer": "I have approval authority up to $25K, but finance wants to review contracts above $15K."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal document",
+        "Schedule follow-up on terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-06-01",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call to address questions on contract terms and service level agreements. Kevin mentioned they're close to finalizing but want to compare final pricing with Gong's proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the SLA for the consulting package?",
+          "answer": "2 dedicated strategy sessions per month, 24-hour response time for technical issues, and quarterly optimization reviews."
+        }
+      ],
+      "objections": [
+        "Need to compare final pricing and consulting hours with Gong's proposal"
+      ],
+      "next_steps": [
+        "Kevin to review internally with team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-06-06",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third proposal call focused on differentiators vs Gong. Kevin expressed preference for our RevOps-focused approach but finance is pushing for best value. Discussed implementation timeline and potential Q2 start date.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you provide customer references in the marketing agency space?",
+          "answer": "Yes, we have two similar mid-market agencies who've seen 20%+ forecast improvement. I'll intro you to their RevOps leads."
+        },
+        {
+          "by": "rep",
+          "question": "What's the main concern from finance?",
+          "answer": "They want to make sure we're getting the best value, especially on the consulting hours included."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide customer references",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-06-10",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Kevin (no other execs joined) to review business case and final decision criteria. Kevin is champion but noted that without CFO or VP Sales engaged, he's facing questions on ROI justification and comparative value vs Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it help to have our VP of Sales join a call with your leadership?",
+          "answer": "Possibly, but I think we're mostly down to final pricing and terms at this point."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer for annual prepayment?",
+          "answer": "For annual prepay we can typically offer 10-15% depending on contract length."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to negotiation on pricing and terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-06-15",
+      "type": "negotiation_call",
+      "duration_minutes": 31,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call covering pricing, payment terms, and contract length. Kevin requested 15% discount to match competitive offer. Discussed trade-offs between discount and consulting hours. No executive sponsor has engaged beyond Kevin.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match a 15% discount if we commit to annual prepayment?",
+          "answer": "I can bring 12% with annual prepay to my leadership, but 15% would require reducing consulting hours."
+        },
+        {
+          "by": "rep",
+          "question": "Is the Gong proposal still the main comparison point?",
+          "answer": "Yes, they came in slightly lower but with fewer consulting hours. We prefer your RevOps approach."
+        }
+      ],
+      "objections": [
+        "Finance pushing back on price relative to competitive option"
+      ],
+      "next_steps": [
+        "Rep to get discount approval",
+        "Kevin to confirm with finance"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-06-19",
+      "type": "pricing_call",
+      "duration_minutes": 23,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call to finalize terms. Agreed on 12% discount with annual prepayment, bringing total to $18,304. Kevin needs to get final finance approval and mentioned they're still in discussions with Gong as well.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add a performance clause tied to forecast accuracy improvement?",
+          "answer": "That's unusual, but we could discuss a satisfaction guarantee for the first 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for final decision?",
+          "answer": "We need to decide by end of next week to hit our Q2 implementation target."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal at $18,304",
+        "Kevin to get finance approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-06-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 13.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal at $18,304 ACV (12% discount) for 25 seats with automations_plus_consulting package. Included updated MSA and implementation timeline for Q2 start. Requested confirmation on finance approval timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Kevin to review with finance and IT",
+        "Target decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kevin Gonzalez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Check-in email sent to Kevin on status of finance review and decision timeline. Offered to address any remaining questions from stakeholders. No response received yet on final approval status.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await Kevin's update on finance decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

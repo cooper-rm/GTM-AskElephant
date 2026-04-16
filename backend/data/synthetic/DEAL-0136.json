@@ -1,0 +1,184 @@
+{
+  "deal_id": "DEAL-0136",
+  "company": {
+    "name": "NextLabs",
+    "industry": "EdTech",
+    "employee_count": 59,
+    "annual_revenue": 5103739,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3700.0,
+    "seats": 6,
+    "price_per_seat_monthly": 50.36,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.4,
+    "sales_cycle_days": 14,
+    "close_date": "2024-05-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Emma Nguyen",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 36
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-05-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Emma Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Emma Nguyen submitted an inbound demo request via website form expressing interest in improving sales-to-CS handoff workflows. Brief acknowledgment and scheduling confirmation exchanged.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-06",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Emma Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Emma to understand current handoff pain points. She described manual processes causing customer confusion during onboarding transitions. Discussed team size, current tools, and initial fit for unlimited automation tier. Emma confirmed budget authority within CS but mentioned needing alignment with sales leadership later.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales-to-CS handoff process",
+          "answer": "We use a combination of Slack messages and a shared spreadsheet. Sales reps often forget to update it, so CS has to chase down context. Customers sometimes get duplicate outreach or conflicting information."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with HubSpot and Intercom?",
+          "answer": "Yes, we have native integrations with both. The handoff automations can trigger based on deal stage changes in HubSpot."
+        },
+        {
+          "by": "rep",
+          "question": "What does your decision process typically look like for new tools?",
+          "answer": "For CS tools I usually evaluate and make the call, but since this touches sales workflows I'll want to loop in our VP of Sales before we finalize anything."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical evaluation access",
+        "Schedule demo for Emma's team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-12",
+      "type": "technical_eval",
+      "duration_minutes": 56,
+      "person_name": "Emma Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation demo originally scheduled was rescheduled by Emma due to team conflict. Rescheduled session covered automation builder, custom field mapping, and reporting dashboards. Emma tested workflows hands-on and asked detailed questions about implementation timeline and change management. She expressed concerns about getting sales team adoption but was enthusiastic about CS benefits. No executive participation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 6 seats with your use case, typically 2-3 weeks including integration setup and team training. We provide a dedicated onboarding specialist."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to involve your VP of Sales in the evaluation?",
+          "answer": "Not yet\u2014he's been slammed with end-of-quarter stuff. I'm planning to bring him up to speed once I've validated the technical fit."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and change management support do you provide?",
+          "answer": "We include live training sessions, recorded tutorials, and a dedicated Slack channel. Most teams see adoption within the first two weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with just the CS team and expand to sales later if needed?",
+          "answer": "Technically yes, but you'd get the most value from the handoff automation if both teams are using it from the start. That said, we can phase the rollout."
+        }
+      ],
+      "objections": [
+        "I'm a little worried about getting our sales team to actually use this\u2014they're pretty set in their ways."
+      ],
+      "next_steps": [
+        "Emma to test automation builder internally",
+        "Send pricing proposal",
+        "Attempt to schedule exec alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-19",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Emma Nguyen",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Emma to discuss pricing. She requested significant discount citing budget constraints and end-of-quarter timing. Agreed to 43.4% discount to close deal in current quarter. Emma confirmed she has approval to move forward but VP of Sales still not directly engaged. Discussed contract terms, payment schedule, and implementation kickoff timing. Emma committed to signed agreement by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing? Our budget for this quarter is pretty tight.",
+          "answer": "Let me see what I can do. Given the timing and your use case, I can offer 43% off to get you started this quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Before we finalize, would it make sense to get your VP of Sales on a quick call to ensure alignment?",
+          "answer": "I've briefed him on it and he's supportive. He trusts me to make the call on CS tools. I don't think we need another meeting\u2014let's just move forward."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do monthly payments instead of annual upfront?",
+          "answer": "For this discount level we typically require annual payment, but I can offer quarterly installments as a middle ground."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed pricing",
+        "Emma to route for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

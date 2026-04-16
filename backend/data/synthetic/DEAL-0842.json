@@ -1,0 +1,656 @@
+{
+  "deal_id": "DEAL-0842",
+  "company": {
+    "name": "VortexIO",
+    "industry": "Professional Services",
+    "employee_count": 427,
+    "annual_revenue": 69595364,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10600.0,
+    "seats": 11,
+    "price_per_seat_monthly": 78.29,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 12.0,
+    "sales_cycle_days": 91,
+    "close_date": "2023-07-05",
+    "use_case": "Rep productivity",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Evelyn Miller",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 61
+    },
+    {
+      "name": "David Taylor",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Evelyn Miller expressing interest in improving CS team productivity and exploring automation tools.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Evelyn confirming receipt of inquiry and proposing times for initial qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await calendar confirmation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-11",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Evelyn covered current workflow challenges in CS team and manual note-taking pain points. Discussed team size and use case fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence tool right now?",
+          "answer": "CS team spending too much time on manual call notes, need better handoff process"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce?",
+          "answer": "Yes, native integration available"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule deeper discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-15",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to dive into VortexIO's current tech stack and workflow. Evelyn mentioned they're also evaluating Fireflies but concerned about accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current call workflow from scheduling to follow-up",
+          "answer": "Manual notes in docs, inconsistent CRM updates, no standardized process"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI accuracy compare to Fireflies?",
+          "answer": "Industry-leading transcription accuracy, custom domain training available"
+        }
+      ],
+      "objections": [
+        "Price point seems higher than Fireflies"
+      ],
+      "next_steps": [
+        "Introduce to Sales Manager for end-user perspective",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent with product overview, ROI calculator, and case study from similar professional services company. Requested introduction to Sales Manager David Taylor.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share references from other PS firms?",
+          "answer": "Attached case study, will intro to customer reference"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Connect with David Taylor",
+        "Schedule discovery call with both stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-24",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on technical requirements, compliance needs, and integration architecture. Evelyn confirmed budget authority sits with VP Operations who hasn't been looped in yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who typically approves software purchases of this size at VortexIO?",
+          "answer": "VP Operations, but Evelyn has discretionary budget up to $15K"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and security model?",
+          "answer": "SOC2 compliant, configurable retention policies, encrypted at rest and in transit"
+        },
+        {
+          "by": "rep",
+          "question": "Have you involved David in the evaluation yet?",
+          "answer": "Planning to bring him in for demo phase"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare security documentation",
+        "Schedule demo with David included"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-30",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call. Evelyn confirmed demo timing and mentioned Fireflies has lower base pricing but consulting package is appealing for change management support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include specifically?",
+          "answer": "Onboarding, workflow design, 30-day adoption support, custom reporting setup"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Send demo prep questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-05",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Evelyn to finalize demo agenda. Discussed metrics they care about most: time-to-close, rep ramp time, forecast accuracy improvement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this a slam-dunk decision for you?",
+          "answer": "Proven ROI on rep productivity, smooth Salesforce integration, David's buy-in"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a trial period before committing?",
+          "answer": "Yes, 14-day POC available post-demo if needed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute demo with David",
+        "Prepare POC scope if requested"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-05-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with agenda, technical setup instructions, and demo environment credentials for Evelyn and David.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Deliver demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-15",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo with Evelyn and David showing live transcription, automated CRM updates, and analytics dashboards. David engaged positively, asked detailed questions about rep adoption. No exec sponsor present.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "2-3 weeks for standard setup, 4-6 with consulting package"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for reps?",
+          "answer": "Minimal, most productive within first week, consulting helps accelerate"
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your VP Operations in next steps conversations?",
+          "answer": "Evelyn will brief them, prefers to validate internally first"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo recording and proposal draft",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-20",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting labeled as exec meeting but only Evelyn attended. Discussed proposal structure, pricing tiers, and contract terms. Evelyn noted she needs exec approval but wants to move forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package pricing?",
+          "answer": "Some flexibility on implementation timeline which affects cost"
+        },
+        {
+          "by": "rep",
+          "question": "When can we get your VP Operations involved?",
+          "answer": "Evelyn targeting next week, wants proposal finalized first"
+        }
+      ],
+      "objections": [
+        "Concern about getting exec buy-in without seeing Fireflies proposal first"
+      ],
+      "next_steps": [
+        "Finalize proposal",
+        "Coordinate exec sponsor intro"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-25",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up meeting with Evelyn to address questions on annual vs multi-year pricing and consulting scope adjustments. Still no exec engagement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount is available for annual prepay?",
+          "answer": "10% for annual, 15% for multi-year"
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for decision?",
+          "answer": "End of quarter, but Fireflies extending their eval period"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise proposal with annual pricing",
+        "Push for exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-05-30",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Shorter check-in with Evelyn. She confirmed VP Operations is aware but hasn't prioritized reviewing yet. Timeline slipping slightly.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any blockers we can help remove?",
+          "answer": "Just internal scheduling, no technical or fit concerns"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up next week",
+        "Send exec briefing doc"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-06-06",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call with Evelyn to review revised proposal. She's advocating internally but mentioned Fireflies came in significantly lower on base price, questioning ROI justification.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you help me build the business case against the cheaper option?",
+          "answer": "Provided ROI model showing consulting package pays for itself in 90 days via faster adoption"
+        },
+        {
+          "by": "rep",
+          "question": "What's Fireflies' pricing looking like?",
+          "answer": "Evelyn indicated roughly 30% less for base platform"
+        }
+      ],
+      "objections": [
+        "Price gap with Fireflies is significant concern for exec approval"
+      ],
+      "next_steps": [
+        "Create exec-facing business case",
+        "Offer to present directly to VP Operations"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-06-09",
+      "type": "exec_meeting",
+      "duration_minutes": 53,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended working session with Evelyn to build internal business case presentation. Covered competitive differentiation, TCO analysis, and implementation risk comparison. Evelyn committed to exec presentation by week's end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the real differences in your AI vs Fireflies that justify the premium?",
+          "answer": "Accuracy benchmarks, vertical-specific models, consulting-led adoption vs DIY"
+        },
+        {
+          "by": "rep",
+          "question": "If we could close the price gap somewhat, does everything else align?",
+          "answer": "Evelyn believes so, but needs exec validation on budget"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have proof points on adoption rates with vs without consulting?",
+          "answer": "Shared data showing 85% adoption with consulting vs 50% without"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Evelyn to present to VP Operations",
+        "Rep on standby for exec questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-06-14",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Evelyn post-exec briefing. VP Operations supportive but requested some scope clarification on consulting deliverables and asked about payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, with adjusted discount structure"
+        },
+        {
+          "by": "rep",
+          "question": "Is the VP ready to join a call to discuss directly?",
+          "answer": "Evelyn prefers to keep iterating through her for now"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update proposal with payment terms options",
+        "Move to negotiation phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-06-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Email with updated proposal reflecting quarterly payment option and detailed consulting SOW. Requested feedback by end of week to meet quarter-end close target.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await proposal feedback",
+        "Prepare redlines for negotiation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-06-24",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Evelyn to discuss proposal feedback. Legal and procurement now involved. Some pushback on auto-renewal clause and data ownership terms, standard negotiation items.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we remove auto-renewal and make it opt-in renewal?",
+          "answer": "Yes, we can adjust to explicit renewal with 60-day notice"
+        },
+        {
+          "by": "rep",
+          "question": "Are we still on track for end of quarter?",
+          "answer": "Tight but possible if legal review moves quickly"
+        }
+      ],
+      "objections": [
+        "Legal concerns about data ownership language"
+      ],
+      "next_steps": [
+        "Engage legal teams",
+        "Prepare redlined contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-07-01",
+      "type": "pricing_call",
+      "duration_minutes": 13,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call was rescheduled by Evelyn due to scheduling conflict with VP Operations. Brief touchpoint confirmed continued interest but timing pressure increasing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call",
+        "Confirm quarter-end feasibility"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-07-07",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Evelyn Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation meeting with Evelyn to lock pricing and terms. Agreed on quarterly payments, removed auto-renewal, resolved data ownership language. Evelyn committed to signature pending final exec sign-off, targeting next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign next week, can we push start date to next quarter?",
+          "answer": "Yes, flexible on start date with signed contract"
+        },
+        {
+          "by": "rep",
+          "question": "What's the final approval process from here?",
+          "answer": "Evelyn and VP Operations signatures, procurement processes final paperwork"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Coordinate signature logistics",
+        "Prepare onboarding kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

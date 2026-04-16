@@ -1,0 +1,298 @@
+{
+  "deal_id": "DEAL-0057",
+  "company": {
+    "name": "CompassVision",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 17020721,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6100.0,
+    "seats": 7,
+    "price_per_seat_monthly": 75.1,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 15.6,
+    "sales_cycle_days": 34,
+    "close_date": "2023-08-06",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Anika Sato",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 68
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Anika Sato at CompassVision asking about AskElephant for Sales-to-CS handoff automation. She mentioned they're currently evaluating Gong but interested in alternatives.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does AskElephant integrate with our existing CRM and support tools?",
+          "answer": "Yes, we have native integrations with all major CRMs and support platforms including Salesforce, HubSpot, Zendesk, and Intercom."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand CompassVision's current handoff process"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Sent additional resources on Sales-to-CS handoff best practices.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share case studies from similar-sized marketing agencies?",
+          "answer": "Attached three case studies from agencies in the 80-150 employee range showing 40% reduction in onboarding time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review case studies before discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-08",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Anika covered current pain points: CS team lacks context from sales calls, leading to redundant questions during onboarding. Currently piloting Gong but finding it heavyweight for their needs. Team of 7 would use the tool across sales and CS.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working and not working with your current Gong pilot?",
+          "answer": "Gong's call recording is solid, but it's built for sales teams. Our CS team finds it hard to extract the handoff details they actually need."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently handling the sales-to-CS transition?",
+          "answer": "Manually. Sales reps write a summary in Salesforce, but it's often incomplete. CS has to re-ask basic questions."
+        },
+        {
+          "by": "prospect",
+          "question": "How does AskElephant's automation differ from Gong's approach?",
+          "answer": "We're purpose-built for handoff workflows. We automatically structure call insights into CS-ready briefs with key details tagged and prioritized."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Anika's team",
+        "Share demo environment credentials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-12",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session walking through AskElephant's automation features. Anika tested the call summary generation and handoff brief automation with sample data from their recent deals. Showed strong interest in the unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get pulled into the CS handoff brief?",
+          "answer": "Absolutely. You can configure custom templates per deal type or customer segment."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for our CS team?",
+          "answer": "Most teams are fully onboarded within a week. We provide dedicated training sessions and documentation."
+        },
+        {
+          "by": "rep",
+          "question": "Are there other stakeholders who should see this before moving forward?",
+          "answer": "Our VP of Sales should probably be looped in, but I can champion this internally. Let me handle that."
+        }
+      ],
+      "objections": [
+        "Anika noted that getting budget approval might take longer than expected since this wasn't in the original quarterly plan."
+      ],
+      "next_steps": [
+        "Anika to socialize internally with Sales leadership",
+        "Send formal proposal with pricing breakdown"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 7 seats on unlimited automation plan at $6,100 ACV. Included ROI calculator showing estimated time savings for CS team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review proposal internally",
+        "Schedule call to discuss pricing and terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-07-26",
+      "type": "negotiation_call",
+      "duration_minutes": 16,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing and contract terms. Anika mentioned budget constraints and asked about discounting. Discussed the gap between our proposal and the Gong pricing they'd seen.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the $6,100 price point? Gong quoted us lower for their starter tier.",
+          "answer": "Our unlimited automation tier includes features Gong charges extra for. Let me see what we can do on a multi-year commit."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally within the next two weeks. We want something in place before Q3 planning."
+        }
+      ],
+      "objections": [
+        "Price sensitivity compared to Gong's entry-level offering",
+        "Anika mentioned needing to get her manager's sign-off on budget allocation"
+      ],
+      "next_steps": [
+        "Explore discount options for annual prepay",
+        "Anika to connect rep with VP of Sales for alignment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-07-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal offering 12% discount for annual prepay, bringing ACV to $5,368. Reiterated value differentiation vs Gong for CS-specific workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month pilot instead of full annual commit?",
+          "answer": "We can structure a 6-month pilot at the standard rate, with the discount applying if you convert to annual after the pilot."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Anika to present options to leadership",
+        "Schedule meeting with VP of Sales to address alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-06",
+      "type": "exec_meeting",
+      "duration_minutes": 48,
+      "person_name": "Anika Sato",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Anika present, but VP of Sales did not attend. Anika represented leadership perspective and walked through internal requirements. Discussed implementation timeline, training plan, and integration needs. She confirmed budget approval path but noted final sign-off would come from her VP.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is your VP of Sales aligned on prioritizing this for Q3?",
+          "answer": "He's supportive in principle, but he's been hard to pin down for a meeting. I'm confident I can get his approval once we finalize terms."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like in the first 30 days?",
+          "answer": "You'll have a dedicated CSM, weekly check-ins, and custom training sessions for both your sales and CS teams."
+        },
+        {
+          "by": "prospect",
+          "question": "If we move forward this week, when could we go live?",
+          "answer": "Implementation typically takes 2-3 weeks. We could target early May if we kick off by end of this week."
+        }
+      ],
+      "objections": [
+        "Lack of direct VP engagement raised concerns about final approval process"
+      ],
+      "next_steps": [
+        "Anika to secure VP sign-off on revised proposal",
+        "Send contract for legal review",
+        "Schedule implementation kickoff pending approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "deal_id": "DEAL-0865",
+  "company": {
+    "name": "QuantumStudio",
+    "industry": "SaaS/Tech",
+    "employee_count": 923,
+    "annual_revenue": 139071837,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17600.0,
+    "seats": 29,
+    "price_per_seat_monthly": 60.69,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.8,
+    "sales_cycle_days": 123,
+    "close_date": "2025-01-29",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Elena Desai",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 16
+    },
+    {
+      "name": "Caleb Jackson",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 49
+    },
+    {
+      "name": "Lucas Torres",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 1
+    },
+    {
+      "name": "Peyton Roberts",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 11.2,
+      "rescheduled": false,
+      "ai_summary": "Elena Desai from QuantumStudio submitted an inbound request expressing interest in conversation intelligence solutions for their sales team. Initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with calendar link",
+        "Qualify use case and team size"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent thanking Elena for reaching out. Provided overview of platform capabilities and requested time to discuss their specific needs around call recording and coaching.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our current tech stack?",
+          "answer": "Yes, we have native integrations with Salesforce and most major CRMs and communication tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Prepare discovery questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-04",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Elena to understand QuantumStudio's current sales process. They have 29 sales reps struggling with inconsistent coaching. Currently not using any conversation intelligence tool but evaluating options including Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for conversation intelligence right now?",
+          "answer": "We've grown quickly to 29 reps and our coaching is inconsistent. Leadership wants visibility into what's actually happening on calls."
+        },
+        {
+          "by": "rep",
+          "question": "Are you looking at other solutions?",
+          "answer": "Yes, we're talking to Gong as well. Still early in our evaluation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive discovery call scheduled",
+        "Send case studies relevant to SaaS companies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-09",
+      "type": "follow_up_call",
+      "duration_minutes": 6,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to confirm discovery agenda and ensure Elena has stakeholder alignment. Confirmed CEO Caleb Jackson is supportive of the initiative.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in our discovery conversation?",
+          "answer": "I'm leading this, but Caleb our CEO cares about this deeply. Sales managers Lucas and Peyton will be end users."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare comprehensive discovery call",
+        "Research QuantumStudio's sales motion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-17",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery call to review Elena's tech stack and current pain points in detail. Discussed their current manual QA process and lack of automated coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you handling call review and coaching today?",
+          "answer": "Managers manually listen to calls when they have time, which isn't often. Very ad-hoc and inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform automate coaching recommendations based on call patterns?",
+          "answer": "Absolutely. Our AI identifies improvement opportunities and can trigger automated coaching workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full discovery call scheduled",
+        "Prepare demo scenarios"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-23",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call covering QuantumStudio's entire sales org structure, pain points, and desired outcomes. Elena emphasized need for both call recording and proactive coaching. Timeline is 6-8 weeks to make a decision. Budget concerns surfaced around pricing compared to alternatives.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like 6 months after implementing this?",
+          "answer": "Consistent coaching across all reps, visibility into pipeline health from conversation data, and improved win rates."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We want something in place by end of Q2, so 6-8 weeks ideally."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong?",
+          "answer": "We're typically more competitive, especially for mid-market companies. I'll show you detailed pricing options in our proposal."
+        }
+      ],
+      "objections": [
+        "Budget is a concern - we need to make sure the ROI is clear to get CFO approval"
+      ],
+      "next_steps": [
+        "Schedule product demo",
+        "Prepare ROI analysis",
+        "Send discovery recap"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Discovery recap email summarizing QuantumStudio's needs: 29 seats, focus on call recording and automated coaching, 6-8 week timeline. Confirmed demo scheduled for next week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo",
+        "Build ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-04",
+      "type": "follow_up_call",
+      "duration_minutes": 5,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick check-in call before demo to confirm Elena's priorities and who will attend. Confirmed she wants to see coaching automation features specifically.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What should we prioritize showing in the demo?",
+          "answer": "Really want to see the coaching automation piece - that's a differentiator we're looking for."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final demo prep",
+        "Ensure coaching workflows featured prominently"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with agenda and confirmation of attendees. Included a brief video showing the coaching automation feature Elena specifically requested.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo tomorrow",
+        "Have pricing scenarios ready"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-11-19",
+      "type": "demo",
+      "duration_minutes": 31,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo for Elena showcasing call recording, AI-powered insights, and automated coaching workflows. She was particularly impressed with the coaching automation but asked detailed questions about implementation timeline and change management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks for technical setup, then 4-6 weeks for full adoption with change management support."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and support do you provide during rollout?",
+          "answer": "We provide dedicated onboarding, manager training, and 30 days of white-glove support."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Gong?",
+          "answer": "Honestly, the coaching automation is more advanced here. But we're still evaluating pricing and overall fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo recap and ROI analysis",
+        "Schedule exec meeting with CEO",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-11-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Demo follow-up email with recording, feature summary, and ROI calculator showing projected value based on their team size and sales cycle metrics.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment call",
+        "Prepare pricing proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-11-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on demo feedback and proposing executive meeting with CEO Caleb Jackson to align on strategic value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over preliminary pricing so we can discuss internally before the exec meeting?",
+          "answer": "I'll put together a few options based on your use case and send over tomorrow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing options",
+        "Schedule exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-12-10",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Caleb Jackson",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief introductory meeting with CEO Caleb Jackson. Discussed strategic importance of sales effectiveness and his goals for the team. Confirmed he's supportive and will be involved in final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest concern about the current sales organization?",
+          "answer": "Inconsistent performance across reps. We need better coaching and visibility into what's working."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule deeper exec conversation",
+        "Prepare business case presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-12-14",
+      "type": "exec_meeting",
+      "duration_minutes": 47,
+      "person_name": "Caleb Jackson",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth executive meeting with Caleb covering strategic value, implementation approach, and business case. He's aligned on value but wants to understand total cost of ownership including change management effort. Asked about pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the total investment including implementation and training?",
+          "answer": "Implementation and training are included in the annual contract. Total investment would be the seat licenses plus the automation tier."
+        },
+        {
+          "by": "prospect",
+          "question": "How much flexibility do you have on pricing?",
+          "answer": "I can work with you on the right package and structure. Let me understand your budget parameters."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for you?",
+          "answer": "If the pricing is competitive with Gong and the coaching automation delivers what we saw in the demo, we're ready to move."
+        }
+      ],
+      "objections": [
+        "Need to stay within budget constraints while getting the features we need"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Follow up with Elena on procurement process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-12-22",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Elena walking through pricing options for 29 seats with unlimited automation. Discussed three-tier proposal. She indicated the standard pricing is above their budget and asked what's possible.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for 29 seats with the unlimited automation tier?",
+          "answer": "List price is $25,800 annually. For a multi-year commitment I can get closer to your budget."
+        },
+        {
+          "by": "rep",
+          "question": "What budget are you working with?",
+          "answer": "We're targeting around $18k annually. I know that's a significant discount but it's what we have allocated."
+        }
+      ],
+      "objections": [
+        "Pricing needs to come down significantly to fit our budget"
+      ],
+      "next_steps": [
+        "Discuss discount approval internally",
+        "Loop in procurement contact Lucas"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-12-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Email following up on pricing discussion. Requested introduction to procurement lead Lucas Torres to understand contracting process and timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Connect with Lucas on procurement",
+        "Prepare revised pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-01-02",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Elena to discuss revised pricing scenario. Presented option at $17,600 (31.8% discount) with annual commitment. She's taking it to Caleb and Lucas for approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this your final best price?",
+          "answer": "This is the best I can do while including the unlimited automation tier you need. It requires VP approval on my end."
+        },
+        {
+          "by": "rep",
+          "question": "What's your confidence level in moving forward at this price?",
+          "answer": "High if we can get through procurement. I need to confirm with Caleb and Lucas, but this should work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to review with exec team",
+        "Prepare contract for legal review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-01-11",
+      "type": "exec_meeting",
+      "duration_minutes": 34,
+      "person_name": "Caleb Jackson",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Caleb to review final pricing proposal and contract terms. He's supportive but raised questions about contract flexibility and renewal terms. Wants to ensure they're not locked into unfavorable terms if needs change.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if our team size changes significantly during the contract term?",
+          "answer": "We have flex provisions for seat changes. You can add seats anytime; reductions are addressed at renewal."
+        },
+        {
+          "by": "prospect",
+          "question": "What are the renewal terms?",
+          "answer": "Standard annual renewal with 60-day notice. Pricing typically increases 5-7% annually but we can lock year two pricing now."
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on moving forward with this structure?",
+          "answer": "Yes, pending final contract review by Lucas and our legal team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Lucas for procurement review",
+        "Address any legal redlines"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-01-16",
+      "type": "negotiation_call",
+      "duration_minutes": 2,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call with Elena confirming contract was sent to Lucas and legal team for review. Timeline to close is 1-2 weeks pending legal approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal feedback",
+        "Be responsive to contract questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-01-22",
+      "type": "negotiation_call",
+      "duration_minutes": 37,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Elena and Lucas to review legal redlines on data security, privacy terms, and termination clauses. Several back-and-forth discussions on liability caps and data retention policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you accept our standard liability cap language?",
+          "answer": "I need to check with our legal team. The standard cap is 12 months of fees - is that acceptable?"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy if we terminate?",
+          "answer": "30-day grace period for data export, then secure deletion per our privacy policy."
+        },
+        {
+          "by": "rep",
+          "question": "Are these the only blocking issues for signature?",
+          "answer": "Yes, once we resolve these points we're ready to sign."
+        }
+      ],
+      "objections": [
+        "Data security and privacy terms need to meet our compliance requirements"
+      ],
+      "next_steps": [
+        "Get legal approval on liability terms",
+        "Revise contract with agreed changes"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2025-01-28",
+      "type": "negotiation_call",
+      "duration_minutes": 39,
+      "person_name": "Elena Desai",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call to review revised contract with mutually agreed terms. Elena, Lucas, and legal team confirmed all redlines addressed. Contract approved for signature pending final exec sign-off from Caleb. Timeline to close is 3-5 business days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are we good to move to signature?",
+          "answer": "Yes, all terms are approved. Lucas is routing to Caleb for final signature."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation kickoff timeline once signed?",
+          "answer": "We'll schedule kickoff within 5 business days of signed contract. CSM will reach out directly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await contract signature",
+        "Prepare implementation team for kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

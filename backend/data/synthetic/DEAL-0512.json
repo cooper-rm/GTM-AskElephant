@@ -1,0 +1,682 @@
+{
+  "deal_id": "DEAL-0512",
+  "company": {
+    "name": "HarborPulse",
+    "industry": "SaaS/Tech",
+    "employee_count": 799,
+    "annual_revenue": 106516999,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 22400.0,
+    "seats": 23,
+    "price_per_seat_monthly": 80.76,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 9.3,
+    "sales_cycle_days": 81,
+    "close_date": "2023-05-25",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Amelia Pereira",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ivy Gupta",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Amelia Pereira expressing interest in CRM automation solutions. She mentioned the team is currently evaluating tools to streamline their sales process and improve efficiency.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-05",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Amelia. Discussed HarborPulse's current CRM workflow and pain points around manual data entry. Amelia mentioned they're looking at a few options including Fireflies. Team size is around 23 sales reps who would use the automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What types of integrations do you support with our existing CRM?",
+          "answer": "We support native integrations with all major CRMs including Salesforce, HubSpot, and custom APIs for others."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for this evaluation?",
+          "answer": "Our sales team is spending too much time on manual note-taking and follow-ups. We need to free them up to focus on selling."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview",
+        "Schedule follow-up call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview deck and case studies from similar mid-market SaaS companies. Amelia responded positively and confirmed interest in continuing the conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any case studies specific to sales teams our size?",
+          "answer": "Yes, attached two case studies from 20-30 seat sales teams in SaaS."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive on use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-03-13",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call continued with focus on specific automation workflows. Amelia walked through their current process for call logging, email tracking, and task creation. Discussed how unlimited automation tier would benefit their team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current tech stack look like?",
+          "answer": "We're on Salesforce for CRM, using Outreach for sequences, and evaluating conversation intelligence tools."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "Our unlimited automation tier provides more comprehensive CRM integration beyond just transcription. Happy to show detailed comparison."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost compared to competitors"
+      ],
+      "next_steps": [
+        "Prepare pricing comparison",
+        "Schedule discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-18",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call to clarify budget parameters and decision-making process. Amelia confirmed $20-25K budget range for 23 seats. Mentioned she'll need buy-in from her sales manager Ivy for technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "I'll champion this, but Ivy Gupta, our Sales Manager, will need to validate the technical fit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-03-22",
+      "type": "discovery_call",
+      "duration_minutes": 29,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into HarborPulse's sales process, pain points, and success metrics. Amelia outlined current workflow bottlenecks and goals to improve rep productivity by 30%. Discussed unlimited automation capabilities and how they'd map to their workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does success look like for this investment?",
+          "answer": "We need reps spending 30% less time on admin work and more accurate CRM data to improve forecasting."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system handle our custom Salesforce fields and objects?",
+          "answer": "Yes, our platform is fully customizable to map to any Salesforce schema."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks with dedicated onboarding support."
+        }
+      ],
+      "objections": [
+        "Concerned about change management with the team"
+      ],
+      "next_steps": [
+        "Send implementation plan",
+        "Schedule demo",
+        "Connect with Ivy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-26",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to confirm demo agenda and ensure we're addressing key priorities. Amelia requested focus on automation workflows and Salesforce integration during demo.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the must-see features for the demo?",
+          "answer": "Show me the automated call logging, email tracking, and how it handles our custom fields."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Sent demo confirmation email with agenda and prep materials. Amelia confirmed attendance and mentioned she's excited to see the platform in action.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-02",
+      "type": "demo",
+      "duration_minutes": 26,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled from original time. When conducted, showed core automation workflows, Salesforce integration, and unlimited automation tier capabilities. Amelia engaged positively, asked detailed questions about customization. Note: This meeting was rescheduled once.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation rules for different rep segments?",
+          "answer": "Yes, you can create role-based automation rules and workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Fireflies offers?",
+          "answer": "Fireflies focuses on transcription; we provide end-to-end CRM automation including tasks, field updates, and intelligent routing."
+        }
+      ],
+      "objections": [
+        "Need to see how it performs with our actual data"
+      ],
+      "next_steps": [
+        "Set up technical evaluation with Ivy",
+        "Provide trial access"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-04-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo recording, feature documentation, and next steps for technical evaluation. Amelia responded confirming she'll loop in Ivy for technical validation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate technical eval with Ivy"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-04-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Check-in email to Amelia confirming Ivy's availability for technical evaluation. Amelia confirmed Ivy is available next week and shared initial positive feedback on the demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-04-18",
+      "type": "technical_eval",
+      "duration_minutes": 28,
+      "person_name": "Ivy Gupta",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Ivy Gupta. Reviewed technical architecture, API capabilities, and Salesforce integration specs. Ivy asked detailed questions about data security, API rate limits, and custom field mapping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your data retention and security policies?",
+          "answer": "SOC 2 Type II certified, data encrypted at rest and in transit, configurable retention policies."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle API rate limits with Salesforce?",
+          "answer": "We use intelligent batching and caching to stay well within Salesforce limits even for high-volume teams."
+        }
+      ],
+      "objections": [
+        "Need to validate performance with our data volume"
+      ],
+      "next_steps": [
+        "Provide technical documentation",
+        "Schedule hands-on eval session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-04-20",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Ivy Gupta",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended hands-on technical evaluation with Ivy. Set up trial environment with HarborPulse's Salesforce sandbox. Ivy tested automation workflows, custom field mapping, and integration performance. Generally positive feedback but noted need to align on final configuration details.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we adjust automation rules post-implementation without your support?",
+          "answer": "Yes, your admins will have full access to configure and modify automation rules through our UI."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in ongoing support?",
+          "answer": "Unlimited automation tier includes priority support, dedicated CSM, and quarterly business reviews."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical concerns or blockers we should address?",
+          "answer": "No major blockers. Need to finalize custom field mapping and automation rules before rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize technical requirements",
+        "Move to proposal stage"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal email to Amelia with pricing for 23 seats on unlimited automation tier ($22,400 ACV). Included implementation plan, support details, and ROI projection based on discovery conversations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs. multi-year pricing?",
+          "answer": "Yes, we offer discounts for multi-year commitments. Let's discuss on our next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-04-29",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Amelia. Walked through pricing, contract terms, and implementation timeline. Amelia mentioned the price is slightly above initial budget expectations and asked about discount options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you come down on price to fit our $20K budget?",
+          "answer": "Let me see what flexibility we have. The unlimited tier provides significant value, but I'll work with my team."
+        }
+      ],
+      "objections": [
+        "Pricing is above initial budget"
+      ],
+      "next_steps": [
+        "Review discount options",
+        "Follow up with revised proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-05-03",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued proposal discussion. Reviewed value justification and ROI based on productivity gains. Amelia acknowledged the value but reiterated budget constraints. Discussed payment terms and contract length options.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would a multi-year contract help with budget planning?",
+          "answer": "Possibly, but we're cautious about long commitments with new vendors. Would prefer annual to start."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price for 23 seats annual?",
+          "answer": "Let me get approval for a discount. I'll come back with our best offer."
+        }
+      ],
+      "objections": [
+        "Hesitant on multi-year commitment",
+        "Price sensitivity"
+      ],
+      "next_steps": [
+        "Get approval for discount",
+        "Present final pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-05-08",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to discuss pricing adjustments. Presented revised proposal at $21,000 (6% discount) for annual contract. Amelia appreciated the movement but mentioned she needs to get final sign-off from leadership.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you do $20K to hit our budget exactly?",
+          "answer": "The $21K pricing is at my approval limit. I'd need executive approval to go lower, which could delay the deal."
+        }
+      ],
+      "objections": [
+        "Still slightly over budget"
+      ],
+      "next_steps": [
+        "Amelia to get leadership approval",
+        "Finalize terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-05-11",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call. Discussed payment terms, annual vs. quarterly billing, and contract start date. Amelia working to justify the $21K investment internally. Mentioned competition from Fireflies is still a factor.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does Fireflies price compare at this seat count?",
+          "answer": "Fireflies is lower cost but offers basic transcription. Our CRM automation provides significantly more value and ROI through productivity gains."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for leadership?",
+          "answer": "Strong ROI case and confidence we can deliver on the productivity improvements. Also need to move fast to hit Q2 goals."
+        }
+      ],
+      "objections": [
+        "Competitive pressure from Fireflies pricing"
+      ],
+      "next_steps": [
+        "Strengthen ROI documentation",
+        "Request executive meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-05-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with enhanced ROI analysis and customer success stories showing productivity improvements. Amelia responded saying she's presenting to leadership next week and requested executive support for that conversation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-05-20",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief executive meeting with Amelia and her Director. Presented high-level value proposition and answered strategic questions about platform roadmap and long-term partnership. Director seemed cautiously interested but non-committal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your product roadmap for the next 12 months?",
+          "answer": "Expanding AI capabilities, deeper analytics, and additional CRM integrations based on customer feedback."
+        },
+        {
+          "by": "rep",
+          "question": "What concerns do you have about moving forward?",
+          "answer": "Mainly price and ensuring adoption across the team. We've had mixed results with previous tools."
+        }
+      ],
+      "objections": [
+        "Concern about team adoption and change management"
+      ],
+      "next_steps": [
+        "Address adoption concerns",
+        "Provide change management resources"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2023-05-26",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Amelia Pereira",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended executive meeting to address adoption concerns and finalize decision. Presented change management plan, training resources, and success metrics. Amelia's leadership team requested additional time to evaluate against Fireflies and finalize budget allocation. No commitment made, but agreed to reconvene next week for final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your onboarding and training program look like?",
+          "answer": "Dedicated onboarding team, role-based training sessions, ongoing office hours, and self-service resources."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot group?",
+          "answer": "We can phase the rollout, but pricing is based on 23 seats as discussed."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline for final decision?",
+          "answer": "We need to make a call by end of next week to hit our Q2 implementation goals."
+        }
+      ],
+      "objections": [
+        "Still evaluating against Fireflies",
+        "Budget finalization pending"
+      ],
+      "next_steps": [
+        "Leadership to complete competitive eval",
+        "Final decision expected next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

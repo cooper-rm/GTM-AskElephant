@@ -1,0 +1,574 @@
+{
+  "deal_id": "DEAL-0480",
+  "company": {
+    "name": "IronCapital",
+    "industry": "Fintech",
+    "employee_count": 171,
+    "annual_revenue": 24284537,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12500.0,
+    "seats": 17,
+    "price_per_seat_monthly": 64.49,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.5,
+    "sales_cycle_days": 72,
+    "close_date": "2024-07-27",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Derek Pham",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ruby Agarwal",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 12
+    },
+    {
+      "name": "Michael Hill",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Penelope Mitchell",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-30",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Derek Pham introducing AskElephant's CRM automation capabilities for CS teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-05-01",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request and message sent to Derek Pham highlighting automation use cases for customer success operations. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-05-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study from another fintech company. Derek responded expressing interest in learning more about workflow automation for his CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have time for a quick call next week to discuss our CS workflow challenges?",
+          "answer": "Absolutely, I'll send over some times that work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-08",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message with calendar link for qualification call. No additional response needed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-17",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Derek to understand IronCapital's CS operations. Derek described manual processes for customer onboarding and escalation routing that consume significant team time. He manages a team of 12 and is looking for automation to scale without headcount.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are the biggest time sinks for your CS team right now?",
+          "answer": "Manual ticket routing and customer onboarding workflows. We're spending 15-20 hours a week on things that should be automated."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing work for teams our size?",
+          "answer": "It's based on seat count and the features you need. Let's schedule a longer call to map out your workflows and I can put together a tailored recommendation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send workflow assessment template"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-19",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call to review Derek's workflow assessment. Identified 5 key automation opportunities: ticket routing, onboarding task sequences, escalation triggers, SLA monitoring, and customer health scoring. Derek mentioned they've grown 40% YoY and current tools aren't keeping up.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for these workflows?",
+          "answer": "Mix of Salesforce, Zendesk, and a lot of manual spreadsheets. Nothing talks to each other well."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating a solution like this?",
+          "answer": "I'd need to loop in our RevOps team and probably IT for any integration questions, but I can drive this internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full discovery call",
+        "Prepare integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with meeting recap, workflow diagram, and calendar link for discovery call. Derek confirmed timing and requested we include integration architecture in the discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show us how this would integrate with our existing Salesforce and Zendesk setup?",
+          "answer": "Yes, we'll walk through the integration architecture and data flow in the discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare integration demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-06-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call for tomorrow and asking if Derek wants to invite Ruby from RevOps or IT stakeholders. Derek responded he'll keep it one-on-one first and bring others in later.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-06-05",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Derek covering current state pain points, desired future state, and technical requirements. Derek shared detailed workflow maps and emphasized need for solution by end of quarter to support Q2 growth targets. Discussed 17 seats across CS and RevOps teams.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the end-of-quarter timeline?",
+          "answer": "We're hiring 5 more CS reps in Q2 and need automation in place before they start or we'll just scale the inefficiency."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond the CS team, who else would use this?",
+          "answer": "Our RevOps analyst Ruby would use it for reporting and workflow optimization. Maybe a couple account managers too."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of implementation timeline are we looking at?",
+          "answer": "Typically 2-3 weeks for core workflows, then we can phase in additional automations over the next month."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation",
+        "Prepare demo environment with IronCapital data"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Email with demo environment credentials and agenda for technical evaluation. Derek confirmed and asked to include a workflow for their customer health scoring use case specifically.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare health scoring workflow demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-06-20",
+      "type": "technical_eval",
+      "duration_minutes": 31,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session focused on ticket routing automation and onboarding sequences. Derek tested the workflow builder hands-on and asked detailed questions about conditional logic and API integrations. Expressed strong interest in the no-code interface.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger workflows based on custom Salesforce fields?",
+          "answer": "Yes, you can map any Salesforce field as a trigger condition. I'll show you the field mapping interface."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle rate limiting on the API calls?",
+          "answer": "We have built-in retry logic and batching. You can configure rate limits per integration in the settings."
+        }
+      ],
+      "objections": [
+        "Derek mentioned wanting to see more examples of complex multi-step workflows before committing"
+      ],
+      "next_steps": [
+        "Schedule second eval session",
+        "Send complex workflow examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-06-23",
+      "type": "technical_eval",
+      "duration_minutes": 74,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation with Derek covering escalation triggers, SLA monitoring, and customer health scoring. Derek built two custom workflows during the session and tested them against sample data. Discussed reporting capabilities and audit logging. Derek mentioned he'd need to get Ruby and IT involved before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of reporting comes standard versus what requires custom builds?",
+          "answer": "Standard dashboards cover workflow execution, SLA performance, and automation ROI. Custom reports can pull any data point from your workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have SOC 2 compliance documentation we can review?",
+          "answer": "Yes, I'll send over our security documentation and compliance certifications."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process look like from here?",
+          "answer": "I need to bring this to Ruby in RevOps and our IT director Michael for security review. Then if they're aligned, I can move forward with a proposal."
+        }
+      ],
+      "objections": [
+        "Derek noted the price point would need to be competitive given current budget constraints"
+      ],
+      "next_steps": [
+        "Send security documentation",
+        "Prepare proposal with pricing options",
+        "Intro to Ruby and Michael"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with security docs, compliance certifications, and proposed next steps to include Ruby and Michael. Derek responded asking for a ballpark price range before looping others in.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are we looking at for 17 seats with the automation and consulting package?",
+          "answer": "For your use case, we'd be around $15-17K annually depending on the consulting scope. I can put together a detailed proposal once we align on the exact workflows you want to prioritize."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-07-03",
+      "type": "proposal_call",
+      "duration_minutes": 5,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief proposal review call with Derek. Walked through three pricing tiers: basic automation ($9K), automation plus consulting ($15K), and enterprise ($22K). Derek indicated the middle tier makes sense but asked for a discount given their budget cycle timing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the $15K if we commit before end of month?",
+          "answer": "Let me talk to my manager about what we can do on timing-based discount. I'll get back to you tomorrow."
+        }
+      ],
+      "objections": [
+        "Derek mentioned $15K is above his initial budget target and needs to justify the ROI internally"
+      ],
+      "next_steps": [
+        "Follow up with discount approval",
+        "Send ROI calculator"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-07-09",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting with Derek to discuss ROI justification and pricing. Presented ROI analysis showing 200+ hours saved monthly and shared discount offer of $12.5K for 17 seats if closed this month. Derek seemed interested but mentioned he still needs to get Ruby and IT alignment before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for Ruby and Michael?",
+          "answer": "Ruby will want to see the reporting capabilities in detail. Michael will need the security review completed. But honestly at $12.5K this is much more manageable for our budget."
+        },
+        {
+          "by": "prospect",
+          "question": "How firm is the end-of-month deadline for this pricing?",
+          "answer": "It's tied to our Q1 quota close, so I need signature by the 31st to honor it."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule calls with Ruby and Michael",
+        "Send contract draft"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-07-16",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second exec meeting with Derek to review contract draft and implementation timeline. Derek walked through the terms and asked several questions about renewal pricing, seat expansion costs, and offboarding process. Mentioned Ruby is reviewing the reporting features and Michael has the security docs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens to pricing at renewal if we add more seats?",
+          "answer": "You lock in your per-seat rate at signing. Additional seats are priced at the same rate during your contract term."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the notice period if we need to cancel?",
+          "answer": "30 days written notice. No early termination fees if you give proper notice."
+        },
+        {
+          "by": "rep",
+          "question": "Where are Ruby and Michael at in their reviews?",
+          "answer": "Ruby is good with the reporting. Michael has a few questions about data residency I need to get answers on."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Answer IT data residency questions",
+        "Get final approval from stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-07-23",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third exec meeting with Derek to address Michael's data residency questions and finalize contract terms. Derek confirmed Ruby signed off on reporting capabilities. Discussed implementation kickoff timing and support model. Derek mentioned he still needs to run this by their CFO for final approval given the discount request.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer data residency options for US-only storage?",
+          "answer": "Yes, we have US-only data residency available. I'll add that to the contract terms."
+        },
+        {
+          "by": "rep",
+          "question": "What's the CFO approval process look like?",
+          "answer": "Derek will present it this week. He's confident it'll get approved but wanted to make sure all technical questions were answered first."
+        }
+      ],
+      "objections": [
+        "Derek noted the CFO may push back on the discount structure and want to understand the ROI justification in more detail"
+      ],
+      "next_steps": [
+        "Send ROI summary for CFO",
+        "Follow up on approval status"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-07-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Derek Pham",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with updated contract including US data residency terms and CFO-friendly ROI summary highlighting $87K in annual time savings against $12.5K investment. Derek acknowledged receipt and said he'll present to CFO on Friday.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for CFO review",
+        "Follow up after Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

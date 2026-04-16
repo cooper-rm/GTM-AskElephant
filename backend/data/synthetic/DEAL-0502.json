@@ -1,0 +1,317 @@
+{
+  "deal_id": "DEAL-0502",
+  "company": {
+    "name": "MatrixGrid",
+    "industry": "SaaS/Tech",
+    "employee_count": 404,
+    "annual_revenue": 28219279,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24200.0,
+    "seats": 33,
+    "price_per_seat_monthly": 62.14,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.2,
+    "sales_cycle_days": 56,
+    "close_date": "2023-04-06",
+    "use_case": "Onboarding automation",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Elena Kim",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    },
+    {
+      "name": "Carter Young",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 49
+    },
+    {
+      "name": "Abigail Gonzalez",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 21
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Elena Kim submitted an inbound inquiry via the website form, expressing interest in automation tools to streamline their customer onboarding process. No call content to analyze.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Elena"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-09",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Elena to understand MatrixGrid's needs. Elena confirmed they're exploring onboarding automation for their growing CS team and mentioned evaluating Chorus alongside other options. Call ended with agreement to continue exploration.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for automation right now?",
+          "answer": "Our CS team is scaling quickly with new enterprise clients, and manual onboarding workflows are creating bottlenecks. We need to free up our team for strategic work."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Chorus?",
+          "answer": "Our unlimited automation tier gives you flexibility to build workflows without usage limits, and our integration ecosystem is specifically built for CS teams rather than sales-focused."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study",
+        "Loop in technical stakeholders for discovery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with a CS automation case study and questions to prep for deeper discovery. Elena responded positively, confirming availability for next week and mentioning she'd like to involve their Implementation Lead.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should we involve from your team in the discovery conversation?",
+          "answer": "Abigail Gonzalez, our Implementation Lead, should definitely be there. She'll be hands-on with the tool."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Elena and Abigail"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-02-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call time and sharing agenda focused on workflow requirements, integration needs, and success metrics. Elena confirmed attendance for herself and Abigail.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call on scheduled date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-06",
+      "type": "demo",
+      "duration_minutes": 59,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive product demo with Elena covering MatrixGrid's specific onboarding workflows. Walked through unlimited automation capabilities, integration with their existing stack, and comparison points with Chorus. Elena engaged positively, asked detailed questions about implementation timeline and customization options. Abigail mentioned via chat they'd need API access for custom integrations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For mid-market teams with 30-40 seats, we typically see 4-6 weeks from kickoff to full deployment, with the first workflows live within 2 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we build custom workflows using your API, or are we limited to pre-built templates?",
+          "answer": "The unlimited automation tier includes full API access and custom workflow builder. You can use templates as starting points or build completely custom automations."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We're hoping to have something in place by end of Q2. Our CRO Carter Young will need to sign off on any purchase this size."
+        }
+      ],
+      "objections": [
+        "Need to ensure the implementation doesn't disrupt our current onboarding cycles during peak season"
+      ],
+      "next_steps": [
+        "Send proposal with pricing for 33 seats",
+        "Schedule executive alignment call with Carter Young"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-03-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.2,
+      "rescheduled": false,
+      "ai_summary": "Proposal email sent with pricing for 33 seats on unlimited automation tier ($24,200 ACV). Outlined implementation plan, ROI projections, and comparison matrix vs Chorus. Elena responded asking about discount possibilities given budget constraints and mentioned Carter would want to review before their exec meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Our initial budget allocation was lower than this quote.",
+          "answer": "Let me discuss options with our team. I want to make sure we can find a structure that works for both sides. Can you share what budget range you were working with?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for exec call with Carter",
+        "Review discount options internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-03-21",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Carter Young",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Carter Young (CRO) and Elena. Carter asked strategic questions about ROI, competitive positioning vs Chorus, and scalability as MatrixGrid grows. Expressed appreciation for the proposal but noted budget sensitivity. Call tone was professional but cautious around pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of ROI are we realistically looking at in year one?",
+          "answer": "Based on your team size and current manual hours spent on onboarding, we typically see 200-300 hours saved per quarter, which translates to roughly 2.5x ROI in year one for CS automation."
+        },
+        {
+          "by": "prospect",
+          "question": "Why should we choose you over Chorus, given they're offering a lower price point?",
+          "answer": "Chorus is built primarily for sales call intelligence. Our platform is purpose-built for CS workflows with unlimited automation, whereas Chorus charges per automation run. For your use case, you'd hit usage limits quickly with them."
+        }
+      ],
+      "objections": [
+        "The pricing is above our allocated budget for this initiative"
+      ],
+      "next_steps": [
+        "Follow up with revised pricing options",
+        "Schedule pricing negotiation call with Elena"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-03-28",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Elena Kim",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Elena to discuss discount options. Presented a 30% discount structure to meet their budget constraints while maintaining the unlimited automation tier. Elena appreciated the flexibility and confirmed this brings it within range, but wants to verify final approval with Carter before committing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "If we can work within your budget, what's the path to getting this finalized?",
+          "answer": "I need Carter's final sign-off, but if we're at this price point I'm confident we can move forward. Let me brief him and set up a quick call to close out any remaining questions."
+        },
+        {
+          "by": "prospect",
+          "question": "Is this discount contingent on any specific contract terms or commitments?",
+          "answer": "We'd want an annual commitment rather than month-to-month, and ideally a case study partnership once you're live, but no other strings attached."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to brief Carter on revised pricing",
+        "Schedule final exec call to close"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-07",
+      "type": "exec_meeting",
+      "duration_minutes": 19,
+      "person_name": "Carter Young",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive call with Carter Young to confirm revised pricing and close the deal. Carter acknowledged the discount met their budget requirements and confirmed alignment on implementation timeline. Discussed contract terms, annual commitment, and case study partnership. Carter agreed to move forward pending legal review of the contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the case study partnership entail on our end?",
+          "answer": "Typically a 30-minute interview after you're live for 90 days, focusing on results and workflows. We'd share a draft for your approval before publishing anything."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for legal review",
+        "Prepare implementation kickoff plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

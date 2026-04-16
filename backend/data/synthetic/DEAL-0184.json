@@ -1,0 +1,162 @@
+{
+  "deal_id": "DEAL-0184",
+  "company": {
+    "name": "RidgeAI",
+    "industry": "Professional Services",
+    "employee_count": 50,
+    "annual_revenue": 5059654,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7800.0,
+    "seats": 11,
+    "price_per_seat_monthly": 58.32,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 34.5,
+    "sales_cycle_days": 18,
+    "close_date": "2023-07-20",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Liam Nakamura",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 34
+    },
+    {
+      "name": "Leo Lewis",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-21",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Liam Nakamura",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Initial outreach via LinkedIn to Liam Nakamura at RidgeAI regarding CRM automation challenges. Liam responded positively, mentioned current frustrations with manual data entry and looking at options including Clari.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently exploring ways to automate your CRM workflows?",
+          "answer": "Yes, our sales team is spending way too much time on data entry. We're evaluating a few options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Nakamura",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call timing. Liam mentioned they're also evaluating Clari but are concerned about pricing and ease of implementation. Expressed interest in learning more about our unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your implementation timeline compare to other platforms?",
+          "answer": "Typically 2-3 weeks for a team your size, with dedicated onboarding support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo link and case study",
+        "Confirm demo session attendees"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Nakamura",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up. Liam confirmed the team liked the automation capabilities and UI. He mentioned Leo Lewis from implementation will be the primary user. No executive sponsor identified yet. Liam asked about pricing flexibility given budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discounting do you typically offer for teams under 15 seats?",
+          "answer": "We can work with you on pricing based on commitment length and use case fit. Let's schedule a call to discuss."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-22",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Liam Nakamura",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion focused on 11-seat deployment for unlimited automation tier. Liam pushed hard on price, comparing to Clari's quoted offer. Expressed concern about getting budget approval without VP sign-off. Negotiated down to $7,800 ACV (34.5% discount) to match budget constraints. Liam committed to moving forward pending final internal alignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the pricing Clari quoted us for a similar seat count?",
+          "answer": "We can get close with a multi-year commitment or if we can engage your VP to discuss strategic value."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the final approval?",
+          "answer": "Honestly, probably just me and Leo at this point. Budget is tight so I'm trying to keep this under my authority level."
+        }
+      ],
+      "objections": [
+        "Price is still higher than we budgeted for this quarter"
+      ],
+      "next_steps": [
+        "Send revised proposal at $7,800 ACV",
+        "Liam to confirm with finance by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 61,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

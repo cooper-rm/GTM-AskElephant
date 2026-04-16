@@ -1,0 +1,220 @@
+{
+  "deal_id": "DEAL-0729",
+  "company": {
+    "name": "PioneerHealth",
+    "industry": "SaaS/Tech",
+    "employee_count": 78,
+    "annual_revenue": 14164823,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 9600.0,
+    "seats": 10,
+    "price_per_seat_monthly": 79.48,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 10.7,
+    "sales_cycle_days": 17,
+    "close_date": "2025-11-21",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Aaliyah Ryan",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 26
+    },
+    {
+      "name": "Hiroshi Chen",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 29
+    },
+    {
+      "name": "Maria Nguyen",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aaliyah Ryan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aaliyah Ryan (VP of CS) expressing interest in call recording and coaching tools for their CS team. Currently evaluating Fireflies but open to alternatives. Brief discovery of their 10-person team and coaching workflow needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing tech stack - we use Salesforce and Intercom?",
+          "answer": "Yes, we have native integrations with both Salesforce and Intercom, plus API access for custom workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send over product overview and integration documentation",
+        "Schedule qualification call to understand requirements in detail"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aaliyah Ryan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product materials and proposed times for qualification call. Aaliyah responded positively, confirmed interest in call recording automation and coaching analytics. Mentioned they're also looking at Fireflies but appreciate our coaching-specific features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a team our size?",
+          "answer": "For 10 seats, implementation typically takes 1-2 weeks including team training and workflow setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-11",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Aaliyah Ryan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Technical evaluation call with Aaliyah (rescheduled once due to prospect conflict). Deep dive into call recording workflows, coaching scorecards, and automation capabilities. Aaliyah compared features directly with Fireflies demo they saw last week - particularly interested in our custom coaching templates and manager dashboards. Walked through integration setup and discussed team rollout approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards per team, or are they standardized?",
+          "answer": "Fully customizable - you can build different scorecards for different teams or use cases, with weighted criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your transcription accuracy compare to Fireflies, especially with technical terminology?",
+          "answer": "We use the same underlying speech-to-text engine but offer custom vocabulary training for domain-specific terms, which improves accuracy for technical conversations."
+        },
+        {
+          "by": "rep",
+          "question": "What are your primary coaching goals - onboarding new reps or ongoing performance improvement?",
+          "answer": "Both, but we're really struggling with consistency in our customer onboarding calls right now. We need better visibility into how AMs are handling new customers."
+        }
+      ],
+      "objections": [
+        "Fireflies is about 30% cheaper on a per-seat basis - help me understand the value difference for coaching use cases."
+      ],
+      "next_steps": [
+        "Share custom coaching scorecard examples and case study from similar CS team",
+        "Prepare pricing proposal for 10 seats with unlimited automation tier",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-15",
+      "type": "proposal_call",
+      "duration_minutes": 30,
+      "person_name": "Aaliyah Ryan",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Aaliyah. Presented $9,600 ACV for 10 seats on unlimited automation plan. Aaliyah sees clear value in coaching features vs Fireflies but needs to validate budget and get exec approval from Hiroshi Chen (CRO). Discussed ROI framework focused on faster AM ramp time and improved customer retention from better onboarding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on annual vs quarterly payment terms?",
+          "answer": "We can accommodate quarterly billing with a small processing fee, or offer 5% discount for annual prepay."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline - do you have a specific rollout date in mind?",
+          "answer": "We'd like to roll out by end of quarter if possible. Budget is already approved for a coaching tool, but Hiroshi will need to sign off on the specific vendor and amount."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Aaliyah will socialize proposal with Hiroshi and procurement",
+        "Schedule exec meeting with Hiroshi to align on business value and close",
+        "Send over ROI calculator and CS coaching case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-19",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Hiroshi Chen",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Hiroshi Chen (CRO) and Aaliyah (rescheduled once due to Hiroshi's conflict). Discussed strategic value of coaching platform for CS team performance and customer retention. Hiroshi validated budget fit and asked clarifying questions on contract terms and data security. Maria Nguyen (Account Manager) joined briefly to confirm procurement process. Hiroshi comfortable with pricing but requested minor contract language adjustments around data retention.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy - how long are call recordings stored?",
+          "answer": "Standard retention is 2 years, but you have full control to delete recordings anytime or customize retention per compliance needs."
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any additional fees we should expect - implementation, training, support?",
+          "answer": "No hidden fees - implementation and training are included, and support is part of the subscription at this tier."
+        },
+        {
+          "by": "rep",
+          "question": "Hiroshi, from your perspective, what's the biggest risk in your CS org right now that better coaching could address?",
+          "answer": "Honestly, retention. We've grown fast and our AMs have inconsistent customer onboarding approaches. Better coaching visibility could help us standardize and improve those critical first 90 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal to review contract with requested data retention language",
+        "Maria to process through procurement",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

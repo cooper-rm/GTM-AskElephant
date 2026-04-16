@@ -1,0 +1,631 @@
+{
+  "deal_id": "DEAL-0761",
+  "company": {
+    "name": "PeakDynamics",
+    "industry": "PropTech",
+    "employee_count": 1000,
+    "annual_revenue": 95692578,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19600.0,
+    "seats": 20,
+    "price_per_seat_monthly": 80.23,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 9.9,
+    "sales_cycle_days": 103,
+    "close_date": "2024-08-03",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Isabella Yoon",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 47
+    },
+    {
+      "name": "Ade Thomas",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 9
+    },
+    {
+      "name": "Megan Murphy",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    },
+    {
+      "name": "Hazel Ito",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-04-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Isabella Yoon submitted an inbound demo request via website form. Interested in call recording and coaching tools for their CS team. Currently evaluating alternatives including Fireflies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-04-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with calendar link and preliminary questions about team size and current workflow. Isabella responded confirming 20-seat requirement and interest in automation features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How many team members would need access?",
+          "answer": "Around 20 across CS and Sales"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call time"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Sent discovery call confirmation with agenda. Isabella confirmed availability and mentioned they're looking to implement before Q2 planning cycle.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-05-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 13.1,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email with discovery framework and use case examples in PropTech. Isabella acknowledged and shared they're comparing against Fireflies based on peer recommendation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and Zendesk?",
+          "answer": "Yes, native integrations for both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call tomorrow at 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-05-08",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Isabella covered current pain points: inconsistent call documentation, lack of coaching insights, manual CRM updates. Team of 20 (12 CS, 8 Sales) needs recording, transcription, and sentiment analysis. Budget around $20K annually. Fireflies is primary alternative but lacks automation they need.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your automation different from Fireflies?",
+          "answer": "We offer workflow triggers and custom playbooks, not just transcription"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Ade in RevOps will handle technical eval, Megan in Sales for procurement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up with pricing framework",
+        "Schedule demo for next week",
+        "Loop in Ade for technical questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-05-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Sent discovery recap with pricing overview for 20-seat unlimited automation plan ($19,600 ACV). Included ROI calculator and PropTech case study. Isabella responded positively, requested demo with focus on coaching workflows.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Isabella and team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-05-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.1,
+      "rescheduled": false,
+      "ai_summary": "Demo scheduling email with proposed times. Isabella confirmed Thursday works and will bring Ade from RevOps. Requested focus on Salesforce integration and custom playbook setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we see the coaching dashboard during the demo?",
+          "answer": "Absolutely, we'll walk through the full coaching workflow"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday 3pm with Isabella and Ade"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-05-24",
+      "type": "follow_up_call",
+      "duration_minutes": 12,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo alignment call to confirm use cases and attendees. Isabella mentioned leadership is supportive but hasn't been directly involved yet. Confirmed Ade will evaluate integration complexity and Megan will join later for commercial discussions.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Should we plan an exec briefing with your VP or Director?",
+          "answer": "Maybe later\u2014let's get through technical eval first"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize demo agenda",
+        "Prepare Salesforce integration overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-05-29",
+      "type": "demo",
+      "duration_minutes": 32,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Isabella covering call recording, auto-transcription, sentiment tagging, and coaching playbooks. Walked through Salesforce sync and custom automation workflows. Isabella engaged throughout, liked coaching features and automation depth compared to Fireflies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "2-3 weeks for standard setup with Salesforce and Zendesk"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the sentiment model for our industry?",
+          "answer": "Yes, we offer custom training for enterprise plans"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical deep-dive with Ade",
+        "Send demo recording and feature comparison vs Fireflies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-06-04",
+      "type": "technical_eval",
+      "duration_minutes": 22,
+      "person_name": "Ade Thomas",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ade Thomas. Reviewed API documentation, Salesforce field mapping, data retention policies, and security compliance (SOC 2). Ade asked detailed questions about webhook reliability and custom object support. Positive technical feedback but noted need for internal security review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support custom Salesforce objects or just standard?",
+          "answer": "Both\u2014we can map to any custom object with API access"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data residency policy for EU customers?",
+          "answer": "US-based storage standard, EU residency available on request"
+        }
+      ],
+      "objections": [
+        "Need to run this through InfoSec for compliance approval"
+      ],
+      "next_steps": [
+        "Send security documentation and SOC 2 report",
+        "Intro to Solutions Engineer for integration planning"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-06-10",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Isabella. Presented $19,600/year for 20 seats with unlimited automation. Isabella receptive to pricing but mentioned Fireflies quoted significantly lower. Discussed ROI based on coaching time saved and CRM automation. Isabella to review internally with Megan.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in unlimited automation vs your lower tiers?",
+          "answer": "Unlimited includes custom playbooks, workflow triggers, and API access\u2014lower tiers cap automations at 10/month"
+        }
+      ],
+      "objections": [
+        "Fireflies pricing is about 40% lower for similar seat count"
+      ],
+      "next_steps": [
+        "Send formal proposal document",
+        "Schedule follow-up with Megan for procurement alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-06-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal document with detailed feature comparison against Fireflies, highlighting automation capabilities, coaching workflows, and implementation support. Isabella acknowledged receipt and said she's meeting with Megan and Ade this week to discuss next steps.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up after internal review meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-06-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on internal review progress. Isabella responded that team is aligned on value but pricing gap with Fireflies is a sticking point. Asked if there's flexibility on per-seat cost or contract length.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would a multi-year commitment reduce the annual cost?",
+          "answer": "Yes, we can explore 10-15% discount for 2-3 year terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare pricing scenarios for multi-year terms",
+        "Propose exec alignment meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-06-26",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Isabella. Discussed strategic value and implementation timeline. Isabella mentioned her VP is supportive in principle but not yet directly engaged. Covered ROI case and competitive differentiation. Isabella wants to finalize pricing before bringing VP into formal approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your VP to approve?",
+          "answer": "Closing the pricing gap or showing hard ROI on coaching efficiency"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Refine ROI model with Isabella's metrics",
+        "Explore pricing flexibility with leadership"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-07-02",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal refinement call. Reviewed updated ROI calculator showing 150+ hours saved quarterly on coaching and CRM updates. Isabella engaged and supportive. Confirmed Megan will drive final commercial terms and contract review once pricing is settled.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we sign before end of quarter, is there any expedited onboarding available?",
+          "answer": "Yes, we can prioritize implementation to go live within 2 weeks"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Finalize pricing proposal",
+        "Connect with Megan on contract terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-07-06",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Isabella and Megan. Discussed revised proposal at $17,640 for 2-year term (10% discount). Megan asked about payment terms and auto-renewal clauses. Isabella supportive of moving forward at this price point. Megan to review contract template with legal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do annual payments instead of upfront?",
+          "answer": "Yes, we offer annual billing with no additional cost"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the expansion pricing if we add seats mid-contract?",
+          "answer": "Prorated at same per-seat rate for remainder of term"
+        }
+      ],
+      "objections": [
+        "Need to remove auto-renewal clause for internal policy compliance"
+      ],
+      "next_steps": [
+        "Send updated contract with annual billing and no auto-renewal",
+        "Schedule legal review timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-07-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Sent revised contract reflecting annual billing and no auto-renewal. Isabella confirmed received and forwarded to Megan and legal team. Expected 1-week turnaround for contract review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Check in mid-week on legal review status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-07-17",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Isabella to discuss implementation readiness and confirm internal approval process. Isabella mentioned legal has minor redlines on liability caps. Also noted VP still not directly involved but has delegated approval authority to her and Megan. Discussed go-live timeline for early Q2.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any other stakeholders we should connect with before signing?",
+          "answer": "No, Megan and I have authority to finalize this"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Address legal redlines on liability",
+        "Confirm implementation start date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-07-22",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final alignment call with Isabella and Megan. Reviewed legal redlines\u2014requested liability cap increase to $100K. Discussed mutual NDA and data processing addendum. Both confirmed readiness to sign once legal terms settled. Isabella optimistic about closing this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get dedicated CSM assigned before go-live?",
+          "answer": "Yes, we'll assign CSM within 48 hours of contract signature"
+        }
+      ],
+      "objections": [
+        "Liability cap at $50K is below our standard\u2014need $100K minimum"
+      ],
+      "next_steps": [
+        "Escalate liability cap request to legal team",
+        "Prepare final contract version"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-07-29",
+      "type": "negotiation_call",
+      "duration_minutes": 19,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize contract terms. Agreed to $100K liability cap and mutual NDA. Megan confirmed procurement approval and Isabella confirmed technical readiness with Ade. Discussed implementation kickoff schedule for week of April 22nd. Both parties aligned on moving to signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we need to terminate early?",
+          "answer": "30-day notice required, no early termination fee for cause"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-08-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Yoon",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.9,
+      "rescheduled": false,
+      "ai_summary": "Sent final contract via DocuSign to Isabella and Megan for signature. Included implementation kickoff invite for April 22nd with Ade and implementation team. Isabella confirmed she'll review and sign by end of week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Monitor DocuSign for signatures",
+        "Prepare onboarding materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 109,
+    "churn_reason": "lack of executive alignment"
+  }
+}

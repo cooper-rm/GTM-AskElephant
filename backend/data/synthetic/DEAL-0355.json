@@ -1,0 +1,588 @@
+{
+  "deal_id": "DEAL-0355",
+  "company": {
+    "name": "PrimeIO",
+    "industry": "Fintech",
+    "employee_count": 572,
+    "annual_revenue": 86854715,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14300.0,
+    "seats": 16,
+    "price_per_seat_monthly": 80.42,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 9.6,
+    "sales_cycle_days": 52,
+    "close_date": "2025-02-01",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Theo Yoon",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Carter Friedman",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 8
+    },
+    {
+      "name": "Abigail Turner",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 5
+    },
+    {
+      "name": "Henry Stern",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 13
+    },
+    {
+      "name": "Owen Walker",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-06",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Theo Yoon at PrimeIO requesting information about our platform for improving forecasting accuracy across their sales team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-12",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Theo. PrimeIO is a 572-person fintech struggling with forecast accuracy. Theo recently promoted to Head of Sales, looking to implement better processes. Discussed team size (16 seats needed) and automation plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 4-6 weeks including onboarding and consulting setup"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency around forecasting accuracy right now?",
+          "answer": "Board is pushing for more predictable revenue projections, we missed last two quarters"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule discovery call with broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-16",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing overview for 16 seats on automations_plus_consulting tier (~$14K ACV) and case study from similar fintech company. Theo responded positively, confirming interest in moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have customers in regulated industries like ours?",
+          "answer": "Yes, shared case study with compliance details"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate discovery call with stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent to coordinate discovery meeting. Theo requested to include Carter Friedman (Sales Manager) and Abigail Turner (Account Manager) who will be primary users.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery for next week with expanded team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email for discovery call. Theo added Henry Stern (another Sales Manager) and Owen Walker (IT Director) to the invite to cover procurement and technical evaluation needs.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct discovery call with 5-person team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-25",
+      "type": "follow_up_call",
+      "duration_minutes": 21,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on current forecasting process and pain points. Team manually consolidates data from Salesforce, uses spreadsheets for projections. Carter and Henry handle frontline forecasting, Abigail manages accounts. Owen concerned about data security and integration requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the AI handle our custom Salesforce fields?",
+          "answer": "Platform maps custom fields during setup, consulting team assists with configuration"
+        },
+        {
+          "by": "rep",
+          "question": "What's your current forecast accuracy rate?",
+          "answer": "Around 65-70%, which isn't acceptable for our board"
+        },
+        {
+          "by": "prospect",
+          "question": "What level of Salesforce permissions do you need?",
+          "answer": "Read-only access to opportunities, activities, and contacts"
+        }
+      ],
+      "objections": [
+        "Owen raised concerns about data access and wants detailed security documentation"
+      ],
+      "next_steps": [
+        "Send security documentation to Owen",
+        "Schedule product demo",
+        "Provide integration technical specs"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-28",
+      "type": "demo",
+      "duration_minutes": 33,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo conducted with full team. Walked through forecasting dashboard, AI-driven predictions, and consulting workflow. Team engaged with questions about customization. Abigail particularly interested in account-level insights. Carter asked about reporting capabilities for his team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the prediction model based on our deal stages?",
+          "answer": "Yes, consulting team configures models to your specific sales process"
+        },
+        {
+          "by": "prospect",
+          "question": "How often does the forecast update?",
+          "answer": "Real-time as Salesforce data syncs, typically every 15 minutes"
+        },
+        {
+          "by": "rep",
+          "question": "Do you need forecasts at the rep level, team level, or both?",
+          "answer": "Both - reps need individual visibility, managers need team rollups"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide trial access for technical evaluation",
+        "Schedule follow-up to address technical questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording, trial environment credentials, and technical documentation. Owen confirmed he'll lead technical evaluation. Theo mentioned needing to loop in finance for budget approval but seemed confident.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the consulting package for our tier?",
+          "answer": "12 hours setup consulting, quarterly business reviews, ongoing email support"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Owen to complete technical evaluation",
+        "Theo to brief finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-04",
+      "type": "technical_eval",
+      "duration_minutes": 29,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Owen and Carter testing the platform. Reviewed API documentation, tested Salesforce sync, validated security controls. Owen satisfied with SOC2 compliance and data handling. Carter tested forecasting scenarios with historical data.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we export forecast data for board presentations?",
+          "answer": "Yes, supports CSV, PDF, and PowerPoint export templates"
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if Salesforce sync fails?",
+          "answer": "Platform alerts admins immediately, maintains last successful sync state"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns from a technical perspective?",
+          "answer": "No major concerns, security looks solid and integration is straightforward"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Owen to provide technical sign-off",
+        "Move to proposal stage"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-09",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting scheduled to present proposal and business case. Theo attended but mentioned CFO and VP Sales were unable to join. Discussed ROI based on improved forecast accuracy and time savings. Theo is supportive but noted he needs exec-level buy-in for final approval.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the final decision?",
+          "answer": "CFO and VP Sales - they review all deals over $10K"
+        },
+        {
+          "by": "prospect",
+          "question": "What payment terms do you typically offer?",
+          "answer": "Annual upfront is standard, can discuss quarterly with approval"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Hoping to close by end of quarter, need to implement before Q2 forecasting cycle"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting with CFO and VP Sales",
+        "Send formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-13",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Rescheduled exec meeting (original attendees unavailable). Met with Theo and Carter to review proposal details. Still no CFO or VP Sales participation. Discussed implementation timeline and success metrics. Theo confirmed budget exists but approval process moving slower than expected.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add seats mid-contract if we expand the team?",
+          "answer": "Yes, prorated additions allowed anytime"
+        },
+        {
+          "by": "rep",
+          "question": "What's blocking the exec sponsor engagement?",
+          "answer": "VP Sales is traveling, CFO wants to see Q1 numbers before committing to new tools"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours included?",
+          "answer": "Current tier includes 12 hours, can add more at $200/hr"
+        }
+      ],
+      "objections": [
+        "Theo mentioned CFO is cautious about new software investments this quarter"
+      ],
+      "next_steps": [
+        "Theo to schedule meeting with VP Sales",
+        "Prepare ROI analysis for CFO review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-17",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Theo and Carter focused on pricing. Requested discount due to budget constraints and comparison with other forecasting tools. Discussed payment terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What discount can you offer for annual prepayment?",
+          "answer": "Can offer 10% for annual upfront commitment"
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you expecting?",
+          "answer": "Hoping to stay under $12K if possible"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than initially budgeted, need to justify additional cost"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Provide detailed ROI comparison"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-01-20",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Continued negotiation discussion. Presented ROI analysis showing $45K annual value from time savings and improved forecast accuracy. Theo appreciated the analysis but still pushing for better pricing. Carter mentioned they're under pressure to reduce tool costs overall.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and expand?",
+          "answer": "Minimum is 10 seats for this tier, but you could start there and add 6 later"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best and final price for 16 seats annual?",
+          "answer": "Can do $12,870 with 10% discount - that's the best I can offer"
+        },
+        {
+          "by": "rep",
+          "question": "If we meet your pricing needs, can you commit this week?",
+          "answer": "Still need exec approval, but yes, I'll push for it"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Theo to present ROI analysis to VP Sales and CFO",
+        "Follow up on exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-01-21",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Another exec meeting rescheduled - VP Sales conflicted again. Met with Theo and Henry instead. Reviewed revised pricing at $12,870 and implementation plan. Henry supportive of the purchase. Theo expressed frustration with internal approval delays but remains committed to getting this done.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include additional training sessions in the package?",
+          "answer": "Can include 2 additional 1-hour training sessions at this price"
+        },
+        {
+          "by": "rep",
+          "question": "What would make it easier to get exec approval?",
+          "answer": "Having a clear success metric tied to board KPIs would help"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't work out?",
+          "answer": "Annual contracts are non-cancellable, but we can discuss quarterly terms"
+        }
+      ],
+      "objections": [
+        "Concern about annual commitment without proven results in our environment"
+      ],
+      "next_steps": [
+        "Propose quarterly payment option",
+        "Theo to secure VP Sales meeting next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-01-28",
+      "type": "negotiation_call",
+      "duration_minutes": 34,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Agreed on $12,870 annual with quarterly payment option ($3,400/qtr). Theo confirmed this addresses finance concerns. Discussed success metrics: improve forecast accuracy from 70% to 85%+ within 90 days. Team aligned on implementation timeline starting May 1.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation if approved this week?",
+          "answer": "Kickoff within 5 business days, full deployment in 4 weeks"
+        },
+        {
+          "by": "rep",
+          "question": "Do we have agreement on all terms now?",
+          "answer": "Yes, just need final exec signature from VP Sales"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we adjust seats after Q2 if headcount changes?",
+          "answer": "Yes, we can review and adjust at quarterly check-in"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with quarterly payment terms",
+        "Theo to obtain VP Sales signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-01-30",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Theo Yoon",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing review call with Theo. Confirmed contract terms: 16 seats, $12,870 annually ($3,400 quarterly), automations_plus_consulting tier. Reviewed payment schedule and implementation kickoff date. Theo confident he'll have VP Sales signature by end of week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the process if we need to pause implementation due to internal changes?",
+          "answer": "We can adjust timeline within reason, consulting hours remain available for 12 months"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Execute contract",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

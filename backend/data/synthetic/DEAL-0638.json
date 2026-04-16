@@ -1,0 +1,253 @@
+{
+  "deal_id": "DEAL-0638",
+  "company": {
+    "name": "VelocityPrism",
+    "industry": "Professional Services",
+    "employee_count": 33,
+    "annual_revenue": 3166909,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3400.0,
+    "seats": 5,
+    "price_per_seat_monthly": 56.71,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.3,
+    "sales_cycle_days": 35,
+    "close_date": "2025-08-02",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Willow Rogers",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Sofia Sato",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-16",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial outbound cold call to Willow Rogers at VelocityPrism. Rep introduced AskElephant's forecasting automation capabilities for sales teams. Willow expressed interest in improving forecast accuracy, mentioned currently using spreadsheets and manual reviews. Open to learning more about how AI could help their 5-person sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How is your team currently handling sales forecasting?",
+          "answer": "We're using a combination of Salesforce reports and weekly manual review meetings. It's time-consuming and we still miss things."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this work with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration that pulls data automatically."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview deck and case study",
+        "Schedule 30-minute discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview, ROI calculator, and professional services case study. Willow responded confirming receipt and interest in the discovery call. Asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For a 5-seat deployment, most customers are up and running within 2-3 weeks including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-07-08",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Willow Rogers covering current forecasting challenges at VelocityPrism. Team struggles with accuracy in their project-based sales cycle, missing pipeline shifts until too late. Willow shared they've been evaluating Gong but found it more focused on conversation intelligence than forecasting. Interested in seeing how AskElephant's automation specifically addresses forecast accuracy. Discussed pain points around manual data entry and lack of deal health visibility.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest pain point with forecasting today?",
+          "answer": "We're reactive instead of proactive. By the time we see a deal slipping, it's already impacting the quarter."
+        },
+        {
+          "by": "rep",
+          "question": "Have you looked at other solutions?",
+          "answer": "We've been looking at Gong, but it seems more focused on call recording and coaching. We need something that actually improves our forecast numbers."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you show me examples of how the AI identifies at-risk deals?",
+          "answer": "Absolutely, I'll include that in the technical demo. We use engagement patterns, sentiment analysis, and deal velocity to score risk."
+        }
+      ],
+      "objections": [
+        "Need to see how this is different from Gong since we're already invested in evaluating them"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation/demo with Willow and Sofia from implementation team",
+        "Send competitive comparison vs Gong",
+        "Provide sample risk scoring output"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-16",
+      "type": "technical_eval",
+      "duration_minutes": 29,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Willow and Sofia Sato (Implementation Lead). Demoed live forecasting dashboard, deal health scoring, and automated pipeline alerts. Sofia asked detailed questions about data requirements and Salesforce field mapping. Team seemed engaged with the risk identification features. Willow mentioned budget is approved for forecasting tools but needs to justify ROI. Some concern raised about learning curve for the sales team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What data fields do you need from Salesforce to make the predictions work?",
+          "answer": "We need standard opportunity fields plus activity data. Most customers are set up with what they have out of the box."
+        },
+        {
+          "by": "rep",
+          "question": "How soon are you looking to have a solution in place?",
+          "answer": "We'd like to start next quarter, but we need to finalize decision this month."
+        },
+        {
+          "by": "prospect",
+          "question": "How much time will our sales team need to spend in the system daily?",
+          "answer": "Most reps spend 5-10 minutes reviewing their dashboard. The automation reduces manual forecasting time significantly."
+        }
+      ],
+      "objections": [
+        "Concerned about adoption - our team is already stretched thin and resistant to new tools"
+      ],
+      "next_steps": [
+        "Provide ROI analysis based on their current forecasting time investment",
+        "Schedule executive alignment meeting",
+        "Send training plan and adoption resources"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-25",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Willow to review proposal. Discussed 5-seat unlimited automation package at $3,400 ACV. Willow appreciated the discount offered and indicated this fits their budget. Conversation focused on implementation support and success metrics. Willow mentioned she doesn't have exec sponsor fully engaged yet but feels confident she can move forward with Director-level approval given the deal size. Asked about contract terms and payment options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment instead of annual upfront?",
+          "answer": "We can offer quarterly payments with a small processing fee, or keep the discount with annual payment."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have our team connect with your VP or CRO before finalizing?",
+          "answer": "I don't think that's necessary - I have the authority for tools in this budget range."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation support?",
+          "answer": "You get dedicated onboarding, data integration setup, and 2 training sessions for your team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with quarterly payment option",
+        "Legal review of contract",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Willow Rogers",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised proposal showing quarterly payment terms and updated discount structure. Willow responded acknowledging receipt and mentioned she's reviewing with Sofia and finance. Asked for clarification on the difference between automation tiers and whether unlimited is necessary for their team size. Requested two business days for internal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do we really need unlimited automation for 5 users, or would a lower tier work?",
+          "answer": "Given your deal volume and forecasting frequency needs we discussed, unlimited ensures you won't hit limits during peak quarter-end periods."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Internal review with finance and implementation team",
+        "Follow up call scheduled for Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

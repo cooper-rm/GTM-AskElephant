@@ -1,0 +1,217 @@
+{
+  "deal_id": "DEAL-0257",
+  "company": {
+    "name": "MeridianInsights",
+    "industry": "SaaS/Tech",
+    "employee_count": 100,
+    "annual_revenue": 8565020,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3700.0,
+    "seats": 5,
+    "price_per_seat_monthly": 63.0,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 29.2,
+    "sales_cycle_days": 14,
+    "close_date": "2024-10-27",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jude Becker",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Asher Moore",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 50
+    },
+    {
+      "name": "Caleb Wolf",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 10
+    },
+    {
+      "name": "Blake Weiss",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-25",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Jude Becker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Outbound LinkedIn message sent to Jude Becker introducing our platform's rep productivity capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-26",
+      "type": "cold_call",
+      "duration_minutes": 4,
+      "person_name": "Jude Becker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Jude Becker. Rep introduced platform value prop for sales team productivity. Jude expressed interest in learning more about automation features and agreed to follow-up.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this differ from what our team is already using in Salesforce?",
+          "answer": "We integrate directly with Salesforce but add AI-powered automation layers that eliminate manual data entry and prioritize high-value activities for your reps."
+        },
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with rep productivity right now?",
+          "answer": "Our reps spend too much time on admin work instead of selling. We need them focused on conversations, not CRM updates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with case study",
+        "Schedule detailed demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jude Becker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with customer case study and product overview. Jude responded positively, confirming demo time and looping in Asher Moore (CRO) for visibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include our CRO Asher Moore in the demo?",
+          "answer": "Absolutely, I'll send a calendar invite that includes Asher."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo with Jude and Asher"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-19",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Jude Becker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Jude, Asher, and Caleb Wolf (IT Director). Demonstrated unlimited automation tier with live workflow examples. Team engaged positively but Caleb raised questions about data security and integration complexity. Asher confirmed budget availability and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where are servers located?",
+          "answer": "Data is retained per your configuration, stored in SOC 2 compliant AWS US-East region, with optional EU hosting available."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 5 seats with unlimited automation, we typically complete onboarding in 2-3 weeks with dedicated support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this live with the team?",
+          "answer": "We'd like to have this running by end of quarter, so within the next 6-7 weeks ideally."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer any discount for early-stage companies like us?",
+          "answer": "We have flexible pricing for growing teams. Let me work up a proposal that fits your budget and timeline."
+        }
+      ],
+      "objections": [
+        "Caleb expressed concern about integration effort with existing Salesforce customizations"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Schedule follow-up with Caleb to address integration concerns",
+        "Provide SOC 2 documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-27",
+      "type": "negotiation_call",
+      "duration_minutes": 14,
+      "person_name": "Jude Becker",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call rescheduled once, then conducted with Jude and Asher. Discussed pricing proposal. Asher pushed for significant discount citing budget constraints and compressed timeline. Rep offered 29% discount to close by end of quarter. Blake Weiss (Implementation Lead) introduced to coordinate onboarding. Deal terms verbally agreed pending contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you bring the price down closer to $2,500 annually? That's what we've budgeted.",
+          "answer": "I can work with leadership to get you to $2,620 ACV with the unlimited automation tier included\u2014that's about 29% off list. Best I can do while keeping implementation support intact."
+        },
+        {
+          "by": "rep",
+          "question": "If we can hit that number, are you comfortable moving forward this week?",
+          "answer": "Yes, if you can get us that pricing and the contract is clean, we'll sign by Friday."
+        }
+      ],
+      "objections": [
+        "Asher indicated original pricing was above budget and needed significant reduction to proceed"
+      ],
+      "next_steps": [
+        "Send updated contract with discounted pricing",
+        "Intro Blake Weiss to implementation team",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

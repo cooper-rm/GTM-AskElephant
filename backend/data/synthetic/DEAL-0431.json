@@ -1,0 +1,267 @@
+{
+  "deal_id": "DEAL-0431",
+  "company": {
+    "name": "WestfieldPulse",
+    "industry": "SaaS/Tech",
+    "employee_count": 45,
+    "annual_revenue": 4227968,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4300.0,
+    "seats": 7,
+    "price_per_seat_monthly": 49.25,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 44.7,
+    "sales_cycle_days": 28,
+    "close_date": "2023-09-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Alex Lewis",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 25
+    },
+    {
+      "name": "Jackson Adams",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 19
+    },
+    {
+      "name": "Caleb Nelson",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 31
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Alex Lewis at WestfieldPulse. Interested in automating sales-to-CS handoff process. Currently evaluating multiple tools including Fireflies.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-15",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Alex Lewis (VP of Sales). Discussed current pain points with manual handoffs between sales and customer success. WestfieldPulse has 45 employees, looking for 7 seats initially. Alex mentioned they're also looking at Fireflies but prefers our automation features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your platform automatically extract action items and route them to the CS team?",
+          "answer": "Yes, our unlimited automation tier includes custom routing rules and automatic task creation in your CRM."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for sales-to-CS handoff?",
+          "answer": "Mostly manual - sales reps fill out a handoff form and email the CS team. Lots of details get lost."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Alex",
+        "Send use case materials on sales-to-CS automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-20",
+      "type": "discovery_call",
+      "duration_minutes": 12,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Alex Lewis. Walked through current workflow challenges and integration requirements. Alex confirmed they use Salesforce and need seamless integration. Timeline is flexible but would like to start within 30 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Probably Jackson from our account management team and maybe Caleb from IT for the technical review."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your Salesforce integration compare to Fireflies?",
+          "answer": "Our integration is bi-directional with custom field mapping, whereas Fireflies primarily does one-way sync of transcripts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo focused on sales-to-CS handoff",
+        "Loop in Jackson and Caleb for technical evaluation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Alex with demo recording and pricing options. Shared case study from similar SaaS company that reduced handoff time by 65%. Alex responded positively and requested meeting with broader team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the pricing breakdown for the unlimited automation tier?",
+          "answer": "Sent detailed proposal with 7 seats at $4,300 ACV including unlimited automation features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule meeting with Alex, Jackson, and Caleb"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-31",
+      "type": "exec_meeting",
+      "duration_minutes": 44,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Longer meeting with Alex Lewis discussing implementation timeline and business case. Alex is enthusiastic but mentioned budget constraints. No other stakeholders joined the call despite initial plan. Discussed ROI calculations and timeline to value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline and how much support do we get?",
+          "answer": "Typical implementation is 2 weeks with dedicated onboarding specialist. Unlimited support on your tier."
+        },
+        {
+          "by": "prospect",
+          "question": "We're comparing a few options - can you help me build the business case internally?",
+          "answer": "Shared ROI calculator and can provide reference customers in similar use case."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision-making process and timeline?",
+          "answer": "I'll need to present to leadership, but budget is tight this quarter. Hoping to move forward soon."
+        }
+      ],
+      "objections": [
+        "Price is higher than Fireflies - need to justify the cost difference"
+      ],
+      "next_steps": [
+        "Send business case materials",
+        "Alex to present internally",
+        "Follow up next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on internal discussions. Alex responded that leadership is interested but the pricing needs to be more competitive with Fireflies. Requested discount to help close the gap.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing to match closer to what Fireflies quoted us?",
+          "answer": "Let me discuss with my manager and see what we can do to make this work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discuss discount options internally",
+        "Schedule final call to close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-10",
+      "type": "exec_meeting",
+      "duration_minutes": 15,
+      "person_name": "Alex Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Alex Lewis. Offered 44.7% discount to match competitive pressure from Fireflies. Alex seemed appreciative of the concession and indicated he can move forward with purchasing. Still no executive sponsor or broader team involvement in final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "With this adjusted pricing, do you have what you need to move forward?",
+          "answer": "Yes, this makes it much easier to justify. I can get this approved and signed this week."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we confirm the contract terms are month-to-month or annual?",
+          "answer": "This pricing is for annual commitment with monthly billing option available."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with discounted pricing",
+        "Alex to route for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

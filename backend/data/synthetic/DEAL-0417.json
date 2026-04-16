@@ -1,0 +1,184 @@
+{
+  "deal_id": "DEAL-0417",
+  "company": {
+    "name": "VectorHealth",
+    "industry": "Fintech",
+    "employee_count": 62,
+    "annual_revenue": 10795029,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5300.0,
+    "seats": 9,
+    "price_per_seat_monthly": 47.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 46.8,
+    "sales_cycle_days": 10,
+    "close_date": "2025-08-23",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Taylor Klein",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Quinn Walsh",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Taylor Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request submitted via website form. Taylor Klein (Director of Sales) expressed interest in improving pipeline visibility and forecasting accuracy. Looking for automation to reduce manual reporting work.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-13",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Taylor Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Taylor Klein. VectorHealth using spreadsheets for pipeline tracking, causing reporting delays and forecast inaccuracy. Taylor recently promoted to Director role, tasked with scaling sales operations. Team of 9 reps struggling with visibility into deal health. Budget approved for sales tooling this quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for pipeline review?",
+          "answer": "Manual spreadsheet updates weekly, takes 4-5 hours to compile across the team"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'll need to loop in Quinn from RevOps for technical validation, but I own the decision"
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing CRM?",
+          "answer": "Yes, we have native integrations with all major CRMs"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Taylor and Quinn",
+        "Send case study on pipeline visibility improvements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-19",
+      "type": "demo",
+      "duration_minutes": 40,
+      "person_name": "Taylor Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled once, then conducted with Taylor and Quinn Walsh (RevOps Analyst). Walked through automated pipeline tracking, forecasting dashboards, and AI-powered deal insights. Quinn asked technical questions about data refresh rates and API access. Taylor focused on ease of adoption for sales team. Both engaged, though no executive sponsor mentioned.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How frequently does the data sync from our CRM?",
+          "answer": "Real-time sync with 5-minute refresh intervals, configurable based on your needs"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboards for different team views?",
+          "answer": "Yes, fully customizable with role-based permissions and view templates"
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to get this implemented before end of quarter if pricing works"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have API documentation for custom integrations?",
+          "answer": "Yes, comprehensive REST API docs available, can provide access after contract"
+        }
+      ],
+      "objections": [
+        "Quinn noted concern about user adoption given team is used to spreadsheets"
+      ],
+      "next_steps": [
+        "Send pricing proposal for 9 seats with unlimited automation",
+        "Provide implementation timeline and change management resources"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-23",
+      "type": "pricing_call",
+      "duration_minutes": 8,
+      "person_name": "Taylor Klein",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Taylor. Initial proposal at $9,950 ACV met with budget pushback. Taylor mentioned limited budget for new tools this quarter and requested significant discount. Negotiated down to $5,300 ACV (46.8% discount) to close deal before quarter end. No mention of executive approval or additional stakeholders. Taylor indicated urgency to move forward quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual pricing?",
+          "answer": "We can offer a discount for multi-year commitment or if you can close this quarter"
+        },
+        {
+          "by": "rep",
+          "question": "Will you need to get this approved by your VP or CFO?",
+          "answer": "I have approval authority up to this budget level, should be fine"
+        }
+      ],
+      "objections": [
+        "Initial pricing significantly above allocated budget for this initiative"
+      ],
+      "next_steps": [
+        "Send revised contract at $5,300 ACV",
+        "Schedule kickoff call for following week pending signature"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 64,
+    "churn_reason": "lack of executive alignment"
+  }
+}

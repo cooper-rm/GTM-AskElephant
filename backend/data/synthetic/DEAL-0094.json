@@ -1,0 +1,388 @@
+{
+  "deal_id": "DEAL-0094",
+  "company": {
+    "name": "NebulaCo",
+    "industry": "Healthcare IT",
+    "employee_count": 29,
+    "annual_revenue": 3352979,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5100.0,
+    "seats": 6,
+    "price_per_seat_monthly": 71.8,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 19.3,
+    "sales_cycle_days": 47,
+    "close_date": "2024-09-11",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Elena Kang",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 16
+    },
+    {
+      "name": "Aisha Nelson",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 8
+    },
+    {
+      "name": "Chris Taylor",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-04",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Elena Kang introducing our AI meeting assistant platform and mentioning improved pipeline visibility for sales teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Elena highlighting how our platform helps healthcare IT companies gain real-time pipeline insights. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-07-24",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar-sized healthcare tech company. Elena responded expressing interest in learning more about pipeline visibility features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this compare to what Fireflies offers?",
+          "answer": "Explained our deeper CRM integration and automated deal health scoring capabilities that go beyond basic transcription."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-07-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.0,
+      "rescheduled": false,
+      "ai_summary": "Email sent confirming discovery call time and asking about current tech stack. Elena confirmed their use of Salesforce and mentioned challenges with manual pipeline updates from their sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What CRM are you currently using?",
+          "answer": "Salesforce, but struggling to keep deal data current across our remote team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-07-31",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief introductory call with Elena to confirm meeting time and gather initial context. Discussed team size and primary pain point around pipeline forecasting accuracy.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with pipeline visibility right now?",
+          "answer": "Our forecasts are consistently off because reps don't update Salesforce consistently after calls."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Full discovery call in two days"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-10",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Elena covering current process, pain points, and desired outcomes. Discussed their 6-person sales team, integration requirements with Salesforce, and need for automated deal health tracking. Elena mentioned they're also evaluating Fireflies but interested in our predictive scoring.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your system automatically flag at-risk deals based on conversation patterns?",
+          "answer": "Yes, our XGBoost model analyzes sentiment, engagement signals, and behavioral patterns to score deal health in real-time."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "Usually 2-3 weeks for full Salesforce integration and team onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond pipeline visibility, are there other use cases you're interested in?",
+          "answer": "Coaching our newer reps would be valuable, but pipeline forecasting is the priority."
+        }
+      ],
+      "objections": [
+        "We're already looking at Fireflies which is significantly cheaper"
+      ],
+      "next_steps": [
+        "Elena to review demo recording",
+        "Schedule technical walkthrough with RevOps",
+        "Include pricing for unlimited automation tier"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-15",
+      "type": "discovery_call",
+      "duration_minutes": 13,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call with Elena and Chris Taylor (RevOps Analyst) to discuss technical integration requirements. Covered API access, data security protocols, and reporting capabilities. Chris asked detailed questions about Salesforce field mapping.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What Salesforce permissions are required for the integration?",
+          "answer": "Standard API access with read/write on Opportunity, Contact, and Activity objects. Provided detailed permission documentation."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any compliance requirements we should be aware of given healthcare focus?",
+          "answer": "HIPAA compliance is critical - we don't discuss patient data but need to ensure call recordings are properly secured."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Chris to review security documentation",
+        "Elena to schedule exec meeting with CRO Aisha",
+        "Send formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-19",
+      "type": "exec_meeting",
+      "duration_minutes": 30,
+      "person_name": "Aisha Nelson",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting with Aisha Nelson (CRO) to discuss strategic value and ROI. Meeting was rescheduled once. Aisha focused on impact to forecast accuracy and team productivity. Discussed pricing for 6 seats with unlimited automation tier. Positive engagement overall but Aisha noted budget approval process requires finance review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of forecast accuracy improvement have your customers seen?",
+          "answer": "Typically 15-25% improvement in forecast accuracy within the first quarter, with some seeing higher gains."
+        },
+        {
+          "by": "prospect",
+          "question": "How does this fit into our existing tech stack versus adding Fireflies?",
+          "answer": "Fireflies focuses on transcription, while our platform provides predictive deal insights and automated CRM enrichment - different value propositions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Need to implement before end of quarter, so ideally decide within two weeks."
+        }
+      ],
+      "objections": [
+        "The pricing is higher than we initially budgeted for this category"
+      ],
+      "next_steps": [
+        "Send formal proposal with ROI calculator",
+        "Aisha to discuss with finance",
+        "Elena to coordinate internal stakeholder alignment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-08-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Email to Elena following up on exec meeting with Aisha. Attached formal proposal for $5,100 ACV with 6 seats and unlimited automation tier. Addressed budget concerns with ROI justification showing forecast accuracy gains and rep productivity improvements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down what's included in the unlimited automation tier versus standard?",
+          "answer": "Unlimited includes automated deal health scoring, custom workflow triggers, and advanced reporting - all critical for your pipeline visibility use case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to review with finance",
+        "Schedule pricing discussion call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-09-04",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Elena to address budget concerns and explore options. Discussed contract terms, payment structure, and implementation timeline. Elena mentioned finance is pushing back on the unlimited tier cost but acknowledges the value. Explored potential discount options and quarterly payment structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual pricing if we commit to a multi-year contract?",
+          "answer": "We can explore multi-year options - typically offer 10% discount for two-year commitments."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we want to add more seats mid-year?",
+          "answer": "Seats can be added anytime with pro-rated pricing for the remainder of the term."
+        },
+        {
+          "by": "rep",
+          "question": "Is the unlimited tier a hard requirement or could you start with standard?",
+          "answer": "The automated deal health scoring in unlimited tier is essential for our pipeline visibility goals - that's the core value we're buying."
+        }
+      ],
+      "objections": [
+        "Finance is concerned about the price point compared to Fireflies"
+      ],
+      "next_steps": [
+        "Send revised proposal with multi-year option",
+        "Elena to present to finance with ROI data",
+        "Follow-up call in three days"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-09-11",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Elena Kang",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Elena to finalize terms. Discussed implementation timeline, onboarding support, and contract details. Elena confirmed internal alignment on the value but requested final approval from Aisha on the pricing structure. Agreed on $5,100 ACV for 6 seats with unlimited automation, annual payment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When could we realistically go live if we sign this week?",
+          "answer": "Implementation takes 2-3 weeks, so likely live by mid-next month with our standard onboarding."
+        },
+        {
+          "by": "rep",
+          "question": "What's the final step needed on your end to move forward?",
+          "answer": "Need Aisha's final sign-off on the pricing, then we can execute the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to get final approval from Aisha",
+        "Prepare contract for signature",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

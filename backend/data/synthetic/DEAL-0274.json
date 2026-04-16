@@ -1,0 +1,190 @@
+{
+  "deal_id": "DEAL-0274",
+  "company": {
+    "name": "VertexLabs",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 35,
+    "annual_revenue": 4871852,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3200.0,
+    "seats": 5,
+    "price_per_seat_monthly": 51.78,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 41.8,
+    "sales_cycle_days": 21,
+    "close_date": "2025-09-30",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Isaac Smith",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-05",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Isaac Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Isaac Smith submitted an inbound demo request via the website. Form indicates interest in call recording and coaching tools for their CS team. No live conversation occurred.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Isaac"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-09-10",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Isaac Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Isaac Smith, VP of Customer Success. Discussed current pain points around CS team performance visibility and coaching scalability. Isaac mentioned they're growing their support team and need better quality assurance. Confirmed budget authority lies with CFO but Isaac can influence. No other tools currently being evaluated.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording right now?",
+          "answer": "We're scaling our CS team from 8 to 12 reps this quarter and our current manual QA process doesn't scale. I need visibility into call quality without listening to everything myself."
+        },
+        {
+          "by": "rep",
+          "question": "Who else would be involved in evaluating this decision?",
+          "answer": "Honestly, probably just me and our CFO for final budget approval. I own the CS tools stack."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing Zendesk setup?",
+          "answer": "Yes, we have native integration with Zendesk Support and can pull ticket context directly into call records."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for Isaac and 2-3 CS team members",
+        "Send integration documentation for Zendesk"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-20",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Isaac Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Isaac Smith covering call recording, transcript analysis, and coaching workflows. Isaac was engaged and asked detailed questions about automation features and reporting. Walked through live coaching scorecard example. Isaac expressed concern about implementation timeline given Q2 hiring plans but showed strong interest in unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 5 seats with Zendesk integration, usually 1-2 weeks including training. We can expedite if you have a hard deadline."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we set custom coaching categories beyond your templates?",
+          "answer": "Absolutely. The unlimited automation tier includes custom category builders and you can train the AI on your specific QA rubric."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to have something in place before our next hiring cohort starts in 3 weeks. Need to move quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you offer for leadership?",
+          "answer": "We provide executive dashboards with team performance trends, coaching velocity, and improvement metrics. I can show you a sample report."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The timeline is tight - I'm worried about getting this implemented before our new hires start."
+        }
+      ],
+      "next_steps": [
+        "Send custom pricing proposal for 5 seats, unlimited automation tier",
+        "Schedule pricing call to discuss implementation timeline and contract terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-01",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Isaac Smith",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing discussion with Isaac Smith (originally scheduled earlier but rescheduled once). Reviewed proposal for $3,200 ACV with 41.8% discount to meet Isaac's compressed budget. Isaac pushed back on annual commitment, preferring quarterly given uncertainty around team growth. Discussed implementation guarantee to meet 3-week deadline. Isaac needs to run final numbers by CFO but indicated he's ready to move forward if timeline is feasible.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual commitment? We're in growth mode and I'd prefer quarterly until we're sure about headcount.",
+          "answer": "We typically require annual for the unlimited tier, but given your timeline I can check with leadership on a quarterly option at adjusted pricing."
+        },
+        {
+          "by": "rep",
+          "question": "What would make you comfortable committing annual?",
+          "answer": "Honestly if you can guarantee we're live in 2 weeks and the CFO signs off on the discount, I think we're good. I just need to de-risk this internally."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to add seats mid-contract?",
+          "answer": "You can add seats anytime at prorated pricing. For unlimited automation tier, additional seats are $640 per seat annually."
+        }
+      ],
+      "objections": [
+        {
+          "by": "prospect",
+          "objection": "The annual commitment feels risky given we're still figuring out team structure."
+        }
+      ],
+      "next_steps": [
+        "Send updated proposal with implementation SLA",
+        "Isaac to review with CFO by end of week",
+        "Schedule close call if CFO approves"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

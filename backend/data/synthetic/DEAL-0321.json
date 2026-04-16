@@ -1,0 +1,223 @@
+{
+  "deal_id": "DEAL-0321",
+  "company": {
+    "name": "IndigoLabs",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 47,
+    "annual_revenue": 11839217,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4100.0,
+    "seats": 6,
+    "price_per_seat_monthly": 56.78,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.2,
+    "sales_cycle_days": 21,
+    "close_date": "2023-11-07",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Hazel Stern",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-15",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Hazel Stern",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Hazel Stern, VP of Sales at IndigoLabs. She mentioned struggling with forecast accuracy and currently evaluating Clari. Expressed urgency to improve pipeline visibility before end of quarter.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-17",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Hazel Stern",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Hazel. IndigoLabs is a 47-person managed IT/cybersecurity firm with a 6-person sales team. Currently using spreadsheets for forecasting, causing major accuracy issues. Hazel is 3 months into her VP role and tasked with cleaning up the sales process. Also evaluating Clari but concerned about complexity and cost.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Board wants reliable revenue projections. We've missed forecast 4 of last 6 quarters and it's affecting planning across the company."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision?",
+          "answer": "Right now it's me driving this. I'll need to get buy-in from our CFO eventually, but I want to see what makes sense first."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're typically 40-50% less expensive for a team your size, and we focus specifically on forecast accuracy rather than trying to do everything."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Send ROI calculator",
+        "Hazel to audit current forecast variance data"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-24",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Hazel Stern",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep-dive technical evaluation demo with Hazel. Walked through forecast methodology, pipeline analysis, and automation capabilities. She was engaged and asked detailed questions about data integrations and reporting. Expressed strong interest in the unlimited automation tier. Mentioned budget constraints but sees clear ROI. Still hasn't involved CFO or CEO in discussions.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can this integrate with our existing CRM and pull historical deal data automatically?",
+          "answer": "Yes, we have native integrations with all major CRMs. Historical data sync typically takes 24-48 hours for initial setup."
+        },
+        {
+          "by": "rep",
+          "question": "Have you had a chance to loop in your CFO on the evaluation?",
+          "answer": "Not yet - I want to make sure I fully understand the solution first. I'll bring him in once we're talking specific pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of accuracy improvement do your customers typically see?",
+          "answer": "Most customers see forecast accuracy improve from 60-70% to 85-90% within the first quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your approach differ from Clari's?",
+          "answer": "Clari is a full revenue platform. We're laser-focused on forecast accuracy and pipeline health, which means faster implementation and lower cost."
+        }
+      ],
+      "objections": [
+        "I need to be mindful of budget - we're a small team and can't spend like the enterprise customers Clari targets."
+      ],
+      "next_steps": [
+        "Hazel to compile list of must-have integrations",
+        "Rep to send proposal with pricing options",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-31",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Hazel Stern",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call. Presented three pricing tiers - Hazel focused entirely on unlimited automation plan for 6 seats. Expressed sticker shock at initial price but acknowledged the ROI case is solid. Asked for discount given team size and budget constraints. Still single-threaded - mentioned she needs to 'build the business case' for leadership but hasn't scheduled those conversations yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing for a smaller team like ours?",
+          "answer": "Let me see what I can do. If you can commit to annual rather than monthly, I can likely get approval for a discount."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this in front of your CFO and getting final approval?",
+          "answer": "I'd like to have something signed before end of quarter. I'm planning to present to leadership next week once we finalize pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount are we talking about for annual commitment?",
+          "answer": "I'll need to check with my manager, but I'm thinking we could potentially offer 20-25% off for annual prepay."
+        }
+      ],
+      "objections": [
+        "The price is higher than I was expecting for a team our size. I need to make sure this fits within our sales tools budget."
+      ],
+      "next_steps": [
+        "Rep to get approval for discount pricing",
+        "Hazel to present business case to CFO",
+        "Schedule pricing call for final terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-09",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Hazel Stern",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Hazel pushed hard for deeper discount, citing budget constraints and competitive pressure from Clari. Agreed to 36% discount ($4,100 ACV) to close before quarter-end. She confirmed CFO is 'supportive in principle' but no direct conversation scheduled. Mentioned Clari came back with aggressive pricing but she prefers our focused approach. Pushed to finalize contract this week. Risk signals remain: no executive directly engaged, heavy discount, single champion who is new to role.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the Clari pricing? They've come down significantly to win our business.",
+          "answer": "I can't match their exact price, but I can get you to $4,100 annually for 6 seats with unlimited automation if you can sign this week."
+        },
+        {
+          "by": "rep",
+          "question": "Can we get 30 minutes on your CFO's calendar to walk through the ROI together?",
+          "answer": "He's slammed this week, but I've already briefed him and he's comfortable with the investment at this price point. Let's just get the contract over so I can get this implemented."
+        }
+      ],
+      "objections": [
+        "I really need you to sharpen your pencil here - Clari is being very aggressive and I need to justify why we're going with you instead."
+      ],
+      "next_steps": [
+        "Send revised contract at $4,100 ACV",
+        "Hazel to review with legal",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

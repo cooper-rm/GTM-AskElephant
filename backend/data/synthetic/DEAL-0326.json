@@ -1,0 +1,413 @@
+{
+  "deal_id": "DEAL-0326",
+  "company": {
+    "name": "RidgeGroup",
+    "industry": "SaaS/Tech",
+    "employee_count": 394,
+    "annual_revenue": 61418563,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19500.0,
+    "seats": 27,
+    "price_per_seat_monthly": 63.51,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.6,
+    "sales_cycle_days": 50,
+    "close_date": "2025-06-27",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Priya Brooks",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Rowan Klein",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 11
+    },
+    {
+      "name": "Nicole Wang",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Priya Brooks at RidgeGroup expressing interest in improving forecasting accuracy for their sales team. Initial contact established, brief introduction to platform capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce for pipeline forecasting?",
+          "answer": "Yes, we have native Salesforce integration with real-time sync for all pipeline and forecasting data."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current forecasting process"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming qualification call scheduled for next week. Shared introductory resources on forecasting best practices and case study from similar mid-market SaaS company.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over pricing information before our call?",
+          "answer": "I'll walk through our packaging options during our call based on your specific needs, but happy to provide a general overview if helpful."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Priya to review case study materials",
+        "Qualification call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-13",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Priya to understand current state. RidgeGroup using spreadsheets for forecasting, experiencing 35% variance from actuals. Team of 27 sellers across 3 regions. Priya owns sales ops, reports to VP Sales. Looking to implement before Q3 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Our CEO is losing confidence in our forecasts. We missed two quarters in a row and need credibility back before annual planning."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "For a team your size, usually 3-4 weeks from kickoff to full adoption."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with Priya and potentially Rowan from sales team",
+        "Send over implementation timeline overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-18",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into technical requirements and current workflow. Discussed data sources, reporting cadence, and stakeholder needs. Priya mentioned VP Sales would likely not be heavily involved in evaluation but trusts her judgment. Team currently using Salesforce and Gong.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Probably Rowan and Nicole from my team to test the actual user experience, but I'll be driving the decision."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this require our engineering team to set up integrations?",
+          "answer": "No, all integrations are point-and-click configuration, no dev resources needed."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "Ideally sign something within 4-6 weeks so we can be live before Q3 kickoff."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule product demo for Priya, Rowan, and Nicole",
+        "Priya to compile list of must-have reporting requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-05-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email recapping discovery insights and confirming demo scheduled. Sent personalized demo agenda based on their forecasting workflow and reporting requirements. Included ROI calculator showing potential accuracy improvement impact.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Friday with Priya, Rowan, Nicole",
+        "Priya to share their current forecast template for customization discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-05-28",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Priya, Rowan, and Nicole. Walked through forecasting dashboard, pipeline analysis, and automation capabilities. Team engaged with questions about customization and mobile access. Rowan tested data sync with their Salesforce sandbox. Nicole asked detailed questions about individual rep views and coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecast categories beyond your standard pipeline stages?",
+          "answer": "Yes, fully customizable to match your methodology\u2014commit, best case, pipeline, whatever structure you use."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the mobile experience look like for our field reps?",
+          "answer": "Native iOS and Android apps with full functionality, optimized for quick pipeline updates on the go."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI forecasting actually work under the hood?",
+          "answer": "We use historical win/loss patterns, deal velocity, and engagement signals to predict close probability and timing\u2014fully transparent scoring you can audit."
+        }
+      ],
+      "objections": [
+        "Rowan mentioned concern about change management with the sales team adopting another tool"
+      ],
+      "next_steps": [
+        "Send trial access credentials for sandbox testing",
+        "Schedule proposal discussion to review pricing and packaging"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-06-05",
+      "type": "proposal_call",
+      "duration_minutes": 14,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Priya to discuss pricing options. Presented three tiers, recommended Professional plan for 27 seats with unlimited automation at $27,300 annually. Priya indicated budget pressure and asked about discounting options. Discussed payment terms and contract length flexibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the per-seat pricing if we commit to annual?",
+          "answer": "Let me see what we can do\u2014I'll talk to my manager about options for annual commitment."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you working within?",
+          "answer": "Honestly closer to $20k for the year. We've got other tools we're investing in this quarter."
+        }
+      ],
+      "objections": [
+        "Budget constraint\u2014Priya's approved amount significantly below list pricing"
+      ],
+      "next_steps": [
+        "Rep to check on discounting approval for annual contract",
+        "Priya to confirm budget approval process and timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-06-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at $19,500 annually (28% discount) for 27 seats with unlimited automation, annual payment. Outlined implementation support, training included, and 30-day satisfaction guarantee. Asked Priya about next steps for internal approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this pricing lock in if we expand seats mid-year?",
+          "answer": "Yes, same per-seat rate applies to any additions during your contract term."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Priya to review revised proposal with VP Sales",
+        "Schedule call to address any final questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-06-15",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Priya. She's aligned on the revised pricing and value, confirmed it fits within her budget. Discussed implementation timeline and onboarding plan. Priya mentioned she has authority to sign but wants to give VP Sales a heads up before finalizing. Went through contract terms and data security requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if this doesn't work out after a few months?",
+          "answer": "Annual commitment with 30-day satisfaction guarantee\u2014if you're not seeing value in the first month, we'll refund fully."
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to kick off implementation?",
+          "answer": "Ideally within two weeks of signing so we're ready for Q3 planning in early July."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you include our standard vendor security addendum?",
+          "answer": "Absolutely, send it over and we'll review with our legal team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Priya to brief VP Sales on decision",
+        "Legal review of security addendum",
+        "Target contract signature by end of next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-06-22",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec alignment call with Priya and VP Sales. Priya presented the business case, walked through forecasting accuracy ROI, and confirmed implementation plan. VP Sales asked a few clarifying questions about reporting capabilities and voiced support for Priya's recommendation. Casual tone, mostly a formality.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this give me a single dashboard view across all three regional teams?",
+          "answer": "Yes, rollup views at any hierarchy level\u2014individual rep, team, region, or company-wide."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders we should loop in before finalizing?",
+          "answer": "No, Priya's got this. Let's get it done."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with security addendum incorporated",
+        "Priya to route for signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-06-28",
+      "type": "exec_meeting",
+      "duration_minutes": 43,
+      "person_name": "Priya Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Contract finalization and kickoff planning call with Priya, Rowan, and Nicole. Reviewed signed agreement, confirmed payment processing, and scheduled implementation kickoff. Discussed training schedule, data migration plan, and success metrics. Team excited to get started, energized about improving forecast accuracy before Q3. Assigned customer success manager and shared onboarding timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Who will be our main point of contact during implementation?",
+          "answer": "You'll have a dedicated CSM, Jamie, who'll run your onboarding and be your main contact ongoing."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do a phased rollout or should we go all-in with all 27 reps at once?",
+          "answer": "We recommend full rollout given your timeline, but we can do a small pilot group first week if you prefer."
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in the first 90 days?",
+          "answer": "Forecast variance under 15% and the team actually using this instead of spreadsheets\u2014that's the win."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Implementation kickoff scheduled for next Monday",
+        "CSM to send pre-work checklist and calendar invites",
+        "Training sessions scheduled for sales team weeks 2-3"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "deal_id": "DEAL-0287",
+  "company": {
+    "name": "CanyonForge",
+    "industry": "Healthcare IT",
+    "employee_count": 100,
+    "annual_revenue": 9761456,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 64.93,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 27.0,
+    "sales_cycle_days": 34,
+    "close_date": "2023-08-18",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Maria Turner",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Maria Turner submitted an inbound demo request form expressing interest in improving pipeline visibility for her CS team. She mentioned they're currently evaluating Fathom but want to see alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send calendar link for discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with calendar availability and a brief overview of how our automation features differ from Fathom's approach. Maria responded confirming interest and booked a discovery slot for next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration with two-way sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-24",
+      "type": "discovery_call",
+      "duration_minutes": 8,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call with Maria to understand CS team workflow and pain points. She manages 9 CSMs who struggle with visibility into customer health signals. Currently using spreadsheets and manual note-taking. Fathom is in their consideration set but she's concerned about pricing.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the evaluation process?",
+          "answer": "Just me right now\u2014I own the CS tools budget"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom?",
+          "answer": "We're generally competitive, can share specific pricing after we align on your use case"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send demo video and pricing estimate for 9 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-07-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Sent demo video showcasing pipeline automation and unlimited_automation tier capabilities. Included pricing estimate. Maria replied saying the team loved the video and the features look like a good fit, but she'll need to think about budget allocation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with fewer seats and scale up later?",
+          "answer": "Yes, we can start with 5-6 seats and add more as you expand"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Maria to review with her team and circle back next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 9 seats at $7,400 ACV (unlimited_automation tier). Maria acknowledged receipt and said she's working through budget approvals internally. She mentioned Fathom came in slightly lower but she prefers our feature set.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Maria to present to finance, rep to follow up Friday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-18",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Maria Turner",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Maria pushed for additional discount citing budget constraints and Fathom's competing offer. She has authority to sign but is hesitant about the pricing gap. Rep agreed to 27% discount to match her budget ceiling in exchange for quarterly payment and faster close.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Fathom's price or get closer?",
+          "answer": "I can bring this down to $7,400 if we can close this week"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to loop in your VP or CFO to discuss ROI?",
+          "answer": "Not necessary\u2014I have budget authority for this amount"
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom's quote"
+      ],
+      "next_steps": [
+        "Maria to review final contract and sign by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 87,
+    "churn_reason": "lack of executive alignment"
+  }
+}

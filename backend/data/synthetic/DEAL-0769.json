@@ -1,0 +1,359 @@
+{
+  "deal_id": "DEAL-0769",
+  "company": {
+    "name": "BluePartners",
+    "industry": "Vertical SaaS",
+    "employee_count": 25,
+    "annual_revenue": 4763794,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3800.0,
+    "seats": 6,
+    "price_per_seat_monthly": 51.07,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.6,
+    "sales_cycle_days": 61,
+    "close_date": "2024-10-15",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jordan Miller",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 9
+    },
+    {
+      "name": "Owen Silva",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-17",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Jordan Miller at BluePartners. No answer, left voicemail introducing AskElephant's call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up with second call attempt"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-18",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Jordan Miller. Rep introduced AskElephant's solution for sales coaching. Jordan expressed interest in learning more about how it compares to their current evaluation of Clari. Agreed to longer qualification call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Clari?",
+          "answer": "AskElephant focuses specifically on call recording and AI-powered coaching workflows, while Clari is broader revenue operations. We integrate deeply with coaching cadences."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-15",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Jordan Miller. Discussed BluePartners' sales team of 6 reps struggling with inconsistent messaging and lack of coaching visibility. Jordan confirmed they're evaluating Clari but concerned about complexity. Budget authority sits with Owen Silva in procurement. Jordan can champion internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for call recording and coaching tools right now?",
+          "answer": "Our VP wants better visibility into rep performance and faster ramp time for new hires. We're missing deals due to inconsistent discovery."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing model for 6 seats?",
+          "answer": "Typically $7,500-8,000 ACV for 6 seats with unlimited automation, but we can discuss based on your needs."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "I'll be the main point of contact, but Owen Silva in procurement will handle contracts and our VP will want visibility before we commit."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jordan to share current coaching process docs",
+        "Schedule discovery call to dive deeper into workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email thanking Jordan for the qualification call. Shared case study of similar vertical SaaS company that reduced ramp time by 40% using AskElephant. Confirmed discovery call for following week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the integration list? Want to make sure you connect with our CRM.",
+          "answer": "Attached integration sheet - we have native Salesforce and HubSpot connectors plus Zapier for others."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Brief email from Jordan confirming discovery call and asking if we can include use cases specific to coaching SDRs vs AEs. Rep confirmed and shared relevant resources.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Thursday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-08",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Jordan Miller. Walked through call recording, AI transcription, coaching scorecards, and automated feedback loops. Jordan was engaged, asked detailed questions about implementation timeline and Clari comparison. Noted that Clari felt 'too enterprise' for their 25-person team. Requested pricing and wants to loop in VP before proposal stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "Usually 2-3 weeks for setup, training, and integration. Most teams are fully live within a month."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve like for reps?",
+          "answer": "Very minimal - most reps are comfortable within the first week. The AI does the heavy lifting on transcription and analysis."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter. Still evaluating Clari but their pricing is steep and feels like overkill."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards to our methodology?",
+          "answer": "Yes, completely customizable. You can build scorecards based on your own frameworks and criteria."
+        }
+      ],
+      "objections": [
+        "Need to make sure this doesn't overlap too much with Clari if we go that route"
+      ],
+      "next_steps": [
+        "Rep to send pricing proposal",
+        "Jordan to brief VP and try to get meeting scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-18",
+      "type": "exec_meeting",
+      "duration_minutes": 49,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Jordan Miller - VP did not attend despite being scheduled. Jordan explained VP had conflict but is supportive. Discussed business case: faster rep ramp, better win rates, coaching consistency. Jordan pushed for aggressive discount to get under procurement threshold. Rep outlined ROI model and agreed to explore pricing flexibility.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is your VP still supportive of moving forward even though they couldn't make today's call?",
+          "answer": "Yes, I briefed them yesterday. They're on board but want to see final pricing before signing off."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can do for 6 seats with unlimited automation?",
+          "answer": "Our list is $7,500 but let me see what we can do given your timeline and fit. I'll work with my manager."
+        },
+        {
+          "by": "prospect",
+          "question": "If we signed by end of month, could you get us started early on implementation?",
+          "answer": "Absolutely - we can kick off onboarding as soon as the contract is signed."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter - need to stay under $5K to avoid executive approval process"
+      ],
+      "next_steps": [
+        "Rep to bring updated pricing to proposal call",
+        "Jordan to confirm VP availability for final approval"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-28",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Jordan. Rep presented discounted pricing at $4,200 ACV (44% off list). Jordan pushed back, citing Clari's lower quote and budget constraints. Rep agreed to bring back $3,800 ACV (49% discount) as final offer. Jordan acknowledged this would work but needs to route through Owen Silva for procurement approval. Still no VP commitment on timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's pricing? They came in at $3,500.",
+          "answer": "I can't go that low, but I can get you to $3,800 which includes our premium automation tier. Clari's base package doesn't include some of the features you need."
+        },
+        {
+          "by": "rep",
+          "question": "Is $3,800 within your approved budget?",
+          "answer": "Yes, that keeps us under the $4K threshold. I'll need to get Owen involved for contracting."
+        }
+      ],
+      "objections": [
+        "Clari quoted us lower and they have more brand recognition"
+      ],
+      "next_steps": [
+        "Rep to send final proposal at $3,800 ACV",
+        "Jordan to introduce Owen Silva",
+        "Target contract signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-06",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Jordan Miller",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call with Jordan - originally scheduled but rescheduled last minute due to Jordan's conflict. Call happened two days later. Discussed final terms at $3,800 ACV for 6 seats. Jordan confirmed Owen Silva will handle paperwork and asked about payment terms. Rep agreed to net-30. Jordan mentioned VP is 'aware' but still hasn't directly engaged. Agreed to send contract for Owen's review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do net-30 payment terms instead of upfront?",
+          "answer": "Yes, we can accommodate net-30 for your first year."
+        },
+        {
+          "by": "rep",
+          "question": "When can we expect contract signature?",
+          "answer": "Owen should be able to turn it around in 3-5 days once he has it."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract to Owen Silva for review",
+        "Jordan to follow up internally on VP sign-off"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-10-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Owen Silva",
+      "person_role": "procurement",
+      "person_title": "Account Manager",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Owen Silva introducing the deal and attaching final contract at $3,800 ACV, 6 seats, unlimited automation tier, net-30 terms. Owen acknowledged receipt and said he'll review this week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a redline-friendly version of the contract?",
+          "answer": "Yes, attached both PDF and Word versions for your review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Owen to complete contract review by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

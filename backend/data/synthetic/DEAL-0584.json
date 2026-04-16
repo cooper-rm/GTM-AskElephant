@@ -1,0 +1,353 @@
+{
+  "deal_id": "DEAL-0584",
+  "company": {
+    "name": "MeridianStack",
+    "industry": "Marketing Agency",
+    "employee_count": 96,
+    "annual_revenue": 15072119,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2300.0,
+    "seats": 4,
+    "price_per_seat_monthly": 51.48,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 42.2,
+    "sales_cycle_days": 32,
+    "close_date": "2025-11-20",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Chorus",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Luke Ito",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-09-30",
+      "type": "cold_call",
+      "duration_minutes": 8,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Luke Ito at MeridianStack. Rep introduced AskElephant as a solution for sales-to-CS handoff automation. Luke expressed initial interest, mentioned current challenges with handoff documentation and mentioned they've been looking at Chorus. Brief intro call, agreed to follow up with more details via email.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently handling the transition from sales to customer success?",
+          "answer": "Mostly manual handoffs via Slack and Google Docs. It's messy and things get lost."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration along with HubSpot and other CRMs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send email with product overview and case study",
+        "Schedule follow-up call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-10-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with AskElephant overview, pricing tiers, and case study from similar marketing agency. Luke responded positively, confirmed interest in learning more about automation capabilities and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks from contract signature to full deployment, including training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to discuss specific use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-10-24",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to schedule discovery. Luke confirmed budget availability this quarter and interest in moving quickly. He mentioned he's new to the Head of Sales role (3 months in) and wants to make an impact early. Discussed current pain points with CS handoffs causing customer confusion. Scheduled full discovery call.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Probably just me for now. I own the sales tooling budget and this is really a sales ops problem."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had two customers complain about rough onboarding in the past month. I need to fix this fast."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next Tuesday",
+        "Luke to prepare examples of recent handoff failures"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-10-28",
+      "type": "discovery_call",
+      "duration_minutes": 40,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on MeridianStack's sales-to-CS handoff workflow. Luke described current process using manual notes and Slack threads, causing delays and information loss. Discussed team size (4 AEs) and need for unlimited automation. Luke mentioned evaluating Chorus but concerned about cost and complexity. Rep walked through AskElephant's handoff automation features and asked about decision process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through what happens after a deal closes today.",
+          "answer": "AE sends a Slack message to CS lead with deal details, usually from memory. CS scrambles to find context. We lose a lot of nuance from the sales process."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I'd like to have something in place by end of quarter. Budget's approved, just need the right solution."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Chorus?",
+          "answer": "Chorus is more focused on conversation intelligence across the org. We're specialized for handoff automation, typically 40-50% lower cost for similar use cases."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond yourself, who needs to sign off on a purchase like this?",
+          "answer": "I have approval authority up to $5K. This should fall under that."
+        }
+      ],
+      "objections": [
+        "Concerned about team adoption - AEs are resistant to new tools"
+      ],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Rep to send competitive comparison with Chorus",
+        "Luke to confirm exact seat count needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-02",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo walking through handoff automation workflow. Luke engaged throughout, asking detailed questions about Salesforce integration and automation triggers. Showed strong interest in template customization. Confirmed need for 4 seats (one per AE). Asked about discount options given budget constraints. No other stakeholders joined the demo despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the handoff templates by deal type?",
+          "answer": "Yes, fully customizable templates with conditional logic based on deal characteristics."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your pricing for 4 seats with unlimited automation?",
+          "answer": "List price is $4,000 ACV for 4 seats on unlimited plan. Let me see what flexibility we have."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CS leader on a follow-up call to show the receiving end?",
+          "answer": "Not necessary right now. I can socialize it internally once I understand the full picture."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than expected budget allocation"
+      ],
+      "next_steps": [
+        "Rep to prepare pricing proposal with options",
+        "Luke to review with finance on budget flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-11-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and pricing proposal. Rep offered $2,800 ACV (30% discount) for 4 seats to fit budget constraints. Luke responded asking if there's additional flexibility, mentioned Chorus quoted lower but prefers AskElephant's focused solution.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to move on price? We're really looking at $2,500 range.",
+          "answer": "Let me discuss with leadership. Can we schedule a call to align on expectations?"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec alignment meeting",
+        "Luke to provide Chorus quote for competitive review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-11-10",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Exec meeting to discuss business value and align on pricing. Luke reiterated ROI case around reducing customer onboarding friction. Mentioned pressure to close a solution quickly. Rep probed again on involving other stakeholders (CFO, CS leader) but Luke insisted he has authority and wants to move fast. Meeting felt rushed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Have you validated this solves the CS team's needs as well?",
+          "answer": "Yes, I've talked to them. They're on board with whatever improves the handoff process."
+        },
+        {
+          "by": "rep",
+          "question": "What happens if we can't get to your target price?",
+          "answer": "Then I'll probably need to go with Chorus or wait until next quarter. I need to show progress on this."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to get final pricing approval from leadership",
+        "Reconvene for pricing call within 48 hours"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-11-15",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Rep presented $2,500 ACV (37.5% discount) as compromise. Luke pushed for $2,300 to stay under budget threshold. Rep expressed concern about discount level and asked about multi-year commitment to justify pricing. Luke declined, wants annual only. Discussion around contract terms and payment schedule.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would you consider a two-year agreement at $2,500/year?",
+          "answer": "No, I need to see results first year before committing longer term."
+        },
+        {
+          "by": "prospect",
+          "question": "If I can get to $2,300, can we close this week?",
+          "answer": "I'll need to get approval. That's a 42% discount which is outside my authority."
+        }
+      ],
+      "objections": [
+        "Won't commit beyond one year",
+        "Firm on $2,300 budget ceiling"
+      ],
+      "next_steps": [
+        "Rep to escalate pricing request internally",
+        "Follow-up call scheduled for two days out"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-11-20",
+      "type": "pricing_call",
+      "duration_minutes": 25,
+      "person_name": "Luke Ito",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call. Rep received approval for $2,300 ACV at 42% discount given end-of-quarter timing and competitive situation with Chorus. Luke agreed to terms. Discussed implementation timeline and contract review process. Luke committed to signature within 3 business days pending legal review. Rep noted concerns about single-threaded deal and lack of executive sponsor but Luke reassured he has authority.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Just to confirm - you have full authority to execute this contract without other approvals?",
+          "answer": "Yes, I'm within my approval limit. I'll route through legal as formality but that's just process."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "We can kick off within 5 business days of signed contract."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule an implementation planning call with your CS team?",
+          "answer": "Let's get the contract done first, then we can coordinate on implementation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send contract for signature",
+        "Luke to complete legal review by end of week",
+        "Schedule implementation kickoff call post-signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 64,
+    "churn_reason": "organizational change affected priorities"
+  }
+}

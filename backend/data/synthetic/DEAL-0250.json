@@ -1,0 +1,396 @@
+{
+  "deal_id": "DEAL-0250",
+  "company": {
+    "name": "VioletMedia",
+    "industry": "Managed IT/Cybersecurity",
+    "employee_count": 39,
+    "annual_revenue": 5103841,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 75.84,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 14.8,
+    "sales_cycle_days": 35,
+    "close_date": "2023-03-12",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Peyton Watson",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 51
+    },
+    {
+      "name": "Charlotte Agarwal",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 2
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-01-07",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Peyton Watson, Director of CS at VioletMedia. No answer, left voicemail introducing our call recording and coaching platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-01-08",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second cold call attempt to Peyton Watson. No answer, did not leave additional voicemail to avoid oversaturation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-01-09",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Peyton Watson with personalized note about improving CS team coaching at VioletMedia. No response yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-01-22",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Peyton accepted LinkedIn connection and responded expressing interest in learning more about call recording solutions for their growing CS team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-02-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with calendar link and brief overview of our coaching capabilities. Peyton responded confirming availability for next week and mentioned they're currently evaluating options including Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "Shared high-level differentiation on automation capabilities and pricing model, with promise to dive deeper on the call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-02-11",
+      "type": "qualification_call",
+      "duration_minutes": 21,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute qualification call with Peyton. Discussed current CS workflow pain points around coaching consistency and manager visibility. VioletMedia has 7-person CS team, looking to standardize call quality as they scale. Peyton confirmed budget authority sits with their VP of Ops but she can champion internally.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your solution integrate with our existing tech stack - Salesforce and Zendesk?",
+          "answer": "Yes, native integrations with both platforms available"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline?",
+          "answer": "Want to have something in place before Q3 to support new CS hire onboarding"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we get coaching scorecards customized to our specific use cases?",
+          "answer": "Absolutely, we'll configure custom scorecards during implementation"
+        }
+      ],
+      "objections": [
+        "Concerned about rep adoption - previous tools had low engagement"
+      ],
+      "next_steps": [
+        "Schedule discovery call with Charlotte from the CS team",
+        "Send integration overview doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-02-17",
+      "type": "discovery_call",
+      "duration_minutes": 22,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute discovery call with Peyton walking through their current coaching process. Currently doing manual call reviews weekly which is time-consuming. Discussed specific use cases around onboarding acceleration and consistent CSAT improvement. Peyton mentioned Gong demo is scheduled for next week as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently measuring coaching effectiveness?",
+          "answer": "Mostly qualitative manager feedback, no standardized metrics yet"
+        },
+        {
+          "by": "prospect",
+          "question": "What does your unlimited automation tier include exactly?",
+          "answer": "Unlimited automated scorecards, sentiment analysis, and custom workflow triggers - walked through specific examples"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation from your side?",
+          "answer": "Charlotte is the lead Account Manager and will be primary user, VP of Ops will need to sign off on final decision"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation demo",
+        "Include Charlotte in next meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-02-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with technical eval agenda and demo environment access. Peyton responded asking to reschedule from Wednesday to Friday due to internal conflict. Confirmed Charlotte will join.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval rescheduled to Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-02-24",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "43-minute technical evaluation with Peyton and Charlotte. Walked through live demo of call recording, automated coaching scorecards, and manager dashboard. Charlotte engaged heavily, asked detailed questions about daily workflow. Tested Salesforce integration live. Both seemed impressed with automation capabilities compared to manual process they showed us.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does it take to set up the custom scorecards?",
+          "answer": "Initial setup 1-2 weeks, can refine iteratively after launch"
+        },
+        {
+          "by": "prospect",
+          "question": "Can managers override AI scores if they disagree?",
+          "answer": "Yes, full override capability with comment tracking for calibration"
+        },
+        {
+          "by": "rep",
+          "question": "What are your must-have features for moving forward?",
+          "answer": "Salesforce sync, custom scorecards, and manager notification workflows are critical"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the difference in your pricing tiers - do we need unlimited automation?",
+          "answer": "Explained tier differences, recommended unlimited based on their 7 seats and heavy automation use case"
+        }
+      ],
+      "objections": [
+        "Pricing seems higher than Gong's quoted rate"
+      ],
+      "next_steps": [
+        "Peyton to brief VP of Ops",
+        "Schedule exec alignment meeting",
+        "Send formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-02-28",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "29-minute meeting with Peyton to align on proposal terms. Discussed 7-seat unlimited automation tier at $6,200 ACV. Peyton confirmed Charlotte is on board and excited to use it. However, VP of Ops still hasn't been directly engaged - Peyton relaying info secondhand. Asked about ROI justification materials to help make internal case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we see a customer reference in the managed services space?",
+          "answer": "Shared two case studies, offered to connect with similar-sized customer"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for your VP of Ops?",
+          "answer": "Demonstrable time savings for managers and measurable CSAT lift within 90 days"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on contract length for a lower rate?",
+          "answer": "Standard annual terms, can discuss multi-year for discount consideration"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator",
+        "Peyton to schedule meeting with VP of Ops",
+        "Send formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-03-09",
+      "type": "pricing_call",
+      "duration_minutes": 7,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "7-minute pricing clarification call with Peyton. She received proposal and had questions about seat expansion pricing and what happens if they add CS headcount mid-year. Confirmed they're still comparing with Gong's offer which came in lower.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cost to add seats mid-contract?",
+          "answer": "Prorated monthly rate, can add anytime with 30-day notice"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Peyton to discuss internally and get back by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-03-14",
+      "type": "negotiation_call",
+      "duration_minutes": 18,
+      "person_name": "Peyton Watson",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "18-minute negotiation call, originally scheduled for Tuesday but rescheduled to Thursday at Peyton's request. Peyton pushed for 15% discount to match Gong's pricing. Discussed value differentiation on unlimited automation tier. She acknowledged feature preference for our platform but has budget pressure. VP of Ops still not directly involved in conversations which is creating approval friction.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's pricing or get closer to their number?",
+          "answer": "Offered 8% discount for annual prepay, emphasized automation ROI and implementation support included"
+        },
+        {
+          "by": "rep",
+          "question": "Would it help to have a direct conversation with your VP of Ops to address any concerns?",
+          "answer": "Peyton said she'd prefer to align internally first, will loop in VP if needed"
+        }
+      ],
+      "objections": [
+        "Budget is tight, Gong's offer is significantly lower",
+        "Concerns about getting VP sign-off without stronger discount"
+      ],
+      "next_steps": [
+        "Peyton to present revised pricing to VP of Ops",
+        "Decision expected next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

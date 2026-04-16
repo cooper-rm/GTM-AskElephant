@@ -1,0 +1,228 @@
+{
+  "deal_id": "DEAL-0516",
+  "company": {
+    "name": "SentinelLink",
+    "industry": "Healthcare IT",
+    "employee_count": 79,
+    "annual_revenue": 15382040,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6600.0,
+    "seats": 9,
+    "price_per_seat_monthly": 60.51,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 32.0,
+    "sales_cycle_days": 25,
+    "close_date": "2024-01-01",
+    "use_case": "Pipeline visibility",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Kwame Le",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Kwame Le at SentinelLink regarding pipeline visibility tooling. Currently evaluating Clari but interested in our approach. Expressed urgency around Q2 planning cycle.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-07",
+      "type": "qualification_call",
+      "duration_minutes": 23,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Kwame (Dir of CS). Team of 9 struggling with forecast accuracy and pipeline transparency. Currently in late-stage eval of Clari. Budget approved for ~$10k range. Kwame owns CS ops but mentioned need to loop in VP Sales eventually.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a new solution right now?",
+          "answer": "Our board wants better visibility into pipeline health. Current spreadsheet approach isn't scaling as we grow."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision?",
+          "answer": "I'm driving this for CS, but Sales uses similar tools. I'll bring in VP Sales when we get closer."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari?",
+          "answer": "We're typically more accessible for teams your size. Let's dive into your specific needs in discovery and I can share detailed pricing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week",
+        "Send use case one-pager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-13",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on CS pipeline workflow and reporting needs. Kwame walked through current process using Salesforce + spreadsheets. Highlighted need for automation and executive dashboards. Mentioned Clari pricing feels steep but appreciates their forecasting AI. Discussed our automations + consulting package.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through how you currently track pipeline health for your CS book of business.",
+          "answer": "We export Salesforce weekly, manually categorize risk, then build exec reports in Google Sheets. Takes 4-5 hours every Monday."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our Salesforce instance and Slack?",
+          "answer": "Yes, we have native integrations for both. The consulting package includes custom workflow setup."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline?",
+          "answer": "Typically 2-3 weeks with the consulting add-on. We'd have you live before end of quarter."
+        }
+      ],
+      "objections": [
+        "Clari has more advanced AI forecasting features that our CFO is interested in"
+      ],
+      "next_steps": [
+        "Send demo recording and ROI calculator",
+        "Kwame to review internally and circle back"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on internal review. Kwame responded that team is aligned on value but mentioned budget constraints came up. Asked if there's flexibility on pricing. Sent ballpark quote at $6.6k (32% discount from list) to keep conversation moving.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing you outlined? Our Q2 budget is tighter than expected.",
+          "answer": "Let me work with our team on a custom package that fits your immediate needs. I can get creative on year 1 pricing if we can discuss a multi-year commitment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kwame to review revised pricing with finance"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-25",
+      "type": "negotiation_call",
+      "duration_minutes": 24,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call discussing revised pricing at $6.6k for 9 seats with automations + consulting. Kwame appreciates the discount and thinks it's workable. Mentioned he'd like to move forward but wants to brief his VP Sales before final approval. Discussed contract terms and start date targeting early May.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "When can we get your VP Sales involved to finalize this?",
+          "answer": "I'll brief them this week. They're busy with quarter-end but I don't anticipate any blockers."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a 6-month pilot instead of annual?",
+          "answer": "The discounted rate I offered is contingent on an annual commit. We could do quarterly billing if that helps with cash flow."
+        }
+      ],
+      "objections": [
+        "Would prefer shorter commitment given we're still evaluating Clari in parallel"
+      ],
+      "next_steps": [
+        "Kwame to loop in VP Sales",
+        "Send contract for review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-01",
+      "type": "negotiation_call",
+      "duration_minutes": 14,
+      "person_name": "Kwame Le",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call. Kwame confirmed he briefed VP Sales who is supportive. Legal is reviewing the contract. Kwame mentioned Clari came back with a competitive counter-offer but our consulting package is a differentiator. Targeting signatures by end of week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Any concerns from legal or your VP that we should address?",
+          "answer": "Nothing major. VP Sales likes the hands-on consulting approach vs. Clari's self-serve model."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Legal review to complete by Friday",
+        "Kwame to send signed contract pending approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

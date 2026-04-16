@@ -1,0 +1,392 @@
+{
+  "deal_id": "DEAL-0187",
+  "company": {
+    "name": "BayPlatform",
+    "industry": "Marketing Agency",
+    "employee_count": 1000,
+    "annual_revenue": 151754844,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 17400.0,
+    "seats": 23,
+    "price_per_seat_monthly": 66.35,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.4,
+    "sales_cycle_days": 41,
+    "close_date": "2024-02-04",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Arjun Hassan",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 6
+    },
+    {
+      "name": "Reese Watson",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 20
+    },
+    {
+      "name": "Charlotte Martin",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 14
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-01",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Arjun Hassan, Director of CS at BayPlatform. No answer, left voicemail introducing our onboarding automation platform and mentioning we help marketing agencies scale customer success operations.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-03",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 19.0,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Arjun Hassan mentioning common challenges in CS onboarding at mid-market agencies. Arjun responded expressing interest in learning more about automation capabilities, mentioned current manual processes are slowing team down.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What types of onboarding workflows can you automate?",
+          "answer": "We support end-to-end automation including welcome sequences, training scheduling, resource provisioning, and milestone tracking. Happy to show you specific examples relevant to marketing agencies."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule introductory call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-04",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold call to confirm timing for intro call. Arjun did not pick up, sent text confirming availability later in week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study of similar marketing agency that reduced onboarding time by 40%. Arjun replied asking about implementation timeline and whether we integrate with their existing tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 23 seats, typically 3-4 weeks including configuration, integration, and team training. We have a dedicated implementation team to support the rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 8.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call agenda and requesting Arjun invite relevant stakeholders. Arjun confirmed he'll join solo initially to evaluate fit before bringing in broader team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-01-06",
+      "type": "discovery_call",
+      "duration_minutes": 27,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute discovery call with Arjun Hassan. Discussed current onboarding pain points: manual handoffs, inconsistent customer experience, lack of visibility into progress. BayPlatform currently using basic tools and spreadsheets. Arjun mentioned team is evaluating Clari as well. Identified use case around automating their 30-day onboarding journey for new agency clients.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform handle custom workflows specific to our client types?",
+          "answer": "Fully configurable workflow builder with conditional logic. You can create different paths based on client segment, package tier, or any custom criteria."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on onboarding effectiveness?",
+          "answer": "Real-time dashboards showing completion rates, time-to-value metrics, bottleneck identification, and team utilization. All exportable for executive reporting."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Arjun mentioned Reese Watson (Account Manager) for technical evaluation and Charlotte Martin (Implementation Lead) for procurement, but wants to see demo first before involving them."
+        }
+      ],
+      "objections": [
+        "We're also looking at Clari - how do you differentiate from them on the automation side?"
+      ],
+      "next_steps": [
+        "Schedule demo focused on onboarding automation workflows",
+        "Send competitive comparison doc vs Clari"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-01-10",
+      "type": "demo",
+      "duration_minutes": 27,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute product demo with Arjun Hassan. Walked through onboarding automation builder, showed example workflows for marketing agency use cases, demonstrated reporting dashboard. Arjun engaged positively, asked detailed questions about customization. Expressed concern about team adoption and change management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trial this with a subset of clients before full rollout?",
+          "answer": "Yes, we recommend phased approach. Start with one client segment, validate results, then expand. We'll support you through each phase."
+        },
+        {
+          "by": "prospect",
+          "question": "How difficult is it for our team to build and modify workflows themselves?",
+          "answer": "No-code interface, most customers have CS teams managing workflows independently after initial training. We also provide templates to accelerate setup."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for BayPlatform in the first 90 days?",
+          "answer": "Arjun mentioned reducing onboarding cycle time from 45 to 30 days and improving CS team capacity to handle 30% more clients without adding headcount."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Arjun to brief Reese and Charlotte",
+        "Schedule proposal call with extended team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-01-19",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute proposal call with Arjun Hassan. Presented pricing for 23 seats with unlimited automation tier at $17,400 ACV. Arjun noted budget constraints and asked about discounting options. Discussed contract terms, implementation support included. Arjun mentioned he needs to get Charlotte (procurement) involved but hasn't looped in executive sponsor yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given we're committing to multi-year?",
+          "answer": "We can explore discount options for multi-year commitment. Let me work up a revised proposal and we can discuss with your procurement lead."
+        },
+        {
+          "by": "rep",
+          "question": "Who on the executive team will need to approve this investment?",
+          "answer": "Arjun mentioned VP of Operations typically approves CS tooling, but hasn't engaged them yet. Plans to build internal business case first."
+        }
+      ],
+      "objections": [
+        "Price is higher than we anticipated - need to see if this fits current budget cycle"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount scenarios",
+        "Schedule meeting with Charlotte for procurement discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-22",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "42-minute executive meeting with Arjun Hassan and Reese Watson (Account Manager). Walked through business case: ROI projections, implementation plan, success metrics. Reese asked detailed technical questions about integrations with their CRM and project management tools. Discussed competition with Clari - team acknowledged our automation capabilities are stronger for their use case. No executive sponsor present despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data migration from our current systems?",
+          "answer": "We provide migration support as part of implementation. Our team will map your existing workflows and data structure, then handle the transfer with validation checkpoints."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we need to scale beyond 23 seats in the next year?",
+          "answer": "Seat expansion is prorated for remainder of contract term. Most customers start conservative and scale up as they prove value."
+        },
+        {
+          "by": "rep",
+          "question": "When would you ideally want to have this live?",
+          "answer": "Arjun mentioned Q3 start would be ideal to align with their client onboarding surge period. Reese noted they need 4-6 weeks for internal approvals."
+        }
+      ],
+      "objections": [
+        "We still need to get VP sign-off and they're not familiar with the project yet"
+      ],
+      "next_steps": [
+        "Arjun to schedule meeting with VP of Operations",
+        "Send executive summary deck for internal stakeholder briefing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-29",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "20-minute executive meeting with Arjun Hassan and Charlotte Martin (Implementation Lead) - originally scheduled for 30 minutes but rescheduled from previous week due to Charlotte's conflict. Discussed procurement process, contract terms, and revised pricing with 25.4% discount to fit budget. Charlotte raised questions about security review timeline and vendor onboarding requirements. Still no executive sponsor engaged in process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard contract length and are there penalties for early termination?",
+          "answer": "Standard is annual with 30-day termination notice after first year. No penalties if you provide proper notice."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have SOC 2 Type II certification?",
+          "answer": "Yes, SOC 2 Type II certified and GDPR compliant. Happy to share security documentation for your review process."
+        },
+        {
+          "by": "rep",
+          "question": "What's your typical timeline from contract signature to vendor approval?",
+          "answer": "Charlotte mentioned 2-3 weeks for security review and vendor setup, but expressed concern about getting on Q2 vendor approval agenda."
+        }
+      ],
+      "objections": [
+        "Even with discount, this is stretching our CS tooling budget - need to confirm final approval"
+      ],
+      "next_steps": [
+        "Send security documentation to Charlotte",
+        "Arjun to present final business case to VP",
+        "Target contract signature in 2 weeks"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-02-03",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Arjun Hassan",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute pricing and terms finalization call with Arjun Hassan and Charlotte Martin. Confirmed 25.4% discount bringing ACV to $17,400 for 23 seats with unlimited automation tier. Reviewed payment terms (annual upfront), implementation timeline (4 weeks post-signature), and support SLAs. Charlotte confirmed security review can proceed in parallel with legal review. Arjun mentioned VP gave verbal approval but still needs formal sign-off. Discussed Clari competitive positioning - team confirmed they're moving forward with us based on automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payment instead of annual upfront?",
+          "answer": "Discount pricing is contingent on annual prepayment. We can explore quarterly billing but would need to adjust discount structure."
+        },
+        {
+          "by": "rep",
+          "question": "What would prevent this from closing in the next two weeks?",
+          "answer": "Arjun mentioned only remaining blocker is formal VP signature and Charlotte's security review completion. Both expected to clear within 10 days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Charlotte to complete security review by end of week",
+        "Send final contract for legal review",
+        "Arjun to obtain VP signature",
+        "Target close date: April 28"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

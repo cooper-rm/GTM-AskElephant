@@ -1,0 +1,211 @@
+{
+  "deal_id": "DEAL-0375",
+  "company": {
+    "name": "DynamicCloud",
+    "industry": "SaaS/Tech",
+    "employee_count": 28,
+    "annual_revenue": 4477214,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 7,
+    "price_per_seat_monthly": 78.4,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 11.9,
+    "sales_cycle_days": 24,
+    "close_date": "2023-07-11",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Henry Patel",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 7
+    },
+    {
+      "name": "Aria Chen",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 25
+    },
+    {
+      "name": "David Hoffmann",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-06-07",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Patel",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach email sent to Henry Patel introducing AskElephant's CRM automation capabilities. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-06-12",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Henry Patel",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Henry highlighting time savings from automated CRM data entry. Henry replied expressing interest in learning more about how AskElephant differs from their current Fireflies setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does this compare to Fireflies, which we're currently piloting?",
+          "answer": "AskElephant goes beyond transcription to provide structured CRM automation with native integrations, automatic field mapping, and deal intelligence that Fireflies doesn't offer."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-06-17",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Henry Patel",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "11-minute qualification call with Henry Patel. Discussed current pain points with manual CRM updates taking 2-3 hours per rep weekly. Henry mentioned they're evaluating Fireflies but finding it lacks automation depth. Confirmed budget authority sits with Aria Chen (SVP Revenue). Henry is champion and wants to move forward with technical evaluation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at CRM automation now?",
+          "answer": "Our sales team is spending too much time on data entry instead of selling. We need something that actually automates the workflow, not just records calls."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your system handle our specific CRM fields and custom objects?",
+          "answer": "Yes, we support custom field mapping and can configure automation rules for your specific workflow during implementation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Set up technical evaluation with David Hoffmann",
+        "Share pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-29",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "David Hoffmann",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "62-minute technical evaluation call with David Hoffmann (Account Manager) and Henry joining midway. Deep dive into integration architecture, data security, and automation capabilities. David tested the CRM sync functionality and custom field mapping. Discussed implementation timeline and training requirements. David expressed concern about change management but was impressed with the unlimited automation tier compared to Fireflies' per-seat transcription model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the data flow work between your system and our CRM, and what's the latency?",
+          "answer": "We use bidirectional API sync with sub-5-minute latency. All data is encrypted in transit and at rest with SOC2 compliance."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the implementation timeline look like for 7 users?",
+          "answer": "Typical implementation is 2 weeks including custom field mapping, user training, and automation rule configuration."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring success with Fireflies?",
+          "answer": "Honestly, we're getting transcripts but still doing manual CRM work. That's why we're exploring alternatives that actually automate the process."
+        }
+      ],
+      "objections": [
+        "Our team is already adapting to Fireflies - concerned about introducing another tool change"
+      ],
+      "next_steps": [
+        "David to share technical requirements doc",
+        "Schedule exec alignment meeting with Aria Chen",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-07-10",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Aria Chen",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute executive meeting with Aria Chen (SVP Revenue), Henry, and rep. Reviewed business case and ROI projections showing 8-12 hours saved per rep monthly. Discussed pricing at $6,700 ACV for 7 seats with unlimited automation. Aria asked about competitive positioning versus Fireflies and contract flexibility. Negotiated payment terms and discussed Q2 rollout timeline aligned with their fiscal planning. Aria requested minor discount consideration but approved moving forward pending legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why should we switch from Fireflies when we've already invested time in that pilot?",
+          "answer": "Fireflies focuses on transcription while AskElephant delivers end-to-end CRM automation. Based on Henry's feedback, you're still doing manual data entry - our solution eliminates that entirely."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier versus your other plans?",
+          "answer": "Unlimited automation includes no caps on automated workflows, custom field mappings, or integration actions. It's designed for teams like yours that need comprehensive CRM coverage."
+        },
+        {
+          "by": "rep",
+          "question": "What does your ideal rollout timeline look like from your end?",
+          "answer": "We'd want to kick off early May to align with our Q2 planning cycle and have the team fully onboarded before mid-quarter."
+        }
+      ],
+      "objections": [
+        "Pricing is slightly above our budgeted range - can we explore any flexibility on the annual contract?"
+      ],
+      "next_steps": [
+        "Send contract for legal review",
+        "Explore 5% discount for annual prepayment",
+        "Schedule kickoff for early May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

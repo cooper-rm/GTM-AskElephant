@@ -1,0 +1,274 @@
+{
+  "deal_id": "DEAL-0110",
+  "company": {
+    "name": "CrimsonConsulting",
+    "industry": "EdTech",
+    "employee_count": 42,
+    "annual_revenue": 3128359,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2200.0,
+    "seats": 4,
+    "price_per_seat_monthly": 45.82,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 48.5,
+    "sales_cycle_days": 37,
+    "close_date": "2025-09-01",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Maria Lee",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 12
+    },
+    {
+      "name": "David Murphy",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-24",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Maria Lee at CrimsonConsulting expressing interest in our platform for improving forecasting accuracy. She mentioned they're currently evaluating Fireflies and looking for alternatives.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-07-26",
+      "type": "qualification_call",
+      "duration_minutes": 20,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Maria Lee to understand their forecasting challenges. She explained their RevOps team struggles with pipeline visibility and accuracy. Currently using Fireflies but finding it limited for their needs. Discussed team size (4 people would need access) and budget constraints.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your biggest pain points with forecasting today?",
+          "answer": "We're missing about 30% of deal context because our AEs don't log everything properly. Makes it hard to predict what's actually going to close."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation tier pricing compare to Fireflies?",
+          "answer": "Our unlimited automation tier would give you more flexibility than Fireflies' per-seat model, and we can work within your budget."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send pricing overview",
+        "Schedule follow-up to discuss use cases"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-01",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call with Maria to dive deeper into their tech stack and integration needs. She confirmed they use Salesforce and need seamless sync. Mentioned that getting executive buy-in might take time as their CFO is cautious about new tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll be driving this, but I should probably loop in David Murphy from our sales team for the technical side. Budget approval will need to go through our CFO eventually."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform handle our Salesforce custom fields for deal stages?",
+          "answer": "Yes, we support custom field mapping and can configure that during onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical overview for David Murphy",
+        "Move to discovery phase"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 17.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Maria with technical documentation and integration guides for Salesforce. Included case study from similar EdTech company. She responded quickly confirming she'd review with David.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have any customers in the education space we could reference?",
+          "answer": "Yes, attached a case study from LearnTech Solutions who saw 40% improvement in forecast accuracy."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal review",
+        "Schedule demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming demo scheduled for next week. Maria mentioned they're moving quickly because quarter-end is approaching and they want a solution in place soon. She hasn't mentioned involving any executives yet.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo with Maria and David",
+        "Prepare proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-19",
+      "type": "exec_meeting",
+      "duration_minutes": 11,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Maria to discuss proposal and implementation timeline. She's enthusiastic about moving forward but mentioned budget is tight and asked about discount options. No other executives joined the call despite invitation. Discussed 4-seat deployment for her RevOps team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for a 4-seat deployment? We're comparing against Fireflies' quote.",
+          "answer": "We can work with you on pricing. Let me discuss options with leadership and get back to you with a competitive offer."
+        }
+      ],
+      "objections": [
+        "Pricing needs to be competitive with Fireflies"
+      ],
+      "next_steps": [
+        "Prepare discounted proposal",
+        "Schedule pricing call with David"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-24",
+      "type": "pricing_call",
+      "duration_minutes": 34,
+      "person_name": "David Murphy",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with David Murphy to walk through technical implementation and revised proposal at $2,200 ACV (48.5% discount). David asked detailed questions about API limits and data retention. He seemed satisfied with technical answers but expressed concern about getting CFO approval at any price point given their budget freeze rumors.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits on the unlimited automation tier?",
+          "answer": "Standard tier is 10K calls/day, unlimited tier has no hard cap but we monitor for abuse. Your usage profile won't come close to limits."
+        },
+        {
+          "by": "prospect",
+          "question": "How long do you retain the call transcripts and can we export them?",
+          "answer": "Transcripts retained for 2 years on your plan, full export available via API or CSV."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementation if we move forward?",
+          "answer": "We'd like to start before end of quarter, so ideally sign within 2 weeks. But I need to check with finance on the approval process."
+        }
+      ],
+      "objections": [
+        "Budget approval process is unclear, may be complicated"
+      ],
+      "next_steps": [
+        "Send formal proposal to Maria",
+        "Request CFO introduction"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Maria Lee",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Maria with final proposal and terms. She responded confirming she's working on getting internal approvals but mentioned the CFO is reviewing all Q4 software purchases. Asked for another week to finalize. No commitment to intro executive sponsor.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up in 1 week",
+        "Request executive sponsor meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

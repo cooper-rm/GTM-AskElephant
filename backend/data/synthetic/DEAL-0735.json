@@ -1,0 +1,410 @@
+{
+  "deal_id": "DEAL-0735",
+  "company": {
+    "name": "OnyxGear",
+    "industry": "PropTech",
+    "employee_count": 806,
+    "annual_revenue": 56341188,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19400.0,
+    "seats": 28,
+    "price_per_seat_monthly": 62.07,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 30.3,
+    "sales_cycle_days": 91,
+    "close_date": "2025-09-15",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Kwame Miller",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Priya Cooper",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-06-12",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Kwame Miller (VP of CS) expressing interest in improving forecasting accuracy for their property tech operations. Brief form submission mentioning current pain points with forecast visibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-17",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Kwame to understand current forecasting challenges at OnyxGear. Discussed team size (28 potential users), current tools in use, and timeline for evaluation. Kwame mentioned they're also looking at Fireflies.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better forecasting accuracy right now?",
+          "answer": "We're scaling our CS team rapidly and losing visibility into customer health trends. Manual reporting is breaking down."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies for our use case?",
+          "answer": "We specialize in forecasting workflows with deeper analytics and automation layers that Fireflies doesn't offer for CS teams."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send competitor comparison sheet",
+        "Schedule deeper qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-23",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call to dive deeper into OnyxGear's tech stack and integration requirements. Kwame outlined their current Salesforce setup and data sources. Mentioned budget is approved but needs to align with Q2 planning.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Priya Cooper in procurement will handle contracting. I'll drive the technical evaluation with my team."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "For your team size, we can get you live in 2-3 weeks after contract signature."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call with broader use cases",
+        "Share integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-07-04",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to confirm discovery agenda and gather additional context on OnyxGear's reporting workflows. Kwame walked through their current manual processes and pain points with forecast drift in their property management vertical.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics are most critical for your forecasting dashboard?",
+          "answer": "Churn risk, expansion opportunities, and renewal confidence scores by property segment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized discovery deck",
+        "Schedule 30-min discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-11",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call covering OnyxGear's full forecasting workflow, pain points with current tools, and desired outcomes. Kwame demonstrated their existing Salesforce reports and highlighted gaps. Discussed automations_plus_consulting package to accelerate setup and training.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show me how the automation workflows would actually reduce manual work for my team?",
+          "answer": "Walked through automated health scoring, trigger-based alerts, and custom dashboard examples relevant to PropTech."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "20% improvement in forecast accuracy and cutting our weekly reporting time in half."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy for customer data in your analytics?",
+          "answer": "Explained SOC2 compliance, data encryption, and customer data controls."
+        }
+      ],
+      "objections": [
+        "We're concerned about the learning curve for the team\u2014Fireflies seemed more plug-and-play."
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Provide PropTech customer case studies"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-22",
+      "type": "technical_eval",
+      "duration_minutes": 44,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Kwame and two team members. Walked through live environment setup, Salesforce integration, custom automation builder, and reporting dashboard. Team tested features hands-on and asked detailed questions about workflow customization.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we trigger automations based on property-specific metrics from our custom Salesforce fields?",
+          "answer": "Yes, demonstrated custom field mapping and conditional automation logic."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of consulting support is included in the package you mentioned?",
+          "answer": "10 hours of setup assistance, workflow design sessions, and training for the first month."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers or concerns from your team?",
+          "answer": "No major blockers. Team is excited but wants to see a demo with executive leadership before moving forward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for broader stakeholder group",
+        "Prepare executive-level ROI summary"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-31",
+      "type": "demo",
+      "duration_minutes": 37,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled once, then conducted with Kwame and his team. Presented forecasting capabilities, automation examples, and PropTech-specific use cases. Team engaged positively but noted they need to align with leadership on budget and priorities before proceeding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the pricing look like for our team size?",
+          "answer": "Outlined pricing for 28 seats with automations_plus_consulting package, approximately $19-20K annually."
+        },
+        {
+          "by": "rep",
+          "question": "Do you have executive buy-in to move forward with this evaluation?",
+          "answer": "Kwame mentioned he has budget authority but hasn't formally briefed leadership yet."
+        }
+      ],
+      "objections": [
+        "We need to make sure this fits within our Q2 software budget\u2014we have other competing priorities."
+      ],
+      "next_steps": [
+        "Schedule exec meeting to align on business case",
+        "Send ROI calculator"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-07",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Kwame to review business case and ROI projections. Kwame presented internally but noted exec sponsor has not yet engaged directly. Discussed implementation timeline and support model. Kwame expressed urgency to close by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a call with your executive sponsor to address any strategic questions?",
+          "answer": "Kwame said he'd prefer to handle internally for now and will loop them in if needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your flexibility on pricing given our timeline and budget constraints?",
+          "answer": "Indicated we can work within reasonable parameters, will prepare formal proposal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Introduce Priya Cooper (procurement) to contracting process"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-17",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing call rescheduled once, then held with Kwame to discuss proposal. Kwame requested a 30% discount to fit budget. Discussed payment terms and contract length. Acknowledged competitive pressure from Fireflies offering lower pricing but agreed our solution is stronger for their use case.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the pricing Fireflies quoted us, or get close?",
+          "answer": "Explained value differentiation but agreed to bring discount request to leadership for approval."
+        }
+      ],
+      "objections": [
+        "The price is higher than we budgeted, and Fireflies came in significantly lower."
+      ],
+      "next_steps": [
+        "Get approval for 30% discount",
+        "Send revised proposal",
+        "Loop in Priya for contract review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Kwame with revised proposal reflecting 30% discount (final ACV $19,400). Outlined contract terms, implementation timeline, and next steps for legal review with Priya Cooper. Requested confirmation to proceed.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "Kwame confirmed he's reviewing internally and will connect Priya for contract discussions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await confirmation from Kwame",
+        "Prepare contract for Priya's review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-09-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking in on proposal status and offering to answer any outstanding questions. Reiterated value of automations_plus_consulting package and implementation support to ensure fast time-to-value.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule call with Priya if contract questions arise",
+        "Follow up in 2 days if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-09-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Miller",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.5,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email to Kwame and Priya offering to address any final concerns before end of quarter. Mentioned willingness to schedule a call with executive leadership if that would help move things forward. Emphasized limited-time discount approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await response",
+        "Escalate internally if no movement by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

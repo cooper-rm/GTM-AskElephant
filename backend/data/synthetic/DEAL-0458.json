@@ -1,0 +1,320 @@
+{
+  "deal_id": "DEAL-0458",
+  "company": {
+    "name": "CoralLabs",
+    "industry": "Vertical SaaS",
+    "employee_count": 37,
+    "annual_revenue": 3377731,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 6,
+    "price_per_seat_monthly": 56.79,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 36.2,
+    "sales_cycle_days": 78,
+    "close_date": "2023-11-12",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Finn Zhou",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 13
+    },
+    {
+      "name": "Ade Pham",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-25",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Finn Zhou at CoralLabs expressing interest in call recording and coaching capabilities. Director of Sales looking to improve team performance and mentioned currently exploring options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent confirming interest and proposing times for qualification call. Finn responded positively, confirmed availability, and asked about integration capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and our existing dialer?",
+          "answer": "Yes, we have native Salesforce integration and support all major dialers including Aircall, RingCentral, and Dialpad."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm call time for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.4,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email sent with agenda and discovery questions. Finn confirmed attendance and mentioned that Ade Pham from their team will be involved in the evaluation process later.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Prepare technical questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-16",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Finn Zhou covering current pain points with manual call reviews and lack of coaching consistency across 6-person sales team. CoralLabs currently has no formal solution and is evaluating us alongside Clari. Team size is small but growing. Discussed use case focused on call recording and automated coaching insights.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for a call recording solution right now?",
+          "answer": "We're scaling the team and need consistent coaching. Right now managers are manually reviewing calls which doesn't scale."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision-making process?",
+          "answer": "I'm championing this internally. Ade Pham will handle procurement and contract review once we select a vendor."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching feature compare to Clari's conversation intelligence?",
+          "answer": "Our AI coaching provides real-time feedback and customizable scorecards. Clari focuses more on forecasting whereas we specialize in rep development."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full demo for next week",
+        "Send pricing overview",
+        "Include Ade in future communications"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-28",
+      "type": "demo",
+      "duration_minutes": 56,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive demo session with Finn showcasing call recording, AI transcription, coaching scorecards, and automation features. Finn was engaged and asked detailed questions about implementation timeline and team onboarding. Expressed concern about pricing compared to alternatives but very interested in the coaching automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 6 seats, typically 1-2 weeks including integrations and team training."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our specific sales methodology?",
+          "answer": "Absolutely, the scorecards are fully customizable and we'll work with you during onboarding to configure them."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within the next month. Budget is approved for this quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing looking like for 6 users with the automation tier?",
+          "answer": "I'll send over a formal proposal, but for 6 seats on unlimited automation we're looking at around $6,500 annually."
+        }
+      ],
+      "objections": [
+        "Pricing seems higher than what we've seen from Clari for similar functionality"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Provide case study from similar-sized company",
+        "Schedule follow-up to review proposal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal with discounted pricing at $4,200 ACV for 6 seats (36% discount applied to address budget concerns). Finn acknowledged receipt and said he needs to review with Ade before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "This discount is helpful - is this pricing locked in for multi-year if we want to expand?",
+          "answer": "We can discuss multi-year terms that lock in favorable pricing as you grow. Let's cover that in our next conversation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review proposal internally",
+        "Schedule meeting to discuss terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-22",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting scheduled as exec review but only Finn attended - no other executives or decision-makers present. Discussed contract terms, implementation timeline, and went deeper on ROI justification. Finn seemed positive but mentioned needing to get final approval from leadership. Conversation focused heavily on discount justification and competitive positioning against Clari.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will we have a chance to present to your executive team or leadership?",
+          "answer": "I'm the main decision-maker for sales tools, but I'll socialize this internally. Our VP of Sales trusts my recommendation."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you walk me through the ROI calculation you mentioned in the proposal?",
+          "answer": "Based on coaching efficiency gains and time saved on manual reviews, you're looking at 15-20 hours per month recovered across your management team."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear yes for you and your team?",
+          "answer": "Honestly the pricing is the main factor. The functionality is solid, but we need to make sure we're getting the best value."
+        }
+      ],
+      "objections": [
+        "Still comparing value proposition against Clari's offering and their pricing structure"
+      ],
+      "next_steps": [
+        "Finn to review with Ade and leadership",
+        "Follow up early next week",
+        "Prepare security/compliance docs for procurement"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 10.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on internal review progress and offering to answer any questions from Ade or leadership. Finn responded that they're still evaluating and comparing final terms with Clari. Asked for our best and final pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any additional flexibility on the $4,200 annual price?",
+          "answer": "We've already applied a significant discount to get to this price point. Let me check with leadership on any additional flexibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Check on additional discount approval",
+        "Request timeline for final decision"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-11-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Finn Zhou",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.7,
+      "rescheduled": false,
+      "ai_summary": "Sent follow-up confirming that $4,200 is our best pricing and emphasizing the value of coaching automation features. Included security documentation requested by Ade. Finn acknowledged and said they're finalizing internally this week.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await final decision from CoralLabs",
+        "Prepare contract for signature"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 83,
+    "churn_reason": "lack of executive alignment"
+  }
+}

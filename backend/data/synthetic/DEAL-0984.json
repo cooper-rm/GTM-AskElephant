@@ -1,0 +1,330 @@
+{
+  "deal_id": "DEAL-0984",
+  "company": {
+    "name": "VertexCube",
+    "industry": "Marketing Agency",
+    "employee_count": 37,
+    "annual_revenue": 5367111,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4900.0,
+    "seats": 8,
+    "price_per_seat_monthly": 50.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.4,
+    "sales_cycle_days": 45,
+    "close_date": "2025-02-04",
+    "use_case": "Pipeline visibility",
+    "competitor": "Chorus",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Ravi Morgan",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Ade Turner",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 5
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-15",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ravi Morgan at VertexCube expressing interest in improving pipeline visibility for their sales team. Mentioned they're currently evaluating Chorus and want to understand our capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-21",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies focused on marketing agencies. Ravi responded confirming interest and availability for a discovery call next week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot and Salesforce?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Book discovery call",
+        "Prepare demo focused on pipeline visibility"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-27",
+      "type": "follow_up_call",
+      "duration_minutes": 8,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call to confirm discovery call agenda and gather preliminary information about VertexCube's sales process. Ravi mentioned they have 8 account executives who need better visibility into deal health.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for tracking pipeline health?",
+          "answer": "Mostly manual reviews in weekly meetings, not very systematic"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct full discovery call Thursday",
+        "Send pre-call questionnaire"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-31",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "In-depth discovery call exploring VertexCube's sales challenges. Ravi detailed pain points around forecasting accuracy and lack of real-time deal insights. Team of 8 AEs handling 40-60 active deals. Currently looking at Chorus but concerned about complexity. Ravi is the main champion but mentioned Ade Turner handles procurement.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation now?",
+          "answer": "We missed our quarter badly because deals we thought were solid fell through at the last minute"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI differ from Chorus?",
+          "answer": "We focus on predictive deal scoring and risk signals, while Chorus is more conversation analytics focused"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the decision?",
+          "answer": "Ade Turner will handle the commercial side, but I'm driving the technical evaluation"
+        }
+      ],
+      "objections": [
+        "Concerned about getting the team to adopt another tool"
+      ],
+      "next_steps": [
+        "Set up technical evaluation for Ravi's team",
+        "Schedule exec alignment meeting",
+        "Prepare ROI analysis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 12.2,
+      "rescheduled": false,
+      "ai_summary": "Email sent with technical evaluation plan and access credentials. Ravi confirmed he'll run the eval with 3 team members over the next week. Shared specific use cases to test including pipeline review automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation in progress",
+        "Check-in call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-15",
+      "type": "technical_eval",
+      "duration_minutes": 55,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation review call with Ravi. Team tested the platform with real deals and call recordings. Positive feedback on ease of use and actionable insights. Ravi noted the risk scoring feature would have flagged their Q4 misses. Expressed concern about pricing compared to Chorus quote. No executive sponsor has been engaged yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller seat count and expand?",
+          "answer": "Yes, though the per-seat pricing is better at 8+ seats"
+        },
+        {
+          "by": "rep",
+          "question": "When would you want to have a decision made?",
+          "answer": "Ideally within 3 weeks, but need to get budget approval from leadership"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your standard pricing for 8 seats with unlimited automation?",
+          "answer": "Typically $8,660 ACV for that configuration, but we can discuss options"
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule time with your VP or leadership team?",
+          "answer": "Let me sync with Ade first on budget, then we can look at that"
+        }
+      ],
+      "objections": [
+        "Chorus provided a more aggressive initial quote"
+      ],
+      "next_steps": [
+        "Prepare proposal with ROI justification",
+        "Schedule exec meeting",
+        "Follow up on budget timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-22",
+      "type": "exec_meeting",
+      "duration_minutes": 17,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Attempted exec alignment meeting was rescheduled. Ravi joined briefly to discuss budget constraints and mentioned they received a competitive offer from Chorus. Conversation focused on finding a price point that works. No other executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best you can do on pricing to stay competitive?",
+          "answer": "Let me work on a proposal that addresses your budget while maintaining the value"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revised proposal needed",
+        "Reconnect with Ade on procurement process",
+        "Reschedule exec meeting"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Email sent with revised proposal at $4,900 ACV for 8 seats with unlimited automation tier. Highlighted differentiated value vs Chorus and included customer ROI data. Ravi responded acknowledging the pricing is more competitive and will review with Ade.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this pricing require an annual commitment?",
+          "answer": "Yes, this is annual prepay pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Pricing review call scheduled",
+        "Decision expected within one week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-04",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Ravi Morgan",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing and terms discussion with Ravi. He confirmed the $4,900 pricing works within their budget and addresses Ade's concerns. Technical fit is strong based on the evaluation. Ravi will present to leadership this week for final sign-off. Timeline is tight but feasible. Still no direct executive engagement, relying on Ravi to champion internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's the approval process from here?",
+          "answer": "I need to get VP Sales and CFO sign-off, should have an answer by Friday"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we adjust payment terms to quarterly instead of annual prepay?",
+          "answer": "At this pricing level we need annual commitment, but can discuss quarterly invoicing"
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else that could block this from moving forward?",
+          "answer": "Just the internal approval, but I'm confident given the ROI case and pricing"
+        }
+      ],
+      "objections": [
+        "Preference for quarterly payment terms rather than annual prepay"
+      ],
+      "next_steps": [
+        "Contract sent for review",
+        "Ravi to present to leadership",
+        "Follow up Friday on decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

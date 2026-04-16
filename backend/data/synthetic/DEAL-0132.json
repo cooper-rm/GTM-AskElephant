@@ -1,0 +1,427 @@
+{
+  "deal_id": "DEAL-0132",
+  "company": {
+    "name": "CoralSystems",
+    "industry": "PropTech",
+    "employee_count": 558,
+    "annual_revenue": 105634738,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 19400.0,
+    "seats": 23,
+    "price_per_seat_monthly": 71.54,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 19.6,
+    "sales_cycle_days": 53,
+    "close_date": "2024-12-21",
+    "use_case": "Onboarding automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Aiden Zhou",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 49
+    },
+    {
+      "name": "Ella Mensah",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 76
+    },
+    {
+      "name": "Ezra Le",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-26",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Aiden Zhou at CoralSystems expressing interest in onboarding automation solutions. Initial inquiry submitted through website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with calendar link for qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Aiden confirming receipt of inquiry and proposing times for qualification call. Aiden responded promptly accepting Tuesday 2pm slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience with PropTech companies similar to our size?",
+          "answer": "Yes, we work with several mid-market PropTech clients on similar onboarding workflows"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Tuesday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-02",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Aiden Zhou. Discussed current onboarding challenges at CoralSystems - manual processes creating bottlenecks for their growing PropTech platform. Team of ~550 needs better automation. Aiden mentioned they're also evaluating Gong but likes our consulting approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your consulting model work compared to pure software plays?",
+          "answer": "We provide dedicated implementation support and ongoing optimization, not just software access"
+        },
+        {
+          "by": "prospect",
+          "question": "What's typical implementation timeline for a company our size?",
+          "answer": "Usually 6-8 weeks for mid-market, depends on complexity of existing workflows"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send use case examples from PropTech clients",
+        "Schedule discovery call to map current workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-11",
+      "type": "follow_up_call",
+      "duration_minutes": 4,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call with Aiden. He confirmed leadership interest and mentioned COO Ella Mensah wants to be involved in evaluation. Discussed next steps for deeper discovery session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we bring our IT Director Ezra Le into the discovery conversation?",
+          "answer": "Absolutely, multi-stakeholder involvement helps ensure smooth implementation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule extended discovery call with Aiden and technical stakeholders",
+        "Prepare workflow mapping template"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-11",
+      "type": "discovery_call",
+      "duration_minutes": 21,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Aiden Zhou diving into CoralSystems' current onboarding workflow. Identified key pain points: manual data entry across 3 systems, delayed customer time-to-value, RevOps team spending 15+ hours/week on repetitive tasks. Aiden shared that Gong quoted them but feels it's more sales-focused than ops-focused.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle integrations with legacy PropTech platforms?",
+          "answer": "We have pre-built connectors for major platforms plus custom API integration support"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on onboarding efficiency gains?",
+          "answer": "Real-time dashboards showing cycle time, bottleneck identification, and ROI tracking"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline - is there a specific business event?",
+          "answer": "Q3 customer expansion targets - need onboarding capacity to scale without headcount adds"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Build custom workflow automation proposal",
+        "Schedule technical demo",
+        "Introduce executive sponsor Ella Mensah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-19",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call with Aiden to review workflow mapping outputs and confirm technical requirements. Discussed seat count (23 users across RevOps and Customer Success teams). Aiden mentioned Ezra Le from IT will need to review security/compliance before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support SSO and role-based access controls?",
+          "answer": "Yes, enterprise SSO via Okta/Azure AD and granular permission management"
+        },
+        {
+          "by": "rep",
+          "question": "What's Ezra's primary concern from an IT perspective?",
+          "answer": "Data security and ensuring we don't create shadow IT risks with new integrations"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare security documentation for IT review",
+        "Schedule demo for Aiden and broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Email sent to Aiden with demo recording and custom proposal overview. Aiden responded positively, confirmed Ella Mensah wants to join next conversation before moving to pricing discussion. Mentioned Gong came back with revised proposal but still leaning toward us.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share ballpark pricing before the exec meeting so Ella has context?",
+          "answer": "Will prepare formal proposal - for 23 seats with consulting, typically $18-22K annually depending on support level"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Ella Mensah",
+        "Prepare business case presentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-29",
+      "type": "exec_meeting",
+      "duration_minutes": 21,
+      "person_name": "Ella Mensah",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with COO Ella Mensah and Aiden Zhou. Ella focused on business outcomes and ROI - wants to see measurable impact on customer time-to-value and RevOps efficiency. Strong alignment on strategic value but Ella noted budget scrutiny this quarter and asked about flexibility on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are similar PropTech clients seeing in first 6 months?",
+          "answer": "Typical clients see 40-60% reduction in onboarding cycle time and 20-30% efficiency gains in ops teams"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our use case?",
+          "answer": "Gong optimizes for conversation intelligence - we focus on workflow automation with hands-on consulting, different value prop"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer decision for you?",
+          "answer": "Clear ROI path and pricing that fits our Q2 budget constraints - we're being careful with new software spend"
+        }
+      ],
+      "objections": [
+        "Budget sensitivity this quarter given macro uncertainty"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Include ROI model tailored to CoralSystems metrics"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-12-05",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Aiden Zhou reviewing detailed pricing. Presented $19,400 for 23 seats with Automations Plus Consulting tier. Aiden appreciated the proposal but mentioned Ella is comparing against Gong's lower quote and asked if there's room for negotiation. Discussed value differentiation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure this as a pilot with fewer seats to prove value first?",
+          "answer": "We can explore phased rollout, though consulting engagement works best with full team access from start"
+        },
+        {
+          "by": "rep",
+          "question": "What's Gong's pricing coming in at?",
+          "answer": "They quoted around $16K but it doesn't include implementation support or workflow consulting"
+        }
+      ],
+      "objections": [
+        "Gong proposal is lower cost",
+        "Preference to start smaller and expand"
+      ],
+      "next_steps": [
+        "Discuss pricing flexibility internally",
+        "Prepare comparison doc: our solution vs Gong for ops automation use case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aiden Zhou",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Aiden with competitive comparison document highlighting consulting value and workflow automation capabilities vs Gong's conversation intelligence focus. Aiden acknowledged and said he's presenting both options to Ella and Ezra this week for final decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for internal decision meeting outcome",
+        "Stand by for potential pricing negotiation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-12-15",
+      "type": "exec_meeting",
+      "duration_minutes": 11,
+      "person_name": "Ella Mensah",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec meeting with Ella Mensah. She confirmed CoralSystems wants to move forward but needs pricing adjustment to fit budget. Asked for 10-12% reduction to get to internal approval threshold. Positive tone but clear on budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we can get to $17,500 range, can we move to contract this week?",
+          "answer": "Let me check with leadership - that's a significant discount but want to make this work"
+        }
+      ],
+      "objections": [
+        "Pricing above approved budget band"
+      ],
+      "next_steps": [
+        "Get approval for discount to close deal",
+        "Prepare revised proposal if approved"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-12-22",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Ella Mensah",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation call with Ella Mensah and Aiden Zhou. After internal discussion, agreed to $19,400 with extended payment terms (quarterly vs annual prepay) to help with cash flow. Ella confirmed this works within budget and Ezra signed off on security review. Agreement to proceed with contracts. Discussed implementation kickoff timeline for early next month.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include quarterly business review meetings as part of the consulting package?",
+          "answer": "Yes, QBRs are standard with Automations Plus tier"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if results don't meet expectations after 6 months?",
+          "answer": "30-day notice required, but we'll work closely to ensure success metrics are tracked and met"
+        },
+        {
+          "by": "rep",
+          "question": "Assuming contracts this week, is May 1 kickoff realistic?",
+          "answer": "Yes, we can mobilize implementation team for May 1 start"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract with agreed terms and quarterly payment structure",
+        "Introduction to implementation team",
+        "Schedule kickoff planning call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

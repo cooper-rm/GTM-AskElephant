@@ -1,0 +1,422 @@
+{
+  "deal_id": "DEAL-0811",
+  "company": {
+    "name": "CompassMint",
+    "industry": "Professional Services",
+    "employee_count": 571,
+    "annual_revenue": 89861867,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 22500.0,
+    "seats": 25,
+    "price_per_seat_monthly": 72.81,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 18.2,
+    "sales_cycle_days": 56,
+    "close_date": "2023-10-14",
+    "use_case": "Onboarding automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Dakota Shah",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 27
+    },
+    {
+      "name": "Ryan Young",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 17
+    },
+    {
+      "name": "Aria Byrne",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 12
+    },
+    {
+      "name": "Ivy Le",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-13",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Dakota Shah at CompassMint expressing interest in automating their onboarding process for new hires. Brief form submission indicating current pain points with manual workflows and desire to explore automation solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Dakota"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-19",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Dakota Shah to understand CompassMint's onboarding challenges. Dakota described manual processes causing delays in getting new employees productive. Discussed team size, current tools, and timeline expectations. Dakota confirmed budget authority through RevOps and mentioned CRO Ryan Young would need to approve.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in onboarding automation right now?",
+          "answer": "We've scaled to 571 employees and our manual onboarding is creating bottlenecks. New hires wait days for access and training materials."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your typical implementation timeline look like?",
+          "answer": "Most customers are live within 4-6 weeks depending on complexity."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dakota to brief Ryan Young on the initiative",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Dakota with resources on onboarding automation best practices and a case study from a similar professional services firm. Dakota responded confirming discovery call time and sharing that Ryan is supportive of the initiative.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the ROI calculator you mentioned?",
+          "answer": "Attached ROI calculator and implementation guide to help with internal discussions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-31",
+      "type": "discovery_call",
+      "duration_minutes": 43,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive discovery call with Dakota Shah covering current onboarding workflow, pain points across departments, and desired outcomes. Dakota walked through their existing process involving 12 manual steps and multiple systems. Discussed integration requirements with their HRIS and LMS. Dakota identified 25 people who would use the platform regularly. Strong alignment on use case and Dakota expressed urgency to have solution in place before Q3 hiring push.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current onboarding process from offer acceptance to day one.",
+          "answer": "HR creates accounts manually, emails PDFs, tracks completion in spreadsheets. IT provisions access separately. Takes 3-5 days and lots of back-and-forth."
+        },
+        {
+          "by": "rep",
+          "question": "Who are the key stakeholders we should involve in the evaluation?",
+          "answer": "Ryan Young our CRO will be exec sponsor. Aria Byrne handles implementation. Ivy Le from IT for technical review."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with BambooHR and our learning platform?",
+          "answer": "Yes, we have pre-built connectors for both. Can show you in the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Dakota and Aria",
+        "Send integration documentation for IT review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-06",
+      "type": "technical_eval",
+      "duration_minutes": 70,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First technical evaluation session with Dakota Shah and Aria Byrne. Demonstrated core automation workflows, template builder, and integration capabilities. Aria asked detailed questions about customization options and data mapping. Walked through CompassMint-specific use case building a sample onboarding workflow live. Dakota and Aria both engaged positively, Aria took extensive notes on implementation requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the workflow triggers based on role type and department?",
+          "answer": "Yes, fully customizable with conditional logic. Showed how to set up department-specific paths."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the system handle compliance training requirements that vary by state?",
+          "answer": "You can configure location-based rules. Demonstrated with California-specific example."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current timeline for getting this implemented?",
+          "answer": "Ideally live by mid-June before our Q3 hiring starts ramping up."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Second technical session to cover reporting and analytics",
+        "Aria to document technical requirements for IT"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-10",
+      "type": "technical_eval",
+      "duration_minutes": 58,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation with Dakota, Aria, and Ivy Le from IT. Covered security architecture, SSO integration, API capabilities, and reporting dashboard. Ivy asked thorough questions about data security and compliance. Reviewed audit logs and permission controls. Demonstrated analytics showing time-to-productivity metrics. Dakota expressed confidence this would solve their core challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What certifications do you maintain for data security?",
+          "answer": "SOC 2 Type II, GDPR compliant, data encrypted in transit and at rest. Shared security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export data for our internal BI tools?",
+          "answer": "Yes, full API access and scheduled CSV exports. Can push to your data warehouse."
+        },
+        {
+          "by": "rep",
+          "question": "Ivy, any concerns from IT perspective?",
+          "answer": "No red flags. Looks solid. Need to review the security docs in detail but initial impression is positive."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dakota to brief Ryan Young on evaluation results",
+        "Prepare proposal for 25 seats with unlimited automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-19",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Dakota Shah. Presented pricing for 25 seats on unlimited automation plan at $22,500 ACV with implementation included. Dakota reviewed line items and asked clarifying questions about billing terms and contract length. Discussed ROI projections showing 200+ hours saved quarterly. Dakota indicated pricing was within budget but wanted to review with Ryan before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this annual or can we do monthly billing?",
+          "answer": "Standard is annual with quarterly option at slight premium. Can structure either way."
+        },
+        {
+          "by": "rep",
+          "question": "Does this fit within your approved budget range?",
+          "answer": "Yes, this aligns with what we discussed with finance. Need Ryan's final sign-off."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dakota to review proposal with Ryan Young",
+        "Schedule follow-up to discuss any questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-25",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Dakota after Ryan's review. Dakota shared that Ryan approved the initiative and pricing looks good. Discussed contract terms, start date, and implementation timeline. Dakota mentioned Aria would lead implementation coordination. Confirmed 4-week implementation timeline works with their schedule. Dakota ready to move forward pending final contract review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a clause for adding more seats mid-contract if we hire faster than expected?",
+          "answer": "Absolutely. We can add an expansion rider with prorated pricing for additional seats."
+        },
+        {
+          "by": "rep",
+          "question": "Any other stakeholders who need to review before we finalize?",
+          "answer": "Just legal for standard contract review. No other approvals needed."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy?",
+          "answer": "30-day notice after first year. First year is committed term."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send contract for legal review",
+        "Introduce Aria to implementation team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-01",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Dakota to address questions from legal review. Discussed standard contract modifications including data retention clause and liability cap. Dakota walked through legal's requested changes - mostly standard terms. Covered payment terms and invoicing process. Dakota requested slight adjustment to implementation timeline to align with IT resource availability.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we extend implementation start by one week? Ivy's team has a system upgrade scheduled.",
+          "answer": "No problem. We can start implementation week of June 5th instead."
+        },
+        {
+          "by": "rep",
+          "question": "Are the contract terms acceptable with the standard modifications?",
+          "answer": "Yes, legal is comfortable with the revised terms. Just need to finalize payment schedule."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update contract with agreed modifications",
+        "Schedule pricing finalization call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-10-07",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing finalization call with Dakota to confirm payment structure and billing details. Discussed quarterly vs annual payment option. Dakota confirmed preference for annual payment with standard net-30 terms. Reviewed final contract with all modifications incorporated. Dakota confirmed everything looks ready for signature and will route to Ryan Young for final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get the annual invoice split into two payments?",
+          "answer": "We can do 50% upfront and 50% at 6 months for annual contracts."
+        },
+        {
+          "by": "rep",
+          "question": "When can we expect Ryan's signature?",
+          "answer": "He's already reviewed and approved. Should be signed by end of week."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there a setup fee in addition to the annual cost?",
+          "answer": "No, implementation is included in the $22,500 ACV. No additional fees."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Dakota to obtain Ryan's signature",
+        "Prepare implementation kickoff materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-10-17",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Dakota Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief check-in call with Dakota on contract status. Dakota confirmed Ryan signed the contract this morning and is sending it over. Discussed immediate next steps for implementation kickoff. Scheduled kickoff call with Aria and implementation team for the following week. Dakota expressed excitement to get started.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Anything else you need from us before kickoff?",
+          "answer": "No, we're all set. Aria has the technical requirements ready to go."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Contract returned signed",
+        "Implementation kickoff scheduled for June 5th"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

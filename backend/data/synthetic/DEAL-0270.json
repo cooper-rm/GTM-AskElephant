@@ -1,0 +1,426 @@
+{
+  "deal_id": "DEAL-0270",
+  "company": {
+    "name": "VectorMedia",
+    "industry": "EdTech",
+    "employee_count": 892,
+    "annual_revenue": 136879872,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 22900.0,
+    "seats": 26,
+    "price_per_seat_monthly": 72.57,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 18.5,
+    "sales_cycle_days": 72,
+    "close_date": "2025-01-23",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Nathan Osei",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 4
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-10",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Nathan Osei, VP of Sales at VectorMedia, expressing interest in call recording and coaching solutions for their sales team. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-12",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Nathan to understand VectorMedia's current sales process and pain points. Nathan mentioned they're evaluating multiple vendors including Gong. Discussed team size and use case around coaching new sales reps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in conversation intelligence right now?",
+          "answer": "We've doubled our sales team in the last quarter and need better coaching tools. I'm new to this VP role and want to standardize our approach."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform differ from Gong?",
+          "answer": "We focus heavily on real-time coaching and have deeper integrations with learning management systems, which is particularly valuable for EdTech companies like yours."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule longer discovery call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-20",
+      "type": "qualification_call",
+      "duration_minutes": 23,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deeper qualification call exploring VectorMedia's sales workflow, current tech stack, and evaluation criteria. Nathan shared that they have 26 sales reps and are looking at the automations plus consulting package. Discussed timeline and budget parameters.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current tech stack look like for sales?",
+          "answer": "We're on Salesforce, using Outreach for sequencing, but no conversation intelligence yet. That's the gap."
+        },
+        {
+          "by": "rep",
+          "question": "Who else is involved in this evaluation process?",
+          "answer": "Right now it's just me leading this. I'll need to bring in our CRO eventually, but I want to narrow down options first."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Usually 2-3 weeks for technical setup, then we run a 4-week coaching sprint with your team."
+        }
+      ],
+      "objections": [
+        "Budget will be tight this quarter, need to stay under $25k ACV"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Prepare customized demo for EdTech use case"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent recapping qualification discussion and confirming technical evaluation scheduled for next week. Included case study from similar EdTech customer and pricing framework for 26 seats.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over the ROI calculator you mentioned?",
+          "answer": "Attached to this email, pre-filled with your team size assumptions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare for technical eval",
+        "Review case study before next call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-03",
+      "type": "technical_eval",
+      "duration_minutes": 52,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Nathan covering platform architecture, integrations, and hands-on demonstration of call analysis and coaching workflows. Nathan tested the Salesforce integration and coaching dashboard. Discussed data security and compliance requirements for EdTech.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your GDPR and data retention work? We have customers in EU.",
+          "answer": "We're fully GDPR compliant with configurable retention policies. You control where data is stored and can enable EU-only data residency."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently measuring rep performance without call recording?",
+          "answer": "Mostly through deal metrics and manager ride-alongs, but it's not scalable with our growth."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the coaching scorecards for our methodology?",
+          "answer": "Absolutely, that's part of our consulting package. We build custom scorecards based on your sales framework."
+        },
+        {
+          "by": "rep",
+          "question": "Where is Gong in your evaluation process?",
+          "answer": "We have a demo with them next week. I like what I'm seeing here, but need to do due diligence on alternatives."
+        }
+      ],
+      "objections": [
+        "Gong has stronger brand recognition in our industry"
+      ],
+      "next_steps": [
+        "Schedule follow-up to address any questions",
+        "Send technical documentation",
+        "Prepare competitive comparison"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-10",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to address questions from technical eval and discuss next steps. Nathan mentioned Gong demo went well but appreciated our consulting approach. Discussed timeline for getting CRO involved.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How did the Gong demo compare?",
+          "answer": "Strong product, but feels more enterprise-focused. I'm concerned about the level of support we'd get versus the hands-on consulting you're offering."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule full demo with use case scenarios",
+        "Begin drafting proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-12-19",
+      "type": "demo",
+      "duration_minutes": 48,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive product demo tailored to VectorMedia's EdTech sales motion, showcasing call recording, automated coaching insights, and integration with their existing stack. Nathan engaged heavily with the coaching workflow features and asked about onboarding support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the onboarding look like for our reps?",
+          "answer": "We run live training sessions, create role-specific playbooks, and assign a dedicated success manager for the first 90 days."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "I need to present to our CRO by end of month. If we can get pricing locked in, I think we can move quickly."
+        },
+        {
+          "by": "prospect",
+          "question": "How many hours of consulting are included in the package?",
+          "answer": "The automations plus consulting tier includes 40 hours over the first quarter, focused on coaching framework development and rep enablement."
+        }
+      ],
+      "objections": [
+        "Still need to get executive buy-in, which could be challenging"
+      ],
+      "next_steps": [
+        "Schedule meeting with CRO",
+        "Prepare formal proposal with pricing options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-12-28",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting was rescheduled. Nathan's CRO had a conflict and needs to push to next week. Nathan expressed concern about timeline slipping but remains committed to the evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec meeting",
+        "Send pre-read materials to CRO"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-01",
+      "type": "proposal_call",
+      "duration_minutes": 32,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Nathan walking through pricing structure, implementation timeline, and ROI projections. Discussed the $22,900 ACV for 26 seats with automations plus consulting package. Nathan focused heavily on the consulting hours and success metrics.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours? We might need more upfront.",
+          "answer": "We can restructure the delivery schedule, but additional hours would impact pricing. Let's discuss what you're envisioning."
+        },
+        {
+          "by": "rep",
+          "question": "What concerns do you think the CRO will have?",
+          "answer": "Mostly around ROI timeline and whether we're spreading budget too thin. We've made other tool investments this quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the 2-3 week implementation timeline?",
+          "answer": "Yes, with the caveat that your IT team needs to approve the Salesforce integration within the first week."
+        }
+      ],
+      "objections": [
+        "CRO may push back on adding another tool this quarter"
+      ],
+      "next_steps": [
+        "Finalize proposal with CRO talking points",
+        "Schedule exec meeting",
+        "Prepare business case materials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after proposal call with revised proposal document, ROI calculator customized for VectorMedia, and executive summary for the CRO. Included competitive differentiation points versus Gong focused on EdTech-specific value.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review materials before exec meeting",
+        "Confirm meeting still on schedule"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-17",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Nathan. He's advocating internally but facing budget pressure. Discussed discount options and payment terms. Nathan asked about reducing scope to fit budget while preserving core value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the minimum viable package that still includes some consulting?",
+          "answer": "We could reduce to 20 hours of consulting and adjust to quarterly payments, bringing it to around $21,500 ACV."
+        },
+        {
+          "by": "rep",
+          "question": "Is this a budget issue or a value issue?",
+          "answer": "It's budget. I'm sold on the value, but we're navigating quarterly constraints. A small discount would help me close this internally."
+        },
+        {
+          "by": "prospect",
+          "question": "If we sign by end of week, what flexibility do you have on pricing?",
+          "answer": "I can take this to my VP. A 5-7% discount for a quick close is possible, but I need commitment on timeline."
+        }
+      ],
+      "objections": [
+        "Price is slightly above approved budget range",
+        "Internal competition for Q2 budget"
+      ],
+      "next_steps": [
+        "Get pricing approval from leadership",
+        "Send final proposal with adjusted terms",
+        "Set decision deadline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Nathan Osei",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Final follow-up email with revised proposal at $21,800 ACV (5% discount) for 26 seats with reduced consulting hours. Included updated SOW and contract for review. Set soft deadline for decision by end of week to hold pricing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Review contract with legal",
+        "Get final CRO approval",
+        "Target signature by Friday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "deal_id": "DEAL-0146",
+  "company": {
+    "name": "MintVentures",
+    "industry": "Marketing Agency",
+    "employee_count": 90,
+    "annual_revenue": 17343536,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 9,
+    "price_per_seat_monthly": 63.84,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.3,
+    "sales_cycle_days": 35,
+    "close_date": "2023-09-28",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Amelia Kelly",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Amelia Kelly at MintVentures expressing interest in improving pipeline visibility for their sales team. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Amelia"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-24",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amelia Kelly to understand MintVentures' current sales process and pain points. Amelia described challenges with tracking deal progression across their 9-person sales team and lack of visibility into rep activities. Currently evaluating Gong as an alternative solution.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence platform right now?",
+          "answer": "We're scaling the sales team and leadership has no visibility into what's actually happening in deals. Reps are inconsistent with CRM updates."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong? We're also looking at them.",
+          "answer": "We're competitive on pricing and can be flexible based on your specific needs. Let's dive deeper into your use case on a discovery call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to review current tech stack and specific pipeline visibility requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-03",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Amelia to map out MintVentures' sales workflow and technical requirements. Discussed integration needs with their existing CRM and the team's specific pain points around deal forecasting. Amelia owns the evaluation but mentioned budget needs approval from leadership.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current process for deal reviews and forecasting.",
+          "answer": "Mostly manual. Sales managers ask reps for updates in weekly meetings, but there's no single source of truth. We need automation to capture what's actually happening."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "I'm leading the evaluation and have budget authority for tools under $10k. I'll loop in our VP of Sales closer to contract time."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform integrate with our existing CRM and calendar systems?",
+          "answer": "Yes, we have native integrations with all major CRMs and calendar platforms. We can show you a demo of the unlimited automation tier."
+        }
+      ],
+      "objections": [
+        "Gong seems to have more brand recognition in our industry"
+      ],
+      "next_steps": [
+        "Send demo recording and pricing proposal for 9 seats with unlimited automation",
+        "Schedule follow-up to discuss proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-09-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Amelia with demo recording, pricing proposal for 9 seats at $6,400 ACV (28% discount from list), and ROI calculator. Amelia responded positively and requested a meeting to discuss contract terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "The discount is helpful\u2014can you explain what's included in the unlimited automation tier vs. standard?",
+          "answer": "Unlimited automation includes automated call summaries, deal alerts, custom workflow triggers, and advanced analytics. Standard tier caps automation at 50 workflows."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment meeting to finalize terms"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-09-18",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Amelia to discuss contract structure and implementation timeline. Amelia confirmed budget is approved at the discounted rate and wants to move forward. Discussion focused on onboarding process, training for the sales team, and contract start date. No other executives from MintVentures joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does onboarding look like for a team our size?",
+          "answer": "We provide a dedicated onboarding specialist, 2 training sessions for your team, and ongoing support. Typical onboarding is 2-3 weeks."
+        },
+        {
+          "by": "rep",
+          "question": "Will your VP of Sales want to review the contract before signing?",
+          "answer": "I briefed him on the decision\u2014he trusts my judgment on sales tools. I have authority to sign."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get started once the contract is signed?",
+          "answer": "We can kick off onboarding within 3-5 business days of contract execution."
+        }
+      ],
+      "objections": [
+        "The annual commitment feels like a risk if adoption doesn't go well"
+      ],
+      "next_steps": [
+        "Send final contract for 9 seats at $6,400 ACV",
+        "Address annual commitment concern with quarterly business review terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-30",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Amelia Kelly",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation meeting with Amelia to address contract terms and close the deal. Discussed adding quarterly business reviews to mitigate her concern about annual commitment. Amelia requested minor edits to payment terms (quarterly vs. annual prepay) and confirmed she's ready to sign pending legal review. Still no VP of Sales involvement in the process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we structure payment as quarterly instead of annual upfront?",
+          "answer": "We can accommodate quarterly billing at the same rate. I'll update the contract."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for getting this through legal review?",
+          "answer": "Our legal team is pretty quick\u2014usually 3-5 days for vendor contracts. I'll push to have this signed by end of next week."
+        },
+        {
+          "by": "prospect",
+          "question": "If Gong comes back with a better offer, are you able to match or adjust?",
+          "answer": "We've already extended a significant discount and feel confident our platform delivers more value for your use case. Let's focus on getting you live."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised contract with quarterly billing terms",
+        "Amelia to route through legal for final approval",
+        "Target signature by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

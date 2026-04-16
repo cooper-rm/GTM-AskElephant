@@ -1,0 +1,428 @@
+{
+  "deal_id": "DEAL-0143",
+  "company": {
+    "name": "ClayHub",
+    "industry": "SaaS/Tech",
+    "employee_count": 384,
+    "annual_revenue": 64136465,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18500.0,
+    "seats": 20,
+    "price_per_seat_monthly": 77.92,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 12.4,
+    "sales_cycle_days": 54,
+    "close_date": "2024-04-25",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zainab Levy",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 11
+    },
+    {
+      "name": "Sarah Ramirez",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 44
+    },
+    {
+      "name": "Quinn Hill",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-02-05",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Zainab Levy at ClayHub regarding pipeline visibility challenges. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-02-08",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email to Zainab. She responded expressing interest in learning more about how we help sales teams improve pipeline visibility.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, we have native Salesforce integration plus support for HubSpot, Pipedrive, and other major CRMs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief intro call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Zainab confirmed interest in scheduling a call. She mentioned they're currently evaluating a few solutions including Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical timeline for implementation?",
+          "answer": "Most customers are fully onboarded within 2-3 weeks, including training for the sales team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for discovery call next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Confirmed discovery call details and shared pre-call questionnaire. Zainab mentioned she'd like to involve their COO Sarah Ramirez later in the process.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-03-11",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief pre-discovery touchpoint with Zainab to confirm agenda and attendees. She confirmed it would be just her initially, with Sarah joining if we move forward.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with pipeline visibility right now?",
+          "answer": "Our managers can't easily see which deals are actually progressing versus stalled. We're flying blind on forecast accuracy."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with full discovery call tomorrow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-03-16",
+      "type": "discovery_call",
+      "duration_minutes": 30,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Zainab covering current state, pain points, and desired outcomes. ClayHub has 20 sellers across 3 managers. They need better deal health scoring and automated activity tracking. Currently using Fathom for call recording but lacking deeper analytics.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How are you currently tracking deal health and pipeline quality?",
+          "answer": "Manually in spreadsheets. Sales managers spend 5-10 hours per week just trying to understand what's real in the pipeline."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like in 6 months?",
+          "answer": "Forecast accuracy above 85%, managers spending time coaching instead of data entry, and clear visibility into which deals need attention."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI scoring work compared to just call transcription?",
+          "answer": "We analyze all touchpoints\u2014emails, calls, meetings\u2014and use ML to predict deal health based on patterns from thousands of closed deals. It's predictive, not just descriptive."
+        }
+      ],
+      "objections": [
+        "We already have Fathom for call recording\u2014why do we need another tool?"
+      ],
+      "next_steps": [
+        "Share demo recording and case study",
+        "Schedule exec meeting with Sarah Ramirez"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-03-23",
+      "type": "follow_up_call",
+      "duration_minutes": 6,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call to address Zainab's questions about implementation and change management with the sales team. She confirmed strong interest and is working to get time with Sarah.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much training will the reps need?",
+          "answer": "Most reps are fully productive within the first week. The system is designed to work in the background\u2014they just keep selling normally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Zainab to coordinate Sarah's calendar for exec meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-03-29",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Sarah Ramirez",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Sarah Ramirez (COO) and Zainab Levy. Discussed strategic importance of pipeline visibility for ClayHub's growth goals. Sarah emphasized need for ROI clarity and asked detailed questions about consulting services for their automations use case. Strong alignment on pain points and solution fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your revenue targets for the next 12 months?",
+          "answer": "We're planning 40% growth, which means our sales org needs to scale efficiently. We can't add headcount proportionally\u2014we need better productivity and visibility."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include for automations?",
+          "answer": "We provide a dedicated implementation consultant for 90 days to build custom workflows, integrate with your existing tech stack, and train your team on advanced features."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the expected ROI timeline?",
+          "answer": "Most customers see measurable improvements in forecast accuracy within 30 days and time savings within the first week of full deployment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing",
+        "Include ROI model based on their team size"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.9,
+      "rescheduled": false,
+      "ai_summary": "Sent proposal for 20 seats with automations plus consulting package at $18,500 ACV. Zainab acknowledged receipt and said she's reviewing with Sarah.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up early next week for feedback"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Check-in email on proposal status. Zainab responded that they're comparing our proposal with Fathom's expanded offering and need a few more days.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share customer references in our industry?",
+          "answer": "Absolutely\u2014sending over three SaaS customer case studies including one company similar to your size and growth stage."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide references",
+        "Schedule follow-up call to address any concerns"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-04-14",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Zainab. She confirmed they're choosing between us and Fathom. Main concern is budget\u2014they're asking if we can reduce the consulting component or spread payments.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package pricing?",
+          "answer": "We can discuss payment terms, but the consulting is critical for your automations use case. Let me understand your budget constraints better."
+        }
+      ],
+      "objections": [
+        "Fathom is coming in lower on price, though they don't offer the same level of consulting support."
+      ],
+      "next_steps": [
+        "Explore payment terms options",
+        "Schedule detailed pricing call"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-04-19",
+      "type": "pricing_call",
+      "duration_minutes": 29,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed pricing discussion with Zainab. Reviewed value breakdown between platform seats and consulting services. She expressed concern about justifying the premium over Fathom to Sarah, but acknowledged our solution is more comprehensive for their pipeline visibility needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would make this an easy yes for Sarah?",
+          "answer": "Clear ROI on the consulting investment and confidence that we'll actually improve forecast accuracy, not just add another dashboard."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual?",
+          "answer": "We can offer quarterly billing at a 5% premium, or keep annual pricing with a 30-day money-back guarantee if you don't see initial results."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we started with just the platform and added consulting later?",
+          "answer": "Possible, but you'd miss the implementation window when consulting delivers highest ROI. Most customers who delay consulting end up paying more and getting slower results."
+        }
+      ],
+      "objections": [
+        "The price difference with Fathom is significant, especially for a first-year investment."
+      ],
+      "next_steps": [
+        "Send revised proposal with quarterly payment option",
+        "Include enhanced ROI calculator"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-04-23",
+      "type": "negotiation_call",
+      "duration_minutes": 31,
+      "person_name": "Zainab Levy",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Zainab. Discussed revised proposal with quarterly payments and enhanced implementation timeline. She confirmed Sarah is supportive but wants to finalize terms this week. Agreement to move forward with annual payment to keep pricing at $18,500 ACV with consulting included.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "We need to decide by end of this week. Sarah wants this in place before Q2 planning next month."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you guarantee the implementation will be complete within 3 weeks?",
+          "answer": "Yes, we'll commit to a 3-week implementation timeline with dedicated resources, and we'll include that in the contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for review",
+        "Target signatures by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

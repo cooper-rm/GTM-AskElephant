@@ -1,0 +1,394 @@
+{
+  "deal_id": "DEAL-0612",
+  "company": {
+    "name": "LatticeAgency",
+    "industry": "EdTech",
+    "employee_count": 1000,
+    "annual_revenue": 166904548,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14500.0,
+    "seats": 19,
+    "price_per_seat_monthly": 64.37,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 27.7,
+    "sales_cycle_days": 28,
+    "close_date": "2024-08-17",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Luna Nkrumah",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 13
+    },
+    {
+      "name": "Diego Sharma",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Sofia Pereira",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 16
+    },
+    {
+      "name": "Ethan Santos",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-04",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Luna Nkrumah at LatticeAgency. No answer, left voicemail introducing AskElephant's CRM automation solutions for EdTech teams.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-05",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn connection request sent to Luna Nkrumah with brief note about helping CS teams automate CRM workflows. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-07-10",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial outreach email to Luna highlighting CRM automation pain points common in EdTech customer success teams. No response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-07-12",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email referencing recent EdTech scaling challenges. Luna responded expressing interest in learning more about automation capabilities for her CS team's CRM processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What specific CRM platforms do you integrate with?",
+          "answer": "We integrate with Salesforce, HubSpot, and most major CRMs. Happy to discuss your specific setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-07-20",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email confirming qualification meeting time and sharing agenda. Luna confirmed attendance and mentioned she'd like to discuss automation for her team of account managers.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-07-23",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Luna covering current CRM pain points at LatticeAgency. She manages CS team dealing with manual data entry and reporting. Discussed team size (~20 CS/AM staff) and use case around automating customer health tracking and renewal workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Usually 4-6 weeks depending on complexity and customization needs."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current CRM setup and biggest bottleneck?",
+          "answer": "We use Salesforce but manual updates are killing us. Health scoring and renewal prep takes hours weekly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Luna to loop in Diego and Sofia from her team",
+        "Schedule technical demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-07-25",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Prospecting email sent to Luna (appears to be sequence overlap from earlier automation). No response needed as deal already progressing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-07-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming technical evaluation session and requesting Luna share specific automation workflows she'd like to see demonstrated. Luna replied with list of priorities: health scoring, automated task creation, and renewal alerts.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical demo scheduled with Luna attending"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-08-01",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Luna covering AskElephant's automation capabilities. Walked through health scoring automation, workflow builders, and reporting dashboard. Luna engaged positively, asked detailed questions about customization and expressed strong interest in moving forward. Noted she'd need to get budget approval but didn't mention executive involvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the health scoring algorithm to our specific metrics?",
+          "answer": "Yes, fully customizable. You define the inputs, weightings, and thresholds."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing structure look like for a team our size?",
+          "answer": "Based on ~20 seats, we'd be looking at the Automations Plus tier, around $20k annually. I can prepare a formal proposal."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this from your side?",
+          "answer": "Mostly my team - Diego and Sofia will be primary users. I'll handle budget internally."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for ~20 seats",
+        "Luna to review with her team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-08-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 11.1,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal email with pricing for 19 seats at $20,100 ACV (Automations Plus + Consulting package). Luna responded asking if there's flexibility on pricing given their budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any room to work on the pricing? Our budget is tighter than expected this quarter.",
+          "answer": "Let me discuss with my manager. We may be able to offer some flexibility for a committed annual contract."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review call",
+        "Explore pricing flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-08-09",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Luna to discuss pricing and terms. She expressed concern about budget approval and asked for discount. Discussed reducing to $14,500 to fit her available budget. Luna seemed appreciative but mentioned she'd need to run it by 'finance' without specifying who.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual, can you get closer to $15k?",
+          "answer": "I can offer $14,500 for annual commitment with quarterly check-ins included."
+        }
+      ],
+      "objections": [
+        "Budget constraints - original price above allocated funds"
+      ],
+      "next_steps": [
+        "Luna to get final approval",
+        "Prepare contract at $14,500"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-08-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after proposal call confirming revised pricing at $14,500 for 19 seats with annual commitment. Luna acknowledged and said she's working on internal approvals. Mentioned someone from 'ops' might reach out with questions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Luna's approval confirmation",
+        "Prepare contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-08-20",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Luna Nkrumah",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting scheduled turned into deep-dive session with Luna and Ethan Santos from RevOps joining. Ethan asked detailed questions about data security, contract terms, and implementation timeline. Luna remained positive but Ethan raised concerns about vendor consolidation and whether this overlaps with existing tools. Discussion focused heavily on justifying the purchase rather than implementation planning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are your data retention and security certifications?",
+          "answer": "SOC 2 Type II certified, GDPR compliant, data retained per customer policy with encryption at rest and in transit."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you have shorter contract terms available, like quarterly?",
+          "answer": "Annual is standard for this pricing tier, but we offer quarterly business reviews and 30-day out clause after first year."
+        },
+        {
+          "by": "rep",
+          "question": "Should we involve your VP of Sales or CRO in this conversation given the scope?",
+          "answer": "Luna can handle this - it's really a CS ops purchase. We're keeping it departmental for now."
+        }
+      ],
+      "objections": [
+        "Concern about overlap with existing Salesforce capabilities",
+        "Preference for shorter commitment terms"
+      ],
+      "next_steps": [
+        "Ethan to review security documentation",
+        "Luna to finalize approval",
+        "Target contract signature next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

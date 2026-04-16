@@ -1,0 +1,339 @@
+{
+  "deal_id": "DEAL-0644",
+  "company": {
+    "name": "BayMarket",
+    "industry": "Marketing Agency",
+    "employee_count": 1000,
+    "annual_revenue": 167647495,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 13300.0,
+    "seats": 16,
+    "price_per_seat_monthly": 68.18,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 23.4,
+    "sales_cycle_days": 36,
+    "close_date": "2023-09-04",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Hannah King",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 7
+    },
+    {
+      "name": "Nicole Brooks",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-13",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Hannah King at BayMarket. No answer, left voicemail introducing our pipeline visibility solution.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up call scheduled for tomorrow"
+      ],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-14",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Hannah King. She confirmed interest in pipeline visibility tools and agreed to a follow-up email with more details.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you currently tracking your sales pipeline effectively?",
+          "answer": "We're using spreadsheets and it's becoming unmanageable with our growth."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send overview email with use cases",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies for marketing agencies. Hannah responded asking about pricing tiers and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team of our size?",
+          "answer": "Usually 2-3 weeks for full onboarding with 16 seats."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-02",
+      "type": "follow_up_call",
+      "duration_minutes": 23,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Hannah King covering current pain points and team structure. BayMarket has 1000 employees with sales team struggling with visibility across 16 reps. Hannah mentioned they're also evaluating Fathom but concerned about its limited automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your biggest challenge with pipeline visibility right now?",
+          "answer": "Our directors can't see deal progress in real-time, causing last-minute surprises in forecasting."
+        },
+        {
+          "by": "rep",
+          "question": "How are you currently handling pipeline reporting?",
+          "answer": "Manual weekly reports compiled by each rep, very time-consuming."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Fathom?",
+          "answer": "We offer deeper workflow automation and consulting services, especially for custom reporting needs."
+        }
+      ],
+      "objections": [
+        "Budget approval process can take 4-6 weeks"
+      ],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule technical walkthrough",
+        "Introduce to implementation team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-07",
+      "type": "follow_up_call",
+      "duration_minutes": 4,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick check-in call with Hannah. She confirmed her team reviewed the ROI calculator and wants to move forward with a technical evaluation. Mentioned need to loop in Nicole Brooks from procurement soon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboards for different team roles?",
+          "answer": "Yes, our consulting package includes custom dashboard configuration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation for next week",
+        "Send calendar invite including Nicole Brooks"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-14",
+      "type": "technical_eval",
+      "duration_minutes": 51,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Hannah and her sales ops lead. Demonstrated live pipeline dashboards, automation workflows, and custom reporting. Team engaged with detailed questions about data integration and user permissions. Hannah expressed strong interest in the automations plus consulting package.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does this integrate with our existing Salesforce instance?",
+          "answer": "Yes, we have native Salesforce integration with bi-directional sync."
+        },
+        {
+          "by": "prospect",
+          "question": "What level of consulting is included in the package you're proposing?",
+          "answer": "10 hours monthly for custom workflow development and optimization."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place by end of quarter, so within 6 weeks."
+        }
+      ],
+      "objections": [
+        "Pricing seems higher than Fathom's base package"
+      ],
+      "next_steps": [
+        "Send formal proposal with 16 seat pricing",
+        "Schedule proposal review call",
+        "Connect with Nicole Brooks on procurement process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-22",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Hannah. Walked through $13,300 ACV pricing for 16 seats with automations plus consulting. Hannah noted it's above initial budget and asked about discount options. She mentioned Nicole Brooks will need to review before final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing if we commit to annual contract?",
+          "answer": "Yes, we can offer a discount for annual prepayment."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you targeting?",
+          "answer": "Closer to $10K annually, but I see the value in the consulting add-on."
+        }
+      ],
+      "objections": [
+        "Need to get executive approval for anything over $10K"
+      ],
+      "next_steps": [
+        "Revise proposal with annual discount",
+        "Schedule call with Nicole Brooks",
+        "Provide competitive comparison with Fathom"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised proposal at $13,300 ACV (23.4% discount applied) and detailed Fathom comparison showing automation advantages. Hannah acknowledged receipt and said she's sharing with Nicole Brooks and their VP of Sales for review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation support?",
+          "answer": "Dedicated implementation manager, custom workflow setup, and 2 live training sessions."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await feedback from Nicole and VP review",
+        "Follow up end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Check-in email sent to Hannah asking about proposal review status. Hannah responded that Nicole has questions about contract terms and payment schedule. VP review is still pending.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Set up call with Nicole to address contract questions",
+        "Provide flexible payment terms options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-09-04",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hannah King",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 5.3,
+      "rescheduled": false,
+      "ai_summary": "Email sent with payment terms options (quarterly vs annual) and answers to Nicole's contract questions. Hannah confirmed they're still interested but VP approval is taking longer than expected. Mentioned Fathom has sent a competitive offer.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment call",
+        "Request meeting with VP of Sales",
+        "Follow up on timeline early next week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 80,
+    "churn_reason": "lack of executive alignment"
+  }
+}

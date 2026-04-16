@@ -1,0 +1,222 @@
+{
+  "deal_id": "DEAL-0581",
+  "company": {
+    "name": "CoreVision",
+    "industry": "SaaS/Tech",
+    "employee_count": 81,
+    "annual_revenue": 6564539,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7700.0,
+    "seats": 12,
+    "price_per_seat_monthly": 61.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.1,
+    "sales_cycle_days": 14,
+    "close_date": "2023-03-09",
+    "use_case": "CRM automation",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Jordan Huang",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 18
+    },
+    {
+      "name": "Hazel Wagner",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 34
+    },
+    {
+      "name": "Ethan Thomas",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 3
+    },
+    {
+      "name": "Grace Richter",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 9
+    },
+    {
+      "name": "Leo Wolf",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-02-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jordan Huang",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Jordan Huang at CoreVision regarding CRM automation solutions. Jordan mentioned they're currently evaluating options including Gong and are looking for better workflow automation capabilities for their sales team of ~12 users.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with product overview",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-02-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jordan Huang",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and case studies. Jordan responded positively, confirming interest in seeing a demo and mentioning budget approval process involves Grace (Implementation) and Leo (Sales Manager). Requested demo focused on automation capabilities vs manual CRM workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show specific automation features that would reduce manual data entry for our sales team?",
+          "answer": "Absolutely, we'll focus the demo on workflow automation, auto-logging, and intelligent data enrichment features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Jordan and key stakeholders",
+        "Prepare automation-focused demo scenario"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-02-27",
+      "type": "demo",
+      "duration_minutes": 55,
+      "person_name": "Jordan Huang",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo conducted with Jordan Huang focusing on CRM automation capabilities. Jordan was engaged and asked detailed questions about implementation timeline, integration with their existing stack, and comparison to Gong's approach. Mentioned they're under pressure to make a decision by end of quarter. No executive sponsor mentioned on the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation engine compare to what Gong offers for conversation intelligence?",
+          "answer": "Our platform focuses on end-to-end CRM automation beyond just call analysis - automated workflows, data enrichment, and cross-platform integration that Gong doesn't natively support."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 12 seats with standard integrations, typically 2-3 weeks from contract to full rollout."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution from a decision-making perspective?",
+          "answer": "Grace handles implementation approval and Leo manages the sales team budget, but I can drive this forward with their input."
+        }
+      ],
+      "objections": [
+        "We're also looking at Gong and they have strong brand recognition in our industry."
+      ],
+      "next_steps": [
+        "Schedule follow-up with Grace and Leo to discuss implementation and budget",
+        "Send ROI analysis comparing automation savings",
+        "Prepare pricing proposal for 12 seats"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-03-05",
+      "type": "exec_meeting",
+      "duration_minutes": 24,
+      "person_name": "Jordan Huang",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting with Jordan to discuss pricing and next steps. Jordan expressed urgency to close by end of quarter but mentioned budget constraints. Asked about discount options given they're evaluating Gong simultaneously. Discussion remained at Jordan's level - no C-suite or VP involvement mentioned. Jordan seems supportive but cautious about price point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of flexibility do you have on pricing given we're a smaller team and comparing multiple vendors?",
+          "answer": "We can explore discounting options based on annual commitment and implementation timeline. Let me work up a proposal."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your VP of Sales or Revenue leader to discuss strategic impact?",
+          "answer": "I think we can move forward with the stakeholders we have. I'll loop in leadership once we have terms finalized."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing review call",
+        "Get internal approval for discount structure"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-08",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Jordan Huang",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Jordan to review proposal for 12 seats at $7,700 ACV (31% discount applied to meet budget constraints). Jordan appreciated the flexibility and confirmed Grace and Leo are aligned on moving forward. Discussed contract terms and start date. Jordan mentioned Gong's pricing was higher but wants to finalize quickly to hit Q2 implementation target.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year deal if we want to expand later?",
+          "answer": "Yes, we can include expansion pricing protection in the contract terms."
+        },
+        {
+          "by": "rep",
+          "question": "What's the final approval process on your end once we send the contract?",
+          "answer": "Grace and Leo will review, then it goes through our standard procurement workflow. Should be quick since we're already aligned."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed terms",
+        "Schedule implementation kickoff with Grace",
+        "Confirm start date for early Q2"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

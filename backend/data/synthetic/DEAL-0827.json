@@ -1,0 +1,462 @@
+{
+  "deal_id": "DEAL-0827",
+  "company": {
+    "name": "GraniteConsulting",
+    "industry": "Marketing Agency",
+    "employee_count": 305,
+    "annual_revenue": 33226237,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 25200.0,
+    "seats": 26,
+    "price_per_seat_monthly": 82.42,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 7.4,
+    "sales_cycle_days": 50,
+    "close_date": "2024-11-30",
+    "use_case": "CRM automation",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Liam Zhou",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 8
+    },
+    {
+      "name": "Emma Lee",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Arjun Walsh",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    },
+    {
+      "name": "Jude Flores",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-25",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Liam Zhou introducing our CRM automation platform and its benefits for marketing agencies. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-30",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message to Liam Zhou highlighting how we help marketing agencies streamline sales operations. Liam responded with interest in learning more about automation capabilities.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule initial call to discuss GraniteConsulting's CRM needs"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-10-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Liam with case study of similar marketing agency achieving 40% reduction in manual data entry. Liam confirmed interest and shared current pain points with their existing CRM workflow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your solution integrate with existing marketing automation tools?",
+          "answer": "Native integrations with HubSpot, Marketo, and Salesforce, plus API for custom connections"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Liam to check calendar availability for discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming discovery call time and requesting Liam invite relevant team members. Liam confirmed attendance and mentioned evaluating a couple of options including Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-20",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Liam Zhou covering GraniteConsulting's sales process, team structure (26 users across sales and account management), and key pain points around manual CRM updates and reporting delays. Liam expressed strong interest in automation capabilities and mentioned timeline pressure to implement before Q3.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "4-6 weeks for full rollout with training, can expedite to 3 weeks if needed"
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data migration from our current system?",
+          "answer": "White-glove migration service included, with data validation and mapping support"
+        },
+        {
+          "by": "rep",
+          "question": "What specific CRM processes are causing the most friction for your team?",
+          "answer": "Deal tracking updates after client calls and maintaining accurate pipeline forecasts"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Arrange technical evaluation with Jude Flores",
+        "Send ROI calculator and pricing overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Liam with ROI calculator showing potential 35-hour monthly time savings for GraniteConsulting's team and technical evaluation scheduling options. Liam responded positively and introduced Jude Flores for technical deep-dive.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Jude Flores"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-10-26",
+      "type": "technical_eval",
+      "duration_minutes": 45,
+      "person_name": "Jude Flores",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Jude Flores covering API capabilities, data security protocols, and integration architecture. Jude asked detailed questions about automation workflows and compared specific features with Fathom. Expressed concern about learning curve for end users but appreciated the customization options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom automation rules without developer resources?",
+          "answer": "Yes, visual workflow builder for business users, plus advanced scripting for complex scenarios"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your AI call summarization compare to Fathom's transcription quality?",
+          "answer": "We process both calls and emails with contextual deal intelligence, not just transcription"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA and data backup policy?",
+          "answer": "99.9% uptime SLA with daily backups and point-in-time recovery options"
+        }
+      ],
+      "objections": [
+        "Concerned about training time required for 26 users across different roles"
+      ],
+      "next_steps": [
+        "Jude to review with team and prepare questions for demo",
+        "Share implementation playbook"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-01",
+      "type": "demo",
+      "duration_minutes": 38,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Liam Zhou showcasing CRM automation workflows, AI-powered deal insights, and reporting dashboards tailored to marketing agency use case. Liam was enthusiastic about efficiency gains but asked about pricing structure and how it compares to Fathom's model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is pricing per seat or per feature bundle?",
+          "answer": "Tiered pricing by plan level, includes all core features with per-seat model for predictable scaling"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot group before full rollout?",
+          "answer": "Yes, we can structure a phased approach starting with sales team then expanding"
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear win for you and your team?",
+          "answer": "Reducing admin burden on account managers and improving forecast accuracy for leadership reporting"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal with 26-seat pricing",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-08",
+      "type": "proposal_call",
+      "duration_minutes": 24,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Liam Zhou walking through $25,200 ACV pricing for 26 seats on automations_plus_consulting tier. Liam acknowledged the value but mentioned need to get buy-in from leadership before moving forward. No executive sponsor identified yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours included in this tier?",
+          "answer": "Package includes 20 hours quarterly, can add more as needed or upgrade tier"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the final decision?",
+          "answer": "Ultimately our CFO and COO will need to approve any software investment of this size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Liam to socialize proposal internally",
+        "Schedule meeting with executive stakeholders"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-11-10",
+      "type": "exec_meeting",
+      "duration_minutes": 25,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Liam Zhou to discuss business case and timeline. Liam mentioned that leadership is evaluating budget priorities and comparing with Fathom's lower-priced offering. Requested breakdown of ROI justification and payment terms options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you break down year-one ROI based on our specific team size?",
+          "answer": "Based on 35 hours saved monthly across 26 users, ROI positive within 4 months"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment terms instead of annual upfront?",
+          "answer": "We can structure quarterly billing with small premium, or annual prepay with discount"
+        }
+      ],
+      "objections": [
+        "Price point higher than Fathom's base offering, need stronger ROI justification for leadership"
+      ],
+      "next_steps": [
+        "Send detailed ROI analysis and payment options",
+        "Liam to brief CFO and COO"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-11-16",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal call rescheduled by Liam due to internal scheduling conflict. Brief conversation confirmed continued interest but mentioned leadership still reviewing budget allocation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for later in week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-11-21",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Liam Zhou to address leadership's concerns about pricing versus Fathom. Walked through feature comparison highlighting our CRM-native automation and consulting support versus Fathom's meeting transcription focus. Liam indicated they're leaning toward moving forward but need final budget confirmation from CFO.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual contract, what discount can you offer?",
+          "answer": "Can offer 10% discount on annual prepay, bringing total to $22,680"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting support actually cover in our tier?",
+          "answer": "Quarterly strategy sessions, custom workflow design, and priority support access"
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline you're working toward for a decision?",
+          "answer": "Ideally finalize by end of month to start implementation in early Q3"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with annual discount",
+        "Liam to get final CFO approval"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-11-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Liam with revised proposal reflecting 10% annual prepay discount ($22,680 total). Liam acknowledged receipt and confirmed CFO meeting scheduled for end of week to finalize budget approval.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await CFO decision by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-11-30",
+      "type": "pricing_call",
+      "duration_minutes": 34,
+      "person_name": "Liam Zhou",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Liam Zhou following CFO review. CFO approved budget but requested additional 5% discount to finalize. Discussed contract terms, implementation start date, and onboarding plan. Liam confirmed all stakeholders aligned pending final pricing adjustment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you meet us at 15% total discount to close this week?",
+          "answer": "Can extend to 12% total discount ($22,176) if we sign by end of week"
+        },
+        {
+          "by": "rep",
+          "question": "If we agree on pricing, can you commit to contract signature by Friday?",
+          "answer": "Yes, I can get CFO and legal to review and sign by end of week"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final proposal at 12% discount",
+        "Legal review and contract signature targeted for Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

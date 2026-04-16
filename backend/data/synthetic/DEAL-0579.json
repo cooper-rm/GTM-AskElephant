@@ -1,0 +1,656 @@
+{
+  "deal_id": "DEAL-0579",
+  "company": {
+    "name": "NorthwindPortal",
+    "industry": "Fintech",
+    "employee_count": 518,
+    "annual_revenue": 90329621,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14200.0,
+    "seats": 21,
+    "price_per_seat_monthly": 57.26,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 35.7,
+    "sales_cycle_days": 46,
+    "close_date": "2023-05-28",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Elena Becker",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 13
+    },
+    {
+      "name": "Emma Green",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 13
+    },
+    {
+      "name": "Luke Goldberg",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 45
+    },
+    {
+      "name": "Sarah Phillips",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 8
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-11",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 9.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Elena Becker at NorthwindPortal inquiring about forecasting accuracy solutions. She mentioned challenges with their current manual forecasting process affecting revenue predictability.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current forecasting workflow"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-12",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Elena. Confirmed NorthwindPortal is a 518-person fintech company struggling with forecast accuracy. Elena owns RevOps and has budget authority. Discussed team size and automation needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the search for a forecasting solution right now?",
+          "answer": "We missed our quarterly forecast by 18% last quarter, and leadership is demanding better visibility into pipeline health."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your solution integrate with Salesforce and our existing data warehouse?",
+          "answer": "Yes, we have native Salesforce integration and support most major data warehouses including Snowflake and BigQuery."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to share current forecasting process documentation",
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study on fintech forecasting accuracy improvements and questions about NorthwindPortal's current tech stack. Elena responded with details about their Salesforce instance and team structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share examples of other fintech customers who've improved forecast accuracy?",
+          "answer": "Attached case study showing a similar-sized fintech customer improved forecast accuracy from 67% to 94% within 3 months."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda based on Elena's tech stack details"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.4,
+      "rescheduled": false,
+      "ai_summary": "Elena forwarded our materials to Emma Green (SVP Revenue) and Sarah Phillips (RevOps Analyst). She confirmed they'll join future calls and mentioned IT Director Luke Goldberg will need to review security/integration requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Include Emma, Sarah, and Luke on discovery call invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-04-21",
+      "type": "discovery_call",
+      "duration_minutes": 44,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Elena and Sarah. Deep dive into current forecasting process: manual spreadsheet-based, updated weekly, relies on rep input. Pain points include data inconsistency, lack of historical analysis, and no automation. Discussed unlimited_automation tier to handle their 21 quota-carrying reps.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How much time does your team spend on forecast preparation each week?",
+          "answer": "Sarah spends about 12 hours weekly consolidating data, and I spend another 6 hours reviewing and adjusting. It's unsustainable."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in 6 months?",
+          "answer": "Sub-10% forecast variance and reducing manual work by at least 70%. We need to free Sarah up for strategic work."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a company our size?",
+          "answer": "Usually 4-6 weeks including data migration, model training, and user onboarding."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to provide sample forecast data for analysis",
+        "Schedule technical evaluation with Luke"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-23",
+      "type": "follow_up_call",
+      "duration_minutes": 5,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick follow-up call. Elena confirmed she uploaded sample data to secure share folder. Discussed timeline expectations and flagged that they're targeting implementation before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you turn around an analysis of our data before our executive planning meeting in two weeks?",
+          "answer": "Yes, we can provide a preliminary accuracy benchmark and implementation roadmap within 5 business days."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Data analysis team to review NorthwindPortal forecast data",
+        "Send preliminary findings by Friday"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Shared preliminary analysis showing NorthwindPortal's current forecast accuracy at 68% with high variance in mid-stage deals. Proposed unlimited_automation tier to handle automated weekly forecast refreshes and anomaly detection for their 21-seat team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation for security and integration review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-29",
+      "type": "technical_eval",
+      "duration_minutes": 36,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Elena and Luke Goldberg. Reviewed data security, SOC 2 compliance, Salesforce API integration architecture, and data warehouse connectivity. Luke asked detailed questions about data residency and SSO requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is customer data stored and do you support data residency requirements?",
+          "answer": "Data is stored in AWS with options for US or EU residency. We're SOC 2 Type II certified and can provide detailed security documentation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the authentication model and do you support SAML SSO?",
+          "answer": "Yes, we support SAML 2.0 SSO with all major identity providers including Okta and Azure AD."
+        },
+        {
+          "by": "rep",
+          "question": "What's your typical timeline for security review completion?",
+          "answer": "Luke indicated 1-2 weeks for standard security review, possibly faster if we can provide all documentation upfront."
+        }
+      ],
+      "objections": [
+        "Need to validate data encryption standards meet our fintech compliance requirements"
+      ],
+      "next_steps": [
+        "Send complete security documentation package to Luke",
+        "Luke to complete security questionnaire"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-04-30",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up with Elena on security review progress. Luke completed initial review with no blockers. Elena mentioned Emma wants to see a demo focused on executive reporting and mentioned budget planning cycles are coming up soon.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's Emma's primary concern or success metric for this project?",
+          "answer": "She needs confidence that we can reduce forecast variance to single digits and wants to see how the executive dashboard surfaces leading indicators."
+        },
+        {
+          "by": "prospect",
+          "question": "Can the demo show how your solution would have predicted our Q4 miss?",
+          "answer": "Absolutely. We can use your historical data to show how our model would have flagged the pipeline coverage gap 6 weeks earlier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare executive-focused demo with NorthwindPortal's actual data",
+        "Schedule demo with Elena, Emma, and Sarah"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-05-03",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo for Elena, Emma, and Sarah using NorthwindPortal's sanitized historical data. Showed how platform would have identified Q4 forecast gap early. Emma engaged positively on executive dashboards and anomaly alerts. Demonstrated unlimited_automation features for automated weekly refreshes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the executive reports and can we add our own metrics?",
+          "answer": "Fully customizable with drag-and-drop builder. You can incorporate custom fields from Salesforce or external data sources."
+        },
+        {
+          "by": "rep",
+          "question": "Emma, does this align with what you need for board reporting?",
+          "answer": "Yes, the predictive accuracy trends and confidence intervals would be exactly what our board wants to see."
+        },
+        {
+          "by": "prospect",
+          "question": "What does implementation support look like and will we have a dedicated CSM?",
+          "answer": "You'll have a dedicated implementation engineer for 6 weeks and a CSM assigned from day one with unlimited_automation tier."
+        }
+      ],
+      "objections": [
+        "Emma noted the interface looks complex and wants to ensure Sarah's team can use it without extensive training"
+      ],
+      "next_steps": [
+        "Provide training overview and certification program details",
+        "Schedule technical deep-dive demo for Sarah's team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-05-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Sent training resources and user certification program overview. Elena confirmed Emma is supportive and they're ready to move forward. Mentioned they'd like to see one more demo focused on day-to-day analyst workflows before moving to proposal stage.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule analyst-focused demo for Sarah and her team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-05-06",
+      "type": "demo",
+      "duration_minutes": 34,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Analyst-focused demo with Sarah and two RevOps team members. Walked through daily workflows, automated data refreshes, manual override capabilities, and audit trails. Team responded well to automation features and data quality checks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we maintain manual adjustments when we have insider knowledge about deals?",
+          "answer": "Yes, the system supports manual overrides with full audit logging and the ML model learns from accurate overrides over time."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the system handle outlier deals that don't fit normal patterns?",
+          "answer": "Anomaly detection flags outliers for review, and you can create deal tags that help the model understand special circumstances."
+        },
+        {
+          "by": "rep",
+          "question": "Sarah, what concerns do you have about rolling this out to the sales team?",
+          "answer": "Mainly change management. Reps are used to our current process and might resist new data entry requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to discuss internally and confirm they're ready for proposal",
+        "Prepare formal proposal with 21-seat unlimited_automation tier pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-05-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.1,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 21 seats, unlimited_automation tier, $14,200 ACV with implementation and training included. Elena acknowledged receipt and said they're reviewing internally. She mentioned procurement (Sarah Phillips handling) will need to review terms.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Elena to schedule executive alignment meeting with Emma",
+        "Prepare for pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-05-12",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Emma Green",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Emma, Elena, and Sarah. Emma confirmed strategic importance and budget availability. Discussed ROI projections based on time savings and forecast accuracy improvements. Emma asked about contract flexibility and indicated she'd like Elena to negotiate final terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical contract term and do you offer annual vs multi-year pricing?",
+          "answer": "Standard is annual commitment with monthly or annual payment options. Multi-year agreements include 10-15% discount."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller pilot and expand later?",
+          "answer": "The 21-seat minimum for unlimited_automation is already our smallest viable deployment for your use case, but we can discuss phased rollout."
+        },
+        {
+          "by": "rep",
+          "question": "Emma, are you comfortable with the proposed timeline and investment level?",
+          "answer": "Timeline works well. On pricing, I'll let Elena work through the details but we'd like to see if there's flexibility given our commitment to a full RevOps rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Elena to lead pricing negotiation",
+        "Target signature before quarter end"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-05-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Elena reached out requesting pricing flexibility. Mentioned they have budget approved but are hoping for better pricing given early commitment and potential for expansion. Asked about discount options for annual prepayment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can offer for annual prepayment and strong reference customer commitment?",
+          "answer": "Let me discuss with leadership. For annual prepay with case study rights, we can typically offer 15-20% off list price."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for discount structure",
+        "Schedule negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2023-05-17",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Elena. Discussed discount options and she pushed for 35% off list citing budget constraints and competitive pressure. Mentioned they need to close before end of quarter for implementation timing. Agreed to explore options and reconnect.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical discount range for deals this size?",
+          "answer": "Standard is 10-15% for annual prepay, up to 20% for multi-year or strategic customers."
+        },
+        {
+          "by": "rep",
+          "question": "Is there competitive pressure driving the discount request?",
+          "answer": "Not from other vendors, but our CFO is scrutinizing all software spend given market conditions."
+        }
+      ],
+      "objections": [
+        "35% discount request is significantly above our typical range"
+      ],
+      "next_steps": [
+        "Discuss discount approval internally",
+        "Elena to confirm if 25% would work"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2023-05-18",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing discussion call rescheduled due to Emma's conflict. Elena indicated they're still working through internal budget allocations and the 35% discount is important for final approval. Call rescheduled for two days later.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we meet in the middle at 30% if we include case study participation and multi-year commitment?",
+          "answer": "Let me discuss with leadership. That's still above our standard approval threshold but I'll make the case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call with Emma included"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 18,
+      "date": "2023-05-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Confirmed rescheduled pricing call. Elena mentioned Emma wants to be on the call to finalize terms and get this closed before quarter end. Confirmed 35.7% discount ($14,200 ACV from $22,100 list) is their target and they're ready to move quickly if we can agree.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare final pricing proposal with approved 35.7% discount",
+        "Include Emma on pricing finalization call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2023-05-27",
+      "type": "exec_meeting",
+      "duration_minutes": 33,
+      "person_name": "Emma Green",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive pricing call with Emma and Elena. Confirmed 35.7% discount approval in exchange for annual prepayment, case study rights, and 2-year commitment. Emma agreed to terms and committed to legal review completion within 3 business days. Strong alignment on implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your legal review process and timeline?",
+          "answer": "Sarah will coordinate with our legal team. Standard review is 5-7 days but we can expedite to 3 days for quarter-end close."
+        },
+        {
+          "by": "rep",
+          "question": "Emma, are you comfortable with the 2-year commitment and case study participation?",
+          "answer": "Yes, we're confident this will deliver ROI and happy to be a reference customer once we see results."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Sarah for legal review",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2023-05-27",
+      "type": "pricing_call",
+      "duration_minutes": 18,
+      "person_name": "Elena Becker",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing confirmation call with Elena. Reviewed contract terms, implementation timeline, and payment schedule. Elena confirmed legal review is progressing smoothly and they're on track for signature before quarter end. Discussed kickoff planning and CSM assignment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation after signature?",
+          "answer": "We can kick off within 3-5 business days. Your CSM and implementation engineer will reach out immediately after contract execution."
+        },
+        {
+          "by": "rep",
+          "question": "Any final concerns or blockers we should address?",
+          "answer": "No blockers. Team is excited to get started and Sarah is already preparing data for migration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Monitor contract signature",
+        "Prepare implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

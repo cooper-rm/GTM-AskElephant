@@ -1,0 +1,352 @@
+{
+  "deal_id": "DEAL-0631",
+  "company": {
+    "name": "BayLens",
+    "industry": "PropTech",
+    "employee_count": 37,
+    "annual_revenue": 5734508,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 5,
+    "price_per_seat_monthly": 66.01,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 25.8,
+    "sales_cycle_days": 78,
+    "close_date": "2025-04-30",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Jack Lopez",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Olivia Kang",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 9
+    },
+    {
+      "name": "Hannah Hassan",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 7
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-31",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 14.3,
+      "rescheduled": false,
+      "ai_summary": "Cold outreach to Jack Lopez at BayLens regarding sales-to-CS handoff challenges. Rep highlighted common pain points in PropTech sales handoffs and offered a brief intro call. Jack responded positively, mentioned they're currently evaluating solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief intro call",
+        "Send calendar invite"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-02-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming intro call scheduled for next week. Rep shared a one-pager on automations for sales-to-CS handoff. Jack confirmed attendance and asked if we could include their Sales Manager in future conversations.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we loop in our Sales Manager Hannah Hassan once we get past the intro?",
+          "answer": "Absolutely, we typically involve the implementation stakeholders after the discovery phase."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Intro call scheduled",
+        "Prepare discovery questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-02-25",
+      "type": "follow_up_call",
+      "duration_minutes": 10,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief intro call with Jack Lopez. Discussed current state at BayLens - manual handoffs causing deal slippage and customer confusion. Jack mentioned he recently joined as Head of Sales and is tasked with tightening their revenue operations. Rep outlined how our platform automates handoff workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current sales-to-CS handoff process look like?",
+          "answer": "Mostly manual - reps fill out a Google form, CS gets an email. Lots of context gets lost."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with HubSpot? That's our CRM.",
+          "answer": "Yes, we have native HubSpot integration with bi-directional sync."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule longer discovery call",
+        "Send ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-04",
+      "type": "follow_up_call",
+      "duration_minutes": 24,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into BayLens's GTM motion. Jack shared they're a 37-person team with 5 AEs. Currently losing context during handoffs, leading to CS team asking redundant questions. Jack mentioned COO Olivia Kang is driving the initiative. Also noted they're looking at Gong but concerned about complexity and cost for their team size.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Olivia Kang, our COO - she owns customer success. And Hannah Hassan manages procurement for sales tools."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6 weeks. Our CS team is stretched thin right now."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong? They quoted us enterprise pricing which feels like overkill.",
+          "answer": "We're typically 40-60% more cost-effective for SMB teams, and our automations_plus_consulting tier includes implementation support."
+        }
+      ],
+      "objections": [
+        "Concerned about implementation complexity - Jack is new to the role and doesn't want a heavy lift"
+      ],
+      "next_steps": [
+        "Schedule technical eval with Jack's team",
+        "Intro to Olivia Kang",
+        "Send competitive comparison doc"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-03-16",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Jack and two AEs. Walked through platform automations: call transcription sync, deal field mapping, automated CS notifications, and playbook triggers. Team asked detailed questions about HubSpot workflow integration and data retention. Jack expressed concern about getting his team to adopt another tool given recent changes. Positive reception overall but noted need to validate with CS team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which deal fields trigger CS handoff notifications?",
+          "answer": "Yes, fully configurable through workflow builder. You can set stage-based, field-based, or time-based triggers."
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "With our consulting package, 2-3 weeks from kickoff to go-live. We handle the HubSpot configuration."
+        },
+        {
+          "by": "rep",
+          "question": "What's your biggest concern about implementing a new handoff system?",
+          "answer": "Honestly, change management. I'm new here and already asking the team to shift how they work. Need this to be smooth."
+        }
+      ],
+      "objections": [
+        "Team adoption risk - recent leadership change and process shifts"
+      ],
+      "next_steps": [
+        "Schedule full demo with CS stakeholders",
+        "Provide implementation timeline doc",
+        "Share customer case study from similar-sized PropTech company"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-03-27",
+      "type": "demo",
+      "duration_minutes": 29,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full platform demo with Jack and two CS reps. Demonstrated end-to-end handoff automation, live HubSpot sync, and reporting dashboard. CS team very engaged, asked about customer onboarding templates and SLA tracking. Jack asked about seat-based pricing and whether they could start with 5 seats. Rep confirmed flexible seat model and highlighted automations_plus_consulting tier includes custom playbook setup.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom onboarding playbooks by deal type?",
+          "answer": "Yes, unlimited playbooks included. We'll help you build 2-3 templates during implementation."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this replace Gong or work alongside it?",
+          "answer": "We're complementary - Gong focuses on conversation intelligence, we focus on workflow automation and handoff orchestration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 5 seats",
+        "Schedule pricing discussion",
+        "Intro Hannah Hassan for procurement review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal: 5 seats, automations_plus_consulting tier, $4,200 ACV. Included implementation timeline, ROI projection, and references from PropTech customers. Jack responded quickly asking if there's flexibility on pricing given their team size and budget constraints this quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing? We're a smaller team and this quarter's budget is tight.",
+          "answer": "Let me discuss with my manager. We want to make this work - let's schedule a pricing call to explore options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing call with Jack and Hannah",
+        "Check discount approval internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-19",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call with Jack Lopez and Hannah Hassan. Hannah driving procurement, asked detailed questions about contract terms, payment schedule, and seat scalability. Jack reiterated budget constraints and asked about multi-year discounts. Rep proposed 25% discount to get to $3,150 ACV with annual commit, pending manager approval. Hannah wanted to review with Olivia before proceeding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the contract term look like - monthly or annual commit?",
+          "answer": "Standard is annual commit with quarterly payment option. Monthly is available at 15% premium."
+        },
+        {
+          "by": "prospect",
+          "question": "If we grow to 8-10 seats next year, how does pricing scale?",
+          "answer": "Incremental seats at same per-seat rate, no ramp. You can add seats anytime during contract term."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now versus waiting until next quarter?",
+          "answer": "We're launching a new product line in 8 weeks and expect deal volume to spike. Can't afford handoff chaos during that ramp."
+        }
+      ],
+      "objections": [
+        "Price is above budget - need discount to move forward this quarter"
+      ],
+      "next_steps": [
+        "Get discount approval from sales leadership",
+        "Hannah to review proposal with Olivia",
+        "Target contract send by end of week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-29",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Jack Lopez",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Jack, Hannah, and Olivia Kang (COO). Olivia expressed support for the initiative and confirmed product launch timeline pressure. Rep confirmed 25.8% discount approved: $3,120 ACV for 5 seats, annual commit. Hannah asked about implementation SLA and onboarding support. Olivia asked if we could delay start date to align with their Q2 planning cycle. Team aligned on terms, Hannah to send MSA for legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we push the start date to early next month to align with our quarterly planning?",
+          "answer": "Yes, we can adjust implementation kickoff. Just want to ensure we're live before your product launch."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the SLA on implementation support - do we have a dedicated CSM?",
+          "answer": "With automations_plus_consulting, you get dedicated implementation manager plus ongoing CSM post-launch."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with adjusted start date",
+        "Hannah to circulate MSA internally",
+        "Target signature within 1 week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 97,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "deal_id": "DEAL-0710",
+  "company": {
+    "name": "CoastalAI",
+    "industry": "Vertical SaaS",
+    "employee_count": 489,
+    "annual_revenue": 65681518,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 20400.0,
+    "seats": 21,
+    "price_per_seat_monthly": 79.95,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 10.2,
+    "sales_cycle_days": 33,
+    "close_date": "2024-10-26",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Evelyn Suzuki",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 41
+    },
+    {
+      "name": "Owen Lewis",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 14
+    },
+    {
+      "name": "Maria Weiss",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 21
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-09-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Evelyn Suzuki, VP of Sales at CoastalAI. She expressed interest in call recording and coaching solutions for their sales team. Brief initial contact to schedule a qualification call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand needs"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-09-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Evelyn confirming the qualification call scheduled for later this week. Provided agenda overview covering their current call recording setup and coaching workflow.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Will this call cover pricing ranges for different team sizes?",
+          "answer": "Yes, we'll discuss pricing frameworks based on your team size and use case during the qualification call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm ET"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-09-28",
+      "type": "qualification_call",
+      "duration_minutes": 24,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Evelyn Suzuki. Discussed CoastalAI's current setup with Fathom and pain points around coaching workflows and automation. Team of 21 reps needs better post-call insights and manager coaching tools. Evelyn confirmed budget authority and timeline of 60 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's working well with Fathom currently?",
+          "answer": "The recording quality is good, but we lack automated coaching insights and CRM integration depth."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Maria Weiss from RevOps will need to vet the technical integration, and Owen Lewis, our SVP of Revenue, will sign off on the contract."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your coaching automation differ from Fathom's AI summaries?",
+          "answer": "We provide prescriptive coaching recommendations based on methodology frameworks, not just transcription summaries. It's actionable feedback tied to your sales process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to dive into coaching workflows",
+        "Send case study on Fathom migrations"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-10-02",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Evelyn exploring CoastalAI's sales coaching process and current Fathom limitations. Discussed how automations and consulting services could accelerate rep ramp time. Evelyn emphasized need for seamless Salesforce integration and manager dashboards. Identified Maria Weiss as technical stakeholder for next phase.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current coaching cadence look like?",
+          "answer": "Managers review 2-3 calls per rep weekly, but it's manual and inconsistent. We want automated flagging of coachable moments."
+        },
+        {
+          "by": "rep",
+          "question": "What's the biggest blocker to scaling your sales team right now?",
+          "answer": "Ramp time is 4-5 months. We need better onboarding tools and real-time coaching to cut that down."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your consulting package include custom playbook setup?",
+          "answer": "Yes, our consulting tier includes playbook configuration tailored to your sales methodology and ongoing optimization."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks for the platform, plus 4-6 weeks for consulting-led playbook customization."
+        }
+      ],
+      "objections": [
+        "We're currently locked into a Fathom annual contract through Q3, so timing might be tight."
+      ],
+      "next_steps": [
+        "Set up technical eval with Maria Weiss",
+        "Provide pricing proposal for 21 seats with consulting tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-10-07",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Maria Weiss",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Maria Weiss, RevOps Analyst. Deep dive into Salesforce integration, data security, API capabilities, and reporting infrastructure. Maria tested the platform and reviewed HNSW-based deal intelligence features. She raised questions about data retention policies and SSO setup. Overall positive feedback on technical maturity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the Salesforce sync handle custom objects and fields?",
+          "answer": "We support bi-directional sync with custom objects. Our integration maps call data to Opportunity, Contact, and Account records with flexible field mapping."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy for call recordings?",
+          "answer": "Default retention is 2 years with configurable policies. We support EU data residency and GDPR compliance."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any integration gaps we should address before moving forward?",
+          "answer": "No major gaps. We'll need SSO configured with Okta, but that's straightforward."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export raw call transcripts and metadata via API?",
+          "answer": "Yes, full API access for transcripts, metadata, and coaching insights. We also support webhook triggers for real-time events."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Maria to review security documentation and share with InfoSec",
+        "Schedule exec meeting with Owen Lewis"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-10-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 3.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Evelyn with formal proposal for 21 seats on the Automations Plus Consulting tier at $20,400 ACV. Included ROI calculator showing estimated ramp time reduction. Referenced Maria's positive technical feedback and proposed exec meeting with Owen Lewis to finalize.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting hours included in this tier?",
+          "answer": "The package includes 40 hours of consulting. We can discuss add-on hours if needed, but most clients find this sufficient for initial setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm exec meeting with Owen Lewis for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-10-17",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Owen Lewis",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Exec meeting with Owen Lewis, SVP of Revenue, originally scheduled for Tuesday. Meeting was rescheduled to Thursday due to Owen's conflict. Discussed strategic value of coaching platform and ROI projections. Owen asked about pricing flexibility and contract terms. Meeting was shorter than planned due to scheduling constraints, but Owen expressed support pending final pricing review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer given our current Fathom contract overlap?",
+          "answer": "We can offer a 10% discount for the first year to offset the overlap. That brings the ACV to $18,360."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to finalize by end of month, but I need to review the adjusted pricing with finance."
+        },
+        {
+          "by": "prospect",
+          "question": "Are you open to a multi-year agreement for better pricing?",
+          "answer": "Possibly. Let's start with a one-year commitment and revisit after we see results."
+        }
+      ],
+      "objections": [
+        "The pricing is a bit higher than expected given we're still paying for Fathom through Q3."
+      ],
+      "next_steps": [
+        "Send revised proposal with 10% first-year discount",
+        "Schedule follow-up negotiation call with Evelyn"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-10-20",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Evelyn Suzuki",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Evelyn Suzuki. Reviewed the revised proposal with 10% discount ($18,360 ACV). Evelyn appreciated the flexibility but pushed for additional concessions on consulting hours or contract length. Discussed payment terms and start date alignment. Evelyn committed to presenting the final terms to Owen for approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get an additional 10 consulting hours included at this price point?",
+          "answer": "We can add 5 hours as a one-time goodwill add-on, but 10 would require a pricing adjustment."
+        },
+        {
+          "by": "rep",
+          "question": "Does the revised pricing work within your approved budget?",
+          "answer": "Yes, the $18,360 is within budget. The extra 5 consulting hours would seal the deal."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we don't see ROI in the first 6 months?",
+          "answer": "Standard terms are annual commitment with 30-day notice. We don't typically offer mid-term cancellation, but we can discuss a success milestone review at 6 months."
+        }
+      ],
+      "objections": [
+        "We'd feel more comfortable with a performance clause or early exit option given the investment."
+      ],
+      "next_steps": [
+        "Finalize proposal with 5 additional consulting hours",
+        "Evelyn to present to Owen for final sign-off",
+        "Schedule brief exec check-in with Owen"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-10-27",
+      "type": "exec_meeting",
+      "duration_minutes": 10,
+      "person_name": "Owen Lewis",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief exec check-in with Owen Lewis to confirm final terms. Owen approved the revised proposal with 10% discount and 5 additional consulting hours. Discussed contract start date aligned with Q2 kickoff. Owen confirmed readiness to proceed to legal review and signature.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are we aligned on moving forward with the revised terms?",
+          "answer": "Yes, this works for us. Let's get the contract over to legal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to CoastalAI legal",
+        "Coordinate implementation kickoff for early May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

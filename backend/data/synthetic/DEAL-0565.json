@@ -1,0 +1,532 @@
+{
+  "deal_id": "DEAL-0565",
+  "company": {
+    "name": "QuantumCloud",
+    "industry": "Vertical SaaS",
+    "employee_count": 590,
+    "annual_revenue": 61550559,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 11500.0,
+    "seats": 14,
+    "price_per_seat_monthly": 70.46,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.8,
+    "sales_cycle_days": 45,
+    "close_date": "2023-09-09",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Mia Johnson",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 26
+    },
+    {
+      "name": "Olivia Lee",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 9
+    },
+    {
+      "name": "Casey Clark",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 12
+    },
+    {
+      "name": "Charlotte Lee",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-21",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Inbound request received from Mia Johnson (Head of RevOps) expressing interest in improving forecasting accuracy. Initial inquiry mentions current challenges with forecast reliability and potential evaluation of solutions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call",
+        "Send product overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-07-26",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Mia confirming receipt of inquiry and proposing times for qualification call. Mia responds positively, confirming availability and mentioning urgency around Q2 planning cycle.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing tech stack?",
+          "answer": "Yes, we have native Salesforce integration and support most major CRM/sales tools"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-07-29",
+      "type": "qualification_call",
+      "duration_minutes": 18,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "18-minute qualification call with Mia. Discussed current forecasting process, pain points with manual updates, and team size (14 reps). Mia mentioned they're currently evaluating Gong as well but looking for stronger automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for updating forecasts?",
+          "answer": "Mostly manual - reps update Salesforce weekly, RevOps consolidates in spreadsheets"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's forecasting features?",
+          "answer": "We offer unlimited automation workflows vs Gong's conversation intelligence focus - complementary approaches"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send case studies on forecasting accuracy improvements",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-01",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute follow-up qualification call. Mia confirmed budget range and timeline (needs solution in place by end of quarter). Discussed decision-making process and identified key stakeholders including SVP Revenue and Sales Manager.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation decision?",
+          "answer": "Olivia Lee (SVP Revenue) will need to sign off, Charlotte in Sales Ops handles procurement, and Casey will do technical evaluation"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Move to discovery phase",
+        "Prepare multi-stakeholder engagement plan"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-05",
+      "type": "follow_up_call",
+      "duration_minutes": 19,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute discovery call with Mia diving into specific forecasting pain points. Discussed current accuracy rate (~65%), impact on resource planning, and desired state (80%+ accuracy). Mia emphasized need for solution that works with their existing Salesforce setup without heavy lifting.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current forecast accuracy and what's the business impact of misses?",
+          "answer": "Around 65% accurate - causes issues with hiring plans and quota setting each quarter"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of implementation timeline are we looking at?",
+          "answer": "Typically 2-3 weeks for initial setup, 4-6 weeks to full adoption with your team size"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share implementation timeline details",
+        "Schedule technical evaluation with Casey"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-08",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "14-minute discovery call focusing on use case requirements and success metrics. Mia outlined that unlimited automation is key requirement - they want to automate not just forecasting but deal scoring and pipeline health monitoring. Brief discussion of Gong comparison.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom automation workflows beyond standard forecasting?",
+          "answer": "Yes, unlimited automation tier allows custom workflows for scoring, routing, alerting, etc."
+        },
+        {
+          "by": "rep",
+          "question": "How does Gong fit into your evaluation - are you looking at both tools or choosing between them?",
+          "answer": "Gong is more for conversation intelligence - we see value in both but need to decide on forecasting solution first"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical evaluation environment for Casey",
+        "Send automation workflow examples"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-08-12",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Casey Clark",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "54-minute technical evaluation session with Casey Clark (Account Manager). Deep dive into platform capabilities, API integrations, automation builder, and Salesforce sync. Casey tested several automation scenarios and asked detailed questions about data handling and permissions model.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle data privacy and role-based access for sensitive deal information?",
+          "answer": "Enterprise-grade RBAC with field-level permissions synced from Salesforce, SOC2 compliant"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecasting model to match our sales methodology?",
+          "answer": "Yes, models are configurable - we can map to your stages, weighting, and custom fields"
+        },
+        {
+          "by": "rep",
+          "question": "What's your technical stack and any integration concerns we should address?",
+          "answer": "Salesforce primary CRM, also use Outreach and Slack - need real-time sync and Slack alerts"
+        }
+      ],
+      "objections": [
+        "Need to validate performance with our data volume - 5K+ deals in pipeline at any time"
+      ],
+      "next_steps": [
+        "Provide performance benchmarks for similar data volumes",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-08-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Mia after Casey's technical evaluation. Addressed performance questions Casey raised and shared customer references with similar deal volumes. Mia responded confirming Casey's feedback was positive overall but wants second technical session.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you connect us with a reference customer in vertical SaaS with similar scale?",
+          "answer": "Yes, will intro you to two customers - one in HR tech, one in fintech, both 500+ employees"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Arrange reference calls",
+        "Schedule second technical evaluation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-08-17",
+      "type": "technical_eval",
+      "duration_minutes": 49,
+      "person_name": "Casey Clark",
+      "person_role": "technical_evaluator",
+      "person_title": "Account Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "49-minute second technical evaluation with Casey (originally scheduled earlier but rescheduled). Focused on advanced automation scenarios and integration testing. Casey built test workflows and validated Salesforce sync performance. Confirmed technical requirements are met.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if Salesforce sync fails - is there automatic retry and alerting?",
+          "answer": "Yes, automatic exponential backoff retry with Slack/email alerts to admins on persistent failures"
+        },
+        {
+          "by": "prospect",
+          "question": "Can we run this in sandbox first before production rollout?",
+          "answer": "Absolutely - we recommend sandbox testing, can provision separate instance at no extra cost"
+        },
+        {
+          "by": "rep",
+          "question": "Are you comfortable with the technical capabilities to recommend moving forward?",
+          "answer": "Yes, platform meets our needs - main question now is pricing and contract terms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare proposal for 14 seats",
+        "Schedule proposal review with Mia"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-08-19",
+      "type": "proposal_call",
+      "duration_minutes": 28,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "28-minute proposal call with Mia reviewing pricing for 14 seats with unlimited automation tier. Presented $11,500 ACV proposal. Mia indicated budget is tight and asked about pricing flexibility. Discussed ROI based on improved forecast accuracy.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on pricing for faster close or annual prepay?",
+          "answer": "Let me discuss with leadership - what timeline and terms would work best for you?"
+        },
+        {
+          "by": "rep",
+          "question": "What's your approved budget range for this initiative?",
+          "answer": "We have $10K allocated - would need to make case for additional if we go higher"
+        }
+      ],
+      "objections": [
+        "Pricing is above our initial budget allocation"
+      ],
+      "next_steps": [
+        "Review discount options internally",
+        "Schedule call with Olivia (SVP Revenue) for executive alignment"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-08-25",
+      "type": "proposal_call",
+      "duration_minutes": 9,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "9-minute brief proposal follow-up call with Mia (rescheduled from earlier slot). Discussed path forward on pricing - Mia indicated she needs to build business case for Olivia. Confirmed executive meeting for next week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What information would help you build the strongest case with Olivia?",
+          "answer": "ROI calculator showing forecast accuracy impact on revenue and resource planning would be helpful"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator and executive briefing deck",
+        "Confirm exec meeting with Olivia"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-08-28",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Olivia Lee",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "27-minute executive meeting with Olivia Lee (SVP Revenue) and Mia. Presented business case focused on forecasting accuracy improvements and impact on quarterly planning. Olivia asked pointed questions about competitive differentiation vs Gong and implementation risk.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Why should we choose your solution over Gong for forecasting - they're proposing their platform can do this too?",
+          "answer": "Gong's strength is conversation intelligence; we're purpose-built for forecasting automation with unlimited workflows"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the risk if implementation takes longer than projected - how does that impact our Q2 planning?",
+          "answer": "We guarantee 3-week implementation with dedicated CSM - if we miss timeline, we'll credit one month service"
+        },
+        {
+          "by": "rep",
+          "question": "If we can meet your budget constraints, do we have your support to move forward?",
+          "answer": "If Mia and Casey are aligned and pricing works, yes - but I need to see the final numbers"
+        }
+      ],
+      "objections": [
+        "Gong is offering competitive pricing and bundling forecasting with conversation intelligence"
+      ],
+      "next_steps": [
+        "Finalize pricing proposal with discount",
+        "Get Olivia's approval on final terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-09-01",
+      "type": "pricing_call",
+      "duration_minutes": 19,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "19-minute pricing call with Mia discussing discount options. Proposed 20.8% discount bringing ACV to $9,100 to meet budget constraints and close by month-end. Mia appreciated the flexibility and indicated this would work for their budget.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this discount contingent on annual prepay or any other conditions?",
+          "answer": "Annual prepay required, plus close by end of this month - that's how we're justifying the discount internally"
+        },
+        {
+          "by": "rep",
+          "question": "Does $9,100 ACV work within your approved budget?",
+          "answer": "Yes, that fits our $10K allocation and gives us room for implementation support if needed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with discount",
+        "Route through procurement (Charlotte) for contract review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2023-09-04",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "26-minute negotiation call with Mia (rescheduled from prior day). Charlotte Lee (Sales Manager/procurement) joined to discuss contract terms. Negotiated on payment terms, auto-renewal clause, and data privacy addendum. Charlotte raised questions about termination clauses.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we modify the auto-renewal clause to require explicit opt-in rather than opt-out?",
+          "answer": "We can do 60-day notification window before renewal instead of automatic - does that address the concern?"
+        },
+        {
+          "by": "prospect",
+          "question": "Our legal team needs standard data privacy addendum - can you accommodate?",
+          "answer": "Yes, we have standard DPA template that should cover your requirements - will send for review"
+        }
+      ],
+      "objections": [
+        "Auto-renewal terms don't match our standard procurement policies"
+      ],
+      "next_steps": [
+        "Send revised contract with updated renewal terms and DPA",
+        "Target signatures by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "exec pulled into another meeting"
+    },
+    {
+      "touch_number": 15,
+      "date": "2023-09-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Mia Johnson",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Mia with final contract incorporating negotiated terms. Mia confirmed all stakeholders are aligned and contract is in legal review. Expected signatures within 48 hours pending final legal approval. Deal tracking toward close.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Legal review and signatures",
+        "Schedule kickoff call for implementation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

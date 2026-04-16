@@ -1,0 +1,163 @@
+{
+  "deal_id": "DEAL-0123",
+  "company": {
+    "name": "SummitSoftware",
+    "industry": "Vertical SaaS",
+    "employee_count": 70,
+    "annual_revenue": 10745948,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3200.0,
+    "seats": 5,
+    "price_per_seat_monthly": 55.33,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 37.8,
+    "sales_cycle_days": 25,
+    "close_date": "2025-05-28",
+    "use_case": "Call recording + coaching",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Samuel Schulz",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 26
+    },
+    {
+      "name": "Finn Anderson",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 6
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-29",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Samuel Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request submitted via website form. Samuel Schulz from SummitSoftware indicated interest in call recording and coaching tools for their CS team. Initial contact established, qualification call scheduled.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Samuel",
+        "Send calendar invite and prep materials"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-05-05",
+      "type": "qualification_call",
+      "duration_minutes": 9,
+      "person_name": "Samuel Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute qualification call with Samuel Schulz, Director of CS. Discussed current coaching challenges with their 5-person CS team. Samuel confirmed budget authority and timeline (looking to implement within 45 days). Expressed strong interest in unlimited automation tier for their workflow needs.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for call recording and coaching right now?",
+          "answer": "We're scaling our CS team and need consistent quality across reps. Currently doing manual review which doesn't scale."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your unlimited automation tier include custom workflow triggers?",
+          "answer": "Yes, you can configure custom triggers based on keywords, sentiment, or call duration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send demo video and pricing overview",
+        "Schedule technical demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-05-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Samuel Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with pricing proposal for 5 seats on unlimited automation tier. Samuel responded quickly asking about implementation timeline and discount options given their budget cycle timing. Requested to loop in Finn Anderson from RevOps for technical validation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline, and can you work with our Q2 budget constraints?",
+          "answer": "Implementation typically takes 1-2 weeks. We can discuss pricing flexibility to fit your budget cycle."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Include Finn Anderson in next meeting",
+        "Prepare revised pricing proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-05-28",
+      "type": "exec_meeting",
+      "duration_minutes": 8,
+      "person_name": "Samuel Schulz",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "8-minute meeting with Samuel and Finn to finalize terms. Discussed revised pricing at $3,200 ACV (37.8% discount from list). Finn confirmed technical requirements are met. Samuel indicated he can move forward without executive approval given the discounted price point fits within his departmental budget. Agreement to proceed with contract.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Will you need executive sign-off, or can you approve at the departmental level?",
+          "answer": "With the adjusted pricing, this falls within my department budget so I can approve directly."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year term if we decide to expand?",
+          "answer": "We can include expansion pricing protection in the contract."
+        }
+      ],
+      "objections": [
+        "Initial list price was above departmental budget threshold"
+      ],
+      "next_steps": [
+        "Send contract with agreed pricing",
+        "Schedule kickoff call with implementation team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 148,
+    "churn_reason": "did not see enough ROI for the price"
+  }
+}

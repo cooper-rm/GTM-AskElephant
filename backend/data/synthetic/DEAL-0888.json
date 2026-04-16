@@ -1,0 +1,759 @@
+{
+  "deal_id": "DEAL-0888",
+  "company": {
+    "name": "CoastalIO",
+    "industry": "PropTech",
+    "employee_count": 279,
+    "annual_revenue": 42066618,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 16300.0,
+    "seats": 18,
+    "price_per_seat_monthly": 77.68,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 12.7,
+    "sales_cycle_days": 78,
+    "close_date": "2024-02-20",
+    "use_case": "Pipeline visibility",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Isabella Diaz",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 29
+    },
+    {
+      "name": "Riley Ali",
+      "role": "exec_sponsor",
+      "title": "CEO",
+      "tenure_months": 7
+    },
+    {
+      "name": "Zoey Scott",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 14
+    },
+    {
+      "name": "Brandon Yang",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 13
+    },
+    {
+      "name": "Santiago Huang",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-12-02",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 6.2,
+      "rescheduled": false,
+      "ai_summary": "Isabella Diaz submitted an inbound request asking about pipeline visibility tools for their RevOps team. She mentioned they're struggling to forecast accurately and need better visibility into deal progression.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send follow-up email with initial discovery questions"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-12-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.0,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email thanking Isabella for her inquiry and proposing times for a brief qualification call to understand CoastalIO's current challenges with pipeline visibility.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What tools are you currently using for pipeline management?",
+          "answer": "Mainly spreadsheets and native Salesforce reports, but they're not giving us the real-time view we need"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isabella to confirm time for qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-12-08",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Isabella. Confirmed CoastalIO is a 279-person PropTech company looking to improve forecast accuracy for their sales team. Isabella is VP of CS but works closely with RevOps. Budget authority sits with Riley Ali (CEO) and procurement handled by IT.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How quickly can your platform be implemented?",
+          "answer": "Typically 2-3 weeks for initial setup, faster if your data is clean"
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency for this now?",
+          "answer": "We're scaling our sales team and our CEO wants better visibility before Q3"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send calendar invite for longer discovery call",
+        "Isabella to loop in Santiago from RevOps"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-12-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 16.5,
+      "rescheduled": false,
+      "ai_summary": "Rep sent calendar invite for discovery call and shared a one-pager on pipeline visibility use cases. Confirmed Santiago Huang (RevOps Analyst) would join the next call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-12-16",
+      "type": "qualification_call",
+      "duration_minutes": 3,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Quick check-in call. Isabella confirmed Santiago would join discovery and mentioned they're looking at approximately 18 users across sales and RevOps. No other vendors in active consideration yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are you evaluating any other solutions?",
+          "answer": "Not formally yet, we wanted to start with you since you were recommended by a portfolio company"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Proceed with discovery call as scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-12-20",
+      "type": "discovery_call",
+      "duration_minutes": 36,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full discovery call with Isabella. Discussed current pain points: manual pipeline reviews taking 4+ hours weekly, lack of confidence in forecast numbers, difficulty identifying at-risk deals early. CoastalIO runs deals from $50k-$300k ACV with 60-90 day cycles. They need automation for deal health scoring and real-time pipeline snapshots.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can your system integrate with our existing Salesforce instance?",
+          "answer": "Yes, native integration via API, no data migration required"
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the deal health metrics?",
+          "answer": "Fully customizable based on your sales methodology and historical data"
+        },
+        {
+          "by": "rep",
+          "question": "What does success look like for you in 6 months?",
+          "answer": "Forecast accuracy above 90% and our CEO having real-time dashboard access without needing manual reports"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare use case summary and technical requirements doc",
+        "Isabella to introduce rep to Santiago and potentially Riley"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-12-24",
+      "type": "follow_up_call",
+      "duration_minutes": 22,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review technical requirements document. Isabella confirmed the unlimited automation tier makes sense given their deal volume (180+ active opps). Discussed data quality concerns and how the platform handles incomplete Salesforce data.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if our Salesforce data quality isn't great right now?",
+          "answer": "The platform will flag gaps during onboarding and we can help build data hygiene workflows as part of implementation"
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in the evaluation?",
+          "answer": "Santiago will handle technical eval, Zoey and Brandon from IT for security review, and Riley will need to approve final pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Santiago",
+        "Isabella to introduce rep to Riley for exec alignment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-12-29",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Isabella and Santiago joining. Walked through data pipeline architecture, API authentication, and reporting capabilities. Santiago asked detailed questions about custom field mapping and historical data analysis.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we create custom risk signals based on our specific sales process?",
+          "answer": "Yes, you can define custom signals using any Salesforce field or activity pattern"
+        },
+        {
+          "by": "prospect",
+          "question": "How far back can we analyze historical deal data?",
+          "answer": "No limit, we typically recommend 12-18 months for training the models effectively"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the refresh rate on the pipeline dashboard?",
+          "answer": "Real-time sync with Salesforce, updates reflect within 2-5 minutes"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Continue technical eval next session with API integration deep-dive",
+        "Santiago to prepare list of custom fields they want to track"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-01-04",
+      "type": "technical_eval",
+      "duration_minutes": 59,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical deep-dive on API integration, user permissions model, and mobile access. Santiago brought detailed questions about webhook configuration and data retention policies. Isabella confirmed Riley is supportive and wants to see a demo soon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we set role-based access so reps only see their own pipeline but managers see the full team?",
+          "answer": "Yes, fully configurable role-based permissions that mirror your Salesforce hierarchy"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention and backup policy?",
+          "answer": "90-day retention on activity logs, indefinite retention on deal data, daily encrypted backups"
+        },
+        {
+          "by": "prospect",
+          "question": "Is there a mobile app or just web access?",
+          "answer": "Responsive web app plus native iOS/Android apps for executives who want dashboard access on the go"
+        },
+        {
+          "by": "rep",
+          "question": "Any technical concerns that would block implementation?",
+          "answer": "No blockers, we'll need IT to review security but Santiago feels confident about the architecture"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for Isabella and Riley",
+        "Send security documentation to IT team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-01-05",
+      "type": "demo",
+      "duration_minutes": 42,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Isabella. Showed live pipeline dashboard, deal health scoring in action, and automated risk detection. Walked through a sample forecast report and how executives can drill down into individual deals. Isabella was particularly impressed with the automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboard layout for different personas?",
+          "answer": "Yes, each user can create custom views and execs can have curated dashboards built for them"
+        },
+        {
+          "by": "prospect",
+          "question": "How does the system prioritize which deals need attention?",
+          "answer": "Combination of AI-driven risk scoring and your custom rules, surfaced in a daily digest or real-time alerts"
+        },
+        {
+          "by": "rep",
+          "question": "What would you want to see different or customized for your team?",
+          "answer": "Would love to see our specific deal stages reflected and maybe customize the risk thresholds based on our historical close rates"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare customized demo for Riley showing executive-level views",
+        "Isabella to coordinate Riley's calendar"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-01-09",
+      "type": "technical_eval",
+      "duration_minutes": 37,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical validation session focused on security and compliance. Santiago reviewed SSO configuration, data encryption standards, and audit logging capabilities. Discussed IT review process with Zoey and Brandon.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support SAML-based SSO?",
+          "answer": "Yes, SAML 2.0 and also support Okta, Azure AD, and Google Workspace"
+        },
+        {
+          "by": "prospect",
+          "question": "What compliance certifications do you hold?",
+          "answer": "SOC 2 Type II, GDPR compliant, and ISO 27001 certified"
+        },
+        {
+          "by": "rep",
+          "question": "When can IT complete their security review?",
+          "answer": "Zoey thinks they can turn it around in a week if we send the docs today"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send security documentation to Zoey and Brandon",
+        "Schedule proposal review once IT completes security assessment"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-01-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Rep sent comprehensive follow-up email with demo recording, security documentation for IT review, and proposed pricing framework for 18 users on unlimited automation tier. Requested time to review proposal with Isabella before presenting to Riley.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does the proposed pricing structure align with your budget expectations?",
+          "answer": "Looks reasonable, want to review with Riley but should be within our range"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "IT to complete security review",
+        "Schedule proposal call with Isabella"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-01-18",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Isabella. Walked through pricing: $16,300 ACV for 18 seats with unlimited automation. Discussed contract terms, implementation timeline (3 weeks), and success metrics. Isabella confirmed budget is available but wants Riley involved in final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the pricing annual or can we do monthly?",
+          "answer": "We offer annual contracts with quarterly payment options if that helps with budgeting"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the implementation?",
+          "answer": "Full onboarding, data setup, custom field mapping, training for admins and end users, and 30 days of dedicated support post-launch"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about the pricing or scope?",
+          "answer": "Pricing seems fair, just need Riley to sign off since it's above my approval threshold"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isabella to set up meeting with Riley to review proposal",
+        "Rep to prepare executive summary for Riley"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-01-21",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second proposal discussion with Isabella to finalize details before Riley meeting. Confirmed IT security review came back clean. Discussed ROI calculation based on time savings (4 hours/week) and forecast accuracy improvement.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add more seats later if we expand the sales team?",
+          "answer": "Yes, seats can be added mid-contract at prorated pricing"
+        },
+        {
+          "by": "rep",
+          "question": "What's Riley's main concern going to be?",
+          "answer": "Probably just wants to understand ROI and make sure this integrates smoothly without disrupting the team"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Riley scheduled",
+        "Rep to prepare ROI summary and integration talking points"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-01-26",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Riley Ali",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "First executive meeting with Riley Ali (CEO). Isabella introduced the rep and provided context. Reviewed business case: current manual pipeline reviews unsustainable as they scale, need for real-time visibility, and forecast accuracy goals. Riley asked about implementation risk and change management.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the risk to our team during implementation?",
+          "answer": "Minimal disruption, we run parallel to existing process during 3-week setup, then gradual rollout by team"
+        },
+        {
+          "by": "prospect",
+          "question": "How long before we see results?",
+          "answer": "Most customers see improved forecast confidence within 30 days, full ROI typically by month 3"
+        },
+        {
+          "by": "rep",
+          "question": "Is the business case compelling enough for you to move forward?",
+          "answer": "Yes, I like what I'm seeing, just want to review the contract terms and make sure we're getting the right pricing"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to review proposal details with finance",
+        "Schedule follow-up to discuss any questions on contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-01-29",
+      "type": "proposal_call",
+      "duration_minutes": 26,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call with Isabella to address Riley's feedback. Discussed contract length (annual preferred), payment terms, and success metrics. Isabella mentioned Riley wants to ensure they have flexibility if headcount grows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What if we need to go from 18 to 25 seats mid-year?",
+          "answer": "We can add seats anytime with prorated billing, or build seat flexibility into the contract upfront"
+        },
+        {
+          "by": "rep",
+          "question": "Should we build in a seat buffer to give you room to grow?",
+          "answer": "Maybe, let me check with Riley on headcount plans"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isabella to confirm headcount projections with Riley",
+        "Rep to prepare contract options with seat flexibility"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-02-03",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Riley Ali",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Riley to review contract structure. Discussed payment terms (quarterly vs annual prepay) and seat flexibility. Riley asked about discount options for annual prepay and whether there's room for negotiation on the ACV.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there a discount if we prepay the full year?",
+          "answer": "We can offer a 5% discount for annual prepayment"
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best pricing for 18 seats?",
+          "answer": "The quoted $16,300 is our standard rate, we have some flexibility depending on contract terms"
+        },
+        {
+          "by": "rep",
+          "question": "Are you looking for specific concessions or is this more about budget alignment?",
+          "answer": "Budget is approved at this level, but always want to make sure we're getting fair value"
+        }
+      ],
+      "objections": [
+        "Riley mentioned the pricing feels slightly high compared to what he expected for 18 seats"
+      ],
+      "next_steps": [
+        "Rep to review pricing options with leadership",
+        "Schedule follow-up to discuss final terms"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-02-07",
+      "type": "exec_meeting",
+      "duration_minutes": 46,
+      "person_name": "Riley Ali",
+      "person_role": "exec_sponsor",
+      "person_title": "CEO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Third executive meeting with Riley focused on pricing negotiation. Discussed discount scenarios and contract terms. Riley is comfortable with the product and team but wants to see if there's flexibility on the ACV given this is their first year and an inbound lead.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you come down on price if we commit to a case study or reference?",
+          "answer": "Possibly, let me check with my leadership on what we can do for a reference customer in the PropTech space"
+        },
+        {
+          "by": "prospect",
+          "question": "What if we sign a multi-year deal?",
+          "answer": "We typically reserve multi-year discounts for larger deployments, but I can explore options"
+        },
+        {
+          "by": "rep",
+          "question": "If we can find a middle ground on pricing, is there anything else blocking the deal?",
+          "answer": "No, just need to land on final numbers and we're ready to move forward"
+        }
+      ],
+      "objections": [
+        "Riley noted this came inbound and expected preferential pricing given they're not a competitive eval"
+      ],
+      "next_steps": [
+        "Rep to propose revised pricing options",
+        "Riley to review with finance and provide target number"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-02-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Rep sent follow-up email with revised pricing proposal: $15,500 ACV (5% discount) for annual prepayment plus agreement to serve as a case study reference. Requested confirmation from Riley to finalize contract.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Riley to review revised proposal with finance and Isabella"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-02-15",
+      "type": "negotiation_call",
+      "duration_minutes": 29,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled negotiation call was rescheduled by Isabella due to Riley's conflict. When the call occurred, discussed final pricing and contract terms. Riley accepted the $15,500 ACV with annual prepay and case study commitment. Confirmed contract details and next steps for legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When do you need the case study delivered?",
+          "answer": "Typically 90 days post-implementation once you've seen results"
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on all contract terms now?",
+          "answer": "Yes, this works for us, just need Zoey and Brandon to review the final MSA language"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send final contract to legal review",
+        "IT to review MSA terms",
+        "Target signature within 1 week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-02-21",
+      "type": "pricing_call",
+      "duration_minutes": 30,
+      "person_name": "Isabella Diaz",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing and contract review call with Isabella. Confirmed $15,500 ACV, 18 seats, unlimited automation, annual prepay with 5% discount, case study commitment. IT completed MSA review with no issues. Contract sent to Riley for signature.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "We can kick off within 3 business days of signed contract"
+        },
+        {
+          "by": "rep",
+          "question": "Any last concerns before we finalize?",
+          "answer": "No, we're ready to move forward, Riley is signing today"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Riley to execute contract",
+        "Schedule implementation kickoff",
+        "Assign customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

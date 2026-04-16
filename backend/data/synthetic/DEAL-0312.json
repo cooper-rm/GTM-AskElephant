@@ -1,0 +1,656 @@
+{
+  "deal_id": "DEAL-0312",
+  "company": {
+    "name": "NimbusNetworks",
+    "industry": "SaaS/Tech",
+    "employee_count": 1000,
+    "annual_revenue": 69668677,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 14100.0,
+    "seats": 15,
+    "price_per_seat_monthly": 78.7,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 11.6,
+    "sales_cycle_days": 61,
+    "close_date": "2024-06-03",
+    "use_case": "Rep productivity",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Alex Chen",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 3
+    },
+    {
+      "name": "Evelyn Gonzalez",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 9
+    },
+    {
+      "name": "Olivia Pereira",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 1
+    },
+    {
+      "name": "Avery Wright",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-20",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach to Alex Chen introducing our sales intelligence platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-22",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 11.6,
+      "rescheduled": false,
+      "ai_summary": "Cold email to Alex Chen highlighting rep productivity gains. Alex responded expressing interest in learning more about our platform versus their current evaluation of Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Gong for sales team productivity?",
+          "answer": "Rep explained our differentiated approach to conversation intelligence with deeper automation capabilities and more flexible workflows compared to Gong's transcript-focused model."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-04-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing case study of similar mid-market SaaS company. Alex confirmed interest and mentioned he's new to the VP of Sales role (3 months in) and looking to establish new processes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have customers in similar growth-stage SaaS companies?",
+          "answer": "Rep shared 2 relevant case studies from mid-market tech companies with similar team sizes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar invite for qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-04-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming qualification call time and requesting background on current tech stack. Alex provided context on existing tools and noted pressure from leadership to improve forecast accuracy.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-04-10",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Alex Chen covering current sales processes, team structure (15 AEs), and pain points around rep productivity and coaching consistency. Alex mentioned evaluating Gong but concerned about implementation complexity. Confirmed budget authority sits with Evelyn Gonzalez (SVP Revenue) and IT review required.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to implement a sales intelligence platform now?",
+          "answer": "Alex explained new leadership expectations for improving win rates and forecast accuracy within Q2."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline and does it require heavy IT involvement?",
+          "answer": "Rep outlined 2-3 week implementation with minimal IT lift, mostly SSO and data integration setup."
+        }
+      ],
+      "objections": [
+        "Concerned about change management with sales team already using multiple tools"
+      ],
+      "next_steps": [
+        "Send ROI calculator and implementation overview",
+        "Intro to Evelyn Gonzalez"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-04-11",
+      "type": "follow_up_call",
+      "duration_minutes": 13,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving deeper into coaching workflows and automation requirements. Alex emphasized need for unlimited automation capabilities to scale processes across growing team. Discussed multi-threading strategy to involve Evelyn and IT.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current coaching process and where you see gaps?",
+          "answer": "Alex described inconsistent 1-on-1 prep and lack of systematic call review process. Managers spending 5+ hours weekly on manual call reviews."
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are your automation workflows?",
+          "answer": "Rep demonstrated workflow builder and explained unlimited automation tier allows custom triggers and actions without caps."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule executive alignment call with Evelyn",
+        "Loop in Olivia Pereira from IT for technical review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-04-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 7.2,
+      "rescheduled": false,
+      "ai_summary": "Email recapping qualification call and sharing customer references. Alex confirmed he'd like to move forward with executive alignment and demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Coordinate calendars for Evelyn meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-04-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 9.3,
+      "rescheduled": false,
+      "ai_summary": "Email introducing Evelyn Gonzalez to the conversation and proposing executive alignment meeting. Alex confirmed Evelyn's availability and mentioned she's particularly interested in forecast accuracy improvements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Executive meeting scheduled",
+        "Prepare custom demo focusing on rep productivity use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-04-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.6,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo agenda and requesting specific workflow examples to customize demonstration. Alex provided details on current manual processes they want to automate.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you show automated battlecard generation based on competitor mentions?",
+          "answer": "Rep confirmed this would be included in demo using Gong as example competitor."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 7.5,
+      "rescheduled": false,
+      "ai_summary": "Pre-demo email with agenda and login credentials for sandbox environment. Alex acknowledged receipt.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo tomorrow at 2pm"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-04-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.2,
+      "rescheduled": false,
+      "ai_summary": "Email sharing pre-demo discovery doc summarizing their requirements: 15 seats, unlimited automation tier, focus on rep productivity and coaching. Alex confirmed accuracy and mentioned bringing Avery Wright (RevOps Analyst) to demo as end user perspective.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo with Alex and Avery"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-05-02",
+      "type": "exec_meeting",
+      "duration_minutes": 20,
+      "person_name": "Evelyn Gonzalez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial executive meeting with Evelyn Gonzalez to align on business objectives. Evelyn outlined revenue goals and emphasized need for data-driven coaching to improve rep performance. Short call focused on strategic fit and timeline expectations.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your top priorities for the sales organization this year?",
+          "answer": "Evelyn shared focus on improving win rates from 18% to 25% and reducing forecast variance below 10%."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your decision timeline and budget cycle?",
+          "answer": "Rep explained typical procurement process and confirmed budget available in current quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow up after demo with Alex's team",
+        "Prepare business case for formal proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-05-03",
+      "type": "demo",
+      "duration_minutes": 26,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Alex Chen and Avery Wright showcasing conversation intelligence, automated coaching workflows, and competitive intelligence features. Demonstrated Gong comparison and unlimited automation capabilities. Avery engaged on technical setup questions. Alex positive on user experience but noted need for IT security review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How would you prioritize implementing these features across your team?",
+          "answer": "Alex outlined phased rollout starting with managers, then AEs, focused first on call recording and coaching workflows."
+        },
+        {
+          "by": "prospect",
+          "question": "What data security certifications do you have?",
+          "answer": "Rep covered SOC2, GDPR compliance, and offered to connect with Olivia Pereira for detailed security review."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats next quarter?",
+          "answer": "Rep explained per-seat pricing model and volume discount thresholds at 25+ seats."
+        }
+      ],
+      "objections": [
+        "Need to validate data retention policies with IT compliance requirements"
+      ],
+      "next_steps": [
+        "Schedule IT security review with Olivia",
+        "Send proposal for 15 seats unlimited automation tier"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-05-10",
+      "type": "exec_meeting",
+      "duration_minutes": 31,
+      "person_name": "Evelyn Gonzalez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second executive meeting with Evelyn Gonzalez following product demo. Walked through business case showing projected productivity gains and ROI. Evelyn supportive of moving forward but emphasized need to move quickly to hit Q2 implementation target. Discussed budget approval process and confirmed $14-15K ACV range fits approved headroom.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Beyond Alex, who else needs to be involved in the evaluation and decision?",
+          "answer": "Evelyn confirmed IT review with Olivia required, finance approval straightforward given budget already allocated."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't hit our Q2 implementation deadline?",
+          "answer": "Rep acknowledged timeline and confirmed expedited onboarding available to meet their schedule."
+        },
+        {
+          "by": "prospect",
+          "question": "Have you worked with companies transitioning away from Gong?",
+          "answer": "Rep shared two customer stories of migrations from Gong, highlighting data migration support and change management resources."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Formal proposal by end of week",
+        "IT review session",
+        "Target decision by mid-next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-05-11",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Alex Chen covering 15 seats, unlimited automation tier, $14,100 ACV with standard payment terms. Alex positive on overall proposal but noted Evelyn may push for volume discount given relationship building opportunity. Discussed implementation timeline and success metrics.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Does this proposal align with what you need to get internal approval?",
+          "answer": "Alex confirmed structure works but suggested flexibility on pricing given potential to expand seats significantly in next fiscal year."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in onboarding and training?",
+          "answer": "Rep outlined dedicated CSM, manager training sessions, and 30-day check-ins included in package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "IT security review scheduled",
+        "Alex to socialize proposal with Evelyn and finance"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2024-05-12",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up proposal call addressing technical questions from Olivia's initial security review. Walked through data handling, API access controls, and integration architecture. Alex coordinating internal alignment across stakeholders.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Has Olivia flagged any blockers from security perspective?",
+          "answer": "Alex confirmed minor questions on data residency but nothing blocking, expects IT sign-off within days."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we adjust payment terms to net-45 instead of net-30?",
+          "answer": "Rep agreed to check with finance team on payment term flexibility."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final IT approval",
+        "Confirm payment terms adjustment"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2024-05-18",
+      "type": "proposal_call",
+      "duration_minutes": 7,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief call confirming IT security approval received from Olivia. Alex mentioned moving into final negotiation on pricing and terms with Evelyn's input.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Pricing discussion with decision makers"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2024-05-22",
+      "type": "pricing_call",
+      "duration_minutes": 26,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Alex Chen focused on discount request. Alex mentioned budget is approved at proposed level but Evelyn asking for 10% discount given competitive situation with Gong and commitment to future expansion. Discussed expansion potential and partnership approach.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would unlock a multi-year commitment from your side?",
+          "answer": "Alex explained current quarter approval is for annual contract, but strong Q1 results could drive expansion to full sales team (40+ seats) next fiscal year."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you offer any discount to strengthen our position against the Gong proposal?",
+          "answer": "Rep offered 5% discount to $13,395 ACV in exchange for public reference customer commitment and case study participation."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your implementation SLA look like?",
+          "answer": "Rep committed to 3-week go-live timeline with dedicated implementation resources."
+        }
+      ],
+      "objections": [
+        "Gong has offered 15% discount on similar package",
+        "Procurement pushing for better pricing given Q2 budget pressures"
+      ],
+      "next_steps": [
+        "Rep to confirm final discount approval internally",
+        "Alex to review with Evelyn"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2024-05-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.8,
+      "rescheduled": false,
+      "ai_summary": "Email confirming 5% discount approved, updated proposal sent with $13,395 ACV. Outlined reference customer expectations and case study timeline. Alex acknowledged and said he'd review with Evelyn.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Alex to confirm final approval",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2024-05-27",
+      "type": "exec_meeting",
+      "duration_minutes": 3,
+      "person_name": "Evelyn Gonzalez",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled executive check-in with Evelyn Gonzalez was rescheduled last minute due to board meeting conflict. Brief message from Evelyn indicating still committed but needs a few more days for final review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule exec check-in for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "prospect asked to push by a week"
+    },
+    {
+      "touch_number": 21,
+      "date": "2024-05-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Alex checking on status after Evelyn's reschedule. Alex confirmed everything still on track, just timing pushed slightly due to board prep taking priority. Evelyn still supportive.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for Evelyn's availability to finalize"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2024-06-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Alex Chen",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Final check-in email with updated contract reflecting agreed terms: 15 seats, unlimited automation, $13,395 ACV, net-45 payment terms, reference customer commitment. Alex confirmed routing to Evelyn for final signature and expects close within 48 hours.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Contract with legal for signature",
+        "Plan implementation kickoff"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

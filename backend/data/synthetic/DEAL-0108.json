@@ -1,0 +1,854 @@
+{
+  "deal_id": "DEAL-0108",
+  "company": {
+    "name": "SouthpointStudio",
+    "industry": "SaaS/Tech",
+    "employee_count": 10000,
+    "annual_revenue": 1521161097,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 40200.0,
+    "seats": 33,
+    "price_per_seat_monthly": 94.52,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 85,
+    "close_date": "2025-06-19",
+    "use_case": "Call recording + coaching",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Zoey Pham",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 118
+    },
+    {
+      "name": "Charlotte Klein",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 17
+    },
+    {
+      "name": "Quinn Nkrumah",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 2
+    },
+    {
+      "name": "Reese Kang",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 24
+    },
+    {
+      "name": "Scarlett Le",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 5
+    },
+    {
+      "name": "Henry Park",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 9
+    },
+    {
+      "name": "Brandon Yoon",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-03-03",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound email sent to Zoey Pham at SouthpointStudio introducing AskElephant's call recording and coaching platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-03-09",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 32.9,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Zoey Pham highlighting how AskElephant helps RevOps teams scale coaching. Zoey responded expressing interest in learning more about the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What makes your platform different from what we're currently evaluating?",
+          "answer": "AskElephant focuses specifically on automating coaching workflows and integrating directly with CRM data, not just recording calls."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule brief qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-03-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with case study from similar enterprise SaaS company. Zoey confirmed her team is evaluating solutions including Fathom and asked about pricing structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your pricing look like for a team of around 30-35 reps?",
+          "answer": "Provided indicative range for automations package with consulting, suggested discussing specifics on a call after understanding their workflow needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm calendar availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-03-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Brief email confirming qualification call scheduled. Zoey mentioned she'd like to discuss integration requirements with their existing Salesforce instance.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-04-02",
+      "type": "qualification_call",
+      "duration_minutes": 12,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute qualification call with Zoey. Discussed SouthpointStudio's current pain points around inconsistent coaching and lack of visibility into deal conversations. Zoey confirmed they're currently using Fathom but finding it limited for their coaching use case. Team size approximately 33 sales and customer success reps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform support custom coaching scorecards?",
+          "answer": "Yes, fully configurable scorecards that can be tailored to your sales methodology."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation right now?",
+          "answer": "COO Charlotte Klein wants to standardize coaching across the revenue team by Q3."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send integration overview doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-04-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with Salesforce integration documentation and customer references. Zoey confirmed discovery call for next week and mentioned involving Reese from her team for technical evaluation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-04-08",
+      "type": "discovery_call",
+      "duration_minutes": 31,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "31-minute discovery call with Zoey. Deep dive into current coaching workflow, pain points with Fathom (lacks automation, limited analytics), and desired outcomes. Zoey emphasized need for automated call scoring and integration with existing Salesforce fields. Discussed typical coaching cadence and manager-rep workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does AskElephant handle call recording consent across different states?",
+          "answer": "Built-in compliance controls with configurable consent workflows for two-party consent jurisdictions."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current process for reviewing calls and providing feedback?",
+          "answer": "Mostly manual\u2014managers spot-check calls in Fathom but there's no systematic scoring or tracking."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the AI models to recognize our specific terminology and deal stages?",
+          "answer": "Yes, the platform learns from your CRM data and call history to understand your unique sales process."
+        }
+      ],
+      "objections": [
+        "Concerned about change management\u2014reps already use Fathom and may resist switching platforms"
+      ],
+      "next_steps": [
+        "Share coaching automation workflow examples",
+        "Schedule technical deep dive with Reese"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-04-13",
+      "type": "discovery_call",
+      "duration_minutes": 9,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "9-minute follow-up discovery call with Zoey to clarify implementation timeline. Discussed onboarding process and typical time-to-value. Zoey confirmed Charlotte (COO) is the executive sponsor and would need to be involved before final decision.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your ideal timeline for getting this rolled out?",
+          "answer": "Would like to have something in place by end of Q2, fully rolled out by Q3."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate exec meeting with Charlotte"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-04-17",
+      "type": "discovery_call",
+      "duration_minutes": 23,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute discovery call covering stakeholder map and decision process. Zoey outlined the team: Charlotte (COO, final approver), Quinn in procurement, Reese for technical evaluation, Scarlett from IT for security review, Henry (Sales Manager) and Brandon (Implementation Lead) as end users. Discussed budget authority and approval process.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation?",
+          "answer": "IT will need to review security and data handling, Quinn handles vendor procurement, and we'll want input from sales leadership."
+        },
+        {
+          "by": "prospect",
+          "question": "What does your implementation support look like?",
+          "answer": "Dedicated CSM, technical onboarding workshops, and optional consulting packages for custom workflow design."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Reese",
+        "Prepare demo for broader team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-04-20",
+      "type": "technical_eval",
+      "duration_minutes": 35,
+      "person_name": "Reese Kang",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "35-minute technical evaluation with Reese Kang. Covered API capabilities, Salesforce integration architecture, data security model, and reporting capabilities. Reese asked detailed questions about data residency and user provisioning.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the platform handle PII and call recording data storage?",
+          "answer": "Data encrypted at rest and in transit, configurable retention policies, SOC 2 Type II certified."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the API rate limit structure for Salesforce sync?",
+          "answer": "Intelligent batching to stay within Salesforce limits, configurable sync frequency, supports bulk API for large datasets."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for sales tools?",
+          "answer": "Salesforce CRM, Outreach for sequences, Fathom for call recording, Gong for a few reps but too expensive to scale."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reese to review technical documentation",
+        "Schedule main demo"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-04-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 1.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Zoey with technical documentation for Reese and proposed demo agenda. Zoey confirmed demo date and requested pricing ballpark ahead of the meeting.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share a rough price range before the demo so we know if we're in the ballpark?",
+          "answer": "For 33 seats with automations and consulting package, typically $35K-$45K annually depending on configuration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-04-27",
+      "type": "demo",
+      "duration_minutes": 35,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "35-minute demo with Zoey covering core platform capabilities: automated call scoring, coaching workflows, manager dashboards, and CRM integration. Walked through live examples of coaching scorecards and automated feedback delivery. Zoey engaged positively, asked about customization options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build custom scorecards for different call types\u2014discovery vs demo vs negotiation?",
+          "answer": "Yes, unlimited custom scorecards with stage-specific criteria and weighting."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Managers spending less time hunting for calls to review, more consistent coaching across the team, and visibility into rep performance trends."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share demo recording",
+        "Schedule technical deep dive with Reese"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with demo recording and custom scorecard examples. Zoey confirmed moving forward with technical evaluation and mentioned they're still comparing with Fathom's enterprise tier.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled with Reese"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-05-04",
+      "type": "technical_eval",
+      "duration_minutes": 63,
+      "person_name": "Reese Kang",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "63-minute technical deep dive with Reese covering SSO integration, user provisioning, custom field mapping, API webhooks, and data export capabilities. Reese tested the platform hands-on and asked detailed questions about edge cases and error handling.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle call recordings when a rep leaves the company?",
+          "answer": "Configurable data retention policies, can reassign recordings to manager or archive with access controls."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we export all call data and coaching scores back to Salesforce custom objects?",
+          "answer": "Yes, flexible field mapping to standard or custom objects, supports scheduled exports or real-time sync."
+        },
+        {
+          "by": "rep",
+          "question": "What concerns do you have about the technical implementation?",
+          "answer": "Want to make sure we can migrate historical call data from Fathom and that the Salesforce sync won't impact performance."
+        },
+        {
+          "by": "prospect",
+          "question": "What's involved in migrating our existing call library from Fathom?",
+          "answer": "We have a migration toolkit that can pull recordings and metadata from Fathom via API, typically 2-3 weeks for data migration."
+        }
+      ],
+      "objections": [
+        "Migration complexity from Fathom could delay rollout"
+      ],
+      "next_steps": [
+        "Reese to complete technical scorecard",
+        "Schedule second demo with broader team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-05-08",
+      "type": "demo",
+      "duration_minutes": 45,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "45-minute demo with Zoey and broader team including Henry (Sales Manager) and Brandon (Implementation Lead). Focused on end-user experience: rep view, coaching inbox, manager workflows, and reporting. Team engaged positively, Henry particularly interested in deal intelligence features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How much time does this actually save managers each week?",
+          "answer": "Customers typically report 5-8 hours per week saved on coaching prep and call review."
+        },
+        {
+          "by": "prospect",
+          "question": "Can reps see their own performance trends over time?",
+          "answer": "Yes, reps have individual dashboards showing their coaching scores, improvement trends, and skill development."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a no-brainer for your team?",
+          "answer": "If it can actually automate the coaching workflow and give us better visibility than what we're getting from Fathom now."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-05-13",
+      "type": "proposal_call",
+      "duration_minutes": 21,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "21-minute proposal review call with Zoey. Presented formal proposal for 33 seats with automations plus consulting package at $40,200 ACV. Discussed implementation timeline, training plan, and success metrics. Zoey requested breakdown of consulting scope.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What exactly is included in the consulting package?",
+          "answer": "Custom scorecard design workshops, sales methodology integration, manager training, and quarterly business reviews."
+        },
+        {
+          "by": "rep",
+          "question": "What's your procurement process look like from here?",
+          "answer": "Need to get Charlotte's final approval, then Quinn will handle vendor paperwork and contract review."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send detailed consulting SOW",
+        "Schedule follow-up to address questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-05-15",
+      "type": "technical_eval",
+      "duration_minutes": 67,
+      "person_name": "Reese Kang",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "67-minute final technical evaluation with Reese covering security questionnaire, penetration test results, compliance certifications, and disaster recovery procedures. Reese completed IT security review and flagged need for DPA and BAA agreements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your disaster recovery RTO and RPO?",
+          "answer": "RTO of 4 hours, RPO of 15 minutes, with multi-region backup and failover capabilities."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support custom data retention policies for different record types?",
+          "answer": "Yes, granular retention rules by record type, user role, or custom metadata."
+        },
+        {
+          "by": "rep",
+          "question": "Any remaining technical blockers from your perspective?",
+          "answer": "No blockers, just need to finalize the DPA and coordinate the Fathom migration timeline."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send DPA and BAA templates",
+        "Coordinate with legal on contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-05-21",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "17-minute proposal follow-up call with Zoey. Discussed consulting scope in detail and implementation timeline. Zoey mentioned budget approval is with Charlotte but raised question about seat count flexibility for growth.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we grow the team mid-year, how does seat expansion work?",
+          "answer": "Prorated pricing for additional seats, can add anytime with 30-day notice."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with Charlotte",
+        "Prepare ROI summary"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-05-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with ROI calculator and executive summary for Charlotte. Zoey confirmed exec meeting scheduled but mentioned Charlotte is focused on total cost of ownership vs Fathom.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 20,
+      "date": "2025-05-28",
+      "type": "negotiation_call",
+      "duration_minutes": 12,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "12-minute negotiation call with Zoey. Discussed pricing flexibility and payment terms. Zoey mentioned they're comparing total cost with upgrading Fathom enterprise tier and asked if there's room on pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the annual price if we commit to multi-year?",
+          "answer": "Can explore multi-year discount options, typically 10% off for 2-year commitment."
+        }
+      ],
+      "objections": [
+        "Pricing is higher than Fathom enterprise, need to justify the premium"
+      ],
+      "next_steps": [
+        "Prepare competitive comparison doc",
+        "Follow up on multi-year pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 21,
+      "date": "2025-05-31",
+      "type": "proposal_call",
+      "duration_minutes": 15,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "15-minute proposal call discussing multi-year options and ROI compared to Fathom. Walked through automation capabilities that Fathom doesn't offer and quantified time savings for managers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What would Fathom enterprise cost you for the same seat count?",
+          "answer": "About $28K annually, but it doesn't include the automation or consulting we need."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send multi-year pricing options",
+        "Prepare for Charlotte exec meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 22,
+      "date": "2025-06-05",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "16-minute pricing call with Zoey. Presented multi-year options and discussed payment terms. Zoey indicated preference for annual contract first with option to extend, wants to make sure implementation goes smoothly before longer commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do annual with an option to extend at the same rate?",
+          "answer": "Yes, can lock in pricing with renewal option at current rate if renewed within 30 days of expiration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Update proposal with annual + renewal option",
+        "Confirm exec meeting prep"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 23,
+      "date": "2025-06-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with updated proposal showing annual contract at $40,200 with locked renewal pricing. Zoey confirmed exec meeting with Charlotte is on calendar and mentioned they're in final stages of decision.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting with Charlotte scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 24,
+      "date": "2025-06-14",
+      "type": "negotiation_call",
+      "duration_minutes": 32,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "32-minute negotiation call with Zoey. Discussed final contract terms, implementation timeline, and success criteria. Zoey mentioned legal is reviewing contract and Quinn from procurement will need to approve vendor setup. Reviewed migration plan from Fathom in detail.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What guarantees do we have around the Fathom migration timeline?",
+          "answer": "Migration SLA included in consulting package, guaranteed completion within 3 weeks or credit applied."
+        },
+        {
+          "by": "rep",
+          "question": "What's the timeline from signature to go-live?",
+          "answer": "Want to start implementation in 2 weeks, have reps trained and using the platform within 6 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we include a performance guarantee in the contract?",
+          "answer": "Yes, standard satisfaction guarantee with 30-day opt-out if platform doesn't meet technical requirements."
+        }
+      ],
+      "objections": [
+        "Legal has questions about data processing terms and liability caps"
+      ],
+      "next_steps": [
+        "Coordinate with legal on contract revisions",
+        "Confirm Charlotte meeting agenda"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 25,
+      "date": "2025-06-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Zoey Pham",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming contract revision requests from legal and confirming exec meeting with Charlotte has been rescheduled to next week. Zoey mentioned Charlotte had a conflict come up.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Exec meeting rescheduled",
+        "Legal contract revisions in progress"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 26,
+      "date": "2025-06-18",
+      "type": "exec_meeting",
+      "duration_minutes": 36,
+      "person_name": "Charlotte Klein",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "36-minute executive meeting with Charlotte Klein (COO), Zoey, and Henry. Discussed strategic vision for coaching standardization, ROI projections, change management plan, and comparison with Fathom. Charlotte focused on adoption risk and ensuring the team actually uses the platform. Reviewed success metrics and quarterly business review cadence.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your plan to ensure reps actually adopt this vs just sticking with Fathom?",
+          "answer": "Phased rollout with manager champions, gamification of coaching scores, and integration into existing workflows to minimize friction."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if we don't see the productivity gains you're projecting?",
+          "answer": "Quarterly business reviews to track metrics, satisfaction guarantee in contract, and consulting team can adjust coaching workflows based on results."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a strategic win for you beyond just better coaching?",
+          "answer": "Visibility into deal risk earlier, consistency across the revenue team, and data to inform hiring and training decisions."
+        }
+      ],
+      "objections": [
+        "Concerned about user adoption and change management with sales team already comfortable with Fathom"
+      ],
+      "next_steps": [
+        "Charlotte to review final proposal",
+        "Zoey to coordinate with Quinn on procurement",
+        "Finalize contract with legal"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

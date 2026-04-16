@@ -1,0 +1,261 @@
+{
+  "deal_id": "DEAL-0115",
+  "company": {
+    "name": "VelocityPrism",
+    "industry": "Marketing Agency",
+    "employee_count": 100,
+    "annual_revenue": 9021742,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4200.0,
+    "seats": 7,
+    "price_per_seat_monthly": 50.05,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 43.8,
+    "sales_cycle_days": 33,
+    "close_date": "2023-09-07",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Theo Kang",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-07-30",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Theo Kang at VelocityPrism expressing interest in improving their sales-to-CS handoff process. Initial inquiry submitted via website form.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-05",
+      "type": "qualification_call",
+      "duration_minutes": 8,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief qualification call with Theo to understand VelocityPrism's current pain points. Theo mentioned they're evaluating Gong as well. Confirmed team size of 7 users and interest in automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your search for a solution right now?",
+          "answer": "Our sales team keeps dropping context when deals move to customer success. We need better visibility."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Gong's conversation intelligence?",
+          "answer": "We focus specifically on handoff automation and workflow triggers, while Gong is broader conversation analytics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to dive deeper into workflows"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-10",
+      "type": "discovery_call",
+      "duration_minutes": 19,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on VelocityPrism's current handoff process and pain points. Theo shared that he recently joined as VP of Sales and is tasked with fixing broken processes. Discussed unlimited automation tier requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current sales-to-CS handoff process.",
+          "answer": "Honestly, it's pretty manual. Reps send a Slack message with deal notes, CS digs through Salesforce. Lots falls through the cracks."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline look like?",
+          "answer": "Typically 2-3 weeks for initial setup, then we iterate based on your workflows."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "I'm driving this decision. Our CEO trusts me to fix this problem."
+        }
+      ],
+      "objections": [
+        "Theo mentioned budget constraints given they're a 100-person agency"
+      ],
+      "next_steps": [
+        "Send demo video and pricing proposal",
+        "Schedule executive presentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with demo video showcasing handoff automation features and initial pricing proposal for 7 seats on unlimited automation tier. Theo responded positively and requested executive meeting to review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get pricing for annual vs quarterly payment?",
+          "answer": "Annual is $4,200 ACV, quarterly would be $1,260 per quarter. Annual saves about 10%."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-23",
+      "type": "exec_meeting",
+      "duration_minutes": 37,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Theo to present full proposal. Deep dive into unlimited automation capabilities and ROI calculation. Theo engaged throughout but mentioned Gong is offering competitive pricing. No other executives joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do your automation triggers work with Salesforce?",
+          "answer": "We have native Salesforce integration that listens to stage changes and field updates to trigger handoff workflows."
+        },
+        {
+          "by": "rep",
+          "question": "Where is Gong in your evaluation process?",
+          "answer": "They're still in the mix. Their pricing is aggressive but I like your handoff focus better."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of discount can you offer to make this work with our budget?",
+          "answer": "Let me talk to my manager about what we can do for a multi-year commitment."
+        }
+      ],
+      "objections": [
+        "Gong is offering a lower price point",
+        "Need to fit within limited budget allocated for this initiative"
+      ],
+      "next_steps": [
+        "Send revised pricing with discount options",
+        "Follow up on multi-year commitment possibility"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-09-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal email with 43.8% discount to meet VelocityPrism's budget constraints. Positioned as special pricing for annual commitment and early adopter of unlimited automation tier. Theo confirmed the pricing works and wants to schedule final review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule final contract review meeting"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-07",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Theo Kang",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Contract review meeting (originally rescheduled from earlier in week). Theo confirmed decision to move forward with discounted pricing. Discussed contract terms and implementation kickoff timeline. Still no other executives involved in final decision.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the onboarding process look like?",
+          "answer": "You'll get a dedicated implementation manager for the first 30 days, weekly check-ins, and custom workflow setup."
+        },
+        {
+          "by": "rep",
+          "question": "Should we loop in your CEO or CS leader before finalizing?",
+          "answer": "No need, I have authority to sign. Let's get the contract over."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation?",
+          "answer": "We can kick off within 3 business days of signed contract."
+        }
+      ],
+      "objections": [
+        "Requested net-60 payment terms instead of standard net-30"
+      ],
+      "next_steps": [
+        "Send final contract with agreed terms",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

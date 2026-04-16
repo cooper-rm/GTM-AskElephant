@@ -1,0 +1,338 @@
+{
+  "deal_id": "DEAL-0930",
+  "company": {
+    "name": "AtomStack",
+    "industry": "Healthcare IT",
+    "employee_count": 49,
+    "annual_revenue": 6901649,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4500.0,
+    "seats": 6,
+    "price_per_seat_monthly": 60.8,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 31.7,
+    "sales_cycle_days": 76,
+    "close_date": "2025-08-17",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fathom",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Amelia Torres",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 30
+    },
+    {
+      "name": "Hannah Yang",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-05-13",
+      "type": "cold_call",
+      "duration_minutes": 6,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial cold call with Amelia Torres (Director of Sales). Rep introduced AskElephant's AI call analysis platform. Amelia expressed interest in improving pipeline visibility and mentioned current challenges with manual note-taking across her sales team. Brief discussion of healthcare IT sales cycles. Agreed to follow-up email with use case details.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How is your team currently tracking and analyzing sales conversations?",
+          "answer": "We're mostly manual - reps take notes in Salesforce but it's inconsistent. Hard to get visibility into what's actually happening in deals."
+        },
+        {
+          "by": "prospect",
+          "question": "Does this work for healthcare compliance requirements?",
+          "answer": "Yes, we're SOC 2 Type II certified and HIPAA compliant for healthcare customers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up email with healthcare IT customer case studies",
+        "Share pricing overview for 6-seat team"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-06-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study from similar healthcare IT company and overview of pipeline visibility features. Amelia responded asking about integration with their Salesforce instance and requested a qualification call to discuss team needs in detail.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does the Salesforce integration work - is it real-time sync?",
+          "answer": "Yes, we sync call recordings, transcripts, and AI insights directly to opportunity and contact records in real-time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-06-10",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Amelia to understand AtomStack's sales process. Team of 6 AEs selling to hospital systems, avg deal cycle 4-6 months. Main pain point: lack of visibility into deal health and coaching opportunities. Amelia mentioned they're also looking at Fathom. Discussed unlimited automation tier for their workflow needs. Agreed to discovery call to map out technical requirements.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at conversation intelligence tools now?",
+          "answer": "Our VP wants better forecasting accuracy. Too many deals slip because we miss early warning signs in conversations."
+        },
+        {
+          "by": "rep",
+          "question": "You mentioned Fathom - what are you evaluating them on?",
+          "answer": "Mainly price point. They're cheaper but we're not sure if they have the analytics depth we need for pipeline management."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your platform identify specific healthcare buying signals in conversations?",
+          "answer": "Yes, we can create customTrackerIQ models trained on healthcare IT buying patterns and compliance discussion topics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule 30-min discovery call",
+        "Send competitive comparison with Fathom",
+        "Share sample dashboard for pipeline visibility use case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-06-23",
+      "type": "follow_up_call",
+      "duration_minutes": 24,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call diving into technical requirements and workflow. Amelia walked through their current sales process and pain points with deal visibility. Discussed TrackerIQ custom models for healthcare buying signals, Salesforce sync requirements, and team adoption concerns. Amelia noted budget approval needs to route through Hannah Yang (Sales Manager) for procurement. Some concern about implementation timeline given Q2 targets.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation and decision process?",
+          "answer": "Hannah Yang, our Sales Manager, handles procurement. She'll need to sign off on any new tools and pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline? We need this running by end of Q2.",
+          "answer": "Standard onboarding is 2 weeks including Salesforce integration, team training, and custom TrackerIQ setup."
+        },
+        {
+          "by": "prospect",
+          "question": "How does pricing scale if we add more seats later this year?",
+          "answer": "You can add seats anytime at prorated cost. Most customers on unlimited automation tier expand within 6 months."
+        }
+      ],
+      "objections": [
+        "Timeline is tight - we need to be fully live by June 30th"
+      ],
+      "next_steps": [
+        "Send technical eval access for Amelia to test with her team",
+        "Schedule intro call with Hannah Yang",
+        "Provide detailed implementation timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-07-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 10.5,
+      "rescheduled": false,
+      "ai_summary": "Email sent with technical evaluation access credentials and setup guide. Included implementation timeline breakdown showing 10-day go-live achievable for their June 30 target. Amelia confirmed she'll test with 2 AEs this week and loop in Hannah Yang for pricing discussion. Requested proposal call for early next week after initial testing.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Amelia to complete technical testing by end of week",
+        "Schedule proposal call including Hannah Yang"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-07-15",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical evaluation session with Amelia. Walked through live demo of TrackerIQ models, pipeline visibility dashboard, and Salesforce integration. Amelia tested call recording, transcript quality, and AI insights generation with sample healthcare IT sales calls. Positive feedback on analytics depth vs Fathom. Discussed custom dashboard configuration for their deal stages. Some questions about data retention and user permissions. Amelia confirmed this meets their needs and ready to move to proposal stage.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the dashboard to show risk signals specific to our deal stages?",
+          "answer": "Yes, we can configure custom risk indicators based on your qualification criteria, competitor mentions, and buying committee engagement."
+        },
+        {
+          "by": "rep",
+          "question": "How does this compare to what you've seen from Fathom so far?",
+          "answer": "Fathom is more basic - good for transcription but doesn't have the pipeline analytics layer we need. This is closer to what we're looking for."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy for call recordings and transcripts?",
+          "answer": "Unlimited retention on all plans. You can also configure auto-deletion rules if needed for compliance."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare formal proposal for 6 seats, unlimited automation tier",
+        "Schedule proposal review call with Amelia and Hannah Yang",
+        "Include Fathom comparison in proposal deck"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-07-27",
+      "type": "proposal_call",
+      "duration_minutes": 13,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call with Amelia to review pricing and package details. Presented 6-seat unlimited automation tier at list price. Amelia expressed concern about budget constraints and asked about discounting given they're comparing with Fathom's lower price point. Discussed ROI on pipeline visibility and forecast accuracy improvements. Amelia requested to bring Hannah Yang into pricing negotiation call. Agreed to follow-up negotiation discussion.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing? Fathom is coming in significantly lower for our team size.",
+          "answer": "Let me discuss with my manager. For 6 seats and unlimited automation, we can explore options to get closer to your budget."
+        },
+        {
+          "by": "rep",
+          "question": "What budget range were you planning for this investment?",
+          "answer": "We were hoping to stay under $5K annually. Fathom quoted us around $3K but we know it's not apples-to-apples on features."
+        }
+      ],
+      "objections": [
+        "Price point is higher than anticipated budget allocation"
+      ],
+      "next_steps": [
+        "Rep to discuss discount options internally",
+        "Schedule negotiation call with Amelia and Hannah Yang",
+        "Prepare ROI analysis showing pipeline visibility impact"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-06",
+      "type": "negotiation_call",
+      "duration_minutes": 25,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Scheduled negotiation call was rescheduled by Amelia - Hannah Yang had conflict. Brief conversation confirmed continued interest but need to align on budget approval process. Amelia mentioned Q2 budget needs to close soon. Rescheduled for two days out with Hannah confirmed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule negotiation call with both Amelia and Hannah"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-08-17",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Amelia Torres",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Amelia (Hannah Yang joined for budget portion). Rep proposed discounted rate bringing ACV to $4,500 for 6 seats unlimited automation tier to meet their budget constraints while staying competitive with Fathom. Amelia and Hannah discussed internal approval process - no executive sponsor mentioned, approval will route through Hannah's procurement workflow. Some concern about discount justification internally. Agreed on terms pending final procurement review. Hannah requested contract for legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include the implementation timeline commitment in the contract? We need the June 30 go-live guaranteed.",
+          "answer": "Yes, we'll add a go-live date commitment with implementation milestones in the SOW."
+        },
+        {
+          "by": "rep",
+          "question": "What's the approval process from here - who else needs to review?",
+          "answer": "Just legal review on our end, then I can sign. Should be quick, maybe a week turnaround."
+        }
+      ],
+      "objections": [
+        "Need to justify the discount internally for budget approval documentation"
+      ],
+      "next_steps": [
+        "Send contract with $4,500 ACV pricing and June 30 go-live commitment",
+        "Hannah to route through legal review",
+        "Target signature within 7 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

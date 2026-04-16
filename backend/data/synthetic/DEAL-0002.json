@@ -1,0 +1,491 @@
+{
+  "deal_id": "DEAL-0002",
+  "company": {
+    "name": "PeakOps",
+    "industry": "Healthcare IT",
+    "employee_count": 233,
+    "annual_revenue": 32132357,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 18500.0,
+    "seats": 20,
+    "price_per_seat_monthly": 73.78,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 17.1,
+    "sales_cycle_days": 60,
+    "close_date": "2024-12-28",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Sarah Jones",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 54
+    },
+    {
+      "name": "Megan Chen",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 57
+    },
+    {
+      "name": "Lauren Davis",
+      "role": "technical_evaluator",
+      "title": "Account Manager",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-10-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Sarah Jones from PeakOps submitted an inbound demo request through the website, expressing interest in automating their sales-to-CS handoff process. She mentioned current manual handoffs are causing delays and customer confusion.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Rep to send calendar invite for qualification call",
+        "Rep to send intro email with company overview"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-10-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent thanking Sarah for her interest and providing case studies of similar healthcare IT companies. Proposed times for an initial qualification call to understand PeakOps' current workflow challenges.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience with healthcare compliance requirements?",
+          "answer": "Yes, we work with several healthcare IT companies and maintain SOC 2 Type II and HIPAA compliance frameworks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sarah to confirm meeting time",
+        "Rep to prepare discovery questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-11-02",
+      "type": "qualification_call",
+      "duration_minutes": 17,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Sarah Jones to understand current sales-to-CS handoff process at PeakOps. Sarah described manual handoffs via shared spreadsheets causing 2-3 day delays and information loss. Team of 20 sales reps struggling with consistency. Budget authority sits with CRO Megan Chen. Timeline to implement is Q2.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take?",
+          "answer": "Standard implementation is 2-3 weeks with our automations package, though we can accelerate if needed."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current timeline for solving this problem?",
+          "answer": "We're hoping to have something in place by end of Q2. Our CS team is growing and the manual process won't scale."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sarah to introduce rep to Megan Chen",
+        "Rep to send discovery agenda for next call",
+        "Schedule deeper discovery session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-11-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Sent recap email summarizing qualification call findings and confirming PeakOps' key pain points: manual handoff delays, inconsistent information transfer, and scalability concerns. Attached discovery agenda covering current workflow mapping and technical requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Sarah to review agenda with team",
+        "Confirm discovery call attendees"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-11-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Email sent with discovery call preparation materials including workflow assessment template and technical environment questionnaire. Asked Sarah to complete brief survey about current tools and integration points before the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our Account Manager Lauren Davis in the discovery call? She'll be involved in evaluating the technical fit.",
+          "answer": "Absolutely, having Lauren involved will help us understand your technical requirements better."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sarah to complete pre-call survey",
+        "Lauren Davis to join discovery call",
+        "Rep to review technical requirements"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-11-17",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Sarah to map current workflow and identify automation opportunities. Discussed PeakOps' Salesforce setup, current handoff triggers, and information that needs to transfer to CS team. Sarah shared that inconsistent data is causing CS team to re-ask customers basic questions, damaging experience.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What CRM and customer success platforms are you currently using?",
+          "answer": "We're on Salesforce for CRM and recently adopted Gainsight for CS. The integration between them is minimal right now."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your solution integrate with both Salesforce and Gainsight?",
+          "answer": "Yes, we have native integrations with both platforms and can automate the full handoff workflow between them."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare demo focusing on Salesforce-Gainsight automation",
+        "Sarah to gather sample handoff scenarios",
+        "Schedule demo for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-11-22",
+      "type": "demo",
+      "duration_minutes": 21,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial demo walking through automated handoff workflows tailored to PeakOps' Salesforce-Gainsight environment. Showed how key deal data, customer context, and sales notes automatically transfer at deal close. Sarah particularly interested in custom field mapping and handoff notification features.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize which fields get transferred based on deal type?",
+          "answer": "Yes, you can create different handoff templates based on product, deal size, or any custom criteria you define."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond the basic handoff, are there other automation opportunities in your workflow?",
+          "answer": "Potentially around our QBR scheduling and renewal tracking, but handoff is the immediate priority."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo with Lauren Davis to review technical setup",
+        "Sarah to share specific custom fields for mapping",
+        "Rep to prepare technical architecture overview"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-11-25",
+      "type": "demo",
+      "duration_minutes": 39,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical deep-dive demo with Sarah and Lauren Davis covering implementation approach, field mapping configuration, and automation workflow builder. Reviewed data security, audit logging, and compliance features. Lauren asked detailed questions about API limits and error handling. Also discussed optional consulting package to help design optimal workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What happens if the automation fails mid-transfer? Is there a rollback or notification?",
+          "answer": "We have built-in error handling with automatic retry logic, plus real-time notifications to admins if manual intervention is needed."
+        },
+        {
+          "by": "prospect",
+          "question": "How much of the setup can we do ourselves versus needing your consulting team?",
+          "answer": "The platform is designed for self-service configuration, but our consulting package helps accelerate initial setup and ensures best practices from the start."
+        },
+        {
+          "by": "rep",
+          "question": "Would you want to start with consulting included or prefer to self-implement?",
+          "answer": "Given our timeline, having consulting support to get it right the first time makes sense. We don't have bandwidth to trial-and-error this."
+        }
+      ],
+      "objections": [
+        "Lauren noted concern about adding another vendor to their tech stack and wanted to understand ongoing maintenance requirements"
+      ],
+      "next_steps": [
+        "Rep to prepare proposal with automations plus consulting package",
+        "Include implementation timeline and support details",
+        "Sarah to loop in Megan Chen for proposal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-11-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Sent demo follow-up email with recording, technical FAQ document, and case study from similar healthcare IT company. Addressed Lauren's maintenance concerns by outlining managed service vs. self-managed options.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Sarah to review materials with Megan Chen",
+        "Rep to prepare formal proposal",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-12-03",
+      "type": "proposal_call",
+      "duration_minutes": 25,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Sarah presenting formal proposal for 20-seat license with automations plus consulting package. Walked through pricing at $18,500 ACV, implementation timeline of 3 weeks, and ROI calculation based on time saved. Sarah receptive to overall approach but needs to align with Megan Chen on budget before proceeding.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is the consulting a one-time fee or included in the annual contract?",
+          "answer": "The consulting setup is included in your first year. Ongoing support is covered under the standard package, with optional advanced consulting available as needed."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget approval process with Megan?",
+          "answer": "I'll need to present the business case to her. The price point is higher than I initially expected, so I want to make sure I have the ROI story clear."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send ROI calculator and business case template",
+        "Sarah to schedule review with Megan Chen",
+        "Follow up in 3 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-12-09",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion call with Sarah after she reviewed proposal with Megan. Sarah mentioned the budget was approved in principle but Megan asked about pricing flexibility given their growth stage. Discussed payment terms and explored annual vs. multi-year options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the price if we commit to a multi-year contract?",
+          "answer": "We can explore that. For a 2-year commitment, we could potentially offer 10% off the annual price."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the multi-year interest - budget planning or longer commitment preference?",
+          "answer": "Mostly budget predictability. Megan wants to lock in pricing and avoid renegotiation next year as we scale."
+        }
+      ],
+      "objections": [
+        "Sarah indicated Megan is price-sensitive and wondering if there's room for negotiation on the per-seat cost"
+      ],
+      "next_steps": [
+        "Rep to prepare revised proposal with multi-year options",
+        "Include payment term alternatives",
+        "Sarah to review with Megan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2024-12-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Sent revised proposal with three options: 1-year at $18,500, 2-year at $16,650/year, and alternative payment terms. Included additional ROI details showing breakeven within 4 months based on time savings for their 20-person team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Sarah to review options with Megan",
+        "Rep to follow up in 2 days",
+        "Prepare for potential final negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2024-12-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Check-in email with Sarah asking if she had a chance to review the revised proposal with Megan. Offered to jump on a quick call to answer any questions or adjust the proposal further if needed.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await Sarah's response",
+        "Prepare for pricing call if needed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2024-12-23",
+      "type": "pricing_call",
+      "duration_minutes": 21,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Sarah to align on contract terms. Sarah confirmed Megan approved the 1-year option at the proposed $18,500 ACV - they decided against multi-year to maintain flexibility as they're still scaling CS team. Discussed contract start date, onboarding kickoff, and signature process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once the contract is signed?",
+          "answer": "We can kick off within 3-5 business days after signature. Our implementation team will reach out to schedule the onboarding workshop."
+        },
+        {
+          "by": "rep",
+          "question": "What's your target date for having this live in production?",
+          "answer": "Ideally by mid-May so we're operational before our Q2 planning sessions. That gives us runway to optimize before Q3."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to send final contract for signature",
+        "Sarah to route to Megan for approval",
+        "Schedule implementation kickoff",
+        "Introduce customer success manager"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2024-12-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sarah Jones",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.1,
+      "rescheduled": false,
+      "ai_summary": "Sent final contract documents via DocuSign along with implementation welcome packet. Included onboarding checklist, implementation timeline, and introduction to assigned customer success manager and implementation consultant. Confirmed May 15 target go-live date.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Sarah and Megan to review and sign contract",
+        "Schedule kickoff call for week of contract signature",
+        "Rep to mark deal as closed-won upon signature"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 117,
+    "churn_reason": "product did not meet expectations"
+  }
+}

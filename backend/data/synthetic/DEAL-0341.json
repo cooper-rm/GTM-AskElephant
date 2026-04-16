@@ -1,0 +1,618 @@
+{
+  "deal_id": "DEAL-0341",
+  "company": {
+    "name": "CoastalExchange",
+    "industry": "Fintech",
+    "employee_count": 10000,
+    "annual_revenue": 1457205266,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 87900.0,
+    "seats": 57,
+    "price_per_seat_monthly": 130.27,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 71,
+    "close_date": "2025-10-12",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Ravi Ahmed",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Elena Khan",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 24
+    },
+    {
+      "name": "Reese Sun",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 10
+    },
+    {
+      "name": "Ade Hassan",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 15
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-07-27",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Ravi Ahmed (VP of Sales) at CoastalExchange expressing interest in conversation intelligence for sales-to-CS handoff workflows. Currently evaluating multiple vendors including Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support automated handoff workflows between sales and customer success teams?",
+          "answer": "Yes, our platform specializes in capturing sales context and automating the transition to CS teams with structured deal summaries and action items."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand current workflow pain points"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Shared initial onboarding materials and case study focused on fintech sales-to-CS handoff automation.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare discovery call agenda",
+        "Send calendar invite with prep questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-08-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.8,
+      "rescheduled": false,
+      "ai_summary": "Pre-discovery email with qualification questions about team size, current tools, and integration requirements. Ravi confirmed 57 sales reps and mentioned they're piloting Fathom with a subset of the team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the evaluation timeline?",
+          "answer": "We're rolling out a new CRM next quarter and want conversation intelligence integrated from day one."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Review Fathom comparison points before discovery"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-08-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.7,
+      "rescheduled": false,
+      "ai_summary": "Shared technical integration documentation for Salesforce and HubSpot. Ravi confirmed they use Salesforce and asked about API flexibility for custom CS handoff fields.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we map custom fields from calls directly into Salesforce opportunity records?",
+          "answer": "Yes, our Salesforce integration supports custom field mapping with bi-directional sync and workflow triggers."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call tomorrow at 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-08-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Day-before confirmation email with discovery agenda. Ravi confirmed attendance and mentioned bringing Elena Khan (COO) to the second half if timing permits.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Join discovery call prepared for executive presence"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-08-20",
+      "type": "discovery_call",
+      "duration_minutes": 32,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Ravi covering current state challenges. CoastalExchange loses critical deal context during sales-to-CS transitions, leading to 15% of new customers escalating in first 30 days. Currently using Gong for sales calls but no automated handoff. Fathom pilot shows promise but lacks enterprise workflow customization.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What specific information gets lost in the current handoff process?",
+          "answer": "Custom integration commitments, timeline expectations, and key stakeholder concerns. Our CS team often learns about these issues only when customers complain."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution handle multi-call deal cycles where context builds over weeks?",
+          "answer": "We maintain a persistent deal timeline that aggregates insights across all touchpoints and surfaces evolving themes, concerns, and commitments automatically."
+        },
+        {
+          "by": "rep",
+          "question": "What's the decision-making process and who else needs to be involved?",
+          "answer": "Elena Khan (COO) owns operational tooling decisions. Reese Sun (Sales Manager) handles procurement logistics. I'll champion internally but need Elena's approval on budget."
+        }
+      ],
+      "objections": [
+        "We're already testing Fathom and the team likes the interface. What makes your handoff automation better?"
+      ],
+      "next_steps": [
+        "Schedule technical deep-dive on handoff workflows",
+        "Prepare Fathom competitive comparison",
+        "Request intro to Elena Khan"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-08-20",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical discovery call focused on implementation requirements. Discussed API architecture, Salesforce field mappings, and custom workflow triggers. Ravi walked through their ideal state where CS receives structured deal summaries with risk flags and promised deliverables automatically.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a 57-seat deployment with custom Salesforce workflows?",
+          "answer": "Standard enterprise implementations take 3-4 weeks including custom field mapping, workflow configuration, and team training. We'd align with your Q3 CRM rollout."
+        },
+        {
+          "by": "rep",
+          "question": "Do you need dedicated implementation support or can your team self-serve configuration?",
+          "answer": "We'd prefer guided implementation. Our sales ops team is stretched thin with the CRM migration."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide implementation plan and timeline estimate",
+        "Schedule demo with CS team representative"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-08-25",
+      "type": "follow_up_call",
+      "duration_minutes": 16,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review implementation proposal and answer questions about pricing models. Ravi appreciated the consulting package but flagged budget constraints given Q3 CRM costs. Discussed phased rollout options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with core automation features and add consulting hours later if needed?",
+          "answer": "Yes, though our automations_plus_consulting bundle provides better ROI for complex implementations. We can structure payment across quarters if timing is the concern."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with phased options",
+        "Schedule demo for Elena Khan and CS leadership"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-09-02",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo scheduled for next week with expanded stakeholder group including Elena Khan (COO) and Ade Hassan (Implementation Lead). Shared demo agenda focused on sales-to-CS handoff workflow and live Salesforce integration preview.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo environment with CoastalExchange Salesforce field structure",
+        "Coordinate with SE team on technical Q&A"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-09-04",
+      "type": "technical_eval",
+      "duration_minutes": 31,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Ravi and Ade Hassan. Demonstrated live handoff workflow including call summarization, action item extraction, risk flagging, and Salesforce sync. Ade asked detailed questions about user permissions, data retention, and API rate limits. Team impressed by automation depth compared to Fathom's manual export approach.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you handle PII and sensitive customer data in call transcripts?",
+          "answer": "We offer configurable redaction for credit card numbers, SSNs, and custom patterns. Enterprise plans include SOC 2 compliance and regional data residency options."
+        },
+        {
+          "by": "prospect",
+          "question": "What happens if a rep manually edits a call summary before it syncs to Salesforce?",
+          "answer": "Reps can review and edit all AI-generated summaries before sync. We track edit history for audit purposes and use feedback to improve model accuracy."
+        },
+        {
+          "by": "rep",
+          "question": "What's your technical evaluation process from here?",
+          "answer": "Ade needs to validate API stability with our Salesforce sandbox. We'd also like to run a pilot with 5-10 reps before full rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide sandbox API credentials for technical testing",
+        "Draft pilot program proposal for 10-rep cohort"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-09-07",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Ravi and Elena Khan. Presented 57-seat licensing with automations_plus_consulting package at $87.9K ACV. Elena focused on ROI metrics and questioned whether consulting hours justify the premium over base automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the measurable ROI we should expect in year one?",
+          "answer": "Customers typically see 20-30% reduction in early-stage customer escalations and 10+ hours saved per CSM monthly through automated context capture. Based on your 15% escalation rate, we estimate $200K+ in retained revenue annually."
+        },
+        {
+          "by": "rep",
+          "question": "Does the timeline still align with your Q3 CRM rollout?",
+          "answer": "Yes, but we need to finalize vendor selection by end of month to stay on track. Fathom submitted their proposal last week."
+        }
+      ],
+      "objections": [
+        "The consulting package adds 40% to the base cost. Can you justify that investment for our use case?"
+      ],
+      "next_steps": [
+        "Provide detailed ROI model with CoastalExchange-specific assumptions",
+        "Schedule pricing discussion with finance stakeholder"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-09-10",
+      "type": "proposal_call",
+      "duration_minutes": 22,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second proposal call addressing Elena's ROI concerns. Walked through detailed cost-benefit analysis showing $240K potential savings from reduced escalations and CS efficiency gains. Elena acknowledged the math but raised concerns about implementation risk during CRM migration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What if the implementation takes longer than 4 weeks and delays our CRM go-live?",
+          "answer": "We guarantee on-time delivery with contractual penalties for delays. Our implementation team has executed 15+ concurrent CRM migrations without timeline slippage."
+        },
+        {
+          "by": "rep",
+          "question": "Is Reese Sun the right point of contact for contract and procurement next steps?",
+          "answer": "Yes, Reese handles all software procurement. Loop him in on the final proposal."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal to Reese Sun for procurement review",
+        "Provide implementation guarantee terms in contract"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-09-17",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal refinement call with Ravi and Reese Sun. Reese reviewed contract terms and flagged concerns about data retention policies and auto-renewal clauses. Discussed contract flexibility and requested redlines.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we negotiate the auto-renewal clause to require explicit opt-in rather than opt-out?",
+          "answer": "We can modify to 90-day notice requirement with written confirmation instead of automatic renewal."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for legal review?",
+          "answer": "Our legal team needs 5-7 business days. We're also waiting on final pricing from Fathom before making the final call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send redlined contract with updated renewal terms",
+        "Follow up on competitive evaluation status"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-09-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.4,
+      "rescheduled": false,
+      "ai_summary": "Email to Reese with updated contract addressing renewal clause and data retention concerns. Included side-by-side comparison with standard enterprise terms to demonstrate flexibility.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Wait for legal review completion",
+        "Prepare for potential pricing negotiation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-09-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 14.3,
+      "rescheduled": false,
+      "ai_summary": "Email from Ravi indicating they've received final pricing from Fathom and are entering internal decision phase. Requested best-and-final pricing by end of week. Tone suggests Fathom proposal is competitive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the $87.9K annual cost given we're comparing multiple vendors?",
+          "answer": "Let's schedule a call to discuss commercial terms and find a structure that works for both sides."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing negotiation call with Elena and Ravi",
+        "Prepare discount authority and concession strategy"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-09-29",
+      "type": "negotiation_call",
+      "duration_minutes": 22,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Ravi and Elena. They confirmed Fathom's proposal came in 25% lower but acknowledged our superior automation capabilities. Requested pricing concessions to close gap. Discussed multi-year commitment options and quarterly payment terms.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Would a two-year commitment unlock better pricing?",
+          "answer": "Yes, we can offer 15% discount on year one with a two-year lock, bringing ACV to $74.7K. That also guarantees pricing stability through 2028."
+        },
+        {
+          "by": "rep",
+          "question": "If we bridge the pricing gap, is CoastalExchange ready to move forward?",
+          "answer": "We need to review the two-year terms internally, but yes, competitive pricing would position you as the frontrunner."
+        }
+      ],
+      "objections": [
+        "Fathom's pricing is significantly lower and our CFO is pushing for cost optimization this quarter. We need to see movement on your side."
+      ],
+      "next_steps": [
+        "Send formal two-year proposal with revised pricing",
+        "Coordinate with Elena's office on decision timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-10-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.5,
+      "rescheduled": false,
+      "ai_summary": "Email with updated two-year proposal at $74.7K year-one ACV (15% discount). Emphasized ROI advantage and implementation guarantee to differentiate from Fathom. Requested feedback by end of week to maintain Q3 timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Follow up mid-week if no response",
+        "Prepare for potential additional discount requests"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-10-08",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing follow-up call with Ravi. He confirmed Elena and finance team are reviewing the two-year proposal. Expressed concern that 15% discount may not be enough to overcome Fathom's pricing advantage. Discussed consulting package as potential flex point.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What if we reduced consulting hours from 40 to 20 and kept the two-year commitment? What would that do to pricing?",
+          "answer": "Reducing to 20 consulting hours would bring year-one ACV to approximately $70K with the two-year discount. That's our floor without exec approval."
+        },
+        {
+          "by": "rep",
+          "question": "Is the 20-hour consulting package sufficient for your implementation complexity?",
+          "answer": "It's tight but workable if Ade's team can handle more configuration internally. We'd need strong documentation and support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Get approval for reduced consulting package at $70K ACV",
+        "Send revised proposal pending exec sign-off"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-10-10",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Ravi Ahmed",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing call with Ravi after internal alignment. Confirmed $70K year-one ACV with 20 consulting hours and two-year commitment meets budget requirements. Ravi committed to championing the deal internally with Elena and finance. Target signature date next week pending legal final review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Are there any remaining blockers on your side to close next week?",
+          "answer": "Just final legal sign-off on the contract redlines. Reese is coordinating with your team. Assuming no surprises, we're good to proceed."
+        },
+        {
+          "by": "prospect",
+          "question": "When would implementation kick off after signature?",
+          "answer": "We'd assign your implementation team within 48 hours and target go-live 4 weeks from contract start to align with your CRM rollout."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate with legal on final contract delivery",
+        "Prepare implementation kickoff materials",
+        "Schedule post-signature onboarding call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "deal_id": "DEAL-0731",
+  "company": {
+    "name": "OrbitChannel",
+    "industry": "EdTech",
+    "employee_count": 9066,
+    "annual_revenue": 1305741357,
+    "segment": "enterprise"
+  },
+  "deal": {
+    "amount": 91100.0,
+    "seats": 59,
+    "price_per_seat_monthly": 125.67,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 0,
+    "sales_cycle_days": 83,
+    "close_date": "2025-03-06",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Lily Reddy",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 50
+    },
+    {
+      "name": "Amanda Silva",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 12
+    },
+    {
+      "name": "Anika Singh",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 35
+    },
+    {
+      "name": "Aiden Oliveira",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 10
+    },
+    {
+      "name": "Mia Lee",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 8
+    },
+    {
+      "name": "Sofia Mehta",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 8
+    },
+    {
+      "name": "Chloe Khan",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 5
+    },
+    {
+      "name": "Ivy Bennett",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 1
+    },
+    {
+      "name": "Omar Phillips",
+      "role": "technical_evaluator",
+      "title": "Implementation Lead",
+      "tenure_months": 5
+    },
+    {
+      "name": "Layla Martin",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 3
+    },
+    {
+      "name": "Javier Young",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 8
+    },
+    {
+      "name": "Rachel Klein",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 26
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-11-23",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial outbound email sent to Lily Reddy introducing AskElephant's automation capabilities for CS team productivity. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-11-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up outbound email with specific EdTech customer success story. Lily responded expressing interest in learning more about rep productivity improvements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of time savings are your EdTech customers seeing?",
+          "answer": "Our EdTech customers typically see 15-20% improvement in rep productivity through automated workflows and intelligent routing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 10.2,
+      "rescheduled": false,
+      "ai_summary": "Email confirming qualification call scheduled. Lily confirmed her team's current pain points around manual processes and asked about implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does typical implementation take for a team our size?",
+          "answer": "For enterprise teams around 60 users, implementation typically takes 4-6 weeks including training and workflow customization."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-18",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Lily covering current CS workflow challenges at OrbitChannel. Discussed team size (considering ~59 seats), manual data entry burden, and lack of automation in customer communications.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for managing customer escalations?",
+          "answer": "Mostly manual triage through Slack and email - no automated routing or prioritization."
+        },
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with our existing CRM stack?",
+          "answer": "Yes, we have native integrations with major CRMs and can build custom connectors if needed."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send integration documentation",
+        "Schedule follow-up to discuss team structure"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-24",
+      "type": "qualification_call",
+      "duration_minutes": 15,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second qualification call diving into OrbitChannel's organizational structure and decision-making process. Lily identified Amanda Silva (CRO) as key exec sponsor and mentioned need to involve RevOps and Sales Management.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Amanda Silva our CRO will need to approve, plus our Sales Manager Aiden and RevOps team for technical evaluation."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the pricing model - per seat or usage-based?",
+          "answer": "We offer both options, but for enterprise teams we typically recommend per-seat annual contracts with tiered pricing based on features."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Intro to Amanda Silva",
+        "Move to discovery phase"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-12-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 4.1,
+      "rescheduled": false,
+      "ai_summary": "Email recap of qualification calls and proposal to move into discovery phase. Lily confirmed budget authority (~$90K range) and readiness to schedule deeper technical discovery.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share case studies from similar-sized EdTech companies?",
+          "answer": "Absolutely - sending over three case studies from EdTech customers with 50-100 seats showing productivity gains and ROI."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Share case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-01",
+      "type": "discovery_call",
+      "duration_minutes": 20,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on OrbitChannel's current tech stack, pain points with manual workflows, and specific use cases for automation. Discussed rep productivity goals and current metrics.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What metrics are you currently tracking for rep productivity?",
+          "answer": "We track response times, case resolution time, and customer satisfaction scores - all need improvement."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "Our CS team is scaling rapidly with student enrollment growth, but productivity hasn't kept pace - we're at a breaking point."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Deep dive on automation workflows",
+        "Technical architecture review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-07",
+      "type": "discovery_call",
+      "duration_minutes": 24,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended discovery session mapping out specific automation workflows for OrbitChannel's CS team. Lily walked through current processes and identified highest-impact areas for automation plus potential consulting needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer consulting services to help design the workflows, or just the platform?",
+          "answer": "We offer both - our automations_plus_consulting package includes dedicated workflow design and change management support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for implementing a solution?",
+          "answer": "Ideally we'd like to have something in place before next semester starts - roughly 3 months out."
+        },
+        {
+          "by": "prospect",
+          "question": "How do you handle data migration from our current systems?",
+          "answer": "Our implementation team handles all data migration as part of onboarding, including historical data mapping and validation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Aiden",
+        "Prepare workflow mockups"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sharing workflow mockups and coordinating technical evaluation with Aiden Oliveira (Sales Manager). Lily confirmed team is ready to move into demo/evaluation phase.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical eval with Aiden scheduled",
+        "Share technical documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-01-16",
+      "type": "technical_eval",
+      "duration_minutes": 43,
+      "person_name": "Aiden Oliveira",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Aiden Oliveira covering platform architecture, security requirements, API capabilities, and integration points with OrbitChannel's existing sales and CS tools.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data residency and compliance posture for EdTech customers?",
+          "answer": "We're SOC 2 Type II certified, GDPR compliant, and offer data residency options in US, EU, and APAC regions."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation logic or is it fixed workflows?",
+          "answer": "Fully customizable - you can build custom automation rules, triggers, and actions through our workflow builder."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for CS and sales operations?",
+          "answer": "We're on Salesforce for CRM, Zendesk for support, and have custom internal tools for student data management."
+        }
+      ],
+      "objections": [
+        "Need to ensure IT security review before we can commit to any data integration"
+      ],
+      "next_steps": [
+        "Loop in IT team for security review",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-01-23",
+      "type": "technical_eval",
+      "duration_minutes": 47,
+      "person_name": "Aiden Oliveira",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Second technical evaluation diving deeper into API documentation, security architecture, and implementation requirements. Aiden confirmed technical fit but emphasized need for IT and procurement involvement before moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What level of API access do we get for custom integrations?",
+          "answer": "Full REST API access with comprehensive documentation, webhooks, and SDKs for common languages."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle our data at rest and in transit?",
+          "answer": "AES-256 encryption at rest, TLS 1.3 in transit, with optional customer-managed encryption keys for enterprise plans."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any technical blockers or concerns from your side?",
+          "answer": "No major blockers - we'll need IT to review security docs and procurement to handle vendor onboarding process."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your uptime SLA and support model?",
+          "answer": "99.9% uptime SLA with 24/7 support for enterprise customers and dedicated CSM for onboarding and ongoing success."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Share security documentation with IT",
+        "Prepare proposal"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-01-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Email to Lily sharing preliminary proposal outline for automations_plus_consulting package at ~59 seats. Discussed pricing structure and confirmed exec sponsor (Amanda) should review before formal proposal.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Refine proposal based on feedback",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-02-03",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with refined proposal incorporating technical requirements from Aiden's evaluation. Lily requested minor adjustments to consulting scope and confirmed Amanda's availability for proposal review.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal call with Lily",
+        "Prepare for exec meeting with Amanda"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-02-08",
+      "type": "proposal_call",
+      "duration_minutes": 19,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Proposal review call with Lily was rescheduled due to urgent customer escalation on her end. Brief discussion confirmed continued interest but need to reschedule for later in the week.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Is the project timeline still on track despite the reschedule?",
+          "answer": "Yes, just a temporary fire drill - still aiming to finalize this quarter."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule proposal call",
+        "Continue preparing for exec review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-02-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Email confirming rescheduled proposal call and sharing updated proposal document with final pricing at $91,100 ACV for 59 seats with automations_plus_consulting package.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proposal call confirmed for next week",
+        "Amanda Silva exec meeting scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 16,
+      "date": "2025-02-18",
+      "type": "exec_meeting",
+      "duration_minutes": 41,
+      "person_name": "Amanda Silva",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Amanda Silva (CRO) covering strategic value, ROI projections, and business case for rep productivity investment. Amanda confirmed budget and strategic fit but noted procurement process requirements.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are we looking at in year one versus year two?",
+          "answer": "Based on your productivity goals, we're projecting 3-4x ROI in year one from time savings alone, increasing to 5-6x with full workflow optimization in year two."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision-making process and timeline from here?",
+          "answer": "We need to run this through procurement, get IT and legal sign-off, but assuming no issues we're targeting to close this quarter."
+        },
+        {
+          "by": "prospect",
+          "question": "Are there any budget constraints or approval hurdles we should be aware of?",
+          "answer": "Budget is approved at this level - main requirement is completing vendor onboarding and security review process."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Initiate procurement process",
+        "Coordinate IT/legal reviews"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 17,
+      "date": "2025-02-22",
+      "type": "pricing_call",
+      "duration_minutes": 16,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Pricing discussion call with Lily was rescheduled due to conflicting meeting with board. Brief conversation confirmed no major pricing concerns but Lily wanted to discuss payment terms and implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we discuss quarterly payment terms instead of annual upfront?",
+          "answer": "We can explore quarterly billing - typically comes with a small premium but happy to work out terms that fit your cash flow."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Reschedule pricing call",
+        "Prepare payment terms options"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 18,
+      "date": "2025-02-28",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with flexible payment terms options (annual vs quarterly) and updated contract draft. Lily confirmed procurement team (Mia, Layla, Javier, Ivy) is now engaged and reviewing vendor requirements.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Support procurement process",
+        "Schedule final negotiation call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 19,
+      "date": "2025-03-03",
+      "type": "negotiation_call",
+      "duration_minutes": 28,
+      "person_name": "Lily Reddy",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final negotiation call with Lily covering implementation timeline, payment terms, and contract details. Agreed on annual payment with net-30 terms, confirmed 59 seats, and set implementation kickoff for next month pending final signatures.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a clause for adding seats mid-contract if we scale faster than expected?",
+          "answer": "Absolutely - we'll include flexible seat expansion terms with pro-rated pricing for additional users."
+        },
+        {
+          "by": "rep",
+          "question": "What's needed from our side to finalize this week?",
+          "answer": "Just final legal review and signatures from Amanda and our CFO - procurement says we should have this wrapped by end of week."
+        },
+        {
+          "by": "prospect",
+          "question": "When can we start implementation once contract is signed?",
+          "answer": "We can kick off within 5 business days of signature - our implementation team is already briefed and ready to go."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Final legal/contract review",
+        "Prepare implementation kickoff plan",
+        "Target close by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

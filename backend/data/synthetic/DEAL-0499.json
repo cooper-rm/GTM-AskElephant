@@ -1,0 +1,151 @@
+{
+  "deal_id": "DEAL-0499",
+  "company": {
+    "name": "HelixSystems",
+    "industry": "PropTech",
+    "employee_count": 100,
+    "annual_revenue": 18180419,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6700.0,
+    "seats": 8,
+    "price_per_seat_monthly": 65.98,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.9,
+    "sales_cycle_days": 21,
+    "close_date": "2024-01-28",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Aria Pham",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 10
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aria Pham",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Aria Pham submitted an inbound demo request via website form. Mentioned current challenges with sales-to-CS handoff visibility and noted they're evaluating Gong as well. Expressed urgency to solve before Q2.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call",
+        "Send calendar invite for demo"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-08",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Pham",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming demo scheduled for next week. Aria responded asking if we integrate with their existing Salesforce setup and whether we can handle their 8-person sales team. Rep confirmed both and shared a one-pager on handoff automation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce?",
+          "answer": "Yes, native integration with real-time sync"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Conduct demo on scheduled date"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-18",
+      "type": "demo",
+      "duration_minutes": 20,
+      "person_name": "Aria Pham",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "20-minute product demo with Aria. Walked through sales-to-CS handoff workflow and unlimited automation tier. Aria engaged positively, asked about reporting capabilities and implementation timeline. Mentioned Gong offers similar features but hesitant on pricing. No other stakeholders joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide for handoff quality?",
+          "answer": "Custom dashboards tracking handoff completeness, response times, and CS adoption metrics"
+        },
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "2-3 weeks for standard Salesforce integration with 8 seats"
+        }
+      ],
+      "objections": [
+        "Gong also offers handoff tracking and we're comparing pricing"
+      ],
+      "next_steps": [
+        "Send proposal for 8 seats unlimited automation tier",
+        "Aria to review internally"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aria Pham",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 1.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with proposal sent. Aria responded requesting a 25% discount to match budget constraints, mentioning their VP of Sales can only approve up to $7k. Rep agreed to 25.9% discount to close at $6,700. Aria verbally committed pending paperwork review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you work with a $7k budget cap?",
+          "answer": "Applied 25.9% discount to bring ACV to $6,700"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated contract with discount applied",
+        "Aria to review and sign by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

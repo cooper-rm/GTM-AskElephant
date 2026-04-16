@@ -1,0 +1,176 @@
+{
+  "deal_id": "DEAL-0232",
+  "company": {
+    "name": "ArcForm",
+    "industry": "Fintech",
+    "employee_count": 55,
+    "annual_revenue": 7540122,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4300.0,
+    "seats": 6,
+    "price_per_seat_monthly": 63.98,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 28.1,
+    "sales_cycle_days": 20,
+    "close_date": "2025-04-30",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Asher Martinez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 60
+    },
+    {
+      "name": "Morgan Levy",
+      "role": "end_user",
+      "title": "Account Manager",
+      "tenure_months": 11
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-04-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Asher Martinez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound demo request from Asher Martinez at ArcForm. VP of Sales looking for call recording and coaching tools to improve team performance. Currently evaluating Gong but interested in exploring alternatives. Expressed urgency to improve rep ramp time.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our existing tech stack?",
+          "answer": "Yes, we have native Salesforce integration and work with most common sales tools including Outreach, SalesLoft, and HubSpot."
+        },
+        {
+          "by": "rep",
+          "question": "What's driving your search for a conversation intelligence platform right now?",
+          "answer": "Our sales team doubled last quarter and new reps are taking too long to ramp. We need better visibility into calls and a way to scale coaching across the team."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send calendar link for technical evaluation",
+        "Share case study on sales team onboarding"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-04-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Martinez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming technical evaluation scheduled for next week. Asher confirmed he'll bring Morgan Levy (AM who would use the tool daily) to the demo. Mentioned they're also talking to Gong but timeline is tight - wants to make a decision by end of month.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark ahead of the demo so we know if it's in our range?",
+          "answer": "Absolutely - for 6 seats with unlimited automation, we're typically in the $5-7K ACV range depending on features selected. Happy to discuss specifics after the demo when we understand your needs better."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Confirm demo attendees",
+        "Send agenda and preparation questions"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-04-19",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Asher Martinez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "54-minute technical evaluation with Asher and Morgan. Walked through call recording, AI coaching insights, and manager dashboards. Morgan very engaged - asked detailed questions about workflows and daily usage. Asher focused on ROI and implementation timeline. They're impressed with the coaching scorecards but concerned about price compared to Gong's offer. No exec sponsor identified yet - Asher mentioned he has budget authority but didn't bring CFO or CEO into conversation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take for a team our size?",
+          "answer": "For 6 seats, usually 1-2 weeks including integrations, user training, and initial setup. We provide dedicated onboarding support."
+        },
+        {
+          "by": "prospect",
+          "question": "Can managers create custom coaching scorecards or are they preset?",
+          "answer": "Fully customizable - you can build scorecards based on your specific sales methodology and update them as your process evolves."
+        },
+        {
+          "by": "rep",
+          "question": "Beyond Asher and Morgan, who else should be involved in evaluating this?",
+          "answer": "Honestly, I think we're good. I have budget approval for tools in this range and Morgan represents the end user perspective well."
+        }
+      ],
+      "objections": [
+        "Gong quoted us lower pricing - can you match or get closer to their number?"
+      ],
+      "next_steps": [
+        "Send custom proposal for 6 seats",
+        "Share implementation timeline document",
+        "Schedule follow-up to discuss pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-04-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Asher Martinez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 6.9,
+      "rescheduled": false,
+      "ai_summary": "Proposal follow-up email with revised pricing at $4,300 ACV (28% discount from standard rate) to match competitive pressure from Gong. Asher responded positively to the discount but mentioned he needs a few days to finalize internally. Asked for contract template to review terms. No mention of additional stakeholders or executive review - appears ready to move forward on his own authority.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your standard payment terms - annual upfront or can we do quarterly?",
+          "answer": "Standard is annual upfront, but we can accommodate quarterly billing with a small processing fee if that helps with your budgeting cycle."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send MSA and order form",
+        "Confirm decision timeline",
+        "Check in mid-week if no update"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "deal_id": "DEAL-0104",
+  "company": {
+    "name": "ForgePlatform",
+    "industry": "EdTech",
+    "employee_count": 47,
+    "annual_revenue": 3714252,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3600.0,
+    "seats": 6,
+    "price_per_seat_monthly": 49.88,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 44.0,
+    "sales_cycle_days": 13,
+    "close_date": "2024-03-27",
+    "use_case": "Sales-to-CS handoff",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Avery Tran",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 22
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-03-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Avery Tran",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.1,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Avery Tran at ForgePlatform requesting information about automating their sales-to-CS handoff process. Director of Sales mentioned current manual workflows causing delays in customer onboarding. Expressed interest in scheduling a discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions for automating handoffs between sales and customer success teams?",
+          "answer": "Yes, our unlimited automation tier is designed specifically for workflows like sales-to-CS handoffs with customizable triggers and data mapping."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process",
+        "Send overview deck on automation capabilities"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-03-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Avery Tran",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming qualification call scheduled for next week. Avery responded positively, shared that their current handoff process involves manual spreadsheet transfers and causes 2-3 day delays. Mentioned budget approval is straightforward for tools under $5k annually.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current timeline for implementing a solution?",
+          "answer": "Ideally within the next 6-8 weeks to address Q2 onboarding bottlenecks."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical evaluation environment",
+        "Share case study from similar EdTech customer"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-03-21",
+      "type": "technical_eval",
+      "duration_minutes": 53,
+      "person_name": "Avery Tran",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "53-minute technical evaluation call with Avery walking through their specific workflow requirements. Discussed mapping 12 key fields from Salesforce to their CS platform, notification triggers, and error handling. Avery tested the automation builder live and expressed strong interest. Mentioned needing to involve finance for final approval but felt confident about moving forward.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we set up conditional routing based on deal size or customer segment?",
+          "answer": "Absolutely, the unlimited tier includes advanced conditional logic and custom routing rules."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on handoff velocity and completion rates?",
+          "answer": "We have pre-built dashboards for handoff metrics plus custom report builder access."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your CS leadership or IT team for a technical deep dive?",
+          "answer": "I think we're good for now - I'll loop them in during implementation. I own this decision."
+        }
+      ],
+      "objections": [
+        "Initial pricing seems higher than expected - is there flexibility for a smaller team starting out?"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Provide ROI calculator based on their handoff volume"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-03-28",
+      "type": "exec_meeting",
+      "duration_minutes": 13,
+      "person_name": "Avery Tran",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "13-minute call to finalize terms. Avery requested significant discount citing budget constraints and asked to reduce from 10 seats to 6 to lower initial cost. Rep offered 44% discount to close deal quickly. Contract sent for signature. No other stakeholders joined the call despite it being labeled as 'exec meeting'.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with 6 seats and expand later if needed?",
+          "answer": "Yes, we can start at 6 seats and you can add more anytime with pro-rated billing."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Avery to review contract and return signed by end of week",
+        "Schedule kickoff call with implementation team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 111,
+    "churn_reason": "lost internal champion"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "deal_id": "DEAL-0920",
+  "company": {
+    "name": "CrimsonRelay",
+    "industry": "Fintech",
+    "employee_count": 424,
+    "annual_revenue": 52283614,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 15300.0,
+    "seats": 17,
+    "price_per_seat_monthly": 67.03,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 24.7,
+    "sales_cycle_days": 57,
+    "close_date": "2024-03-08",
+    "use_case": "Onboarding automation",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Omar Diaz",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 93
+    },
+    {
+      "name": "Isabella Miller",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 5
+    },
+    {
+      "name": "Aria Schmidt",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-01-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Omar Diaz at CrimsonRelay expressing interest in onboarding automation solutions. Brief initial contact established.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-01-12",
+      "type": "qualification_call",
+      "duration_minutes": 16,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Omar to understand CrimsonRelay's onboarding pain points. Currently manual process causing delays in customer activation. Evaluated Fireflies previously but found it lacking in workflow customization. 17-seat deployment anticipated for sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your need for onboarding automation right now?",
+          "answer": "We're scaling fast and our manual onboarding is creating bottlenecks. Takes 3-4 weeks to get new customers activated."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fireflies?",
+          "answer": "We're in a similar range but offer more customization for workflow automation, which is critical for your use case."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule technical evaluation with Aria Schmidt"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-01-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery questionnaire and proposed agenda for technical evaluation. Omar confirmed receipt and availability for next steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include our Sales Manager Aria in the technical eval?",
+          "answer": "Absolutely, she'll be key to understanding your workflow requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Complete discovery questionnaire",
+        "Confirm technical eval time with Aria"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-01-23",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 3.1,
+      "rescheduled": false,
+      "ai_summary": "Sent completed discovery questionnaire analysis and prep materials for upcoming technical evaluation. Highlighted key integration points with CrimsonRelay's existing tech stack.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation scheduled for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-01-28",
+      "type": "technical_eval",
+      "duration_minutes": 55,
+      "person_name": "Aria Schmidt",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Aria Schmidt focusing on workflow customization capabilities and API integrations. Detailed walkthrough of automation builder and comparison with Fireflies limitations. Aria concerned about implementation timeline and IT approval process with Isabella Miller.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a deployment like ours?",
+          "answer": "Usually 2-3 weeks for 17 seats with basic workflow setup, up to 4 weeks with custom integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your workflow automation compare to what Fireflies offers?",
+          "answer": "Fireflies focuses on transcription, while we provide end-to-end workflow orchestration with conditional logic and custom triggers."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation process?",
+          "answer": "Isabella Miller from IT will need to review security and procurement, but Omar has budget authority for this."
+        }
+      ],
+      "objections": [
+        "Need to ensure IT security review doesn't delay timeline"
+      ],
+      "next_steps": [
+        "Schedule broader demo with Omar",
+        "Introduce Isabella Miller for IT review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-02-05",
+      "type": "demo",
+      "duration_minutes": 51,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Demo with Omar covering full platform capabilities and ROI projections for CrimsonRelay's onboarding workflow. Showcased automation templates and discussed consulting package options. Omar enthusiastic but mentioned budget constraints and need to move quickly before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include beyond the software?",
+          "answer": "10 hours of workflow design consultation, custom template development, and dedicated onboarding support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We need to have this in place by end of next month. Budget closes soon."
+        },
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on pricing given our timeline constraints?",
+          "answer": "Let me work up a proposal that balances your budget and timeline needs."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Fireflies, need to justify the premium"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Loop in Isabella for security review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-02-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal with $15,300 ACV pricing for 17 seats with automations plus consulting package. Included ROI calculator and implementation timeline. Omar reviewing with team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get Isabella looped in for the security review in parallel?",
+          "answer": "Yes, I'll send her our security documentation directly."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule proposal review meeting",
+        "Security review with Isabella"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-02-19",
+      "type": "exec_meeting",
+      "duration_minutes": 35,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review meeting with Omar. Discussed pricing structure and consulting deliverables. Omar expressed concern about getting executive sign-off given current budget pressures. No VP or C-level engagement yet. Isabella still reviewing security docs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your best pricing if we commit this week?",
+          "answer": "I can work with my team on some flexibility, but we need to understand your budget constraints."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to approve this purchase on your end?",
+          "answer": "It's within my authority, but given the amount I want to make sure the team is aligned."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we reduce the consulting hours to bring the price down?",
+          "answer": "Let's explore that. We could offer a lighter consulting package."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Revise proposal with pricing scenarios",
+        "Follow up on Isabella's security review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-02-23",
+      "type": "negotiation_call",
+      "duration_minutes": 23,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call focused on pricing flexibility. Omar pushing for significant discount to match closer to Fireflies pricing. Discussed reducing consulting hours and exploring annual vs multi-year options. Isabella approved security review but no exec sponsor engaged in deal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the absolute lowest you can go on this?",
+          "answer": "I can potentially offer a 20-25% discount if we can close this quarter, but I need to get approval."
+        },
+        {
+          "by": "rep",
+          "question": "Is there an executive sponsor who should be part of this conversation?",
+          "answer": "I'm driving this, but I'll keep leadership informed as we finalize."
+        }
+      ],
+      "objections": [
+        "Fireflies is coming in significantly lower, need to justify the premium"
+      ],
+      "next_steps": [
+        "Get discount approval from leadership",
+        "Send revised pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2024-03-01",
+      "type": "pricing_call",
+      "duration_minutes": 17,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing call to present revised offer at 24.7% discount ($15,300 ACV). Omar appreciative of the flexibility but still comparing against Fireflies final offer. Discussed implementation timeline and consulting scope reduction to justify pricing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we move forward, when can we start implementation?",
+          "answer": "We can kick off within 5 business days of contract signature."
+        },
+        {
+          "by": "rep",
+          "question": "What would help you make a final decision between us and Fireflies?",
+          "answer": "Honestly, it's coming down to price and the value of the consulting package. I need to review with the team one more time."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Omar to review with team",
+        "Final decision expected within 48 hours"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2024-03-06",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Omar Diaz",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final review meeting with Omar to address any remaining questions before decision. Walked through implementation plan, consulting deliverables, and success metrics. Omar confirmed the pricing works and expressed intent to move forward pending final internal alignment. No VP or executive joined the call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we add additional seats mid-contract if we need to scale?",
+          "answer": "Yes, we can add seats at prorated pricing anytime during the contract term."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else blocking us from moving forward?",
+          "answer": "No blockers, just need to finalize internally and we should be good to go."
+        },
+        {
+          "by": "prospect",
+          "question": "What does support look like during the consulting phase?",
+          "answer": "You'll have a dedicated consultant plus access to our support team throughout implementation."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract",
+        "Omar to complete internal sign-off",
+        "Target signature by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

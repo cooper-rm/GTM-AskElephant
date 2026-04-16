@@ -1,0 +1,324 @@
+{
+  "deal_id": "DEAL-0552",
+  "company": {
+    "name": "ClearCube",
+    "industry": "eCommerce",
+    "employee_count": 82,
+    "annual_revenue": 7133786,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3100.0,
+    "seats": 4,
+    "price_per_seat_monthly": 66.38,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 25.4,
+    "sales_cycle_days": 45,
+    "close_date": "2025-01-26",
+    "use_case": "Pipeline visibility",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "website_chat"
+  },
+  "people": [
+    {
+      "name": "Hiroshi Hassan",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 19
+    },
+    {
+      "name": "Kevin Collins",
+      "role": "technical_evaluator",
+      "title": "RevOps Analyst",
+      "tenure_months": 4
+    },
+    {
+      "name": "Jordan Taylor",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 53
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-09",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Hiroshi Hassan at ClearCube expressing interest in improving pipeline visibility for their sales team. Mentioned they're currently evaluating alternatives including Gong.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "website_chat",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-12",
+      "type": "qualification_call",
+      "duration_minutes": 24,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Hiroshi Hassan (VP of Sales). Discussed ClearCube's need for better pipeline visibility across their 82-person team. Hiroshi confirmed they're looking at 4 seats initially for the sales leadership team. He mentioned Gong is in consideration but expressed concerns about their pricing model. Timeline is relatively flexible but wants to have solution in place within 60 days.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for pipeline visibility right now?",
+          "answer": "Our sales team has grown quickly and we're losing visibility into deal health and rep performance"
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the evaluation?",
+          "answer": "Kevin Collins from RevOps will handle technical evaluation, and Jordan Taylor manages the day-to-day sales team"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your automation tier compare to what Gong offers?",
+          "answer": "Our unlimited automation includes automated deal scoring, follow-up recommendations, and pipeline forecasting without usage caps"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send follow-up with pricing context",
+        "Schedule discovery deep-dive"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 19.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Hiroshi with unlimited_automation tier details and preliminary pricing framework for 4 seats. Included case study from similar eCommerce company. Hiroshi responded positively and confirmed availability for deeper discovery call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share more details on the pipeline forecasting accuracy?",
+          "answer": "Included benchmark data showing 15-20% improvement in forecast accuracy for customers in first 90 days"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-24",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Hiroshi to map out specific use cases. Discussed their current manual process for tracking pipeline and how unlimited automation tier would address their needs. Hiroshi emphasized importance of ease of use for the sales managers. He mentioned Gong again in context of feature comparison but seemed open to our approach.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for identifying at-risk deals?",
+          "answer": "Mostly manual review in weekly pipeline meetings - very time consuming"
+        },
+        {
+          "by": "prospect",
+          "question": "Does your solution integrate with our CRM setup?",
+          "answer": "Yes, we have native integrations with all major CRMs including what you're using"
+        }
+      ],
+      "objections": [
+        "Want to make sure the learning curve isn't too steep for the sales managers"
+      ],
+      "next_steps": [
+        "Loop in Kevin Collins for technical evaluation",
+        "Share integration documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-12-31",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.2,
+      "rescheduled": false,
+      "ai_summary": "Email introduction to Kevin Collins (RevOps Analyst) with technical documentation, integration specs, and scheduling link for technical evaluation session. Kevin confirmed interest and scheduled eval call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation call with Kevin"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-01-06",
+      "type": "technical_eval",
+      "duration_minutes": 33,
+      "person_name": "Kevin Collins",
+      "person_role": "technical_evaluator",
+      "person_title": "RevOps Analyst",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Kevin Collins. Walked through API integrations, data security protocols, and implementation timeline. Kevin raised detailed questions about data handling and asked about customization options for their specific workflow. He expressed concerns about implementation lift given their small RevOps team. Mentioned that Gong's implementation seemed more turnkey but acknowledged our automation capabilities are stronger.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a company our size?",
+          "answer": "Usually 2-3 weeks for initial setup, then 1-2 weeks for customization and training"
+        },
+        {
+          "by": "prospect",
+          "question": "How much ongoing maintenance does your system require?",
+          "answer": "Minimal after initial setup - most updates are automatic and our support team handles optimization"
+        },
+        {
+          "by": "rep",
+          "question": "What's your team's bandwidth for implementation support?",
+          "answer": "Pretty limited - it's essentially just me handling RevOps right now"
+        }
+      ],
+      "objections": [
+        "Concerned about implementation complexity with limited internal resources"
+      ],
+      "next_steps": [
+        "Send implementation support plan details",
+        "Schedule proposal discussion with Hiroshi"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-01-12",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 1.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Hiroshi summarizing Kevin's technical eval and addressing implementation concerns. Proposed formal quote at $3,100 ACV for 4 seats with enhanced implementation support. Hiroshi responded asking for more flexibility on pricing given budget constraints and competitive options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the pricing given our initial seat count?",
+          "answer": "Let's discuss options on our next call - there may be room for adjustment"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Negotiation call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-01-20",
+      "type": "negotiation_call",
+      "duration_minutes": 33,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Negotiation call with Hiroshi - originally scheduled but rescheduled by prospect due to conflict. Brief conversation confirmed continued interest but Hiroshi mentioned they're still weighing the Gong proposal and need to align internally on budget allocation.",
+      "questions_asked": [],
+      "objections": [
+        "Need to stay within approved budget range",
+        "Gong's pricing is coming in lower than expected"
+      ],
+      "next_steps": [
+        "Reschedule for later in week"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-01-26",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Hiroshi Hassan",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Rescheduled negotiation call with Hiroshi. Discussed pricing flexibility and landed on $3,100 ACV with 25.4% discount to match budget constraints. Hiroshi appreciated the accommodation but mentioned he still needs to get final sign-off. Notable that no executive sponsor has been engaged in the process. Hiroshi committed to circulating proposal internally but timeline for decision remains unclear.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to approve this before we can move forward?",
+          "answer": "I have authority up to this amount but want to make sure Jordan and the team are aligned"
+        },
+        {
+          "by": "prospect",
+          "question": "Can you hold this pricing if we need another week to finalize?",
+          "answer": "Yes, we can hold this proposal for two weeks"
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a quick alignment call with your CFO or CEO?",
+          "answer": "Probably not necessary at this level, but I'll let you know if that changes"
+        }
+      ],
+      "objections": [
+        "The discount helps but we're still comparing total cost of ownership with Gong"
+      ],
+      "next_steps": [
+        "Hiroshi to review internally with Jordan",
+        "Follow up in 3-5 days"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

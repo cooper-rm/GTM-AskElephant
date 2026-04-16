@@ -1,0 +1,249 @@
+{
+  "deal_id": "DEAL-0243",
+  "company": {
+    "name": "QuasarCore",
+    "industry": "Fintech",
+    "employee_count": 96,
+    "annual_revenue": 12525239,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 5500.0,
+    "seats": 8,
+    "price_per_seat_monthly": 59.74,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.9,
+    "sales_cycle_days": 20,
+    "close_date": "2023-11-10",
+    "use_case": "Pipeline visibility",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Morgan Lewis",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 46
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-10-16",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.8,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Morgan Lewis at QuasarCore (fintech, 96 employees) seeking pipeline visibility solution for their sales team. Expressed interest in automating forecast accuracy and deal tracking. Mentioned currently evaluating Clari as well.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-10-21",
+      "type": "qualification_call",
+      "duration_minutes": 14,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Morgan (VP of Sales). QuasarCore needs better pipeline visibility across 8 reps. Current process is manual spreadsheets causing forecast inaccuracy. Morgan owns sales ops but noted final approval would need to involve leadership. Budget discussed around $6-8k range.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for pipeline visibility right now?",
+          "answer": "We're missing forecast by 20-30% each quarter and leadership is pushing for better predictability"
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform handle Salesforce integration?",
+          "answer": "Native bi-directional sync, updates in real-time without manual data entry"
+        },
+        {
+          "by": "rep",
+          "question": "Who else will be involved in the decision process?",
+          "answer": "I'll be driving this, but will need to get sign-off from our CFO closer to the end"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Morgan to audit current pipeline data quality",
+        "Schedule discovery call next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-10-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 0.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with ROI calculator and case study from similar fintech company. Morgan responded confirming data audit complete and ready to move forward with deeper evaluation. Mentioned Clari demo scheduled for next week as well.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share pricing ballpark before we invest time in a technical eval?",
+          "answer": "Typically $8-12k for 8 seats with unlimited automation, happy to discuss specifics on next call"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-31",
+      "type": "technical_eval",
+      "duration_minutes": 34,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Morgan and two sales reps. Walked through pipeline setup, forecast algorithms, and automation workflows. Team engaged positively with the interface. Morgan asked detailed questions about reporting customization and data accuracy metrics. Noted they're comparing closely with Clari and need to make decision within two weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How customizable are the forecast models - can we weight different deal attributes?",
+          "answer": "Fully configurable weighting system, can adjust based on your historical win patterns"
+        },
+        {
+          "by": "rep",
+          "question": "What metrics are most important for your forecast accuracy tracking?",
+          "answer": "Stage conversion rates and time-in-stage primarily, plus rep-level accuracy scores"
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "2-3 weeks for full deployment with your data volumes"
+        },
+        {
+          "by": "prospect",
+          "question": "Does Clari offer similar forecast customization?",
+          "answer": "They have preset models but less granular control from what other customers have shared"
+        }
+      ],
+      "objections": [
+        "Morgan mentioned budget may be tighter than initially discussed, asked if there's flexibility under $6k"
+      ],
+      "next_steps": [
+        "Morgan to review with team",
+        "Schedule proposal call to discuss commercials"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-11-05",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal call focused on commercial terms. Presented standard pricing at $8,200 for 8 seats with unlimited automation. Morgan pushed back on budget constraints, mentioned Clari came in lower. Discussed value alignment but noted they need to stay under $6k to avoid additional approval layers. Agreed to explore creative packaging.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What would pricing look like if we started with 6 seats and added later?",
+          "answer": "Could do $6,900 for 6 seats, but per-seat costs go up and you'd lose volume discount"
+        },
+        {
+          "by": "rep",
+          "question": "Is the $6k a hard ceiling or is there flexibility if we can show clear ROI?",
+          "answer": "Pretty hard without getting CFO involved earlier, which I'd prefer to avoid right now"
+        }
+      ],
+      "objections": [
+        "Clari quoted around $5,500 for similar setup",
+        "Morgan mentioned team is questioning if automation features justify premium over competitor"
+      ],
+      "next_steps": [
+        "Rep to check with leadership on discounted pricing",
+        "Morgan to confirm seat count and timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-11-08",
+      "type": "pricing_call",
+      "duration_minutes": 35,
+      "person_name": "Morgan Lewis",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call. Presented revised proposal at $5,500 for 8 seats (32.9% discount) to match Clari's offer and close within Morgan's budget authority. Morgan appreciated the flexibility and confirmed this works within their constraints. Discussed implementation timeline starting next month. Morgan will circulate paperwork internally but expects smooth approval since it's within their spending limit.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked for renewals or does it adjust year two?",
+          "answer": "This is your locked rate, renewals would be at standard 5% annual increase"
+        },
+        {
+          "by": "rep",
+          "question": "Can you commit to a start date so we can lock in implementation resources?",
+          "answer": "May 1st works well, gives us time to prep data and get contracts through finance"
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in implementation support?",
+          "answer": "Dedicated onboarding specialist, data migration assistance, and 4 weeks of daily check-ins"
+        },
+        {
+          "by": "rep",
+          "question": "Will you need to loop in your CFO for final signature even at this price point?",
+          "answer": "No, this is within my approval authority - I'll handle internally and get it executed"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract for Morgan's review",
+        "Schedule implementation kickoff for May 1st"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

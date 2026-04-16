@@ -1,0 +1,347 @@
+{
+  "deal_id": "DEAL-0167",
+  "company": {
+    "name": "GalacticDigital",
+    "industry": "SaaS/Tech",
+    "employee_count": 34,
+    "annual_revenue": 4206651,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7100.0,
+    "seats": 8,
+    "price_per_seat_monthly": 76.31,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 14.3,
+    "sales_cycle_days": 58,
+    "close_date": "2024-09-28",
+    "use_case": "CRM automation",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Sebastian Shah",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 80
+    },
+    {
+      "name": "Cameron Katz",
+      "role": "technical_evaluator",
+      "title": "IT Director",
+      "tenure_months": 13
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-28",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Sebastian Shah at GalacticDigital expressing interest in CRM automation capabilities. Initial contact established, brief overview of needs provided.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call to understand current process and requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-08-02",
+      "type": "qualification_call",
+      "duration_minutes": 5,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Sebastian (Head of RevOps). Discussed current CRM pain points with manual workflow automation. GalacticDigital is evaluating options including Clari. Sebastian owns the evaluation but mentioned IT will need to be involved for technical review.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for CRM automation now?",
+          "answer": "Revenue operations team spending 15+ hours weekly on manual data entry and reporting. Need to scale without headcount."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to per-workflow pricing?",
+          "answer": "Our unlimited tier provides flat-rate access to all automation features, versus competitors who charge per workflow or automation rule."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery questionnaire",
+        "Schedule deeper discovery session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-08-09",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 7.0,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery questions and use case examples. Sebastian responded confirming interest in proceeding and requesting technical evaluation with IT team.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we get Cameron from IT involved in the next session?",
+          "answer": "Absolutely, we'll schedule a technical evaluation focused on integration architecture and security."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Cameron Katz",
+        "Prepare integration documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-08-18",
+      "type": "technical_eval",
+      "duration_minutes": 28,
+      "person_name": "Cameron Katz",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Cameron Katz (IT Director). Covered API capabilities, security protocols, and integration with existing stack. Cameron asked detailed questions about data handling and compliance. Positive technical alignment but noted they're also evaluating Clari's technical architecture.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where are servers located?",
+          "answer": "Data retained per customer SLA (default 7 years), servers in US-East and EU regions with SOC2 Type II compliance."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the API rate limiting work for high-volume automation?",
+          "answer": "Enterprise tier includes 10K requests/hour with burst capacity, unlimited tier removes rate limits entirely."
+        },
+        {
+          "by": "rep",
+          "question": "What integrations are critical for your current workflow?",
+          "answer": "Salesforce, HubSpot sync, Slack notifications, and our custom reporting warehouse on Snowflake."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Provide technical documentation on Snowflake connector",
+        "Schedule follow-up technical session"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-26",
+      "type": "technical_eval",
+      "duration_minutes": 50,
+      "person_name": "Cameron Katz",
+      "person_role": "technical_evaluator",
+      "person_title": "IT Director",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended technical deep-dive with Cameron. Reviewed Snowflake integration architecture, authentication flows, and automation rule builder. Cameron tested sandbox environment and validated core use cases. Mentioned Clari's pricing came in higher but wants to compare final proposals before recommending.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the automation logic or are we limited to pre-built templates?",
+          "answer": "Full flexibility\u2014visual rule builder for common patterns, plus JavaScript SDK for custom logic."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the migration process from our current manual workflows?",
+          "answer": "We provide a dedicated onboarding engineer for 30 days to build initial automations and train your team."
+        },
+        {
+          "by": "rep",
+          "question": "Any technical blockers or concerns from what you've seen?",
+          "answer": "No blockers. Architecture looks solid. Main decision will come down to pricing and business case alignment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Cameron to brief Sebastian on technical evaluation",
+        "Prepare formal proposal for business review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-09-02",
+      "type": "proposal_call",
+      "duration_minutes": 20,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal presentation with Sebastian. Walked through ROI model based on time savings (15 hrs/week at $65/hr fully loaded = $50K annual savings). Proposed 8-seat unlimited automation plan at $7,100 ACV. Sebastian receptive but wants to review internally before finalizing. No executive sponsor mentioned in approval chain.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's included in the onboarding package?",
+          "answer": "30-day dedicated engineer, quarterly business reviews, 24/7 support, and access to automation template library."
+        },
+        {
+          "by": "rep",
+          "question": "What's your internal approval process look like?",
+          "answer": "I'll review with finance and Cameron, then we can move forward. Budget is already allocated for this initiative."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Sebastian to review proposal internally",
+        "Schedule pricing discussion for early next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-09-09",
+      "type": "pricing_call",
+      "duration_minutes": 11,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing-focused call with Sebastian. Discussed budget alignment and contract terms. Sebastian mentioned Clari came in at $8,500 but prefers our product fit. Asked about discount options given competitive situation. Agreed to explore multi-year pricing to reduce Year 1 cost.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do a smaller seat count to start and expand later?",
+          "answer": "8 seats is our minimum for the unlimited tier, but we can structure expansion pricing into the agreement."
+        },
+        {
+          "by": "prospect",
+          "question": "What does a multi-year commitment look like for pricing?",
+          "answer": "2-year agreement includes 12% discount, 3-year includes 18%. Annual payment gets additional 5%."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter, need to sharpen pricing to close by month-end"
+      ],
+      "next_steps": [
+        "Send revised proposal with multi-year options",
+        "Schedule final negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-09-19",
+      "type": "negotiation_call",
+      "duration_minutes": 15,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Sebastian. Discussed 2-year vs 3-year terms. Sebastian pushing for 15% discount on 2-year to match budget constraints. Explained discount structure tied to commitment length and payment terms. Sebastian will need to validate final numbers before signing.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we do annual pre-pay on a 2-year deal, can we get to 15% total?",
+          "answer": "We can do 12% multi-year + 5% pre-pay = 17% effective discount, which brings it to $5,893 annually."
+        },
+        {
+          "by": "rep",
+          "question": "Does this pricing work within your approved budget?",
+          "answer": "It's close. I need to run it by finance one more time, but this should work."
+        }
+      ],
+      "objections": [
+        "Need to stay under $6K annually to fit Q2 budget allocation"
+      ],
+      "next_steps": [
+        "Send updated 2-year pre-pay proposal",
+        "Sebastian to confirm with finance by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-30",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Sebastian Shah",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Extended negotiation call with Sebastian. Walked through final contract terms, implementation timeline, and success metrics. Sebastian confirmed finance approved $5,893 annual pricing on 2-year pre-pay. Discussed ROI tracking and quarterly check-ins. Contract sent for signature, pending legal review on their end.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if we're not seeing ROI after year one?",
+          "answer": "2-year commitment is firm, but we include performance guarantees\u2014if automation goals aren't met in 90 days, we'll extend onboarding support at no cost."
+        },
+        {
+          "by": "rep",
+          "question": "Who on your side will be reviewing the contract for legal approval?",
+          "answer": "Our COO handles vendor contracts for this range. Should have feedback within a week."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything else we need to address before you're ready to sign?",
+          "answer": "No, I think we're aligned. Just need legal sign-off and we're good to go."
+        }
+      ],
+      "objections": [
+        "Want to make sure we have an out if this doesn't deliver the promised time savings"
+      ],
+      "next_steps": [
+        "Legal review on GalacticDigital side",
+        "Follow up in 3-5 days on contract status",
+        "Prepare onboarding kickoff materials"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "deal_id": "DEAL-0829",
+  "company": {
+    "name": "CentralHub",
+    "industry": "Professional Services",
+    "employee_count": 56,
+    "annual_revenue": 7970533,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4800.0,
+    "seats": 7,
+    "price_per_seat_monthly": 52.57,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 40.9,
+    "sales_cycle_days": 13,
+    "close_date": "2025-12-01",
+    "use_case": "Rep productivity",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Harper Doyle",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 17
+    },
+    {
+      "name": "Alex Levy",
+      "role": "exec_sponsor",
+      "title": "COO",
+      "tenure_months": 20
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-11-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Harper Doyle",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 3.6,
+      "rescheduled": false,
+      "ai_summary": "Harper Doyle submitted an inbound demo request via website form, expressing interest in improving rep productivity and automating manual workflows across their Professional Services team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "AE to send calendar invite for qualification call",
+        "Send product overview deck"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-11-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Harper Doyle",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent to Harper confirming receipt of demo request and proposing times for initial qualification call. Harper responded within 2 hours accepting the Thursday 2pm slot.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you support integrations with Salesforce and our existing ticketing system?",
+          "answer": "Yes, we have native Salesforce integration and can connect to most ticketing platforms via API or Zapier."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Qualification call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-11-22",
+      "type": "follow_up_call",
+      "duration_minutes": 5,
+      "person_name": "Harper Doyle",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief discovery call with Harper to understand current rep workflows and pain points. Harper described challenges with manual data entry eating into billable hours and mentioned their team of 7 client-facing professionals who would benefit from automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What does your current process look like for managing client touchpoints and follow-ups?",
+          "answer": "Mostly manual - reps use spreadsheets and Salesforce but there's a lot of duplicate data entry. We're losing probably 5-6 hours per rep per week."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline?",
+          "answer": "Standard implementation is 2-3 weeks depending on integration complexity. We can discuss your specific needs in the next call."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule exec meeting with COO Alex Levy",
+        "Send ROI calculator based on 5-6 hours saved per rep"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-11-27",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Alex Levy",
+      "person_role": "exec_sponsor",
+      "person_title": "COO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Detailed executive presentation with Alex Levy (COO) and Harper Doyle. Walked through product demo focused on unlimited_automation tier and ROI projections for their 7-person team. Alex engaged heavily on integration capabilities and asked about contract flexibility. Harper advocated strongly for moving forward quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a smaller subset of users and scale up if it works well?",
+          "answer": "We typically recommend starting with the full team to maximize adoption, but we can discuss phased rollouts. The unlimited_automation tier is priced for 7 seats."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of training and support is included in the first year?",
+          "answer": "Unlimited training sessions during onboarding, dedicated CSM, and 24/7 support via email and chat. Premium phone support available as add-on."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have this in place by end of quarter - ideally signed in the next 2-3 weeks so we can start implementation."
+        }
+      ],
+      "objections": [
+        "Alex expressed concern about upfront cost and asked if there was flexibility on pricing given their company size"
+      ],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing discussion with Harper",
+        "Alex to review with finance team"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-11-30",
+      "type": "pricing_call",
+      "duration_minutes": 20,
+      "person_name": "Harper Doyle",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Harper. Discussed budget constraints and explored options to fit within their Q2 allocation. Harper pushed for steeper discount citing competitive pressure and budget approval requirements. AE offered 40% discount to close deal before quarter-end, bringing ACV to $4,800. Harper agreed to present to Alex and finance for final approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to a multi-year deal, is there additional discount available?",
+          "answer": "We can explore that - let me check with my manager on multi-year pricing. For now, I can offer 40% off to get you started with a 1-year commitment."
+        },
+        {
+          "by": "rep",
+          "question": "What's your approved budget range for this initiative?",
+          "answer": "We had originally allocated around $5K for the year, so the discounted pricing gets us right in range."
+        }
+      ],
+      "objections": [
+        "Harper indicated the list price was above their approved budget and requested significant discount to move forward"
+      ],
+      "next_steps": [
+        "Harper to present final pricing to Alex and finance",
+        "Target signature by end of week",
+        "AE to send updated proposal with 40% discount"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "expanded",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

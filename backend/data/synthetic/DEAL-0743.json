@@ -1,0 +1,173 @@
+{
+  "deal_id": "DEAL-0743",
+  "company": {
+    "name": "HarborWorks",
+    "industry": "Professional Services",
+    "employee_count": 41,
+    "annual_revenue": 4194688,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 7500.0,
+    "seats": 10,
+    "price_per_seat_monthly": 61.67,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 30.7,
+    "sales_cycle_days": 24,
+    "close_date": "2023-05-19",
+    "use_case": "CRM automation",
+    "competitor": "Fireflies",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Megan Sato",
+      "role": "champion",
+      "title": "Head of Sales",
+      "tenure_months": 5
+    },
+    {
+      "name": "Chloe Rivera",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 3
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-11",
+      "type": "cold_call",
+      "duration_minutes": 5,
+      "person_name": "Megan Sato",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold outbound call to Megan Sato at HarborWorks. Rep introduced our platform as a CRM automation solution. Megan mentioned they're currently evaluating Fireflies but are open to alternatives. She's new to the Head of Sales role (3 months) and is looking to streamline their sales process. Brief but positive initial contact.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for managing customer interactions and follow-ups?",
+          "answer": "We're pretty manual right now. Our team uses Salesforce but a lot of notes and follow-ups fall through the cracks. I'm trying to find something that can automate the busy work."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your solution compare to Fireflies? We've been looking at them.",
+          "answer": "Rep explained our CRM automation capabilities go beyond just call recording\u2014we automate workflows, data entry, and follow-up tasks directly in your CRM."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Megan to review our one-pager",
+        "Rep to send follow-up email with case study from similar professional services firm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Sato",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 9.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with case study and product overview. Megan responded positively, confirming interest in a demo. She mentioned wanting to include Chloe Rivera from IT in the conversation since she'll be the primary user of the system. No executive stakeholders mentioned yet.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we schedule a demo for next week? I'd like to bring our IT Director Chloe in as well.",
+          "answer": "Rep confirmed availability and scheduled demo for the following week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled with Megan and Chloe",
+        "Rep to send calendar invite and prep materials"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Megan Sato",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after demo was completed. Megan expressed enthusiasm about the unlimited automation tier and confirmed budget of around $7,500 annually for 10 seats. She mentioned Fireflies quoted them lower but lacks some workflow features they need. Asked about implementation timeline and discount options given their size.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of pricing flexibility do you have for a company our size?",
+          "answer": "Rep indicated willingness to work on pricing and would prepare a custom proposal with discount options."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Rep to prepare proposal with pricing options",
+        "Megan to review internally before final decision"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-05-19",
+      "type": "exec_meeting",
+      "duration_minutes": 27,
+      "person_name": "Megan Sato",
+      "person_role": "champion",
+      "person_title": "Head of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Longer meeting with Megan to finalize terms. Discussion centered on pricing\u2014Megan pushed for deeper discount citing Fireflies' lower quote and limited budget. Rep offered 30% discount to close the deal. Megan seemed satisfied but mentioned she'd need to 'run it by the team' before signing. No executive or economic buyer on the call. Contract sent with discounted pricing for 10 seats, unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match or get closer to what Fireflies is offering?",
+          "answer": "Rep explained our value differentiation but agreed to 30% discount to make it work within their budget."
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to approve this on your end before we can move forward?",
+          "answer": "Megan said she has budget authority for this amount and just needs to confirm with Chloe and the sales team that they're aligned."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly can we get this implemented once we sign?",
+          "answer": "Rep confirmed 2-week implementation timeline with dedicated onboarding support."
+        }
+      ],
+      "objections": [
+        "Price is higher than Fireflies, need to justify the difference to leadership"
+      ],
+      "next_steps": [
+        "Megan to review contract and confirm with team by end of week",
+        "Rep to follow up in 2 days if no response"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

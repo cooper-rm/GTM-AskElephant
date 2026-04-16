@@ -1,0 +1,438 @@
+{
+  "deal_id": "DEAL-0897",
+  "company": {
+    "name": "TrueMedia",
+    "industry": "Marketing Agency",
+    "employee_count": 1000,
+    "annual_revenue": 127262771,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 24600.0,
+    "seats": 25,
+    "price_per_seat_monthly": 78.24,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 12.1,
+    "sales_cycle_days": 63,
+    "close_date": "2023-07-24",
+    "use_case": "Onboarding automation",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Jessica Oliveira",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 8
+    },
+    {
+      "name": "Arjun OConnor",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 1
+    },
+    {
+      "name": "Rowan Walker",
+      "role": "end_user",
+      "title": "RevOps Analyst",
+      "tenure_months": 13
+    },
+    {
+      "name": "Asher Sun",
+      "role": "technical_evaluator",
+      "title": "Sales Manager",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-05-17",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.3,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Jessica Oliveira expressing interest in onboarding automation solutions. She mentioned current pain points with manual onboarding processes affecting customer time-to-value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have solutions for automating customer onboarding workflows?",
+          "answer": "Yes, our platform specializes in onboarding automation with customizable playbooks and integrations."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-05-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 4.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming discovery call scheduled for next week. Shared initial resources on onboarding automation use cases.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you send over some case studies from similar agencies?",
+          "answer": "Sent three relevant case studies from mid-market agencies who improved onboarding efficiency."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled",
+        "Jessica to review case studies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-05-27",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 2.2,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email with discovery agenda and initial questions about current onboarding process, team size, and technology stack.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirmed discovery call time",
+        "Jessica to prepare process documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-06-02",
+      "type": "discovery_call",
+      "duration_minutes": 14,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on TrueMedia's current onboarding challenges. Jessica described manual handoffs causing 2-3 week delays in customer activation. Team of 25 CS reps handling onboarding across 200+ clients.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current average time-to-value for new customers?",
+          "answer": "About 4-6 weeks, which is too long for our customers' expectations."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform integrate with our existing CRM and project management tools?",
+          "answer": "We have native integrations with major CRMs and can connect via API to most PM tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Follow-up call to map specific workflow requirements",
+        "Jessica to identify key stakeholders"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-06-09",
+      "type": "discovery_call",
+      "duration_minutes": 6,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief follow-up call to clarify workflow details. Jessica mentioned they're also evaluating Fathom but appreciated our consulting services component.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I'll need to bring in Asher from our team for technical validation, and Arjun handles procurement."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with Asher",
+        "Prepare custom demo"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-06-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 1.6,
+      "rescheduled": false,
+      "ai_summary": "Email introducing Asher Sun to the conversation and sharing technical documentation ahead of evaluation session. Included implementation timeline estimates.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "Usually 4-6 weeks with our consulting package, including custom workflow setup and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical evaluation with Asher scheduled",
+        "Share API documentation"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-06-19",
+      "type": "technical_eval",
+      "duration_minutes": 62,
+      "person_name": "Asher Sun",
+      "person_role": "technical_evaluator",
+      "person_title": "Sales Manager",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Asher Sun. Deep dive into integration requirements, data security, and automation capabilities. Asher tested workflow builder and asked detailed questions about API limits and customization options. Mentioned Fathom's simpler interface but noted our superior consulting support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What are the API rate limits and can they be adjusted for our volume?",
+          "answer": "Standard tier includes 10k requests/hour, enterprise tier unlimited. We can customize based on your needs."
+        },
+        {
+          "by": "prospect",
+          "question": "How customizable are the automation templates for our specific agency workflows?",
+          "answer": "Fully customizable through our visual builder and JavaScript for advanced logic."
+        },
+        {
+          "by": "rep",
+          "question": "What's your current tech stack for customer onboarding?",
+          "answer": "Mix of Salesforce, Asana, and custom spreadsheets. Very fragmented right now."
+        }
+      ],
+      "objections": [
+        "Concerned about learning curve compared to simpler tools like Fathom"
+      ],
+      "next_steps": [
+        "Asher to share technical findings with Jessica",
+        "Prepare formal proposal"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-06-24",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.9,
+      "rescheduled": false,
+      "ai_summary": "Sent formal proposal for 25 seats with automations_plus_consulting package at $24,600 ACV. Included implementation roadmap and ROI projections based on their time-to-value improvement goals.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Jessica to review with stakeholders",
+        "Schedule proposal review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-30",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email checking on proposal review status. Jessica responded that she's working to get leadership buy-in but hasn't secured executive sponsor yet.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Would it be helpful to have a call with your VP or executive team?",
+          "answer": "Let me see if I can get them involved, but they're pretty hands-off on tool decisions at this level."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Jessica to attempt executive alignment",
+        "Proposal review call scheduled"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-07-06",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 4.3,
+      "rescheduled": false,
+      "ai_summary": "Pre-call email with agenda for proposal review. Offered to adjust package or pricing if needed to fit budget constraints.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Proposal call confirmed"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-07-11",
+      "type": "proposal_call",
+      "duration_minutes": 23,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Jessica. She confirmed strong interest and team alignment on technical fit. Discussed budget approval process - needs to route through Arjun in procurement. No executive sponsor engaged yet but Jessica confident in approval.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the consulting hours included in the package?",
+          "answer": "We can adjust the consulting allocation within the overall package pricing."
+        },
+        {
+          "by": "rep",
+          "question": "What's your procurement timeline and approval process?",
+          "answer": "Arjun will need to review, usually takes 1-2 weeks for contracts at this size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Introduce Arjun to procurement process",
+        "Jessica to confirm budget availability"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-07-18",
+      "type": "negotiation_call",
+      "duration_minutes": 27,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Jessica and Arjun. Arjun raised questions about contract terms and asked for pricing comparison with Fathom. Discussed payment terms and requested volume discount. Jessica advocated for solution but noted budget sensitivity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you offer annual pre-pay discount or quarterly payment terms?",
+          "answer": "We can offer 10% discount for annual pre-pay, or standard quarterly terms at list price."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Fathom for similar seat count?",
+          "answer": "Our consulting package adds value beyond basic software - Fathom is lower cost but DIY implementation."
+        }
+      ],
+      "objections": [
+        "Pricing higher than Fathom alternative"
+      ],
+      "next_steps": [
+        "Provide revised pricing options",
+        "Arjun to review contract terms"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2023-07-23",
+      "type": "pricing_call",
+      "duration_minutes": 28,
+      "person_name": "Jessica Oliveira",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call focused on finding middle ground. Discussed trade-offs between consulting hours and seat count to optimize value. Arjun requested 15% discount to match budget constraints. Jessica emphasized need to move forward but concerned about getting stuck in approval without executive support.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to annual contract, what's the best pricing you can offer?",
+          "answer": "Can approve 12% discount for annual pre-pay commitment, bringing total to $21,648."
+        },
+        {
+          "by": "rep",
+          "question": "Would bringing in your VP or CFO help accelerate the approval?",
+          "answer": "Probably, but I haven't been able to get them engaged yet. They trust my recommendation but budget approvals are slow right now."
+        }
+      ],
+      "objections": [
+        "Budget approval process unclear without executive champion"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Jessica to push for executive meeting",
+        "Arjun to initiate contract review"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "deal_id": "DEAL-0826",
+  "company": {
+    "name": "CompassMedia",
+    "industry": "Fintech",
+    "employee_count": 83,
+    "annual_revenue": 9783824,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4000.0,
+    "seats": 5,
+    "price_per_seat_monthly": 68.13,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 23.5,
+    "sales_cycle_days": 15,
+    "close_date": "2024-12-23",
+    "use_case": "Call recording + coaching",
+    "competitor": "Clari",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "David Reddy",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 20
+    },
+    {
+      "name": "Rachel Okafor",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 17
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-12-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "David Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from David Reddy at CompassMedia expressing interest in call recording and coaching capabilities. Rep acknowledged inquiry and scheduled discovery call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to understand requirements"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-12-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with discovery call confirmation and pre-call questionnaire. David responded confirming timing and shared that team is currently evaluating Clari as well.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What are your primary pain points with your current call recording setup?",
+          "answer": "We're not capturing enough calls and our reps aren't getting consistent coaching feedback."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Complete pre-call questionnaire",
+        "Prepare demo focused on coaching workflows"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-12-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "David Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 6.6,
+      "rescheduled": false,
+      "ai_summary": "Post-demo follow-up email sent. David confirmed strong interest in unlimited automation tier and requested pricing for 5 seats. Mentioned Rachel Okafor will be key implementation stakeholder.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your automation compare to Clari's deal intelligence features?",
+          "answer": "Our automation focuses on real-time coaching triggers and workflow automation, while Clari emphasizes forecasting. They complement each other but serve different primary use cases."
+        },
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this decision?",
+          "answer": "Rachel will handle implementation. I can move forward on budget approval for this size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal pricing proposal",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-12-21",
+      "type": "pricing_call",
+      "duration_minutes": 22,
+      "person_name": "David Reddy",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "22-minute pricing call with David to review proposal. Discussed $4,000 ACV for 5 seats on unlimited automation tier. David requested discount to match Clari's pricing, agreed to 23.5% reduction. No executive sponsor involved in approval process. Rachel confirmed for implementation but not on pricing call.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the pricing Clari offered us?",
+          "answer": "We can offer 23.5% discount to get to $4,000 ACV, which should be competitive with their quote."
+        },
+        {
+          "by": "rep",
+          "question": "Will you need executive sign-off for this investment?",
+          "answer": "No, this falls within my approval threshold."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the implementation timeline with Rachel's team?",
+          "answer": "Typically 2-3 weeks for your team size, we'll schedule kickoff immediately after contract signature."
+        }
+      ],
+      "objections": [
+        "Initial pricing too high compared to competitive offer from Clari"
+      ],
+      "next_steps": [
+        "Send revised proposal with discount",
+        "Loop in Rachel for implementation planning",
+        "Target close by end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "churned",
+    "days_to_churn": 84,
+    "churn_reason": "lack of executive alignment"
+  }
+}

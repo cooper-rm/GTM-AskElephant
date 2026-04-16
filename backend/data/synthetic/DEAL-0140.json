@@ -1,0 +1,334 @@
+{
+  "deal_id": "DEAL-0140",
+  "company": {
+    "name": "BirchLens",
+    "industry": "Marketing Agency",
+    "employee_count": 933,
+    "annual_revenue": 96618868,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 21100.0,
+    "seats": 23,
+    "price_per_seat_monthly": 78.09,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 12.3,
+    "sales_cycle_days": 44,
+    "close_date": "2024-08-31",
+    "use_case": "CRM automation",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Javier Santos",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 10
+    },
+    {
+      "name": "Arjun Mitchell",
+      "role": "exec_sponsor",
+      "title": "SVP of Revenue",
+      "tenure_months": 40
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2024-07-14",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 1.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Javier Santos expressing interest in CRM automation solutions for their marketing agency. Brief form submission indicating need to streamline client data management across their growing team.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call with Javier"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2024-07-20",
+      "type": "qualification_call",
+      "duration_minutes": 10,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Javier Santos to understand BirchLens's current CRM challenges. Confirmed they're using multiple disconnected tools and need better automation for their 933-person team. Javier is VP of Sales and has budget authority for sales tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving your interest in CRM automation right now?",
+          "answer": "We're scaling rapidly and our sales team is wasting 10+ hours per week on manual data entry and follow-ups"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support integration with HubSpot and Salesforce?",
+          "answer": "Yes, we have native integrations with both platforms"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call to dive deeper into workflows",
+        "Send case study on marketing agency automation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2024-07-23",
+      "type": "discovery_call",
+      "duration_minutes": 33,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call with Javier covering current tech stack, pain points, and success metrics. BirchLens currently uses Salesforce but lacks automation for lead routing, follow-up sequencing, and reporting. Javier outlined their need for approximately 23 seats across sales and account management teams. Discussed timeline of 60-90 days for implementation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Walk me through your current lead-to-close process and where the biggest bottlenecks are",
+          "answer": "Leads come in through multiple channels, get manually assigned, and reps spend hours each day logging activities. We lose deals because follow-ups fall through the cracks"
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting and analytics do you provide out of the box?",
+          "answer": "We offer real-time dashboards for pipeline health, activity tracking, conversion rates, and custom report builders"
+        },
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in evaluating this solution?",
+          "answer": "Arjun Mitchell, our SVP of Revenue, will need to sign off on anything over $20K. I'll bring him in at the right time"
+        }
+      ],
+      "objections": [
+        "We've looked at automation tools before and found them too rigid for our custom workflows"
+      ],
+      "next_steps": [
+        "Prepare customized demo focused on flexible workflow automation",
+        "Share implementation timeline and onboarding process"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2024-07-30",
+      "type": "demo",
+      "duration_minutes": 52,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Demo rescheduled by Javier due to client emergency. Brief conversation confirming continued interest and finding new time slot.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule demo for next week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "budget review delayed timeline"
+    },
+    {
+      "touch_number": 5,
+      "date": "2024-08-05",
+      "type": "technical_eval",
+      "duration_minutes": 55,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Comprehensive technical evaluation session with Javier. Walked through automation builder, Salesforce integration setup, lead routing rules, and email sequencing capabilities. Demonstrated custom workflow scenarios specific to BirchLens's client onboarding and renewal processes. Javier tested the platform hands-on and expressed strong interest in the consulting package to help with configuration.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we build conditional automation based on client segment and deal size?",
+          "answer": "Yes, the workflow builder supports unlimited conditional logic based on any CRM field or custom data point"
+        },
+        {
+          "by": "prospect",
+          "question": "What does the consulting package include and how long does typical implementation take?",
+          "answer": "Our consulting package includes dedicated solution architect, custom workflow design, data migration support, and team training. Typical implementation is 4-6 weeks"
+        },
+        {
+          "by": "rep",
+          "question": "What's your ideal go-live timeline?",
+          "answer": "We'd like to be fully operational by end of Q2, so about 8 weeks from now"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule follow-up demo for full team",
+        "Prepare pricing proposal including consulting package",
+        "Send technical documentation for security review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2024-08-12",
+      "type": "demo",
+      "duration_minutes": 50,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full team demo for Javier and 4 sales managers. Showcased end-to-end automation scenarios, reporting dashboards, and mobile app functionality. Team asked detailed questions about user permissions, data security, and training resources. Positive engagement from entire group with specific interest in automating their quarterly business review process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How granular can we get with role-based permissions?",
+          "answer": "Permissions are fully customizable down to field-level access, with support for custom roles beyond our standard templates"
+        },
+        {
+          "by": "prospect",
+          "question": "Do you provide ongoing training or just initial onboarding?",
+          "answer": "We offer both initial onboarding and optional ongoing training sessions, plus 24/7 access to our knowledge base and support team"
+        },
+        {
+          "by": "rep",
+          "question": "Are we aligned on moving forward with a proposal?",
+          "answer": "Yes, I'd like to see pricing for 23 seats with the consulting package. I'll also need to loop in Arjun before we finalize anything"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal for 23 seats with automations + consulting",
+        "Schedule executive meeting with Arjun Mitchell",
+        "Provide customer references in marketing/agency vertical"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2024-08-17",
+      "type": "exec_meeting",
+      "duration_minutes": 28,
+      "person_name": "Arjun Mitchell",
+      "person_role": "exec_sponsor",
+      "person_title": "SVP of Revenue",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Arjun Mitchell (SVP of Revenue) and Javier Santos. Discussed strategic value of automation investment, ROI projections, and alignment with BirchLens's growth plans. Arjun expressed support for the initiative and validated the business case. Conversation focused on expected efficiency gains and how this fits into broader revenue operations strategy.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI are other marketing agencies seeing in the first year?",
+          "answer": "Our agency customers typically see 15-20% improvement in sales productivity and 25-30% increase in lead conversion rates within 6 months"
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns or considerations we should address before moving to contract?",
+          "answer": "The pricing is a bit higher than we initially budgeted. We need to discuss whether there's flexibility on the consulting fees"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing discussion with Javier",
+        "Provide detailed ROI calculator",
+        "Send contract template for legal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2024-08-24",
+      "type": "pricing_call",
+      "duration_minutes": 12,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing discussion with Javier to address budget concerns raised by Arjun. Reviewed proposal breakdown and explored options to adjust consulting scope to fit budget constraints while maintaining core value. Discussed payment terms and contract length options.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we reduce consulting hours and handle some configuration internally to bring costs down?",
+          "answer": "Yes, we can offer a lighter consulting package with async support instead of dedicated architect hours"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send revised proposal with flexible consulting options",
+        "Clarify payment terms and annual vs multi-year pricing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2024-09-02",
+      "type": "negotiation_call",
+      "duration_minutes": 26,
+      "person_name": "Javier Santos",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call to finalize terms. Discussed revised consulting package, agreed on annual contract structure, and confirmed 23 seat count. Javier requested modest discount on year one in exchange for case study participation and reference opportunity. Both parties aligned on implementation timeline starting early May. Contract moving to legal review.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "If we commit to being a reference customer and case study, is there any flexibility on first-year pricing?",
+          "answer": "Yes, we can offer 8% discount on year one in exchange for participation in case study and serving as reference"
+        },
+        {
+          "by": "rep",
+          "question": "When can your legal team complete contract review?",
+          "answer": "We can turn it around in 3-5 business days once we receive the final agreement"
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract with agreed terms",
+        "Introduce customer success manager for implementation planning",
+        "Schedule kickoff call for first week of May"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

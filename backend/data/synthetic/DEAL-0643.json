@@ -1,0 +1,432 @@
+{
+  "deal_id": "DEAL-0643",
+  "company": {
+    "name": "GoldenCloud",
+    "industry": "Marketing Agency",
+    "employee_count": 727,
+    "annual_revenue": 74230224,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 8000,
+    "seats": 10,
+    "price_per_seat_monthly": 65.54,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 26.4,
+    "sales_cycle_days": 51,
+    "close_date": "2023-11-13",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "content_download"
+  },
+  "people": [
+    {
+      "name": "Evelyn Mitchell",
+      "role": "champion",
+      "title": "Head of RevOps",
+      "tenure_months": 71
+    },
+    {
+      "name": "Fatima Jung",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 43
+    },
+    {
+      "name": "Amelia Nguyen",
+      "role": "procurement",
+      "title": "Account Manager",
+      "tenure_months": 11
+    },
+    {
+      "name": "Noah Scott",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 19
+    },
+    {
+      "name": "Abigail Yang",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 1
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-09-18",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound lead from Evelyn Mitchell at GoldenCloud requesting information about conversation intelligence platform. She mentioned current challenges with forecast accuracy and noted they're evaluating Fathom as well.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "content_download",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-09-23",
+      "type": "qualification_call",
+      "duration_minutes": 19,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial qualification call with Evelyn Mitchell. Discussed GoldenCloud's need to improve forecast accuracy across their 10-person sales team. Evelyn confirmed budget authority rests with CRO Fatima Jung and procurement team. She's championing the project internally.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for conversation intelligence now?",
+          "answer": "Our forecasts have been off by 20-30% for three quarters. Leadership needs better visibility into deal health."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation timeline like?",
+          "answer": "Typically 2-3 weeks for initial setup, with ongoing optimization support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule deeper discovery call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-09-28",
+      "type": "qualification_call",
+      "duration_minutes": 26,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up qualification call diving into GoldenCloud's current tech stack and workflows. Evelyn shared they're using Salesforce and have looked at Fathom but want to compare options. Discussed team size (10 seats needed) and use case priorities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your analytics compare to Fathom's forecasting features?",
+          "answer": "We focus on deal-level risk signals and multi-threaded relationship mapping, which provides earlier warning signs than transcript analysis alone."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision process and timeline?",
+          "answer": "Need to present to Fatima and the procurement team by end of month. Looking to decide within 4-6 weeks."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of pricing are we looking at for 10 seats?",
+          "answer": "I'll put together a tailored proposal after our demo, but typically in the $8-12K range for your team size."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical demo",
+        "Prepare competitive comparison with Fathom"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-10-02",
+      "type": "follow_up_call",
+      "duration_minutes": 17,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on GoldenCloud's specific pain points with forecast accuracy. Evelyn walked through their current manual process and identified key stakeholders who need to be involved. She mentioned budget discussions happening soon.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating the solution?",
+          "answer": "Fatima Jung our CRO will need to sign off, plus Amelia and Noah from the sales team, and Abigail Yang from IT for security review."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you support our Salesforce instance and integrate with our existing workflows?",
+          "answer": "Yes, we have native Salesforce integration and can map to your existing fields and processes."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Coordinate demo with broader team",
+        "Prepare technical integration overview for IT"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-10-11",
+      "type": "follow_up_call",
+      "duration_minutes": 15,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Call to review demo logistics and align on evaluation criteria. Evelyn confirmed team availability for technical eval next week. Discussed procurement process and mentioned budget approval requires justification of ROI vs. Fathom.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What ROI metrics do your customers typically see?",
+          "answer": "Most see 15-25% improvement in forecast accuracy within first quarter, plus time savings on pipeline reviews."
+        },
+        {
+          "by": "rep",
+          "question": "What would make this a clear winner over Fathom for your team?",
+          "answer": "Honestly, better forecasting analytics and a competitive price point. Fathom quoted us higher than expected."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send technical eval agenda",
+        "Prepare ROI calculator"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-10-13",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email confirming technical evaluation scheduled for next week and sharing pre-work materials. Attached ROI calculator and case study from similar marketing agency customer.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you share the case study metrics in more detail before our eval?",
+          "answer": "Yes, sent expanded case study with quarter-by-quarter forecast accuracy improvements and adoption metrics."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Technical eval on calendar",
+        "Review materials before session"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-10-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 5.6,
+      "rescheduled": false,
+      "ai_summary": "Brief email from Evelyn asking to reschedule technical eval by two days due to Fatima's calendar conflict. Wants to ensure CRO can attend at least part of the session.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Confirm new eval date"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-10-24",
+      "type": "technical_eval",
+      "duration_minutes": 54,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation with Evelyn, Amelia, Noah, and Abigail (IT). Walked through platform capabilities, forecasting analytics, and Salesforce integration. Team asked detailed questions about data security and accuracy methodology. Fatima joined for final 15 minutes and seemed engaged. Abigail requested security documentation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How do you ensure data privacy with call recordings?",
+          "answer": "SOC 2 Type II certified, data encrypted at rest and in transit, customers control retention policies."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the learning curve for the sales team?",
+          "answer": "Most reps are productive within first week. We provide onboarding and ongoing training."
+        },
+        {
+          "by": "prospect",
+          "question": "Can you break down exactly how the forecasting model works?",
+          "answer": "Detailed walkthrough of HNSW similarity matching and XGBoost risk scoring, referencing historical deal patterns."
+        }
+      ],
+      "objections": [
+        "Abigail raised concerns about integration complexity with their current Salesforce customizations"
+      ],
+      "next_steps": [
+        "Send security documentation to Abigail",
+        "Prepare formal proposal",
+        "Schedule proposal review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-10-28",
+      "type": "proposal_call",
+      "duration_minutes": 17,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review call with Evelyn. Presented $8K ACV for 10 seats with unlimited automation tier. Evelyn mentioned this is below the Fathom quote but needs to justify to procurement why we're the better choice despite Fathom's brand recognition.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include implementation support in this price?",
+          "answer": "Yes, this includes full implementation and 90 days of enhanced support."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for decision?",
+          "answer": "Need to present to Fatima and procurement this week. Hoping to finalize by end of next week."
+        }
+      ],
+      "objections": [
+        "Evelyn mentioned procurement will likely push for additional discount to create negotiation room"
+      ],
+      "next_steps": [
+        "Send formal proposal document",
+        "Prepare executive summary for Fatima"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-11-01",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 2.0,
+      "rescheduled": false,
+      "ai_summary": "Email to Evelyn with formal proposal document and executive summary. Included competitive comparison highlighting forecasting capabilities vs. Fathom and implementation timeline.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Evelyn to present to procurement",
+        "Stand by for questions"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-11-08",
+      "type": "exec_meeting",
+      "duration_minutes": 39,
+      "person_name": "Fatima Jung",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment call with Fatima Jung, Evelyn, and procurement team (Amelia, Noah). Fatima expressed strong interest in improving forecast accuracy and appreciated the ROI analysis. Procurement pushed for 26% discount to match 'competitive offer' terms. Discussed payment terms and contract length. Fatima indicated she's supportive but wants procurement comfortable with the investment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match the discount structure from the competitive offer?",
+          "answer": "Let me take this back to my leadership. That's a significant reduction but I understand the competitive pressure."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your customer retention rate?",
+          "answer": "95% annual retention with net revenue retention of 118% due to expansion."
+        }
+      ],
+      "objections": [
+        "Procurement team pushed back on pricing, requesting 26% discount to match terms they received from Fathom"
+      ],
+      "next_steps": [
+        "Get approval for discount structure",
+        "Send revised proposal",
+        "Target signature by Friday"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-11-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Evelyn Mitchell",
+      "person_role": "champion",
+      "person_title": "Head of RevOps",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 4.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Evelyn with revised proposal reflecting 26% discount ($5,888 ACV). Confirmed implementation timeline and support terms remain unchanged. Requested confirmation to prepare contract.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we lock in this pricing for a multi-year agreement?",
+          "answer": "Yes, happy to discuss 2-year terms with this pricing locked in."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Await procurement approval",
+        "Prepare contract"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

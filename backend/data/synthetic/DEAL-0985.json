@@ -1,0 +1,378 @@
+{
+  "deal_id": "DEAL-0985",
+  "company": {
+    "name": "SummitHub",
+    "industry": "Professional Services",
+    "employee_count": 72,
+    "annual_revenue": 13799385,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 2000,
+    "seats": 3,
+    "price_per_seat_monthly": 47.23,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 46.9,
+    "sales_cycle_days": 41,
+    "close_date": "2025-10-22",
+    "use_case": "Onboarding automation",
+    "competitor": "Clari",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Isaac Hernandez",
+      "role": "champion",
+      "title": "VP of Sales",
+      "tenure_months": 29
+    },
+    {
+      "name": "Quinn Stern",
+      "role": "exec_sponsor",
+      "title": "CRO",
+      "tenure_months": 8
+    },
+    {
+      "name": "Willow Campbell",
+      "role": "procurement",
+      "title": "Sales Manager",
+      "tenure_months": 23
+    },
+    {
+      "name": "Ezra Rivera",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 25
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-08-17",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn outreach sent to Isaac Hernandez introducing AskElephant's onboarding automation capabilities for professional services teams. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-08-18",
+      "type": "cold_call",
+      "duration_minutes": 2,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Brief cold call with Isaac Hernandez. Introduced AskElephant and confirmed interest in onboarding challenges. Isaac mentioned current manual processes are slowing down their sales team.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "How is your team currently handling new client onboarding?",
+          "answer": "Mostly manual processes with spreadsheets and email threads. It's taking 2-3 weeks per client."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isaac to check calendar for follow-up discussion",
+        "Rep to send overview email"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-09-11",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.9,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with AskElephant overview, case study from similar professional services firm, and pricing tiers. Isaac responded confirming interest and availability for deeper dive.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce and our project management tools?",
+          "answer": "Yes, we have native integrations with Salesforce and most major PM platforms including Asana, Monday, and ClickUp."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-09-18",
+      "type": "follow_up_call",
+      "duration_minutes": 14,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Initial discovery call with Isaac covering current onboarding workflow, pain points, and team structure. Isaac shared that manual processes are causing client satisfaction issues and their Sales Manager Willow has been pushing for automation.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the urgency to solve this now?",
+          "answer": "We've had two clients escalate complaints about slow onboarding in the past month. Our CRO Quinn is concerned about renewal risk."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of timeline are we looking at for implementation?",
+          "answer": "Typically 2-3 weeks for initial setup, with full rollout in 4-6 weeks depending on customization needs."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Isaac to map out current onboarding process",
+        "Schedule full discovery call with process details"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-09-22",
+      "type": "discovery_call",
+      "duration_minutes": 16,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Deep discovery call reviewing SummitHub's detailed onboarding workflow. Isaac walked through their 8-step process and key bottlenecks. Discussed team of 72 employees with 3 primary users who would drive the automation. Isaac mentioned they're also evaluating Clari.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else is involved in the decision-making process?",
+          "answer": "Quinn Stern our CRO will need to approve, Willow Campbell in Sales Ops will evaluate functionality, and Ezra Rivera from IT will review security and integrations."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your unlimited automation tier compare to Clari's offering?",
+          "answer": "Our unlimited tier includes all automation workflows with no usage caps, while Clari typically charges per automation execution. I can send a detailed comparison."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline for making a decision?",
+          "answer": "We'd like to have something in place within 6-8 weeks. Quinn wants to see this impact Q2 numbers."
+        }
+      ],
+      "objections": [
+        "Need to understand total cost of ownership compared to Clari"
+      ],
+      "next_steps": [
+        "Rep to prepare demo focused on onboarding automation",
+        "Isaac to invite Willow to demo",
+        "Send Clari comparison document"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-09-29",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Demo prep email sent with agenda, Clari comparison document, and ROI calculator based on SummitHub's onboarding metrics. Isaac confirmed Willow and he will both attend the demo.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for Friday with Isaac and Willow"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-10-04",
+      "type": "demo",
+      "duration_minutes": 44,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo with Isaac and Willow Campbell covering onboarding automation workflows, Salesforce integration, and reporting dashboards. Willow was engaged and asked detailed questions about customization. Both expressed strong interest in the unlimited automation tier.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the approval workflows for different client tiers?",
+          "answer": "Yes, you can create conditional logic based on deal size, client type, or any custom field in your CRM."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of reporting do you provide on onboarding cycle time?",
+          "answer": "Built-in dashboards track time-to-onboard, bottleneck identification, and team performance metrics with exportable reports."
+        },
+        {
+          "by": "rep",
+          "question": "What would success look like for you in the first 90 days?",
+          "answer": "Reducing our onboarding time from 2-3 weeks to under 1 week, and having clear visibility into where delays happen."
+        }
+      ],
+      "objections": [
+        "Willow concerned about change management and getting the team to adopt new system"
+      ],
+      "next_steps": [
+        "Schedule executive meeting with Quinn",
+        "Provide implementation timeline and change management resources",
+        "Isaac to build internal business case"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-10-10",
+      "type": "exec_meeting",
+      "duration_minutes": 38,
+      "person_name": "Quinn Stern",
+      "person_role": "exec_sponsor",
+      "person_title": "CRO",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive alignment meeting with Quinn Stern and Isaac. Discussed strategic importance of onboarding efficiency for customer retention and revenue growth. Quinn supportive but focused on budget constraints and comparing options. Confirmed decision authority and Q2 implementation timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What kind of customer support do you provide during implementation?",
+          "answer": "Dedicated CSM, weekly check-ins during rollout, and 24/7 technical support included in all plans."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Clari for our size and use case?",
+          "answer": "For 3 seats with unlimited automation, we're typically 20-30% lower on annual contract value, and no per-execution fees."
+        },
+        {
+          "by": "rep",
+          "question": "What's your budget range for this initiative?",
+          "answer": "We're targeting around $2K annually, but have some flexibility if the ROI is clear."
+        }
+      ],
+      "objections": [
+        "Quinn wants to ensure we're getting the best value and mentioned Clari's enterprise features"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing options",
+        "Quinn and Isaac to review internally with Willow and Ezra",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-10-16",
+      "type": "pricing_call",
+      "duration_minutes": 32,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Isaac. Discussed proposal for 3 seats unlimited automation tier at $2,000 ACV. Isaac pushed for discount citing Clari's competing offer and budget constraints. Negotiated 46.9% discount to meet their budget while maintaining deal momentum.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Clari's pricing? They've offered us a significant discount to win the deal.",
+          "answer": "Let me see what I can do. Given your timeline and commitment to annual contract, I can work with my leadership on a competitive discount."
+        },
+        {
+          "by": "rep",
+          "question": "If we meet your budget target, can you commit to closing this week?",
+          "answer": "Yes, if we can get to $2K and Ezra signs off on security, we can move forward immediately."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the onboarding and training?",
+          "answer": "Full implementation support, custom workflow setup, and training for your 3 power users plus team enablement sessions."
+        }
+      ],
+      "objections": [
+        "List price too high compared to Clari's discounted offer",
+        "Need IT security approval from Ezra before final commitment"
+      ],
+      "next_steps": [
+        "Rep to get discount approval from leadership",
+        "Isaac to coordinate security review with Ezra",
+        "Send revised contract at $2,000 ACV"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-10-22",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Isaac Hernandez",
+      "person_role": "champion",
+      "person_title": "VP of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 8.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with revised contract at $2,000 ACV (46.9% discount), security documentation for Ezra's review, and implementation timeline. Confirmed all stakeholders aligned pending IT security sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a 30-day out clause in case the implementation doesn't go smoothly?",
+          "answer": "We can include a satisfaction guarantee in the first 60 days with prorated refund if expectations aren't met."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Ezra to complete security review by end of week",
+        "Isaac to route contract for signatures",
+        "Kickoff call scheduled for following Monday"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

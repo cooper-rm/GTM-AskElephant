@@ -1,0 +1,393 @@
+{
+  "deal_id": "DEAL-0619",
+  "company": {
+    "name": "OrbitCollective",
+    "industry": "Marketing Agency",
+    "employee_count": 1000,
+    "annual_revenue": 179770422,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 10800.0,
+    "seats": 15,
+    "price_per_seat_monthly": 59.22,
+    "product_tier": "automations_plus_consulting",
+    "effective_discount_pct": 33.5,
+    "sales_cycle_days": 43,
+    "close_date": "2023-06-20",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "outbound",
+    "inbound_channel": null
+  },
+  "people": [
+    {
+      "name": "Abigail Lopez",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 17
+    },
+    {
+      "name": "Emily Agarwal",
+      "role": "procurement",
+      "title": "Implementation Lead",
+      "tenure_months": 25
+    },
+    {
+      "name": "Savannah Evans",
+      "role": "end_user",
+      "title": "IT Director",
+      "tenure_months": 47
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-04-23",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold email sent to Abigail Lopez introducing AskElephant's call recording and coaching platform. No response received.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-04-26",
+      "type": "cold_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 7.7,
+      "rescheduled": false,
+      "ai_summary": "Follow-up cold email to Abigail Lopez with case study from similar marketing agency. Abigail responded expressing interest in learning more about the platform.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you have experience working with agencies our size?",
+          "answer": "Yes, we work with several mid-market agencies including two with similar team structures to OrbitCollective."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-04-28",
+      "type": "cold_call",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Cold call attempt to Abigail Lopez. Left voicemail referencing her email response and proposing times for a qualification call. No answer.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-04-29",
+      "type": "linkedin_message",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": false,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "LinkedIn message sent to Abigail Lopez with link to relevant webinar on coaching best practices. Message viewed but no response.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [],
+      "sentiment": "no_contact",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-05-08",
+      "type": "qualification_call",
+      "duration_minutes": 13,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Abigail Lopez (VP of CS). Discussed current pain points with coaching consistency across their CS team. Abigail mentioned they're currently evaluating Gong as well. Team of ~15 people would use the platform primarily for call recording and coaching workflows.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving you to look at conversation intelligence tools right now?",
+          "answer": "We're struggling with inconsistent coaching across our CS team. Managers don't have visibility into calls and coaching is ad-hoc."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your platform compare to Gong?",
+          "answer": "We focus specifically on coaching workflows with built-in templates and manager dashboards, while Gong is broader revenue intelligence. Pricing is typically 30-40% lower for similar seat counts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send discovery agenda",
+        "Abigail to share current coaching process documentation"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-05-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 6.5,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Abigail with discovery agenda and competitive comparison doc (AskElephant vs Gong). Abigail confirmed the discovery call time and shared their current coaching rubric document.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you include Emily Agarwal from our implementation team on the discovery call?",
+          "answer": "Absolutely, I'll send her a calendar invite."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled with Abigail and Emily"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-05-20",
+      "type": "follow_up_call",
+      "duration_minutes": 11,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call with Abigail Lopez and Emily Agarwal. Walked through their current coaching process and pain points. Emily focused on integration requirements with their existing tech stack (Salesforce, Zendesk). Discussed 15-seat deployment timeline.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "Emily will handle the technical evaluation. We'll probably need IT to review security, but I can drive the business case internally."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline?",
+          "answer": "Most mid-market customers are live within 2-3 weeks. Integration setup is usually the longest part."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation session",
+        "Send integration documentation to Emily"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-05-28",
+      "type": "technical_eval",
+      "duration_minutes": 53,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation session with Abigail, Emily, and Savannah Evans (IT Director). Demo of call recording, coaching templates, and manager dashboards. Savannah asked detailed questions about data security and SSO. Emily evaluated Salesforce and Zendesk integrations. Team seemed engaged but Savannah raised concerns about timeline and internal approval process.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your data retention policy and where are recordings stored?",
+          "answer": "Standard retention is 2 years with configurable policies. Data stored in SOC2-compliant AWS infrastructure with regional options."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you support Okta SSO?",
+          "answer": "Yes, Okta is supported on our Plus tier and above."
+        },
+        {
+          "by": "prospect",
+          "question": "How quickly could we get this deployed if we move forward?",
+          "answer": "With your tech stack, we're looking at 2-3 weeks to full rollout after contract signature."
+        }
+      ],
+      "objections": [
+        "We'd need to run this through our security review process which can take 3-4 weeks"
+      ],
+      "next_steps": [
+        "Send security documentation to Savannah",
+        "Abigail to build internal business case",
+        "Follow up on proposal timing"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2023-06-03",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Proposal review meeting with Abigail and Emily. Presented pricing for 15 seats on Automations Plus tier with consulting package ($10,800 ACV). Abigail noted budget constraints and mentioned Gong's proposal came in higher but with more features. No executive sponsor present on the call. Discussion focused primarily on pricing rather than value.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there flexibility on the consulting package? We may not need the full hours.",
+          "answer": "We can adjust the consulting hours, but it would only reduce the total by about $1,200 annually."
+        },
+        {
+          "by": "rep",
+          "question": "Should we include your CFO or another exec sponsor in the next conversation to discuss budget?",
+          "answer": "I can handle the budget conversation with our finance team. I'll let you know if we need to loop anyone else in."
+        }
+      ],
+      "objections": [
+        "The budget we had allocated is closer to $8,000. We'd need to see if there's room to move."
+      ],
+      "next_steps": [
+        "Abigail to review with finance",
+        "Follow up on discount options"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 10,
+      "date": "2023-06-07",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": 7.4,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email to Abigail addressing budget concerns. Proposed potential discount options and highlighted ROI from reducing coaching time. Abigail responded asking for best pricing to help make the case internally against Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the best pricing you can do to help us get this approved?",
+          "answer": "Let me talk to our sales leadership about what we can offer for a multi-year commitment."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Present revised pricing with discount"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 11,
+      "date": "2023-06-13",
+      "type": "exec_meeting",
+      "duration_minutes": 32,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Negotiation call with Abigail and Emily. Presented revised pricing at $7,200 ACV (33.5% discount) for a 2-year commitment. Abigail seemed pleased with the pricing but still wants to compare final Gong proposal. Discussion focused heavily on contract terms and discount justification. No clear timeline to decision provided.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do annual payments instead of upfront?",
+          "answer": "Yes, we can structure it as annual billing."
+        },
+        {
+          "by": "rep",
+          "question": "What's your timeline to make a final decision?",
+          "answer": "We're hoping to decide within the next 2-3 weeks. I need to present both options to our leadership team."
+        },
+        {
+          "by": "prospect",
+          "question": "Is this pricing locked in if we need another week or two?",
+          "answer": "This pricing is valid through end of quarter, so you have about 3 weeks."
+        }
+      ],
+      "objections": [
+        "We need to do a final comparison with Gong's revised proposal before committing"
+      ],
+      "next_steps": [
+        "Send revised contract with annual billing terms",
+        "Abigail to present to leadership",
+        "Check in next week on timeline"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2023-06-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Abigail Lopez",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 7.6,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email with revised contract reflecting $7,200 ACV, 2-year term, annual billing. Included competitive comparison summary and ROI calculator. Abigail confirmed receipt and said she'll have the leadership discussion this week and follow up with any questions.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Abigail to review with leadership",
+        "Follow up end of week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

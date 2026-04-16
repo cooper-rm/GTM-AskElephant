@@ -1,0 +1,291 @@
+{
+  "deal_id": "DEAL-0539",
+  "company": {
+    "name": "ProtonSystems",
+    "industry": "SaaS/Tech",
+    "employee_count": 35,
+    "annual_revenue": 3329427,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 6400.0,
+    "seats": 8,
+    "price_per_seat_monthly": 67.51,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 24.1,
+    "sales_cycle_days": 35,
+    "close_date": "2023-04-14",
+    "use_case": "Forecasting accuracy",
+    "competitor": "Fathom",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Wyatt Lima",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 12
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-03-04",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 2.9,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Wyatt Lima (VP of CS) expressing interest in improving forecasting accuracy. Wyatt mentioned current frustration with manual processes and inconsistent data quality affecting their ability to predict customer outcomes.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform integrate with Salesforce and support automated forecast rollups?",
+          "answer": "Yes, we have native Salesforce integration and automated forecast aggregation across teams with real-time updates."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send initial product overview",
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-03-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 1.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and pricing bands. Wyatt confirmed budget availability and indicated urgency due to upcoming board meeting where forecast accuracy is a key concern. Expressed interest in moving quickly.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a team of 8?",
+          "answer": "Standard implementation is 2-3 weeks including data migration, configuration, and training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-03-15",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.4,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email for discovery call with agenda sent. Wyatt acknowledged and mentioned he's also evaluating Fathom but prefers our automation capabilities based on initial research. Requested demo of forecasting dashboard during call.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Prepare forecasting dashboard demo",
+        "Discovery call scheduled"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-03-22",
+      "type": "discovery_call",
+      "duration_minutes": 37,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "37-minute discovery call with Wyatt. Deep dive into current forecasting process challenges - manually consolidating data from multiple sources, lack of confidence in numbers presented to leadership. Team of 8 CS managers needs better visibility. Wyatt owns the CS org but mentioned needing to get CFO approval for contracts over $5K. Currently using spreadsheets and basic Salesforce reports.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this solution?",
+          "answer": "I can drive this internally. CFO will need to sign off on the contract, but I have budget authority for tools under $10K."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your forecasting model handle seasonal fluctuations in our data?",
+          "answer": "Our ML models automatically detect seasonality patterns and adjust predictions. You can also set custom seasonal parameters."
+        },
+        {
+          "by": "prospect",
+          "question": "What differentiates you from Fathom?",
+          "answer": "Fathom focuses primarily on call recording and transcription. We offer end-to-end forecasting automation with predictive analytics, not just call intelligence."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Fathom - they quoted us significantly less"
+      ],
+      "next_steps": [
+        "Schedule technical evaluation with Wyatt's team",
+        "Send case study on forecasting accuracy improvements"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-03-28",
+      "type": "technical_eval",
+      "duration_minutes": 40,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "40-minute technical evaluation session. Walked through forecasting dashboard, automation workflows, and integration setup. Wyatt brought two CS managers who were engaged and asked detailed questions about daily workflows. Positive reactions to automation capabilities. Wyatt mentioned timeline pressure - wants to have solution in place before Q2 board meeting in 3 weeks.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we customize the forecast categories beyond the standard setup?",
+          "answer": "Yes, fully customizable - you can create custom forecast categories, confidence levels, and rollup hierarchies."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the unlimited automation tier?",
+          "answer": "Unlimited workflow automations, data syncs, scheduled reports, and API calls. No caps on usage."
+        },
+        {
+          "by": "rep",
+          "question": "Would it be helpful to bring in your CFO or VP of Finance for the next conversation?",
+          "answer": "Not necessary at this stage - I can present the business case internally and get their approval."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wyatt to socialize internally",
+        "Schedule exec-level meeting to discuss business case and pricing"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-04-02",
+      "type": "exec_meeting",
+      "duration_minutes": 51,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "51-minute executive meeting with Wyatt to review business case and proposal. Presented ROI analysis showing 15-hour monthly time savings and improved forecast accuracy. Wyatt expressed strong interest but pushed back on pricing - mentioned Fathom proposal is 40% less expensive. Discussed value differentiation but Wyatt requested significant discount to move forward. No other executives joined the call despite invitation.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match or get closer to Fathom's pricing?",
+          "answer": "Fathom is a different category of tool - primarily call intelligence. Our forecasting automation and predictive analytics deliver substantially more value. Let me see what flexibility we have."
+        },
+        {
+          "by": "rep",
+          "question": "Should we schedule a call with your CFO to review the ROI analysis together?",
+          "answer": "I can present it to them - they trust my judgment on CS tools."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your best price if we commit this week?",
+          "answer": "I can work with my leadership to find a creative solution if you're ready to move forward quickly."
+        }
+      ],
+      "objections": [
+        "Pricing is the main blocker - need to be competitive with Fathom's offer",
+        "Timeline is tight and Wyatt needs approval quickly"
+      ],
+      "next_steps": [
+        "Prepare revised proposal with discount",
+        "Internal approval for discount pricing"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-04-07",
+      "type": "exec_meeting",
+      "duration_minutes": 23,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "23-minute negotiation call. Presented revised proposal with 24% discount ($6,400 ACV from $8,400 list) to address competitive pressure and close before month-end. Wyatt appreciated the movement and said pricing now works within his budget. Committed to presenting to CFO tomorrow for signature authority. Discussed implementation kickoff timeline.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start implementation next week if we sign by Friday?",
+          "answer": "Absolutely - we'll prioritize your onboarding and can kick off Monday if contract is executed."
+        },
+        {
+          "by": "rep",
+          "question": "Is there anything the CFO might want to see before signing?",
+          "answer": "No, the ROI is clear and the price now works. Should be straightforward."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Wyatt to present to CFO for approval",
+        "Send contract for signature",
+        "Target signature by end of week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-04-14",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Wyatt Lima",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with contract link and implementation kickoff scheduling options. Wyatt confirmed receipt and said he's meeting with CFO this afternoon. Expressed confidence about getting approval and mentioned excitement about getting started.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Await CFO approval",
+        "Contract signature expected within 48 hours"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

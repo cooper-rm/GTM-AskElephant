@@ -1,0 +1,324 @@
+{
+  "deal_id": "DEAL-0159",
+  "company": {
+    "name": "CloudVault",
+    "industry": "PropTech",
+    "employee_count": 68,
+    "annual_revenue": 7526622,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 3000.0,
+    "seats": 4,
+    "price_per_seat_monthly": 53.93,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 39.4,
+    "sales_cycle_days": 31,
+    "close_date": "2023-09-09",
+    "use_case": "Forecasting accuracy",
+    "competitor": "None",
+    "lead_source": "inbound",
+    "inbound_channel": "webinar_signup"
+  },
+  "people": [
+    {
+      "name": "Kwame Costa",
+      "role": "champion",
+      "title": "VP of CS",
+      "tenure_months": 4
+    },
+    {
+      "name": "Morgan Brooks",
+      "role": "end_user",
+      "title": "Implementation Lead",
+      "tenure_months": 19
+    },
+    {
+      "name": "Derek Wright",
+      "role": "end_user",
+      "title": "Sales Manager",
+      "tenure_months": 15
+    },
+    {
+      "name": "Isabella Martinez",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 9
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2023-08-08",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.7,
+      "rescheduled": false,
+      "ai_summary": "Inbound request from Kwame Costa inquiring about forecasting capabilities. New VP of CS at CloudVault looking to improve forecast accuracy for their property tech platform.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Schedule qualification call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "webinar_signup",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2023-08-09",
+      "type": "qualification_call",
+      "duration_minutes": 11,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Qualification call with Kwame. CloudVault is a 68-person PropTech company struggling with forecast accuracy. Kwame recently joined as VP of CS and wants to standardize their process. Currently using spreadsheets. Discussed team size (4 seats needed) and use case fit.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's driving the need for better forecasting right now?",
+          "answer": "I just started in this role and inherited a mess. Sales and CS are using different systems and our executive team doesn't trust the numbers."
+        },
+        {
+          "by": "prospect",
+          "question": "Do you integrate with Salesforce or HubSpot?",
+          "answer": "Yes, we have native integrations with both plus 50+ other tools."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Kwame to map out current process",
+        "Rep to send case study",
+        "Follow up next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2023-08-14",
+      "type": "follow_up_call",
+      "duration_minutes": 9,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to review CloudVault's current workflow. Kwame shared that Morgan Brooks (Implementation Lead) and Derek Wright (Sales Manager) would be the primary users. Discussed automation tier and pricing expectations. Kwame mentioned budget constraints but didn't share specific numbers.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else should be involved in evaluating this?",
+          "answer": "Morgan and Derek will be the day-to-day users. Isabella Martinez in RevOps will handle procurement, but I'm driving this."
+        },
+        {
+          "by": "prospect",
+          "question": "What does the unlimited automation tier include?",
+          "answer": "Unlimited workflows, custom triggers, API access, and advanced analytics."
+        }
+      ],
+      "objections": [
+        "Budget is tight this quarter since I'm still building out my team"
+      ],
+      "next_steps": [
+        "Schedule demo with Morgan and Derek included",
+        "Send pricing overview"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2023-08-18",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": 5.9,
+      "rescheduled": false,
+      "ai_summary": "Email confirming demo scheduled for next week. Sent pricing overview for unlimited automation tier (4 seats). Kwame responded asking about discount options for new customers.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Are there any new customer discounts available?",
+          "answer": "I can work with my manager on pricing after we confirm fit in the demo."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Demo scheduled for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2023-08-25",
+      "type": "demo",
+      "duration_minutes": 47,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Full product demo with Kwame, Morgan, and Derek. Walked through forecasting dashboards, automation workflows, and integration setup. Team engaged with good questions. Morgan particularly interested in implementation timeline. Derek asked about reporting customization. No executive sponsor on the call. Kwame reiterated budget sensitivity.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How long does implementation typically take?",
+          "answer": "For your team size, 2-3 weeks including training and integration setup."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we customize the sales pipeline reports?",
+          "answer": "Yes, completely customizable with drag-and-drop builder."
+        },
+        {
+          "by": "rep",
+          "question": "Should we get your CFO or CEO involved to discuss ROI?",
+          "answer": "Not necessary at this stage. I have budget authority for tools under $5K."
+        }
+      ],
+      "objections": [
+        "Timeline is tight - we need this running by end of quarter"
+      ],
+      "next_steps": [
+        "Send proposal with pricing options",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2023-08-29",
+      "type": "exec_meeting",
+      "duration_minutes": 48,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Meeting positioned as executive alignment but only Kwame attended. Discussed proposal: $3K ACV for 4 seats on unlimited automation tier (39.4% discount from list price). Kwame pushed hard on pricing, mentioned competing priorities for budget. Agreed to review internally and respond within a week.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is this the best you can do on pricing? We're a small company.",
+          "answer": "This is already a significant discount for a new customer. Let me confirm with leadership."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline?",
+          "answer": "I need to get Isabella from RevOps to review the contract terms, then I can move forward."
+        },
+        {
+          "by": "rep",
+          "question": "Any concerns about moving forward?",
+          "answer": "Just pricing. The product fits our needs."
+        }
+      ],
+      "objections": [
+        "Price is still higher than what I was hoping to spend"
+      ],
+      "next_steps": [
+        "Kwame to review with Isabella",
+        "Rep to confirm discount approval",
+        "Reconvene in 5 days"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2023-09-03",
+      "type": "exec_meeting",
+      "duration_minutes": 16,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up meeting to address contract terms. Isabella Martinez joined briefly to clarify payment terms and security requirements. Kwame asked about month-to-month option instead of annual contract. Discussed reducing scope to 3 seats to lower price. Team ultimately decided to keep 4 seats with annual commitment.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer monthly contracts instead of annual?",
+          "answer": "Monthly is available but at a higher per-seat rate. Annual gives you the best value."
+        },
+        {
+          "by": "prospect",
+          "question": "What if we started with 3 seats?",
+          "answer": "We could do that, but you'd lose about $400 in savings from the 4-seat tier pricing."
+        }
+      ],
+      "objections": [
+        "Annual commitment is a concern if this doesn't work out"
+      ],
+      "next_steps": [
+        "Isabella to review security documentation",
+        "Final pricing call to close"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2023-09-09",
+      "type": "pricing_call",
+      "duration_minutes": 14,
+      "person_name": "Kwame Costa",
+      "person_role": "champion",
+      "person_title": "VP of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final pricing review with Kwame. Confirmed $3K ACV, 4 seats, unlimited automation tier, annual contract with quarterly payment option. Kwame agreed to terms pending legal review. Discussed implementation kickoff timeline. Kwame mentioned urgency to get started before end of quarter.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we do quarterly payments instead of annual upfront?",
+          "answer": "Yes, we can structure that. Same annual price, split into four payments."
+        },
+        {
+          "by": "rep",
+          "question": "When can we kick off implementation?",
+          "answer": "As soon as legal signs off - hopefully within a week."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send final contract to Isabella",
+        "Legal review",
+        "Schedule implementation kickoff"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

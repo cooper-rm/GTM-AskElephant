@@ -1,0 +1,163 @@
+{
+  "deal_id": "DEAL-0779",
+  "company": {
+    "name": "CometPrism",
+    "industry": "Marketing Agency",
+    "employee_count": 39,
+    "annual_revenue": 4136481,
+    "segment": "smb"
+  },
+  "deal": {
+    "amount": 4000.0,
+    "seats": 6,
+    "price_per_seat_monthly": 59.91,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 32.7,
+    "sales_cycle_days": 19,
+    "close_date": "2025-01-24",
+    "use_case": "Pipeline visibility",
+    "competitor": "Fireflies",
+    "lead_source": "inbound",
+    "inbound_channel": "demo_request"
+  },
+  "people": [
+    {
+      "name": "Aisha Brooks",
+      "role": "champion",
+      "title": "Director of Sales",
+      "tenure_months": 30
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-03",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Aisha Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Aisha Brooks at CometPrism seeking better pipeline visibility for their sales team. She mentioned they're currently evaluating a few options including Fireflies but interested in our automation capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Does your platform support unlimited automation for tracking deal progress across our pipeline?",
+          "answer": "Yes, our unlimited_automation tier provides full pipeline tracking automation including custom workflows, automatic data capture, and real-time updates across all deal stages."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview and pricing tiers",
+        "Schedule qualification call for next week"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "demo_request",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-05",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 0.8,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email after initial inquiry. Aisha confirmed interest in moving forward and provided more context on their team size (6 sales reps) and current pain points with manual pipeline updates. She's the primary decision-maker on the sales ops side.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's the typical implementation timeline for a team our size?",
+          "answer": "For 6 seats, implementation typically takes 1-2 weeks including onboarding and initial workflow setup."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare technical demo focused on pipeline automation",
+        "Share case study from similar-sized marketing agencies"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-13",
+      "type": "technical_eval",
+      "duration_minutes": 60,
+      "person_name": "Aisha Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Hour-long technical evaluation call with Aisha walking through pipeline visibility features and automation workflows. She was impressed with the real-time dashboard but asked several questions about pricing and comparing our capabilities to Fireflies. No other stakeholders joined the call. Discussion turned to discount expectations given their budget constraints.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "How does your pipeline visibility compare to what Fireflies offers, specifically for sales team workflows?",
+          "answer": "Our platform is purpose-built for pipeline management with native CRM integrations and automated deal scoring, while Fireflies focuses primarily on meeting transcription. We offer deeper sales analytics and forecasting."
+        },
+        {
+          "by": "rep",
+          "question": "Will you need to involve your leadership team or finance in the final approval process?",
+          "answer": "I have budget authority for sales tools up to this range, so I can move forward once we align on pricing."
+        },
+        {
+          "by": "prospect",
+          "question": "What kind of flexibility do you have on pricing for a smaller team like ours?",
+          "answer": "We can work with you on pricing. Let me put together a proposal that fits your budget while delivering the automation value you need."
+        }
+      ],
+      "objections": [
+        "Pricing seems high compared to Fireflies for our team size"
+      ],
+      "next_steps": [
+        "Send proposal with pricing options",
+        "Follow up on decision timeline"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-25",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Aisha Brooks",
+      "person_role": "champion",
+      "person_title": "Director of Sales",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 2.6,
+      "rescheduled": false,
+      "ai_summary": "Pricing proposal sent with 32.7% discount to meet CometPrism's budget ($4,000 ACV for 6 seats, unlimited automation). Aisha responded positively and indicated she's ready to move forward with the discounted terms. No mention of involving other stakeholders or additional evaluation steps.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we start with a quarterly payment plan instead of annual upfront?",
+          "answer": "We can accommodate quarterly billing at a small additional fee. I'll update the proposal with that option."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send updated proposal with quarterly payment terms",
+        "Schedule contract review and kickoff planning"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}

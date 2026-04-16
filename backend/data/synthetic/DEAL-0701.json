@@ -1,0 +1,520 @@
+{
+  "deal_id": "DEAL-0701",
+  "company": {
+    "name": "QuantumCore",
+    "industry": "Healthcare IT",
+    "employee_count": 462,
+    "annual_revenue": 69466143,
+    "segment": "mid_market"
+  },
+  "deal": {
+    "amount": 12900.0,
+    "seats": 16,
+    "price_per_seat_monthly": 70.63,
+    "product_tier": "unlimited_automation",
+    "effective_discount_pct": 20.6,
+    "sales_cycle_days": 81,
+    "close_date": "2025-04-01",
+    "use_case": "Call recording + coaching",
+    "competitor": "Gong",
+    "lead_source": "inbound",
+    "inbound_channel": "referral"
+  },
+  "people": [
+    {
+      "name": "Rosa Becker",
+      "role": "champion",
+      "title": "Director of CS",
+      "tenure_months": 35
+    },
+    {
+      "name": "Peyton Gomez",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 1
+    },
+    {
+      "name": "Kevin Martin",
+      "role": "procurement",
+      "title": "IT Director",
+      "tenure_months": 6
+    },
+    {
+      "name": "Hazel Collins",
+      "role": "procurement",
+      "title": "RevOps Analyst",
+      "tenure_months": 41
+    }
+  ],
+  "touches": [
+    {
+      "touch_number": 1,
+      "date": "2025-01-07",
+      "type": "inbound_request",
+      "duration_minutes": 0,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "prospecting",
+      "got_response": true,
+      "response_time_hours": 0.6,
+      "rescheduled": false,
+      "ai_summary": "Inbound inquiry from Rosa Becker at QuantumCore regarding call recording and coaching solutions. She mentioned they're currently evaluating options and requested more information about our platform capabilities.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer call recording with real-time coaching features?",
+          "answer": "Yes, our platform includes AI-powered call recording with real-time coaching recommendations and post-call analysis."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send product overview deck",
+        "Schedule discovery call"
+      ],
+      "sentiment": "positive",
+      "inbound_channel": "referral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 2,
+      "date": "2025-01-10",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 3.2,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with product overview and use case examples for healthcare IT companies. Rosa responded positively, confirming interest in scheduling a discovery call to discuss their CS team's needs.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What's your typical implementation timeline for a team of around 15-20 users?",
+          "answer": "Standard implementation is 2-3 weeks including data migration, integrations, and team training."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule discovery call for next week"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 3,
+      "date": "2025-01-17",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "qualification",
+      "got_response": true,
+      "response_time_hours": 12.7,
+      "rescheduled": false,
+      "ai_summary": "Confirmation email with discovery call calendar invite. Rosa confirmed attendance and mentioned she'd like to discuss specific coaching workflows for her CS team handling healthcare clients.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Discovery call scheduled for Thursday 2pm"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 4,
+      "date": "2025-01-22",
+      "type": "discovery_call",
+      "duration_minutes": 25,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Discovery call focused on QuantumCore's current CS coaching process. Rosa explained they're manually reviewing calls and need automation. Discussed pain points around scalability and inconsistent coaching quality across 16 CS reps. She mentioned they're also looking at Gong but prefer our healthcare-specific features.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What's your current process for call review and coaching?",
+          "answer": "We're doing manual spot-checks on about 10% of calls, very time-intensive and inconsistent."
+        },
+        {
+          "by": "prospect",
+          "question": "Can your AI identify HIPAA-related compliance issues in customer calls?",
+          "answer": "Yes, our compliance detection includes HIPAA keyword flagging and sensitive data alerts."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send ROI calculator",
+        "Schedule follow-up to discuss team structure"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 5,
+      "date": "2025-01-28",
+      "type": "discovery_call",
+      "duration_minutes": 17,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up discovery call diving deeper into team structure and current tech stack. Rosa confirmed 16 CS reps would need licenses. Discussed integration requirements with their existing CRM and support tools.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "What CRM and support tools are you currently using?",
+          "answer": "Salesforce for CRM and Zendesk for support ticketing."
+        },
+        {
+          "by": "prospect",
+          "question": "How does your pricing compare to Gong for our team size?",
+          "answer": "We're typically competitive at mid-market scale, happy to provide detailed pricing after understanding your full requirements."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Prepare custom demo focusing on CS coaching workflows",
+        "Loop in technical team for integration discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 6,
+      "date": "2025-02-04",
+      "type": "follow_up_call",
+      "duration_minutes": 24,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "discovery",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up call to clarify stakeholder involvement. Rosa mentioned she'd need to bring in Peyton from IT for security review and someone from procurement for contracting. Discussed timeline - she's hoping to have something in place by end of quarter.",
+      "questions_asked": [
+        {
+          "by": "rep",
+          "question": "Who else needs to be involved in the evaluation process?",
+          "answer": "I'll need our IT Director Peyton Gomez for security sign-off, and our procurement team will handle contracts."
+        },
+        {
+          "by": "prospect",
+          "question": "What's your implementation support like during the first 30 days?",
+          "answer": "We provide dedicated onboarding specialist, weekly check-ins, and 24/7 technical support."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule demo for next week",
+        "Prepare security documentation for IT review"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 7,
+      "date": "2025-02-11",
+      "type": "demo",
+      "duration_minutes": 49,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Product demo session with Rosa covering core features: call recording, AI-powered coaching insights, performance dashboards, and compliance monitoring. Walked through specific healthcare CS scenarios. Rosa was engaged and asked detailed questions about reporting capabilities and manager workflows.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can managers create custom coaching scorecards based on our specific CS methodology?",
+          "answer": "Yes, fully customizable scorecards with weighted criteria and automated scoring."
+        },
+        {
+          "by": "prospect",
+          "question": "How does the AI handle medical terminology in our healthcare vertical?",
+          "answer": "Our model is trained on healthcare vocabulary and can be fine-tuned with your specific terminology."
+        },
+        {
+          "by": "rep",
+          "question": "What's most important to you in choosing a solution?",
+          "answer": "Ease of use for managers, accurate AI insights, and making sure it actually saves time rather than creating more work."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule technical evaluation with IT",
+        "Send demo recording and feature comparison doc"
+      ],
+      "sentiment": "positive",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 8,
+      "date": "2025-02-20",
+      "type": "technical_eval",
+      "duration_minutes": 42,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Technical evaluation call with Rosa and Peyton Gomez (IT Director). Covered security architecture, data encryption, SSO integration, API capabilities, and compliance certifications. Peyton asked detailed questions about data retention and backup policies.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Where is call data stored and what are your SOC 2 and HIPAA compliance statuses?",
+          "answer": "Data stored in US-based AWS regions, SOC 2 Type II certified, HIPAA compliant with BAA available."
+        },
+        {
+          "by": "prospect",
+          "question": "Can we control data retention periods and ensure automated deletion?",
+          "answer": "Yes, configurable retention policies from 30 days to 7 years with automated purging."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the process for custom API integrations if we need them?",
+          "answer": "RESTful API with comprehensive documentation, plus professional services available for custom integrations."
+        }
+      ],
+      "objections": [
+        "Need to review security documentation with our compliance team before moving forward"
+      ],
+      "next_steps": [
+        "Send security whitepaper and SOC 2 report",
+        "Schedule executive alignment meeting"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 9,
+      "date": "2025-02-22",
+      "type": "exec_meeting",
+      "duration_minutes": 22,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Executive meeting was rescheduled by Rosa - she mentioned needing to get her VP of Customer Success aligned first before bringing in procurement and finalizing stakeholders.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule for following week"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "internal prioritization shift"
+    },
+    {
+      "touch_number": 10,
+      "date": "2025-02-28",
+      "type": "technical_eval",
+      "duration_minutes": 45,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "demo_evaluation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": true,
+      "ai_summary": "Second technical evaluation rescheduled - Peyton had a scheduling conflict. Rosa confirmed they're still moving forward but internal calendar coordination has been challenging.",
+      "questions_asked": [],
+      "objections": [],
+      "next_steps": [
+        "Reschedule technical review"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": "champion had conflict"
+    },
+    {
+      "touch_number": 11,
+      "date": "2025-03-07",
+      "type": "exec_meeting",
+      "duration_minutes": 26,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Executive meeting with Rosa, Peyton Gomez, and Kevin Martin from IT/procurement. Discussed business case, ROI projections, and implementation timeline. Rosa presented internal analysis showing potential 12-hour weekly time savings for CS leadership. Team generally positive but Kevin mentioned they need to compare final pricing with Gong.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "What does your customer success team structure look like for an account our size?",
+          "answer": "Dedicated CSM with quarterly business reviews plus technical support team available 24/7."
+        },
+        {
+          "by": "rep",
+          "question": "What's your decision timeline looking like?",
+          "answer": "We're hoping to make a decision within 3 weeks and implement before end of quarter."
+        }
+      ],
+      "objections": [
+        "Need to see how your pricing stacks up against Gong before finalizing"
+      ],
+      "next_steps": [
+        "Prepare formal proposal with pricing",
+        "Schedule pricing review call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 12,
+      "date": "2025-03-13",
+      "type": "exec_meeting",
+      "duration_minutes": 29,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "proposal",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Follow-up executive meeting with Rosa and Hazel Collins from RevOps. Discussed procurement process, contract terms, and implementation planning. Hazel asked about payment terms and whether we offer quarterly billing. Rosa confirmed budget is approved but needs competitive pricing to get final sign-off.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Do you offer quarterly payment options or is it annual only?",
+          "answer": "We can accommodate quarterly payments with a small adjustment to terms."
+        },
+        {
+          "by": "prospect",
+          "question": "What's included in the base price versus additional professional services?",
+          "answer": "Base includes standard implementation, training, and ongoing support. Custom integrations or advanced training are additional."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send formal proposal with pricing options",
+        "Schedule pricing discussion"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 13,
+      "date": "2025-03-19",
+      "type": "follow_up_email",
+      "duration_minutes": 0,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": 15.1,
+      "rescheduled": false,
+      "ai_summary": "Follow-up email sent with formal proposal including pricing for 16 seats at $12,900 ACV with unlimited automation tier. Rosa responded asking if there's flexibility on pricing given they're comparing with Gong's proposal.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Is there any flexibility on the proposed pricing?",
+          "answer": "Let's schedule a call to discuss - we have some options depending on contract length and payment terms."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Schedule pricing negotiation call"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 14,
+      "date": "2025-03-25",
+      "type": "pricing_call",
+      "duration_minutes": 24,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Pricing negotiation call with Rosa and Hazel. Discussed discount options - they shared that Gong came in lower and they need us to match or beat it to move forward. Explored multi-year options and quarterly payment structure.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can you match Gong's pricing if we commit to annual contract with quarterly payments?",
+          "answer": "Let me work with leadership on a revised proposal - we want to earn your business."
+        },
+        {
+          "by": "rep",
+          "question": "Besides pricing, what other factors are important in your decision?",
+          "answer": "Implementation speed and the healthcare-specific features are important, but we need to stay within budget constraints."
+        }
+      ],
+      "objections": [
+        "Gong's pricing is coming in lower than your initial proposal"
+      ],
+      "next_steps": [
+        "Get approval for discount to match competitive pricing",
+        "Send revised proposal within 48 hours"
+      ],
+      "sentiment": "cautious",
+      "reschedule_reason": null
+    },
+    {
+      "touch_number": 15,
+      "date": "2025-03-30",
+      "type": "exec_meeting",
+      "duration_minutes": 42,
+      "person_name": "Rosa Becker",
+      "person_role": "champion",
+      "person_title": "Director of CS",
+      "stage": "negotiation",
+      "got_response": true,
+      "response_time_hours": null,
+      "rescheduled": false,
+      "ai_summary": "Final executive meeting with Rosa, Hazel, Peyton, and Kevin to review revised proposal with 20.6% discount to match competitive pricing. Team discussed final contract terms, implementation timeline, and success metrics. Rosa confirmed they're ready to move forward pending legal review of MSA.",
+      "questions_asked": [
+        {
+          "by": "prospect",
+          "question": "Can we include a performance clause for the AI accuracy metrics you've promised?",
+          "answer": "We can include SLA language around system uptime and support response times in the MSA."
+        },
+        {
+          "by": "prospect",
+          "question": "What's the cancellation policy if results don't meet expectations in first 6 months?",
+          "answer": "Standard annual contract with 30-day termination notice, but we can discuss a 90-day performance review checkpoint."
+        },
+        {
+          "by": "rep",
+          "question": "Are there any other concerns or blockers we should address?",
+          "answer": "No major blockers - we just need to route through legal now and get the MSA finalized."
+        }
+      ],
+      "objections": [],
+      "next_steps": [
+        "Send MSA to legal for review",
+        "Plan implementation kickoff for 2 weeks out"
+      ],
+      "sentiment": "neutral",
+      "reschedule_reason": null
+    }
+  ],
+  "outcome": {
+    "status": "retained",
+    "days_to_churn": null,
+    "churn_reason": null
+  }
+}
