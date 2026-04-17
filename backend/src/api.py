@@ -212,19 +212,39 @@ def _build_summary(result: dict) -> dict:
 
 @app.get("/runs/{deal_id}")
 def get_run(deal_id: str):
-    """Retrieve all artifacts from a past pipeline run."""
+    """
+    Retrieve pipeline run status + artifacts.
+    Returns processing/completed/failed status. If completed, includes
+    delivery summary. Full artifact JSON available at this endpoint
+    once the run finishes.
+    """
+    # Check in-flight first
+    with _lock:
+        if deal_id in _in_flight:
+            status = _in_flight[deal_id].get('status', 'processing')
+            if status == 'processing':
+                return JSONResponse({
+                    "deal_id": deal_id,
+                    "status": "processing",
+                    "message": "Pipeline is still running. Check Slack for real-time delivery.",
+                }, status_code=202)
+            else:
+                return JSONResponse(_in_flight[deal_id])
+
+    # Check disk
     run_dir = os.path.join(RUNS_DIR, deal_id)
-    if not os.path.isdir(run_dir):
-        raise HTTPException(status_code=404, detail=f"No run found for {deal_id}")
+    completed_marker = os.path.join(run_dir, '_completed.json')
+    failed_marker = os.path.join(run_dir, '_failed.json')
 
-    artifacts = {}
-    for fname in sorted(os.listdir(run_dir)):
-        if fname.endswith('.json'):
-            with open(os.path.join(run_dir, fname)) as f:
-                name = fname.replace('.json', '')
-                artifacts[name] = json.load(f)
+    if os.path.exists(completed_marker):
+        with open(completed_marker) as f:
+            return JSONResponse(json.load(f))
 
-    return JSONResponse(artifacts)
+    if os.path.exists(failed_marker):
+        with open(failed_marker) as f:
+            return JSONResponse(json.load(f), status_code=500)
+
+    raise HTTPException(status_code=404, detail=f"No run found for {deal_id}")
 
 
 @app.get("/runs")
