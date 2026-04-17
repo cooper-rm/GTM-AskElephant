@@ -78,6 +78,18 @@ def run_pipeline(deal: dict, csm_email: str = 'askelephantdemo@gmail.com') -> di
     # Step 4: Output agents — Wave 1 in parallel, then success_plan in Wave 2
     artifacts = _run_output_agents_two_wave(enriched_context)
 
+    # Gate: if ANY agent failed, abort delivery — never send broken artifacts
+    failed_agents = [
+        name for name, content in artifacts.items()
+        if isinstance(content, str) and content.startswith('[Agent failed')
+    ]
+    if failed_agents:
+        raise RuntimeError(
+            f"Pipeline aborted — {len(failed_agents)} agent(s) failed: "
+            f"{', '.join(failed_agents)}. No artifacts delivered. "
+            f"First error: {artifacts[failed_agents[0]]}"
+        )
+
     # Step 5: Delivery
     champion = next(p for p in deal['people'] if p['role'] == 'champion')
     # In test mode (default), route ALL emails to csm_email for visibility.
