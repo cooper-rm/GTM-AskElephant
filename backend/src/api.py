@@ -2,15 +2,17 @@
 FastAPI Webhook Server
 
 Endpoints:
-    POST /activate    Run the full pipeline on a deal record
-    GET  /health      Health check
-    GET  /runs/{id}   Retrieve artifacts from a past run
-    GET  /runs        List all past runs
+    POST /activate           Run the pipeline (async with 10s fast-fail window)
+    GET  /health             Health check
+    GET  /runs/{id}/status   Check pipeline status (completed / processing / failed)
+    GET  /runs/{id}          Retrieve full artifacts from a past run
+    GET  /runs               List all past runs
 """
 import json
 import os
 import logging
 import traceback
+import threading
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
@@ -29,6 +31,12 @@ app = FastAPI(
 
 RUNS_DIR = os.path.join(os.path.dirname(__file__), "../data/runs")
 
+# In-flight pipeline tracking: deal_id → {"status": "processing" | "completed" | "failed", ...}
+_in_flight: dict = {}
+_lock = threading.Lock()
+
+FAST_FAIL_TIMEOUT = 10  # seconds to wait for quick errors before returning "processing"
+
 
 @app.get("/health")
 def health():
@@ -40,8 +48,14 @@ async def activate(deal: dict):
     """
     Run the closed-won activation pipeline on a deal record.
 
-    Returns a clean summary of what was delivered — not the full pipeline
-    output (which is saved to disk and retrievable via /runs/{deal_id}).
+    Behavior:
+      - Validates input immediately (400 on bad input)
+      - Checks idempotency (returns cached result if already ran)
+      - Starts pipeline in background thread
+      - Waits up to 10s for fast errors (bad API key, agent crashes)
+      - If done in 10s → returns result (success or failure)
+      - If still running → returns {"status": "processing"}, pipeline continues
+      - Poll GET /runs/{deal_id}/status for the final result
     """
     if 'deal_id' not in deal:
         raise HTTPException(status_code=400, detail="Missing deal_id")
@@ -51,7 +65,7 @@ async def activate(deal: dict):
     deal_id = deal['deal_id']
     company_name = deal.get('company', {}).get('name', '?')
 
-    # Idempotency: if this deal already ran, return the cached result
+    # Idempotency: if this deal already completed, return cached result
     run_dir = os.path.join(RUNS_DIR, deal_id)
     completed_marker = os.path.join(run_dir, '_completed.json')
     if os.path.exists(completed_marker):
@@ -60,39 +74,114 @@ async def activate(deal: dict):
         logger.info(f"[{deal_id}] Idempotent hit — returning cached result")
         return JSONResponse({**cached, "cached": True})
 
-    try:
-        logger.info(f"[{deal_id}] Pipeline starting for {company_name}")
-        result = run_pipeline(deal)
-        logger.info(f"[{deal_id}] Pipeline complete")
-
-        # Build a clean summary (no Block Kit blobs or LLM raw text)
-        summary = _build_summary(result)
-
-        # Save the completion marker for idempotency
-        os.makedirs(run_dir, exist_ok=True)
-        with open(completed_marker, 'w') as f:
-            json.dump(summary, f, indent=2)
-
-        return summary
-
-    except Exception as e:
-        logger.error(f"[{deal_id}] Pipeline failed: {e}")
-        logger.error(traceback.format_exc())
-        raise HTTPException(
-            status_code=500,
-            detail={
-                "error": "Pipeline failed",
+    # Check if already in-flight
+    with _lock:
+        if deal_id in _in_flight and _in_flight[deal_id]['status'] == 'processing':
+            return JSONResponse({
                 "deal_id": deal_id,
-                "message": str(e),
-            },
-        )
+                "status": "processing",
+                "message": "Pipeline already running for this deal",
+            })
+
+    # Start pipeline in background thread
+    done_event = threading.Event()
+    result_holder = {}
+
+    def _run():
+        try:
+            logger.info(f"[{deal_id}] Pipeline starting for {company_name}")
+            with _lock:
+                _in_flight[deal_id] = {"status": "processing"}
+
+            result = run_pipeline(deal)
+            summary = _build_summary(result)
+
+            # Save completion marker for idempotency
+            os.makedirs(run_dir, exist_ok=True)
+            with open(completed_marker, 'w') as f:
+                json.dump(summary, f, indent=2)
+
+            result_holder['data'] = summary
+            with _lock:
+                _in_flight[deal_id] = summary
+
+            logger.info(f"[{deal_id}] Pipeline complete")
+
+        except Exception as e:
+            logger.error(f"[{deal_id}] Pipeline failed: {e}")
+            logger.error(traceback.format_exc())
+            error_result = {
+                "deal_id": deal_id,
+                "status": "failed",
+                "error": str(e),
+            }
+            # Save failure marker so status endpoint can report it
+            os.makedirs(run_dir, exist_ok=True)
+            with open(os.path.join(run_dir, '_failed.json'), 'w') as f:
+                json.dump(error_result, f, indent=2)
+
+            result_holder['data'] = error_result
+            with _lock:
+                _in_flight[deal_id] = error_result
+
+        finally:
+            done_event.set()
+
+    thread = threading.Thread(target=_run, daemon=True)
+    thread.start()
+
+    # Wait up to 10s for fast errors (auth failures, agent crashes)
+    done_event.wait(timeout=FAST_FAIL_TIMEOUT)
+
+    if done_event.is_set():
+        # Pipeline finished (success or failure) within the timeout
+        data = result_holder.get('data', {})
+        if data.get('status') == 'failed':
+            return JSONResponse(data, status_code=500)
+        return JSONResponse(data)
+    else:
+        # Still running — return processing, pipeline continues in background
+        return JSONResponse({
+            "deal_id": deal_id,
+            "status": "processing",
+            "message": (
+                f"Pipeline is running for {company_name}. "
+                f"Check Slack channels for real-time artifact delivery, "
+                f"or poll GET /runs/{deal_id}/status for the final result."
+            ),
+        }, status_code=202)
+
+
+@app.get("/runs/{deal_id}/status")
+def get_status(deal_id: str):
+    """
+    Check the status of a pipeline run.
+    Returns: processing | completed | failed
+    """
+    # Check in-flight first (most recent state)
+    with _lock:
+        if deal_id in _in_flight:
+            return JSONResponse(_in_flight[deal_id])
+
+    # Check disk for completed/failed markers
+    run_dir = os.path.join(RUNS_DIR, deal_id)
+    completed_marker = os.path.join(run_dir, '_completed.json')
+    failed_marker = os.path.join(run_dir, '_failed.json')
+
+    if os.path.exists(completed_marker):
+        with open(completed_marker) as f:
+            return JSONResponse(json.load(f))
+
+    if os.path.exists(failed_marker):
+        with open(failed_marker) as f:
+            return JSONResponse(json.load(f), status_code=500)
+
+    raise HTTPException(status_code=404, detail=f"No run found for {deal_id}")
 
 
 def _build_summary(result: dict) -> dict:
     """
     Extract a clean, JSON-safe summary from the full pipeline result.
-    The full output (Block Kit, structured JSON, PDFs) lives on disk
-    and is retrievable via /runs/{deal_id}.
     """
     delivery = {}
     for name, info in result.get('delivery', {}).items():
@@ -101,7 +190,6 @@ def _build_summary(result: dict) -> dict:
                 'status': info.get('status', 'unknown'),
                 'destination': info.get('destination', '?'),
             }
-            # Include PDF status for the handoff package
             if 'pdf_status' in info:
                 delivery[name]['pdf_status'] = info['pdf_status']
         else:
