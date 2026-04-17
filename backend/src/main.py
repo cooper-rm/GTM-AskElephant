@@ -54,8 +54,7 @@ def _run_summary(deal):
     print(f"Deal: {result['deal_id']}")
 
     ml = result['ml_context']
-    print(f"Raw churn prob: {ml['churn_risk_prob']:.1%}")
-    print(f"Risk multiplier: {ml['risk_multiplier']}x ({ml['risk_tier']})")
+    print(f"Risk: {ml['risk_multiplier']}x average churn rate ({ml['risk_tier'].replace('_', ' ')})")
     print(f"Interpretation: {ml['risk_interpretation']}")
 
     print(f"\nArtifacts delivered:")
@@ -127,20 +126,46 @@ def _run_verbose(deal):
     }
 
     # --- Step 3a: Q&A History Agent ---
-    _print_section("STEP 3a — Q&A History Agent")
+    _print_section("STEP 3a — Q&A History Agent (LLM)")
     qa = qa_history.run(deal)
     print(f"Total Q&A pairs:     {qa['total_qa_pairs']}")
     print(f"Unique Q&A pairs:    {qa['unique_qa_pairs']}")
     print(f"Prospect questions:  {len(qa['prospect_questions'])}")
     print(f"Rep questions:       {len(qa['rep_questions'])}")
     print(f"Open questions:      {len(qa['open_questions'])}")
-    if qa['qa_history']:
-        print(f"\nFirst 3 Q&A entries:")
-        for item in qa['qa_history'][:3]:
-            print(f"  [{item['touch_number']}] {item['asked_by']}: {str(item['question'])[:80]}")
+    if qa.get('analysis'):
+        print(f"\nAnalysis: {qa['analysis']}")
+    if qa.get('key_insights'):
+        print(f"\nKey insights:")
+        for item in qa['key_insights']:
+            print(f"  - {item}")
 
-    # --- Step 3b: Risk Narrative Agent ---
-    _print_section("STEP 3b — Risk Narrative Agent (LLM)")
+    # --- Step 3b: Objection History Agent ---
+    from .nodes.agents import objection_history
+    _print_section("STEP 3b — Objection History Agent (LLM)")
+    obj = objection_history.run(deal)
+    print(f"Total objections:    {obj['total_objections']}")
+    print(f"Unique objections:   {obj['unique_objections']}")
+    if obj.get('analysis'):
+        print(f"\nAnalysis: {obj['analysis']}")
+    if obj.get('risk_signals'):
+        print(f"\nRisk signals:")
+        for item in obj['risk_signals']:
+            print(f"  - {item}")
+
+    # --- Step 3c: Neighbor Analysis Agent ---
+    from .nodes.agents import neighbor_analysis
+    _print_section("STEP 3c — Neighbor Analysis Agent (LLM)")
+    nn = neighbor_analysis.run(deal, ml_context)
+    if nn.get('pattern_analysis'):
+        print(f"Pattern: {nn['pattern_analysis']}")
+    if nn.get('actionable_insights'):
+        print(f"\nActionable insights:")
+        for item in nn['actionable_insights']:
+            print(f"  - {item}")
+
+    # --- Step 3d: Risk Narrative Agent ---
+    _print_section("STEP 3d — Risk Narrative Agent (LLM)")
     print("Calling LLM...")
     rn = risk_narrative.run(deal, ml_context)
     print(f"\nSummary: {rn.get('summary', '')}")

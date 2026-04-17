@@ -22,12 +22,14 @@ def run(enriched_context: dict) -> dict:
     deal = enriched_context['deal']
     ml = enriched_context.get('ml_context', {})
     risk = enriched_context.get('risk_narrative', {})
+    qa = enriched_context.get('qa_history', {})
+    objections = enriched_context.get('objection_history', {})
 
     company = deal['company']
     deal_info = deal['deal']
     champion = next(p for p in deal['people'] if p['role'] == 'champion')
 
-    structured = _generate_structured_draft(deal, ml, risk)
+    structured = _generate_structured_draft(deal, ml, risk, qa, objections)
     blocks = _render_blocks(company, deal_info, champion, structured)
     fallback = f"Kickoff meeting draft — {company['name']} (for CSM review before sending to {champion['name']})"
 
@@ -38,7 +40,7 @@ def run(enriched_context: dict) -> dict:
     }
 
 
-def _generate_structured_draft(deal: dict, ml: dict, risk: dict) -> dict:
+def _generate_structured_draft(deal: dict, ml: dict, risk: dict, qa: dict, objections: dict) -> dict:
     company = deal['company']
     deal_info = deal['deal']
     champion = next(p for p in deal['people'] if p['role'] == 'champion')
@@ -50,12 +52,29 @@ def _generate_structured_draft(deal: dict, ml: dict, risk: dict) -> dict:
 
     attendees_str = '\n'.join(f"  - {p['name']}, {p['title']} ({p['role']})" for p in attendees)
 
-    # Pretty product-tier label — never leak raw snake_case keys into customer-facing copy
+    # Pretty product-tier label
     tier_key = deal_info.get('product_tier', '')
     tier_label = {
         'unlimited_automation': 'Unlimited Automation',
         'automations_plus_consulting': 'Automations + AI Consulting',
     }.get(tier_key, tier_key.replace('_', ' ').title())
+
+    # Personalization signals from deal cycle
+    qa_insights = qa.get('key_insights', [])[:2]
+    obj_insights = objections.get('risk_signals', [])[:2]
+    personalization = ""
+    if qa_insights or obj_insights:
+        signals = []
+        if qa_insights:
+            signals += qa_insights
+        if obj_insights:
+            signals += obj_insights
+        personalization = (
+            "\nPERSONALIZATION (weave ONE of these into the opening or agenda naturally):\n"
+            + '\n'.join(f"  - {s}" for s in signals[:3])
+            + "\nDo NOT list these — incorporate the most relevant one so the email "
+            "feels like the sender already understands their situation.\n"
+        )
 
     risk_tier = ml.get('risk_tier', 'average')
 
@@ -82,7 +101,7 @@ CUSTOMER:
 RISK PROFILE:
 - Tier: {risk_tier} ({ml.get('risk_multiplier', 1.0)}x average churn risk)
 - Intensity guidance: {intensity}
-
+{personalization}
 OUTPUT SCHEMA (valid JSON only, no markdown fences):
 {{
   "subject": "Specific subject line — NOT 'Welcome' or 'Hi' (e.g. 'Kickoff call — mapping your rep productivity rollout')",

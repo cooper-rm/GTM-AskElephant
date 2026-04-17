@@ -353,11 +353,11 @@ def risk_badge(tier: str, multiplier: float, churn_prob: float) -> Table:
         Paragraph(f"{tier_label} CHURN RISK", tier_style),
     ]
     right_cell = [
-        Paragraph("RAW PROBABILITY", label_style),
-        Paragraph(f"{churn_prob:.1%}", val_style),
+        Paragraph("RISK LEVEL", label_style),
+        Paragraph(f"{tier_label}", val_style),
         Spacer(1, 6),
-        Paragraph("VS BASELINE", label_style),
-        Paragraph("15% base rate", val_style),
+        Paragraph("VS AVERAGE", label_style),
+        Paragraph(f"{multiplier:.1f}\u00d7 churn rate", val_style),
     ]
 
     t = Table(

@@ -39,11 +39,13 @@ def run(enriched_context: dict) -> dict:
     ml = enriched_context.get('ml_context', {})
     risk = enriched_context.get('risk_narrative', {})
     qa = enriched_context.get('qa_history', {})
+    objections = enriched_context.get('objection_history', {})
+    neighbors = enriched_context.get('neighbor_analysis', {})
 
     company = deal['company']
     deal_info = deal['deal']
 
-    structured = _generate_structured_brief(deal, ml, risk, qa)
+    structured = _generate_structured_brief(deal, ml, risk, qa, objections, neighbors)
     blocks = _render_blocks(company, deal_info, ml, structured)
     fallback = _build_fallback(company, deal_info, ml)
 
@@ -58,7 +60,7 @@ def run(enriched_context: dict) -> dict:
 # LLM call → structured JSON
 # ────────────────────────────────────────────────────────────────────────────
 
-def _generate_structured_brief(deal: dict, ml: dict, risk: dict, qa: dict) -> dict:
+def _generate_structured_brief(deal: dict, ml: dict, risk: dict, qa: dict, objections: dict, neighbors: dict) -> dict:
     company = deal['company']
     deal_info = deal['deal']
 
@@ -74,7 +76,7 @@ def _generate_structured_brief(deal: dict, ml: dict, risk: dict, qa: dict) -> di
         for p in deal['people']
     ) or '  (no people recorded)'
 
-    # Touch history — include objections and Q&A with attribution
+    # Touch history — Q&A from structured agent, no raw objection parsing
     touches_parts = []
     for t in deal.get('touches', [])[:10]:
         header = (
@@ -83,13 +85,6 @@ def _generate_structured_brief(deal: dict, ml: dict, risk: dict, qa: dict) -> di
             f"(sentiment: {t.get('sentiment', 'neutral')}, inbound: {t.get('inbound', False)})"
         )
         parts = [header]
-
-        objs = t.get('objections', [])
-        if objs:
-            parts.append("    Objections:")
-            for o in objs[:3]:
-                if isinstance(o, str):
-                    parts.append(f"      - {o}")
 
         qas = t.get('questions_asked', [])
         if qas:
@@ -103,21 +98,33 @@ def _generate_structured_brief(deal: dict, ml: dict, risk: dict, qa: dict) -> di
         touches_parts.append('\n'.join(parts))
     touches_str = '\n'.join(touches_parts) or '  (no touch history)'
 
-    # ML risk + neighbors
-    neighbors = ml.get('nearest_neighbors', [])
-    nn_str = '\n'.join(
-        f"  - {n.get('company_name')} ({n.get('segment')}, ${n.get('amount', 0):,.0f}): "
-        f"{n.get('outcome')}"
-        + (f" at day {n.get('days_to_churn')}" if n.get('days_to_churn') else '')
-        + (f" — {n.get('churn_reason')}" if n.get('churn_reason') else '')
-        for n in neighbors[:5]
-    ) or '  (no neighbor data)'
+    # Structured objection history (from objection_history agent)
+    obj_items = objections.get('objection_history', [])[:6]
+    objections_str = '\n'.join(
+        f"  - Touch #{o.get('touch_number')} ({o.get('stage', '?')}) — "
+        f"{o.get('raised_by', '?')} ({o.get('raised_by_role', '?')}): "
+        f"\"{o.get('objection', '')}\""
+        for o in obj_items
+    ) or '  (no objections recorded)'
+    unresolved_str = ', '.join(objections.get('unresolved_objections', [])) or 'None'
 
+    # Risk factors — humanized (no SHAP jargon)
     top_factors = ml.get('top_risk_factors', [])
     factors_str = '\n'.join(
-        f"  - {name}: SHAP {val:+.3f} ({'↑' if val > 0 else '↓'} risk)"
+        f"  - {name.replace('_', ' ').title()}: {'increases' if val > 0 else 'reduces'} churn risk"
         for name, val in top_factors[:5]
-    ) or '  (no factors)'
+    ) or '  (no factors identified)'
+
+    # Neighbor analysis — use LLM-analyzed patterns instead of raw data
+    neighbor_pattern = neighbors.get('pattern_analysis', '')
+    neighbor_insights = neighbors.get('actionable_insights', [])
+    neighbor_warnings = neighbors.get('warning_signals', [])
+    nn_analysis_str = neighbor_pattern
+    if neighbor_insights:
+        nn_analysis_str += '\nActionable insights:\n' + '\n'.join(f"  - {i}" for i in neighbor_insights[:3])
+    if neighbor_warnings:
+        nn_analysis_str += '\nWarning signals:\n' + '\n'.join(f"  - {w}" for w in neighbor_warnings[:2])
+    nn_analysis_str = nn_analysis_str or '  (no similar deal analysis available)'
 
     prompt = f"""Generate a comprehensive CSM handoff brief. Return ONLY valid JSON matching the schema.
 
@@ -135,17 +142,22 @@ PEOPLE (use these names + titles for attribution):
 TOUCH HISTORY:
 {touches_str}
 
-ML RISK CONTEXT:
-- Raw churn probability: {ml.get('churn_risk_prob', 0):.1%}
+OBJECTION ANALYSIS (from objection agent):
+Objections raised:
+{objections_str}
+Unresolved concerns: {unresolved_str}
+Objection agent analysis: {objections.get('analysis', '(none)')}
+
+RISK CONTEXT:
 - Risk tier: {ml.get('risk_tier', 'unknown')}
-- Risk multiplier: {ml.get('risk_multiplier', 1.0)}x average
-- Top SHAP factors:
+- Risk multiplier: {ml.get('risk_multiplier', 1.0)}x average churn rate
+- Key risk factors:
 {factors_str}
 
-SIMILAR HISTORICAL DEALS (HNSW nearest neighbors):
-{nn_str}
+SIMILAR DEAL ANALYSIS (from neighbor analysis agent):
+{nn_analysis_str}
 
-PRIOR RISK NARRATIVE (for reference — you can build on this):
+PRIOR RISK NARRATIVE:
 {risk.get('summary', '(none)')}
 
 ATTRIBUTION RULES:
@@ -389,7 +401,7 @@ def _render_blocks(company: dict, deal_info: dict, ml: dict, s: dict) -> list:
 
     blocks.append(_mrkdwn_section(
         f"{risk_emoji}   *Risk tier:*  _{risk_tier.replace('_', ' ')}_\n"
-        f"*{risk_multiplier}x* average churn  ·  {churn_prob:.1%} raw probability"
+        f"*{risk_multiplier}x* average churn rate"
     ))
 
     ra = s.get('risk_assessment', {}) or {}

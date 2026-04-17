@@ -24,7 +24,7 @@ from .nodes.xgb_scoring import predict_churn
 from .nodes.nn_retrieval import query_neighbors, compute_nn_churn_rate
 from .nodes.risk_calibration import calibrate_risk
 
-from .nodes.agents import qa_history, risk_narrative
+from .nodes.agents import qa_history, objection_history, neighbor_analysis, risk_narrative
 from .nodes.agents import welcome_email, slack_announce, csm_brief
 from .nodes.agents import kickoff_draft, crm_updates, success_plan
 from .nodes.agents import delivery
@@ -64,14 +64,18 @@ def run_pipeline(deal: dict, csm_email: str = 'askelephantdemo@gmail.com') -> di
         'nn_churn_rate': compute_nn_churn_rate(neighbors),
     }
 
-    # Step 3: Analysis agents
+    # Step 3: Analysis agents (4 agents — all produce LLM-analyzed insights)
     qa_result = qa_history.run(deal)
+    objection_result = objection_history.run(deal)
+    neighbor_result = neighbor_analysis.run(deal, ml_context)
     risk_result = risk_narrative.run(deal, ml_context)
 
     enriched_context = {
         'deal': deal,
         'ml_context': ml_context,
         'qa_history': qa_result,
+        'objection_history': objection_result,
+        'neighbor_analysis': neighbor_result,
         'risk_narrative': risk_result,
     }
 

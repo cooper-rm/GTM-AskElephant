@@ -14,6 +14,8 @@ def run(enriched_context: dict) -> str:
     """
     deal = enriched_context['deal']
     risk = enriched_context['risk_narrative']
+    qa = enriched_context.get('qa_history', {})
+    objections = enriched_context.get('objection_history', {})
 
     company = deal['company']
     deal_info = deal['deal']
@@ -26,6 +28,25 @@ def run(enriched_context: dict) -> str:
         'automations_plus_consulting': 'Automations + AI Consulting',
     }.get(tier_key, tier_key.replace('_', ' ').title())
 
+    # Personalization signals from deal cycle analysis
+    qa_insights = qa.get('key_insights', [])[:2]
+    obj_insights = objections.get('risk_signals', [])[:2]
+    personalization_context = ""
+    if qa_insights or obj_insights:
+        signals = []
+        if qa_insights:
+            signals.append("Q&A insights: " + "; ".join(qa_insights))
+        if obj_insights:
+            signals.append("Objection insights: " + "; ".join(obj_insights))
+        personalization_context = f"""
+PERSONALIZATION (use ONE of these to make the email feel specific to this customer):
+{chr(10).join(signals)}
+Pick the most relevant detail and weave it naturally into the welcoming sentence
+or one of the three steps. Do NOT list it — incorporate it as if you already know
+their situation. Example: instead of "help your team" say "help your reps get
+those 10 hours back" if they mentioned manual work taking 10 hours.
+"""
+
     prompt = f"""Write a welcome email from AskElephant to a new customer.
 Follow the EXACT structure of the example below — every welcome email should feel this way.
 
@@ -35,6 +56,7 @@ DEAL CONTEXT:
 - Product: {tier_label} ({deal_info['seats']} seats)
 - Primary use case: {deal_info['use_case']}
 - Risk level: {risk.get('risk_level', 'low')}
+{personalization_context}
 
 TONE: warm, direct, confident. AskElephant's voice — action-oriented, never fluffy, never corporate.
 
