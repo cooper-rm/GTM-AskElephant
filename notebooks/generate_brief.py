@@ -964,6 +964,12 @@ def build_content(styles):
         'cooper-rm/GTM-AskElephant</a>',
         s["DocSubtitle"]
     ))
+    story.append(Paragraph(
+        '<b>Loom:</b> '
+        '<a href="https://www.loom.com/share/71550ed91d2a452cb14aa900f3be1c16" color="#2C5CE8">'
+        'Pipeline Walkthrough</a>',
+        s["DocSubtitle"]
+    ))
     story.append(PageBreak())
 
     # ── Outside-In Read ──
